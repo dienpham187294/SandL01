@@ -98,11 +98,10 @@ const LearningByHeartHub = () => {
     <HelmetProvider>
       <div
         style={{
-          display: "flex",
           border: "1px solid green",
           borderRadius: "10px",
           margin: "1% 10%",
-          padding: "15% 10%",
+          padding: "1% 10%",
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
@@ -141,7 +140,7 @@ const LearningByHeartHub = () => {
             {isPaused ? "Tiếp tục" : "Tạm dừng"}
           </button>
         )}
-        <div style={{ fontSize: "24px", marginTop: "20px" }}>
+        <div style={{ fontSize: "24px" }}>
           <h2>Learning by heart!</h2>
           <h2 style={{ color: "blue" }}>
             Mỗi 10 giây máy sẽ đọc 1 câu sử dụng trong bài thực hành nghe nói.
