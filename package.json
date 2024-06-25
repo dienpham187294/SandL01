@@ -6,9 +6,18 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
     "react": "^18.3.1",
+    "react-bootstrap": "^2.10.3",
     "react-dom": "^18.3.1",
+    "react-helmet": "^6.1.0",
+    "react-helmet-async": "^2.0.5",
+    "react-router-dom": "^6.23.1",
     "react-scripts": "5.0.1",
+    "react-speech-recognition": "^3.10.0",
+    "socket.io-client": "^4.7.5",
+    "string-similarity": "^4.0.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +43,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "proxy": "http://localhost:5000"
 }
