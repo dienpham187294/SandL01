@@ -165,6 +165,7 @@ const Room = ({ setSttRoom }) => {
                 />
                 <div>
                   <div className="row">
+                    <hr />
                     {sortedUsers(users).map((user) => (
                       <div className="col-md-2 mb-2" key={user.id}>
                         <div

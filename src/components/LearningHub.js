@@ -4,18 +4,20 @@ import { useParams, useNavigate } from "react-router-dom";
 import Lobby from "./Lobby";
 import TableHD from "./pracPages/B101_FINAL_TABLE-HD";
 import TableTB from "./pracPages/B101_FINAL_TABLE-TB-NotAdd";
-import { ObjREADContext } from "../App"; // Import ObjREADContext
+// import { ObjREADContext } from "../App";
+
 const colors = ["red", "orange", "black", "green", "blue", "indigo", "violet"];
 
-const LearningHub = ({ setSttRoom }) => {
+const LearningHub = ({ setSttRoom, STTconnectFN }) => {
   const { id } = useParams();
   const [dataLearning, setDataLearning] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [LearnByHeart, setLearnByHeart] = useState(false);
-  const ObjREAD = useContext(ObjREADContext);
+  const [STTPractice, setSTTPractice] = useState(false);
+  // const ObjREAD = useContext(ObjREADContext);
   const navigate = useNavigate();
+
   useEffect(() => {
     const fetchTitle = async () => {
       try {
@@ -35,63 +37,6 @@ const LearningHub = ({ setSttRoom }) => {
     fetchTitle();
   }, [id]);
 
-  const renderContentOftable = () => {
-    try {
-      if (!dataLearning) return null;
-
-      return (
-        <ul
-          style={{
-            listStyleType: "none",
-            padding: 0,
-            height: "300px",
-            overflow: "auto",
-          }}
-        >
-          {dataLearning.map((item, index) => (
-            <li
-              key={index}
-              style={{
-                cursor: "pointer",
-                padding: "10px 15px",
-                margin: "5px 0",
-                border: "1px solid #ccc",
-                borderRadius: "5px",
-                backgroundColor: index === currentIndex ? "#f0f0f0" : "#fff",
-                transition: "background-color 0.3s",
-              }}
-              onClick={() => setCurrentIndex(index)}
-            >
-              {index + 1}. <b>{item["SEO"]["seo"].metaTitle}</b>
-            </li>
-          ))}
-        </ul>
-      );
-    } catch (error) {
-      return null;
-    }
-  };
-  const renderContent = () => {
-    try {
-      if (!dataLearning[currentIndex]) return null;
-
-      const { cssStyles, contentArray } = dataLearning[currentIndex]["SEO"];
-
-      return contentArray.map((item, index) => {
-        const Tag = item.tag || "div"; // Default to 'div' if no tag specified
-        const style = cssStyles[item.cssClass] || {};
-
-        return (
-          <Tag key={index} style={style}>
-            {item.content}
-          </Tag>
-        );
-      });
-    } catch (error) {
-      return null;
-    }
-  };
-
   if (loading) {
     return <div>Loading...</div>;
   }
@@ -99,46 +44,34 @@ const LearningHub = ({ setSttRoom }) => {
   if (error) {
     return <div>Error: {error}</div>;
   }
-  function arrayToString(array) {
-    return array.join(", ");
-  }
+
   return (
     <HelmetProvider>
       <div style={{ padding: "5%" }}>
         <Helmet>
           <title>
-            {id + ": " + dataLearning[currentIndex]["SEO"]["seo"].metaTitle ||
-              "Learning Hub"}
+            {`${id}: ${
+              dataLearning[currentIndex]?.SEO?.seo?.metaTitle || "Learning Hub"
+            }`}
           </title>
           <meta
             name="description"
             content={
-              dataLearning[currentIndex]["SEO"]["seo"].metaDescription || ""
+              dataLearning[currentIndex]?.SEO?.seo?.metaDescription || ""
             }
           />
           <meta
             name="keywords"
-            content={
-              arrayToString(dataLearning[currentIndex]["SEO"]["seo"].keywords) +
-              ", " +
-              id
-            }
+            content={`${arrayToString(
+              dataLearning[currentIndex]?.SEO?.seo?.keywords
+            )}, ${id}`}
           />
         </Helmet>
-        <div style={{ textAlign: "center" }}>
-          <h2>
-            <i> Bài {currentIndex + 1}</i>
-          </h2>
-          <h1>{dataLearning[currentIndex]["SEO"]["seo"].metaTitle}</h1>
-          <hr />
-        </div>
-        <div style={{ marginLeft: "30%", width: "40%", marginRight: "20px" }}>
-          {renderContentOftable()}
-        </div>
-        <TableHD
-          data={dataLearning[currentIndex]["HDTB"]["HD"]}
-          HINT={"HINT"}
-        />
+
+        {rShowLessonTABLE(dataLearning, currentIndex, setCurrentIndex)}
+        <hr />
+        <TableHD data={dataLearning[currentIndex]?.HDTB?.HD} HINT={"HINT"} />
+
         <div
           style={{
             border: "1px solid green",
@@ -147,57 +80,69 @@ const LearningHub = ({ setSttRoom }) => {
             fontSize: "larger",
           }}
         >
-          {" "}
-          {renderContent()}
+          {renderContent(dataLearning, currentIndex)}
         </div>
-        {dataLearning !== null ? (
+
+        {STTPractice && dataLearning !== null ? (
           <Lobby
+            STTconnectFN={STTconnectFN}
             setSttRoom={setSttRoom}
             fileName={id}
             objList={createArrayFromNumber(dataLearning.length - 1)}
             objListDefault={[currentIndex]}
             custom={true}
           />
-        ) : null}
-        {dataLearning !== null ? (
+        ) : (
+          <div style={{ textAlign: "center", padding: "20px 10px" }}>
+            <button
+              onClick={() => {
+                setSTTPractice(true);
+              }}
+              className="btn btn-primary"
+              style={{ fontSize: "1.6em" }}
+            >
+              BÀI THỰC HÀNH NGHE NÓI
+            </button>
+          </div>
+        )}
+
+        {dataLearning !== null && (
           <div>
-            {" "}
-            {dataLearning[currentIndex]["HDTB"]["TB"].map((e, i) => (
+            {dataLearning[currentIndex]?.HDTB?.TB.map((e, i) => (
               <TableTB key={i} data={e} color={colors[i % 7]} />
             ))}
           </div>
-        ) : null}
+        )}
+
         <hr />
-        <div>
-          <div style={{ fontSize: "larger" }}>
-            {" "}
-            <h1>Học thuộc lòng!</h1>
-            <p>
-              {" "}
-              <i>
-                Là một cách bổ trợ <b>trực tiếp, nhanh chóng và hiệu quả</b> cho
-                quá trình thực hành nghe nói. Tuy có hơi nhàm chán nhưng bù lại
-                sẽ <b>rút ngắn đáng kể </b>số lần cần phải thực hành để đạt đến
-                ngưỡng giao tiếp được.
-              </i>
-            </p>
-            <p>Bước 1: Hãy chép mỗi câu phía dưới đây ra giấy một lần.</p>
-            <p>
-              Bước 2: Bấm vào Nút <b>Learning by heart!</b> bên dưới. Máy sẽ đọc
-              từng câu một, bạn có 10 giây để nghe và chép lại ra giấy (có thể
-              ghi tắt).
-            </p>
-            <button
-              onClick={() => {
-                navigate("/learningbyheart/" + id + "/" + currentIndex);
-              }}
-              className="btn btn-outline-primary"
-            >
-              Learning by heart!
-            </button>
-            <hr />
-            {generateBootstrapList(dataLearning[currentIndex]["ListenList"])}
-          </div>
+
+        <div style={{ fontSize: "larger" }}>
+          <h1>Học thuộc lòng!</h1>
+          <p>
+            <i>
+              Là một cách bổ trợ <b>trực tiếp, nhanh chóng và hiệu quả</b> cho
+              quá trình thực hành nghe nói. Tuy có hơi nhàm chán nhưng bù lại sẽ{" "}
+              <b>rút ngắn đáng kể </b>số lần cần phải thực hành để đạt đến
+              ngưỡng giao tiếp được.
+            </i>
+          </p>
+          <p>Bước 1: Hãy chép mỗi câu phía dưới đây ra giấy một lần.</p>
+          <p>
+            Bước 2: Bấm vào Nút <b>Learning by heart!</b> bên dưới. Máy sẽ đọc
+            từng câu một, bạn có 10 giây để nghe và chép lại ra giấy (có thể ghi
+            tắt).
+          </p>
+          <button
+            onClick={() => {
+              navigate(`/learningbyheart/${id}/${currentIndex}`);
+            }}
+            className="btn btn-primary"
+            style={{ fontSize: "1.3em" }}
+          >
+            Learning by heart
+          </button>
+          <hr />
+          {generateBootstrapList(dataLearning[currentIndex]?.ListenList)}
         </div>
       </div>
     </HelmetProvider>
@@ -209,14 +154,13 @@ export default LearningHub;
 function createArrayFromNumber(n) {
   return Array.from({ length: n + 1 }, (_, index) => index);
 }
+
 function generateBootstrapList(sentences) {
   try {
-    // Kiểm tra nếu input không phải là một mảng
     if (!Array.isArray(sentences)) {
       throw new Error("Input is not an array");
     }
 
-    // Tạo các phần tử Bootstrap list group items
     const listItems = sentences.map((sentence, index) => (
       <li className="list-group-item" key={index}>
         {sentence}
@@ -228,4 +172,86 @@ function generateBootstrapList(sentences) {
     console.error(error);
     return null;
   }
+}
+
+function rShowLessonTABLE(dataLearning, currentIndex, setCurrentIndex) {
+  try {
+    return (
+      <div>
+        <div style={{ textAlign: "center" }}>
+          <h2>
+            <i> Bài {currentIndex + 1}</i>
+          </h2>
+          <h1>{dataLearning[currentIndex]?.SEO?.seo?.metaTitle}</h1>
+          <hr />
+        </div>
+        <div style={{ marginLeft: "30%", width: "40%", marginRight: "20px" }}>
+          {renderContentOftable(dataLearning, currentIndex, setCurrentIndex)}
+        </div>
+      </div>
+    );
+  } catch (error) {
+    return null;
+  }
+}
+
+function renderContent(dataLearning, currentIndex) {
+  try {
+    if (!dataLearning[currentIndex]) return null;
+
+    const { cssStyles, contentArray } = dataLearning[currentIndex].SEO;
+
+    return contentArray.map((item, index) => {
+      const Tag = item.tag || "div"; // Default to 'div' if no tag specified
+      const style = cssStyles[item.cssClass] || {};
+
+      return (
+        <Tag key={index} style={style}>
+          {item.content}
+        </Tag>
+      );
+    });
+  } catch (error) {
+    return null;
+  }
+}
+
+function renderContentOftable(dataLearning, currentIndex, setCurrentIndex) {
+  try {
+    if (!dataLearning) return null;
+
+    return (
+      <select
+        value={currentIndex}
+        onChange={(e) => setCurrentIndex(parseInt(e.target.value))}
+        style={{
+          border: "1px solid #ccc",
+          borderRadius: "5px",
+          padding: "10px",
+        }}
+      >
+        {dataLearning.map((item, index) => (
+          <option
+            key={index}
+            value={index}
+            style={{
+              cursor: "pointer",
+              padding: "10px 15px",
+              margin: "5px 0",
+              backgroundColor: index === currentIndex ? "#f0f0f0" : "#fff",
+              transition: "background-color 0.3s",
+            }}
+          >
+            {index + 1}. <b>{item.SEO.seo.metaTitle}</b>
+          </option>
+        ))}
+      </select>
+    );
+  } catch (error) {
+    return null;
+  }
+}
+
+function arrayToString(array) {
+  return array.join(", ");
 }

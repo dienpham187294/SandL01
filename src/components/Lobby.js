@@ -5,7 +5,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import ChatInput from "./ChatInput";
 import ChatList from "./ChatList";
 
-const Lobby = ({ setSttRoom, fileName, objList, objListDefault, custom }) => {
+const Lobby = ({
+  STTconnectFN,
+  setSttRoom,
+  fileName,
+  objList,
+  objListDefault,
+  custom,
+}) => {
   const navigate = useNavigate();
   const [roomName, setRoomName] = useState("");
   const [userName, setUserName] = useState("");
@@ -89,111 +96,123 @@ const Lobby = ({ setSttRoom, fileName, objList, objListDefault, custom }) => {
         padding: "5%",
       }}
     >
-      <div className="row">
-        <div className="col-6">
-          <h1 className="mb-4">Lobby</h1>
-          <div className="mb-3">
-            <input
-              type="text"
-              className="form-control"
-              placeholder="Enter room name"
-              value={roomName}
-              onChange={(e) => setRoomName(e.target.value)}
-            />
-          </div>
-          <button
-            className="btn btn-primary mb-4"
-            onClick={handleCreateRoom}
-            disabled={
-              roomName.length <= 2 || (custom && selectedIndices.length === 0)
-            }
-          >
-            Create Room | Tạo phòng
-          </button>
-          <div className="mb-3" style={{ width: "200px" }}>
-            <label htmlFor="timeSelect">Default Time (s): </label>
-            <select
-              id="timeSelect"
-              className="form-control"
-              value={timeDefault}
-              onChange={(e) => setTimeDefault(Number(e.target.value))}
-            >
-              {Array.from({ length: 28 }, (_, i) => 30 + i * 10).map((time) => (
-                <option key={time} value={time}>
-                  {time}
-                </option>
-              ))}
-            </select>
-          </div>
-          {custom && (
-            <div
-              style={{
-                border: "1px solid green",
-                borderRadius: "5px",
-                padding: "15px",
-              }}
-            >
-              <h4>Chọn phần thực hành:</h4>
-              <button className="btn btn-secondary mb-2" onClick={selectAll}>
-                Chọn hết
-              </button>
+      {STTconnectFN ? (
+        <div>
+          {" "}
+          <div className="row">
+            <div className="col-6">
+              <h1 className="mb-4">Lobby</h1>
+              <div className="mb-3">
+                <input
+                  type="text"
+                  className="form-control"
+                  placeholder="Enter room name"
+                  value={roomName}
+                  onChange={(e) => setRoomName(e.target.value)}
+                />
+              </div>
               <button
-                className="btn btn-secondary mb-2 ml-2"
-                onClick={deselectAll}
+                className="btn btn-primary mb-4"
+                onClick={handleCreateRoom}
+                disabled={
+                  roomName.length <= 2 ||
+                  (custom && selectedIndices.length === 0)
+                }
               >
-                Hủy chọn hết
+                Create Room | Tạo phòng
               </button>
-              <div>
-                {objList.map((item, index) => (
-                  <label
-                    key={index}
-                    style={{ display: "inline-block", marginRight: "10px" }}
-                  >
-                    <input
-                      type="checkbox"
-                      style={{ transform: "scale(1.8)" }}
-                      checked={selectedIndices.includes(index)}
-                      onChange={() => {
-                        setSelectedIndices((prev) =>
-                          prev.includes(index)
-                            ? prev.filter((i) => i !== index)
-                            : [...prev, index]
-                        );
-                      }}
-                    />{" "}
-                    Bài {index + 1}
-                  </label>
-                ))}
+              <div className="mb-3" style={{ width: "200px" }}>
+                <label htmlFor="timeSelect">Default Time (s): </label>
+                <select
+                  id="timeSelect"
+                  className="form-control"
+                  value={timeDefault}
+                  onChange={(e) => setTimeDefault(Number(e.target.value))}
+                >
+                  {Array.from({ length: 28 }, (_, i) => 30 + i * 10).map(
+                    (time) => (
+                      <option key={time} value={time}>
+                        {time}
+                      </option>
+                    )
+                  )}
+                </select>
               </div>
-            </div>
-          )}
-        </div>
-        <div className="col-6">
-          <ChatInput />
-          <ChatList />
-        </div>
-      </div>
-
-      <hr />
-      <div className="row">
-        {roomList
-          .filter((room) => !room.allReady)
-          .map((room) => (
-            <div className="col-md-4 mb-4" key={room.roomCode}>
-              <div className="card">
-                <div className="card-body">
-                  <h5 className="card-title">{room.roomInfo.roomName}</h5>
+              {custom && (
+                <div
+                  style={{
+                    border: "1px solid green",
+                    borderRadius: "5px",
+                    padding: "15px",
+                  }}
+                >
+                  <h4>Chọn phần thực hành:</h4>
                   <button
-                    className="btn btn-secondary"
-                    onClick={() => handleJoinRoom(room.roomCode)}
+                    className="btn btn-secondary mb-2"
+                    onClick={selectAll}
                   >
-                    Join | Tham gia
+                    Chọn hết
                   </button>
+                  <button
+                    className="btn btn-secondary mb-2 ml-2"
+                    onClick={deselectAll}
+                  >
+                    Hủy chọn hết
+                  </button>
+                  <div>
+                    {objList.map((item, index) => (
+                      <label
+                        key={index}
+                        style={{ display: "inline-block", marginRight: "10px" }}
+                      >
+                        <input
+                          type="checkbox"
+                          style={{ transform: "scale(1.8)" }}
+                          checked={selectedIndices.includes(index)}
+                          onChange={() => {
+                            setSelectedIndices((prev) =>
+                              prev.includes(index)
+                                ? prev.filter((i) => i !== index)
+                                : [...prev, index]
+                            );
+                          }}
+                        />{" "}
+                        Bài {index + 1}
+                      </label>
+                    ))}
+                  </div>
                 </div>
-              </div>
+              )}
             </div>
-          ))}
-      </div>
+            <div className="col-6">
+              <ChatInput />
+              <ChatList />
+            </div>
+          </div>
+          <hr />
+          <div className="row">
+            {roomList
+              .filter((room) => !room.allReady)
+              .map((room) => (
+                <div className="col-md-4 mb-4" key={room.roomCode}>
+                  <div className="card">
+                    <div className="card-body">
+                      <h5 className="card-title">{room.roomInfo.roomName}</h5>
+                      <button
+                        className="btn btn-secondary"
+                        onClick={() => handleJoinRoom(room.roomCode)}
+                      >
+                        Join | Tham gia
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              ))}
+          </div>
+        </div>
+      ) : (
+        <h1>Đang kết nối với server, vui lòng đợi giây lát . . .</h1>
+      )}
     </div>
   );
 };

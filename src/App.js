@@ -21,24 +21,47 @@ export const ObjREADContext = createContext(null);
 
 const App = () => {
   const [sttRoom, setSttRoom] = useState(false);
+  const [STTconnect01, setSTTconnect01] = useState(false);
+  const [STTconnect02, setSTTconnect02] = useState(false);
+  const [STTconnectFN, setSTTconnectFN] = useState(false);
   const [ObjREAD, setObjREAD] = useState(null);
 
   useEffect(() => {
     const fetchData = async () => {
       const data = await initializeVoicesAndPlatform();
       setObjREAD(data);
+      setSTTconnect01(true);
     };
     if (ObjREAD === null) {
       fetchData();
     }
+    // Check socket connection status
+    const handleSocketConnection = () => {
+      setSTTconnect02(socket.connected);
+    };
+
+    // Listen to socket connection events
+    socket.on("connect", handleSocketConnection);
+    socket.on("disconnect", handleSocketConnection);
+
+    // Clean up socket event listeners
+    return () => {
+      socket.off("connect", handleSocketConnection);
+      socket.off("disconnect", handleSocketConnection);
+    };
   }, [sttRoom]);
 
+  useEffect(() => {
+    if ((STTconnect01, STTconnect02)) {
+      setSTTconnectFN(true);
+    }
+  }, [STTconnect01, STTconnect02]);
   return (
     <HelmetProvider>
       <ObjREADContext.Provider value={ObjREAD}>
         <Router>
           <div className="chat-app">
-            <Header sttRoom={sttRoom} />
+            <Header sttRoom={sttRoom} STTconnectFN={STTconnectFN} />
             <Routes>
               <Route
                 path="/room/:roomCode"
@@ -48,6 +71,7 @@ const App = () => {
                 path="/"
                 element={
                   <Lobby
+                    STTconnectFN={STTconnectFN}
                     setSttRoom={setSttRoom}
                     fileName={"elementary-a1-lesson-plan"}
                     objList={[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
@@ -59,11 +83,16 @@ const App = () => {
               <Route path="/noexist" element={<NotExist />} />
               <Route
                 path="/learninghub/:id"
-                element={<LearningHub setSttRoom={setSttRoom} />}
+                element={
+                  <LearningHub
+                    setSttRoom={setSttRoom}
+                    STTconnectFN={STTconnectFN}
+                  />
+                }
               />
               <Route
                 path="/learningbyheart/:id/:id01"
-                element={<LearningByHeartHub />}
+                element={<LearningByHeartHub STTconnectFN={STTconnectFN} />}
               />
             </Routes>
           </div>

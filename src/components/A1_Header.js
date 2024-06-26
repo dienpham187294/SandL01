@@ -1,35 +1,54 @@
 import { Link } from "react-router-dom";
-import { useState, useEffect } from "react";
-import T0_linkApi from "../ulti/T0_linkApi";
+// import { useState, useEffect } from "react";
+// import T0_linkApi from "../ulti/T0_linkApi";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 
 const pracEnSets = [
   {
     root: "learninghub",
-    preName: "Trình độ Sơ cấp:",
+    preName: "Khóa Sơ cấp:",
     name: "Cùng thực hành nghe nói 10 chủ đề giao tiếp cơ bản",
     link: "elementary-a1-lesson-plan",
+    id: "socapI",
+  },
+  {
+    root: "learninghub",
+    preName: "Khóa tiêu chuẩn:",
+    name: "Cùng thực hành nghe nói ăn - ở - đi lại",
+    link: "restaurant-hotel-travel",
+    id: "socapII",
   },
 ];
 
-export default function Header({ sttRoom }) {
+export default function Header({ sttRoom, STTconnectFN }) {
   if (sttRoom) {
     return null;
   }
   return (
-    <div id="headerID">
+    <div>
       <div>
         <Navbar bg="light" expand="lg">
           <Navbar.Brand>
-            <Link className="my-link" to="/" id="homeHeader">
+            <Link
+              to="/"
+              style={{
+                textDecoration: "none",
+                color: "black",
+                display: "flex",
+                alignItems: "center",
+              }}
+            >
               <img
                 src="https://i.postimg.cc/vB1qBy2X/logo-N.png"
-                width={"60px"}
+                width={60}
+                style={{ marginRight: 10 }} // Khoảng cách bên phải cho hình ảnh logo
+                alt="Logo"
               />
-              <b id="homeHeader">
-                <i className="A0_01_topcontent">
-                  <span style={{ color: "blue" }}>{"   "} Cùng thực hành </span>
+              <b style={{ fontSize: 18, fontWeight: "bold" }}>
+                <i style={{ color: "blue", fontStyle: "italic" }}>
+                  {" "}
+                  Cùng thực hành 
                 </i>
               </b>
             </Link>
@@ -68,7 +87,7 @@ function returnDropdown(name, inputSets, keysSets, link) {
               {e[keysSets.preName] ? (
                 <span
                   style={{
-                    width: "120px",
+                    width: "150px",
                     borderBottom: "1px solid black",
                     display: "inline-block",
                   }}
@@ -76,7 +95,7 @@ function returnDropdown(name, inputSets, keysSets, link) {
                   <i>{e[keysSets.preName]}</i>
                 </span>
               ) : null}
-              {e[keysSets.name]}
+              {"  "} {e[keysSets.name]}
             </NavDropdown.Item>
           );
         })()

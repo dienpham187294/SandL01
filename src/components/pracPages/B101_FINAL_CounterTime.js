@@ -28,7 +28,7 @@ const CountdownTimer = ({ setSTT, STT, TIME }) => {
   return (
     <div style={styles.container}>
       <h1 style={styles.timer}>{formatTime(timeLeft)}</h1>
-      {timeLeft === 0 && <p style={styles.message}>Time's up!</p>}
+      {/* {timeLeft === 0 && <p style={styles.message}>Time's up!</p>} */}
     </div>
   );
 };

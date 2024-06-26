@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import { ObjREADContext } from "../App"; // Import ObjREADContext
 import ReadMessage from "../ulti/ReadMessage_2024"; // Import hàm ReadMessage
 
-const LearningByHeartHub = () => {
+const LearningByHeartHub = ({ STTconnectFN }) => {
   const { id, id01 } = useParams();
   const [dataLearning, setDataLearning] = useState(null);
   const [currentIndex, setCurrentIndex] = useState(-1);
@@ -130,29 +130,43 @@ const LearningByHeartHub = () => {
             }
           />
         </Helmet>
-        <hr />
-        {currentIndex === -1 ? (
-          <button onClick={startReading} className="btn btn-outline-primary">
-            Bắt đầu
-          </button>
+
+        {STTconnectFN ? (
+          <div>
+            {" "}
+            <hr />
+            {currentIndex === -1 ? (
+              <button
+                onClick={startReading}
+                className="btn btn-outline-primary"
+              >
+                Bắt đầu
+              </button>
+            ) : (
+              <button
+                onClick={pauseReading}
+                className="btn btn-outline-secondary"
+              >
+                {isPaused ? "Tiếp tục" : "Tạm dừng"}
+              </button>
+            )}
+            <div style={{ fontSize: "24px" }}>
+              <h2>Learning by heart!</h2>
+              <h2 style={{ color: "blue" }}>
+                Mỗi 10 giây máy sẽ đọc 1 câu sử dụng trong bài thực hành nghe
+                nói. Hãy nghe và ghi lại lên giấy nháp (có thể ghi tắt).
+              </h2>
+              <h1> {formatTime(seconds)}</h1>
+              <hr />
+              {currentIndex > 0
+                ? dataLearning[id01]["ListenList"][currentIndex - 1]
+                : ""}
+              <hr />
+            </div>
+          </div>
         ) : (
-          <button onClick={pauseReading} className="btn btn-outline-secondary">
-            {isPaused ? "Tiếp tục" : "Tạm dừng"}
-          </button>
+          <h1>Đang kết nói với server, vui lòng đợi giây lát . . . </h1>
         )}
-        <div style={{ fontSize: "24px" }}>
-          <h2>Learning by heart!</h2>
-          <h2 style={{ color: "blue" }}>
-            Mỗi 10 giây máy sẽ đọc 1 câu sử dụng trong bài thực hành nghe nói.
-            Hãy nghe và ghi lại lên giấy nháp (có thể ghi tắt).
-          </h2>
-          <h1> {formatTime(seconds)}</h1>
-          <hr />
-          {currentIndex > 0
-            ? dataLearning[id01]["ListenList"][currentIndex - 1]
-            : ""}
-          <hr />
-        </div>
       </div>
     </HelmetProvider>
   );
