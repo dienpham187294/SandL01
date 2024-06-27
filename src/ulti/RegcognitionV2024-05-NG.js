@@ -35,7 +35,11 @@ const Dictaphone = ({
           ReadMessage(ObjVoices, getRandomElementFromArray(objTR.aw), GENDER);
         }
         if (objTR.action !== undefined) {
-          addElementIfNotExist(objTR.action[0]);
+          if (objTR.action[0] === "WRONG") {
+            setScore((S) => S - 1);
+          } else {
+            addElementIfNotExist(objTR.action[0]);
+          }
         }
       }
 

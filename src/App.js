@@ -62,6 +62,8 @@ const App = () => {
         <Router>
           <div className="chat-app">
             <Header sttRoom={sttRoom} STTconnectFN={STTconnectFN} />
+      
+
             <Routes>
               <Route
                 path="/room/:roomCode"

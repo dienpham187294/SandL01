@@ -170,6 +170,7 @@ function FINAL_PROJECT({
                   setSTT={setStartSTT}
                   STT={true}
                   TIME={TimeCountDown}
+                  setScore={setScore}
                 />
               ) : null}
 

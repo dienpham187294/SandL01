@@ -20,6 +20,8 @@ const Room = ({ setSttRoom }) => {
   const [DataPracticingOverRoll, setDataPracticingOverRoll] = useState(null);
   const [Score, setScore] = useState(0);
   const [STTBeforeAllNewPlay, setSTTBeforeAllNewPlay] = useState(false);
+
+  const [MessageConsole, setMessageConsole] = useState("");
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -85,7 +87,7 @@ const Room = ({ setSttRoom }) => {
             )
           );
         } catch (error) {
-        } finally {
+          console.error("Error fetching data:", error);
         }
       };
 
@@ -113,6 +115,14 @@ const Room = ({ setSttRoom }) => {
     socket.emit("updateUserName", roomCode, userId, newUserName);
   };
 
+  const handleScoreChange = (newScore) => {
+    socket.emit("updateOneELEMENT", roomCode, socket.id, "score", newScore);
+  };
+  useEffect(() => {
+    // setMessageConsole(Score);
+    handleScoreChange(Score);
+  }, [Score]);
+
   useEffect(() => {
     if (STTBeforeAllNewPlay && incrementAllReady) {
       socket.emit("incrementNumberBegin", roomCode);
@@ -129,11 +139,13 @@ const Room = ({ setSttRoom }) => {
     border: "2px solid black",
     borderRadius: "5px",
   };
+
   return (
     <div
       className="container mt-4"
       style={{ border: "1px solid green", borderRadius: "5px", padding: "2%" }}
     >
+      {/* <div>{MessageConsole}</div> */}
       {allReady && DataPracticingOverRoll !== null ? (
         <div>
           <PracticeDIV
@@ -145,16 +157,6 @@ const Room = ({ setSttRoom }) => {
             TimeDefault={roomInfo.timeDefault || 120}
             handleIncrementReadyClick={handleIncrementReadyClick}
           />
-          {/* <button
-            className="btn btn-primary"
-            onClick={handleIncrementReadyClick}
-          >
-            {incrementReady
-              ? "Cancel Ready Increment numberBegin"
-              : "Ready Increment numberBegin"}
-          </button>
-
-          <p>Current numberBegin: {numberBegin}</p> */}
           <div>
             {incrementAllReady ? (
               <div>
@@ -163,28 +165,49 @@ const Room = ({ setSttRoom }) => {
                   STT={true}
                   TIME={3}
                 />
-                <div>
-                  <div className="row">
-                    <hr />
-                    {sortedUsers(users).map((user) => (
-                      <div className="col-md-2 mb-2" key={user.id}>
-                        <div
-                          className="card"
-                          style={user.id === socket.id ? objCardOwn : {}}
-                        >
-                          <div className="card-body">
-                            <h5 className="card-title">{user.name}</h5>
-                            <p>Score: {user.score}</p>
-                          </div>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
               </div>
             ) : null}
             {!incrementAllReady && incrementReady ? (
-              <h1>Waiting for others . . .</h1>
+              <h1>Waiting for others . . . </h1>
+            ) : null}
+
+            {incrementReady ? (
+              <div className="row">
+                <hr />
+                {sortedUsers(users).map((user) => (
+                  <div className="col-md-2 mb-2" key={user.id}>
+                    <div
+                      className="card"
+                      style={user.id === socket.id ? objCardOwn : {}}
+                    >
+                      <div className="card-body">
+                        {user.name === "Unknown" && user.id === socket.id ? (
+                          <div>
+                            <input
+                              type="text"
+                              className="form-control"
+                              placeholder="Enter your name"
+                              value={userName}
+                              onChange={(e) => setUserName(e.target.value)}
+                            />
+                            <button
+                              className="btn btn-primary mt-2"
+                              onClick={() =>
+                                handleUpdateName(user.id, userName)
+                              }
+                              disabled={userName.length <= 2}
+                            >
+                              Update Name
+                            </button>
+                          </div>
+                        ) : null}
+                        <h5 className="card-title">{user.name}</h5>
+                        <p>Score: {user.score}</p>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
             ) : null}
           </div>
         </div>

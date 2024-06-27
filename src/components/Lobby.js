@@ -129,7 +129,7 @@ const Lobby = ({
                   value={timeDefault}
                   onChange={(e) => setTimeDefault(Number(e.target.value))}
                 >
-                  {Array.from({ length: 28 }, (_, i) => 30 + i * 10).map(
+                  {Array.from({ length: 28 }, (_, i) => 10 + i * 10).map(
                     (time) => (
                       <option key={time} value={time}>
                         {time}

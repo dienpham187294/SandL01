@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const CountdownTimer = ({ setSTT, STT, TIME }) => {
+const CountdownTimer = ({ setSTT, STT, TIME, setScore }) => {
   const [timeLeft, setTimeLeft] = useState(TIME); // 120 seconds countdown
 
   useEffect(() => {
@@ -12,6 +12,9 @@ const CountdownTimer = ({ setSTT, STT, TIME }) => {
       // Cleanup interval on component unmount
       return () => clearInterval(timerId);
     } else if (timeLeft === 0) {
+      try {
+        setScore((S) => S - 1);
+      } catch (error) {}
       setSTT(STT);
     }
   }, [timeLeft]);
