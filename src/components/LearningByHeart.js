@@ -2,7 +2,6 @@ import React, { useEffect, useState, useContext } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { useParams } from "react-router-dom";
 import { ObjREADContext } from "../App"; // Import ObjREADContext
-import ReadMessage from "../ulti/ReadMessage_2024"; // Import hàm ReadMessage
 
 const LearningByHeartHub = ({ STTconnectFN }) => {
   const { id, id01 } = useParams();
@@ -14,6 +13,7 @@ const LearningByHeartHub = ({ STTconnectFN }) => {
   const [seconds, setSeconds] = useState(0);
   const [intervalId, setIntervalId] = useState(null);
   const [isPaused, setIsPaused] = useState(false);
+  const [IsRead, setIsRead] = useState(false);
   const randomGender = () => {
     return Math.random() < 0.5 ? 1 : 2;
   };
@@ -43,7 +43,8 @@ const LearningByHeartHub = ({ STTconnectFN }) => {
       ReadMessage(
         ObjREAD,
         dataLearning[id01]["ListenList"][currentIndex],
-        randomGender()
+        randomGender(),
+        setIsRead
       );
     } else {
       clearInterval(intervalId);
@@ -53,7 +54,7 @@ const LearningByHeartHub = ({ STTconnectFN }) => {
   }, [currentIndex]);
 
   useEffect(() => {
-    if (seconds % 10 === 0 && seconds !== 0 && !isPaused) {
+    if (seconds % 10 === 0 && seconds !== 0 && !isPaused && !IsRead) {
       setCurrentIndex((prevIndex) => prevIndex + 1);
     }
   }, [seconds, isPaused]);
@@ -162,6 +163,7 @@ const LearningByHeartHub = ({ STTconnectFN }) => {
                 ? dataLearning[id01]["ListenList"][currentIndex - 1]
                 : ""}
               <hr />
+              {IsRead ? "Đang đọc" : null}
             </div>
           </div>
         ) : (
@@ -182,3 +184,63 @@ const formatTime = (seconds) => {
     .toString()
     .padStart(2, "0")}`;
 };
+
+let imale, ifemale;
+
+function countAndSplitSentences(text) {
+  const sentences = text.match(/[^!]+[!]+/g);
+  return sentences || [text];
+}
+
+async function ReadMessage(ObjVoices, text, voiceNum, setIsRead) {
+  // voiceNum: 1 for female, 0 for male
+  console.log("read", ObjVoices, voiceNum, 0.85);
+
+  if (text === "") {
+    return;
+  }
+
+  imale = ObjVoices.imale;
+  ifemale = ObjVoices.ifemale;
+
+  try {
+    if (imale === undefined || ifemale === undefined) {
+      return;
+    }
+
+    let voiceIndex = voiceNum === 1 ? ifemale : imale;
+    const sentences = countAndSplitSentences(text);
+    console.log(sentences.length);
+    // Function to recursively read each sentence
+    const speakSentences = (index) => {
+      if (index >= sentences.length) {
+        setIsRead(false);
+        return;
+      }
+
+      let msg = new SpeechSynthesisUtterance();
+      let voices = window.speechSynthesis.getVoices();
+      msg.voice = voices[voiceIndex];
+      msg.rate = 0.85;
+      msg.text = sentences[index];
+
+      msg.onstart = () => {
+        setIsRead(true);
+      };
+
+      msg.onend = () => {
+        speakSentences(index + 1);
+      };
+
+      msg.onerror = (error) => {
+        console.error("Error in speech synthesis: ", error);
+      };
+
+      speechSynthesis.speak(msg);
+    };
+
+    speakSentences(0);
+  } catch (error) {
+    console.error("Error in ReadMessage function: ", error);
+  }
+}

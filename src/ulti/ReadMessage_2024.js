@@ -1,5 +1,4 @@
-let timeC = Date.now();
-let imale, ifemale, ios;
+let imale, ifemale;
 
 function setButtonState(buttonId, isEnabled) {
   const button = document.getElementById(buttonId);
@@ -27,10 +26,10 @@ function countAndSplitSentences(text) {
 }
 
 export default async function ReadMessage(ObjVoices, text, voiceNum) {
-  //VoiceNum nhap so female 1; male 0
+  // voiceNum: 1 for female, 0 for male
   console.log("read", ObjVoices, voiceNum, 0.85);
 
-  if (Date.now() - timeC < 200 || text === "") {
+  if (text === "") {
     return;
   }
 
@@ -39,61 +38,30 @@ export default async function ReadMessage(ObjVoices, text, voiceNum) {
 
   try {
     if (imale === undefined || ifemale === undefined) {
-      speak(text);
       return;
     }
 
     let voiceIndex = voiceNum === 1 ? ifemale : imale;
     const sentences = countAndSplitSentences(text);
 
-    // If there are more than 2 sentences, split and read them one by one
-    if (sentences.length > 1) {
-      const speakSentences = (index) => {
-        if (index >= sentences.length) {
-          enableButton();
-          timeC = Date.now();
-          return;
-        }
+    const speakSentences = (index) => {
+      if (index >= sentences.length) {
+        enableButton();
+        return;
+      }
 
-        let msg = new SpeechSynthesisUtterance();
-        let voices = window.speechSynthesis.getVoices();
-        msg.voice = voices[voiceIndex];
-        msg.rate = 0.85;
-        msg.text = sentences[index];
-
-        msg.onstart = () => {
-          if (index === 0) disableButton();
-        };
-
-        msg.onend = () => {
-          speakSentences(index + 1);
-        };
-
-        msg.onerror = (error) => {
-          console.error("Error in speech synthesis: ", error);
-
-          enableButton();
-        };
-
-        speechSynthesis.speak(msg);
-      };
-
-      speakSentences(0);
-    } else {
-      // If there are 2 or fewer sentences, read them as a whole
       let msg = new SpeechSynthesisUtterance();
       let voices = window.speechSynthesis.getVoices();
       msg.voice = voices[voiceIndex];
       msg.rate = 0.85;
-      msg.text = text;
+      msg.text = sentences[index];
 
       msg.onstart = () => {
-        disableButton();
+        if (index === 0) disableButton();
       };
 
       msg.onend = () => {
-        enableButton();
-        timeC = Date.now();
+        speakSentences(index + 1);
       };
 
       msg.onerror = (error) => {
@@ -102,40 +70,10 @@ export default async function ReadMessage(ObjVoices, text, voiceNum) {
       };
 
       speechSynthesis.speak(msg);
-    }
+    };
+
+    speakSentences(0);
   } catch (error) {
-    console.error("Error in ReadMessage: ", error);
-    enableButton();
-  }
-}
-
-function speak(text) {
-  console.log("READ NOT OBJ");
-  if ("speechSynthesis" in window) {
-    const utterance = new SpeechSynthesisUtterance(text);
-    const voices = window.speechSynthesis.getVoices();
-
-    // Set the language for the utterance
-    utterance.lang = "en-GB"; // or "en-US", "en-UK"
-
-    // Set the voice for the utterance
-    const selectedVoice = voices.find((voice) => voice.lang === utterance.lang);
-    utterance.voice = selectedVoice || voices[0]; // fallback to the first voice if none match
-
-    utterance.onstart = () => {
-      disableButton();
-    };
-
-    utterance.onend = () => {
-      enableButton();
-      timeC = Date.now();
-    };
-
-    utterance.onerror = (error) => {
-      console.error("Error in speech synthesis: ", error);
-      enableButton();
-    };
-
-    window.speechSynthesis.speak(utterance);
+    console.error("Error in ReadMessage function: ", error);
   }
 }

@@ -20,13 +20,18 @@ const Room = ({ setSttRoom }) => {
   const [DataPracticingOverRoll, setDataPracticingOverRoll] = useState(null);
   const [Score, setScore] = useState(0);
   const [STTBeforeAllNewPlay, setSTTBeforeAllNewPlay] = useState(false);
-
   const [MessageConsole, setMessageConsole] = useState("");
+  const [IsPause, setIsPause] = useState(false);
+
   const navigate = useNavigate();
 
   useEffect(() => {
     setIncrementReady(false);
   }, [numberBegin]);
+
+  useEffect(() => {
+    socket.emit("updateOneELEMENT", roomCode, socket.id, "isPause", IsPause);
+  }, [IsPause]);
 
   useEffect(() => {
     setSttRoom(true);
@@ -107,8 +112,8 @@ const Room = ({ setSttRoom }) => {
   };
 
   const handleIncrementReadyClick = () => {
-    setIncrementReady((prev) => !prev);
-    socket.emit("incrementReadyChange", roomCode, !incrementReady);
+    setIncrementReady(true);
+    socket.emit("incrementReadyChange", roomCode, true);
   };
 
   const handleUpdateName = (userId, newUserName) => {
@@ -146,6 +151,7 @@ const Room = ({ setSttRoom }) => {
       style={{ border: "1px solid green", borderRadius: "5px", padding: "2%" }}
     >
       {/* <div>{MessageConsole}</div> */}
+      {/* {JSON.stringify(users)} <br /> {JSON.stringify(incrementAllReady)} */}
       {allReady && DataPracticingOverRoll !== null ? (
         <div>
           <PracticeDIV
@@ -156,6 +162,7 @@ const Room = ({ setSttRoom }) => {
             numberBegin={numberBegin}
             TimeDefault={roomInfo.timeDefault || 120}
             handleIncrementReadyClick={handleIncrementReadyClick}
+            IsPause={IsPause}
           />
           <div>
             {incrementAllReady ? (
@@ -268,13 +275,45 @@ const Room = ({ setSttRoom }) => {
           </div>
         </div>
       )}
+      <hr />
+
+      <button
+        onClick={() => {
+          setIsPause(!IsPause);
+        }}
+        className="btn btn-outline-secondary"
+      >
+        {IsPause ? "Tiếp tục" : "Tạm dừng"}
+      </button>
     </div>
   );
 };
 
 export default Room;
 
+function extendSubarrays(arr, targetLength) {
+  return arr.map((subArr) => {
+    if (!Array.isArray(subArr)) return [];
+    const extended = [];
+    let i = 0;
+    while (extended.length < targetLength) {
+      extended.push(subArr[i % subArr.length]);
+      i++;
+    }
+    return extended;
+  });
+}
+
 function interleaveCharacters(array1, array2, interleaving, reverse) {
+  // Ensure all subarrays in array1 are extended to have the same length
+  const maxSubArrLength = Math.max(
+    ...array1.map((subArr) => subArr.charactor?.length || 0)
+  );
+  const extendedArray1 = array1.map((item) => ({
+    ...item,
+    charactor: extendSubarrays([item.charactor || []], maxSubArrLength)[0],
+  }));
+
   let res = [];
   let indexes = array2.map((index) => ({ index, subIndex: 0 })); // Track sub-index for each array element
 
@@ -283,13 +322,13 @@ function interleaveCharacters(array1, array2, interleaving, reverse) {
     active = false; // This will be set to true if we add any characters in this pass
     for (let i = 0; i < indexes.length; i++) {
       let { index, subIndex } = indexes[i];
-      if (subIndex < array1[index].charactor.length) {
+      if (subIndex < extendedArray1[index].charactor.length) {
         let count = Math.min(
           interleaving,
-          array1[index].charactor.length - subIndex
+          extendedArray1[index].charactor.length - subIndex
         );
         for (let j = 0; j < count; j++) {
-          res.push(array1[index].charactor[subIndex + j]);
+          res.push(extendedArray1[index].charactor[subIndex + j]);
         }
         indexes[i].subIndex += interleaving; // Move the sub-index forward
         active = true; // We've added characters, so we continue

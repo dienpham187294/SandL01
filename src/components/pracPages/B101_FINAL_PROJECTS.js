@@ -21,6 +21,7 @@ function FINAL_PROJECT({
   numberBegin,
   TimeDefault,
   handleIncrementReadyClick,
+  IsPause,
 }) {
   const [StartSTT, setStartSTT] = useState(true);
   const [INDEXtoPlay, setINDEXtoPlay] = useState(-1);
@@ -51,9 +52,13 @@ function FINAL_PROJECT({
     });
   };
   useEffect(() => {
-    if (numberBegin !== 0) {
-      setStartSTT(false);
-      setINDEXtoPlay(numberBegin);
+    if (!IsPause) {
+      if (numberBegin !== 0) {
+        setStartSTT(false);
+        setINDEXtoPlay(numberBegin);
+      }
+    } else {
+      handleIncrementReadyClick();
     }
   }, [numberBegin]);
   useEffect(() => {

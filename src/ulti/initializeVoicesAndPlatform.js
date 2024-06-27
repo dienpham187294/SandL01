@@ -1,5 +1,3 @@
-let imale, ifemale;
-
 // Initialize voice and platform information once
 function initializeVoicesAndPlatform() {
   return new Promise((resolve) => {
@@ -9,15 +7,18 @@ function initializeVoicesAndPlatform() {
         if (voices.length === 0) {
           // Wait for the voices to be loaded
           window.speechSynthesis.onvoiceschanged = () => {
-            resolve(findVoices());
+            resolve(testVoices());
           };
         } else {
-          resolve(findVoices());
+          resolve(testVoices());
         }
       };
 
       const findVoices = () => {
         const voices = window.speechSynthesis.getVoices();
+        let imale = null;
+        let ifemale = null;
+
         voices.forEach((voice, index) => {
           if (voice.lang.includes("en-")) {
             if (isRunningOnWindows()) {
@@ -42,7 +43,26 @@ function initializeVoicesAndPlatform() {
             }
           }
         });
+
         return { imale: imale, ifemale: ifemale };
+      };
+
+      const testVoices = () => {
+        const result1 = findVoices();
+        const result2 = findVoices();
+
+        if (JSON.stringify(result1) === JSON.stringify(result2)) {
+          return result1;
+        } else {
+          const result3 = findVoices();
+          if (JSON.stringify(result1) === JSON.stringify(result3)) {
+            return result1;
+          } else if (JSON.stringify(result2) === JSON.stringify(result3)) {
+            return result2;
+          } else {
+            return result3;
+          }
+        }
       };
 
       getVoices();
