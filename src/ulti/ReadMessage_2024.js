@@ -28,7 +28,7 @@ function countAndSplitSentences(text) {
 
 export default async function ReadMessage(ObjVoices, text, voiceNum) {
   //VoiceNum nhap so female 1; male 0
-  console.log("read", ObjVoices, voiceNum);
+  console.log("read", ObjVoices, voiceNum, 0.85);
 
   if (Date.now() - timeC < 200 || text === "") {
     return;
@@ -84,7 +84,7 @@ export default async function ReadMessage(ObjVoices, text, voiceNum) {
       let msg = new SpeechSynthesisUtterance();
       let voices = window.speechSynthesis.getVoices();
       msg.voice = voices[voiceIndex];
-      msg.rate = 0.9;
+      msg.rate = 0.85;
       msg.text = text;
 
       msg.onstart = () => {
