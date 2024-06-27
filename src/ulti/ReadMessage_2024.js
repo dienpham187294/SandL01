@@ -27,6 +27,9 @@ function countAndSplitSentences(text) {
 }
 
 export default async function ReadMessage(ObjVoices, text, voiceNum) {
+  //VoiceNum nhap so female 1; male 0
+  // console.log(ObjVoices);
+
   if (Date.now() - timeC < 200 || text === "") {
     return;
   }
@@ -111,8 +114,12 @@ function speak(text) {
     const utterance = new SpeechSynthesisUtterance(text);
     const voices = window.speechSynthesis.getVoices();
 
-    utterance.lang = "en-GB";
-    utterance.voice = voices[imale];
+    // Set the language for the utterance
+    utterance.lang = "en-GB"; // or "en-US", "en-UK"
+
+    // Set the voice for the utterance
+    const selectedVoice = voices.find((voice) => voice.lang === utterance.lang);
+    utterance.voice = selectedVoice || voices[0]; // fallback to the first voice if none match
 
     utterance.onstart = () => {
       disableButton();
@@ -130,4 +137,12 @@ function speak(text) {
 
     window.speechSynthesis.speak(utterance);
   }
+}
+
+function disableButton() {
+  // Implement disable button logic here
+}
+
+function enableButton() {
+  // Implement enable button logic here
 }

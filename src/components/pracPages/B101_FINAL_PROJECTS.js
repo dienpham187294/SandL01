@@ -1,7 +1,7 @@
 import { useEffect, useState, useContext } from "react";
 import "./B101_FINAL_PROJECTS.css";
 import ReadMessage from "../../ulti/ReadMessage_2024";
-import initializeVoicesAndPlatform from "../../ulti/initializeVoicesAndPlatform";
+
 import Dictaphone from "../../ulti/RegcognitionV2024-05-NG";
 import TableTB from "./B101_FINAL_TABLE-TB";
 import TableHD from "./B101_FINAL_TABLE-HD";
@@ -12,7 +12,7 @@ import RegButton from "./B101_FINAL_BUTTON_REG";
 import TableDisplay from "./B101_FINAL_TableDisplay";
 import { ObjREADContext } from "../../App"; // Import ObjREADContext
 const colors = ["red", "orange", "black", "green", "blue", "indigo", "violet"];
-
+// console.log(ObjREADContext);
 function FINAL_PROJECT({
   DataPracticingOverRoll,
   DataPracticingCharactor,
@@ -39,7 +39,9 @@ function FINAL_PROJECT({
   const [OnTable, setOnTable] = useState(null);
   const [getSTTDictaphone, setGetSTTDictaphone] = useState(false);
   const ObjREAD = useContext(ObjREADContext);
+
   // Hàm kiểm tra và thêm phần tử vào mảng nếu chưa tồn tại
+
   const addElementIfNotExist = (element) => {
     setPushAW((prevArray) => {
       if (!prevArray.includes(element)) {
@@ -98,8 +100,9 @@ function FINAL_PROJECT({
       setLang(playData.lang === "VN" ? "vi-VN" : "en-US");
 
       ReadMessage(ObjREAD, playData.fsp, playData.gender);
+      console.log(ObjREAD, playData.gender);
     }
-  }, [playData]);
+  }, [playData, ObjREAD]);
 
   useEffect(() => {
     if (Submit !== null && PushAW.length > 0) {
@@ -155,7 +158,11 @@ function FINAL_PROJECT({
                     className="btn btn-outline-primary"
                     onClick={() => {
                       try {
-                        ReadMessage(ObjREAD, playData.fsp, GENDER);
+                        ReadMessage(
+                          ObjREAD,
+                          playData.fsp,
+                          GENDER === "female" ? 1 : 0
+                        );
                       } catch (error) {}
                     }}
                   >
