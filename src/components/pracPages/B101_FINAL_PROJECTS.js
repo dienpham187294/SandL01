@@ -99,8 +99,8 @@ function FINAL_PROJECT({
       setGENDER(playData.gender === "female" ? 1 : 0);
       setLang(playData.lang === "VN" ? "vi-VN" : "en-US");
 
-      ReadMessage(ObjREAD, playData.fsp, playData.gender);
-      console.log(ObjREAD, playData.gender);
+      ReadMessage(ObjREAD, playData.fsp, playData.gender === "female" ? 1 : 0);
+      console.log("outside", ObjREAD, playData.gender === "female" ? 1 : 0);
     }
   }, [playData, ObjREAD]);
 
@@ -158,11 +158,7 @@ function FINAL_PROJECT({
                     className="btn btn-outline-primary"
                     onClick={() => {
                       try {
-                        ReadMessage(
-                          ObjREAD,
-                          playData.fsp,
-                          GENDER === "female" ? 1 : 0
-                        );
+                        ReadMessage(ObjREAD, playData.fsp, GENDER);
                       } catch (error) {}
                     }}
                   >

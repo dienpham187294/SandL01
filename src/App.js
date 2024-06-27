@@ -30,6 +30,7 @@ const App = () => {
     const fetchData = async () => {
       const data = await initializeVoicesAndPlatform();
       setObjREAD(data);
+      console.log(JSON.stringify(data));
       setSTTconnect01(true);
     };
     if (ObjREAD === null) {
@@ -62,7 +63,6 @@ const App = () => {
         <Router>
           <div className="chat-app">
             <Header sttRoom={sttRoom} STTconnectFN={STTconnectFN} />
-      
 
             <Routes>
               <Route

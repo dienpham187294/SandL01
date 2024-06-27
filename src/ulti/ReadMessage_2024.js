@@ -22,13 +22,13 @@ function disableButton() {
 }
 
 function countAndSplitSentences(text) {
-  const sentences = text.match(/[^\.!\?]+[\.!\?]+/g);
+  const sentences = text.match(/[^!]+[!]+/g);
   return sentences || [text];
 }
 
 export default async function ReadMessage(ObjVoices, text, voiceNum) {
   //VoiceNum nhap so female 1; male 0
-  // console.log(ObjVoices);
+  console.log("read", ObjVoices, voiceNum);
 
   if (Date.now() - timeC < 200 || text === "") {
     return;
@@ -110,6 +110,7 @@ export default async function ReadMessage(ObjVoices, text, voiceNum) {
 }
 
 function speak(text) {
+  console.log("READ NOT OBJ");
   if ("speechSynthesis" in window) {
     const utterance = new SpeechSynthesisUtterance(text);
     const voices = window.speechSynthesis.getVoices();
@@ -137,12 +138,4 @@ function speak(text) {
 
     window.speechSynthesis.speak(utterance);
   }
-}
-
-function disableButton() {
-  // Implement disable button logic here
-}
-
-function enableButton() {
-  // Implement enable button logic here
 }
