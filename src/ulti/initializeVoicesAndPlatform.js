@@ -20,12 +20,12 @@ function initializeVoicesAndPlatform() {
         let ifemale = null;
 
         voices.forEach((voice, index) => {
-          console.log(voice.lang, voice.name);
           if (
             voice.lang.includes("en-US") ||
             voice.lang.includes("en-GB") ||
             voice.lang.includes("en-UK")
           ) {
+            console.log(voice.name, index);
             if (isRunningOnWindows()) {
               if (voice.name.includes("Male")) {
                 imale = index;
