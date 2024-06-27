@@ -58,7 +58,7 @@ export default async function ReadMessage(ObjVoices, text, voiceNum) {
         let msg = new SpeechSynthesisUtterance();
         let voices = window.speechSynthesis.getVoices();
         msg.voice = voices[voiceIndex];
-        msg.rate = 0.9;
+        msg.rate = 0.85;
         msg.text = sentences[index];
 
         msg.onstart = () => {
