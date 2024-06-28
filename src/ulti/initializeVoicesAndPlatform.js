@@ -23,29 +23,22 @@ function initializeVoicesAndPlatform(n) {
           let ifemale = null;
 
           voices.forEach((voice, index) => {
-            if (
-              voice.lang.includes("en-US") ||
-              voice.lang.includes("en-GB") ||
-              voice.lang.includes("en-UK")
-            ) {
-              console.log(voice.name, index);
-              if (isRunningOnWindows()) {
-                if (voice.name.includes("David")) {
-                  imale = index;
-                }
-                if (voice.name.includes("Zira")) {
-                  ifemale = index;
-                }
+            if (voice.lang.includes("en-")) {
+              if (
+                voice.name.includes("David") ||
+                voice.name.includes("Daniel")
+              ) {
+                imale = index;
               }
-              if (isIOS() || isRunningOnMac()) {
-                if (voice.name.includes("Daniel")) {
-                  imale = index;
-                }
-                if (voice.name.includes("Karen")) {
-                  ifemale = index;
-                }
+              if (voice.name.includes("Zira") || voice.name.includes("Sandy")) {
+                ifemale = index;
               }
-              if (isAndroid() && voice.lang.includes("en-GB")) {
+
+              if (
+                imale === null &&
+                isAndroid() &&
+                voice.lang.includes("en-GB")
+              ) {
                 imale = index;
                 ifemale = index;
               }
