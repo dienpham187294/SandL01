@@ -23,15 +23,19 @@ const App = () => {
   const [sttRoom, setSttRoom] = useState(false);
   const [STTconnect01, setSTTconnect01] = useState(false);
   const [STTconnect02, setSTTconnect02] = useState(false);
-  const [STTconnectFN, setSTTconnectFN] = useState(false);
+  const [STTconnectFN, setSTTconnectFN] = useState(0);
   const [ObjREAD, setObjREAD] = useState(null);
 
   useEffect(() => {
     const fetchData = async () => {
-      const data = await initializeVoicesAndPlatform();
+      const data = await initializeVoicesAndPlatform(0);
       setObjREAD(data);
       console.log(JSON.stringify(data));
-      setSTTconnect01(true);
+      if (data === "null") {
+        setSTTconnectFN(2);
+      } else {
+        setSTTconnect01(true);
+      }
     };
     if (ObjREAD === null) {
       fetchData();
@@ -53,8 +57,8 @@ const App = () => {
   }, [sttRoom]);
 
   useEffect(() => {
-    if ((STTconnect01, STTconnect02)) {
-      setSTTconnectFN(true);
+    if (STTconnect01 === true && STTconnect02) {
+      setSTTconnectFN(1);
     }
   }, [STTconnect01, STTconnect02]);
   return (

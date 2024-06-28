@@ -96,7 +96,7 @@ const Lobby = ({
         padding: "5%",
       }}
     >
-      {STTconnectFN ? (
+      {STTconnectFN === 1 ? (
         <div>
           {" "}
           <div className="row">
@@ -209,6 +209,16 @@ const Lobby = ({
                 </div>
               ))}
           </div>
+        </div>
+      ) : STTconnectFN === 2 ? (
+        <div>
+          <h1>Chưa kết nối được</h1>
+          <button
+            className="btn btn-primary"
+            onClick={() => window.location.reload()}
+          >
+            Thử lại
+          </button>
         </div>
       ) : (
         <h1>Đang kết nối với server, vui lòng đợi giây lát . . .</h1>
