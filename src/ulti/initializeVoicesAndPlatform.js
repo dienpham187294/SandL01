@@ -16,35 +16,53 @@ function initializeVoicesAndPlatform(n) {
             resolve(testVoices());
           }
         };
-
+        // voice.name.includes("David") ||voice.name.includes("Sandy")
         const findVoices = () => {
           const voices = window.speechSynthesis.getVoices();
           let imale = null;
           let ifemale = null;
-
-          voices.forEach((voice, index) => {
-            if (voice.lang.includes("en-")) {
-              if (
-                voice.name.includes("David") ||
-                voice.name.includes("Daniel")
-              ) {
-                imale = index;
+          if (isRunningOnWindows()) {
+            console.log("On window");
+            voices.forEach((voice, index) => {
+              if (voice.lang.includes("en-")) {
+                if (voice.name.includes("David")) {
+                  imale = index;
+                }
+                if (voice.name.includes("Zira")) {
+                  ifemale = index;
+                }
               }
-              if (voice.name.includes("Zira") || voice.name.includes("Sandy")) {
-                ifemale = index;
-              }
-
-              if (
-                imale === null &&
-                isAndroid() &&
-                voice.lang.includes("en-GB")
-              ) {
-                imale = index;
-                ifemale = index;
-              }
+            });
+            if (imale !== null && ifemale !== null) {
+              return { imale, ifemale };
             }
-          });
-
+          }
+          if (isRunningOnMac() || isIOS()) {
+            console.log("On IOS");
+            voices.forEach((voice, index) => {
+              if (voice.lang.includes("en-")) {
+                if (voice.name.includes("Daniel")) {
+                  imale = index;
+                }
+                if (voice.name.includes("Karen")) {
+                  ifemale = index;
+                }
+              }
+            });
+            if (imale !== null && ifemale !== null) {
+              return { imale, ifemale };
+            }
+          }
+          if (isAndroid()) {
+            console.log("On android");
+            voices.forEach((voice, index) => {
+              if (voice.lang.includes("en-GB")) {
+                imale = index;
+                ifemale = index;
+                return { imale, ifemale };
+              }
+            });
+          }
           return { imale, ifemale };
         };
 
