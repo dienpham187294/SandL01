@@ -13,7 +13,7 @@ const LearningByHeartHub = ({ STTconnectFN }) => {
   const [seconds, setSeconds] = useState(0);
   const [intervalId, setIntervalId] = useState(null);
   const [isPaused, setIsPaused] = useState(false);
-  const [IsRead, setIsRead] = useState(false);
+  const [IsRead, setIsRead] = useState("null");
   const randomGender = () => {
     return Math.random() < 0.5 ? 1 : 2;
   };
@@ -54,14 +54,20 @@ const LearningByHeartHub = ({ STTconnectFN }) => {
   }, [currentIndex]);
 
   useEffect(() => {
-    if (seconds % 10 === 0 && seconds !== 0 && !isPaused && !IsRead) {
-      setCurrentIndex((prevIndex) => prevIndex + 1);
+    try {
+      if (IsRead !== null && !isPaused) {
+        if (seconds % 5 === 0 && Date.now() - IsRead > 5000) {
+          setCurrentIndex((prevIndex) => prevIndex + 1);
+        }
+      }
+    } catch (error) {
+      console.error("Error in useEffect:", error);
     }
-  }, [seconds, isPaused]);
+  }, [seconds, isPaused, IsRead]);
 
   const startReading = () => {
     setCurrentIndex(0);
-    setSeconds(0);
+    setSeconds(1);
     const id = setInterval(() => {
       setSeconds((prevSeconds) => prevSeconds + 1);
     }, 1000);
@@ -132,7 +138,7 @@ const LearningByHeartHub = ({ STTconnectFN }) => {
           />
         </Helmet>
 
-        {STTconnectFN ? (
+        {STTconnectFN === 1 ? (
           <div>
             {" "}
             <hr />
@@ -153,23 +159,33 @@ const LearningByHeartHub = ({ STTconnectFN }) => {
             )}
             <div style={{ fontSize: "24px" }}>
               <h2>Learning by heart!</h2>
-              <h2 style={{ color: "blue" }}>
-                Mỗi 10 giây máy sẽ đọc 1 câu sử dụng trong bài thực hành nghe
-                nói. Hãy nghe và ghi lại lên giấy nháp (có thể ghi tắt).
-              </h2>
+              <p style={{ color: "blue" }}>
+                Khoảng 5 - 10 giây máy sẽ đọc 1 câu sử dụng trong bài thực hành
+                nghe nói. Hãy nghe và ghi lại lên giấy nháp (có thể ghi tắt).
+              </p>
               <h1> {formatTime(seconds)}</h1>
               <hr />
               {currentIndex > 0
                 ? dataLearning[id01]["ListenList"][currentIndex - 1]
                 : ""}
               <hr />
-              {IsRead ? "Đang đọc" : null}
+              {IsRead === null ? "Đang đọc" : null}
               <br />
-              <i>{JSON.stringify(ObjREAD)}</i>
+              {/* {!isPaused ? <i>{JSON.stringify(ObjREAD)}</i> : null} */}
             </div>
           </div>
+        ) : STTconnectFN === 2 ? (
+          <div>
+            <h1>Chưa kết nối được</h1>
+            <button
+              className="btn btn-primary"
+              onClick={() => window.location.reload()}
+            >
+              Thử lại
+            </button>
+          </div>
         ) : (
-          <h1>Đang kết nói với server, vui lòng đợi giây lát . . . </h1>
+          <h1>Đang kết nối với server, vui lòng đợi giây lát . . .</h1>
         )}
       </div>
     </HelmetProvider>
@@ -190,7 +206,10 @@ const formatTime = (seconds) => {
 let imale, ifemale;
 
 function countAndSplitSentences(text) {
-  const sentences = text.match(/[^!]+[!]+/g);
+  // Split the text based on sentence-ending punctuation marks
+  const sentences = text.match(/[^?!.;]+[?!.;]*/g);
+
+  // Return the sentences array or an array with the original text if no matches found
   return sentences || [text];
 }
 
@@ -216,18 +235,18 @@ async function ReadMessage(ObjVoices, text, voiceNum, setIsRead) {
     // Function to recursively read each sentence
     const speakSentences = (index) => {
       if (index >= sentences.length) {
-        setIsRead(false);
+        setIsRead(Date.now());
         return;
       }
 
       let msg = new SpeechSynthesisUtterance();
       let voices = window.speechSynthesis.getVoices();
       msg.voice = voices[voiceIndex];
-      msg.rate = 0.8;
+      msg.rate = 0.7;
       msg.text = sentences[index];
 
       msg.onstart = () => {
-        setIsRead(true);
+        setIsRead(null);
       };
 
       msg.onend = () => {

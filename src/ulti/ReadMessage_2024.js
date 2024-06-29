@@ -21,10 +21,12 @@ function disableButton() {
 }
 
 function countAndSplitSentences(text) {
-  const sentences = text.match(/[^!]+[!]+/g);
+  // Split the text based on sentence-ending punctuation marks
+  const sentences = text.match(/[^?!.;]+[?!.;]*/g);
+
+  // Return the sentences array or an array with the original text if no matches found
   return sentences || [text];
 }
-
 export default async function ReadMessage(ObjVoices, text, voiceNum) {
   // voiceNum: 1 for female, 0 for male
   console.log("read", ObjVoices, voiceNum, 0.85);
