@@ -164,6 +164,8 @@ const LearningByHeartHub = ({ STTconnectFN }) => {
                 : ""}
               <hr />
               {IsRead ? "Đang đọc" : null}
+              <br />
+              <i>{JSON.stringify(ObjREAD)}</i>
             </div>
           </div>
         ) : (

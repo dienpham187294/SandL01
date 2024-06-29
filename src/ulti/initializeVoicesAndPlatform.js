@@ -24,7 +24,7 @@ function initializeVoicesAndPlatform(n) {
           if (isRunningOnWindows()) {
             console.log("On window");
             voices.forEach((voice, index) => {
-              if (voice.lang.includes("en-")) {
+              if (voice.lang.includes("en-US")) {
                 if (voice.name.includes("David")) {
                   imale = index;
                 }
