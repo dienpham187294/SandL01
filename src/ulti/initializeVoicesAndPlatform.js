@@ -32,15 +32,18 @@ function initializeVoicesAndPlatform(n) {
                   ifemale = index;
                 }
               }
+              if (imale !== null && ifemale !== null) {
+                return { imale, ifemale };
+              }
             });
-            if (imale !== null && ifemale !== null) {
-              return { imale, ifemale };
-            }
           }
           if (isRunningOnMac() || isIOS()) {
             console.log("On IOS");
             voices.forEach((voice, index) => {
-              if (voice.lang.includes("en-")) {
+              if (
+                voice.lang.includes("en-GB") ||
+                voice.lang.includes("en-AU")
+              ) {
                 if (voice.name.includes("Daniel")) {
                   imale = index;
                 }
@@ -48,10 +51,10 @@ function initializeVoicesAndPlatform(n) {
                   ifemale = index;
                 }
               }
+              if (imale !== null && ifemale !== null) {
+                return { imale, ifemale };
+              }
             });
-            if (imale !== null && ifemale !== null) {
-              return { imale, ifemale };
-            }
           }
           if (isAndroid()) {
             console.log("On android");
@@ -59,6 +62,8 @@ function initializeVoicesAndPlatform(n) {
               if (voice.lang.includes("en-GB")) {
                 imale = index;
                 ifemale = index;
+              }
+              if (imale !== null && ifemale !== null) {
                 return { imale, ifemale };
               }
             });
