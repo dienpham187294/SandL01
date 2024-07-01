@@ -7,6 +7,7 @@ import Room from "./components/Room";
 import NotExist from "./components/NotExist";
 import LearningHub from "./components/LearningHub";
 import LearningByHeartHub from "./components/LearningByHeart";
+import Settings from "./components/setting";
 import io from "socket.io-client";
 import initializeVoicesAndPlatform from "./ulti/initializeVoicesAndPlatform";
 import "bootstrap-icons/font/bootstrap-icons.css";
@@ -100,6 +101,8 @@ const App = () => {
                 path="/learningbyheart/:id/:id01"
                 element={<LearningByHeartHub STTconnectFN={STTconnectFN} />}
               />
+
+              <Route path="/setting" element={<Settings />} />
             </Routes>
           </div>
         </Router>
