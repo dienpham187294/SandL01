@@ -22,9 +22,17 @@ function initializeVoicesAndPlatform(n) {
           let imale = null;
           let ifemale = null;
 
-          const setVoiceIndices = (maleName, femaleName, langFilter) => {
+          const setVoiceIndices = (
+            maleName,
+            femaleName,
+            langFilter1,
+            langFilter2
+          ) => {
             voices.forEach((voice, index) => {
-              if (voice.lang.includes(langFilter)) {
+              if (
+                voice.lang.includes(langFilter1) ||
+                voice.lang.includes(langFilter2)
+              ) {
                 if (voice.name.includes(maleName)) {
                   imale = index;
                 }
@@ -40,13 +48,13 @@ function initializeVoicesAndPlatform(n) {
 
           if (isRunningOnWindows()) {
             console.log("On Windows");
-            setVoiceIndices("David", "Zira", "en-US");
+            setVoiceIndices("David", "Zira", "en-US", "en-US");
           } else if (isRunningOnMac() || isIOS()) {
             console.log("On iOS");
-            setVoiceIndices("Daniel", "Karen", "en-GB");
+            setVoiceIndices("Daniel", "Karen", "en-GB", "en-AU");
           } else if (isAndroid()) {
             console.log("On Android");
-            setVoiceIndices("Daniel", "Karen", "en-GB");
+            setVoiceIndices("Daniel", "Karen", "en-GB", "en-AU");
           }
 
           return { imale, ifemale };
