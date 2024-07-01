@@ -50,7 +50,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
       <div style={{ padding: "5%" }}>
         <Helmet>
           <title>
-            {`${id}: ${
+            {`Cùng thực hành: ${
               dataLearning[currentIndex]?.SEO?.seo?.metaTitle || "Learning Hub"
             }`}
           </title>
@@ -179,15 +179,21 @@ function rShowLessonTABLE(dataLearning, currentIndex, setCurrentIndex) {
     return (
       <div>
         <div style={{ textAlign: "center" }}>
-          <h2>
-            <i> Bài {currentIndex + 1}</i>
-          </h2>
+          {dataLearning.length > 1 ? (
+            <h2>
+              <i> Bài {currentIndex + 1}</i>
+            </h2>
+          ) : null}
+
           <h1>{dataLearning[currentIndex]?.SEO?.seo?.metaTitle}</h1>
           <hr />
         </div>
-        <div style={{ marginLeft: "30%", width: "40%", marginRight: "20px" }}>
-          {renderContentOftable(dataLearning, currentIndex, setCurrentIndex)}
-        </div>
+
+        {dataLearning.length > 1 ? (
+          <div style={{ marginLeft: "30%", width: "40%", marginRight: "20px" }}>
+            {renderContentOftable(dataLearning, currentIndex, setCurrentIndex)}
+          </div>
+        ) : null}
       </div>
     );
   } catch (error) {
