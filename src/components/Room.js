@@ -4,12 +4,11 @@ import { socket } from "../App";
 import "bootstrap/dist/css/bootstrap.min.css";
 import PracticeDIV from "./pracPages/B101_FINAL_PROJECTS";
 import CountdownTimer from "./pracPages/B101_FINAL_CounterTime";
-
+import LinkAPI from "../ulti/T0_linkApi";
 const Room = ({ setSttRoom }) => {
   const { roomCode } = useParams();
   const [users, setUsers] = useState([]);
   const [isReady, setIsReady] = useState(false);
-
   const [allReady, setAllReady] = useState(false);
   const [roomInfo, setRoomInfo] = useState(null);
   const [numberBegin, setNumberBegin] = useState(0);
@@ -31,6 +30,9 @@ const Room = ({ setSttRoom }) => {
 
   useEffect(() => {
     socket.emit("updateOneELEMENT", roomCode, socket.id, "isPause", IsPause);
+    if (!IsPause) {
+      handleIncrementReadyClick();
+    }
   }, [IsPause]);
 
   useEffect(() => {
@@ -53,7 +55,10 @@ const Room = ({ setSttRoom }) => {
         setAllReady(updatedAllReady);
         setUsers(updatedUsers);
         setRoomInfo(roomInfo);
-        setNumberBegin(numberBegin);
+        if (!IsPause) {
+          setNumberBegin(numberBegin);
+        }
+
         setIncrementAllReady(incrementAllReady);
       }
     );
@@ -145,15 +150,12 @@ const Room = ({ setSttRoom }) => {
     borderRadius: "5px",
   };
 
-
-  
   return (
     <div
       className="container mt-4"
       style={{ border: "1px solid green", borderRadius: "5px", padding: "2%" }}
     >
       {/* <div>{MessageConsole}</div> */}
-      {/* {JSON.stringify(users)} <br /> {JSON.stringify(incrementAllReady)} */}
       {allReady && DataPracticingOverRoll !== null ? (
         <div>
           <PracticeDIV
@@ -179,114 +181,116 @@ const Room = ({ setSttRoom }) => {
             {!incrementAllReady && incrementReady ? (
               <h1>Waiting for others . . . </h1>
             ) : null}
-
-            {incrementReady ? (
-              <div className="row">
-                <hr />
-                {sortedUsers(users).map((user) => (
-                  <div className="col-md-2 mb-2" key={user.id}>
-                    <div
-                      className="card"
-                      style={user.id === socket.id ? objCardOwn : {}}
-                    >
-                      <div className="card-body">
-                        {user.name === "Unknown" && user.id === socket.id ? (
-                          <div>
-                            <input
-                              type="text"
-                              className="form-control"
-                              placeholder="Enter your name"
-                              value={userName}
-                              onChange={(e) => setUserName(e.target.value)}
-                            />
-                            <button
-                              className="btn btn-primary mt-2"
-                              onClick={() =>
-                                handleUpdateName(user.id, userName)
-                              }
-                              disabled={userName.length <= 2}
-                            >
-                              Update Name
-                            </button>
-                          </div>
-                        ) : null}
-                        <h5 className="card-title">{user.name}</h5>
-                        <p>Score: {user.score}</p>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            ) : null}
           </div>
         </div>
-      ) : (
-        <div>
-          <p>Users in room:</p>
-          <div className="row">
-            {users.map((user) => (
-              <div className="col-md-2 mb-2" key={user.id}>
-                <div className="card">
-                  <div
-                    className="card-body"
-                    style={
-                      user.id === socket.id
-                        ? objCardOwn
-                        : user.isReady
-                        ? { backgroundColor: "greenyellow" }
-                        : {}
-                    }
-                  >
-                    {user.name === "Unknown" && user.id === socket.id ? (
-                      <div>
-                        <input
-                          type="text"
-                          className="form-control"
-                          placeholder="Enter your name"
-                          value={userName}
-                          onChange={(e) => setUserName(e.target.value)}
-                        />
-                        <button
-                          className="btn btn-primary mt-2"
-                          onClick={() => handleUpdateName(user.id, userName)}
-                          disabled={userName.length <= 2}
-                        >
-                          Update Name
-                        </button>
-                      </div>
-                    ) : (
-                      <>
-                        <h5 className="card-title">{user.name}</h5>
-                        <p>{user.isReady ? "Ready" : "Not Ready"}</p>
-                        <p>Score: {user.score}</p>
-                        {user.id === socket.id && (
-                          <button
-                            className="btn btn-secondary"
-                            onClick={handleReadyClick}
-                            disabled={user.name === "Unknown"}
-                          >
-                            {isReady ? "Not Ready" : "Ready"}
-                          </button>
-                        )}
-                      </>
-                    )}
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
+      ) : null}
       <hr />
+      {incrementReady || IsPause ? (
+        <div className="row">
+          {sortedUsers(users).map((user) => (
+            <div
+              style={{
+                border:
+                  socket.id === user.id ? "5px solid green" : "1px solid black",
+                display: "inline",
+                width: "150px",
+                padding: "10px",
+                margin: "5px",
+                borderRadius: "10px",
+              }}
+            >
+              {numberBegin !== 0 ? (
+                <div>
+                  {" "}
+                  {user.name}
+                  <br />
+                  score:{user.score}
+                  <br />
+                  {user.isPause ? (
+                    <b>Đang tạm dừng</b>
+                  ) : user.incrementReady ? (
+                    "Đang sẵn sàng"
+                  ) : (
+                    "Đang làm bài"
+                  )}
+                </div>
+              ) : null}
 
-      <button
-        onClick={() => {
-          setIsPause(!IsPause);
-        }}
-        className="btn btn-outline-secondary"
-      >
-        {IsPause ? "Tiếp tục" : "Tạm dừng"}
-      </button>
+              {numberBegin === 0
+                ? user.isReady
+                  ? "Đã sẵn sàng"
+                  : "Chưa sẵn sàng"
+                : null}
+            </div>
+          ))}{" "}
+        </div>
+      ) : null}
+      <hr />
+      <div className="row">
+        {numberBegin === 0 ? (
+          <div className="col-2">
+            <button className="btn btn-primary" onClick={handleReadyClick}>
+              Sẵn sàng
+            </button>
+          </div>
+        ) : (
+          <>
+            {" "}
+            <div className="col-4">
+              {" "}
+              <div style={{ display: "flex", alignItems: "center" }}>
+                <input
+                  type="text"
+                  style={{
+                    padding: "10px",
+                    border: "1px solid #ccc",
+                    borderRadius: "4px",
+                    marginRight: "10px",
+                  }}
+                  className="name-input"
+                  placeholder="Enter your name"
+                  value={userName}
+                  onChange={(e) => setUserName(e.target.value)}
+                />
+                <button
+                  className="update-button"
+                  style={{
+                    padding: "10px 20px",
+                    backgroundColor: "#007bff",
+                    color: "#fff",
+                    border: "none",
+                    borderRadius: "4px",
+                    cursor: "pointer",
+                    fontSize: "16px",
+                  }}
+                  onClick={() => handleUpdateName(socket.id, userName)}
+                  disabled={userName.length <= 2}
+                >
+                  Update Name
+                </button>
+              </div>
+            </div>
+            <div className="col-4">
+              {" "}
+              <button
+                onClick={() => {
+                  setIsPause(!IsPause);
+                }}
+                className="btn btn-outline-secondary"
+              >
+                {IsPause ? "Tiếp tục" : "Tạm dừng"}
+              </button>
+            </div>
+          </>
+        )}
+      </div>
+      {/* 
+      {LinkAPI.includes(":5000") ? (
+        <div>
+          {LinkAPI}
+          {JSON.stringify(users)} <br /> {JSON.stringify(incrementAllReady)}
+        </div>
+      ) : null} */}
     </div>
   );
 };

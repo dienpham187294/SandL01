@@ -58,7 +58,7 @@ function FINAL_PROJECT({
         setINDEXtoPlay(numberBegin);
       }
     } else {
-      handleIncrementReadyClick();
+      // handleIncrementReadyClick();
     }
   }, [numberBegin]);
   useEffect(() => {

@@ -1,84 +1,57 @@
-function initializeVoicesAndPlatform(n) {
-  if (n > 1) {
-    return "null";
-  }
+function initializeVoicesAndPlatform() {
+  console.log("Tìm objRead");
+  let res = { imale: null, ifemale: null };
 
-  if (n <= 1) {
-    return new Promise((resolve) => {
-      if ("speechSynthesis" in window) {
-        const getVoices = () => {
-          const voices = window.speechSynthesis.getVoices();
-          if (voices.length === 0) {
-            window.speechSynthesis.onvoiceschanged = () => {
-              resolve(testVoices());
-            };
-          } else {
-            resolve(testVoices());
-          }
+  if ("speechSynthesis" in window) {
+    const getVoices = () => {
+      const voices = window.speechSynthesis.getVoices();
+      if (voices.length === 0) {
+        window.speechSynthesis.onvoiceschanged = () => {
+          findVoices(window.speechSynthesis.getVoices());
         };
-
-        const findVoices = () => {
-          const voices = window.speechSynthesis.getVoices();
-          let imale = null;
-          let ifemale = null;
-
-          const setVoiceIndices = (
-            maleName,
-            femaleName,
-            langFilter1,
-            langFilter2
-          ) => {
-            voices.forEach((voice, index) => {
-              if (
-                voice.lang.includes(langFilter1) ||
-                voice.lang.includes(langFilter2)
-              ) {
-                if (voice.name.includes(maleName)) {
-                  imale = index;
-                }
-                if (voice.name.includes(femaleName)) {
-                  ifemale = index;
-                }
-              }
-              if (imale !== null && ifemale !== null) {
-                return true;
-              }
-            });
-          };
-
-          if (isRunningOnWindows()) {
-            console.log("On Windows");
-            setVoiceIndices("David", "Zira", "en-US", "en-US");
-          } else if (isRunningOnMac() || isIOS()) {
-            console.log("On iOS");
-            setVoiceIndices("Daniel", "Karen", "en-GB", "en-AU");
-          } else if (isAndroid()) {
-            console.log("On Android");
-            setVoiceIndices(" ", " ", "en-GB", "en-AU");
-          }
-
-          return { imale, ifemale };
-        };
-
-        const testVoices = () => {
-          const result1 = findVoices();
-          if (result1.imale === null && result1.ifemale === null) {
-            setTimeout(() => {
-              resolve(testVoices());
-            }, 2000);
-          } else {
-            return result1;
-          }
-        };
-
-        getVoices();
       } else {
-        setTimeout(() => {
-          initializeVoicesAndPlatform(n);
-        }, 1000);
+        findVoices(voices);
       }
-    });
+    };
+
+    const findVoices = (voices) => {
+      const setVoiceIndices = (
+        maleName,
+        femaleName,
+        langFilter1,
+        langFilter2
+      ) => {
+        voices.forEach((voice, index) => {
+          if (
+            voice.lang.includes(langFilter1) ||
+            voice.lang.includes(langFilter2)
+          ) {
+            if (voice.name.includes(maleName)) {
+              res.imale = index;
+            }
+            if (voice.name.includes(femaleName)) {
+              res.ifemale = index;
+            }
+          }
+        });
+      };
+
+      if (isRunningOnWindows()) {
+        console.log("On Windows");
+        setVoiceIndices("David", "Zira", "en-US", "en-US");
+      } else if (isRunningOnMac() || isIOS()) {
+        console.log("On iOS");
+        setVoiceIndices("Daniel", "Karen", "en-GB", "en-AU");
+      } else if (isAndroid()) {
+        console.log("On Android");
+        setVoiceIndices(" ", " ", "en-GB", "en-AU");
+      }
+    };
+
+    getVoices();
   }
+
+  return res;
 }
 
 // Check if the platform is iOS

@@ -6,7 +6,7 @@ const StartButton = ({ setINDEXtoPlay, INDEXtoPlay, setStartSTT, Score }) => {
     flexDirection: "column",
     justifyContent: "center",
     alignItems: "center",
-    height: "50vh",
+    height: "20vh",
     backgroundColor: "#f0f0f0", // Light grey background for better visibility
   };
 

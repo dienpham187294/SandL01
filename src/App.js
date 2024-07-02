@@ -30,17 +30,15 @@ const App = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const data = await initializeVoicesAndPlatform(0);
+      const data = await initializeVoicesAndPlatform();
+      console.log(data);
       setObjREAD(data);
       // console.log(JSON.stringify(data));
-      if (
-        data.imale === undefined ||
-        data.ifemale === undefined ||
-        data === "null" ||
-        data.imale === null ||
-        data.ifemale === null
-      ) {
-        setSTTconnectFN(2);
+      if (data.imale === null || data.ifemale === null) {
+        setTimeout(() => {
+          fetchData();
+        }, 1000);
+        // setSTTconnectFN(2);
       } else {
         setSTTconnect01(true);
       }
@@ -48,6 +46,9 @@ const App = () => {
     if (ObjREAD === null) {
       fetchData();
     }
+  }, []);
+
+  useEffect(() => {
     // Check socket connection status
     const handleSocketConnection = () => {
       setSTTconnect02(socket.connected);
