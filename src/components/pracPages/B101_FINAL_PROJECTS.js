@@ -130,25 +130,25 @@ function FINAL_PROJECT({
   }, [getSTTDictaphone]);
 
   try {
-    if (
-      ObjREAD.imale === undefined ||
-      ObjREAD.ifemale === undefined ||
-      ObjREAD === "null" ||
-      ObjREAD.imale === null ||
-      ObjREAD.ifemale === null
-    ) {
-      return (
-        <div>
-          <h1>Chưa kết nối được giọng nói</h1>
-          <button
-            className="btn btn-primary"
-            onClick={() => window.location.reload()}
-          >
-            Thử lại
-          </button>
-        </div>
-      );
-    }
+    // if (
+    //   ObjREAD.imale === undefined ||
+    //   ObjREAD.ifemale === undefined ||
+    //   ObjREAD === "null" ||
+    //   ObjREAD.imale === null ||
+    //   ObjREAD.ifemale === null
+    // ) {
+    //   return (
+    //     <div>
+    //       <h1>Chưa kết nối được giọng nói</h1>
+    //       <button
+    //         className="btn btn-primary"
+    //         onClick={() => window.location.reload()}
+    //       >
+    //         Thử lại
+    //       </button>
+    //     </div>
+    //   );
+    // }
 
     return (
       <div
