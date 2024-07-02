@@ -63,7 +63,7 @@ export default function Header({ sttRoom, STTconnectFN }) {
                 null
               )}
               {returnDropdown(
-                "ESL Conversation: Question and Answer Collection",
+                "ESL Conversation: Q&A Collection",
                 NewListHref,
                 { name: "name", link: "link", preName: "preName" },
                 null

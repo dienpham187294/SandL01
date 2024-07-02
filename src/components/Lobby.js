@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { socket } from "../App";
 import "bootstrap/dist/css/bootstrap.min.css";
-import ChatInput from "./ChatInput";
-import ChatList from "./ChatList";
+// import ChatInput from "./ChatInput";
+// import ChatList from "./ChatList";
 
 const Lobby = ({
   STTconnectFN,
@@ -26,7 +26,7 @@ const Lobby = ({
   }, [objListDefault, objList]);
 
   function randomBoolean() {
-    return Math.random() >= 0.5;
+    return Math.floor(Math.random() * 7) + 2;
   }
 
   function randomOneOrTwo() {
@@ -185,8 +185,8 @@ const Lobby = ({
               )}
             </div>
             <div className="col-6">
-              <ChatInput />
-              <ChatList />
+              {/* <ChatInput />
+              <ChatList /> */}
             </div>
           </div>
           <hr />

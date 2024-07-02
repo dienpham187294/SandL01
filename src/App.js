@@ -8,6 +8,7 @@ import NotExist from "./components/NotExist";
 import LearningHub from "./components/LearningHub";
 import LearningByHeartHub from "./components/LearningByHeart";
 import Settings from "./components/setting";
+import ChatWidget from "./components/ChatWidget";
 import io from "socket.io-client";
 import initializeVoicesAndPlatform from "./ulti/initializeVoicesAndPlatform";
 import "bootstrap-icons/font/bootstrap-icons.css";
@@ -31,8 +32,14 @@ const App = () => {
     const fetchData = async () => {
       const data = await initializeVoicesAndPlatform(0);
       setObjREAD(data);
-      console.log(JSON.stringify(data));
-      if (data === "null") {
+      // console.log(JSON.stringify(data));
+      if (
+        data.imale === undefined ||
+        data.ifemale === undefined ||
+        data === "null" ||
+        data.imale === null ||
+        data.ifemale === null
+      ) {
         setSTTconnectFN(2);
       } else {
         setSTTconnect01(true);
@@ -68,7 +75,7 @@ const App = () => {
         <Router>
           <div className="chat-app">
             <Header sttRoom={sttRoom} STTconnectFN={STTconnectFN} />
-
+            <ChatWidget />
             <Routes>
               <Route
                 path="/room/:roomCode"
@@ -103,6 +110,14 @@ const App = () => {
               />
 
               <Route path="/setting" element={<Settings />} />
+              <Route
+                path="*"
+                element={
+                  <main style={{ padding: "1rem" }}>
+                    <p>There's nothing here!</p>
+                  </main>
+                }
+              />
             </Routes>
           </div>
         </Router>

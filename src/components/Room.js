@@ -145,6 +145,8 @@ const Room = ({ setSttRoom }) => {
     borderRadius: "5px",
   };
 
+
+  
   return (
     <div
       className="container mt-4"
@@ -337,8 +339,22 @@ function interleaveCharacters(array1, array2, interleaving, reverse) {
   }
 
   if (reverse) {
-    res.reverse();
+    res = splitAndConcatArray(res, reverse);
   }
 
   return res;
+}
+function splitAndConcatArray(arr, n) {
+  // Lấy phần trăm n của m
+  const m = arr.length;
+  const index = Math.ceil((n / 10) * m);
+
+  // Tách mảng thành hai phần
+  const arr1 = arr.slice(0, index);
+  const arr2 = arr.slice(index);
+
+  // Ghép hai mảng lại với nhau
+  const newArray = arr2.concat(arr1);
+
+  return newArray;
 }
