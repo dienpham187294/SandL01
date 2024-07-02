@@ -31,8 +31,10 @@ const ChatWidget = () => {
   }, [isOpen]);
 
   useEffect(() => {
-    chatEndRef.current?.scrollIntoView({ behavior: "smooth" });
-  }, [chatHistory]);
+    if (isOpen) {
+      chatEndRef.current?.scrollIntoView({ behavior: "smooth" });
+    }
+  }, [chatHistory, isOpen]);
 
   const toggleChat = () => {
     setIsOpen(!isOpen);
@@ -54,6 +56,7 @@ const ChatWidget = () => {
     display: "flex",
     flexDirection: "column",
     transition: "width 0.3s, height 0.3s",
+    zIndex: 10,
   };
 
   const headerStyle = {
@@ -106,11 +109,6 @@ const ChatWidget = () => {
             <div ref={chatEndRef} />
           </ul>
           <ChatInput />
-          {/* <p style={statusStyle}>
-            <i>
-              <b>{onlineNumber} clients đang online!</b>
-            </i>
-          </p> */}
         </>
       )}
     </div>

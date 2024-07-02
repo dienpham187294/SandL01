@@ -121,6 +121,8 @@ const Lobby = ({
               >
                 Create Room | Tạo phòng
               </button>
+            </div>
+            <div className="col-6">
               <div className="mb-3" style={{ width: "200px" }}>
                 <label htmlFor="timeSelect">Default Time (s): </label>
                 <select
@@ -183,10 +185,6 @@ const Lobby = ({
                   </div>
                 </div>
               )}
-            </div>
-            <div className="col-6">
-              {/* <ChatInput />
-              <ChatList /> */}
             </div>
           </div>
           <hr />
