@@ -15,7 +15,7 @@ const pracEnSets = [
   {
     root: "learninghub",
     preName: "Khóa tiêu chuẩn:",
-    name: "Cùng thực hành nghe nói ăn - ở - đi lại",
+    name: "Cùng thực hành nghe nói chủ đề: Ăn - Ở - Đi lại",
     link: "restaurant-hotel-travel",
     id: "socapII",
   },

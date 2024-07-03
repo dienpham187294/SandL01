@@ -23,15 +23,16 @@ function initializeVoicesAndPlatform() {
       ) => {
         voices.forEach((voice, index) => {
           if (
-            voice.lang.includes(langFilter1) ||
-            voice.lang.includes(langFilter2)
+            voice.lang.includes(langFilter1) &&
+            voice.name.includes(maleName)
           ) {
-            if (voice.name.includes(maleName)) {
-              res.imale = index;
-            }
-            if (voice.name.includes(femaleName)) {
-              res.ifemale = index;
-            }
+            res.imale = index;
+          }
+          if (
+            voice.lang.includes(langFilter2) &&
+            voice.name.includes(femaleName)
+          ) {
+            res.ifemale = index;
           }
         });
       };
