@@ -102,7 +102,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
               className="btn btn-primary"
               style={{ fontSize: "1.6em" }}
             >
-              BÀI THỰC HÀNH NGHE NÓI
+              Cùng thực hành
             </button>
           </div>
         )}

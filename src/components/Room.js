@@ -124,7 +124,12 @@ const Room = ({ setSttRoom }) => {
   const handleUpdateName = (userId, newUserName) => {
     socket.emit("updateUserName", roomCode, userId, newUserName);
   };
-
+  const handleKeyPress = (e) => {
+    if (e.key === "Enter" && userName.length > 0) {
+      handleUpdateName(socket.id, userName);
+      setUserName("");
+    }
+  };
   const handleScoreChange = (newScore) => {
     socket.emit("updateOneELEMENT", roomCode, socket.id, "score", newScore);
   };
@@ -201,17 +206,16 @@ const Room = ({ setSttRoom }) => {
             >
               {numberBegin !== 0 ? (
                 <div>
-                  {" "}
-                  {user.name}
+                  <i> {user.name}</i>
                   <br />
                   score:{user.score}
                   <br />
                   {user.isPause ? (
                     <b>Đang tạm dừng</b>
                   ) : user.incrementReady ? (
-                    "Đang sẵn sàng"
+                    <b>Đang sẵn sàng</b>
                   ) : (
-                    "Đang làm bài"
+                    <b>Đang làm bài</b>
                   )}
                 </div>
               ) : null}
@@ -230,29 +234,24 @@ const Room = ({ setSttRoom }) => {
         {numberBegin === 0 ? (
           <div className="col-2">
             <button className="btn btn-primary" onClick={handleReadyClick}>
-              Sẵn sàng
+              Sẵn sàng bắt đầu
             </button>
           </div>
         ) : (
           <>
             {" "}
-            <div className="col-4">
+            <div className="col-7">
               {" "}
               <div style={{ display: "flex", alignItems: "center" }}>
                 <input
+                  className="form-control"
                   type="text"
-                  style={{
-                    padding: "10px",
-                    border: "1px solid #ccc",
-                    borderRadius: "4px",
-                    marginRight: "10px",
-                  }}
-                  className="name-input"
-                  placeholder="Enter your name"
+                  placeholder="Chat with others or update name | Enter"
                   value={userName}
                   onChange={(e) => setUserName(e.target.value)}
+                  onKeyUp={handleKeyPress}
                 />
-                <button
+                {/* <button
                   className="update-button"
                   style={{
                     padding: "10px 20px",
@@ -266,31 +265,31 @@ const Room = ({ setSttRoom }) => {
                   onClick={() => handleUpdateName(socket.id, userName)}
                   disabled={userName.length <= 2}
                 >
-                  Update Name
-                </button>
+                  Chat
+                </button> */}
               </div>
             </div>
-            <div className="col-4">
+            <div className="col-5">
               {" "}
               <button
                 onClick={() => {
                   setIsPause(!IsPause);
                 }}
-                className="btn btn-outline-secondary"
+                className="btn btn-primary"
               >
-                {IsPause ? "Tiếp tục" : "Tạm dừng"}
+                {IsPause ? "Bạn đang tạm dừng | Bấm => Tiếp tục" : "Tạm dừng"}
               </button>
             </div>
           </>
         )}
       </div>
-      {/* 
+
       {LinkAPI.includes(":5000") ? (
         <div>
           {LinkAPI}
           {JSON.stringify(users)} <br /> {JSON.stringify(incrementAllReady)}
         </div>
-      ) : null} */}
+      ) : null}
     </div>
   );
 };

@@ -101,12 +101,12 @@ const Lobby = ({
           {" "}
           <div className="row">
             <div className="col-6">
-              <h1 className="mb-4">Lobby</h1>
+              <h1 className="mb-4">Lobby | Sảnh</h1>
               <div className="mb-3">
                 <input
                   type="text"
                   className="form-control"
-                  placeholder="Enter room name"
+                  placeholder="Enter room name | Nhập tên phòng"
                   value={roomName}
                   onChange={(e) => setRoomName(e.target.value)}
                 />
@@ -119,12 +119,16 @@ const Lobby = ({
                   (custom && selectedIndices.length === 0)
                 }
               >
-                Create Room | Tạo phòng
+                {roomName.length <= 2 ? (
+                  <i>Nhập tên phòng</i>
+                ) : (
+                  <i>Create Room | Tạo phòng</i>
+                )}
               </button>
             </div>
             <div className="col-6">
-              <div className="mb-3" style={{ width: "200px" }}>
-                <label htmlFor="timeSelect">Default Time (s): </label>
+              <div className="mb-3">
+                <label htmlFor="timeSelect">Time | Thời gian (s) : </label>
                 <select
                   id="timeSelect"
                   className="form-control"
@@ -150,13 +154,13 @@ const Lobby = ({
                 >
                   <h4>Chọn phần thực hành:</h4>
                   <button
-                    className="btn btn-secondary mb-2"
+                    className="btn btn-outline-primary mb-2 mr-1"
                     onClick={selectAll}
                   >
                     Chọn hết
                   </button>
                   <button
-                    className="btn btn-secondary mb-2 ml-2"
+                    className="btn btn-outline-primary mb-2 ml-2"
                     onClick={deselectAll}
                   >
                     Hủy chọn hết
