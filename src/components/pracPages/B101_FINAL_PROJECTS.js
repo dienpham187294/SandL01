@@ -11,6 +11,7 @@ import CountdownTimer from "./B101_FINAL_CounterTime";
 import RegButton from "./B101_FINAL_BUTTON_REG";
 import TableDisplay from "./B101_FINAL_TableDisplay";
 import { ObjREADContext } from "../../App"; // Import ObjREADContext
+import isImageUrl from "../../ulti/isImageUrl";
 const colors = ["red", "orange", "black", "green", "blue", "indigo", "violet"];
 // console.log(ObjREADContext);
 function FINAL_PROJECT({
@@ -174,7 +175,15 @@ function FINAL_PROJECT({
                 </div>
                 <div className="col-6" style={{ textAlign: "right" }}>
                   {" "}
-                  <img width={"200px"} src={playData.img} />
+                  {Clue && isImageUrl(Clue) ? (
+                    <img
+                      style={{ border: "4px solid blue", borderRadius: "10px" }}
+                      width={"200px"}
+                      src={Clue}
+                    />
+                  ) : (
+                    <img width={"200px"} src={playData.img} />
+                  )}
                 </div>
                 <div className="col-3" style={{ textAlign: "left" }}>
                   <button
@@ -202,7 +211,12 @@ function FINAL_PROJECT({
                 />
               ) : null}
 
-              <h2>{Clue}</h2>
+              {Clue && !isImageUrl(Clue) ? (
+                <>
+                  <hr /> <b>Clue:</b> <h5 style={{ color: "blue" }}>{Clue}</h5>
+                </>
+              ) : null}
+
               {playData !== null ? (
                 <div>
                   {getSTTDictaphone ? (

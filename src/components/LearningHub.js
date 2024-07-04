@@ -63,7 +63,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
           />
           <meta
             name="keywords"
-            content={`${arrayToString(
+            content={`Cùng thực hành, cung thuc hanh, ${arrayToString(
               dataLearning[currentIndex]?.SEO?.seo?.keywords
             )}, ${id}`}
           />
@@ -207,7 +207,7 @@ function rShowLessonTABLE(dataLearning, currentIndex, setCurrentIndex) {
 function renderContent(dataLearning, currentIndex) {
   try {
     if (!dataLearning[currentIndex]) return null;
-
+    // console.log(dataLearning[currentIndex].SEO.contentArray);
     const { cssStyles, contentArray } = dataLearning[currentIndex].SEO;
 
     return contentArray.map((item, index) => {
