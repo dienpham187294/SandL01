@@ -273,6 +273,29 @@ function FINAL_PROJECT({
                   >
                     Back
                   </button>
+                  {DataPracticingOverRoll.map((e, i) => (
+                    <button
+                      onClick={() => {
+                        setOnTable(i);
+                      }}
+                      key={i}
+                      style={{
+                        width: "3%",
+                        padding: "10px",
+                        marginTop: "20px",
+                        marginLeft: "10px",
+                        backgroundColor: "blue",
+                        color: "white",
+                        border: "none",
+                        borderRadius: "4px",
+                        cursor: "pointer",
+                        textAlign: "center",
+                      }}
+                    >
+                      {i + 1}
+                    </button>
+                  ))}
+
                   <div>
                     <TableHD
                       data={DataPracticingOverRoll[OnTable]["HDTB"]["HD"]}

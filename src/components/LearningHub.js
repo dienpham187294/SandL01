@@ -14,7 +14,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [STTPractice, setSTTPractice] = useState(false);
+  const [STTPractice, setSTTPractice] = useState(true);
   // const ObjREAD = useContext(ObjREADContext);
   const navigate = useNavigate();
 
