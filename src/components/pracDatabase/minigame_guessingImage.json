@@ -1,0 +1,4244 @@
+[
+  {
+    "id": 0,
+    "name": "Jelly",
+    "img": "https://i.postimg.cc/4x5hG5Y0/Jelly.jpg",
+    "clue": "A sweet, wobbly dessert often made from fruit juice."
+  },
+  {
+    "id": 0,
+    "name": "Mashed Potatoes",
+    "img": "https://i.postimg.cc/TPNLL3qq/Mashed-Potatoes.jpg",
+    "clue": "Creamy side dish made from boiled and mashed tubers."
+  },
+  {
+    "id": 0,
+    "name": "Meatballs",
+    "img": "https://i.postimg.cc/9X7R0V4Z/Meatballs.jpg",
+    "clue": "Small, round balls of ground meat, often served with spaghetti."
+  },
+  {
+    "id": 0,
+    "name": "Mixed Vegetables",
+    "img": "https://i.postimg.cc/Hs0r029L/Mixed-Vegetables.jpg",
+    "clue": "A combination of various cooked or raw vegetables."
+  },
+  {
+    "id": 0,
+    "name": "Mustard",
+    "img": "https://i.postimg.cc/sDCBZ8S8/Mustard.jpg",
+    "clue": "A yellow condiment commonly used on hot dogs and sandwiches."
+  },
+  {
+    "id": 0,
+    "name": "Pancakes",
+    "img": "https://i.postimg.cc/fRBkpRFn/Pancakes.jpg",
+    "clue": "Flat, round cakes typically eaten for breakfast with syrup."
+  },
+  {
+    "id": 0,
+    "name": "Pickle",
+    "img": "https://i.postimg.cc/9QWrL7LY/Pickle.jpg",
+    "clue": "A cucumber preserved in vinegar or brine, often served with sandwiches."
+  },
+  {
+    "id": 0,
+    "name": "Pizza",
+    "img": "https://i.postimg.cc/FKz14Q5f/Pizza.jpg",
+    "clue": "Italian dish with a flatbread base topped with cheese, tomato sauce, and various toppings."
+  },
+  {
+    "id": 0,
+    "name": "Pork Chops",
+    "img": "https://i.postimg.cc/25tyjXr0/Pork-Chops.jpg",
+    "clue": "Cuts of meat from the loin of a pig, often grilled or fried."
+  },
+  {
+    "id": 0,
+    "name": "Potato Chips",
+    "img": "https://i.postimg.cc/mDFDPNrB/Potato-Chips.jpg",
+    "clue": "Thin slices of potato that are deep-fried and crispy."
+  },
+  {
+    "id": 0,
+    "name": "Roll",
+    "img": "https://i.postimg.cc/5ydtLYHv/Roll.jpg",
+    "clue": "A small, round piece of bread, often served with butter."
+  },
+  {
+    "id": 0,
+    "name": "Salad Dressing",
+    "img": "https://i.postimg.cc/7h3ZVH7R/Salad-Dressing.jpg",
+    "clue": "A sauce used to add flavor to salads."
+  },
+  {
+    "id": 0,
+    "name": "Spaghetti",
+    "img": "https://i.postimg.cc/5NJ0tzWW/Spaghetti.jpg",
+    "clue": "Long, thin pasta often served with tomato sauce and meatballs."
+  },
+  {
+    "id": 0,
+    "name": "Steak",
+    "img": "https://i.postimg.cc/mZCkRwqS/Steak.jpg",
+    "clue": "A cut of beef that is typically grilled or pan-seared."
+  },
+  {
+    "id": 0,
+    "name": "Strawberry Shortcake",
+    "img": "https://i.postimg.cc/g2k2VP0M/Strawberry-Shortcake.jpg",
+    "clue": "A dessert made with layers of shortcake, strawberries, and whipped cream."
+  },
+  {
+    "id": 0,
+    "name": "Sundae",
+    "img": "https://i.postimg.cc/x1xTgFJ9/Sundae.jpg",
+    "clue": "Ice cream dessert topped with syrup, nuts, and whipped cream."
+  },
+  {
+    "id": 0,
+    "name": "Syrup",
+    "img": "https://i.postimg.cc/Wb74q4sF/syrup.jpg",
+    "clue": "A thick, sweet liquid often poured over pancakes and waffles."
+  },
+  {
+    "id": 0,
+    "name": "Taco",
+    "img": "https://i.postimg.cc/0Nz54dDD/Taco.jpg",
+    "clue": "A Mexican dish consisting of a folded or rolled tortilla filled with various ingredients."
+  },
+  {
+    "id": 0,
+    "name": "Toast",
+    "img": "https://i.postimg.cc/1t6mmmWz/Toast.jpg",
+    "clue": "Slices of bread that have been browned by heat."
+  },
+  {
+    "id": 0,
+    "name": "Tossed Salad",
+    "img": "https://i.postimg.cc/fb1WQtfF/Tossed-Salad.jpg",
+    "clue": "A mix of greens and vegetables typically served with dressing."
+  },
+  {
+    "id": 0,
+    "name": "Bacon",
+    "img": "https://i.postimg.cc/zvFqhdYZ/Bacon.jpg",
+    "clue": "Thin slices of cured pork that are fried until crispy."
+  },
+  {
+    "id": 0,
+    "name": "Baked Beans",
+    "img": "https://i.postimg.cc/xjvfBdJx/Baked-Beans.jpg",
+    "clue": "Beans cooked in a sweet or savory sauce, often served as a side dish."
+  },
+  {
+    "id": 0,
+    "name": "Baked Potato",
+    "img": "https://i.postimg.cc/NfQstwRg/Baked-Potato.jpg",
+    "clue": "A whole potato baked until tender, often topped with butter, sour cream, and chives."
+  },
+  {
+    "id": 0,
+    "name": "Beef Stew",
+    "img": "https://i.postimg.cc/LsgRD4FV/Beef-Stew.png",
+    "clue": "A hearty dish made with beef, vegetables, and a savory broth."
+  },
+  {
+    "id": 0,
+    "name": "Biscuit",
+    "img": "https://i.postimg.cc/fT5wTgvY/Biscuit.jpg",
+    "clue": "A small, round bread often served with butter or gravy."
+  },
+  {
+    "id": 0,
+    "name": "Bun",
+    "img": "https://i.postimg.cc/13jsDn2t/Bun.jpg",
+    "clue": "A soft, round bread roll used for sandwiches and burgers."
+  },
+  {
+    "id": 0,
+    "name": "Butter",
+    "img": "https://i.postimg.cc/Gm2bBJMV/Butter.jpg",
+    "clue": "A dairy product made from churning cream, used as a spread or cooking ingredient."
+  },
+  {
+    "id": 0,
+    "name": "Coffee",
+    "img": "https://i.postimg.cc/PqXrMnr3/Coffee.jpg",
+    "clue": "A brewed beverage made from roasted coffee beans."
+  },
+  {
+    "id": 0,
+    "name": "Cookie",
+    "img": "https://i.postimg.cc/7LKPst5x/Cookie.jpg",
+    "clue": "A sweet baked treat, often containing chocolate chips or other ingredients."
+  },
+  {
+    "id": 0,
+    "name": "Egg Roll",
+    "img": "https://i.postimg.cc/xC7fYkGh/Egg-Roll.jpg",
+    "clue": "A Chinese appetizer consisting of a rolled and fried wrapper filled with cabbage and meat."
+  },
+  {
+    "id": 0,
+    "name": "French Fries",
+    "img": "https://i.postimg.cc/dQbCjDM5/French-Fries.png",
+    "clue": "Thin strips of potato that are deep-fried until crispy."
+  },
+  {
+    "id": 0,
+    "name": "Fried Chicken",
+    "img": "https://i.postimg.cc/447tcV0K/Fried-Chicken.jpg",
+    "clue": "Chicken pieces that are breaded and fried until crispy."
+  },
+  {
+    "id": 0,
+    "name": "Hamburger",
+    "img": "https://i.postimg.cc/Dm37JtMc/hamburger.jpg",
+    "clue": "A sandwich consisting of a cooked patty of ground meat placed inside a sliced bun."
+  },
+  {
+    "id": 0,
+    "name": "Hot Dog",
+    "img": "https://i.postimg.cc/HnypLpBx/Hot-Dog.jpg",
+    "clue": "A cooked sausage served in a sliced bun, often with condiments."
+  },
+  {
+    "id": 0,
+    "name": "Ice Cream Cone",
+    "img": "https://i.postimg.cc/cLZ8PjLY/Ice-Cream-Cone.jpg",
+    "clue": "A cone-shaped wafer filled with scoops of ice cream."
+  },
+  {
+    "id": 1,
+    "name": "Electric Drill",
+    "img": "https://i.postimg.cc/4xRqv200/electric-drill.jpg",
+    "clue": "A power tool used for drilling holes in various materials."
+  },
+  {
+    "id": 1,
+    "name": "Electrical Tape",
+    "img": "https://i.postimg.cc/4N9j9RWt/electrical-tape.jpg",
+    "clue": "A type of adhesive tape used to insulate electrical wires."
+  },
+  {
+    "id": 1,
+    "name": "Extension Lead",
+    "img": "https://i.postimg.cc/q73tfRwq/extension-lead.jpg",
+    "clue": "A length of electrical cable with a plug at one end and one or more sockets at the other."
+  },
+  {
+    "id": 1,
+    "name": "Glue",
+    "img": "https://i.postimg.cc/nzfXnJSk/glue.jpg",
+    "clue": "An adhesive substance used for sticking objects together."
+  },
+  {
+    "id": 1,
+    "name": "Grounding Plug",
+    "img": "https://i.postimg.cc/0j8rJCsK/grounding-plug.jpg",
+    "clue": "A plug designed to connect an electrical device to the ground for safety."
+  },
+  {
+    "id": 1,
+    "name": "Hacksaw",
+    "img": "https://i.postimg.cc/MT0vTFh8/hacksaw.jpg",
+    "clue": "A saw with a fine-toothed blade used for cutting metal and plastic."
+  },
+  {
+    "id": 1,
+    "name": "Hammer",
+    "img": "https://i.postimg.cc/WpndcxGG/hammer.jpg",
+    "clue": "A hand tool with a heavy head used for driving nails or breaking objects."
+  },
+  {
+    "id": 1,
+    "name": "Hatchet",
+    "img": "https://i.postimg.cc/ncSMC7wM/hatchet.jpg",
+    "clue": "A small axe with a short handle used for chopping."
+  },
+  {
+    "id": 1,
+    "name": "Hook",
+    "img": "https://i.postimg.cc/D0B0Qbvj/hook.jpg",
+    "clue": "A curved piece of metal or other material used for hanging objects."
+  },
+  {
+    "id": 1,
+    "name": "Jigsaw",
+    "img": "https://i.postimg.cc/4NxmfwPr/jigsaw.jpg",
+    "clue": "A power tool with a small, reciprocating blade used for cutting shapes in various materials."
+  },
+  {
+    "id": 1,
+    "name": "Mallet",
+    "img": "https://i.postimg.cc/htJvxjHs/mallet.jpg",
+    "clue": "A tool with a large, heavy head used for striking surfaces without damaging them."
+  },
+  {
+    "id": 1,
+    "name": "Monkey Wrench",
+    "img": "https://i.postimg.cc/rwvm9TTk/monkey-wrench.jpg",
+    "clue": "An adjustable wrench used for turning pipes and fittings."
+  },
+  {
+    "id": 1,
+    "name": "Nail",
+    "img": "https://i.postimg.cc/xdMdxZjb/nail.jpg",
+    "clue": "A small metal spike used to fasten pieces of wood or other materials together."
+  },
+  {
+    "id": 1,
+    "name": "Nut",
+    "img": "https://i.postimg.cc/qRrv9GgD/nut.jpg",
+    "clue": "A small metal block with a hole for a bolt to screw into, used for fastening objects."
+  },
+  {
+    "id": 1,
+    "name": "Outlet",
+    "img": "https://i.postimg.cc/qRGv0C3J/outlet.jpg",
+    "clue": "A socket that connects an electrical device to a power supply."
+  },
+  {
+    "id": 1,
+    "name": "Paintbrush",
+    "img": "https://i.postimg.cc/j2gqn0cB/paintbrush.jpg",
+    "clue": "A tool with bristles used for applying paint."
+  },
+  {
+    "id": 1,
+    "name": "Pan",
+    "img": "https://i.postimg.cc/3rnxcmh9/pan.jpg",
+    "clue": "A flat-bottomed cooking vessel used for frying or sautéing."
+  },
+  {
+    "id": 1,
+    "name": "Pegboard",
+    "img": "https://i.postimg.cc/FszH5zsv/pegboard.jpg",
+    "clue": "A board with holes into which pegs are inserted for hanging tools or other objects."
+  },
+  {
+    "id": 1,
+    "name": "Phillips Screwdriver",
+    "img": "https://i.postimg.cc/3JqJKhdv/Phillips-screwdriver.jpg",
+    "clue": "A screwdriver with a cross-shaped tip used for turning Phillips-head screws."
+  },
+  {
+    "id": 1,
+    "name": "Pliers",
+    "img": "https://i.postimg.cc/cL81Czn5/pliers.jpg",
+    "clue": "A hand tool used for gripping and bending objects."
+  },
+  {
+    "id": 1,
+    "name": "Power Sander",
+    "img": "https://i.postimg.cc/s2djhJPf/power-sander.jpg",
+    "clue": "A power tool used for smoothing surfaces by abrasion with sandpaper."
+  },
+  {
+    "id": 1,
+    "name": "Roller",
+    "img": "https://i.postimg.cc/QMQXkWSQ/roller.jpg",
+    "clue": "A cylindrical tool used for applying paint or ink."
+  },
+  {
+    "id": 1,
+    "name": "Router",
+    "img": "https://i.postimg.cc/9MccxFNv/router.jpg",
+    "clue": "A power tool used for hollowing out an area in the face of a piece of wood."
+  },
+  {
+    "id": 1,
+    "name": "Sandpaper",
+    "img": "https://i.postimg.cc/d1nwgPbD/sandpaper.jpg",
+    "clue": "Paper with a rough surface used for smoothing or polishing."
+  },
+  {
+    "id": 1,
+    "name": "Saw",
+    "img": "https://i.postimg.cc/rsmMkZTj/saw.jpg",
+    "clue": "A tool with a toothed blade used for cutting wood or other materials."
+  },
+  {
+    "id": 1,
+    "name": "Scraper",
+    "img": "https://i.postimg.cc/3rS3Bhjc/scraper.jpg",
+    "clue": "A tool used for removing material from a surface."
+  },
+  {
+    "id": 1,
+    "name": "Screwdriver",
+    "img": "https://i.postimg.cc/8cjQ3Fdn/screwdriver.jpg",
+    "clue": "A tool used for turning screws."
+  },
+  {
+    "id": 1,
+    "name": "Tape Measure",
+    "img": "https://i.postimg.cc/P5ZhT8gg/tape-measure.jpg",
+    "clue": "A flexible ruler used for measuring length."
+  },
+  {
+    "id": 1,
+    "name": "Toolbox",
+    "img": "https://i.postimg.cc/pdHvTLxp/toolbox.jpg",
+    "clue": "A box for storing tools."
+  },
+  {
+    "id": 1,
+    "name": "Vise",
+    "img": "https://i.postimg.cc/d0jYTctn/vise.jpg",
+    "clue": "A clamping device used to hold an object securely while work is done on it."
+  },
+  {
+    "id": 1,
+    "name": "Washer",
+    "img": "https://i.postimg.cc/0Q5qYXzv/washer.jpg",
+    "clue": "A flat disc with a hole used to distribute the load of a threaded fastener."
+  },
+  {
+    "id": 1,
+    "name": "Wire",
+    "img": "https://i.postimg.cc/fLHQB7d9/wire.jpg",
+    "clue": "A thin, flexible strand of metal used to conduct electricity."
+  },
+  {
+    "id": 1,
+    "name": "Wood Plane",
+    "img": "https://i.postimg.cc/mZ5G9wBx/wood-plane.jpg",
+    "clue": "A tool used for shaping wood by shaving off thin layers."
+  },
+  {
+    "id": 1,
+    "name": "Workbench",
+    "img": "https://i.postimg.cc/bvpXPVHn/workbench.jpg",
+    "clue": "A sturdy table at which manual work is done."
+  },
+  {
+    "id": 1,
+    "name": "Wrench",
+    "img": "https://i.postimg.cc/13xhC38J/wrench.jpg",
+    "clue": "A tool used for gripping and turning nuts, bolts, or pipes."
+  },
+  {
+    "id": 1,
+    "name": "Bolt",
+    "img": "https://i.postimg.cc/g2v9fbRd/bolt.jpg",
+    "clue": "A metal pin or bar, typically with a threaded end, used for fastening objects."
+  },
+  {
+    "id": 1,
+    "name": "Brace",
+    "img": "https://i.postimg.cc/NMjW9ynf/brace.jpg",
+    "clue": "A tool used for drilling holes, typically with a hand-cranked mechanism."
+  },
+  {
+    "id": 1,
+    "name": "Circular Saw",
+    "img": "https://i.postimg.cc/HnfKh6kV/circular-saw.jpg",
+    "clue": "A power saw with a circular blade used for cutting wood or other materials."
+  },
+  {
+    "id": 2,
+    "name": "Pajamas",
+    "img": "https://i.postimg.cc/W3cqVH20/pajamas.png",
+    "clue": "Comfortable clothing worn for sleeping."
+  },
+  {
+    "id": 2,
+    "name": "Panties",
+    "img": "https://i.postimg.cc/JzgB6hv6/panties.jpg",
+    "clue": "Women's underwear."
+  },
+  {
+    "id": 2,
+    "name": "Pantyhose",
+    "img": "https://i.postimg.cc/3wv0PTHK/pantyhose.jpg",
+    "clue": "Sheer, close-fitting hosiery covering the legs and sometimes the waist."
+  },
+  {
+    "id": 2,
+    "name": "Slippers",
+    "img": "https://i.postimg.cc/qqkth66R/slippers.jpg",
+    "clue": "Soft, comfortable shoes worn indoors."
+  },
+  {
+    "id": 2,
+    "name": "Socks",
+    "img": "https://i.postimg.cc/KjJ1nct5/socks.jpg",
+    "clue": "Garments worn on the feet and typically covering the ankle or calf."
+  },
+  {
+    "id": 2,
+    "name": "Stockings",
+    "img": "https://i.postimg.cc/d1RkVj1p/stockings.jpg",
+    "clue": "Close-fitting, elastic garments worn on the legs, typically held up by suspenders or garters."
+  },
+  {
+    "id": 2,
+    "name": "Underpants",
+    "img": "https://i.postimg.cc/jqXnVcBJ/underpants.jpg",
+    "clue": "Garments worn under the clothes to cover the lower body."
+  },
+  {
+    "id": 2,
+    "name": "Undershirt",
+    "img": "https://i.postimg.cc/Ghm8bY1g/undershirt.jpg",
+    "clue": "A shirt worn beneath other clothing for warmth or to absorb sweat."
+  },
+  {
+    "id": 2,
+    "name": "Athletic Supporter",
+    "img": "https://i.postimg.cc/PrVLJxXX/athletic-supporter.jpg",
+    "clue": "A garment worn by men to support the genitals during sports."
+  },
+  {
+    "id": 2,
+    "name": "Bathrobe",
+    "img": "https://i.postimg.cc/dVzLRxZg/bathrobe.jpg",
+    "clue": "A loose-fitting robe worn before or after bathing."
+  },
+  {
+    "id": 2,
+    "name": "Boxer Shorts",
+    "img": "https://i.postimg.cc/Bn8jK0bx/boxer-shorts.jpg",
+    "clue": "Loose-fitting underwear for men."
+  },
+  {
+    "id": 2,
+    "name": "Bra",
+    "img": "https://i.postimg.cc/cHWC2tmm/bra.jpg",
+    "clue": "An undergarment worn by women to support the breasts."
+  },
+  {
+    "id": 2,
+    "name": "Briefs",
+    "img": "https://i.postimg.cc/pdzysJDr/briefs.jpg",
+    "clue": "Close-fitting underwear that covers the body from the waist to the top of the thighs."
+  },
+  {
+    "id": 2,
+    "name": "Camisole",
+    "img": "https://i.postimg.cc/50myV9KM/camisole.jpg",
+    "clue": "A women's sleeveless undergarment."
+  },
+  {
+    "id": 2,
+    "name": "Full Slip",
+    "img": "https://i.postimg.cc/RhVFVr2J/full-slip.jpg",
+    "clue": "A woman's undergarment worn beneath a dress or skirt, extending from the shoulders to the upper thighs or knees."
+  },
+  {
+    "id": 2,
+    "name": "Garter Belt",
+    "img": "https://i.postimg.cc/4yL3YLTL/garter-belt.jpg",
+    "clue": "A belt with attached garters, worn to hold up stockings."
+  },
+  {
+    "id": 2,
+    "name": "Girdle",
+    "img": "https://i.postimg.cc/GtrDFSVb/girdle.jpg",
+    "clue": "A tight-fitting undergarment worn to shape and support the body."
+  },
+  {
+    "id": 2,
+    "name": "Half Slip",
+    "img": "https://i.postimg.cc/tRtWqpnJ/half-slip.jpg",
+    "clue": "A woman's undergarment worn beneath a skirt, extending from the waist to the upper thighs or knees."
+  },
+  {
+    "id": 2,
+    "name": "Knee Socks",
+    "img": "https://i.postimg.cc/x8Rzt3VM/knee-socks.jpg",
+    "clue": "Socks that extend up to the knees."
+  },
+  {
+    "id": 2,
+    "name": "Long Johns",
+    "img": "https://i.postimg.cc/jdxNCmyX/long-johns.jpg",
+    "clue": "Warm underwear covering the legs, worn in cold weather."
+  },
+  {
+    "id": 2,
+    "name": "Nightgown",
+    "img": "https://i.postimg.cc/QdVTJ74K/nightgown.jpg",
+    "clue": "A loose-fitting garment worn for sleeping."
+  },
+  {
+    "id": 3,
+    "name": "Fabric Softener",
+    "img": "https://i.postimg.cc/g2zSKg8c/fabric-softener.jpg",
+    "clue": "A product used in laundering to make fabrics softer and reduce static cling."
+  },
+  {
+    "id": 3,
+    "name": "Feather Duster",
+    "img": "https://i.postimg.cc/4yRwHPXg/feather-duster.jpg",
+    "clue": "A cleaning tool with feathers attached to a handle, used for dusting."
+  },
+  {
+    "id": 3,
+    "name": "Flashlight",
+    "img": "https://i.postimg.cc/JzpTYj5N/flashlight.jpg",
+    "clue": "A portable hand-held electric light."
+  },
+  {
+    "id": 3,
+    "name": "Garbage Can",
+    "img": "https://i.postimg.cc/VNTKm1T5/garbage-can.jpg",
+    "clue": "A container for storing waste until it is disposed of."
+  },
+  {
+    "id": 3,
+    "name": "Ironing Board",
+    "img": "https://i.postimg.cc/598sdhmN/ironing-board.jpg",
+    "clue": "A long, narrow board covered with a cloth, used for ironing clothes."
+  },
+  {
+    "id": 3,
+    "name": "Laundry Basket",
+    "img": "https://i.postimg.cc/FzbpySKJ/laundry-basket.jpg",
+    "clue": "A container used to carry dirty clothes to the washing machine."
+  },
+  {
+    "id": 3,
+    "name": "Light Bulb",
+    "img": "https://i.postimg.cc/5N1nxsP5/light-bulb.jpg",
+    "clue": "An electric device that produces light."
+  },
+  {
+    "id": 3,
+    "name": "Mop Refill",
+    "img": "https://i.postimg.cc/CxrNsSwJ/mop-refill.jpg",
+    "clue": "A replacement head for a cleaning tool used on floors."
+  },
+  {
+    "id": 3,
+    "name": "Mousetrap",
+    "img": "https://i.postimg.cc/nLs1dgzx/mousetrap.jpg",
+    "clue": "A device used for catching rodents."
+  },
+  {
+    "id": 3,
+    "name": "Paper Towel",
+    "img": "https://i.postimg.cc/PJHz5qMf/paper-towel.jpg",
+    "clue": "An absorbent paper used for cleaning up spills."
+  },
+  {
+    "id": 3,
+    "name": "Pipe",
+    "img": "https://i.postimg.cc/SRGL2pZ6/pipe.jpg",
+    "clue": "A tube through which liquids or gases can flow."
+  },
+  {
+    "id": 3,
+    "name": "Plunger",
+    "img": "https://i.postimg.cc/Qt1JD71n/plunger.jpg",
+    "clue": "A tool used to clear blockages in drains and toilets."
+  },
+  {
+    "id": 3,
+    "name": "Rags",
+    "img": "https://i.postimg.cc/s2t4bmQh/rags.jpg",
+    "clue": "Pieces of old cloth used for cleaning."
+  },
+  {
+    "id": 3,
+    "name": "Sponge Mop",
+    "img": "https://i.postimg.cc/pVQJ1D2m/sponge-mop.jpg",
+    "clue": "A cleaning tool with a sponge head for mopping floors."
+  },
+  {
+    "id": 3,
+    "name": "Spray Starch",
+    "img": "https://i.postimg.cc/ncHG8Cz0/spray-starch.jpg",
+    "clue": "A product sprayed on clothes before ironing to make them stiff."
+  },
+  {
+    "id": 3,
+    "name": "Stepladder",
+    "img": "https://i.postimg.cc/J4PcRMHm/stepladder.jpg",
+    "clue": "A small portable ladder used for reaching heights."
+  },
+  {
+    "id": 3,
+    "name": "Vacuum Cleaner",
+    "img": "https://i.postimg.cc/sgxPXq5W/vacuum-cleaner.jpg",
+    "clue": "A device that uses suction to remove dirt from floors and other surfaces."
+  },
+  {
+    "id": 3,
+    "name": "Washing Machine",
+    "img": "https://i.postimg.cc/jS1HJchF/washing-machine.jpg",
+    "clue": "A household appliance used for washing clothes."
+  },
+  {
+    "id": 3,
+    "name": "Washing Powder",
+    "img": "https://i.postimg.cc/N0r18XJf/washing-powder.jpg",
+    "clue": "A detergent used in the washing machine to clean clothes."
+  },
+  {
+    "id": 3,
+    "name": "Window Cleaner",
+    "img": "https://i.postimg.cc/9M5yLfKP/window-cleaner.jpg",
+    "clue": "A product used to clean glass surfaces."
+  },
+  {
+    "id": 3,
+    "name": "Attachment",
+    "img": "https://i.postimg.cc/RF7KyBxk/attachment.jpg",
+    "clue": "An accessory that connects to a main device to enhance its function."
+  },
+  {
+    "id": 3,
+    "name": "Bleach",
+    "img": "https://i.postimg.cc/3N3mHcKd/bleach.jpg",
+    "clue": "A strong chemical used for whitening clothes and disinfecting surfaces."
+  },
+  {
+    "id": 3,
+    "name": "Broom",
+    "img": "https://i.postimg.cc/022DWFW4/broom.jpg",
+    "clue": "A tool with a long handle and bristles used for sweeping floors."
+  },
+  {
+    "id": 3,
+    "name": "Bucket",
+    "img": "https://i.postimg.cc/BbNDZB6N/bucket.jpg",
+    "clue": "A container with a handle used for carrying liquids."
+  },
+  {
+    "id": 3,
+    "name": "Circuit Breaker",
+    "img": "https://i.postimg.cc/c1cfc0mY/circuit-breaker.jpg",
+    "clue": "A safety device that stops the flow of electricity in a circuit."
+  },
+  {
+    "id": 3,
+    "name": "Cleanser",
+    "img": "https://i.postimg.cc/Qx45Rmvd/cleanser.jpg",
+    "clue": "A cleaning product used to remove dirt and stains."
+  },
+  {
+    "id": 3,
+    "name": "Clothesline",
+    "img": "https://i.postimg.cc/7Z57D7yM/clothesline.jpg",
+    "clue": "A cord or wire on which clothes are hung to dry."
+  },
+  {
+    "id": 3,
+    "name": "Clothespin",
+    "img": "https://i.postimg.cc/CLHrD3Z6/clothespin.jpg",
+    "clue": "A small clip used to hold clothes on a clothesline."
+  },
+  {
+    "id": 3,
+    "name": "Dryer",
+    "img": "https://i.postimg.cc/xTSFXfdz/dryer.jpg",
+    "clue": "An appliance used to dry clothes after they have been washed."
+  },
+  {
+    "id": 3,
+    "name": "Dustpan",
+    "img": "https://i.postimg.cc/zf3xs3x9/dustpan.jpg",
+    "clue": "A flat container used with a broom to collect dust and debris."
+  },
+  {
+    "id": 4,
+    "name": "Baby Lotion",
+    "img": "https://i.postimg.cc/d1HS7rLQ/baby-lotion.png",
+    "clue": "A gentle moisturizer used on a baby's skin."
+  },
+  {
+    "id": 4,
+    "name": "Baby Powder",
+    "img": "https://i.postimg.cc/1t5j5JRY/baby-powder.jpg",
+    "clue": "A powder used to keep a baby's skin dry and soft."
+  },
+  {
+    "id": 4,
+    "name": "Baby Wipes",
+    "img": "https://i.postimg.cc/prmcKrFf/baby-wipes.jpg",
+    "clue": "Disposable cloths used for cleaning a baby's skin."
+  },
+  {
+    "id": 4,
+    "name": "Bib",
+    "img": "https://i.postimg.cc/BbRYp3Td/bib.jpg",
+    "clue": "A piece of cloth worn around a baby's neck to keep clothes clean while eating."
+  },
+  {
+    "id": 4,
+    "name": "Block",
+    "img": "https://i.postimg.cc/RCYD47kX/block.jpg",
+    "clue": "A small solid piece of material often used as a toy for building."
+  },
+  {
+    "id": 4,
+    "name": "Bottle",
+    "img": "https://i.postimg.cc/65G137ww/bottle.jpg",
+    "clue": "A container with a narrow neck used to hold liquids."
+  },
+  {
+    "id": 4,
+    "name": "Bumper",
+    "img": "https://i.postimg.cc/L8KQZH6P/bumper.jpg",
+    "clue": "A padded guard around a baby's crib to prevent injury."
+  },
+  {
+    "id": 4,
+    "name": "Changing Table",
+    "img": "https://i.postimg.cc/jqvRXFJC/changing-table.jpg",
+    "clue": "A table used for changing a baby's diaper."
+  },
+  {
+    "id": 4,
+    "name": "Cloth Diaper",
+    "img": "https://i.postimg.cc/8P0N8f4S/cloth-diaper.jpg",
+    "clue": "A reusable fabric diaper."
+  },
+  {
+    "id": 4,
+    "name": "Cotton Bud",
+    "img": "https://i.postimg.cc/4NdsFQzP/cotton-bud.jpg",
+    "clue": "A small stick with cotton at both ends, used for cleaning."
+  },
+  {
+    "id": 4,
+    "name": "Cradle",
+    "img": "https://i.postimg.cc/43CGyCj2/cradle.png",
+    "clue": "A small bed for a baby that can rock back and forth."
+  },
+  {
+    "id": 4,
+    "name": "Crib",
+    "img": "https://i.postimg.cc/1XWP38ZD/crib.jpg",
+    "clue": "A small bed with high sides for a baby or young child."
+  },
+  {
+    "id": 4,
+    "name": "Disposable Diaper",
+    "img": "https://i.postimg.cc/wjRH9x4s/disposable-diaper.jpg",
+    "clue": "A single-use diaper that is thrown away after use."
+  },
+  {
+    "id": 4,
+    "name": "Doll House",
+    "img": "https://i.postimg.cc/DzqTbjTv/doll-house.jpg",
+    "clue": "A miniature house used as a toy for dolls."
+  },
+  {
+    "id": 4,
+    "name": "Mobile",
+    "img": "https://i.postimg.cc/3Nw5V3DN/mobile.jpg",
+    "clue": "A hanging structure with moving parts, often placed above a baby's crib."
+  },
+  {
+    "id": 4,
+    "name": "Nipple",
+    "img": "https://i.postimg.cc/0Qn1Vzjh/nipple.jpg",
+    "clue": "The rubber or silicone part of a baby bottle that the baby sucks on."
+  },
+  {
+    "id": 4,
+    "name": "Pacifier",
+    "img": "https://i.postimg.cc/mk6fGKQw/pacifier.jpg",
+    "clue": "A rubber or plastic object given to a baby to suck on for comfort."
+  },
+  {
+    "id": 4,
+    "name": "Playpen",
+    "img": "https://i.postimg.cc/T2kXm5ZD/playpen.jpg",
+    "clue": "An enclosed space where a baby can play safely."
+  },
+  {
+    "id": 4,
+    "name": "Potty",
+    "img": "https://i.postimg.cc/GhHnjhCS/potty.jpg",
+    "clue": "A small chair with a bowl, used by young children when learning to use the toilet."
+  },
+  {
+    "id": 4,
+    "name": "Puzzle",
+    "img": "https://i.postimg.cc/q7df0sC9/puzzle.png",
+    "clue": "A game or toy consisting of pieces that fit together to form a picture."
+  },
+  {
+    "id": 4,
+    "name": "Rattle",
+    "img": "https://i.postimg.cc/VLpQZQss/rattle.jpg",
+    "clue": "A toy that makes noise when shaken, often given to babies."
+  },
+  {
+    "id": 4,
+    "name": "Rocking Chair",
+    "img": "https://i.postimg.cc/Z5Nk1708/rocking-chair.jpg",
+    "clue": "A chair mounted on rockers, allowing the occupant to rock back and forth."
+  },
+  {
+    "id": 4,
+    "name": "Safety Pin",
+    "img": "https://i.postimg.cc/tgdKgs37/safety-pin.jpg",
+    "clue": "A pin with a spring mechanism and clasp, used for fastening."
+  },
+  {
+    "id": 4,
+    "name": "Shade",
+    "img": "https://i.postimg.cc/j5sGnRcc/shade.jpg",
+    "clue": "A covering used to block light, often found on windows."
+  },
+  {
+    "id": 4,
+    "name": "Smoke Alarm",
+    "img": "https://i.postimg.cc/vTTkXXp6/smoke-alarm.jpg",
+    "clue": "A device that detects smoke and sounds an alarm to alert occupants."
+  },
+  {
+    "id": 4,
+    "name": "Stretchie",
+    "img": "https://i.postimg.cc/sxL8L7rH/stretchie.jpg",
+    "clue": "A one-piece, stretchy outfit for babies, often used for sleep."
+  },
+  {
+    "id": 4,
+    "name": "Stroller",
+    "img": "https://i.postimg.cc/dQNzDPyR/stroller.jpg",
+    "clue": "A wheeled chair for pushing a baby or young child."
+  },
+  {
+    "id": 4,
+    "name": "Stuffed Animal",
+    "img": "https://i.postimg.cc/4Nrqb6wm/stuffed-animal.jpg",
+    "clue": "A soft toy in the shape of an animal, often cuddled by children."
+  },
+  {
+    "id": 4,
+    "name": "Swing",
+    "img": "https://i.postimg.cc/vH1CVqrJ/swing.jpg",
+    "clue": "A seat suspended by ropes or chains, used for swinging back and forth."
+  },
+  {
+    "id": 4,
+    "name": "Teddy Bear",
+    "img": "https://i.postimg.cc/VknT7JH4/teddy-bear.jpg",
+    "clue": "A soft toy bear, often a child's favorite companion."
+  },
+  {
+    "id": 4,
+    "name": "Toy Chest",
+    "img": "https://i.postimg.cc/8CGYxT2G/toy-chest.jpg",
+    "clue": "A large box for storing children's toys."
+  },
+  {
+    "id": 4,
+    "name": "Walker",
+    "img": "https://i.postimg.cc/9fBkhv27/walker.jpg",
+    "clue": "A device used by babies to help them learn to walk."
+  },
+  {
+    "id": 5,
+    "name": "Crab",
+    "img": "https://i.postimg.cc/fyYm4hn4/crab.jpg",
+    "clue": "A sea creature with a hard shell and pincers."
+  },
+  {
+    "id": 5,
+    "name": "Jellyfish",
+    "img": "https://i.postimg.cc/kMSxRWVj/jellyfish.jpg",
+    "clue": "A sea creature with a gelatinous body and tentacles."
+  },
+  {
+    "id": 5,
+    "name": "Lobster",
+    "img": "https://i.postimg.cc/sDR5Y173/lobster.jpg",
+    "clue": "A large sea creature with a long body, claws, and a hard shell."
+  },
+  {
+    "id": 5,
+    "name": "Mussel",
+    "img": "https://i.postimg.cc/G3TjPZfx/mussel.jpg",
+    "clue": "A shellfish with a dark, elongated shell."
+  },
+  {
+    "id": 5,
+    "name": "Octopus",
+    "img": "https://i.postimg.cc/W18mbjDT/octopus.jpg",
+    "clue": "A sea animal with eight arms and a soft body."
+  },
+  {
+    "id": 5,
+    "name": "Oyster",
+    "img": "https://i.postimg.cc/kXrvTT33/oyster.jpg",
+    "clue": "A shellfish known for producing pearls."
+  },
+  {
+    "id": 5,
+    "name": "Scallop",
+    "img": "https://i.postimg.cc/WbM6C0TD/scallop.jpg",
+    "clue": "A shellfish with a fan-shaped shell, often served as seafood."
+  },
+  {
+    "id": 5,
+    "name": "Shrimp",
+    "img": "https://i.postimg.cc/XvDwd8cP/shrimp.jpg",
+    "clue": "A small, pink sea creature commonly used in cooking."
+  },
+  {
+    "id": 5,
+    "name": "Slug",
+    "img": "https://i.postimg.cc/rwMCkzwf/slug.jpg",
+    "clue": "A small, slimy creature without a shell, often found in gardens."
+  },
+  {
+    "id": 5,
+    "name": "Snail",
+    "img": "https://i.postimg.cc/tgg3sfPP/snail.jpg",
+    "clue": "A small creature with a coiled shell, found on land and in water."
+  },
+  {
+    "id": 5,
+    "name": "Squid",
+    "img": "https://i.postimg.cc/sXQ5chTg/squid.jpg",
+    "clue": "A sea creature with a long body and ten arms."
+  },
+  {
+    "id": 5,
+    "name": "Starfish",
+    "img": "https://i.postimg.cc/NM3mPjn7/starfish.jpg",
+    "clue": "A sea animal with five or more arms radiating from a central body."
+  },
+  {
+    "id": 5,
+    "name": "Worm",
+    "img": "https://i.postimg.cc/m2NC8RyC/worm.jpg",
+    "clue": "A small, elongated, soft-bodied creature that lives in soil."
+  },
+  {
+    "id": 6,
+    "name": "Bluejay",
+    "img": "https://i.postimg.cc/RF8svtPk/bluejay.jpg",
+    "clue": "A blue and white bird known for its loud calls."
+  },
+  {
+    "id": 6,
+    "name": "Canary",
+    "img": "https://i.postimg.cc/zDb20dv8/canary.jpg",
+    "clue": "A small, yellow bird often kept as a pet for its singing."
+  },
+  {
+    "id": 6,
+    "name": "Cardinal",
+    "img": "https://i.postimg.cc/QN24PpK5/cardinal.jpg",
+    "clue": "A red bird commonly found in North America."
+  },
+  {
+    "id": 6,
+    "name": "Chicken",
+    "img": "https://i.postimg.cc/y8Bf6sP8/chicken.png",
+    "clue": "A common farm bird raised for its eggs and meat."
+  },
+  {
+    "id": 6,
+    "name": "Crow",
+    "img": "https://i.postimg.cc/QdbfHw4k/crow.jpg",
+    "clue": "A large, black bird known for its intelligence."
+  },
+  {
+    "id": 6,
+    "name": "Duck",
+    "img": "https://i.postimg.cc/13prqwf0/duck.jpg",
+    "clue": "A waterfowl with a broad, flat bill and webbed feet."
+  },
+  {
+    "id": 6,
+    "name": "Eagle",
+    "img": "https://i.postimg.cc/jjc68T6L/eagle.jpg",
+    "clue": "A large bird of prey with a hooked beak and keen eyesight."
+  },
+  {
+    "id": 6,
+    "name": "Egg",
+    "img": "https://i.postimg.cc/yNsXXxZM/egg.jpg",
+    "clue": "The oval reproductive body produced by birds, commonly eaten as food."
+  },
+  {
+    "id": 6,
+    "name": "Flamingo",
+    "img": "https://i.postimg.cc/tJKF14bm/flamingo.jpg",
+    "clue": "A pink bird with long legs and a long neck, often found in lagoons."
+  },
+  {
+    "id": 6,
+    "name": "Goose",
+    "img": "https://i.postimg.cc/fLbcpP55/goose.jpg",
+    "clue": "A large waterfowl known for its migratory behavior."
+  },
+  {
+    "id": 6,
+    "name": "Hawk",
+    "img": "https://i.postimg.cc/Gt8khsWy/hawk.jpg",
+    "clue": "A bird of prey known for its sharp talons and keen vision."
+  },
+  {
+    "id": 6,
+    "name": "Hummingbird",
+    "img": "https://i.postimg.cc/wvbXpkGz/hummingbird.jpg",
+    "clue": "A tiny bird known for its rapid wing beats and ability to hover."
+  },
+  {
+    "id": 6,
+    "name": "Nest",
+    "img": "https://i.postimg.cc/WbZMBg6R/nest.jpg",
+    "clue": "A structure built by birds to lay and incubate their eggs."
+  },
+  {
+    "id": 6,
+    "name": "Ostrich",
+    "img": "https://i.postimg.cc/VspqZDtB/ostrich.jpg",
+    "clue": "The largest bird, known for its long neck and inability to fly."
+  },
+  {
+    "id": 6,
+    "name": "Owl",
+    "img": "https://i.postimg.cc/FHg0RvBD/owl.jpg",
+    "clue": "A nocturnal bird of prey with a distinctive hoot."
+  },
+  {
+    "id": 6,
+    "name": "Parakeet",
+    "img": "https://i.postimg.cc/HkCQdnBr/parakeet.jpg",
+    "clue": "A small, colorful bird often kept as a pet."
+  },
+  {
+    "id": 6,
+    "name": "Parrot",
+    "img": "https://i.postimg.cc/GpLGTN0r/parrot.jpg",
+    "clue": "A tropical bird known for its ability to mimic human speech."
+  },
+  {
+    "id": 6,
+    "name": "Peacock",
+    "img": "https://i.postimg.cc/DZmGBXyM/peacock.jpg",
+    "clue": "A bird known for its iridescent tail feathers."
+  },
+  {
+    "id": 6,
+    "name": "Pelican",
+    "img": "https://i.postimg.cc/s2TSYcyW/pelican.jpg",
+    "clue": "A large water bird with a long beak and a pouch for catching fish."
+  },
+  {
+    "id": 6,
+    "name": "Penguin",
+    "img": "https://i.postimg.cc/B6yKynjQ/penguin.jpg",
+    "clue": "A flightless bird adapted to life in the water and cold climates."
+  },
+  {
+    "id": 6,
+    "name": "Pheasant",
+    "img": "https://i.postimg.cc/WtcJNYmB/pheasant.jpg",
+    "clue": "A game bird known for its colorful plumage."
+  },
+  {
+    "id": 6,
+    "name": "Pigeon",
+    "img": "https://i.postimg.cc/7h22yrz1/pigeon.jpg",
+    "clue": "A common urban bird known for its cooing."
+  },
+  {
+    "id": 6,
+    "name": "Roadrunner",
+    "img": "https://i.postimg.cc/WphCxNWR/roadrunner.jpg",
+    "clue": "A bird known for its speed and distinctive call."
+  },
+  {
+    "id": 6,
+    "name": "Robin",
+    "img": "https://i.postimg.cc/RCyyBkyW/robin.jpg",
+    "clue": "A small, red-breasted bird commonly seen in gardens."
+  },
+  {
+    "id": 6,
+    "name": "Rooster",
+    "img": "https://i.postimg.cc/ZKNgKfzV/rooster.jpg",
+    "clue": "A male chicken known for its crowing."
+  },
+  {
+    "id": 6,
+    "name": "Seagull",
+    "img": "https://i.postimg.cc/Sx7vcJs9/seagull.jpg",
+    "clue": "A bird commonly found near the sea, known for its scavenging."
+  },
+  {
+    "id": 6,
+    "name": "Sparrow",
+    "img": "https://i.postimg.cc/P5k7Lmth/sparrow.jpg",
+    "clue": "A small, brown bird commonly found in gardens and parks."
+  },
+  {
+    "id": 6,
+    "name": "Stork",
+    "img": "https://i.postimg.cc/wBqb2gyG/stork.jpg",
+    "clue": "A tall bird known for its long legs and migratory behavior."
+  },
+  {
+    "id": 6,
+    "name": "Swan",
+    "img": "https://i.postimg.cc/KY0pswtv/swan.jpg",
+    "clue": "A large waterbird known for its grace and white feathers."
+  },
+  {
+    "id": 6,
+    "name": "Turkey",
+    "img": "https://i.postimg.cc/RFqprdT1/turkey.jpg",
+    "clue": "A large bird commonly eaten during Thanksgiving in the United States."
+  },
+  {
+    "id": 6,
+    "name": "Woodpecker",
+    "img": "https://i.postimg.cc/j2782jmL/woodpecker.jpg",
+    "clue": "A bird known for pecking at tree bark to find insects."
+  },
+  {
+    "id": 7,
+    "name": "Drum",
+    "img": "https://i.postimg.cc/QdhZ5gfh/drum.jpg",
+    "clue": "A musical instrument played by striking its surface with sticks."
+  },
+  {
+    "id": 7,
+    "name": "Flute",
+    "img": "https://i.postimg.cc/RCJmzZ35/flute.jpg",
+    "clue": "A woodwind instrument played by blowing air across an opening."
+  },
+  {
+    "id": 7,
+    "name": "French Horn",
+    "img": "https://i.postimg.cc/Cx7T4Z2D/French-horn.jpg",
+    "clue": "A brass instrument with a coiled tube and a flared bell."
+  },
+  {
+    "id": 7,
+    "name": "Guitar",
+    "img": "https://i.postimg.cc/DyqK8pdx/guitar.jpg",
+    "clue": "A stringed instrument played by strumming or plucking."
+  },
+  {
+    "id": 7,
+    "name": "Harmonica",
+    "img": "https://i.postimg.cc/65sX6xR7/harmonica.jpg",
+    "clue": "A small, handheld instrument played by blowing air through reed chambers."
+  },
+  {
+    "id": 7,
+    "name": "Harp",
+    "img": "https://i.postimg.cc/vmmR2YRK/harp.jpg",
+    "clue": "A large, stringed instrument played by plucking with fingers."
+  },
+  {
+    "id": 7,
+    "name": "Kettledrum",
+    "img": "https://i.postimg.cc/Dzp9t9nw/kettledrum.jpg",
+    "clue": "A large drum with a rounded bottom, played in orchestras."
+  },
+  {
+    "id": 7,
+    "name": "Mandolin",
+    "img": "https://i.postimg.cc/W3DBj516/mandolin.jpg",
+    "clue": "A small, stringed instrument with a pear-shaped body."
+  },
+  {
+    "id": 7,
+    "name": "Oboe",
+    "img": "https://i.postimg.cc/KzddYtKX/oboe.jpg",
+    "clue": "A woodwind instrument with a double reed."
+  },
+  {
+    "id": 7,
+    "name": "Organ",
+    "img": "https://i.postimg.cc/J7kf2YgR/organ.jpg",
+    "clue": "A large keyboard instrument with pipes that produce sound."
+  },
+  {
+    "id": 7,
+    "name": "Piano",
+    "img": "https://i.postimg.cc/L5LGghfJ/piano.jpg",
+    "clue": "A large keyboard instrument played by pressing keys."
+  },
+  {
+    "id": 7,
+    "name": "Piccolo",
+    "img": "https://i.postimg.cc/kXP03F3K/piccolo.jpg",
+    "clue": "A small, high-pitched woodwind instrument."
+  },
+  {
+    "id": 7,
+    "name": "Saxophone",
+    "img": "https://i.postimg.cc/7Zmd2FCn/saxophone.jpg",
+    "clue": "A brass wind instrument commonly used in jazz."
+  },
+  {
+    "id": 7,
+    "name": "Sheet Music",
+    "img": "https://i.postimg.cc/139b4mzz/sheet-music.jpg",
+    "clue": "Written music notation used by musicians to play compositions."
+  },
+  {
+    "id": 7,
+    "name": "Tambourine",
+    "img": "https://i.postimg.cc/vmTjL0fF/tambourine.jpg",
+    "clue": "A percussion instrument with jingles, played by shaking or hitting."
+  },
+  {
+    "id": 7,
+    "name": "Trombone",
+    "img": "https://i.postimg.cc/hGYYCV1J/trombone.jpg",
+    "clue": "A brass instrument with a telescoping slide used to change pitch."
+  },
+  {
+    "id": 7,
+    "name": "Trumpet",
+    "img": "https://i.postimg.cc/4y6FNqkt/trumpet.jpg",
+    "clue": "A brass instrument with three valves and a bright, piercing sound."
+  },
+  {
+    "id": 7,
+    "name": "Tuba",
+    "img": "https://i.postimg.cc/3RDczWtt/tuba.jpg",
+    "clue": "The largest brass instrument, producing deep, low notes."
+  },
+  {
+    "id": 7,
+    "name": "Ukulele",
+    "img": "https://i.postimg.cc/6qJmKwSt/ukulele.jpg",
+    "clue": "A small, four-stringed instrument resembling a guitar."
+  },
+  {
+    "id": 7,
+    "name": "Viola",
+    "img": "https://i.postimg.cc/KcBWNkkz/viola.jpg",
+    "clue": "A stringed instrument slightly larger than a violin."
+  },
+  {
+    "id": 7,
+    "name": "Violin",
+    "img": "https://i.postimg.cc/02vBHkDC/violin.png",
+    "clue": "A small, high-pitched stringed instrument played with a bow."
+  },
+  {
+    "id": 7,
+    "name": "Xylophone",
+    "img": "https://i.postimg.cc/3xJbYtL4/xylophone.jpg",
+    "clue": "A percussion instrument with wooden bars struck by mallets."
+  },
+  {
+    "id": 7,
+    "name": "Accordion",
+    "img": "https://i.postimg.cc/9Q8gMySx/accordion.jpg",
+    "clue": "A portable, box-shaped instrument played by expanding and contracting bellows."
+  },
+  {
+    "id": 7,
+    "name": "Banjo",
+    "img": "https://i.postimg.cc/1t6vJ2zT/banjo.jpg",
+    "clue": "A stringed instrument with a round body and a long neck."
+  },
+  {
+    "id": 7,
+    "name": "Bassoon",
+    "img": "https://i.postimg.cc/KY1qgRhm/bassoon.jpg",
+    "clue": "A large woodwind instrument with a double reed."
+  },
+  {
+    "id": 7,
+    "name": "Bongos",
+    "img": "https://i.postimg.cc/0NhtGP9D/bongos.jpg",
+    "clue": "A pair of small drums played with the hands."
+  },
+  {
+    "id": 7,
+    "name": "Cello",
+    "img": "https://i.postimg.cc/5yVnGgYt/cello.png",
+    "clue": "A large stringed instrument played with a bow, producing deep, rich tones."
+  },
+  {
+    "id": 7,
+    "name": "Clarinet",
+    "img": "https://i.postimg.cc/63yXq9YZ/clarinet.jpg",
+    "clue": "A woodwind instrument with a single reed."
+  },
+  {
+    "id": 7,
+    "name": "Conga",
+    "img": "https://i.postimg.cc/3NGQjtMJ/conga.jpg",
+    "clue": "A tall, narrow drum played with the hands, used in Latin music."
+  },
+  {
+    "id": 7,
+    "name": "Cymbals",
+    "img": "https://i.postimg.cc/wvZdsSGG/cymbals.jpg",
+    "clue": "Percussion instruments made of metal plates, played by striking together."
+  },
+  {
+    "id": 8,
+    "name": "Salad Bowl",
+    "img": "https://i.postimg.cc/h4H6B8xc/salad-bowl.jpg",
+    "clue": "A large bowl used for mixing and serving salad."
+  },
+  {
+    "id": 8,
+    "name": "Salt Cellar",
+    "img": "https://i.postimg.cc/TYgSYyqm/salt-cellar.jpg",
+    "clue": "A small container used for holding salt."
+  },
+  {
+    "id": 8,
+    "name": "Saucer",
+    "img": "https://i.postimg.cc/P5H7Lt27/saucer.jpg",
+    "clue": "A small, shallow dish placed under a cup."
+  },
+  {
+    "id": 8,
+    "name": "Silverware",
+    "img": "https://i.postimg.cc/ht05THYt/silverware.jpg",
+    "clue": "Eating utensils, such as forks, knives, and spoons."
+  },
+  {
+    "id": 8,
+    "name": "Spoon",
+    "img": "https://i.postimg.cc/8CPnHZ8B/spoon.png",
+    "clue": "A utensil with a shallow bowl for eating or serving food."
+  },
+  {
+    "id": 8,
+    "name": "Sugar Bowl",
+    "img": "https://i.postimg.cc/NMKChLjK/sugar-bowl.jpg",
+    "clue": "A small container used for holding sugar."
+  },
+  {
+    "id": 8,
+    "name": "Tablecloth",
+    "img": "https://i.postimg.cc/V62Gz1JD/tablecloth.jpg",
+    "clue": "A cloth covering for a dining table."
+  },
+  {
+    "id": 8,
+    "name": "Teapot",
+    "img": "https://i.postimg.cc/3NpLR6p7/teapot.jpg",
+    "clue": "A vessel used for brewing and serving tea."
+  },
+  {
+    "id": 8,
+    "name": "Water Glass",
+    "img": "https://i.postimg.cc/vHFqjYFm/water-glass.jpg",
+    "clue": "A glass used for drinking water."
+  },
+  {
+    "id": 8,
+    "name": "Wine Glass",
+    "img": "https://i.postimg.cc/FFJCDf6q/wine-glass.jpg",
+    "clue": "A glass used for drinking wine, with a stem and base."
+  },
+  {
+    "id": 8,
+    "name": "Bread and Butter Plate",
+    "img": "https://i.postimg.cc/QxQ4Z2hJ/bread-and-butter-plate.jpg",
+    "clue": "A small plate used for serving bread and butter."
+  },
+  {
+    "id": 8,
+    "name": "Buffet",
+    "img": "https://i.postimg.cc/nhndF3Lb/buffet.jpg",
+    "clue": "A table with a variety of foods where guests serve themselves."
+  },
+  {
+    "id": 8,
+    "name": "Candlestick",
+    "img": "https://i.postimg.cc/Gp2qY9YX/candlestick.jpg",
+    "clue": "A holder for one or more candles."
+  },
+  {
+    "id": 8,
+    "name": "Chair",
+    "img": "https://i.postimg.cc/mr5VSRyB/chair.jpg",
+    "clue": "A piece of furniture designed for sitting."
+  },
+  {
+    "id": 8,
+    "name": "Chandelier",
+    "img": "https://i.postimg.cc/sXGm68TS/chandelier.jpg",
+    "clue": "A decorative ceiling-mounted light fixture with branches for bulbs or candles."
+  },
+  {
+    "id": 8,
+    "name": "China Closet",
+    "img": "https://i.postimg.cc/rs6JvJHH/china-closet.jpg",
+    "clue": "A cabinet used for storing fine dishes and glassware."
+  },
+  {
+    "id": 8,
+    "name": "Coffee Pot",
+    "img": "https://i.postimg.cc/T3jcBgj7/coffee-pot.jpg",
+    "clue": "A pot used for brewing and serving coffee."
+  },
+  {
+    "id": 8,
+    "name": "Creamer",
+    "img": "https://i.postimg.cc/q7jxvr52/creamer.jpg",
+    "clue": "A small pitcher used for serving cream with coffee or tea."
+  },
+  {
+    "id": 8,
+    "name": "Cup",
+    "img": "https://i.postimg.cc/G3NzDchQ/cup.jpg",
+    "clue": "A small container used for drinking."
+  },
+  {
+    "id": 8,
+    "name": "Fork",
+    "img": "https://i.postimg.cc/2SNwH2WL/fork.jpg",
+    "clue": "A utensil with prongs used for eating or serving food."
+  },
+  {
+    "id": 8,
+    "name": "Knife",
+    "img": "https://i.postimg.cc/gkZsqfxP/knife.jpg",
+    "clue": "A utensil with a blade used for cutting or spreading."
+  },
+  {
+    "id": 8,
+    "name": "Napkin",
+    "img": "https://i.postimg.cc/MX2yFpnJ/napkin.jpg",
+    "clue": "A piece of cloth or paper used to clean the mouth and hands while eating."
+  },
+  {
+    "id": 8,
+    "name": "Pepper Pot",
+    "img": "https://i.postimg.cc/90qdb7FB/pepper-pot.jpg",
+    "clue": "A small container used to sprinkle ground pepper."
+  },
+  {
+    "id": 8,
+    "name": "Pitcher",
+    "img": "https://i.postimg.cc/wvr5DVHv/pitcher.jpg",
+    "clue": "A container with a handle and spout used for pouring liquids."
+  },
+  {
+    "id": 8,
+    "name": "Plate",
+    "img": "https://i.postimg.cc/L4qwwQJx/plate.jpg",
+    "clue": "A flat dish used for serving food."
+  },
+  {
+    "id": 9,
+    "name": "Counter",
+    "img": "https://i.postimg.cc/KjyjXkDf/counter.png",
+    "clue": "A flat surface in a kitchen for preparing food."
+  },
+  {
+    "id": 9,
+    "name": "Cutting Board",
+    "img": "https://i.postimg.cc/JzTsyhR7/cutting-board.jpg",
+    "clue": "A flat surface used to cut food."
+  },
+  {
+    "id": 9,
+    "name": "Dish Drainer",
+    "img": "https://i.postimg.cc/8zkFPvQn/dish-drainer.jpg",
+    "clue": "A rack where dishes are placed to dry after washing."
+  },
+  {
+    "id": 9,
+    "name": "Dishtowel",
+    "img": "https://i.postimg.cc/wvNMbcL3/dishtowel.jpg",
+    "clue": "A cloth used for drying dishes."
+  },
+  {
+    "id": 9,
+    "name": "Dishwasher",
+    "img": "https://i.postimg.cc/9fKzpN4v/dishwasher.jpg",
+    "clue": "An appliance used to clean dishes automatically."
+  },
+  {
+    "id": 9,
+    "name": "Dishwashing Liquid",
+    "img": "https://i.postimg.cc/hvbjKDCB/dishwashing-liquid.jpg",
+    "clue": "A liquid soap used for washing dishes by hand."
+  },
+  {
+    "id": 9,
+    "name": "Freezer",
+    "img": "https://i.postimg.cc/KvxjJTzv/freezer.jpg",
+    "clue": "A large appliance used to store food at very low temperatures."
+  },
+  {
+    "id": 9,
+    "name": "Frying Pan",
+    "img": "https://i.postimg.cc/05prYn9B/frying-pan.jpg",
+    "clue": "A flat-bottomed pan used for frying, searing, and browning food."
+  },
+  {
+    "id": 9,
+    "name": "Ice Tray",
+    "img": "https://i.postimg.cc/SxKsppCB/ice-tray.jpg",
+    "clue": "A tray used to make and hold ice cubes."
+  },
+  {
+    "id": 9,
+    "name": "Lid",
+    "img": "https://i.postimg.cc/65c3SQ2V/lid.jpg",
+    "clue": "A removable cover for a container or pot."
+  },
+  {
+    "id": 9,
+    "name": "Microwave Oven",
+    "img": "https://i.postimg.cc/vTzQpPB8/microwave-oven.png",
+    "clue": "An appliance that cooks or heats food using microwave radiation."
+  },
+  {
+    "id": 9,
+    "name": "Mixing Bowl",
+    "img": "https://i.postimg.cc/nhwLFw1C/mixing-bowl.jpg",
+    "clue": "A large bowl used for mixing ingredients."
+  },
+  {
+    "id": 9,
+    "name": "Oven",
+    "img": "https://i.postimg.cc/PqgrZp9H/oven.jpg",
+    "clue": "A kitchen appliance used for baking or roasting."
+  },
+  {
+    "id": 9,
+    "name": "Pot Holder",
+    "img": "https://i.postimg.cc/MT1ZYZJQ/pot-holder.jpg",
+    "clue": "A padded glove or cloth used to handle hot pots and pans."
+  },
+  {
+    "id": 9,
+    "name": "Refrigerator",
+    "img": "https://i.postimg.cc/T1GdN8TH/refrigerator.jpg",
+    "clue": "An appliance used to keep food and drinks cold."
+  },
+  {
+    "id": 9,
+    "name": "Roasting Pan",
+    "img": "https://i.postimg.cc/bYHNDvTX/roasting-pan.jpg",
+    "clue": "A large, heavy pan used for roasting meat and vegetables."
+  },
+  {
+    "id": 9,
+    "name": "Rolling Pin",
+    "img": "https://i.postimg.cc/yY16FzQD/rolling-pin.jpg",
+    "clue": "A cylindrical tool used for rolling out dough."
+  },
+  {
+    "id": 9,
+    "name": "Saucepan",
+    "img": "https://i.postimg.cc/VLKfgHpD/saucepan.jpg",
+    "clue": "A deep cooking pan with a handle and a lid."
+  },
+  {
+    "id": 9,
+    "name": "Scouring Pad",
+    "img": "https://i.postimg.cc/bwdzB9j8/scouring-pad.jpg",
+    "clue": "A rough pad used for scrubbing tough stains and grime."
+  },
+  {
+    "id": 9,
+    "name": "Steamer",
+    "img": "https://i.postimg.cc/VkTYQ0Yt/steamer.jpg",
+    "clue": "A cooking appliance used to cook food with steam."
+  },
+  {
+    "id": 9,
+    "name": "Stove",
+    "img": "https://i.postimg.cc/W3cTtRqb/stove.jpg",
+    "clue": "A kitchen appliance with burners for cooking food."
+  },
+  {
+    "id": 9,
+    "name": "Teakettle",
+    "img": "https://i.postimg.cc/PqwdtfxR/teakettle.jpg",
+    "clue": "A kettle used for boiling water, often with a spout for pouring."
+  },
+  {
+    "id": 9,
+    "name": "Toaster",
+    "img": "https://i.postimg.cc/85dD6yLd/toaster.jpg",
+    "clue": "A small appliance used to toast bread."
+  },
+  {
+    "id": 9,
+    "name": "Blender",
+    "img": "https://i.postimg.cc/qqjTmzbz/blender.jpg",
+    "clue": "An appliance used to blend, puree, or chop food."
+  },
+  {
+    "id": 9,
+    "name": "Bottle Opener",
+    "img": "https://i.postimg.cc/90W2tGB6/bottle-opener.jpg",
+    "clue": "A tool used to remove caps from bottles."
+  },
+  {
+    "id": 9,
+    "name": "Broiler",
+    "img": "https://i.postimg.cc/sfcsfNjs/broiler.jpg",
+    "clue": "A part of an oven used for cooking food with direct heat from above."
+  },
+  {
+    "id": 9,
+    "name": "Burner",
+    "img": "https://i.postimg.cc/qMv0Nxqn/burner.jpg",
+    "clue": "A part of a stove that produces a flame or heat for cooking."
+  },
+  {
+    "id": 9,
+    "name": "Cabinet",
+    "img": "https://i.postimg.cc/ncSxB99W/cabinet.jpg",
+    "clue": "A storage unit with shelves and doors."
+  },
+  {
+    "id": 9,
+    "name": "Can Opener",
+    "img": "https://i.postimg.cc/HkJg2WQk/can-opener.jpg",
+    "clue": "A tool used to open cans."
+  },
+  {
+    "id": 10,
+    "name": "Fireplace",
+    "img": "https://i.postimg.cc/4yQh3b8n/fireplace.jpg",
+    "clue": "A structure with a chimney where a fire can be built."
+  },
+  {
+    "id": 10,
+    "name": "Fitted Carpet",
+    "img": "https://i.postimg.cc/XNf5x4V3/fitted-carpet.jpg",
+    "clue": "A carpet that covers the entire floor of a room."
+  },
+  {
+    "id": 10,
+    "name": "Frame",
+    "img": "https://i.postimg.cc/wjH0FwK4/frame.jpg",
+    "clue": "A structure that surrounds and supports a picture or mirror."
+  },
+  {
+    "id": 10,
+    "name": "Lampshade",
+    "img": "https://i.postimg.cc/wTDwhSrs/lampshade.jpg",
+    "clue": "A cover that diffuses the light from a lamp."
+  },
+  {
+    "id": 10,
+    "name": "Log",
+    "img": "https://i.postimg.cc/kgcwHWqJ/log.jpg",
+    "clue": "A piece of wood used as fuel in a fireplace."
+  },
+  {
+    "id": 10,
+    "name": "Mantel",
+    "img": "https://i.postimg.cc/Bv7pSsjR/mantel.jpg",
+    "clue": "The shelf above a fireplace."
+  },
+  {
+    "id": 10,
+    "name": "Painting",
+    "img": "https://i.postimg.cc/qB3wTP4Z/painting.jpg",
+    "clue": "A piece of artwork created with paint."
+  },
+  {
+    "id": 10,
+    "name": "Recliner",
+    "img": "https://i.postimg.cc/QC1JJTfr/recliner.jpg",
+    "clue": "A chair with a back that can be tilted back and a footrest that can be extended."
+  },
+  {
+    "id": 10,
+    "name": "Remote Control",
+    "img": "https://i.postimg.cc/8Czwgszh/remote-control.jpg",
+    "clue": "A device used to operate electronic equipment from a distance."
+  },
+  {
+    "id": 10,
+    "name": "Sofa",
+    "img": "https://i.postimg.cc/wvtV3PJM/sofa.jpg",
+    "clue": "A large, comfortable seat with arms and a back, often for multiple people."
+  },
+  {
+    "id": 10,
+    "name": "Sound System",
+    "img": "https://i.postimg.cc/W3Q7Zn6n/sound-system.jpg",
+    "clue": "An electronic system for amplifying sound."
+  },
+  {
+    "id": 10,
+    "name": "Speaker",
+    "img": "https://i.postimg.cc/151H5vzR/speaker.jpg",
+    "clue": "A device that produces sound from an electronic signal."
+  },
+  {
+    "id": 10,
+    "name": "Staircase",
+    "img": "https://i.postimg.cc/RZXQd9Lq/staircase.jpg",
+    "clue": "A set of steps leading from one floor to another."
+  },
+  {
+    "id": 10,
+    "name": "Step",
+    "img": "https://i.postimg.cc/K8ZDt4Ld/step.jpg",
+    "clue": "A single riser and tread in a staircase."
+  },
+  {
+    "id": 10,
+    "name": "Television",
+    "img": "https://i.postimg.cc/vmT7Sj0h/television.jpg",
+    "clue": "An electronic device for viewing video content."
+  },
+  {
+    "id": 10,
+    "name": "Vase",
+    "img": "https://i.postimg.cc/mDFYT9fF/vase.jpg",
+    "clue": "A container used for holding cut flowers."
+  },
+  {
+    "id": 10,
+    "name": "Wall Unit",
+    "img": "https://i.postimg.cc/1zd0xHTQ/wall-unit.png",
+    "clue": "A large piece of furniture designed to be placed against a wall."
+  },
+  {
+    "id": 10,
+    "name": "Banister",
+    "img": "https://i.postimg.cc/6qrCvNQW/banister.jpg",
+    "clue": "The handrail of a staircase."
+  },
+  {
+    "id": 10,
+    "name": "Bookcase",
+    "img": "https://i.postimg.cc/RCK78wLk/bookcase.jpg",
+    "clue": "A piece of furniture with shelves for holding books."
+  },
+  {
+    "id": 10,
+    "name": "Ceiling Fan",
+    "img": "https://i.postimg.cc/xTQvSqsc/ceiling-fan.jpg",
+    "clue": "A fan mounted on the ceiling used to circulate air."
+  },
+  {
+    "id": 10,
+    "name": "Coffee Table",
+    "img": "https://i.postimg.cc/CxLbzXp0/coffee-table.jpg",
+    "clue": "A low table placed in front of a sofa or chairs."
+  },
+  {
+    "id": 10,
+    "name": "Cushion",
+    "img": "https://i.postimg.cc/Z57p3HJd/cushion.jpg",
+    "clue": "A soft pad used to add comfort to a chair or sofa."
+  },
+  {
+    "id": 10,
+    "name": "Desk",
+    "img": "https://i.postimg.cc/TPKmcbPH/desk.jpg",
+    "clue": "A piece of furniture with a flat surface used for working or studying."
+  },
+  {
+    "id": 10,
+    "name": "Drapes",
+    "img": "https://i.postimg.cc/25gW95bj/drapes.jpg",
+    "clue": "Long curtains used to cover windows."
+  },
+  {
+    "id": 10,
+    "name": "End Table",
+    "img": "https://i.postimg.cc/LXf1cMLt/end-table.jpg",
+    "clue": "A small table placed beside a sofa or chair."
+  },
+  {
+    "id": 11,
+    "name": "Closet",
+    "img": "https://i.postimg.cc/4yF6b1gy/closet.jpg",
+    "clue": "A small room or space used for storing clothes."
+  },
+  {
+    "id": 11,
+    "name": "Comb",
+    "img": "https://i.postimg.cc/0NpCRmpX/comb.jpg",
+    "clue": "A tool used for arranging or styling hair."
+  },
+  {
+    "id": 11,
+    "name": "Comforter",
+    "img": "https://i.postimg.cc/Vs7W8zCw/comforter.jpg",
+    "clue": "A thick bed covering used for warmth."
+  },
+  {
+    "id": 11,
+    "name": "Curtain",
+    "img": "https://i.postimg.cc/Y9RfjHD1/curtain.jpg",
+    "clue": "A piece of fabric hung to cover a window."
+  },
+  {
+    "id": 11,
+    "name": "Floor",
+    "img": "https://i.postimg.cc/Wbh6pxGk/floor.jpg",
+    "clue": "The bottom surface of a room on which one stands."
+  },
+  {
+    "id": 11,
+    "name": "Footboard",
+    "img": "https://i.postimg.cc/sx2PhNbb/footboard.jpg",
+    "clue": "The board at the foot of a bed."
+  },
+  {
+    "id": 11,
+    "name": "Hairbrush",
+    "img": "https://i.postimg.cc/dtpRhn6S/hairbrush.jpg",
+    "clue": "A tool with bristles used for grooming hair."
+  },
+  {
+    "id": 11,
+    "name": "Hanger",
+    "img": "https://i.postimg.cc/htmLTx34/hanger.jpg",
+    "clue": "A device used to hang clothes."
+  },
+  {
+    "id": 11,
+    "name": "Headboard",
+    "img": "https://i.postimg.cc/YSw139J6/headboard.jpg",
+    "clue": "The board at the head of a bed."
+  },
+  {
+    "id": 11,
+    "name": "Hood",
+    "img": "https://i.postimg.cc/PxSYTMNy/hood.jpg",
+    "clue": "A cover placed over a stove to remove smoke and fumes."
+  },
+  {
+    "id": 11,
+    "name": "Jewelry Box",
+    "img": "https://i.postimg.cc/8CBLnGSq/jewelry-box.jpg",
+    "clue": "A container used to store jewelry."
+  },
+  {
+    "id": 11,
+    "name": "Light Switch",
+    "img": "https://i.postimg.cc/RFSKkYCq/light-switch.jpg",
+    "clue": "A device used to turn lights on and off."
+  },
+  {
+    "id": 11,
+    "name": "Mattress",
+    "img": "https://i.postimg.cc/BQLHfH35/mattress.png",
+    "clue": "A large, soft pad used for sleeping on."
+  },
+  {
+    "id": 11,
+    "name": "Mirror",
+    "img": "https://i.postimg.cc/J0tJnBkL/mirror.jpg",
+    "clue": "A reflective surface used for viewing oneself."
+  },
+  {
+    "id": 11,
+    "name": "Phone",
+    "img": "https://i.postimg.cc/kGZStXQt/phone.jpg",
+    "clue": "A device used for voice communication."
+  },
+  {
+    "id": 11,
+    "name": "Pillowcase",
+    "img": "https://i.postimg.cc/xjFMZgwT/pillowcase.jpg",
+    "clue": "A removable cover for a pillow."
+  },
+  {
+    "id": 11,
+    "name": "Rug",
+    "img": "https://i.postimg.cc/zGThVNVV/rug.jpg",
+    "clue": "A floor covering that is smaller than a carpet."
+  },
+  {
+    "id": 11,
+    "name": "Sheet",
+    "img": "https://i.postimg.cc/PqhwD7wK/sheet.jpg",
+    "clue": "A large piece of cloth used to cover a bed."
+  },
+  {
+    "id": 11,
+    "name": "Tissues",
+    "img": "https://i.postimg.cc/Pq48QMbH/tissues.jpg",
+    "clue": "Soft paper used for wiping the nose or face."
+  },
+  {
+    "id": 11,
+    "name": "Air Conditioner",
+    "img": "https://i.postimg.cc/sxBQydkf/air-conditioner.jpg",
+    "clue": "An appliance used to cool indoor air."
+  },
+  {
+    "id": 11,
+    "name": "Alarm Clock",
+    "img": "https://i.postimg.cc/0yG69CBS/alarm-clock.gif",
+    "clue": "A clock that can be set to sound an alarm at a specific time."
+  },
+  {
+    "id": 11,
+    "name": "Bedspread",
+    "img": "https://i.postimg.cc/3xQ4Mqn7/bedspread.jpg",
+    "clue": "A decorative covering for a bed."
+  },
+  {
+    "id": 11,
+    "name": "Blanket",
+    "img": "https://i.postimg.cc/v8jxhTn4/blanket.jpg",
+    "clue": "A large piece of wool or other material used for warmth."
+  },
+  {
+    "id": 11,
+    "name": "Blind",
+    "img": "https://i.postimg.cc/L5rq8QSt/blind.jpg",
+    "clue": "A window covering that can be raised or lowered to control light."
+  },
+  {
+    "id": 11,
+    "name": "Box Spring",
+    "img": "https://i.postimg.cc/ZKdBMmPV/box-spring.jpg",
+    "clue": "A supportive base for a mattress."
+  },
+  {
+    "id": 11,
+    "name": "Bureau",
+    "img": "https://i.postimg.cc/0QP08Qnk/bureau.jpg",
+    "clue": "A chest of drawers for storing clothes."
+  },
+  {
+    "id": 11,
+    "name": "Chest of Drawers",
+    "img": "https://i.postimg.cc/1zxKjMNN/chest-of-drawers.jpg",
+    "clue": "A piece of furniture with multiple drawers for storing clothes."
+  },
+  {
+    "id": 12,
+    "name": "Bath Mat",
+    "img": "https://i.postimg.cc/yYyBdr77/bath-mat.png",
+    "clue": "A small rug placed in a bathroom."
+  },
+  {
+    "id": 12,
+    "name": "Bath Towel",
+    "img": "https://i.postimg.cc/3Ngh2tpC/bath-towel.jpg",
+    "clue": "A large towel used for drying the body after bathing."
+  },
+  {
+    "id": 12,
+    "name": "Bathtub",
+    "img": "https://i.postimg.cc/wMKHtCtj/bathtub.jpg",
+    "clue": "A large container for holding water in which a person may bathe."
+  },
+  {
+    "id": 12,
+    "name": "Cold Water Faucet",
+    "img": "https://i.postimg.cc/SNhkmpFZ/cold-water-faucet.jpg",
+    "clue": "A tap that dispenses cold water."
+  },
+  {
+    "id": 12,
+    "name": "Curtain Rings",
+    "img": "https://i.postimg.cc/XNFnMYhG/curtain-rings.jpg",
+    "clue": "Small rings used to hang curtains on a rod."
+  },
+  {
+    "id": 12,
+    "name": "Curtain Rod",
+    "img": "https://i.postimg.cc/htCB8zJw/curtain-rod.jpg",
+    "clue": "A rod used to hang curtains."
+  },
+  {
+    "id": 12,
+    "name": "Drain",
+    "img": "https://i.postimg.cc/tgYHBqWg/drain.jpg",
+    "clue": "An opening that allows water to flow out of a sink, bathtub, or shower."
+  },
+  {
+    "id": 12,
+    "name": "Hairdryer",
+    "img": "https://i.postimg.cc/FHbvYCm9/hairdryer.jpg",
+    "clue": "A device used to dry hair with hot air."
+  },
+  {
+    "id": 12,
+    "name": "Hamper",
+    "img": "https://i.postimg.cc/k4GPhnS4/hamper.jpg",
+    "clue": "A container used for holding dirty laundry."
+  },
+  {
+    "id": 12,
+    "name": "Hand Towel",
+    "img": "https://i.postimg.cc/nL0tksCg/hand-towel.jpg",
+    "clue": "A small towel used for drying hands."
+  },
+  {
+    "id": 12,
+    "name": "Hot Water Faucet",
+    "img": "https://i.postimg.cc/rp8kxGF5/hot-water-faucet.jpg",
+    "clue": "A tap that dispenses hot water."
+  },
+  {
+    "id": 12,
+    "name": "Medicine Chest",
+    "img": "https://i.postimg.cc/ZRQtG1PL/medicine-chest.jpg",
+    "clue": "A cabinet used to store medicine and toiletries."
+  },
+  {
+    "id": 12,
+    "name": "Nailbrush",
+    "img": "https://i.postimg.cc/YjKc9YsG/nailbrush.jpg",
+    "clue": "A small brush used for cleaning the nails."
+  },
+  {
+    "id": 12,
+    "name": "Scale",
+    "img": "https://i.postimg.cc/Gtswdqqn/scale.jpg",
+    "clue": "A device used for measuring weight."
+  },
+  {
+    "id": 12,
+    "name": "Shampoo",
+    "img": "https://i.postimg.cc/59ZjvGcv/shampoo.jpg",
+    "clue": "A liquid used for washing hair."
+  },
+  {
+    "id": 12,
+    "name": "Shower Cap",
+    "img": "https://i.postimg.cc/Qx1Cqbsz/shower-cap.jpg",
+    "clue": "A cap worn to keep hair dry while showering."
+  },
+  {
+    "id": 12,
+    "name": "Shower Curtain",
+    "img": "https://i.postimg.cc/kMVB2CHq/shower-curtain.jpg",
+    "clue": "A curtain used to prevent water from splashing out of a shower."
+  },
+  {
+    "id": 12,
+    "name": "Showerhead",
+    "img": "https://i.postimg.cc/4xGd29xx/showerhead.jpg",
+    "clue": "A device that sprays water in a shower."
+  },
+  {
+    "id": 12,
+    "name": "Sink",
+    "img": "https://i.postimg.cc/mgSrvgPN/sink.jpg",
+    "clue": "A basin used for washing hands, dishes, etc."
+  },
+  {
+    "id": 12,
+    "name": "Soap Dish",
+    "img": "https://i.postimg.cc/MGPpG3bn/soap-dish.jpg",
+    "clue": "A dish used to hold a bar of soap."
+  },
+  {
+    "id": 12,
+    "name": "Sponge",
+    "img": "https://i.postimg.cc/tT8R31cy/sponge.jpg",
+    "clue": "A porous material used for cleaning."
+  },
+  {
+    "id": 12,
+    "name": "Stopper",
+    "img": "https://i.postimg.cc/tRV4X51g/stopper.jpg",
+    "clue": "A plug used to block the flow of water in a sink or bathtub."
+  },
+  {
+    "id": 12,
+    "name": "Tile",
+    "img": "https://i.postimg.cc/fyXzBz4d/title.jpg",
+    "clue": "A thin, flat piece of material used for covering floors and walls."
+  },
+  {
+    "id": 12,
+    "name": "Toilet Brush",
+    "img": "https://i.postimg.cc/zXZX3gWF/toilet-brush.jpg",
+    "clue": "A brush used for cleaning the toilet."
+  },
+  {
+    "id": 12,
+    "name": "Toilet Paper",
+    "img": "https://i.postimg.cc/xCXTNGtt/toilet-paper.jpg",
+    "clue": "Paper used for cleaning oneself after using the toilet."
+  },
+  {
+    "id": 12,
+    "name": "Toothbrush",
+    "img": "https://i.postimg.cc/MptWs3L9/toothbrush.jpg",
+    "clue": "A small brush used for cleaning teeth."
+  },
+  {
+    "id": 12,
+    "name": "Toothpaste",
+    "img": "https://i.postimg.cc/wj9qQYwt/toothpaste.jpg",
+    "clue": "A paste used with a toothbrush to clean teeth."
+  },
+  {
+    "id": 12,
+    "name": "Towel Rail",
+    "img": "https://i.postimg.cc/d1ZwVsVf/towel-rail.jpg",
+    "clue": "A bar used for hanging towels."
+  },
+  {
+    "id": 12,
+    "name": "Washcloth",
+    "img": "https://i.postimg.cc/tgT98tQp/washcloth.jpg",
+    "clue": "A small cloth used for washing the face and body."
+  },
+  {
+    "id": 12,
+    "name": "Wastepaper Basket",
+    "img": "https://i.postimg.cc/Jh2R8DMJ/wastepaper-basket.jpg",
+    "clue": "A small basket used for disposing of waste paper."
+  },
+  {
+    "id": 13,
+    "name": "Overcoat",
+    "img": "https://i.postimg.cc/T17g9Pf9/Overcoat.jpg",
+    "clue": "A long, warm coat worn over other clothing."
+  },
+  {
+    "id": 13,
+    "name": "Parka",
+    "img": "https://i.postimg.cc/ZKnrq6xD/Parka.jpg",
+    "clue": "A heavy jacket with a hood, often worn in cold weather."
+  },
+  {
+    "id": 13,
+    "name": "Rain Boots",
+    "img": "https://i.postimg.cc/fWBcZ8m9/Rain-Boots.jpg",
+    "clue": "Waterproof boots worn to keep feet dry in the rain."
+  },
+  {
+    "id": 13,
+    "name": "Scarf",
+    "img": "https://i.postimg.cc/xTZLNqsj/Scarf.jpg",
+    "clue": "A piece of cloth worn around the neck for warmth or decoration."
+  },
+  {
+    "id": 13,
+    "name": "Ski Cap",
+    "img": "https://i.postimg.cc/pLnzfx7f/Ski-Cap.jpg",
+    "clue": "A warm, close-fitting cap often worn for skiing."
+  },
+  {
+    "id": 13,
+    "name": "Tights",
+    "img": "https://i.postimg.cc/JhVJKvV9/Tights.jpg",
+    "clue": "Close-fitting, stretchy garments covering the legs, often worn by women."
+  },
+  {
+    "id": 13,
+    "name": "Turtleneck Sweater",
+    "img": "https://i.postimg.cc/YS6FPRtj/Turtleneck-Sweater.jpg",
+    "clue": "A sweater with a high, close-fitting collar that covers the neck."
+  },
+  {
+    "id": 13,
+    "name": "Windbreaker",
+    "img": "https://i.postimg.cc/76X2HLGk/Windbreaker.jpg",
+    "clue": "A lightweight jacket designed to protect against wind."
+  },
+  {
+    "id": 13,
+    "name": "Backpack",
+    "img": "https://i.postimg.cc/Bb61XGH1/Backpack.png",
+    "clue": "A bag carried on the back, often used by students."
+  },
+  {
+    "id": 13,
+    "name": "Beret",
+    "img": "https://i.postimg.cc/J02HXd5Y/Beret.jpg",
+    "clue": "A round, flat cap often worn tilted to one side."
+  },
+  {
+    "id": 13,
+    "name": "Boots",
+    "img": "https://i.postimg.cc/fWBcZ8m9/Rain-Boots.jpg",
+    "clue": "Sturdy footwear that covers the foot and ankle, and sometimes the lower leg."
+  },
+  {
+    "id": 13,
+    "name": "Cap",
+    "img": "https://i.postimg.cc/pLnzfx7f/Ski-Cap.jpg",
+    "clue": "A soft, flat hat with a visor."
+  },
+  {
+    "id": 13,
+    "name": "Coat",
+    "img": "https://i.postimg.cc/ncXDxpny/Coat.jpg",
+    "clue": "A garment worn for warmth or protection, often with sleeves and a collar."
+  },
+  {
+    "id": 13,
+    "name": "Crewneck Sweater",
+    "img": "https://i.postimg.cc/Z53v9HBj/Crewneck-Sweater.png",
+    "clue": "A sweater with a round, close-fitting neckline."
+  },
+  {
+    "id": 13,
+    "name": "Down Vest",
+    "img": "https://i.postimg.cc/yxVyj59V/Down-Vest.jpg",
+    "clue": "A sleeveless jacket filled with down feathers for warmth."
+  },
+  {
+    "id": 13,
+    "name": "Earmuffs",
+    "img": "https://i.postimg.cc/28SxBsrG/Earmuffs.jpg",
+    "clue": "Covers worn over the ears to keep them warm."
+  },
+  {
+    "id": 13,
+    "name": "Flannel Shirt",
+    "img": "https://i.postimg.cc/y6PPx14W/Flannel-Shirt.jpg",
+    "clue": "A soft, warm shirt made of flannel fabric."
+  },
+  {
+    "id": 13,
+    "name": "Gloves",
+    "img": "https://i.postimg.cc/SRD7vr7c/Gloves.jpg",
+    "clue": "Hand coverings with separate sections for each finger."
+  },
+  {
+    "id": 13,
+    "name": "Hat",
+    "img": "https://i.postimg.cc/vTH5fnFT/Hat.jpg",
+    "clue": "A head covering worn for warmth, protection, or fashion."
+  },
+  {
+    "id": 13,
+    "name": "Hiking Boots",
+    "img": "https://i.postimg.cc/K8Kr0tKg/Hiking-Boots.jpg",
+    "clue": "Sturdy footwear designed for hiking."
+  },
+  {
+    "id": 13,
+    "name": "Ice Skates",
+    "img": "https://i.postimg.cc/157r0vzQ/Ice-Skates.jpg",
+    "clue": "Shoes with metal blades used for skating on ice."
+  },
+  {
+    "id": 13,
+    "name": "Jacket",
+    "img": "https://i.postimg.cc/fR67pkXq/Jacket.jpg",
+    "clue": "A short coat worn for warmth or fashion."
+  },
+  {
+    "id": 13,
+    "name": "Jeans",
+    "img": "https://i.postimg.cc/k4CQMZTx/Jeans.jpg",
+    "clue": "Sturdy, casual trousers made of denim."
+  },
+  {
+    "id": 13,
+    "name": "Mittens",
+    "img": "https://i.postimg.cc/HxtQr2NF/Mittens.jpg",
+    "clue": "Hand coverings without separate sections for each finger."
+  },
+  {
+    "id": 14,
+    "name": "Construction Boots",
+    "img": "https://i.postimg.cc/2jh57y88/construction-boots.jpg",
+    "clue": "Sturdy boots designed for construction work."
+  },
+  {
+    "id": 14,
+    "name": "Corduroy Pants",
+    "img": "https://i.postimg.cc/yYTY2GZM/corduroy-pants.jpg",
+    "clue": "Trousers made of corduroy fabric."
+  },
+  {
+    "id": 14,
+    "name": "Coveralls",
+    "img": "https://i.postimg.cc/BnQQ3C5X/coveralls.jpg",
+    "clue": "One-piece garments worn for protection."
+  },
+  {
+    "id": 14,
+    "name": "Dress",
+    "img": "https://i.postimg.cc/QMF89xyD/dress.jpg",
+    "clue": "A one-piece garment for women or girls that covers the body and extends down over the legs."
+  },
+  {
+    "id": 14,
+    "name": "Glasses",
+    "img": "https://i.postimg.cc/s2bVpdkh/glasses.jpg",
+    "clue": "Optical devices worn on the face to correct vision or protect the eyes."
+  },
+  {
+    "id": 14,
+    "name": "Hard Hat",
+    "img": "https://i.postimg.cc/6pj6pGzz/hard-hat.jpg",
+    "clue": "A helmet worn for protection on construction sites."
+  },
+  {
+    "id": 14,
+    "name": "High Heels",
+    "img": "https://i.postimg.cc/QCJhGBHQ/high-heels.jpg",
+    "clue": "Women's shoes with tall, thin heels."
+  },
+  {
+    "id": 14,
+    "name": "Jacket",
+    "img": "https://i.postimg.cc/6qXtmV56/jacket.jpg",
+    "clue": "The folded part of a coat or jacket collar."
+  },
+  {
+    "id": 14,
+    "name": "Lapel",
+    "img": "https://i.postimg.cc/xTgn6zrY/lapel.jpg",
+    "clue": "The folded part on the front of a coat or jacket, just below the collar."
+  },
+  {
+    "id": 14,
+    "name": "Long Sleeve",
+    "img": "https://i.postimg.cc/Dfr2bNBS/long-sleeve.jpg",
+    "clue": "A type of sleeve that extends to the wrist."
+  },
+  {
+    "id": 14,
+    "name": "Lunch Box",
+    "img": "https://i.postimg.cc/ZKJJPLMV/lunch-box.jpg",
+    "clue": "A container used to carry meals to work or school."
+  },
+  {
+    "id": 14,
+    "name": "Pocket",
+    "img": "https://i.postimg.cc/Gm2rVmrD/pocket.jpg",
+    "clue": "A small pouch sewn into or onto clothing, used for carrying small items."
+  },
+  {
+    "id": 14,
+    "name": "Purse",
+    "img": "https://i.postimg.cc/VN0wsZJL/purse.jpg",
+    "clue": "A small bag used by women for carrying personal items."
+  },
+  {
+    "id": 14,
+    "name": "Raincoat",
+    "img": "https://i.postimg.cc/T34G6vY4/raincoat.jpg",
+    "clue": "A waterproof coat worn to protect against rain."
+  },
+  {
+    "id": 14,
+    "name": "Sandal",
+    "img": "https://i.postimg.cc/QtL3Fg7g/sandal.jpg",
+    "clue": "An open type of footwear with straps that secure the foot."
+  },
+  {
+    "id": 14,
+    "name": "Shoelace",
+    "img": "https://i.postimg.cc/Rhd5pjDG/shoelace.jpg",
+    "clue": "A string or cord used to fasten shoes."
+  },
+  {
+    "id": 14,
+    "name": "Shopping Bag",
+    "img": "https://i.postimg.cc/bY9hvtwb/shopping-bag.jpg",
+    "clue": "A bag used for carrying purchases from a store."
+  },
+  {
+    "id": 14,
+    "name": "Short Sleeve",
+    "img": "https://i.postimg.cc/yY6z38DG/short-sleeve.jpg",
+    "clue": "A sleeve that extends to just above the elbow."
+  },
+  {
+    "id": 14,
+    "name": "Shorts",
+    "img": "https://i.postimg.cc/kXjPQP8g/shorts.jpg",
+    "clue": "Garments worn on the lower body, covering the waist to the thighs."
+  },
+  {
+    "id": 14,
+    "name": "Shoulder Bag",
+    "img": "https://i.postimg.cc/g2nF4tqq/shoulder-bag.jpg",
+    "clue": "A bag with a long strap designed to be carried over the shoulder."
+  },
+  {
+    "id": 14,
+    "name": "Skirt",
+    "img": "https://i.postimg.cc/k5SrPVH2/skirt.jpg",
+    "clue": "A garment worn by women that hangs from the waist and covers part of the legs."
+  },
+  {
+    "id": 14,
+    "name": "Slacks",
+    "img": "https://i.postimg.cc/GmV0fPX0/slacks.jpg",
+    "clue": "Casual trousers often worn for comfort."
+  },
+  {
+    "id": 14,
+    "name": "Sneakers",
+    "img": "https://i.postimg.cc/d1cbssM4/sneakers.jpg",
+    "clue": "Comfortable shoes designed for sports or casual wear."
+  },
+  {
+    "id": 14,
+    "name": "Sole",
+    "img": "https://i.postimg.cc/gJyfrCmd/sole.jpg",
+    "clue": "The bottom part of a shoe or foot."
+  },
+  {
+    "id": 14,
+    "name": "Sweatband",
+    "img": "https://i.postimg.cc/Gtc6DXmD/sweatband.jpg",
+    "clue": "A band of fabric worn around the head or wrist to absorb sweat."
+  },
+  {
+    "id": 14,
+    "name": "Sweatpants",
+    "img": "https://i.postimg.cc/kGfzvW2p/sweatpants.jpg",
+    "clue": "Comfortable, loose-fitting pants often worn for exercise."
+  },
+  {
+    "id": 14,
+    "name": "Sweatshirt",
+    "img": "https://i.postimg.cc/TY3ZYNSM/sweatshirt.jpg",
+    "clue": "A long-sleeved, pullover shirt often worn for warmth."
+  },
+  {
+    "id": 14,
+    "name": "Tank Top",
+    "img": "https://i.postimg.cc/tR5KbGBN/tank-top.jpg",
+    "clue": "A sleeveless shirt with wide shoulder straps."
+  },
+  {
+    "id": 14,
+    "name": "Tie",
+    "img": "https://i.postimg.cc/13g2Dnsv/tie.jpg",
+    "clue": "A long piece of cloth worn around the neck, often as part of formal attire."
+  },
+  {
+    "id": 14,
+    "name": "Umbrella",
+    "img": "https://i.postimg.cc/fLsP48XP/umbrella.jpg",
+    "clue": "A handheld device used for protection against rain."
+  },
+  {
+    "id": 14,
+    "name": "Uniform",
+    "img": "https://i.postimg.cc/bvk5F7Gb/uniform.jpg",
+    "clue": "A specific set of clothing worn by members of an organization or group."
+  },
+  {
+    "id": 15,
+    "name": "Acorn Squash",
+    "img": "https://i.postimg.cc/Dwq34421/acorn-squash.jpg",
+    "clue": "A type of winter squash with a distinct acorn shape."
+  },
+  {
+    "id": 15,
+    "name": "Artichoke",
+    "img": "https://i.postimg.cc/xdnDvjCh/artichoke.jpg",
+    "clue": "A vegetable with a large flower bud, often eaten steamed."
+  },
+  {
+    "id": 15,
+    "name": "Asparagus",
+    "img": "https://i.postimg.cc/6QcsYs43/asparagus.jpg",
+    "clue": "A green vegetable with long, thin stalks."
+  },
+  {
+    "id": 15,
+    "name": "Beets",
+    "img": "https://i.postimg.cc/hPtXrgJJ/beets.jpg",
+    "clue": "A root vegetable often deep red in color."
+  },
+  {
+    "id": 15,
+    "name": "Black Bean",
+    "img": "https://i.postimg.cc/zX2V2MWx/black-bean.jpg",
+    "clue": "A small, black legume often used in Latin American cuisine."
+  },
+  {
+    "id": 15,
+    "name": "Broccoli",
+    "img": "https://i.postimg.cc/nzxzQtbh/broccoli.jpg",
+    "clue": "A green vegetable with a large, flowering head."
+  },
+  {
+    "id": 15,
+    "name": "Brussels Sprouts",
+    "img": "https://i.postimg.cc/kgkDqbT8/Brussels-sprouts.jpg",
+    "clue": "Small, round vegetables resembling miniature cabbages."
+  },
+  {
+    "id": 15,
+    "name": "Cabbage",
+    "img": "https://i.postimg.cc/s27xXgLL/cabbage.jpg",
+    "clue": "A leafy green or purple vegetable with a dense head."
+  },
+  {
+    "id": 15,
+    "name": "Carrot",
+    "img": "https://i.postimg.cc/jSWCpX4t/carrot.jpg",
+    "clue": "A long, orange root vegetable."
+  },
+  {
+    "id": 15,
+    "name": "Cauliflower",
+    "img": "https://i.postimg.cc/wvkBXbgc/cauliflower.jpg",
+    "clue": "A white vegetable with a compact head of florets."
+  },
+  {
+    "id": 15,
+    "name": "Celery",
+    "img": "https://i.postimg.cc/Zn7KgB9W/celery.jpg",
+    "clue": "A crunchy vegetable with long, green stalks."
+  },
+  {
+    "id": 15,
+    "name": "Corn",
+    "img": "https://i.postimg.cc/8cPztBC8/corn.jpg",
+    "clue": "A grain with kernels on a cob, often eaten as a vegetable."
+  },
+  {
+    "id": 15,
+    "name": "Cucumber",
+    "img": "https://i.postimg.cc/1RJt4TWy/cucumber.jpg",
+    "clue": "A long, green vegetable often used in salads."
+  },
+  {
+    "id": 15,
+    "name": "Eggplant",
+    "img": "https://i.postimg.cc/fTybdKFm/eggplant.jpg",
+    "clue": "A dark purple vegetable with a spongy texture."
+  },
+  {
+    "id": 15,
+    "name": "Escarole",
+    "img": "https://i.postimg.cc/YCmqnStS/escarole.jpg",
+    "clue": "A leafy green vegetable often used in salads."
+  },
+  {
+    "id": 15,
+    "name": "Garlic",
+    "img": "https://i.postimg.cc/vBGYZLf1/garlic.jpg",
+    "clue": "A pungent bulb used to flavor dishes."
+  },
+  {
+    "id": 15,
+    "name": "Herb",
+    "img": "https://i.postimg.cc/SNPxf9F5/herb.jpg",
+    "clue": "A plant used for its flavor, scent, or medicinal properties."
+  },
+  {
+    "id": 15,
+    "name": "Kidney Bean",
+    "img": "https://i.postimg.cc/XvfNWDGS/kidney-bean.jpg",
+    "clue": "A red, kidney-shaped legume often used in chili."
+  },
+  {
+    "id": 15,
+    "name": "Lettuce",
+    "img": "https://i.postimg.cc/B6NqLLBm/lettuce.jpg",
+    "clue": "A leafy green vegetable commonly used in salads."
+  },
+  {
+    "id": 15,
+    "name": "Lima Bean",
+    "img": "https://i.postimg.cc/k53Mkd5v/lima-bean.jpg",
+    "clue": "A flat, green legume often used in soups and stews."
+  },
+  {
+    "id": 15,
+    "name": "Mushroom",
+    "img": "https://i.postimg.cc/SRvkdB58/mushroom.jpg",
+    "clue": "A fungus with a cap and stem, often used in cooking."
+  },
+  {
+    "id": 15,
+    "name": "Onion",
+    "img": "https://i.postimg.cc/QN48j7tt/onion.jpg",
+    "clue": "A bulb vegetable with a strong flavor and aroma."
+  },
+  {
+    "id": 15,
+    "name": "Pea",
+    "img": "https://i.postimg.cc/g2RmyBKX/pea.jpg",
+    "clue": "A small, round green vegetable often found in pods."
+  },
+  {
+    "id": 15,
+    "name": "Pepper",
+    "img": "https://i.postimg.cc/6589qQ2h/pepper.jpg",
+    "clue": "A vegetable that can be sweet or spicy, often used in cooking."
+  },
+  {
+    "id": 15,
+    "name": "Potato",
+    "img": "https://i.postimg.cc/4NjX9TpR/potato.png",
+    "clue": "A starchy tuber often used in a variety of dishes."
+  },
+  {
+    "id": 15,
+    "name": "Pumpkin",
+    "img": "https://i.postimg.cc/JhLmpcTT/pumpkin.jpg",
+    "clue": "A large, orange squash often used in pies."
+  },
+  {
+    "id": 15,
+    "name": "Radish",
+    "img": "https://i.postimg.cc/bv9PWDWq/radish.jpg",
+    "clue": "A small, round root vegetable with a peppery taste."
+  },
+  {
+    "id": 15,
+    "name": "Spinach",
+    "img": "https://i.postimg.cc/509JV9WL/spinach.jpg",
+    "clue": "A leafy green vegetable often used in salads and cooking."
+  },
+  {
+    "id": 15,
+    "name": "String Bean",
+    "img": "https://i.postimg.cc/NMNcfhQV/string-bean.jpg",
+    "clue": "A long, green vegetable often eaten whole."
+  },
+  {
+    "id": 15,
+    "name": "Tomato",
+    "img": "https://i.postimg.cc/VvdcJ76N/tomato.jpg",
+    "clue": "A red or yellow fruit often used as a vegetable in cooking."
+  },
+  {
+    "id": 15,
+    "name": "Turnip",
+    "img": "https://i.postimg.cc/VvpPnjrW/turnip.jpg",
+    "clue": "A round, white root vegetable."
+  },
+  {
+    "id": 15,
+    "name": "Watercress",
+    "img": "https://i.postimg.cc/dQxYbKHZ/watercress.jpg",
+    "clue": "A leafy green with a peppery flavor, often used in salads."
+  },
+  {
+    "id": 15,
+    "name": "Yam",
+    "img": "https://i.postimg.cc/Nf2cYPSJ/yam.jpg",
+    "clue": "A starchy tuber similar to a sweet potato."
+  },
+  {
+    "id": 15,
+    "name": "Zucchini",
+    "img": "https://i.postimg.cc/QdLrMJrX/zucchini.jpg",
+    "clue": "A long, green summer squash."
+  },
+  {
+    "id": 16,
+    "name": "Aisle",
+    "img": "https://i.postimg.cc/KzPxc5PC/aisle.jpg",
+    "clue": "A passage between rows of seats or shelves."
+  },
+  {
+    "id": 16,
+    "name": "Bag",
+    "img": "https://i.postimg.cc/HkzMnQ2c/bag.jpg",
+    "clue": "A container made of flexible material used for carrying items."
+  },
+  {
+    "id": 16,
+    "name": "Baked Goods",
+    "img": "https://i.postimg.cc/mr6FNBKT/baked-goods.jpg",
+    "clue": "Foods like bread, cakes, and pastries that are cooked by baking."
+  },
+  {
+    "id": 16,
+    "name": "Beverages",
+    "img": "https://i.postimg.cc/XvXrvtqm/beverages.png",
+    "clue": "Drinks, especially non-alcoholic ones."
+  },
+  {
+    "id": 16,
+    "name": "Bin",
+    "img": "https://i.postimg.cc/J4WHQTYH/bin.jpg",
+    "clue": "A large container used for storing items."
+  },
+  {
+    "id": 16,
+    "name": "Bread",
+    "img": "https://i.postimg.cc/85JfZxVM/bread.jpg",
+    "clue": "A staple food made from flour and baked."
+  },
+  {
+    "id": 16,
+    "name": "Canned Goods",
+    "img": "https://i.postimg.cc/Qxk9Ypv4/canned-goods.jpg",
+    "clue": "Foods preserved in cans."
+  },
+  {
+    "id": 16,
+    "name": "Cash Register",
+    "img": "https://i.postimg.cc/sx5QrSx2/cash-register.jpg",
+    "clue": "A machine used in stores for recording sales and handling cash."
+  },
+  {
+    "id": 16,
+    "name": "Checkout Counter",
+    "img": "https://i.postimg.cc/bwmGpqy1/checkout-counter.jpg",
+    "clue": "The area in a store where you pay for your items."
+  },
+  {
+    "id": 16,
+    "name": "Conveyor Belt",
+    "img": "https://i.postimg.cc/hjdhLx90/conveyor-belt.jpg",
+    "clue": "A moving belt that transports items at a checkout."
+  },
+  {
+    "id": 16,
+    "name": "Dairy Products",
+    "img": "https://i.postimg.cc/J4q05RBS/dairy-products.jpg",
+    "clue": "Foods made from milk, such as cheese and yogurt."
+  },
+  {
+    "id": 16,
+    "name": "Deli Counter",
+    "img": "https://i.postimg.cc/nrKz5JSj/deli-counter.jpg",
+    "clue": "The section in a store where cold cuts and cheeses are sold."
+  },
+  {
+    "id": 16,
+    "name": "Freezer",
+    "img": "https://i.postimg.cc/fWYJkcWz/freezer.jpg",
+    "clue": "An appliance used to keep food at very low temperatures."
+  },
+  {
+    "id": 16,
+    "name": "Frozen Foods",
+    "img": "https://i.postimg.cc/mggDdKYk/frozen-foods.jpg",
+    "clue": "Foods that are preserved by freezing."
+  },
+  {
+    "id": 16,
+    "name": "Groceries",
+    "img": "https://i.postimg.cc/SNqj9njW/groceries.jpg",
+    "clue": "Items of food sold in a grocery store."
+  },
+  {
+    "id": 16,
+    "name": "Household Items",
+    "img": "https://i.postimg.cc/XY1vtxL8/household-items.jpg",
+    "clue": "Everyday items used in the home, such as cleaning products."
+  },
+  {
+    "id": 16,
+    "name": "Milk",
+    "img": "https://i.postimg.cc/mrcr4M6G/milk.jpg",
+    "clue": "A white liquid produced by mammals, commonly consumed as a beverage."
+  },
+  {
+    "id": 16,
+    "name": "Produce",
+    "img": "https://i.postimg.cc/GpZmm2ZT/produce.jpg",
+    "clue": "Fresh fruits and vegetables sold in a grocery store."
+  },
+  {
+    "id": 16,
+    "name": "Receipt",
+    "img": "https://i.postimg.cc/902XykXW/receipt.gif",
+    "clue": "A document showing the items purchased and the amount paid."
+  },
+  {
+    "id": 16,
+    "name": "Scale",
+    "img": "https://i.postimg.cc/c17LddT6/scale.jpg",
+    "clue": "A device used to measure weight."
+  },
+  {
+    "id": 16,
+    "name": "Shelf",
+    "img": "https://i.postimg.cc/X7QNyxRb/shelf.jpg",
+    "clue": "A flat, horizontal surface used to store items."
+  },
+  {
+    "id": 16,
+    "name": "Shopping Basket",
+    "img": "https://i.postimg.cc/0yjkGDvJ/shopping-basket.jpg",
+    "clue": "A handheld container used to carry items while shopping."
+  },
+  {
+    "id": 16,
+    "name": "Shopping Cart",
+    "img": "https://i.postimg.cc/jS1sM2q3/shopping-cart.jpg",
+    "clue": "A wheeled cart used to carry items while shopping."
+  },
+  {
+    "id": 16,
+    "name": "Snacks",
+    "img": "https://i.postimg.cc/rptq3TKV/snacks.jpg",
+    "clue": "Small portions of food eaten between meals."
+  },
+  {
+    "id": 17,
+    "name": "Beef",
+    "img": "https://i.postimg.cc/vmmmMvs0/beef.jpg",
+    "clue": "Meat from cattle."
+  },
+  {
+    "id": 17,
+    "name": "Chicken Breast",
+    "img": "https://i.postimg.cc/y6R8VdMC/chicken-breast.jpg",
+    "clue": "The white meat from the chest of a chicken."
+  },
+  {
+    "id": 17,
+    "name": "Chicken Leg",
+    "img": "https://i.postimg.cc/4xP3rSrK/chicken-leg.jpg",
+    "clue": "The leg portion of a chicken, including the drumstick and thigh."
+  },
+  {
+    "id": 17,
+    "name": "Chicken Split",
+    "img": "https://i.postimg.cc/RFkC75nY/chicken-split.jpg",
+    "clue": "Chicken that has been cut in half for cooking."
+  },
+  {
+    "id": 17,
+    "name": "Chicken Thigh",
+    "img": "https://i.postimg.cc/xCJTNTqH/chicken-thigh.jpg",
+    "clue": "The upper part of a chicken's leg."
+  },
+  {
+    "id": 17,
+    "name": "Chicken Wing",
+    "img": "https://i.postimg.cc/cCfxT9RL/chiken-wing.jpg",
+    "clue": "The wing portion of a chicken."
+  },
+  {
+    "id": 17,
+    "name": "Clam",
+    "img": "https://i.postimg.cc/15Z54SSn/clam.jpg",
+    "clue": "A type of shellfish found in both freshwater and saltwater."
+  },
+  {
+    "id": 17,
+    "name": "Crab",
+    "img": "https://i.postimg.cc/DydfXNfC/crab.jpg",
+    "clue": "A sea creature with a hard shell and pincers."
+  },
+  {
+    "id": 17,
+    "name": "Duck",
+    "img": "https://i.postimg.cc/fRzzjvJM/duck.jpg",
+    "clue": "A waterfowl raised for its meat and eggs."
+  },
+  {
+    "id": 17,
+    "name": "Fish Filet",
+    "img": "https://i.postimg.cc/Dzm7RyrD/fish-filet.jpg",
+    "clue": "A boneless piece of fish."
+  },
+  {
+    "id": 17,
+    "name": "Fish Steak",
+    "img": "https://i.postimg.cc/6pM9HGvn/fish-steak.jpg",
+    "clue": "A thick cut of fish with the bone."
+  },
+  {
+    "id": 17,
+    "name": "Ground Beef",
+    "img": "https://i.postimg.cc/W3kTbWfw/ground-beef.jpg",
+    "clue": "Beef that has been finely chopped by a meat grinder."
+  },
+  {
+    "id": 17,
+    "name": "Ham",
+    "img": "https://i.postimg.cc/vT7y51y1/ham.jpg",
+    "clue": "Cured pork from the leg of a pig."
+  },
+  {
+    "id": 17,
+    "name": "Lobster",
+    "img": "https://i.postimg.cc/L5FRqtcK/lobster.jpg",
+    "clue": "A large sea creature with a long body and claws."
+  },
+  {
+    "id": 17,
+    "name": "Mussel",
+    "img": "https://i.postimg.cc/SQckBP9y/mussel.jpg",
+    "clue": "A type of shellfish with a dark, elongated shell."
+  },
+  {
+    "id": 17,
+    "name": "Oyster",
+    "img": "https://i.postimg.cc/gkdmmKy3/oyster.jpg",
+    "clue": "A shellfish known for producing pearls."
+  },
+  {
+    "id": 17,
+    "name": "Pork Chops",
+    "img": "https://i.postimg.cc/Yq3k9m8Z/pork-chops.png",
+    "clue": "Cuts of meat from the loin of a pig."
+  },
+  {
+    "id": 17,
+    "name": "Pork Lamb",
+    "img": "https://i.postimg.cc/Sxx4zNvs/pork-lamb.jpg",
+    "clue": "(Possible typo, should be Lamb) - Meat from a young sheep."
+  },
+  {
+    "id": 17,
+    "name": "Pork Leg",
+    "img": "https://i.postimg.cc/Bn7059rC/pork-leg.jpg",
+    "clue": "A cut of pork from the leg of a pig."
+  },
+  {
+    "id": 17,
+    "name": "Pork Roast",
+    "img": "https://i.postimg.cc/wBtd04HY/pork-roast.jpg",
+    "clue": "A large cut of pork, typically cooked by roasting."
+  },
+  {
+    "id": 17,
+    "name": "Pork Steak",
+    "img": "https://i.postimg.cc/yNwC5hYg/pork-steak.jpg",
+    "clue": "A cut of pork that is usually grilled or fried."
+  },
+  {
+    "id": 17,
+    "name": "Quarter",
+    "img": "https://i.postimg.cc/WzVLp2Zs/quarter.jpg",
+    "clue": "One of four equal parts."
+  },
+  {
+    "id": 17,
+    "name": "Sausage",
+    "img": "https://i.postimg.cc/kGyrBkNK/sausage.jpg",
+    "clue": "Ground meat mixed with spices, encased in a skin."
+  },
+  {
+    "id": 17,
+    "name": "Scallop",
+    "img": "https://i.postimg.cc/44vRL9Cy/scallop.jpg",
+    "clue": "A shellfish with a fan-shaped shell."
+  },
+  {
+    "id": 17,
+    "name": "Shrimp",
+    "img": "https://i.postimg.cc/28zRPSmw/shrimp.jpg",
+    "clue": "A small, pink sea creature commonly used in cooking."
+  },
+  {
+    "id": 17,
+    "name": "Spare Ribs",
+    "img": "https://i.postimg.cc/zX0Z5YG1/spare-ribs.jpg",
+    "clue": "A cut of pork from the lower part of the ribcage."
+  },
+  {
+    "id": 17,
+    "name": "Stewing Meat",
+    "img": "https://i.postimg.cc/W1HBFmZW/stewing-meat.jpg",
+    "clue": "Cuts of meat suitable for slow cooking in stews."
+  },
+  {
+    "id": 17,
+    "name": "Turkey",
+    "img": "https://i.postimg.cc/k5RkxVFn/turkey.jpg",
+    "clue": "A large bird raised for its meat, often eaten during holidays."
+  },
+  {
+    "id": 17,
+    "name": "Whole Chicken",
+    "img": "https://i.postimg.cc/6pqspb84/whole-chicken.jpg",
+    "clue": "An entire chicken, typically sold uncooked."
+  },
+  {
+    "id": 17,
+    "name": "Whole Fish",
+    "img": "https://i.postimg.cc/ydq2nVv0/whole-fish.jpg",
+    "clue": "An entire fish, often sold fresh or frozen."
+  },
+  {
+    "id": 17,
+    "name": "Bacon",
+    "img": "https://i.postimg.cc/tThwMLMw/bacon.jpg",
+    "clue": "Thin slices of cured pork that are fried until crispy."
+  },
+  {
+    "id": 18,
+    "name": "Almond",
+    "img": "https://i.postimg.cc/pLhVyL7H/almond.jpg",
+    "clue": "A type of nut often eaten as a snack or used in cooking."
+  },
+  {
+    "id": 18,
+    "name": "Apple",
+    "img": "https://i.postimg.cc/ncLhbkGM/apple.jpg",
+    "clue": "A round fruit with a red, green, or yellow skin."
+  },
+  {
+    "id": 18,
+    "name": "Apricot",
+    "img": "https://i.postimg.cc/rmJM70dS/apricot.jpg",
+    "clue": "A small, orange fruit with a pit."
+  },
+  {
+    "id": 18,
+    "name": "Avocado",
+    "img": "https://i.postimg.cc/GpvcJSdg/avocado.jpg",
+    "clue": "A creamy, green fruit often used in guacamole."
+  },
+  {
+    "id": 18,
+    "name": "Bananas",
+    "img": "https://i.postimg.cc/G2rbMJpL/bananas.jpg",
+    "clue": "Long, yellow fruit with a soft, sweet interior."
+  },
+  {
+    "id": 18,
+    "name": "Blackberries",
+    "img": "https://i.postimg.cc/P5gXDks8/blackberries.jpg",
+    "clue": "Small, dark berries often eaten fresh or used in desserts."
+  },
+  {
+    "id": 18,
+    "name": "Blueberries",
+    "img": "https://i.postimg.cc/c454snFh/blueberries.jpg",
+    "clue": "Small, round, blue berries often used in baking."
+  },
+  {
+    "id": 18,
+    "name": "Cantaloupe",
+    "img": "https://i.postimg.cc/hvtcnDxN/cantaloupe.jpg",
+    "clue": "A type of melon with orange flesh."
+  },
+  {
+    "id": 18,
+    "name": "Cashew",
+    "img": "https://i.postimg.cc/c4605Jdn/cashew.jpg",
+    "clue": "A type of nut often eaten as a snack or used in cooking."
+  },
+  {
+    "id": 18,
+    "name": "Cherries",
+    "img": "https://i.postimg.cc/2y9m8s7y/cherries.jpg",
+    "clue": "Small, red or black fruits with a pit."
+  },
+  {
+    "id": 18,
+    "name": "Chestnut",
+    "img": "https://i.postimg.cc/CMcwN8p0/chestnut.jpg",
+    "clue": "A type of nut often roasted and eaten."
+  },
+  {
+    "id": 18,
+    "name": "Coconut",
+    "img": "https://i.postimg.cc/yd6wgfdZ/coconut.jpg",
+    "clue": "A large, brown fruit with a hard shell and white flesh."
+  },
+  {
+    "id": 18,
+    "name": "Cranberries",
+    "img": "https://i.postimg.cc/1z0QNnrL/cranberries.png",
+    "clue": "Small, red berries often used in sauces and desserts."
+  },
+  {
+    "id": 18,
+    "name": "Date",
+    "img": "https://i.postimg.cc/tCfp0Hgm/date.jpg",
+    "clue": "A sweet, brown fruit often eaten dried."
+  },
+  {
+    "id": 18,
+    "name": "Fig",
+    "img": "https://i.postimg.cc/3wQhRCmX/fig.jpg",
+    "clue": "A sweet fruit with a soft interior, often eaten fresh or dried."
+  },
+  {
+    "id": 18,
+    "name": "Gooseberries",
+    "img": "https://i.postimg.cc/vZVMbSg8/gooseberries.jpg",
+    "clue": "Small, tart berries often used in jams and desserts."
+  },
+  {
+    "id": 18,
+    "name": "Grapefruit",
+    "img": "https://i.postimg.cc/3NN56LQT/grapefruit.jpg",
+    "clue": "A large, tart citrus fruit."
+  },
+  {
+    "id": 18,
+    "name": "Grapes",
+    "img": "https://i.postimg.cc/262N2sJG/grapes.jpg",
+    "clue": "Small, round fruits often eaten fresh or used to make wine."
+  },
+  {
+    "id": 18,
+    "name": "Hazelnut",
+    "img": "https://i.postimg.cc/639NVWHT/hazelnut.jpg",
+    "clue": "A type of nut often used in confections."
+  },
+  {
+    "id": 18,
+    "name": "Honeydew Melon",
+    "img": "https://i.postimg.cc/rsHXLSqt/honeydew-melon.jpg",
+    "clue": "A type of melon with green flesh."
+  },
+  {
+    "id": 18,
+    "name": "Lemon",
+    "img": "https://i.postimg.cc/T2NXmXnY/lemon.jpg",
+    "clue": "A sour, yellow citrus fruit."
+  },
+  {
+    "id": 18,
+    "name": "Lime",
+    "img": "https://i.postimg.cc/3JyQFbZj/lime.jpg",
+    "clue": "A small, green citrus fruit with a tart flavor."
+  },
+  {
+    "id": 18,
+    "name": "Mango",
+    "img": "https://i.postimg.cc/y8cqwgtk/mango.jpg",
+    "clue": "A tropical fruit with sweet, orange flesh."
+  },
+  {
+    "id": 18,
+    "name": "Nectarine",
+    "img": "https://i.postimg.cc/tgNKg0Xb/nectarine.jpg",
+    "clue": "A smooth-skinned fruit similar to a peach."
+  },
+  {
+    "id": 18,
+    "name": "Orange",
+    "img": "https://i.postimg.cc/HLmGHW13/orange.jpg",
+    "clue": "A round, orange citrus fruit."
+  },
+  {
+    "id": 18,
+    "name": "Papaya",
+    "img": "https://i.postimg.cc/C1v9jjB6/papaya.jpg",
+    "clue": "A tropical fruit with orange flesh and black seeds."
+  },
+  {
+    "id": 18,
+    "name": "Peach",
+    "img": "https://i.postimg.cc/J0GvKGj7/peach.jpg",
+    "clue": "A fuzzy-skinned fruit with sweet, yellow flesh."
+  },
+  {
+    "id": 18,
+    "name": "Peanut",
+    "img": "https://i.postimg.cc/PJ9c7TMW/peanut.jpg",
+    "clue": "A legume often eaten roasted or used to make peanut butter."
+  },
+  {
+    "id": 18,
+    "name": "Pear",
+    "img": "https://i.postimg.cc/CLn9qnFm/pear.png",
+    "clue": "A sweet, green or yellow fruit with a soft interior."
+  },
+  {
+    "id": 18,
+    "name": "Pineapple",
+    "img": "https://i.postimg.cc/wjKZcxMH/pineapple.jpg",
+    "clue": "A tropical fruit with a rough, spiky exterior and sweet, yellow flesh."
+  },
+  {
+    "id": 18,
+    "name": "Plum",
+    "img": "https://i.postimg.cc/66mDqfN8/plum.jpg",
+    "clue": "A small, round fruit with a pit and sweet, juicy flesh."
+  },
+  {
+    "id": 18,
+    "name": "Prune",
+    "img": "https://i.postimg.cc/W1MK9RqZ/prune.jpg",
+    "clue": "A dried plum often eaten as a snack."
+  },
+  {
+    "id": 18,
+    "name": "Raisin",
+    "img": "https://i.postimg.cc/W4TyC90H/raisin.jpg",
+    "clue": "A dried grape often used in baking."
+  },
+  {
+    "id": 18,
+    "name": "Raspberries",
+    "img": "https://i.postimg.cc/qRZZt4SP/raspberries.png",
+    "clue": "Small, red berries often eaten fresh or used in desserts."
+  },
+  {
+    "id": 18,
+    "name": "Strawberry",
+    "img": "https://i.postimg.cc/G2p5hH7P/strawberry.jpg",
+    "clue": "A sweet, red fruit with small seeds on the outside."
+  },
+  {
+    "id": 18,
+    "name": "Walnut",
+    "img": "https://i.postimg.cc/k5sHmxcX/walnut.jpg",
+    "clue": "A type of nut often used in baking and cooking."
+  },
+  {
+    "id": 18,
+    "name": "Watermelon",
+    "img": "https://i.postimg.cc/BbL7HRGX/watermelon.jpg",
+    "clue": "A large, green fruit with sweet, red flesh."
+  },
+  {
+    "id": 19,
+    "name": "Cone",
+    "img": "https://i.postimg.cc/nLqc4Kmk/cone.jpg",
+    "clue": "A conical-shaped seed pod often found on pine trees."
+  },
+  {
+    "id": 19,
+    "name": "Corn",
+    "img": "https://i.postimg.cc/tRBRN4sL/corn.jpg",
+    "clue": "A grain with kernels on a cob, often eaten as a vegetable."
+  },
+  {
+    "id": 19,
+    "name": "Crocus",
+    "img": "https://i.postimg.cc/VvkfP3VG/crocus.jpg",
+    "clue": "A small, spring-blooming flower."
+  },
+  {
+    "id": 19,
+    "name": "Daffodil",
+    "img": "https://i.postimg.cc/W3jpXD6P/daffodil.jpg",
+    "clue": "A spring-blooming flower with a trumpet-shaped center."
+  },
+  {
+    "id": 19,
+    "name": "Daisy",
+    "img": "https://i.postimg.cc/T1NRdt8R/daisy.jpg",
+    "clue": "A common wildflower with white petals and a yellow center."
+  },
+  {
+    "id": 19,
+    "name": "Dogwood",
+    "img": "https://i.postimg.cc/Fs1rWXc1/dogwood.jpg",
+    "clue": "A type of tree known for its showy flowers."
+  },
+  {
+    "id": 19,
+    "name": "Elm",
+    "img": "https://i.postimg.cc/9FSWsgtb/elm.jpg",
+    "clue": "A type of tree known for its broad leaves."
+  },
+  {
+    "id": 19,
+    "name": "Eucalyptus",
+    "img": "https://i.postimg.cc/SKbmxXPz/eucalyptus.jpg",
+    "clue": "A type of tree known for its aromatic leaves."
+  },
+  {
+    "id": 19,
+    "name": "Gardenia",
+    "img": "https://i.postimg.cc/BnKq35m0/gardenia.jpg",
+    "clue": "A fragrant, white flower often used in perfumes."
+  },
+  {
+    "id": 19,
+    "name": "Holly",
+    "img": "https://i.postimg.cc/76xDSFwH/holly.jpg",
+    "clue": "A plant with glossy leaves and red berries."
+  },
+  {
+    "id": 19,
+    "name": "House Plant",
+    "img": "https://i.postimg.cc/HL0dcYGv/house-plant.jpg",
+    "clue": "A plant grown indoors for decorative purposes."
+  },
+  {
+    "id": 19,
+    "name": "Hyacinth",
+    "img": "https://i.postimg.cc/LXNSDx8z/hyacinth.jpg",
+    "clue": "A fragrant, spring-blooming flower."
+  },
+  {
+    "id": 19,
+    "name": "Iris",
+    "img": "https://i.postimg.cc/tJJjMFs8/iris.jpg",
+    "clue": "A flower with large, showy blooms."
+  },
+  {
+    "id": 19,
+    "name": "Leaf",
+    "img": "https://i.postimg.cc/XqPbSXFq/leaf.jpg",
+    "clue": "The flat, green part of a plant that absorbs sunlight."
+  },
+  {
+    "id": 19,
+    "name": "Lily",
+    "img": "https://i.postimg.cc/h4Zg7Zwn/lily.jpg",
+    "clue": "A large, showy flower often used in bouquets."
+  },
+  {
+    "id": 19,
+    "name": "Magnolia",
+    "img": "https://i.postimg.cc/tC1bdtQx/magnolia.jpg",
+    "clue": "A tree or shrub with large, fragrant flowers."
+  },
+  {
+    "id": 19,
+    "name": "Maple",
+    "img": "https://i.postimg.cc/m20smzB6/maple.jpg",
+    "clue": "A type of tree known for its sap, which is used to make syrup."
+  },
+  {
+    "id": 19,
+    "name": "Marigold",
+    "img": "https://i.postimg.cc/Jh8WWfyN/marigold.jpg",
+    "clue": "A bright, orange or yellow flower often used in gardens."
+  },
+  {
+    "id": 19,
+    "name": "Needle",
+    "img": "https://i.postimg.cc/CxkVXhKM/needle.jpg",
+    "clue": "The thin, pointed leaves of a pine tree."
+  },
+  {
+    "id": 19,
+    "name": "Oak",
+    "img": "https://i.postimg.cc/tTCQsFN7/oak.jpg",
+    "clue": "A type of tree known for its strong wood."
+  },
+  {
+    "id": 19,
+    "name": "Oats",
+    "img": "https://i.postimg.cc/bvRfYmbK/oats.jpg",
+    "clue": "A cereal grain often used in breakfast foods."
+  },
+  {
+    "id": 19,
+    "name": "Orchid",
+    "img": "https://i.postimg.cc/cH9qw6Fh/orchid.jpg",
+    "clue": "A delicate, exotic flower often grown as a houseplant."
+  },
+  {
+    "id": 19,
+    "name": "Palm",
+    "img": "https://i.postimg.cc/cC2Vk2y8/palm.jpg",
+    "clue": "A tropical tree with large, fan-shaped leaves."
+  },
+  {
+    "id": 19,
+    "name": "Pansy",
+    "img": "https://i.postimg.cc/cCrpmZjS/pansy.jpg",
+    "clue": "A small, colorful flower often used in gardens."
+  },
+  {
+    "id": 19,
+    "name": "Petal",
+    "img": "https://i.postimg.cc/CM2TKBBL/petal.jpg",
+    "clue": "The colorful part of a flower."
+  },
+  {
+    "id": 19,
+    "name": "Petunia",
+    "img": "https://i.postimg.cc/65Gs4WnV/petunia.jpg",
+    "clue": "A colorful, trumpet-shaped flower."
+  },
+  {
+    "id": 19,
+    "name": "Pine",
+    "img": "https://i.postimg.cc/MTr4XNGr/pine.jpg",
+    "clue": "A type of tree known for its needles and cones."
+  },
+  {
+    "id": 19,
+    "name": "Poinsettia",
+    "img": "https://i.postimg.cc/P5GgmgQg/poinsettia.jpg",
+    "clue": "A plant with bright red and green leaves, often used as a Christmas decoration."
+  },
+  {
+    "id": 19,
+    "name": "Poison Ivy",
+    "img": "https://i.postimg.cc/xdnBZL7g/poison-ivy.jpg",
+    "clue": "A plant that causes a rash when touched."
+  },
+  {
+    "id": 19,
+    "name": "Poison Oak",
+    "img": "https://i.postimg.cc/y8FwnLfk/poison-oak.jpg",
+    "clue": "A plant similar to poison ivy, also causing a rash."
+  },
+  {
+    "id": 19,
+    "name": "Poison Sumac",
+    "img": "https://i.postimg.cc/s2mbCvCz/poison-sumac.jpg",
+    "clue": "A plant that causes a rash, found in wet areas."
+  },
+  {
+    "id": 19,
+    "name": "Poplar",
+    "img": "https://i.postimg.cc/LXsw92m1/poplar.jpg",
+    "clue": "A type of fast-growing tree."
+  },
+  {
+    "id": 19,
+    "name": "Redwood",
+    "img": "https://i.postimg.cc/L5YWPDY4/redwood.jpg",
+    "clue": "A type of tall, ancient tree found on the west coast of the United States."
+  },
+  {
+    "id": 19,
+    "name": "Rice",
+    "img": "https://i.postimg.cc/xjBf4FPR/rice.jpg",
+    "clue": "A cereal grain often used as a staple food."
+  },
+  {
+    "id": 19,
+    "name": "Root",
+    "img": "https://i.postimg.cc/3rkr9H2N/root.jpg",
+    "clue": "The part of a plant that absorbs water and nutrients from the soil."
+  },
+  {
+    "id": 19,
+    "name": "Rose",
+    "img": "https://i.postimg.cc/SRBvf9C6/rose.jpg",
+    "clue": "A fragrant flower often given as a symbol of love."
+  },
+  {
+    "id": 19,
+    "name": "Sugar Cane",
+    "img": "https://i.postimg.cc/BQDS9cYG/sugar-cane.jpg",
+    "clue": "A tropical plant used to produce sugar."
+  },
+  {
+    "id": 19,
+    "name": "Sunflower",
+    "img": "https://i.postimg.cc/FH499d8k/sunflower.jpg",
+    "clue": "A tall plant with a large, yellow flower head."
+  },
+  {
+    "id": 19,
+    "name": "Thorn",
+    "img": "https://i.postimg.cc/xdjnmr00/thorn.jpg",
+    "clue": "A sharp, pointed growth on a plant."
+  },
+  {
+    "id": 19,
+    "name": "Tree",
+    "img": "https://i.postimg.cc/3xF3WrQS/tree.jpg",
+    "clue": "A large plant with a trunk, branches, and leaves."
+  },
+  {
+    "id": 19,
+    "name": "Trunk",
+    "img": "https://i.postimg.cc/NM5tN19S/trunk.jpg",
+    "clue": "The main stem of a tree."
+  },
+  {
+    "id": 19,
+    "name": "Tulip",
+    "img": "https://i.postimg.cc/3wL7CLR2/tulip.jpg",
+    "clue": "A spring-blooming flower with a cup-shaped bloom."
+  },
+  {
+    "id": 19,
+    "name": "Twig",
+    "img": "https://i.postimg.cc/Ss3hHJcs/twig.jpg",
+    "clue": "A small, thin branch of a tree or shrub."
+  },
+  {
+    "id": 19,
+    "name": "Vine",
+    "img": "https://i.postimg.cc/rs4kTM99/vine.jpg",
+    "clue": "A climbing or trailing plant."
+  },
+  {
+    "id": 19,
+    "name": "Violet",
+    "img": "https://i.postimg.cc/DyqTYf0v/violet.jpg",
+    "clue": "A small, purple or blue flower."
+  },
+  {
+    "id": 19,
+    "name": "Wheat",
+    "img": "https://i.postimg.cc/jdVTXns3/wheat.jpg",
+    "clue": "A cereal grain used to make flour."
+  },
+  {
+    "id": 19,
+    "name": "Willow",
+    "img": "https://i.postimg.cc/pV5xzJtn/willow.jpg",
+    "clue": "A type of tree with long, drooping branches."
+  },
+  {
+    "id": 19,
+    "name": "Zinnia",
+    "img": "https://i.postimg.cc/SKKbsWrR/zinnia.jpg",
+    "clue": "A colorful flower often used in gardens."
+  },
+  {
+    "id": 19,
+    "name": "Acorn",
+    "img": "https://i.postimg.cc/P5ykT610/acorn.jpg",
+    "clue": "The nut of an oak tree."
+  },
+  {
+    "id": 19,
+    "name": "Bark",
+    "img": "https://i.postimg.cc/VNHQbdGR/bark.jpg",
+    "clue": "The outer covering of a tree."
+  },
+  {
+    "id": 19,
+    "name": "Birch",
+    "img": "https://i.postimg.cc/zBbmw841/birch.jpg",
+    "clue": "A type of tree known for its white bark."
+  },
+  {
+    "id": 19,
+    "name": "Branch",
+    "img": "https://i.postimg.cc/85q2txVf/branch.jpg",
+    "clue": "A part of a tree that grows out from the trunk."
+  },
+  {
+    "id": 19,
+    "name": "Bud",
+    "img": "https://i.postimg.cc/mkC0qVbX/bud.jpg",
+    "clue": "The undeveloped part of a plant that can grow into a flower or leaf."
+  },
+  {
+    "id": 19,
+    "name": "Bushes",
+    "img": "https://i.postimg.cc/SQ9FJQW6/bushes.jpg",
+    "clue": "Low, woody plants with many branches."
+  },
+  {
+    "id": 19,
+    "name": "Buttercup",
+    "img": "https://i.postimg.cc/bw7wSVZr/buttercup.jpg",
+    "clue": "A bright yellow flower often found in meadows."
+  },
+  {
+    "id": 19,
+    "name": "Cactus",
+    "img": "https://i.postimg.cc/JzDhnC4S/cactus.jpg",
+    "clue": "A plant that grows in dry areas, often with spines."
+  },
+  {
+    "id": 20,
+    "name": "Ballpoint",
+    "img": "https://i.postimg.cc/GmsX83tn/ballpoint.jpg",
+    "clue": "A type of pen with a tiny ball as its writing point."
+  },
+  {
+    "id": 20,
+    "name": "Bookcase",
+    "img": "https://i.postimg.cc/3wX91L2L/bookcase.jpg",
+    "clue": "A piece of furniture with shelves for storing books."
+  },
+  {
+    "id": 20,
+    "name": "Brush",
+    "img": "https://i.postimg.cc/zXvtNF1B/brush.jpg",
+    "clue": "A tool with bristles used for cleaning or painting."
+  },
+  {
+    "id": 20,
+    "name": "Bulletin Board",
+    "img": "https://i.postimg.cc/65PHp49h/bulletin-board.jpg",
+    "clue": "A board for displaying notices and messages."
+  },
+  {
+    "id": 20,
+    "name": "Calculator",
+    "img": "https://i.postimg.cc/k47spxc7/calculator.jpg",
+    "clue": "A device used for performing mathematical calculations."
+  },
+  {
+    "id": 20,
+    "name": "Calendar",
+    "img": "https://i.postimg.cc/25R24pLb/calendar.jpg",
+    "clue": "A chart showing the days, weeks, and months of the year."
+  },
+  {
+    "id": 20,
+    "name": "Chalk Tray",
+    "img": "https://i.postimg.cc/MTt52vPV/chalk-tray.jpg",
+    "clue": "A tray at the bottom of a chalkboard for holding chalk."
+  },
+  {
+    "id": 20,
+    "name": "Chalkboard",
+    "img": "https://i.postimg.cc/hGB1X9NV/chalkboard.png",
+    "clue": "A board used for writing on with chalk."
+  },
+  {
+    "id": 20,
+    "name": "Cleaner",
+    "img": "https://i.postimg.cc/d3x93gK0/cleaner.jpg",
+    "clue": "A person or device that cleans."
+  },
+  {
+    "id": 20,
+    "name": "Clock",
+    "img": "https://i.postimg.cc/44LPWHhT/clock.jpg",
+    "clue": "A device for measuring and indicating time."
+  },
+  {
+    "id": 20,
+    "name": "Computer",
+    "img": "https://i.postimg.cc/q7xXyNdS/computer.jpg",
+    "clue": "An electronic device for processing and storing data."
+  },
+  {
+    "id": 20,
+    "name": "Cubicle",
+    "img": "https://i.postimg.cc/m2PwJZQ1/cubicle.jpg",
+    "clue": "A small, enclosed workspace."
+  },
+  {
+    "id": 20,
+    "name": "Desk",
+    "img": "https://i.postimg.cc/YqT3Hc3n/desk.jpg",
+    "clue": "A piece of furniture with a flat surface for writing or working."
+  },
+  {
+    "id": 20,
+    "name": "Envelope",
+    "img": "https://i.postimg.cc/W1r7p9Y2/envelope.jpg",
+    "clue": "A flat paper container for letters."
+  },
+  {
+    "id": 20,
+    "name": "Eraser",
+    "img": "https://i.postimg.cc/Jn73qRrn/eraser.jpg",
+    "clue": "A tool used to remove pencil or chalk marks."
+  },
+  {
+    "id": 20,
+    "name": "File Cabinet",
+    "img": "https://i.postimg.cc/zBdC24vk/file-cabinet.jpg",
+    "clue": "A piece of office furniture for storing files."
+  },
+  {
+    "id": 20,
+    "name": "File Folder",
+    "img": "https://i.postimg.cc/4yqzstz7/file-folder.jpg",
+    "clue": "A folder for holding and organizing papers."
+  },
+  {
+    "id": 20,
+    "name": "Flag",
+    "img": "https://i.postimg.cc/rFR1gnkS/flag.jpg",
+    "clue": "A piece of cloth with a special design, used as a symbol."
+  },
+  {
+    "id": 20,
+    "name": "Glue",
+    "img": "https://i.postimg.cc/HWh0wGfY/glue.jpg",
+    "clue": "A sticky substance used for sticking things together."
+  },
+  {
+    "id": 20,
+    "name": "Hall",
+    "img": "https://i.postimg.cc/g29v7Vz1/hall.jpg",
+    "clue": "A long passage in a building with rooms on either side."
+  },
+  {
+    "id": 20,
+    "name": "Headset",
+    "img": "https://i.postimg.cc/Xv49jny8/headset.jpg",
+    "clue": "A device worn on the head for listening and speaking."
+  },
+  {
+    "id": 20,
+    "name": "Legal Pad",
+    "img": "https://i.postimg.cc/R0dKq27z/legal-pad.jpg",
+    "clue": "A pad of lined paper often used for writing notes."
+  },
+  {
+    "id": 20,
+    "name": "Locker",
+    "img": "https://i.postimg.cc/qR7nKQw6/locker.jpg",
+    "clue": "A small, lockable storage compartment."
+  },
+  {
+    "id": 20,
+    "name": "Loudspeaker",
+    "img": "https://i.postimg.cc/D0JXjZt2/loudspeaker.jpg",
+    "clue": "A device that amplifies and projects sound."
+  },
+  {
+    "id": 20,
+    "name": "Message Pad",
+    "img": "https://i.postimg.cc/mZJMcYHh/message-pad.jpg",
+    "clue": "A pad of paper used for writing messages."
+  },
+  {
+    "id": 20,
+    "name": "Overhead Projector",
+    "img": "https://i.postimg.cc/JhpHRZ8r/overhead-projector.jpg",
+    "clue": "A device that projects images onto a screen."
+  },
+  {
+    "id": 20,
+    "name": "Paper Clips",
+    "img": "https://i.postimg.cc/YqFFQv6R/paper-clips.jpg",
+    "clue": "Small pieces of bent wire used to hold papers together."
+  },
+  {
+    "id": 20,
+    "name": "Pencil Sharpener",
+    "img": "https://i.postimg.cc/K8yMfmQ2/pencil-sharpener.jpg",
+    "clue": "A device used to sharpen pencils."
+  },
+  {
+    "id": 20,
+    "name": "Photocopier",
+    "img": "https://i.postimg.cc/43fhCwr2/photocopier.jpg",
+    "clue": "A machine that makes copies of documents."
+  },
+  {
+    "id": 20,
+    "name": "Printer",
+    "img": "https://i.postimg.cc/TwhL112r/printer.jpg",
+    "clue": "A device that prints text or images onto paper."
+  },
+  {
+    "id": 20,
+    "name": "Printout",
+    "img": "https://i.postimg.cc/63S7vKTF/printout.jpg",
+    "clue": "A printed document from a computer."
+  },
+  {
+    "id": 20,
+    "name": "Ring Binder",
+    "img": "https://i.postimg.cc/T1DKjsD1/ring-binder.jpg",
+    "clue": "A folder with rings for holding punched paper."
+  },
+  {
+    "id": 20,
+    "name": "Rolodex",
+    "img": "https://i.postimg.cc/J7GdJCpx/rolodex.jpg",
+    "clue": "A rotating file device used to store business contact information."
+  },
+  {
+    "id": 20,
+    "name": "Ruler",
+    "img": "https://i.postimg.cc/JtCGpQNq/ruler.jpg",
+    "clue": "A tool used to measure length."
+  },
+  {
+    "id": 20,
+    "name": "Staple Remover",
+    "img": "https://i.postimg.cc/ZY2sxsgS/staple-remover.jpg",
+    "clue": "A tool used to remove staples from paper."
+  },
+  {
+    "id": 20,
+    "name": "Stapler",
+    "img": "https://i.postimg.cc/g0zg2Cwv/stapler.jpg",
+    "clue": "A device used to fasten papers together with staples."
+  },
+  {
+    "id": 20,
+    "name": "Telephone",
+    "img": "https://i.postimg.cc/LXhvzj35/telephone.jpg",
+    "clue": "A device used for voice communication."
+  },
+  {
+    "id": 20,
+    "name": "Textbook",
+    "img": "https://i.postimg.cc/mZz8kNr6/text-book.jpg",
+    "clue": "A book used for studying a subject."
+  },
+  {
+    "id": 20,
+    "name": "Thumbtack",
+    "img": "https://i.postimg.cc/vTVzKMjd/thumbtack.jpg",
+    "clue": "A small pin used to fasten paper to a board."
+  },
+  {
+    "id": 20,
+    "name": "Typewriter",
+    "img": "https://i.postimg.cc/027ndkDY/typewriter.jpg",
+    "clue": "A machine used for typing text onto paper."
+  },
+  {
+    "id": 20,
+    "name": "Typing Chair",
+    "img": "https://i.postimg.cc/ZYGjdBBY/typing-chair.jpg",
+    "clue": "A chair designed for use while typing."
+  },
+  {
+    "id": 20,
+    "name": "Word Processor",
+    "img": "https://i.postimg.cc/qvLGS1mg/word-processor.jpg",
+    "clue": "A computer program used for writing and editing text."
+  },
+  {
+    "id": 21,
+    "name": "Charcoal Briquettes",
+    "img": "https://i.postimg.cc/G2C6K8VC/charcoal-briquettes.jpg",
+    "clue": "Small, compressed pieces of charcoal used for grilling."
+  },
+  {
+    "id": 21,
+    "name": "Chimney",
+    "img": "https://i.postimg.cc/XqMqQ83v/chimney.jpg",
+    "clue": "A structure that carries smoke away from a fire inside a building."
+  },
+  {
+    "id": 21,
+    "name": "Deck",
+    "img": "https://i.postimg.cc/Hx8jwNqK/deck.jpg",
+    "clue": "A flat surface, often wooden, attached to a house and used for outdoor activities."
+  },
+  {
+    "id": 21,
+    "name": "Drainpipe",
+    "img": "https://i.postimg.cc/5NSySLrx/drainpipe.jpg",
+    "clue": "A pipe that carries waste water away from a building."
+  },
+  {
+    "id": 21,
+    "name": "Driveway",
+    "img": "https://i.postimg.cc/4yzdM9NQ/driveway.jpg",
+    "clue": "A short road leading from a street to a house or garage."
+  },
+  {
+    "id": 21,
+    "name": "Garage",
+    "img": "https://i.postimg.cc/pLVTGyNK/garage.jpg",
+    "clue": "A building or part of a building for housing vehicles."
+  },
+  {
+    "id": 21,
+    "name": "Garden Hose",
+    "img": "https://i.postimg.cc/GmMpZrrV/garden-hose.jpg",
+    "clue": "A flexible tube used for watering plants."
+  },
+  {
+    "id": 21,
+    "name": "Grass",
+    "img": "https://i.postimg.cc/kXmDSff1/grass.jpg",
+    "clue": "The green, leafy plant that covers the ground in lawns and fields."
+  },
+  {
+    "id": 21,
+    "name": "Grill",
+    "img": "https://i.postimg.cc/fbJbsFRL/grill.jpg",
+    "clue": "A device for cooking food over an open flame."
+  },
+  {
+    "id": 21,
+    "name": "Gutter",
+    "img": "https://i.postimg.cc/q7SvvLNG/gutter.jpg",
+    "clue": "A channel along the edge of a roof that carries away rainwater."
+  },
+  {
+    "id": 21,
+    "name": "Hammock",
+    "img": "https://i.postimg.cc/8cVkhzBJ/hammock.jpg",
+    "clue": "A bed made of canvas or rope that hangs between two supports."
+  },
+  {
+    "id": 21,
+    "name": "Hedge Clippers",
+    "img": "https://i.postimg.cc/zBhXbgWY/hedge-clippers.jpg",
+    "clue": "Tools used for trimming hedges."
+  },
+  {
+    "id": 21,
+    "name": "Lawn Mower",
+    "img": "https://i.postimg.cc/Y21CtQM1/lawn-mower.jpg",
+    "clue": "A machine used for cutting grass."
+  },
+  {
+    "id": 21,
+    "name": "Lounge Chair",
+    "img": "https://i.postimg.cc/hPcPvhtN/lounge-chair.jpg",
+    "clue": "A comfortable chair for relaxing, often used outdoors."
+  },
+  {
+    "id": 21,
+    "name": "Mitt",
+    "img": "https://i.postimg.cc/jdcq7KW2/mitt.jpg",
+    "clue": "A padded glove used in baseball."
+  },
+  {
+    "id": 21,
+    "name": "Patio",
+    "img": "https://i.postimg.cc/bvDqWtmS/patio.jpg",
+    "clue": "A paved outdoor area next to a house."
+  },
+  {
+    "id": 21,
+    "name": "Porch",
+    "img": "https://i.postimg.cc/zv55yP8T/porch.jpg",
+    "clue": "A covered shelter projecting in front of the entrance of a house."
+  },
+  {
+    "id": 21,
+    "name": "Power Saw",
+    "img": "https://i.postimg.cc/7LFqkZRs/power-saw.jpg",
+    "clue": "A saw powered by electricity or a motor."
+  },
+  {
+    "id": 21,
+    "name": "Rake",
+    "img": "https://i.postimg.cc/QtchxrGX/rake.jpg",
+    "clue": "A tool with a long handle and tines used for gathering leaves."
+  },
+  {
+    "id": 21,
+    "name": "Roof",
+    "img": "https://i.postimg.cc/ZKb4ZgfS/roof.jpg",
+    "clue": "The top covering of a building."
+  },
+  {
+    "id": 21,
+    "name": "Screen",
+    "img": "https://i.postimg.cc/BQmsvgy1/screen.jpg",
+    "clue": "A mesh or perforated surface used to keep insects out while letting air in."
+  },
+  {
+    "id": 21,
+    "name": "Shovel",
+    "img": "https://i.postimg.cc/g2rpLhFt/shovel.jpg",
+    "clue": "A tool with a broad blade used for digging or lifting materials."
+  },
+  {
+    "id": 21,
+    "name": "Shutter",
+    "img": "https://i.postimg.cc/W1KvG4sN/shutter.jpg",
+    "clue": "A hinged cover for a window."
+  },
+  {
+    "id": 21,
+    "name": "Spatula",
+    "img": "https://i.postimg.cc/fb9hBhbx/spatula.jpg",
+    "clue": "A flat tool used for flipping or spreading food."
+  },
+  {
+    "id": 21,
+    "name": "Sprinkler",
+    "img": "https://i.postimg.cc/zBYYQPL4/sprinkler.jpg",
+    "clue": "A device that sprays water for irrigating lawns or gardens."
+  },
+  {
+    "id": 21,
+    "name": "Tool Shed",
+    "img": "https://i.postimg.cc/Kz7hhrBj/tool-shed.jpg",
+    "clue": "A small building used for storing tools."
+  },
+  {
+    "id": 21,
+    "name": "Trowel",
+    "img": "https://i.postimg.cc/MHW26MmD/trowel.png",
+    "clue": "A small hand tool used for digging and planting."
+  },
+  {
+    "id": 21,
+    "name": "TV Antenna",
+    "img": "https://i.postimg.cc/mk8xtLdG/TV-antenna.jpg",
+    "clue": "A device used to receive television signals."
+  },
+  {
+    "id": 21,
+    "name": "Watering Can",
+    "img": "https://i.postimg.cc/c4LyP3H1/watering-can.gif",
+    "clue": "A container used to water plants."
+  },
+  {
+    "id": 21,
+    "name": "Wheelbarrow",
+    "img": "https://i.postimg.cc/T29vk0TH/wheelbarrow.jpg",
+    "clue": "A small cart with one wheel and handles, used for carrying loads."
+  },
+  {
+    "id": 21,
+    "name": "Window",
+    "img": "https://i.postimg.cc/PrVsHqpW/window.jpg",
+    "clue": "An opening in a wall or roof that lets in light and air."
+  },
+  {
+    "id": 21,
+    "name": "Work Gloves",
+    "img": "https://i.postimg.cc/N0TWR7ND/work-gloves.jpg",
+    "clue": "Protective gloves worn while doing manual labor."
+  },
+  {
+    "id": 22,
+    "name": "Bike Stand",
+    "img": "https://i.postimg.cc/jdPddPTH/bike-stand.jpg",
+    "clue": "A device used to hold a bicycle upright when it is not in use."
+  },
+  {
+    "id": 22,
+    "name": "Cable",
+    "img": "https://i.postimg.cc/T3cdnxph/cable.jpg",
+    "clue": "A thick, strong rope made of wires twisted together."
+  },
+  {
+    "id": 22,
+    "name": "Chain",
+    "img": "https://i.postimg.cc/7LsqQN1k/chain.jpg",
+    "clue": "A series of linked metal rings used for fastening or securing."
+  },
+  {
+    "id": 22,
+    "name": "Dirt Bike",
+    "img": "https://i.postimg.cc/V6Jzyb4b/dirt-bike.jpg",
+    "clue": "A lightweight motorcycle designed for off-road use."
+  },
+  {
+    "id": 22,
+    "name": "Engine",
+    "img": "https://i.postimg.cc/bNcpMrns/engine.jpg",
+    "clue": "A machine that converts energy into motion."
+  },
+  {
+    "id": 22,
+    "name": "Exhaust Pipe",
+    "img": "https://i.postimg.cc/GtYrtwWL/exhaust-pipe.jpg",
+    "clue": "A pipe through which exhaust gases from an engine are expelled."
+  },
+  {
+    "id": 22,
+    "name": "Fender",
+    "img": "https://i.postimg.cc/76jwqYQt/fender.jpg",
+    "clue": "A part of a vehicle that covers the wheels to prevent mud and debris from being thrown up."
+  },
+  {
+    "id": 22,
+    "name": "Gear Changer",
+    "img": "https://i.postimg.cc/Dfb7BL89/gear-changer.jpg",
+    "clue": "A device used to change gears on a bicycle or vehicle."
+  },
+  {
+    "id": 22,
+    "name": "Handbrake",
+    "img": "https://i.postimg.cc/m2YBG43V/handbrake.jpg",
+    "clue": "A brake operated by hand, usually used to keep a parked vehicle stationary."
+  },
+  {
+    "id": 22,
+    "name": "Helmet",
+    "img": "https://i.postimg.cc/9Q12rBn7/helmet.jpg",
+    "clue": "A protective headgear worn to prevent injury."
+  },
+  {
+    "id": 22,
+    "name": "Horn",
+    "img": "https://i.postimg.cc/1ztQ6NkY/horn.jpg",
+    "clue": "A device that makes a loud sound, used to warn or signal."
+  },
+  {
+    "id": 22,
+    "name": "Kickstand",
+    "img": "https://i.postimg.cc/QtKZYZxQ/kickstand.jpg",
+    "clue": "A support that holds a bicycle or motorcycle upright when not in use."
+  },
+  {
+    "id": 22,
+    "name": "Lock",
+    "img": "https://i.postimg.cc/jjFrhSKq/lock.jpg",
+    "clue": "A device used to secure a bike and prevent theft."
+  },
+  {
+    "id": 22,
+    "name": "Motor Scooter",
+    "img": "https://i.postimg.cc/tJ0QLvYL/motor-scooter.jpg",
+    "clue": "A small motorcycle with a step-through frame."
+  },
+  {
+    "id": 22,
+    "name": "Motorcycle",
+    "img": "https://i.postimg.cc/bYbjQP58/motorcycle.jpg",
+    "clue": "A two-wheeled vehicle powered by an engine."
+  },
+  {
+    "id": 22,
+    "name": "Pedal",
+    "img": "https://i.postimg.cc/nrvbZKmM/pedal.jpg",
+    "clue": "A lever pressed by the foot to power a bicycle."
+  },
+  {
+    "id": 22,
+    "name": "Pump",
+    "img": "https://i.postimg.cc/vHswhjRn/pump.jpg",
+    "clue": "A device used to inflate tires."
+  },
+  {
+    "id": 22,
+    "name": "Racing Handlebars",
+    "img": "https://i.postimg.cc/8PmQ0HD0/racing-handlebars.jpg",
+    "clue": "Handlebars designed for use on racing bicycles."
+  },
+  {
+    "id": 22,
+    "name": "Reflector",
+    "img": "https://i.postimg.cc/8zkQQ6zP/reflector.jpg",
+    "clue": "A device that reflects light, used for visibility."
+  },
+  {
+    "id": 22,
+    "name": "Seat",
+    "img": "https://i.postimg.cc/pdywyMjw/seat.jpg",
+    "clue": "The part of a bicycle where the rider sits."
+  },
+  {
+    "id": 22,
+    "name": "Shock Absorber",
+    "img": "https://i.postimg.cc/YCXcpCvN/shock-absorber.jpg",
+    "clue": "A device that cushions impacts on a vehicle."
+  },
+  {
+    "id": 22,
+    "name": "Spoke",
+    "img": "https://i.postimg.cc/Pxw0zb2K/spoke.jpg",
+    "clue": "One of the rods connecting the hub of a wheel to the rim."
+  },
+  {
+    "id": 22,
+    "name": "Sprocket",
+    "img": "https://i.postimg.cc/XvhTC1cp/sprocket.jpg",
+    "clue": "A toothed wheel that engages with a chain on a bicycle."
+  },
+  {
+    "id": 22,
+    "name": "Tire",
+    "img": "https://i.postimg.cc/VsX3JRSk/tire.jpg",
+    "clue": "The rubber covering of a wheel."
+  },
+  {
+    "id": 22,
+    "name": "Touring Handlebars",
+    "img": "https://i.postimg.cc/Znz2f9Qm/touring-handlebars.jpg",
+    "clue": "Handlebars designed for comfort on long rides."
+  },
+  {
+    "id": 22,
+    "name": "Training Wheels",
+    "img": "https://i.postimg.cc/90PSsm37/training-wheels.jpg",
+    "clue": "Small wheels attached to the rear of a bicycle to help a learner balance."
+  },
+  {
+    "id": 22,
+    "name": "Tricycle",
+    "img": "https://i.postimg.cc/ncZNBD7Y/tricycle.jpg",
+    "clue": "A three-wheeled vehicle, often used by young children."
+  },
+  {
+    "id": 22,
+    "name": "Valve",
+    "img": "https://i.postimg.cc/GhQVQmx0/valve.jpg",
+    "clue": "A device that controls the flow of air into a tire."
+  },
+  {
+    "id": 22,
+    "name": "Wheel",
+    "img": "https://i.postimg.cc/7ZZcQrK5/wheel.jpg",
+    "clue": "A circular component that rotates and allows a bicycle to move."
+  },
+  {
+    "id": 22,
+    "name": "Bicycle",
+    "img": "https://i.postimg.cc/bwV57V53/bicycle.jpg",
+    "clue": "A vehicle with two wheels powered by pedaling."
+  }
+]

@@ -59,6 +59,7 @@ function FINAL_PROJECT({
         setINDEXtoPlay(numberBegin);
       }
     } else {
+      setStartSTT(true);
       // handleIncrementReadyClick();
     }
   }, [numberBegin]);

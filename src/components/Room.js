@@ -5,9 +5,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import PracticeDIV from "./pracPages/B101_FINAL_PROJECTS";
 import CountdownTimer from "./pracPages/B101_FINAL_CounterTime";
 import LinkAPI from "../ulti/T0_linkApi";
+
+import ImageGuessingGame from "./miniGame/ImageGuessingGame";
 const Room = ({ setSttRoom }) => {
   const { roomCode } = useParams();
   const [users, setUsers] = useState([]);
+  const [userClient, setUserClient] = useState({});
   const [isReady, setIsReady] = useState(false);
   const [allReady, setAllReady] = useState(false);
   const [roomInfo, setRoomInfo] = useState(null);
@@ -18,6 +21,7 @@ const Room = ({ setSttRoom }) => {
   const [DataPracticingCharactor, setDataPracticingCharactor] = useState(null);
   const [DataPracticingOverRoll, setDataPracticingOverRoll] = useState(null);
   const [Score, setScore] = useState(0);
+  const [ScoreMinigame, setScoreMinigame] = useState(0);
   const [STTBeforeAllNewPlay, setSTTBeforeAllNewPlay] = useState(false);
   const [MessageConsole, setMessageConsole] = useState("");
   const [IsPause, setIsPause] = useState(false);
@@ -54,6 +58,13 @@ const Room = ({ setSttRoom }) => {
       ) => {
         setAllReady(updatedAllReady);
         setUsers(updatedUsers);
+
+        updatedUsers.forEach((element) => {
+          if (element.id === socket.id) {
+            setUserClient(element);
+          }
+        });
+
         setRoomInfo(roomInfo);
         if (!IsPause) {
           setNumberBegin(numberBegin);
@@ -139,6 +150,12 @@ const Room = ({ setSttRoom }) => {
   }, [Score]);
 
   useEffect(() => {
+    if (ScoreMinigame > 0) {
+      handleUpdateNewElenment("win", ScoreMinigame);
+    }
+  }, [ScoreMinigame]);
+
+  useEffect(() => {
     if (STTBeforeAllNewPlay && incrementAllReady) {
       socket.emit("incrementNumberBegin", roomCode);
       setSTTBeforeAllNewPlay(false);
@@ -149,6 +166,9 @@ const Room = ({ setSttRoom }) => {
     return [...users].sort((a, b) => b.score - a.score);
   }
 
+  const handleUpdateNewElenment = (newElement, newValue) => {
+    socket.emit("updateOneELEMENT", roomCode, socket.id, newElement, newValue);
+  };
   const objCardOwn = {
     backgroundColor: "yellow",
     border: "2px solid black",
@@ -208,7 +228,7 @@ const Room = ({ setSttRoom }) => {
                 <div>
                   <i> {user.name}</i>
                   <br />
-                  score:{user.score}
+                  score:{user.score} | MiniGame: {user.win}
                   <br />
                   {user.isPause ? (
                     <b>Đang tạm dừng</b>
@@ -283,13 +303,35 @@ const Room = ({ setSttRoom }) => {
           </>
         )}
       </div>
-
       {LinkAPI.includes(":5000") ? (
         <div>
           {LinkAPI}
+          <br />
           {JSON.stringify(users)} <br /> {JSON.stringify(incrementAllReady)}
+          <br />
+          {/* {JSON.stringify(userClient)} */}
+          <br />
+          <button
+            onClick={() => {
+              if (userClient.win) {
+                handleUpdateNewElenment("win", userClient.win + 1);
+              } else {
+                handleUpdateNewElenment("win", 1);
+              }
+            }}
+          >
+            WIN++
+          </button>
+          <br />
+          {/* {ScoreMinigame} */}
+          <br />
         </div>
       ) : null}
+      <hr />{" "}
+      <ImageGuessingGame
+        setScoreMinigame={setScoreMinigame}
+        ScoreMinigame={ScoreMinigame}
+      />
     </div>
   );
 };
