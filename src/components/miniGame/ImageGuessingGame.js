@@ -55,20 +55,23 @@ const ImageGuessingGame = ({ setScoreMinigame, ScoreMinigame }) => {
 
   return (
     <div className="row">
-      <div className="col-4">
+      <div className="col-5">
         <div>
-          <h5>Mini game: Đoán chữ theo gợi ý sau.</h5>
+          <h5>Mini game</h5>
           <b>Clue | Gợi ý:</b>
           <br />
           <i>1. {hint}</i> <br />
-          <i>2. Gồm {answer.split(" ").length} chữ;</i>
+          <i>
+            2. Gồm {answer.split(" ").length} chữ và {answer.length} kí tự; bao
+            gồm cả khoảng trắng (nếu có).
+          </i>
           <br />
-          <i>3. Gồm {answer.length} kí tự; bao gồm cả khoảng trắng (nếu có).</i>
-          <br />
+          3. <b>{ViewAnwer(answer)}</b>
+          {}
           <hr />
         </div>
       </div>
-      <div className="col-4">
+      <div className="col-3">
         <input
           className="form-control"
           type="text"
@@ -81,10 +84,10 @@ const ImageGuessingGame = ({ setScoreMinigame, ScoreMinigame }) => {
             margin: "10px 0",
           }}
         />
-        <p>
+        {/* <p>
           Correct characters | Số kí tự đúng: {correctChars}/{answerLength}
         </p>
-        <p>Guessed letters: {guessedLetters.join(", ")}</p>
+        <p>Guessed letters: {guessedLetters.join(", ")}</p> */}
         <button className="btn btn-outline-primary" onClick={nextQuestion}>
           Next
         </button>
@@ -175,3 +178,11 @@ style.innerHTML = `
   }
 `;
 document.head.appendChild(style);
+function ViewAnwer(data) {
+  try {
+    const sets = shuffleArray(data.toLowerCase().split(""));
+    return sets.join(", ");
+  } catch (error) {
+    return null;
+  }
+}
