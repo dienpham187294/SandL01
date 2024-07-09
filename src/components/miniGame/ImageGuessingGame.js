@@ -84,10 +84,10 @@ const ImageGuessingGame = ({ setScoreMinigame, ScoreMinigame }) => {
             margin: "10px 0",
           }}
         />
-        {/* <p>
+        <p>
           Correct characters | Số kí tự đúng: {correctChars}/{answerLength}
         </p>
-        <p>Guessed letters: {guessedLetters.join(", ")}</p> */}
+        {/* <p>Guessed letters: {guessedLetters.join(", ")}</p>  */}
         <button className="btn btn-outline-primary" onClick={nextQuestion}>
           Next
         </button>
