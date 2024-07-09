@@ -52,6 +52,13 @@ function FINAL_PROJECT({
       return prevArray;
     });
   };
+
+  useEffect(() => {
+    if (IsPause) {
+      setStartSTT(true);
+    }
+  }, [IsPause]);
+
   useEffect(() => {
     if (!IsPause) {
       if (numberBegin !== 0) {

@@ -194,7 +194,7 @@ const Room = ({ setSttRoom }) => {
             IsPause={IsPause}
           />
           <div>
-            {incrementAllReady ? (
+            {incrementAllReady && !userClient.isPause ? (
               <div>
                 <CountdownTimer
                   setSTT={setSTTBeforeAllNewPlay}
@@ -203,7 +203,7 @@ const Room = ({ setSttRoom }) => {
                 />
               </div>
             ) : null}
-            {!incrementAllReady && incrementReady ? (
+            {!incrementAllReady && incrementReady && !userClient.isPause ? (
               <h1>Waiting for others . . . </h1>
             ) : null}
           </div>
