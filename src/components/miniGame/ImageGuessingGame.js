@@ -21,10 +21,17 @@ const ImageGuessingGame = ({ setScoreMinigame, ScoreMinigame }) => {
     handleInputChange,
     correctChars,
     answerLength,
+    guessedLetters,
     resetGameState,
   } = useImageGuessingGame(imageUrl, answer, pointA, pointB);
 
+  const preloadImage = (url) => {
+    const img = new Image();
+    img.src = url;
+  };
+
   useEffect(() => {
+    preloadImage(dataInput[Index].img);
     setImageUrl(dataInput[Index].img);
     setAnswer(dataInput[Index].name);
     setHint(dataInput[Index].clue);
@@ -77,6 +84,7 @@ const ImageGuessingGame = ({ setScoreMinigame, ScoreMinigame }) => {
         <p>
           Correct characters | Số kí tự đúng: {correctChars}/{answerLength}
         </p>
+        <p>Guessed letters: {guessedLetters.join(", ")}</p>
         <button className="btn btn-outline-primary" onClick={nextQuestion}>
           Next
         </button>

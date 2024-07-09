@@ -5,6 +5,7 @@ export default function useImageGuessingGame(imageUrl, answer, pointA, pointB) {
   const [inputValue, setInputValue] = useState("");
   const [correctChars, setCorrectChars] = useState(0);
   const [revealedCount, setRevealedCount] = useState(0);
+  const [guessedLetters, setGuessedLetters] = useState([]);
 
   const handleCellClick = (index) => {
     if (pointB > pointA && !revealedCells[index] && revealedCount < 2) {
@@ -20,11 +21,21 @@ export default function useImageGuessingGame(imageUrl, answer, pointA, pointB) {
     const lowerCaseAnswer = answer.toLowerCase();
     setInputValue(value);
     let correctCount = 0;
+    let newGuessedLetters = [...guessedLetters];
+
     for (let i = 0; i < value.length && i < lowerCaseAnswer.length; i++) {
+      if (
+        value[i] === lowerCaseAnswer[i] &&
+        !newGuessedLetters.includes(value[i])
+      ) {
+        newGuessedLetters.push(value[i]);
+      }
       if (value[i] === lowerCaseAnswer[i]) {
         correctCount++;
       }
     }
+
+    setGuessedLetters(newGuessedLetters);
     setCorrectChars(correctCount);
   };
 
@@ -33,6 +44,7 @@ export default function useImageGuessingGame(imageUrl, answer, pointA, pointB) {
     setInputValue("");
     setCorrectChars(0);
     setRevealedCount(0);
+    setGuessedLetters([]);
   };
 
   return {
@@ -43,6 +55,7 @@ export default function useImageGuessingGame(imageUrl, answer, pointA, pointB) {
     handleInputChange,
     correctChars,
     answerLength: answer.length,
+    guessedLetters,
     resetGameState,
   };
 }
