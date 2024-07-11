@@ -228,7 +228,7 @@ const Room = ({ setSttRoom }) => {
                 <div>
                   <i> {user.name}</i>
                   <br />
-                  score:{user.score} | G: {user.win}
+                  score: {user.score} | G: {user.win}
                   <br />
                   {user.isPause ? (
                     <b>Đang tạm dừng</b>

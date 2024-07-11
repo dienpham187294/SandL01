@@ -11,6 +11,7 @@ const ImageGuessingGame = ({ setScoreMinigame, ScoreMinigame }) => {
   const [imageUrl, setImageUrl] = useState(dataInput[Index].img);
   const [answer, setAnswer] = useState(dataInput[Index].name);
   const [hint, setHint] = useState(dataInput[Index].clue);
+  const [hintWords, setHintWords] = useState("");
   const pointA = 0;
   const pointB = 2;
 
@@ -35,6 +36,7 @@ const ImageGuessingGame = ({ setScoreMinigame, ScoreMinigame }) => {
     setImageUrl(dataInput[Index].img);
     setAnswer(dataInput[Index].name);
     setHint(dataInput[Index].clue);
+    setHintWords(ViewAnwer(dataInput[Index].name));
     resetGameState(); // Reset the game state when the question changes
   }, [Index]);
 
@@ -66,7 +68,7 @@ const ImageGuessingGame = ({ setScoreMinigame, ScoreMinigame }) => {
             gồm cả khoảng trắng (nếu có).
           </i>
           <br />
-          3. <b>{ViewAnwer(answer)}</b>
+          3. <b>{hintWords}</b>
           {}
           <hr />
         </div>
