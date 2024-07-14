@@ -9,13 +9,14 @@ const TableDisplay = ({ OnTable, DataAllSets, setOnTable }) => {
             border: "1px solid green",
             borderRadius: "5px",
             margin: "5%",
-            padding: "5%",
+            padding: "3%",
             cursor: "pointer",
             height: "500px",
             display: "flex",
             flexWrap: "wrap",
             justifyContent: "space-around",
-            alignItems: "center",
+            // alignItems: "center",
+            overflow: "auto",
           }}
         >
           {DataAllSets.map((e, i) => (

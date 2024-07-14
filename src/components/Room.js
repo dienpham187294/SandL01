@@ -212,8 +212,9 @@ const Room = ({ setSttRoom }) => {
       <hr />
       {incrementReady || IsPause ? (
         <div className="row">
-          {sortedUsers(users).map((user) => (
+          {sortedUsers(users).map((user, userIndex) => (
             <div
+              key={userIndex}
               style={{
                 border:
                   socket.id === user.id ? "5px solid green" : "1px solid black",
@@ -252,7 +253,7 @@ const Room = ({ setSttRoom }) => {
       <hr />
       <div className="row">
         {numberBegin === 0 ? (
-          <div className="col-2">
+          <div className="col-3">
             <button className="btn btn-primary" onClick={handleReadyClick}>
               Sẵn sàng bắt đầu
             </button>
@@ -271,22 +272,6 @@ const Room = ({ setSttRoom }) => {
                   onChange={(e) => setUserName(e.target.value)}
                   onKeyUp={handleKeyPress}
                 />
-                {/* <button
-                  className="update-button"
-                  style={{
-                    padding: "10px 20px",
-                    backgroundColor: "#007bff",
-                    color: "#fff",
-                    border: "none",
-                    borderRadius: "4px",
-                    cursor: "pointer",
-                    fontSize: "16px",
-                  }}
-                  onClick={() => handleUpdateName(socket.id, userName)}
-                  disabled={userName.length <= 2}
-                >
-                  Chat
-                </button> */}
               </div>
             </div>
             <div className="col-5">
@@ -328,10 +313,10 @@ const Room = ({ setSttRoom }) => {
         </div>
       ) : null}
       <hr />{" "}
-      <ImageGuessingGame
+      {/* <ImageGuessingGame
         setScoreMinigame={setScoreMinigame}
         ScoreMinigame={ScoreMinigame}
-      />
+      /> */}
     </div>
   );
 };

@@ -45,7 +45,7 @@ function initializeVoicesAndPlatform() {
         setVoiceIndices("Daniel", "Karen", "en-GB", "en-AU");
       } else if (isAndroid()) {
         console.log("On Android");
-        setVoiceIndices(" ", " ", "en-GB", "en-AU");
+        setVoiceIndices("David", "Zira", "en-US", "en-US");
       }
     };
 

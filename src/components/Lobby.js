@@ -92,7 +92,7 @@ const Lobby = ({
       style={{
         border: "1px solid green",
         borderRadius: "10px",
-        margin: "5%",
+        // margin: "5%",
         padding: "5%",
       }}
     >

@@ -12,6 +12,7 @@ import RegButton from "./B101_FINAL_BUTTON_REG";
 import TableDisplay from "./B101_FINAL_TableDisplay";
 import { ObjREADContext } from "../../App"; // Import ObjREADContext
 import isImageUrl from "../../ulti/isImageUrl";
+import useImagePreloader from "../useImagePreloader";
 const colors = ["red", "orange", "black", "green", "blue", "indigo", "violet"];
 // console.log(ObjREADContext);
 function FINAL_PROJECT({
@@ -26,6 +27,9 @@ function FINAL_PROJECT({
 }) {
   const [StartSTT, setStartSTT] = useState(true);
   const [INDEXtoPlay, setINDEXtoPlay] = useState(-1);
+  const [imageUrls, setImageUrls] = useState([]);
+  const [IsMobile, setIsMobile] = useState(false);
+
   const [AlldataToPractice] = useState(DataPracticingCharactor);
   const [playData, setPlayData] = useState(null);
   const [HINT, setHINT] = useState(null);
@@ -70,6 +74,20 @@ function FINAL_PROJECT({
       // handleIncrementReadyClick();
     }
   }, [numberBegin]);
+
+  useEffect(() => {
+    let urls = [];
+    DataPracticingOverRoll.forEach((e) => {
+      e.HDTB.TB.forEach((url) => {
+        urls = urls.concat(url);
+      });
+    });
+    console.log(urls);
+    setImageUrls(urls);
+  }, [DataPracticingOverRoll]);
+
+  useImagePreloader(imageUrls);
+
   useEffect(() => {
     if (StartSTT) {
       setPlayData(null);
@@ -112,7 +130,6 @@ function FINAL_PROJECT({
       setCMD(playData.data);
       setGENDER(playData.gender === "female" ? 1 : 0);
       setLang(playData.lang === "VN" ? "vi-VN" : "en-US");
-
       ReadMessage(ObjREAD, playData.fsp, playData.gender === "female" ? 1 : 0);
       console.log("outside", ObjREAD, playData.gender === "female" ? 1 : 0);
     }
@@ -139,26 +156,6 @@ function FINAL_PROJECT({
   }, [getSTTDictaphone]);
 
   try {
-    // if (
-    //   ObjREAD.imale === undefined ||
-    //   ObjREAD.ifemale === undefined ||
-    //   ObjREAD === "null" ||
-    //   ObjREAD.imale === null ||
-    //   ObjREAD.ifemale === null
-    // ) {
-    //   return (
-    //     <div>
-    //       <h1>Chưa kết nối được giọng nói</h1>
-    //       <button
-    //         className="btn btn-primary"
-    //         onClick={() => window.location.reload()}
-    //       >
-    //         Thử lại
-    //       </button>
-    //     </div>
-    //   );
-    // }
-
     return (
       <div
       // className="projects_outmain"
@@ -175,12 +172,8 @@ function FINAL_PROJECT({
         ) : (
           <div className="row">
             <div className="col-6">
+              <h5>Score: {Score}</h5>
               <div className="row">
-                {" "}
-                <div className="col-3">
-                  {" "}
-                  <h2>SCORE:{Score}</h2>{" "}
-                </div>
                 <div className="col-6" style={{ textAlign: "right" }}>
                   {" "}
                   {Clue && isImageUrl(Clue) ? (
@@ -193,7 +186,7 @@ function FINAL_PROJECT({
                     <img width={"200px"} src={playData.img} />
                   )}
                 </div>
-                <div className="col-3" style={{ textAlign: "left" }}>
+                <div className="col-6" style={{ textAlign: "left" }}>
                   <button
                     id="BtnFsp"
                     style={{ marginTop: "10%", scale: "1.5" }}
@@ -288,7 +281,8 @@ function FINAL_PROJECT({
                       }}
                       key={i}
                       style={{
-                        width: "3%",
+                        // width: "3%",
+                        minWidth: "50px",
                         padding: "10px",
                         marginTop: "20px",
                         marginLeft: "10px",
