@@ -89,15 +89,17 @@ function FINAL_PROJECT({
   }, [numberBegin]);
 
   useEffect(() => {
-    let urls = [];
-    DataPracticingOverRoll.forEach((e) => {
-      e.HDTB.TB.forEach((url) => {
-        urls = urls.concat(url);
+    if (!IsMobile) {
+      let urls = [];
+      DataPracticingOverRoll.forEach((e) => {
+        e.HDTB.TB.forEach((url) => {
+          urls = urls.concat(url);
+        });
       });
-    });
-    console.log(urls);
-    setImageUrls(urls);
-  }, [DataPracticingOverRoll]);
+      // console.log(urls);
+      setImageUrls(urls);
+    }
+  }, [DataPracticingOverRoll, IsMobile]);
 
   useImagePreloader(imageUrls);
 
@@ -198,13 +200,15 @@ function FINAL_PROJECT({
                 {Clue && isImageUrl(Clue) ? (
                   <img
                     style={{ border: "4px solid blue", borderRadius: "10px" }}
-                    width={IsMobile ? "100px" : "200px"}
+                    width={IsMobile ? "50px" : "200px"}
                     src={Clue}
+                    loading="lazy"
                   />
                 ) : (
                   <img
-                    width={IsMobile ? "100px" : "200px"}
+                    width={IsMobile ? "50px" : "200px"}
                     src={playData.img}
+                    loading="lazy"
                   />
                 )}
                 <button
