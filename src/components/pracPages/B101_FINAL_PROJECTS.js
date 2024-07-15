@@ -29,7 +29,6 @@ function FINAL_PROJECT({
   const [INDEXtoPlay, setINDEXtoPlay] = useState(-1);
   const [imageUrls, setImageUrls] = useState([]);
   const [IsMobile, setIsMobile] = useState(false);
-
   const [AlldataToPractice] = useState(DataPracticingCharactor);
   const [playData, setPlayData] = useState(null);
   const [HINT, setHINT] = useState(null);
@@ -56,6 +55,20 @@ function FINAL_PROJECT({
       return prevArray;
     });
   };
+  // Function to check screen size
+  const checkScreenSize = () => {
+    console.log(window.innerWidth);
+    setIsMobile(window.innerWidth <= 768);
+  };
+
+  // Check screen size on mount and when window is resized
+  useEffect(() => {
+    checkScreenSize();
+    window.addEventListener("resize", checkScreenSize);
+    return () => {
+      window.removeEventListener("resize", checkScreenSize);
+    };
+  }, []);
 
   useEffect(() => {
     if (IsPause) {
@@ -173,33 +186,36 @@ function FINAL_PROJECT({
           <div className="row">
             <div className="col-6">
               <h5>Score: {Score}</h5>
-              <div className="row">
-                <div className="col-6" style={{ textAlign: "right" }}>
-                  {" "}
-                  {Clue && isImageUrl(Clue) ? (
-                    <img
-                      style={{ border: "4px solid blue", borderRadius: "10px" }}
-                      width={"200px"}
-                      src={Clue}
-                    />
-                  ) : (
-                    <img width={"200px"} src={playData.img} />
-                  )}
-                </div>
-                <div className="col-6" style={{ textAlign: "left" }}>
-                  <button
-                    id="BtnFsp"
-                    style={{ marginTop: "10%", scale: "1.5" }}
-                    className="btn btn-outline-primary"
-                    onClick={() => {
-                      try {
-                        ReadMessage(ObjREAD, playData.fsp, GENDER);
-                      } catch (error) {}
-                    }}
-                  >
-                    <i className="bi bi-chat-left-dots"></i>
-                  </button>
-                </div>
+              <div>
+                {" "}
+                {Clue && isImageUrl(Clue) ? (
+                  <img
+                    style={{ border: "4px solid blue", borderRadius: "10px" }}
+                    width={IsMobile ? "100px" : "200px"}
+                    src={Clue}
+                  />
+                ) : (
+                  <img
+                    width={IsMobile ? "100px" : "200px"}
+                    src={playData.img}
+                  />
+                )}
+                <button
+                  id="BtnFsp"
+                  style={{
+                    marginTop: "10%",
+                    marginLeft: "10%",
+                    scale: IsMobile ? "1.0" : "1.5",
+                  }}
+                  className="btn btn-outline-primary"
+                  onClick={() => {
+                    try {
+                      ReadMessage(ObjREAD, playData.fsp, GENDER);
+                    } catch (error) {}
+                  }}
+                >
+                  <i className="bi bi-chat-left-dots"></i>
+                </button>
               </div>
             </div>
             <div className="col-6">
@@ -239,13 +255,15 @@ function FINAL_PROJECT({
             </div>
 
             <div>
-              <div>
-                <TableDisplay
-                  OnTable={OnTable}
-                  DataAllSets={DataPracticingOverRoll}
-                  setOnTable={setOnTable}
-                />
-              </div>
+              {!IsMobile ? (
+                <div>
+                  <TableDisplay
+                    OnTable={OnTable}
+                    DataAllSets={DataPracticingOverRoll}
+                    setOnTable={setOnTable}
+                  />
+                </div>
+              ) : null}
 
               {OnTable !== null ? (
                 <div style={{ textAlign: "center" }}>
