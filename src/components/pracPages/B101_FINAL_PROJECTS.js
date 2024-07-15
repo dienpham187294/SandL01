@@ -143,7 +143,14 @@ function FINAL_PROJECT({
       setCMD(playData.data);
       setGENDER(playData.gender === "female" ? 1 : 0);
       setLang(playData.lang === "VN" ? "vi-VN" : "en-US");
-      ReadMessage(ObjREAD, playData.fsp, playData.gender === "female" ? 1 : 0);
+      if (!IsMobile) {
+        ReadMessage(
+          ObjREAD,
+          playData.fsp,
+          playData.gender === "female" ? 1 : 0
+        );
+      }
+
       console.log("outside", ObjREAD, playData.gender === "female" ? 1 : 0);
     }
   }, [playData, ObjREAD]);
