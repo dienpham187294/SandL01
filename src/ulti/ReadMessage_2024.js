@@ -1,5 +1,4 @@
 let imale, ifemale;
-
 function setButtonState(buttonId, isEnabled) {
   const button = document.getElementById(buttonId);
 
@@ -27,8 +26,26 @@ function countAndSplitSentences(text) {
   // Return the sentences array or an array with the original text if no matches found
   return sentences || [text];
 }
+
+function checkFunctionExecution(functionName) {
+  const lastExecutionTime = localStorage.getItem(functionName);
+  const currentTime = Date.now();
+
+  if (lastExecutionTime && currentTime - lastExecutionTime < 1000) {
+    return false;
+  }
+
+  localStorage.setItem(functionName, currentTime);
+  return true;
+}
+
 export default async function ReadMessage(ObjVoices, text, voiceNum) {
   // voiceNum: 1 for female, 0 for male
+  if (!checkFunctionExecution("ReadMessage")) {
+    console.warn("ReadMessage called too frequently.");
+    return;
+  }
+
   console.log("read", ObjVoices, voiceNum, 0.85);
 
   if (text === "") {
