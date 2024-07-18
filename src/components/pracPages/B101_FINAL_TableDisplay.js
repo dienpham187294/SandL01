@@ -9,9 +9,9 @@ const TableDisplay = ({ OnTable, DataAllSets, setOnTable }) => {
             border: "1px solid green",
             borderRadius: "5px",
             margin: "5%",
-            padding: "3%",
+            padding: "1%",
             cursor: "pointer",
-            height: "500px",
+            height: "250px",
             display: "flex",
             flexWrap: "wrap",
             justifyContent: "space-around",
@@ -27,7 +27,7 @@ const TableDisplay = ({ OnTable, DataAllSets, setOnTable }) => {
               style={{
                 display: "flex",
                 flexDirection: "column",
-                alignItems: "center",
+                alignItems: "left",
                 margin: "10px",
               }}
             >
@@ -36,12 +36,15 @@ const TableDisplay = ({ OnTable, DataAllSets, setOnTable }) => {
                 alt={e.HDTB.IF.IFname}
                 style={{
                   borderRadius: "10px",
-                  width: "150px",
-                  height: "150px",
+                  width: "120px",
+                  height: "120px",
                   objectFit: "cover",
                 }}
               />
-              <span>{e.HDTB.IF.IFname}</span>
+
+              <span style={{ width: "120px", color: "blue" }}>
+                <b>{e.HDTB.IF.IFname} </b>
+              </span>
             </div>
           ))}
         </div>

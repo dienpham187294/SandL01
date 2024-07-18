@@ -200,13 +200,14 @@ function FINAL_PROJECT({
                 {Clue && isImageUrl(Clue) ? (
                   <img
                     style={{ border: "4px solid blue", borderRadius: "10px" }}
-                    width={IsMobile ? "50px" : "200px"}
+                    width={IsMobile ? "50px" : "150px"}
                     src={Clue}
                     loading="lazy"
                   />
                 ) : (
                   <img
-                    width={IsMobile ? "50px" : "200px"}
+                    width={IsMobile ? "50px" : "120px"}
+                    style={{ borderRadius: "5px" }}
                     src={playData.img}
                     loading="lazy"
                   />
@@ -280,7 +281,7 @@ function FINAL_PROJECT({
                 <div style={{ textAlign: "center" }}>
                   <button
                     style={{
-                      width: "30%",
+                      width: "15%",
                       padding: "10px",
                       marginTop: "20px",
                       backgroundColor: "#4CAF50",
@@ -315,7 +316,7 @@ function FINAL_PROJECT({
                         padding: "10px",
                         marginTop: "20px",
                         marginLeft: "10px",
-                        backgroundColor: "blue",
+                        backgroundColor: OnTable === i ? "green" : "blue",
                         color: "white",
                         border: "none",
                         borderRadius: "4px",
@@ -342,6 +343,7 @@ function FINAL_PROJECT({
                             data={e}
                             addElementIfNotExist={addElementIfNotExist}
                             color={colors[i % 7]}
+                            PushAW={PushAW}
                           />
                         )
                       )}

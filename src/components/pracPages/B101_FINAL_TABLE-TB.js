@@ -5,7 +5,7 @@ const isImageUrl = (url) => {
   return /\.(jpeg|jpg|gif|png|webp|svg)$/.test(url);
 };
 
-const TableTB = ({ data, addElementIfNotExist, color }) => {
+const TableTB = ({ data, addElementIfNotExist, color, PushAW }) => {
   try {
     const ColorP =
       color !== undefined ? "2px solid " + color : "1px solid #ccc";
@@ -18,22 +18,22 @@ const TableTB = ({ data, addElementIfNotExist, color }) => {
       marginBottom: "15px",
     };
 
-    const textStyle = {
+    const textStyle = (element) => ({
       padding: "10px",
-      border: ColorP,
+      border: PushAW.includes(element) ? "5px solid blue" : ColorP,
       borderRadius: "4px",
       backgroundColor: "#f9f9f9",
-      maxWidth: "150px",
+      maxWidth: "120px",
       textAlign: "center",
-    };
+    });
 
-    const imageStyle = {
-      maxWidth: "150px",
-      maxHeight: "150px",
+    const imageStyle = (element) => ({
+      maxWidth: "120px",
+      maxHeight: "120px",
       objectFit: "cover",
       borderRadius: "4px",
-      border: "1px solid #ccc",
-    };
+      border: PushAW.includes(element) ? "5px solid blue" : "1px solid #ccc",
+    });
 
     return (
       <div style={containerStyle}>
@@ -45,9 +45,13 @@ const TableTB = ({ data, addElementIfNotExist, color }) => {
             }}
           >
             {isImageUrl(element) ? (
-              <img src={element} alt={`element-${index}`} style={imageStyle} />
+              <img
+                src={element}
+                alt={`element-${index}`}
+                style={imageStyle(element)}
+              />
             ) : (
-              <div style={textStyle}>{element}</div>
+              <div style={textStyle(element)}>{element}</div>
             )}
           </div>
         ))}

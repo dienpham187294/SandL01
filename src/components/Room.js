@@ -42,49 +42,40 @@ const Room = ({ setSttRoom }) => {
   useEffect(() => {
     setSttRoom(true);
     socket.emit("joinRoom", roomCode);
+    const handleRoomDoesNotExist = () => navigate("/noexist");
+    const handleUpdateRoom = (
+      updatedUsers,
+      updatedAllReady,
+      roomInfo,
+      numberBegin,
+      incrementAllReady
+    ) => {
+      setAllReady(updatedAllReady);
+      setRoomInfo(roomInfo);
 
-    socket.on("roomDoesNotExist", () => {
-      navigate("/noexist");
-    });
-
-    socket.on(
-      "updateRoom",
-      (
-        updatedUsers,
-        updatedAllReady,
-        roomInfo,
-        numberBegin,
-        incrementAllReady
-      ) => {
-        setAllReady(updatedAllReady);
-        setUsers(updatedUsers);
-
-        updatedUsers.forEach((element) => {
-          if (element.id === socket.id) {
-            setUserClient(element);
-          }
-        });
-
-        setRoomInfo(roomInfo);
-        if (!IsPause) {
-          setNumberBegin(numberBegin);
-        }
-
-        setIncrementAllReady(incrementAllReady);
+      setUsers(updatedUsers);
+      setUserClient(updatedUsers.find((user) => user.id === socket.id));
+      if (!IsPause) {
+        setNumberBegin(numberBegin);
       }
-    );
-
-    socket.on("userReadyStateChange", (userId, newIsReady) => {
+      setIncrementAllReady(incrementAllReady);
+    };
+    const handleUserReadyStateChange = (userId, newIsReady) => {
       setUsers((prevUsers) =>
         prevUsers.map((user) =>
           user.id === userId ? { ...user, isReady: newIsReady } : user
         )
       );
-    });
+    };
+
+    socket.on("roomDoesNotExist", handleRoomDoesNotExist);
+    socket.on("updateRoom", handleUpdateRoom);
+    socket.on("userReadyStateChange", handleUserReadyStateChange);
 
     return () => {
-      socket.off("updateRoom");
-      socket.off("userReadyStateChange");
+      socket.off("roomDoesNotExist", handleRoomDoesNotExist);
+      socket.off("updateRoom", handleUpdateRoom);
+      socket.off("userReadyStateChange", handleUserReadyStateChange);
     };
   }, [roomCode]);
 
