@@ -247,17 +247,18 @@ function FINAL_PROJECT({
             />
           ) : null}
           <br />
-          <button
-            className="btn btn-outline-primary"
-            onClick={() => {
-              setStartSTT(true);
-              setScore((D) => D - 1);
-            }}
-          >
-            NEXT
-          </button>
+
           {playData !== null ? (
             <div>
+              <button
+                className="btn btn-outline-primary"
+                onClick={() => {
+                  setStartSTT(true);
+                  setScore((D) => D - 1);
+                }}
+              >
+                NEXT
+              </button>
               {getSTTDictaphone ? (
                 <Dictaphone
                   getSTTDictaphone={setGetSTTDictaphone}
@@ -313,24 +314,22 @@ function FINAL_PROJECT({
                     loading="lazy"
                   />
                 )}
-                {NumberOneByOneHost === 1 ? null : (
-                  <button
-                    id="BtnFsp"
-                    style={{
-                      marginTop: "10%",
-                      marginLeft: "10%",
-                      scale: IsMobile ? "1.0" : "1.5",
-                    }}
-                    className="btn btn-outline-primary"
-                    onClick={() => {
-                      try {
-                        ReadMessage(ObjREAD, playData.fsp, GENDER);
-                      } catch (error) {}
-                    }}
-                  >
-                    <i className="bi bi-chat-left-dots"></i>
-                  </button>
-                )}
+                <button
+                  id="BtnFsp"
+                  style={{
+                    marginTop: "10%",
+                    marginLeft: "10%",
+                    scale: IsMobile ? "1.0" : "1.5",
+                  }}
+                  className="btn btn-outline-primary"
+                  onClick={() => {
+                    try {
+                      ReadMessage(ObjREAD, playData.fsp, GENDER);
+                    } catch (error) {}
+                  }}
+                >
+                  <i className="bi bi-chat-left-dots"></i>
+                </button>
               </div>
             </div>
             <div className="col-6">
