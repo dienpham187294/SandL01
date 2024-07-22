@@ -5,7 +5,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import PracticeDIV from "./pracPages/B101_FINAL_PROJECTS";
 import CountdownTimer from "./pracPages/B101_FINAL_CounterTime";
 import LinkAPI from "../ulti/T0_linkApi";
-
 import ImageGuessingGame from "./miniGame/ImageGuessingGame";
 const Room = ({ setSttRoom }) => {
   const { roomCode } = useParams();
@@ -25,12 +24,50 @@ const Room = ({ setSttRoom }) => {
   const [STTBeforeAllNewPlay, setSTTBeforeAllNewPlay] = useState(false);
   const [MessageConsole, setMessageConsole] = useState("");
   const [IsPause, setIsPause] = useState(false);
-
+  const [NumberOneByOneHost, setNumberOneByOneHost] = useState(0);
   const navigate = useNavigate();
 
   useEffect(() => {
     setIncrementReady(false);
   }, [numberBegin]);
+
+  function getActiveUsers(users) {
+    // Lọc tất cả các users có isPause bằng false
+    return users.filter((user) => !user.isPause);
+  }
+
+  function hasHost(users) {
+    return users.some((user) => user.host === true);
+  }
+
+  useEffect(() => {
+    try {
+      const activeUsers = getActiveUsers(users);
+      const pracMode = roomInfo?.pracMode;
+
+      if (activeUsers.length < 2 || pracMode === "Normal") {
+        setNumberOneByOneHost(0);
+        return;
+      }
+
+      if (pracMode === "By host") {
+        if (hasHost(activeUsers)) {
+          setNumberOneByOneHost(userClient.host ? 1 : 2);
+        } else {
+          setNumberOneByOneHost(0);
+        }
+        return;
+      }
+
+      if (pracMode === "One by one") {
+        const currentUserId =
+          activeUsers[(numberBegin - 1) % activeUsers.length]?.id;
+        setNumberOneByOneHost(socket.id === currentUserId ? 1 : 2);
+      }
+    } catch (error) {
+      console.error("Error in useEffect:", error);
+    }
+  }, [users, numberBegin, userClient, roomInfo]);
 
   useEffect(() => {
     socket.emit("updateOneELEMENT", roomCode, socket.id, "isPause", IsPause);
@@ -43,6 +80,31 @@ const Room = ({ setSttRoom }) => {
     setSttRoom(true);
     socket.emit("joinRoom", roomCode);
     const handleRoomDoesNotExist = () => navigate("/noexist");
+
+    const handleUpdateAllReady = (updatedAllReady) => {
+      setAllReady(updatedAllReady);
+    };
+
+    const handleUpdateRoomInfo = (roomInfo) => {
+      setRoomInfo(roomInfo);
+    };
+
+    const handleUpdateUsers = (updatedUsers) => {
+      setUsers(updatedUsers);
+      setUserClient(updatedUsers.find((user) => user.id === socket.id));
+    };
+
+    const handleUpdateNumberBegin = (numberBegin) => {
+      if (!IsPause) {
+        setNumberBegin(numberBegin);
+      }
+    };
+
+    const handleUpdateIncrementAllReady = (incrementAllReady) => {
+      setIncrementAllReady(incrementAllReady);
+    };
+
+    // You can then call these functions where needed
     const handleUpdateRoom = (
       updatedUsers,
       updatedAllReady,
@@ -50,15 +112,18 @@ const Room = ({ setSttRoom }) => {
       numberBegin,
       incrementAllReady
     ) => {
-      setAllReady(updatedAllReady);
-      setRoomInfo(roomInfo);
-
-      setUsers(updatedUsers);
-      setUserClient(updatedUsers.find((user) => user.id === socket.id));
-      if (!IsPause) {
-        setNumberBegin(numberBegin);
-      }
-      setIncrementAllReady(incrementAllReady);
+      console.log(
+        updatedUsers,
+        updatedAllReady,
+        roomInfo,
+        numberBegin,
+        incrementAllReady
+      );
+      handleUpdateAllReady(updatedAllReady);
+      handleUpdateRoomInfo(roomInfo);
+      handleUpdateUsers(updatedUsers);
+      handleUpdateNumberBegin(numberBegin);
+      handleUpdateIncrementAllReady(incrementAllReady);
     };
     const handleUserReadyStateChange = (userId, newIsReady) => {
       setUsers((prevUsers) =>
@@ -160,11 +225,6 @@ const Room = ({ setSttRoom }) => {
   const handleUpdateNewElenment = (newElement, newValue) => {
     socket.emit("updateOneELEMENT", roomCode, socket.id, newElement, newValue);
   };
-  const objCardOwn = {
-    backgroundColor: "yellow",
-    border: "2px solid black",
-    borderRadius: "5px",
-  };
 
   return (
     <div
@@ -183,6 +243,8 @@ const Room = ({ setSttRoom }) => {
             TimeDefault={roomInfo.timeDefault || 120}
             handleIncrementReadyClick={handleIncrementReadyClick}
             IsPause={IsPause}
+            NumberOneByOneHost={NumberOneByOneHost}
+            tableView={roomInfo.tableView}
           />
           <div>
             {incrementAllReady && !userClient.isPause ? (
@@ -282,6 +344,12 @@ const Room = ({ setSttRoom }) => {
       {LinkAPI.includes(":5000") ? (
         <div>
           {LinkAPI}
+          <br />
+          <i>Room code:</i>
+          <br />
+          {JSON.stringify(roomInfo)}
+          <br />
+          ONE BY ONE: {JSON.stringify(NumberOneByOneHost)}
           <br />
           {JSON.stringify(users)} <br /> {JSON.stringify(incrementAllReady)}
           <br />

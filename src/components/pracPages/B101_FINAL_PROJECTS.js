@@ -24,6 +24,8 @@ function FINAL_PROJECT({
   TimeDefault,
   handleIncrementReadyClick,
   IsPause,
+  NumberOneByOneHost,
+  tableView,
 }) {
   const [StartSTT, setStartSTT] = useState(true);
   const [INDEXtoPlay, setINDEXtoPlay] = useState(-1);
@@ -145,7 +147,7 @@ function FINAL_PROJECT({
       setCMD(playData.data);
       setGENDER(playData.gender === "female" ? 1 : 0);
       setLang(playData.lang === "VN" ? "vi-VN" : "en-US");
-      if (!IsMobile) {
+      if (!IsMobile && NumberOneByOneHost === 0) {
         ReadMessage(
           ObjREAD,
           playData.fsp,
@@ -177,6 +179,105 @@ function FINAL_PROJECT({
     }
   }, [getSTTDictaphone]);
 
+  if (NumberOneByOneHost === 1) {
+    try {
+      return (
+        <div>
+          {" "}
+          {TimeCountDown !== null ? (
+            <CountdownTimer
+              setSTT={setStartSTT}
+              STT={true}
+              TIME={TimeCountDown}
+              setScore={setScore}
+            />
+          ) : null}
+          {Clue && isImageUrl(Clue) ? (
+            <img
+              style={{ border: "4px solid blue", borderRadius: "10px" }}
+              width={IsMobile ? "50px" : "150px"}
+              src={Clue}
+              loading="lazy"
+            />
+          ) : (
+            <img
+              width={IsMobile ? "50px" : "120px"}
+              style={{ borderRadius: "5px" }}
+              src={playData.img}
+              loading="lazy"
+            />
+          )}
+          <hr />
+          {Clue && !isImageUrl(Clue) ? (
+            <>
+              <hr /> <b>Clue:</b> <h5 style={{ color: "blue" }}>{Clue}</h5>
+            </>
+          ) : null}
+          <hr />
+          <b>{playData.fsp}</b>
+          <br />
+          {playData.data.map((e, i) => (
+            <div key={i}>
+              <b>{e.aw}</b>
+            </div>
+          ))}
+          <br />
+          <button
+            className="btn btn-outline-primary"
+            onClick={() => {
+              setStartSTT(true);
+            }}
+          >
+            NEXT
+          </button>
+        </div>
+      );
+    } catch (error) {}
+  }
+  if (NumberOneByOneHost === 2) {
+    try {
+      return (
+        <div>
+          {TimeCountDown !== null ? (
+            <CountdownTimer
+              setSTT={setStartSTT}
+              STT={true}
+              TIME={TimeCountDown}
+              setScore={setScore}
+            />
+          ) : null}
+          <br />
+          <button
+            className="btn btn-outline-primary"
+            onClick={() => {
+              setStartSTT(true);
+              setScore((D) => D - 1);
+            }}
+          >
+            NEXT
+          </button>
+          {playData !== null ? (
+            <div>
+              {getSTTDictaphone ? (
+                <Dictaphone
+                  getSTTDictaphone={setGetSTTDictaphone}
+                  setGetSTTDictaphone={setGetSTTDictaphone}
+                  CMDlist={CMD}
+                  GENDER={GENDER}
+                  setScore={setScore}
+                  addElementIfNotExist={addElementIfNotExist}
+                  ObjVoices={ObjREAD}
+                  Lang={Lang}
+                />
+              ) : (
+                <RegButton setGetSTTDictaphone={setGetSTTDictaphone} />
+              )}{" "}
+            </div>
+          ) : null}
+        </div>
+      );
+    } catch (error) {}
+  }
   try {
     return (
       <div
@@ -212,22 +313,24 @@ function FINAL_PROJECT({
                     loading="lazy"
                   />
                 )}
-                <button
-                  id="BtnFsp"
-                  style={{
-                    marginTop: "10%",
-                    marginLeft: "10%",
-                    scale: IsMobile ? "1.0" : "1.5",
-                  }}
-                  className="btn btn-outline-primary"
-                  onClick={() => {
-                    try {
-                      ReadMessage(ObjREAD, playData.fsp, GENDER);
-                    } catch (error) {}
-                  }}
-                >
-                  <i className="bi bi-chat-left-dots"></i>
-                </button>
+                {NumberOneByOneHost === 1 ? null : (
+                  <button
+                    id="BtnFsp"
+                    style={{
+                      marginTop: "10%",
+                      marginLeft: "10%",
+                      scale: IsMobile ? "1.0" : "1.5",
+                    }}
+                    className="btn btn-outline-primary"
+                    onClick={() => {
+                      try {
+                        ReadMessage(ObjREAD, playData.fsp, GENDER);
+                      } catch (error) {}
+                    }}
+                  >
+                    <i className="bi bi-chat-left-dots"></i>
+                  </button>
+                )}
               </div>
             </div>
             <div className="col-6">
@@ -267,7 +370,7 @@ function FINAL_PROJECT({
             </div>
 
             <div>
-              {!IsMobile ? (
+              {!IsMobile && tableView === "Normal" ? (
                 <div>
                   <TableDisplay
                     OnTable={OnTable}

@@ -2,8 +2,6 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { socket } from "../App";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import ChatInput from "./ChatInput";
-// import ChatList from "./ChatList";
 
 const Lobby = ({
   STTconnectFN,
@@ -18,6 +16,8 @@ const Lobby = ({
   const [userName, setUserName] = useState("");
   const [roomList, setRoomList] = useState([]);
   const [timeDefault, setTimeDefault] = useState(120);
+  const [tableView, setTableView] = useState("Normal");
+  const [pracMode, setPracMode] = useState("Normal");
   const [selectedIndices, setSelectedIndices] = useState([]);
 
   useEffect(() => {
@@ -47,6 +47,9 @@ const Lobby = ({
       reverse: randomBoolean(),
       timeDefault,
       roomName,
+      IdHost: socket.id,
+      tableView,
+      pracMode,
     };
     socket.emit("createRoom", objInformationOfGame, (newRoomCode) => {
       socket.emit("setUserName", userName);
@@ -92,15 +95,13 @@ const Lobby = ({
       style={{
         border: "1px solid green",
         borderRadius: "10px",
-        // margin: "5%",
         padding: "5%",
       }}
     >
       {STTconnectFN === 1 ? (
         <div>
-          {" "}
           <div className="row">
-            <div className="col-6">
+            <div className="col-4">
               <h1 className="mb-4">Lobby | Sảnh</h1>
               <div className="mb-3">
                 <input
@@ -120,30 +121,63 @@ const Lobby = ({
                 }
               >
                 {roomName.length <= 2 ? (
-                  <i>Nhập tên phòng</i>
+                  <i>Nhập tên phòng/Tạo phòng tập</i>
                 ) : (
                   <i>Create Room | Tạo phòng</i>
                 )}
               </button>
             </div>
-            <div className="col-6">
-              <div className="mb-3">
-                <label htmlFor="timeSelect">Time | Thời gian (s) : </label>
-                <select
-                  id="timeSelect"
-                  className="form-control"
-                  value={timeDefault}
-                  onChange={(e) => setTimeDefault(Number(e.target.value))}
-                >
-                  {Array.from({ length: 28 }, (_, i) => 10 + i * 10).map(
-                    (time) => (
-                      <option key={time} value={time}>
-                        {time}
+            <div className="col-8">
+              <div className="row mb-3">
+                <div className="col-4">
+                  <label htmlFor="timeSelect">Time | Thời gian (s) : </label>
+                  <select
+                    id="timeSelect"
+                    className="form-control"
+                    value={timeDefault}
+                    onChange={(e) => setTimeDefault(Number(e.target.value))}
+                  >
+                    {Array.from({ length: 28 }, (_, i) => 10 + i * 10).map(
+                      (time) => (
+                        <option key={time} value={time}>
+                          {time}
+                        </option>
+                      )
+                    )}
+                  </select>
+                </div>
+                <div className="col-4">
+                  <label htmlFor="tableView">Table view: </label>
+                  <select
+                    id="tableView"
+                    className="form-control"
+                    value={tableView}
+                    onChange={(e) => setTableView(e.target.value)}
+                  >
+                    {["Normal", "Hide"].map((view) => (
+                      <option key={view} value={view}>
+                        {view}
                       </option>
-                    )
-                  )}
-                </select>
+                    ))}
+                  </select>
+                </div>
+                <div className="col-4">
+                  <label htmlFor="pracMode">Practice mode: </label>
+                  <select
+                    id="pracMode"
+                    className="form-control"
+                    value={pracMode}
+                    onChange={(e) => setPracMode(e.target.value)}
+                  >
+                    {["Normal", "By host", "One by one"].map((mode) => (
+                      <option key={mode} value={mode}>
+                        {mode}
+                      </option>
+                    ))}
+                  </select>
+                </div>
               </div>
+
               {custom && (
                 <div
                   style={{

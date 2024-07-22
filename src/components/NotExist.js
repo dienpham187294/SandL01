@@ -23,7 +23,7 @@ const Countdown = () => {
 
   return (
     <div style={styles.container}>
-      <h1 style={styles.message}>Phòng không tồn tại hoặc đã bắt đầu!</h1>
+      <h1 style={styles.message}>Phòng không tồn tại!</h1>
       <h1 style={styles.countdown}>Trở về lobby: {seconds}</h1>
     </div>
   );
