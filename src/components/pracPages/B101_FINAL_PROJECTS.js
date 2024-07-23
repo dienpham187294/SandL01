@@ -406,29 +406,49 @@ function FINAL_PROJECT({
                   >
                     Back
                   </button>
-                  {DataPracticingOverRoll.map((e, i) => (
-                    <button
-                      onClick={() => {
-                        setOnTable(i);
-                      }}
-                      key={i}
-                      style={{
-                        // width: "3%",
-                        minWidth: "50px",
-                        padding: "10px",
-                        marginTop: "20px",
-                        marginLeft: "10px",
-                        backgroundColor: OnTable === i ? "green" : "blue",
-                        color: "white",
-                        border: "none",
-                        borderRadius: "4px",
-                        cursor: "pointer",
-                        textAlign: "center",
-                      }}
-                    >
-                      {i + 1}
-                    </button>
-                  ))}
+                  {DataPracticingOverRoll.map((e, i) => {
+                    let start = Math.max(0, OnTable - 5);
+                    let end = Math.min(
+                      DataPracticingOverRoll.length,
+                      OnTable + 5
+                    );
+
+                    // Điều chỉnh để luôn có 10 phần tử hiển thị nếu có đủ phần tử
+                    if (end - start < 10) {
+                      if (start === 0) {
+                        end = Math.min(10, DataPracticingOverRoll.length);
+                      } else if (end === DataPracticingOverRoll.length) {
+                        start = Math.max(0, DataPracticingOverRoll.length - 10);
+                      }
+                    }
+
+                    if (i >= start && i < end) {
+                      return (
+                        <button
+                          onClick={() => {
+                            setOnTable(i);
+                          }}
+                          key={i}
+                          style={{
+                            minWidth: "50px",
+                            padding: "10px",
+                            marginTop: "20px",
+                            marginLeft: "10px",
+                            backgroundColor: OnTable === i ? "green" : "blue",
+                            color: "white",
+                            border: "none",
+                            borderRadius: "4px",
+                            cursor: "pointer",
+                            textAlign: "center",
+                          }}
+                        >
+                          {i + 1}
+                        </button>
+                      );
+                    } else {
+                      return null;
+                    }
+                  })}
 
                   <div>
                     <TableHD

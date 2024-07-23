@@ -20,6 +20,14 @@ const pracEnSets = [
     link: "restaurant-hotel-travel",
     id: "socapII",
   },
+
+  {
+    root: "learninghub",
+    preName: "For parents:",
+    name: "Cùng thực hành các nội dung thân thuộc với trẻ em 2-5 tuổi",
+    link: "parents-and-kids",
+    id: "socapII",
+  },
 ];
 
 export default function Header({ sttRoom, STTconnectFN }) {
