@@ -190,6 +190,39 @@ function rShowLessonTABLE(dataLearning, currentIndex, setCurrentIndex) {
 
           <h1>{dataLearning[currentIndex]?.SEO?.seo?.metaTitle}</h1>
           <hr />
+
+          {dataLearning[currentIndex].youtubeSrc ? (
+            <div
+              style={{
+                position: "relative",
+                overflow: "hidden",
+                width: "100%",
+                paddingTop:
+                  "56.25%" /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */,
+              }}
+            >
+              <iframe
+                style={{
+                  position: "absolute",
+                  top: "10%",
+                  left: "10%",
+                  bottom: "10%",
+                  right: "10%",
+                  width: "80%",
+                  height: "80%",
+                  border: 0 /* Optional: Remove border */,
+                }}
+                src={dataLearning[currentIndex].youtubeSrc}
+                allowFullScreen
+              ></iframe>
+
+              <i>
+                Video được trích dẫn với mục đích tư liệu học tập. <br />
+                Nguồn:
+                {dataLearning[currentIndex].youtubeSrc}
+              </i>
+            </div>
+          ) : null}
         </div>
 
         {dataLearning.length > 1 ? (

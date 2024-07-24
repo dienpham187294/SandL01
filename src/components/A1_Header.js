@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import NewListHref from "./A1_Header_href_EslConversation.json";
 import HrefImages from "./A1_Header_href_WithImages.json";
+import HrefLearnonyoutube from "./A1_Header_href_Learnonyoutube.json";
 const pracEnSets = [
   {
     root: "learninghub",
@@ -72,15 +73,20 @@ export default function Header({ sttRoom, STTconnectFN }) {
                 null
               )}
               {returnDropdown(
-                "ESL Conversation: Q&A Collection",
+                "ESL Conversation",
                 NewListHref,
                 { name: "name", link: "link", preName: "preName" },
                 null
               )}
-
               {returnDropdown(
                 "Từ vựng và Hình ảnh",
                 HrefImages,
+                { name: "name", link: "link", preName: "preName" },
+                null
+              )}
+              {returnDropdown(
+                "Learn on youtube",
+                HrefLearnonyoutube,
                 { name: "name", link: "link", preName: "preName" },
                 null
               )}
