@@ -204,12 +204,12 @@ function rShowLessonTABLE(dataLearning, currentIndex, setCurrentIndex) {
               <iframe
                 style={{
                   position: "absolute",
-                  top: "10%",
-                  left: "10%",
-                  bottom: "10%",
-                  right: "10%",
-                  width: "80%",
-                  height: "80%",
+                  top: "15%",
+                  left: "15%",
+                  bottom: "15%",
+                  right: "15%",
+                  width: "70%", 
+                  height: "70%",
                   border: 0 /* Optional: Remove border */,
                 }}
                 src={dataLearning[currentIndex].youtubeSrc}
