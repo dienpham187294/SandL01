@@ -43,6 +43,7 @@ const Section01 = ({
                         border: "6px solid green",
                         borderRadius: "5px",
                         width: "20%",
+                        padding: "20px",
                       }
                     : {}
                 }

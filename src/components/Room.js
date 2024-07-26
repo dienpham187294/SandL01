@@ -126,7 +126,7 @@ const Room = ({ setSttRoom }) => {
 
       const pracMode = roomInfo?.pracMode;
 
-      if (activeUsers.length < 2) {
+      if (activeUsers.length < 2 && pracMode !== "Normal") {
         setNumberOneByOneHost("Less4");
         return;
       }
