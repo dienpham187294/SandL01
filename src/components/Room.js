@@ -5,85 +5,34 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import PracticeDIV from "./pracPages/B101_FINAL_PROJECTS";
 import CountdownTimer from "./pracPages/B101_FINAL_CounterTime";
 import LinkAPI from "../ulti/T0_linkApi";
-import ImageGuessingGame from "./miniGame/ImageGuessingGame";
+import Section01 from "./Section01";
 const Room = ({ setSttRoom }) => {
   const { roomCode } = useParams();
-  const [users, setUsers] = useState([]);
-  const [userClient, setUserClient] = useState({});
-  const [isReady, setIsReady] = useState(false);
-  const [allReady, setAllReady] = useState(false);
+  const [users, setUsers] = useState(null);
   const [roomInfo, setRoomInfo] = useState(null);
+  const [userClient, setUserClient] = useState(null);
+
+  const [allReady, setAllReady] = useState(false);
   const [numberBegin, setNumberBegin] = useState(0);
-  const [incrementReady, setIncrementReady] = useState(false);
-  const [incrementAllReady, setIncrementAllReady] = useState(false);
-  const [userName, setUserName] = useState("");
+
+  const [SttCoundown, setSttCoundown] = useState("00");
+
   const [DataPracticingCharactor, setDataPracticingCharactor] = useState(null);
   const [DataPracticingOverRoll, setDataPracticingOverRoll] = useState(null);
   const [Score, setScore] = useState(0);
-  const [ScoreMinigame, setScoreMinigame] = useState(0);
-  const [STTBeforeAllNewPlay, setSTTBeforeAllNewPlay] = useState(false);
-  const [MessageConsole, setMessageConsole] = useState("");
-  const [IsPause, setIsPause] = useState(false);
   const [NumberOneByOneHost, setNumberOneByOneHost] = useState(0);
+
   const navigate = useNavigate();
 
   useEffect(() => {
-    setIncrementReady(false);
-  }, [numberBegin]);
-
-  function getActiveUsers(users) {
-    // Lọc tất cả các users có isPause bằng false
-    return users.filter((user) => !user.isPause);
-  }
-
-  function hasHost(users) {
-    return users.some((user) => user.host === true);
-  }
-
-  useEffect(() => {
-    try {
-      const activeUsers = getActiveUsers(users);
-      const pracMode = roomInfo?.pracMode;
-
-      if (activeUsers.length < 2 || pracMode === "Normal") {
-        setNumberOneByOneHost(0);
-        return;
-      }
-
-      if (pracMode === "By host") {
-        if (hasHost(activeUsers)) {
-          setNumberOneByOneHost(userClient.host ? 1 : 2);
-        } else {
-          setNumberOneByOneHost(0);
-        }
-        return;
-      }
-
-      if (pracMode === "One by one") {
-        const currentUserId =
-          activeUsers[(numberBegin - 1) % activeUsers.length]?.id;
-        setNumberOneByOneHost(socket.id === currentUserId ? 1 : 2);
-      }
-    } catch (error) {
-      console.error("Error in useEffect:", error);
-    }
-  }, [users, numberBegin, userClient, roomInfo]);
-
-  useEffect(() => {
-    socket.emit("updateOneELEMENT", roomCode, socket.id, "isPause", IsPause);
-    if (!IsPause) {
-      handleIncrementReadyClick();
-    }
-  }, [IsPause]);
+    handleUpdateNewElenment("score", Score);
+  }, [Score]);
 
   useEffect(() => {
     setSttRoom(true);
     socket.emit("joinRoom", roomCode);
-    const handleRoomDoesNotExist = () => navigate("/noexist");
 
-    const handleUpdateAllReady = (updatedAllReady) => {
-      setAllReady(updatedAllReady);
-    };
+    const handleRoomDoesNotExist = () => navigate("/noexist");
 
     const handleUpdateRoomInfo = (roomInfo) => {
       setRoomInfo(roomInfo);
@@ -95,57 +44,47 @@ const Room = ({ setSttRoom }) => {
     };
 
     const handleUpdateNumberBegin = (numberBegin) => {
-      if (!IsPause) {
-        setNumberBegin(numberBegin);
+      if (userClient === null) {
+        if (numberBegin > 0) {
+          setNumberBegin(numberBegin);
+          setSttCoundown("01");
+        }
+      } else {
+        if (!userClient.isPause) {
+          setNumberBegin(numberBegin);
+          setSttCoundown("01");
+        }
       }
     };
 
-    const handleUpdateIncrementAllReady = (incrementAllReady) => {
-      setIncrementAllReady(incrementAllReady);
-    };
-
     // You can then call these functions where needed
-    const handleUpdateRoom = (
-      updatedUsers,
-      updatedAllReady,
-      roomInfo,
-      numberBegin,
-      incrementAllReady
-    ) => {
-      console.log(
-        updatedUsers,
-        updatedAllReady,
-        roomInfo,
-        numberBegin,
-        incrementAllReady
-      );
-      handleUpdateAllReady(updatedAllReady);
-      handleUpdateRoomInfo(roomInfo);
-      handleUpdateUsers(updatedUsers);
-      handleUpdateNumberBegin(numberBegin);
-      handleUpdateIncrementAllReady(incrementAllReady);
-    };
-    const handleUserReadyStateChange = (userId, newIsReady) => {
-      setUsers((prevUsers) =>
-        prevUsers.map((user) =>
-          user.id === userId ? { ...user, isReady: newIsReady } : user
-        )
-      );
+    const handleUpdateRoom = (dataObj) => {
+      console.log(dataObj);
+      if (dataObj.allReady !== undefined) {
+        setAllReady(dataObj.allReady);
+      }
+      if (dataObj.roomInfo) {
+        handleUpdateRoomInfo(dataObj.roomInfo);
+      }
+      if (dataObj.users) {
+        handleUpdateUsers(dataObj.users);
+      }
+      if (dataObj.numberBegin) {
+        handleUpdateNumberBegin(dataObj.numberBegin);
+      }
     };
 
     socket.on("roomDoesNotExist", handleRoomDoesNotExist);
     socket.on("updateRoom", handleUpdateRoom);
-    socket.on("userReadyStateChange", handleUserReadyStateChange);
 
     return () => {
       socket.off("roomDoesNotExist", handleRoomDoesNotExist);
       socket.off("updateRoom", handleUpdateRoom);
-      socket.off("userReadyStateChange", handleUserReadyStateChange);
     };
-  }, [roomCode]);
+  }, []);
 
   useEffect(() => {
-    if (allReady && roomInfo !== null) {
+    if (roomInfo !== null) {
       const fetchTitle = async () => {
         try {
           const response = await fetch(`/jsonData/${roomInfo.fileName}.json`);
@@ -170,69 +109,91 @@ const Room = ({ setSttRoom }) => {
 
       fetchTitle();
     }
-  }, [allReady, roomInfo]);
+  }, [roomInfo]);
 
-  useEffect(() => {
-    if (numberBegin === 0) {
-      handleIncrementReadyClick();
-    }
-  }, []);
-
-  const handleReadyClick = () => {
-    setIsReady((prev) => !prev);
-    socket.emit("userReadyChange", roomCode, !isReady);
-  };
-
-  const handleIncrementReadyClick = () => {
-    setIncrementReady(true);
-    socket.emit("incrementReadyChange", roomCode, true);
-  };
-
-  const handleUpdateName = (userId, newUserName) => {
-    socket.emit("updateUserName", roomCode, userId, newUserName);
-  };
-  const handleKeyPress = (e) => {
-    if (e.key === "Enter" && userName.length > 0) {
-      handleUpdateName(socket.id, userName);
-      setUserName("");
-    }
-  };
-  const handleScoreChange = (newScore) => {
-    socket.emit("updateOneELEMENT", roomCode, socket.id, "score", newScore);
-  };
-  useEffect(() => {
-    // setMessageConsole(Score);
-    handleScoreChange(Score);
-  }, [Score]);
-
-  useEffect(() => {
-    if (ScoreMinigame > 0) {
-      handleUpdateNewElenment("win", ScoreMinigame);
-    }
-  }, [ScoreMinigame]);
-
-  useEffect(() => {
-    if (STTBeforeAllNewPlay && incrementAllReady) {
-      socket.emit("incrementNumberBegin", roomCode);
-      setSTTBeforeAllNewPlay(false);
-    }
-  }, [STTBeforeAllNewPlay, incrementAllReady, roomCode]);
-
-  function sortedUsers(users) {
-    return [...users].sort((a, b) => b.score - a.score);
+  function getActiveUsers(users) {
+    // Lọc tất cả các users có isPause bằng false
+    return users.filter((user) => !user.isPause);
   }
 
-  const handleUpdateNewElenment = (newElement, newValue) => {
-    socket.emit("updateOneELEMENT", roomCode, socket.id, newElement, newValue);
+  function hasHost(users) {
+    return users.some((user) => user.host === true);
+  }
+
+  useEffect(() => {
+    try {
+      const activeUsers = getActiveUsers(users);
+
+      const pracMode = roomInfo?.pracMode;
+
+      if (activeUsers.length < 2) {
+        setNumberOneByOneHost("Less4");
+        return;
+      }
+
+      if (pracMode === "Normal") {
+        setNumberOneByOneHost(0);
+        return;
+      }
+
+      if (pracMode === "By host") {
+        if (hasHost(activeUsers)) {
+          setNumberOneByOneHost(userClient.host ? 1 : 2);
+        } else {
+          setNumberOneByOneHost("Nohost");
+        }
+        return;
+      }
+
+      if (pracMode === "One by one") {
+        const currentUserId =
+          activeUsers[(numberBegin - 1) % activeUsers.length]?.id;
+        setNumberOneByOneHost(socket.id === currentUserId ? 1 : 2);
+        return;
+      }
+    } catch (error) {
+      console.error("Error in useEffect:", error);
+    }
+  }, [users, numberBegin, userClient, roomInfo]);
+
+  const handleUpdateNewElenment = (key, value) => {
+    socket.emit("updateOneELEMENT", roomCode, socket.id, key, value);
   };
+
+  if (users === null || roomInfo === null) {
+    return <div>Đợi trong giây lát . . .</div>;
+  }
 
   return (
     <div
-      className="container mt-4"
-      style={{ border: "1px solid green", borderRadius: "5px", padding: "2%" }}
+      style={{
+        border: "1px solid green",
+        borderRadius: "5px",
+        padding: "20px 20px",
+      }}
     >
-      {/* <div>{MessageConsole}</div> */}
-      {allReady && DataPracticingOverRoll !== null ? (
+      <div>
+        <Section01
+          users={users}
+          userClient={userClient}
+          numberBegin={numberBegin}
+          handleReadyClick={() => handleUpdateNewElenment("isReady", true)}
+          handleUpdateNewElenment={handleUpdateNewElenment}
+        />
+      </div>
+
+      {SttCoundown === "00" ? (
+        <>
+          {userClient.incrementReady && !userClient.isPause ? (
+            <div>Đợi các bạn khác</div>
+          ) : null}
+        </>
+      ) : null}
+
+      {SttCoundown === "01" ? (
+        <CountdownTimer setSTT={setSttCoundown} STT={"02"} TIME={3} />
+      ) : null}
+      {SttCoundown === "02" && !userClient.incrementReady ? (
         <div>
           <PracticeDIV
             DataPracticingOverRoll={DataPracticingOverRoll}
@@ -241,141 +202,78 @@ const Room = ({ setSttRoom }) => {
             setScore={setScore}
             numberBegin={numberBegin}
             TimeDefault={roomInfo.timeDefault || 120}
-            handleIncrementReadyClick={handleIncrementReadyClick}
-            IsPause={IsPause}
+            handleIncrementReadyClick={() =>
+              handleUpdateNewElenment("incrementReady", true)
+            }
+            IsPause={userClient.isPause}
             NumberOneByOneHost={NumberOneByOneHost}
             tableView={roomInfo.tableView}
           />
-          <div>
-            {incrementAllReady && !userClient.isPause ? (
-              <div>
-                <CountdownTimer
-                  setSTT={setSTTBeforeAllNewPlay}
-                  STT={true}
-                  TIME={3}
-                />
-              </div>
-            ) : null}
-            {!incrementAllReady && incrementReady && !userClient.isPause ? (
-              <h1>Waiting for others . . . </h1>
-            ) : null}
-          </div>
         </div>
       ) : null}
-      <hr />
-      {incrementReady || IsPause ? (
-        <div className="row">
-          {sortedUsers(users).map((user, userIndex) => (
-            <div
-              key={userIndex}
-              style={{
-                border:
-                  socket.id === user.id ? "5px solid green" : "1px solid black",
-                display: "inline",
-                width: "150px",
-                padding: "10px",
-                margin: "5px",
-                borderRadius: "10px",
+
+      <div id="section05">
+        {" "}
+        {LinkAPI.includes(":5000") ? (
+          <div>
+            {" "}
+            <hr />
+            {LinkAPI}
+            <hr />
+            NumberBegin {numberBegin}
+            <hr />
+            AllReady {JSON.stringify(allReady)}
+            <hr />
+            <br />
+            <i>Roominfo:</i>
+            <br />
+            {JSON.stringify(roomInfo)}
+            <br />
+            ONE BY ONE: {JSON.stringify(NumberOneByOneHost)}
+            <br />
+            {JSON.stringify(users)} <br /> <br />
+            <hr />
+            <button
+              onClick={() => {
+                handleUpdateNewElenment("isReady", true);
               }}
             >
-              {numberBegin !== 0 ? (
-                <div>
-                  <i> {user.name}</i>
-                  <br />
-                  score: {user.score} | G: {user.win}
-                  <br />
-                  {user.isPause ? (
-                    <b>Đang tạm dừng</b>
-                  ) : user.incrementReady ? (
-                    <b>Đang sẵn sàng</b>
-                  ) : (
-                    <b>Đang làm bài</b>
-                  )}
-                </div>
-              ) : null}
-
-              {numberBegin === 0
-                ? user.isReady
-                  ? "Đã sẵn sàng"
-                  : "Chưa sẵn sàng"
-                : null}
-            </div>
-          ))}{" "}
-        </div>
-      ) : null}
-      <hr />
-      <div className="row">
-        {numberBegin === 0 ? (
-          <div className="col-3">
-            <button className="btn btn-primary" onClick={handleReadyClick}>
-              Sẵn sàng bắt đầu
+              ALLReady
             </button>
-          </div>
-        ) : (
-          <>
-            {" "}
-            <div className="col-7">
-              {" "}
-              <div style={{ display: "flex", alignItems: "center" }}>
-                <input
-                  className="form-control"
-                  type="text"
-                  placeholder="Chat with others or update name | Enter"
-                  value={userName}
-                  onChange={(e) => setUserName(e.target.value)}
-                  onKeyUp={handleKeyPress}
-                />
-              </div>
-            </div>
-            <div className="col-5">
-              {" "}
-              <button
+            <button
+              onClick={() => {
+                handleUpdateNewElenment("isPause", !userClient.isPause);
+              }}
+            >
+              isPause
+            </button>
+            <button
+              onClick={() => {
+                handleUpdateNewElenment("incrementReady", true);
+              }}
+            >
+              ready
+            </button>
+            {/* {JSON.stringify(userClient)} */}
+            <br />
+            {/* <button
                 onClick={() => {
-                  setIsPause(!IsPause);
+                  if (userClient.win) {
+                    handleUpdateNewElenment("win", userClient.win + 1);
+                  } else {
+                    handleUpdateNewElenment("win", 1);
+                  }
                 }}
-                className="btn btn-primary"
               >
-                {IsPause ? "Bạn đang tạm dừng | Bấm => Tiếp tục" : "Tạm dừng"}
-              </button>
-            </div>
-          </>
-        )}
+                WIN++
+              </button> */}
+            <br />
+            {/* {ScoreMinigame} */}
+            <br />
+          </div>
+        ) : null}
+        <hr />
       </div>
-      {LinkAPI.includes(":5000") ? (
-        <div>
-          {LinkAPI}
-          <br />
-          <i>Room code:</i>
-          <br />
-          {JSON.stringify(roomInfo)}
-          <br />
-          ONE BY ONE: {JSON.stringify(NumberOneByOneHost)}
-          <br />
-          {JSON.stringify(users)} <br /> {JSON.stringify(incrementAllReady)}
-          <br />
-          {/* {JSON.stringify(userClient)} */}
-          <br />
-          <button
-            onClick={() => {
-              if (userClient.win) {
-                handleUpdateNewElenment("win", userClient.win + 1);
-              } else {
-                handleUpdateNewElenment("win", 1);
-              }
-            }}
-          >
-            WIN++
-          </button>
-          <br />
-          {/* {ScoreMinigame} */}
-          <br />
-        </div>
-      ) : null}
-      <hr />{" "}
-      {/* <ImageGuessingGame
-        setScoreMinigame={setScoreMinigame}
-        ScoreMinigame={ScoreMinigame}
-      /> */}
     </div>
   );
 };

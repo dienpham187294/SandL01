@@ -14,6 +14,7 @@ const Dictaphone = ({
   addElementIfNotExist,
   ObjVoices,
   Lang,
+  setStartSTT,
 }) => {
   const { transcript, listening, resetTranscript } = useSpeechRecognition();
   const [RegInput, setRegInput] = useState(null);
@@ -37,6 +38,7 @@ const Dictaphone = ({
         if (objTR.action !== undefined) {
           if (objTR.action[0] === "WRONG") {
             setScore((S) => S - 1);
+            setStartSTT(true);
           } else {
             addElementIfNotExist(objTR.action[0]);
           }

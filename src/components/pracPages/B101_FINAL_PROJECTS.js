@@ -59,7 +59,7 @@ function FINAL_PROJECT({
   };
   // Function to check screen size
   const checkScreenSize = () => {
-    console.log(window.innerWidth);
+    // console.log(window.innerWidth);
     setIsMobile(window.innerWidth <= 768);
   };
 
@@ -179,6 +179,21 @@ function FINAL_PROJECT({
     }
   }, [getSTTDictaphone]);
 
+  if (NumberOneByOneHost === "Less4") {
+    return (
+      <div>
+        <h1>Số lượng thành viên sẵn sàng dưới 2!</h1>
+      </div>
+    );
+  }
+  if (NumberOneByOneHost === "Nohost") {
+    return (
+      <div>
+        <h1>Chủ phòng đã rời đi hoặc tạm dừng!</h1>
+      </div>
+    );
+  }
+
   if (NumberOneByOneHost === 1) {
     try {
       return (
@@ -269,6 +284,7 @@ function FINAL_PROJECT({
                   addElementIfNotExist={addElementIfNotExist}
                   ObjVoices={ObjREAD}
                   Lang={Lang}
+                  setStartSTT={setStartSTT}
                 />
               ) : (
                 <RegButton setGetSTTDictaphone={setGetSTTDictaphone} />
@@ -296,7 +312,7 @@ function FINAL_PROJECT({
         ) : (
           <div className="row">
             <div className="col-6">
-              <h5>Score: {Score}</h5>
+              {/* <h5>Score: {Score}</h5> */}
               <div>
                 {" "}
                 {Clue && isImageUrl(Clue) ? (
