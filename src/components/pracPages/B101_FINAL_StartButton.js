@@ -32,7 +32,6 @@ const StartButton = ({ setINDEXtoPlay, INDEXtoPlay, setStartSTT, Score }) => {
   return (
     <div style={outerContainerStyle}>
       <div>
-        <h1>ROUNDS: {INDEXtoPlay}</h1>
         <h1>SCORE: {Score}</h1>
       </div>
       {/* <div

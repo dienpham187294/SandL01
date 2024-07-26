@@ -10,6 +10,7 @@ const Room = ({ setSttRoom }) => {
   const { roomCode } = useParams();
   const [users, setUsers] = useState(null);
   const [roomInfo, setRoomInfo] = useState(null);
+  const [IndexSets, setIndexSets] = useState(null);
   const [userClient, setUserClient] = useState(null);
 
   const [allReady, setAllReady] = useState(false);
@@ -72,6 +73,9 @@ const Room = ({ setSttRoom }) => {
       if (dataObj.numberBegin) {
         handleUpdateNumberBegin(dataObj.numberBegin);
       }
+      if (dataObj.indexSets) {
+        setIndexSets(dataObj.indexSets);
+      }
     };
 
     socket.on("roomDoesNotExist", handleRoomDoesNotExist);
@@ -93,13 +97,13 @@ const Room = ({ setSttRoom }) => {
           }
           const data = await response.json();
           setDataPracticingOverRoll(data);
-
           setDataPracticingCharactor(
             interleaveCharacters(
               data,
               roomInfo.objList,
-              roomInfo.interleaving,
-              roomInfo.reverse
+              roomInfo.reverse,
+              userClient.host,
+              handleUpdateIndexSets
             )
           );
         } catch (error) {
@@ -160,6 +164,9 @@ const Room = ({ setSttRoom }) => {
     socket.emit("updateOneELEMENT", roomCode, socket.id, key, value);
   };
 
+  const handleUpdateIndexSets = (value) => {
+    socket.emit("updateRoomInfoIndexSets", roomCode, value);
+  };
   if (users === null || roomInfo === null) {
     return <div>Đợi trong giây lát . . .</div>;
   }
@@ -201,6 +208,11 @@ const Room = ({ setSttRoom }) => {
             Score={Score}
             setScore={setScore}
             numberBegin={numberBegin}
+            indexSets={
+              IndexSets
+                ? IndexSets[numberBegin % IndexSets.length]
+                : numberBegin
+            }
             TimeDefault={roomInfo.timeDefault || 120}
             handleIncrementReadyClick={() =>
               handleUpdateNewElenment("incrementReady", true)
@@ -220,7 +232,10 @@ const Room = ({ setSttRoom }) => {
             <hr />
             {LinkAPI}
             <hr />
-            NumberBegin {numberBegin}
+            NumberBegin {numberBegin} |{" "}
+            {IndexSets
+              ? IndexSets[numberBegin % IndexSets.length]
+              : numberBegin}
             <hr />
             AllReady {JSON.stringify(allReady)}
             <hr />
@@ -254,21 +269,6 @@ const Room = ({ setSttRoom }) => {
             >
               ready
             </button>
-            {/* {JSON.stringify(userClient)} */}
-            <br />
-            {/* <button
-                onClick={() => {
-                  if (userClient.win) {
-                    handleUpdateNewElenment("win", userClient.win + 1);
-                  } else {
-                    handleUpdateNewElenment("win", 1);
-                  }
-                }}
-              >
-                WIN++
-              </button> */}
-            <br />
-            {/* {ScoreMinigame} */}
             <br />
           </div>
         ) : null}
@@ -280,68 +280,44 @@ const Room = ({ setSttRoom }) => {
 
 export default Room;
 
-function extendSubarrays(arr, targetLength) {
-  return arr.map((subArr) => {
-    if (!Array.isArray(subArr)) return [];
-    const extended = [];
-    let i = 0;
-    while (extended.length < targetLength) {
-      extended.push(subArr[i % subArr.length]);
-      i++;
-    }
-    return extended;
+function interleaveCharacters(
+  array1,
+  array2,
+  reverse,
+  host,
+  handleUpdateIndexSets
+) {
+  const numberGetPerOne = Math.floor(200 / array2.length);
+  let arrRes = [];
+  array2.forEach((e) => {
+    let resTemp = splitAndConcatArray(array1[e].charactor, reverse).slice(
+      0,
+      numberGetPerOne
+    );
+    arrRes = arrRes.concat(resTemp);
   });
+  if (host) {
+    handleUpdateIndexSets(generateRandomArray(arrRes.length));
+  }
+  return arrRes;
 }
 
-function interleaveCharacters(array1, array2, interleaving, reverse) {
-  // Ensure all subarrays in array1 are extended to have the same length
-  const maxSubArrLength = Math.max(
-    ...array1.map((subArr) => subArr.charactor?.length || 0)
-  );
-  const extendedArray1 = array1.map((item) => ({
-    ...item,
-    charactor: extendSubarrays([item.charactor || []], maxSubArrLength)[0],
-  }));
+function splitAndConcatArray(array, m) {
+  const n = array.length;
+  const splitIndex = Math.floor((n * m) / 10);
 
-  let res = [];
-  let indexes = array2.map((index) => ({ index, subIndex: 0 })); // Track sub-index for each array element
+  const arr1 = array.slice(0, splitIndex);
+  const arr2 = array.slice(splitIndex);
 
-  let active = true;
-  while (active) {
-    active = false; // This will be set to true if we add any characters in this pass
-    for (let i = 0; i < indexes.length; i++) {
-      let { index, subIndex } = indexes[i];
-      if (subIndex < extendedArray1[index].charactor.length) {
-        let count = Math.min(
-          interleaving,
-          extendedArray1[index].charactor.length - subIndex
-        );
-        for (let j = 0; j < count; j++) {
-          res.push(extendedArray1[index].charactor[subIndex + j]);
-        }
-        indexes[i].subIndex += interleaving; // Move the sub-index forward
-        active = true; // We've added characters, so we continue
-      }
-    }
-  }
+  const resultArray = arr2.concat(arr1);
 
-  if (reverse) {
-    res = splitAndConcatArray(res, reverse);
-  }
-
-  return res;
+  return resultArray;
 }
-function splitAndConcatArray(arr, n) {
-  // Lấy phần trăm n của m
-  const m = arr.length;
-  const index = Math.ceil((n / 10) * m);
 
-  // Tách mảng thành hai phần
-  const arr1 = arr.slice(0, index);
-  const arr2 = arr.slice(index);
-
-  // Ghép hai mảng lại với nhau
-  const newArray = arr2.concat(arr1);
-
-  return newArray;
+function generateRandomArray(m) {
+  let randomArray = [];
+  for (let i = 0; i < m; i++) {
+    randomArray.push(Math.floor(Math.random() * (m + 1)));
+  }
+  return randomArray;
 }

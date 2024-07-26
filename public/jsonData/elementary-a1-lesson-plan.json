@@ -722,14 +722,7 @@
         ],
         "submit": ["FN01"]
       },
-      {
-        "name": null,
-        "gender": null,
-        "img": null,
-        "fsp": null,
-        "data": [],
-        "submit": []
-      },
+
       {
         "name": "Christopher",
         "gender": "male",
@@ -832,14 +825,7 @@
         ],
         "submit": ["FN01"]
       },
-      {
-        "name": null,
-        "gender": null,
-        "img": null,
-        "fsp": null,
-        "data": [],
-        "submit": []
-      },
+
       {
         "name": "Jessica",
         "gender": "female",

@@ -21,6 +21,7 @@ function FINAL_PROJECT({
   Score,
   setScore,
   numberBegin,
+  indexSets,
   TimeDefault,
   handleIncrementReadyClick,
   IsPause,
@@ -82,7 +83,7 @@ function FINAL_PROJECT({
     if (!IsPause) {
       if (numberBegin !== 0) {
         setStartSTT(false);
-        setINDEXtoPlay(numberBegin);
+        setINDEXtoPlay(indexSets);
       }
     } else {
       setStartSTT(true);
@@ -241,9 +242,10 @@ function FINAL_PROJECT({
             className="btn btn-outline-primary"
             onClick={() => {
               setStartSTT(true);
+              setStartSTT((D) => D + 1);
             }}
           >
-            NEXT
+            Done
           </button>
         </div>
       );
@@ -315,6 +317,16 @@ function FINAL_PROJECT({
               {/* <h5>Score: {Score}</h5> */}
               <div>
                 {" "}
+                <button
+                  style={{ borderRadius: "5px" }}
+                  onClick={() => {
+                    setStartSTT(true);
+                    setScore((D) => D - 1);
+                  }}
+                >
+                  Bỏ qua
+                </button>
+                <br />
                 {Clue && isImageUrl(Clue) ? (
                   <img
                     style={{ border: "4px solid blue", borderRadius: "10px" }}
@@ -325,7 +337,11 @@ function FINAL_PROJECT({
                 ) : (
                   <img
                     width={IsMobile ? "50px" : "120px"}
-                    style={{ borderRadius: "5px" }}
+                    style={{
+                      borderRadius: "5px",
+                      marginLeft: "5%",
+                      marginTop: "1%",
+                    }}
                     src={playData.img}
                     loading="lazy"
                   />
