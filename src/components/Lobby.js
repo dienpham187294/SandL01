@@ -12,13 +12,16 @@ const Lobby = ({
   custom,
 }) => {
   const navigate = useNavigate();
-  const [roomName, setRoomName] = useState("");
-  const [userName, setUserName] = useState("");
+  const [roomName, setRoomName] = useState(
+    Math.random().toString(36).substring(2, 7)
+  );
+
   const [roomList, setRoomList] = useState([]);
   const [timeDefault, setTimeDefault] = useState(120);
   const [tableView, setTableView] = useState("Normal");
   const [pracMode, setPracMode] = useState("Normal");
   const [selectedIndices, setSelectedIndices] = useState([]);
+  const [QuickRoom, setQuickRoom] = useState(true);
 
   useEffect(() => {
     const defaultIndices = objListDefault.map((item) => objList.indexOf(item));
@@ -52,7 +55,6 @@ const Lobby = ({
       pracMode,
     };
     socket.emit("createRoom", objInformationOfGame, (newRoomCode) => {
-      socket.emit("setUserName", userName);
       navigate(`/room/${newRoomCode}`);
     });
   };
@@ -89,6 +91,33 @@ const Lobby = ({
     setSelectedIndices([]);
   };
 
+  if (QuickRoom) {
+    return (
+      <div
+        className="container mt-4"
+        style={{
+          border: "1px solid green",
+          borderRadius: "10px",
+          padding: "1%",
+          textAlign: "center",
+          width: "250px",
+        }}
+      >
+        <button className="btn btn-primary mb-4" onClick={handleCreateRoom}>
+          Tạo nhanh một phòng thực hành
+        </button>
+        <hr />
+        <button
+          className="btn btn-outline-primary mb-4"
+          onClick={() => {
+            setQuickRoom(false);
+          }}
+        >
+          Tùy chỉnh một phòng thực hành mới
+        </button>
+      </div>
+    );
+  }
   return (
     <div
       className="container mt-4"

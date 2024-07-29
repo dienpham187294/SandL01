@@ -14,8 +14,10 @@ const Room = ({ setSttRoom }) => {
   const [userClient, setUserClient] = useState(null);
 
   const [allReady, setAllReady] = useState(false);
-  const [numberBegin, setNumberBegin] = useState(0);
 
+  // const [AllReadyForPlay, setAllReadyForPlay] = useState(false);
+
+  const [numberBegin, setNumberBegin] = useState(0);
   const [SttCoundown, setSttCoundown] = useState("00");
 
   const [DataPracticingCharactor, setDataPracticingCharactor] = useState(null);
@@ -167,8 +169,58 @@ const Room = ({ setSttRoom }) => {
   const handleUpdateIndexSets = (value) => {
     socket.emit("updateRoomInfoIndexSets", roomCode, value);
   };
+
   if (users === null || roomInfo === null) {
     return <div>Đợi trong giây lát . . .</div>;
+  }
+  if (userClient !== null) {
+    if (userClient.isPause) {
+      return (
+        <div className="container mt-4">
+          <h1>Đang tạm dừng</h1>
+          <hr />
+          <Section01
+            users={users}
+            userClient={userClient}
+            numberBegin={numberBegin}
+            handleReadyClick={() => handleUpdateNewElenment("isReady", true)}
+            handleUpdateNewElenment={handleUpdateNewElenment}
+            sttFirst={true}
+          />
+        </div>
+      );
+    }
+  }
+  if (SttCoundown === "02" && userClient.incrementReady) {
+    return (
+      <div className="container mt-4">
+        <h1>Đợi mọi người hoàn thành lượt {numberBegin}!</h1>
+        <hr />
+        <Section01
+          users={users}
+          userClient={userClient}
+          numberBegin={numberBegin}
+          handleReadyClick={() => handleUpdateNewElenment("isReady", true)}
+          handleUpdateNewElenment={handleUpdateNewElenment}
+          sttFirst={true}
+        />
+      </div>
+    );
+  }
+
+  if (NumberOneByOneHost === "Less4") {
+    return (
+      <div>
+        <h1>Số lượng thành viên sẵn sàng dưới 2!</h1>
+      </div>
+    );
+  }
+  if (NumberOneByOneHost === "Nohost") {
+    return (
+      <div>
+        <h1>Chủ phòng đã rời đi hoặc tạm dừng!</h1>
+      </div>
+    );
   }
 
   return (
@@ -189,17 +241,10 @@ const Room = ({ setSttRoom }) => {
         />
       </div>
 
-      {SttCoundown === "00" ? (
-        <>
-          {userClient.incrementReady && !userClient.isPause ? (
-            <div>Đợi các bạn khác</div>
-          ) : null}
-        </>
-      ) : null}
-
       {SttCoundown === "01" ? (
         <CountdownTimer setSTT={setSttCoundown} STT={"02"} TIME={3} />
       ) : null}
+
       {SttCoundown === "02" && !userClient.incrementReady ? (
         <div>
           <PracticeDIV

@@ -110,7 +110,7 @@ function FINAL_PROJECT({
     if (StartSTT) {
       setPlayData(null);
       setGetSTTDictaphone(false);
-      if (INDEXtoPlay > 0) {
+      if (INDEXtoPlay !== -1) {
         handleIncrementReadyClick();
       }
     } else {
@@ -179,21 +179,6 @@ function FINAL_PROJECT({
       enableButtonFsp();
     }
   }, [getSTTDictaphone]);
-
-  if (NumberOneByOneHost === "Less4") {
-    return (
-      <div>
-        <h1>Số lượng thành viên sẵn sàng dưới 2!</h1>
-      </div>
-    );
-  }
-  if (NumberOneByOneHost === "Nohost") {
-    return (
-      <div>
-        <h1>Chủ phòng đã rời đi hoặc tạm dừng!</h1>
-      </div>
-    );
-  }
 
   if (NumberOneByOneHost === 1) {
     try {
@@ -302,6 +287,7 @@ function FINAL_PROJECT({
       <div
       // className="projects_outmain"
       >
+        <hr />
         {StartSTT ? (
           <div>
             <StartButton

@@ -8,8 +8,9 @@ const Section01 = ({
   numberBegin,
   handleReadyClick,
   handleUpdateNewElenment,
+  sttFirst,
 }) => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(sttFirst || false);
 
   const toggleContent = () => {
     setIsOpen(!isOpen);
@@ -30,9 +31,7 @@ const Section01 = ({
 
   return (
     <div id="section01" className="row">
-      <div
-        style={{ backgroundColor: userClient.isPause ? "gray" : "transparent" }}
-      >
+      <div>
         {numberBegin === 0 ? (
           <div>
             {users.map((e, i) => (
@@ -40,16 +39,25 @@ const Section01 = ({
                 style={
                   userClient.id === e.id
                     ? {
-                        border: "6px solid green",
+                        border: "3px solid blue",
                         borderRadius: "5px",
-                        width: "20%",
-                        padding: "20px",
+                        width: "150px",
+                        padding: "5px",
+                        display: "inline-block",
+                        margin: "5px",
                       }
-                    : {}
+                    : {
+                        border: "3px solid black",
+                        borderRadius: "5px",
+                        width: "150px",
+                        padding: "5px",
+                        display: "inline-block",
+                        margin: "5px",
+                      }
                 }
                 key={i}
               >
-                {e.isReady ? "Đã sẵn sàng" : "Chưa sẵn sàng"}
+                {e.isReady ? <b>Đã sẵn sàng</b> : <i>Chưa sẵn sàng</i>}
               </div>
             ))}
             <hr />
@@ -79,7 +87,7 @@ const Section01 = ({
             </span>
             {countUserStates(users)}
             <button
-              className="btn"
+              className="btn btn-outline-primary"
               onClick={toggleContent}
               style={{ cursor: "pointer", float: "right" }}
             >
@@ -93,7 +101,7 @@ const Section01 = ({
         )}
       </div>
 
-      <div style={{ width: "100%" }}>
+      <div style={{ width: "100%", maxHeight: "400px", overflow: "auto" }}>
         <CSSTransition
           in={isOpen}
           timeout={2000}
@@ -110,7 +118,7 @@ const Section01 = ({
             >
               <hr />
               <input
-                className="form-control"
+                style={{ width: "500px", borderRadius: "5px" }}
                 type="text"
                 placeholder="Chat with others or update name | Enter"
                 onKeyUp={(e) => {
@@ -120,36 +128,43 @@ const Section01 = ({
                   }
                 }}
               />
-              <table className="table">
-                <thead>
-                  <tr>
-                    <th>Điểm</th>
-                    <th>Chat</th>
-                    <th>Trạng thái</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {users.map((user, i) => (
-                    <tr key={i}>
-                      <td>
-                        {user.score} | {user.win}
-                      </td>
-
-                      <td>{user.name}</td>
-                      <td>
-                        {" "}
-                        {user.isPause ? (
-                          <b>Đang tạm dừng</b>
-                        ) : user.incrementReady ? (
-                          <b>Đang sẵn sàng</b>
-                        ) : (
-                          <b>Đang làm bài</b>
-                        )}
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+              <hr />
+              {users.map((user, i) => (
+                <div
+                  key={i}
+                  style={{
+                    border:
+                      userClient.id === user.id
+                        ? "3px solid blue"
+                        : "3px solid black",
+                    borderRadius: "5px",
+                    padding: "5px",
+                    width: "150px",
+                    height: "150px",
+                    overflow: "auto",
+                    display: "inline-block",
+                    margin: "5px",
+                  }}
+                >
+                  <b>
+                    {user.score} | {user.win}
+                  </b>
+                  <br />
+                  <i>
+                    {" "}
+                    {user.isPause ? (
+                      <b>Đang tạm dừng</b>
+                    ) : user.incrementReady ? (
+                      <b>Đang sẵn sàng</b>
+                    ) : (
+                      <b>Đang làm bài</b>
+                    )}
+                  </i>
+                  <br />
+                  <b>{user.name}</b>
+                </div>
+              ))}{" "}
+              <hr />
             </div>
           )}
         </CSSTransition>

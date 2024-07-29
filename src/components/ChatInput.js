@@ -6,9 +6,11 @@ const ChatInput = () => {
 
   const handleSendMessage = (event) => {
     event.preventDefault();
-
     if (message.trim()) {
-      const timestamp = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+      const timestamp = new Date().toLocaleTimeString([], {
+        hour: "2-digit",
+        minute: "2-digit",
+      });
       socket.emit("message", { text: message, time: timestamp });
       setMessage("");
     }

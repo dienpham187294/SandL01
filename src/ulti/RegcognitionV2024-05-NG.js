@@ -4,6 +4,7 @@ import SpeechRecognition, {
 } from "react-speech-recognition";
 import stringSimilarity from "string-similarity";
 import ReadMessage from "./ReadMessage_2024";
+import { socket } from "../App";
 
 const Dictaphone = ({
   getSTTDictaphone,
@@ -27,6 +28,8 @@ const Dictaphone = ({
 
   useEffect(() => {
     if (RegInput !== null) {
+      // socket.emit("messageReg", { text: RegInput });
+
       const objTR = findMostSimilarQuestion(RegInput, CMDlist);
 
       if (objTR === null) {
