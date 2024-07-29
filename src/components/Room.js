@@ -28,7 +28,7 @@ const Room = ({ setSttRoom }) => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    handleUpdateNewElenment("score", Score);
+    handleUpdateNewElenment("score", Score, "normal");
   }, [Score]);
 
   useEffect(() => {
@@ -133,6 +133,9 @@ const Room = ({ setSttRoom }) => {
       const pracMode = roomInfo?.pracMode;
 
       if (activeUsers.length < 2 && pracMode !== "Normal") {
+        if (allReady) {
+          handleUpdateNewElenment("a1", "a1", "reset");
+        }
         setNumberOneByOneHost("Less4");
         return;
       }
@@ -162,8 +165,8 @@ const Room = ({ setSttRoom }) => {
     }
   }, [users, numberBegin, userClient, roomInfo]);
 
-  const handleUpdateNewElenment = (key, value) => {
-    socket.emit("updateOneELEMENT", roomCode, socket.id, key, value);
+  const handleUpdateNewElenment = (key, value, mode) => {
+    socket.emit("updateOneELEMENT", roomCode, socket.id, key, value, mode);
   };
 
   const handleUpdateIndexSets = (value) => {
@@ -173,6 +176,31 @@ const Room = ({ setSttRoom }) => {
   if (users === null || roomInfo === null) {
     return <div>Đợi trong giây lát . . .</div>;
   }
+
+  if (NumberOneByOneHost === "Less4") {
+    return (
+      <div className="container mt-4">
+        <h2>Số lượng thành viên sẵn sàng dưới 2! Vui lòng đợi thêm người!</h2>
+      </div>
+    );
+  }
+
+  if (!allReady) {
+    return (
+      <div className="container mt-4">
+        <h1>Sảnh</h1>
+        <Section01
+          allReady={allReady}
+          users={users}
+          userClient={userClient}
+          numberBegin={numberBegin}
+          handleReadyClick={() => handleUpdateNewElenment("isReady", true)}
+          handleUpdateNewElenment={handleUpdateNewElenment}
+          sttFirst={true}
+        />
+      </div>
+    );
+  }
   if (userClient !== null) {
     if (userClient.isPause) {
       return (
@@ -180,6 +208,7 @@ const Room = ({ setSttRoom }) => {
           <h1>Đang tạm dừng</h1>
           <hr />
           <Section01
+            allReady={allReady}
             users={users}
             userClient={userClient}
             numberBegin={numberBegin}
@@ -197,6 +226,7 @@ const Room = ({ setSttRoom }) => {
         <h1>Đợi mọi người hoàn thành lượt {numberBegin}!</h1>
         <hr />
         <Section01
+          allReady={allReady}
           users={users}
           userClient={userClient}
           numberBegin={numberBegin}
@@ -208,13 +238,6 @@ const Room = ({ setSttRoom }) => {
     );
   }
 
-  if (NumberOneByOneHost === "Less4") {
-    return (
-      <div>
-        <h1>Số lượng thành viên sẵn sàng dưới 2!</h1>
-      </div>
-    );
-  }
   if (NumberOneByOneHost === "Nohost") {
     return (
       <div>
@@ -233,6 +256,7 @@ const Room = ({ setSttRoom }) => {
     >
       <div>
         <Section01
+          allReady={allReady}
           users={users}
           userClient={userClient}
           numberBegin={numberBegin}

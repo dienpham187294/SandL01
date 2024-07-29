@@ -3,6 +3,7 @@ import { CSSTransition } from "react-transition-group";
 // import "./Section01.css"; // Để các hiệu ứng hoạt động, cần phải có thư viện CSS transition
 
 const Section01 = ({
+  allReady,
   users,
   userClient,
   numberBegin,
@@ -32,7 +33,7 @@ const Section01 = ({
   return (
     <div id="section01" className="row">
       <div>
-        {numberBegin === 0 ? (
+        {!allReady ? (
           <div>
             {users.map((e, i) => (
               <div
@@ -123,7 +124,7 @@ const Section01 = ({
                 placeholder="Chat with others or update name | Enter"
                 onKeyUp={(e) => {
                   if (e.key === "Enter") {
-                    handleUpdateNewElenment("name", e.target.value);
+                    handleUpdateNewElenment("name", e.target.value, "normal");
                     e.target.value = "";
                   }
                 }}
