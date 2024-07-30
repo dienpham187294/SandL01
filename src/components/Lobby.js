@@ -123,6 +123,7 @@ const Lobby = ({
           padding: "1%",
           textAlign: "center",
           width: "50%",
+          minWidth: "300px",
         }}
       >
         <b>Kỹ năng là đích đến, thực hành là con đường, kỷ luật là động lực.</b>
