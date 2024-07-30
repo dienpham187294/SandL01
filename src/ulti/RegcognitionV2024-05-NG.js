@@ -19,7 +19,7 @@ const Dictaphone = ({
 }) => {
   const { transcript, listening, resetTranscript } = useSpeechRecognition();
   const [RegInput, setRegInput] = useState(null);
-
+  const idSocket = socket.id.slice(0, 4);
   useEffect(() => {
     if (getSTTDictaphone) {
       startListening();
@@ -28,7 +28,7 @@ const Dictaphone = ({
 
   useEffect(() => {
     if (RegInput !== null) {
-      // socket.emit("messageReg", { text: RegInput });
+      socket.emit("messageReg", { text: "[" + idSocket + "] " + RegInput });
 
       const objTR = findMostSimilarQuestion(RegInput, CMDlist);
 

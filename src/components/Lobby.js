@@ -59,6 +59,28 @@ const Lobby = ({
     });
   };
 
+  const handleCreateRoomOffline = () => {
+    const finalObjList =
+      custom && selectedIndices.length > 0
+        ? shuffleArray(
+            objList.filter((_, index) => selectedIndices.includes(index))
+          )
+        : objListDefault;
+    const objInformationOfGame = {
+      objList: finalObjList,
+      fileName,
+      interleaving: randomOneOrTwo(),
+      reverse: randomBoolean(),
+      timeDefault,
+      roomName,
+      IdHost: socket.id,
+      tableView,
+      pracMode,
+    };
+    socket.emit("createRoom", objInformationOfGame, (newRoomCode) => {
+      navigate(`/roomoffline/${newRoomCode}`);
+    });
+  };
   const handleJoinRoom = (roomCode) => {
     if (roomCode.trim()) {
       navigate(`/room/${roomCode}`);
@@ -100,11 +122,21 @@ const Lobby = ({
           borderRadius: "10px",
           padding: "1%",
           textAlign: "center",
-          width: "250px",
+          width: "50%",
         }}
       >
-        <button className="btn btn-primary mb-4" onClick={handleCreateRoom}>
-          Tạo nhanh một phòng thực hành
+        <b>Kỹ năng là đích đến, thực hành là con đường, kỷ luật là động lực.</b>
+        <br />
+        <i>
+          Học thuộc sau đó hành động lặp đi lặp lại là chìa khóa biến mọi thứ
+          thành kỹ năng.
+        </i>
+        <hr />
+        <button
+          className="btn btn-primary mb-4"
+          onClick={handleCreateRoomOffline}
+        >
+          Tạo nhanh một phòng riêng
         </button>
         <hr />
         <button
@@ -113,7 +145,7 @@ const Lobby = ({
             setQuickRoom(false);
           }}
         >
-          Tùy chỉnh một phòng thực hành mới
+          Tùy chỉnh một phòng thực hành chung
         </button>
       </div>
     );

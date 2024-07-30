@@ -4,6 +4,7 @@ import { HelmetProvider } from "react-helmet-async";
 import Header from "./components/A1_Header";
 import Lobby from "./components/Lobby";
 import Room from "./components/Room";
+import RoomOffline from "./components/Roomoffline";
 import NotExist from "./components/NotExist";
 import LearningHub from "./components/LearningHub";
 import LearningByHeartHub from "./components/LearningByHeart";
@@ -81,6 +82,11 @@ const App = () => {
               <Route
                 path="/room/:roomCode"
                 element={<Room setSttRoom={setSttRoom} />}
+              />
+
+              <Route
+                path="/roomoffline/:roomCode"
+                element={<RoomOffline setSttRoom={setSttRoom} />}
               />
               <Route
                 path="/"

@@ -32,7 +32,7 @@ const ChatWidget = () => {
 
   useEffect(() => {
     if (isOpen) {
-      chatEndRef.current?.scrollIntoView({ behavior: "smooth" });
+      chatEndRef.current?.scrollIntoView({ behavior: "auto" });
     }
   }, [chatHistory, isOpen]);
 

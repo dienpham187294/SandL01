@@ -62,9 +62,11 @@ const Section01 = ({
               </div>
             ))}
             <hr />
-            <button className="btn btn-primary" onClick={handleReadyClick}>
-              Sẵn sàng bắt đầu
-            </button>
+            {userClient.isReady ? null : (
+              <button className="btn btn-primary" onClick={handleReadyClick}>
+                Sẵn sàng bắt đầu
+              </button>
+            )}
           </div>
         ) : (
           <>
