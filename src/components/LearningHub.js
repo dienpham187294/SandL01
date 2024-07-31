@@ -92,6 +92,8 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
             objList={createArrayFromNumber(dataLearning.length - 1)}
             objListDefault={[currentIndex]}
             custom={true}
+            id={id}
+            currentIndex={currentIndex}
           />
         ) : (
           <div style={{ textAlign: "center", padding: "20px 10px" }}>
@@ -208,7 +210,7 @@ function rShowLessonTABLE(dataLearning, currentIndex, setCurrentIndex) {
                   left: "15%",
                   bottom: "15%",
                   right: "15%",
-                  width: "70%", 
+                  width: "70%",
                   height: "70%",
                   border: 0 /* Optional: Remove border */,
                 }}

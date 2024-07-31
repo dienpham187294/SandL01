@@ -10,6 +10,8 @@ const Lobby = ({
   objList,
   objListDefault,
   custom,
+  id,
+  currentIndex,
 }) => {
   const navigate = useNavigate();
   const [roomName, setRoomName] = useState(
@@ -60,26 +62,32 @@ const Lobby = ({
   };
 
   const handleCreateRoomOffline = () => {
-    const finalObjList =
-      custom && selectedIndices.length > 0
-        ? shuffleArray(
-            objList.filter((_, index) => selectedIndices.includes(index))
-          )
-        : objListDefault;
-    const objInformationOfGame = {
-      objList: finalObjList,
-      fileName,
-      interleaving: randomOneOrTwo(),
-      reverse: randomBoolean(),
-      timeDefault,
-      roomName,
-      IdHost: socket.id,
-      tableView,
-      pracMode,
-    };
-    socket.emit("createRoom", objInformationOfGame, (newRoomCode) => {
-      navigate(`/roomoffline/${newRoomCode}`);
-    });
+    if (id) {
+      navigate(`/roomoffline/${id}/${currentIndex}`);
+    } else {
+      navigate(`/roomoffline/elementary-a1-lesson-plan/0`);
+    }
+
+    // const finalObjList =
+    //   custom && selectedIndices.length > 0
+    //     ? shuffleArray(
+    //         objList.filter((_, index) => selectedIndices.includes(index))
+    //       )
+    //     : objListDefault;
+    // const objInformationOfGame = {
+    //   objList: finalObjList,
+    //   fileName,
+    //   interleaving: randomOneOrTwo(),
+    //   reverse: randomBoolean(),
+    //   timeDefault,
+    //   roomName,
+    //   IdHost: socket.id,
+    //   tableView,
+    //   pracMode,
+    // };
+    // socket.emit("createRoom", objInformationOfGame, (newRoomCode) => {
+
+    // });
   };
   const handleJoinRoom = (roomCode) => {
     if (roomCode.trim()) {

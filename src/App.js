@@ -85,7 +85,7 @@ const App = () => {
               />
 
               <Route
-                path="/roomoffline/:roomCode"
+                path="/roomoffline/:roomCode/:currentIndex"
                 element={<RoomOffline setSttRoom={setSttRoom} />}
               />
               <Route

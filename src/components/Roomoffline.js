@@ -7,11 +7,15 @@ import CountdownTimer from "./pracPages/B101_FINAL_CounterTime";
 import LinkAPI from "../ulti/T0_linkApi";
 
 const Room = ({ setSttRoom }) => {
-  const { roomCode } = useParams();
+  const { roomCode, currentIndex } = useParams();
 
   const [users, setUsers] = useState(null);
 
-  const [roomInfo, setRoomInfo] = useState(null);
+  const [roomInfo, setRoomInfo] = useState({
+    fileName: roomCode,
+    objList: [currentIndex],
+    reverse: 2,
+  });
 
   const [IndexSets, setIndexSets] = useState(null);
 
@@ -48,26 +52,6 @@ const Room = ({ setSttRoom }) => {
 
   useEffect(() => {
     setSttRoom(true);
-    socket.emit("joinRoom", roomCode);
-    const handleUpdateRoomInfo = (roomInfo) => {
-      setRoomInfo(roomInfo);
-    };
-    // You can then call these functions where needed
-    const handleUpdateRoom = (dataObj) => {
-      if (dataObj.roomInfo) {
-        handleUpdateRoomInfo(dataObj.roomInfo);
-      }
-
-      if (dataObj.indexSets) {
-        setIndexSets(dataObj.indexSets);
-      }
-    };
-
-    socket.on("updateRoom", handleUpdateRoom);
-
-    return () => {
-      socket.off("updateRoom", handleUpdateRoom);
-    };
   }, []);
 
   useEffect(() => {
@@ -98,21 +82,8 @@ const Room = ({ setSttRoom }) => {
     }
   }, [roomInfo]);
 
-  function getActiveUsers(users) {
-    // Lọc tất cả các users có isPause bằng false
-    return users.filter((user) => !user.isPause);
-  }
-
-  function hasHost(users) {
-    return users.some((user) => user.host === true);
-  }
-
   const handleUpdateNewElenment = (key, value, mode) => {
     socket.emit("updateOneELEMENT", roomCode, socket.id, key, value, mode);
-  };
-
-  const handleUpdateIndexSets = (value) => {
-    socket.emit("updateRoomInfoIndexSets", roomCode, value);
   };
 
   if (roomInfo === null) {
@@ -187,7 +158,7 @@ const Room = ({ setSttRoom }) => {
             handleIncrementReadyClick={() => setNumberBegin((D) => D + 1)}
             IsPause={false}
             NumberOneByOneHost={0}
-            tableView={roomInfo.tableView}
+            tableView={"Normal"}
           />
         </div>
       ) : null}
