@@ -24,12 +24,19 @@ const Room = ({ setSttRoom }) => {
   const [DataPracticingOverRoll, setDataPracticingOverRoll] = useState(null);
   const [Score, setScore] = useState(0);
   const [NumberOneByOneHost, setNumberOneByOneHost] = useState(0);
+  const [Message, setMessage] = useState(null);
 
   const navigate = useNavigate();
 
   useEffect(() => {
     handleUpdateNewElenment("score", Score, "normal");
   }, [Score]);
+  useEffect(() => {
+    try {
+      const idSocket = socket.id.slice(0, 4);
+      socket.emit("messageReg", { text: "[" + idSocket + "] " + Message });
+    } catch (error) {}
+  }, [Message]);
 
   useEffect(() => {
     setSttRoom(true);
@@ -289,6 +296,7 @@ const Room = ({ setSttRoom }) => {
             IsPause={userClient.isPause}
             NumberOneByOneHost={NumberOneByOneHost}
             tableView={roomInfo.tableView}
+            setMessage={setMessage}
           />
         </div>
       ) : null}

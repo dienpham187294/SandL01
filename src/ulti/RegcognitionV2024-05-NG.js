@@ -4,7 +4,7 @@ import SpeechRecognition, {
 } from "react-speech-recognition";
 import stringSimilarity from "string-similarity";
 import ReadMessage from "./ReadMessage_2024";
-import { socket } from "../App";
+// import { socket } from "../App";
 
 const Dictaphone = ({
   getSTTDictaphone,
@@ -16,10 +16,11 @@ const Dictaphone = ({
   ObjVoices,
   Lang,
   setStartSTT,
+  setMessage,
 }) => {
   const { transcript, listening, resetTranscript } = useSpeechRecognition();
   const [RegInput, setRegInput] = useState(null);
-  const idSocket = socket.id.slice(0, 4);
+  // const idSocket = socket.id.slice(0, 4);
   useEffect(() => {
     if (getSTTDictaphone) {
       startListening();
@@ -28,10 +29,9 @@ const Dictaphone = ({
 
   useEffect(() => {
     if (RegInput !== null) {
-      socket.emit("messageReg", { text: "[" + idSocket + "] " + RegInput });
-
+      
+      setMessage(RegInput);
       const objTR = findMostSimilarQuestion(RegInput, CMDlist);
-
       if (objTR === null) {
         ReadMessage(ObjVoices, "Sorry, what did you say?", GENDER);
       } else {

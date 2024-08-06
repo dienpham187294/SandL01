@@ -27,6 +27,7 @@ function FINAL_PROJECT({
   IsPause,
   NumberOneByOneHost,
   tableView,
+  setMessage,
 }) {
   const [StartSTT, setStartSTT] = useState(true);
   const [INDEXtoPlay, setINDEXtoPlay] = useState(-1);
@@ -272,6 +273,7 @@ function FINAL_PROJECT({
                   ObjVoices={ObjREAD}
                   Lang={Lang}
                   setStartSTT={setStartSTT}
+                  setMessage={setMessage}
                 />
               ) : (
                 <RegButton setGetSTTDictaphone={setGetSTTDictaphone} />
@@ -378,6 +380,7 @@ function FINAL_PROJECT({
                       addElementIfNotExist={addElementIfNotExist}
                       ObjVoices={ObjREAD}
                       Lang={Lang}
+                      setMessage={setMessage}
                     />
                   ) : (
                     <RegButton setGetSTTDictaphone={setGetSTTDictaphone} />
