@@ -1,0 +1,4612 @@
+[
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": ["I want to ask for room cleaning."],
+        "submitList": ["Room Services-Cleaning-Request service"],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["What time would you like the room cleaned?"],
+        "theySay": ["At 10 AM, please."],
+        "submitList": ["At 10 AM"]
+      },
+      {
+        "weSay": ["Do you want us to clean the bathroom as well?"],
+        "theySay": ["Yes, please."],
+        "submitList": ["Bathroom included"],
+        "pickingList": [
+          ["Time", "At 10 AM", "At 11 AM", "At 1 PM", "At 2 PM"],
+          ["Bathroom cleaning", "Bathroom included", "Bathroom not included"]
+        ]
+      },
+      {
+        "weSay": ["Do you need fresh towels?"],
+        "theySay": ["Yes, I do."],
+        "submitList": ["Yes"],
+        "pickingList": [["Towels", "Yes", "No"]]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": ["I want to send my clothes for laundry."],
+        "submitList": ["Room Services-Laundry-Request service"],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["How many items do you have?"],
+        "theySay": ["Five shirts."],
+        "submitList": ["Five items"]
+      },
+      {
+        "weSay": ["Do you need ironing service?"],
+        "theySay": ["Yes, please."],
+        "submitList": ["Ironing service"],
+        "pickingList": [
+          [
+            "Laundry count",
+            "Five items",
+            "Four items",
+            "Six items",
+            "Seven items"
+          ],
+          ["Laundry service", "Ironing service", "No ironing service"]
+        ]
+      },
+      {
+        "weSay": ["When would you like them returned?"],
+        "theySay": ["Tomorrow morning"],
+        "submitList": ["Tomorrow morning"],
+        "pickingList": [
+          [
+            "Delivery timing",
+            "Tomorrow afternoon",
+            "Tomorrow night",
+            "Next day"
+          ]
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": ["I want to order food to my room."],
+        "submitList": ["Room Services-In-room dining-Place order"],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["What would you like to order?"],
+        "theySay": ["A pizza, please."],
+        "submitList": ["Pizza"]
+      },
+      {
+        "weSay": ["Would you like something to drink?"],
+        "theySay": ["Yes, a soda."],
+        "submitList": ["Soda"],
+        "pickingList": [
+          ["Food order", "Pizza", "Sandwich", "Burger", "Salad"],
+          ["Drink", "Soda", "Juice", "Water", "Wine"]
+        ]
+      },
+      {
+        "weSay": ["When should we deliver it?"],
+        "theySay": ["At 7 PM"],
+        "submitList": ["At 7 PM"],
+        "pickingList": [["Delivery time", "At 6 PM", "At 8 PM", "At 7:30 PM"]]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": ["I need new towels or linens, please."],
+        "submitList": [
+          "Room Services-Towel & linen change-Request towel or linen change"
+        ],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["How many towels do you need?"],
+        "theySay": ["Two towels, please."],
+        "submitList": ["Two towels"]
+      },
+      {
+        "weSay": ["Do you need new sheets as well?"],
+        "theySay": ["No, just towels."],
+        "submitList": ["No sheets"],
+        "pickingList": [
+          [
+            "Towels count",
+            "Two towels",
+            "One towel",
+            "Three towels",
+            "Four towels"
+          ],
+          ["Bed linen", "No sheets", "New sheets", "Fresh sheets"]
+        ]
+      },
+      {
+        "weSay": ["When would you like them delivered?"],
+        "theySay": ["Right away, please"],
+        "submitList": ["Right away"],
+        "pickingList": [
+          ["Delivery speed", "Immediately", "Soon", "As soon as possible"]
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": ["I want to book a table at the restaurant."],
+        "submitList": ["Dining Services-Restaurant-Reserve table"],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["For how many people?"],
+        "theySay": ["Four people."],
+        "submitList": ["Four people"]
+      },
+      {
+        "weSay": ["What time would you like the table?"],
+        "theySay": ["At 8 PM"],
+        "submitList": ["At 8 PM"],
+        "pickingList": [
+          [
+            "Reservation",
+            "Four people",
+            "Two people",
+            "Three people",
+            "Five people"
+          ],
+          ["Reservation time", "At 7 PM", "At 9 PM", "At 6 PM"]
+        ]
+      },
+      {
+        "weSay": ["Would you like to sit inside or outside?"],
+        "theySay": ["Inside, please."],
+        "submitList": ["Inside"],
+        "pickingList": [
+          [
+            "Seating preference",
+            "Inside",
+            "Outside",
+            "Near window",
+            "Garden area"
+          ]
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": ["I want to book a seat at the bar or café."],
+        "submitList": ["Dining Services-Bar/Café-Reserve bar/café seat"],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["What time would you like to come?"],
+        "theySay": ["At 6 PM."],
+        "submitList": ["At 6 PM"]
+      },
+      {
+        "weSay": ["Do you prefer a bar stool or a table?"],
+        "theySay": ["A table, please."],
+        "submitList": ["Table"],
+        "pickingList": [
+          ["Visit time", "At 6 PM", "At 7 PM", "At 5 PM", "At 8 PM"],
+          [
+            "Seating choice",
+            "Table",
+            "Bar stool",
+            "High chair",
+            "Lounge seating"
+          ]
+        ]
+      },
+      {
+        "weSay": ["How many people?"],
+        "theySay": ["Two people."],
+        "submitList": ["Two people"],
+        "pickingList": [["\""]]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": ["I want to reserve a seat for the buffet."],
+        "submitList": ["Dining Services-Buffet-Reserve buffet seat"],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["How many guests will be with you?"],
+        "theySay": ["Three guests."],
+        "submitList": ["Three guests"]
+      },
+      {
+        "weSay": ["What time will you arrive?"],
+        "theySay": ["At 12 PM"],
+        "submitList": ["At 12 PM"],
+        "pickingList": [
+          [
+            "Guest count",
+            "Three guests",
+            "Two guests",
+            "Four guests",
+            "Five guests"
+          ],
+          ["Arrival time", "At 11 AM", "At 1 PM", "At 12:30 PM"]
+        ]
+      },
+      {
+        "weSay": ["Would you like a window seat?"],
+        "theySay": ["Yes, please."],
+        "submitList": ["Window seat"],
+        "pickingList": [
+          [
+            "Seating choice",
+            "Window seat",
+            "Aisle seat",
+            "Center table",
+            "Corner seat"
+          ]
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": ["I want to order a special dietary meal."],
+        "submitList": [
+          "Dining Services-Special dietary options-Request special dietary meal"
+        ],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["Do you have any food allergies?"],
+        "theySay": ["Yes, I’m allergic to nuts."],
+        "submitList": ["Allergic to nuts"]
+      },
+      {
+        "weSay": ["What meal would you like?"],
+        "theySay": ["A vegetarian dish."],
+        "submitList": ["Vegetarian meal"],
+        "pickingList": [
+          [
+            "Food allergy",
+            "Allergic to nuts",
+            "Gluten allergy",
+            "Dairy allergy",
+            "No allergies"
+          ],
+          [
+            "Meal preference",
+            "Vegetarian meal",
+            "Vegan meal",
+            "Gluten-free meal",
+            "Low-carb meal"
+          ]
+        ]
+      },
+      {
+        "weSay": ["When would you like the meal?"],
+        "theySay": ["For dinner at 7 PM"],
+        "submitList": ["At 7 PM"],
+        "pickingList": [
+          ["Meal timing", "At 6 PM", "At 8 PM", "For lunch at 12 PM"]
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": ["I want to book a room, please."],
+        "submitList": [
+          "Guest Support-Booking (Room and additional services)-Book room"
+        ],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["What type of room would you like?"],
+        "theySay": ["A double room."],
+        "submitList": ["Double room"]
+      },
+      {
+        "weSay": ["How many nights will you stay?"],
+        "theySay": ["Three nights."],
+        "submitList": ["Three nights"],
+        "pickingList": [
+          ["Room type", "Double room", "Single room", "Family room", "Suite"],
+          [
+            "Stay duration",
+            "One night",
+            "Two nights",
+            "Four nights",
+            "Five nights"
+          ]
+        ]
+      },
+      {
+        "weSay": ["Would you like breakfast included?"],
+        "theySay": ["Yes, please."],
+        "submitList": ["Breakfast included"],
+        "pickingList": [
+          [
+            "Breakfast option",
+            "Breakfast included",
+            "No breakfast",
+            "Only coffee"
+          ]
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": ["I want to check in"],
+        "submitList": [
+          "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+        ],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["Do you have a reservation?"],
+        "theySay": ["Yes, I do."],
+        "submitList": ["Reservation"]
+      },
+      {
+        "weSay": ["Can I have your ID, please?"],
+        "theySay": ["Here it is."],
+        "submitList": ["ID"],
+        "pickingList": [
+          [
+            "Reservation status",
+            "Reservation",
+            "No reservation",
+            "Confirmed reservation",
+            "Pending reservation"
+          ],
+          [
+            "Identification",
+            "ID",
+            "Passport",
+            "Driver’s license",
+            "Travel card"
+          ]
+        ]
+      },
+      {
+        "weSay": ["Would you like assistance with your luggage?"],
+        "theySay": ["Yes, please."],
+        "submitList": ["Luggage assistance"],
+        "pickingList": [
+          [
+            "Luggage service",
+            "Luggage assistance",
+            "No assistance",
+            "Self-service"
+          ]
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": ["I want to send or receive luggage."],
+        "submitList": ["Guest Support-Luggage storage-Send/receive luggage"],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["How many bags do you have?"],
+        "theySay": ["Two bags."],
+        "submitList": ["Two bags"]
+      },
+      {
+        "weSay": ["When do you need them sent?"],
+        "theySay": ["Tomorrow morning"],
+        "submitList": ["Tomorrow morning"],
+        "pickingList": [
+          ["Bag count", "Two bags", "Three bags", "One bag", "Four bags"],
+          [
+            "Bag delivery time",
+            "This afternoon",
+            "Tomorrow afternoon",
+            "Tomorrow night"
+          ]
+        ]
+      },
+      {
+        "weSay": ["Do you need help carrying them?"],
+        "theySay": ["Yes, please."],
+        "submitList": ["Help carrying bags"],
+        "pickingList": [
+          ["Bag assistance", "Help carrying bags", "No help", "Self-carrying"]
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": ["I want to book a tour, please."],
+        "submitList": ["Guest Support-Travel and tour assistance-Book tour"],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["Which tour would you like?"],
+        "theySay": ["The city tour."],
+        "submitList": ["City tour"]
+      },
+      {
+        "weSay": ["How many people are in your group?"],
+        "theySay": ["Four people."],
+        "submitList": ["Four people"],
+        "pickingList": [
+          [
+            "Tour selection",
+            "City tour",
+            "Beach tour",
+            "Mountain tour",
+            "Shopping tour"
+          ],
+          [
+            "Group size",
+            "Two people",
+            "Three people",
+            "Five people",
+            "Six people"
+          ]
+        ]
+      },
+      {
+        "weSay": ["What day would you like the tour?"],
+        "theySay": ["On Friday."],
+        "submitList": ["On Friday"],
+        "pickingList": [["Tour day", "On Saturday", "On Thursday", "On Monday"]]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": ["I want to exchange currency, please."],
+        "submitList": ["Guest Support-Currency exchange-Currency exchange"],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["What currency do you have?"],
+        "theySay": ["US dollars."],
+        "submitList": ["US dollars"]
+      },
+      {
+        "weSay": ["How much would you like to exchange?"],
+        "theySay": ["100 dollars."],
+        "submitList": ["100 dollars"],
+        "pickingList": [
+          ["Currency", "US dollars", "Euros", "Pounds", "Yen"],
+          [
+            "Exchange amount",
+            "50 dollars",
+            "200 dollars",
+            "500 dollars",
+            "1,000 dollars"
+          ]
+        ]
+      },
+      {
+        "weSay": ["Do you need small bills?"],
+        "theySay": ["Yes, please."],
+        "submitList": ["Small bills"],
+        "pickingList": [
+          [
+            "Bill size",
+            "Small bills",
+            "Large bills",
+            "Mixed bills",
+            "No change"
+          ]
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": ["I want to report a lost item."],
+        "submitList": ["Guest Support-Lost and found service-Report lost item"],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["What did you lose?"],
+        "theySay": ["My phone."],
+        "submitList": ["Phone"]
+      },
+      {
+        "weSay": ["When did you last see it?"],
+        "theySay": ["This morning."],
+        "submitList": ["This morning"],
+        "pickingList": [
+          ["Lost item", "Phone", "Wallet", "Bag", "Keys"],
+          ["Time seen last", "This afternoon", "Last night", "Yesterday"]
+        ]
+      },
+      {
+        "weSay": ["Where were you when you lost it?"],
+        "theySay": ["In the lobby."],
+        "submitList": ["In the lobby"],
+        "pickingList": [
+          ["Location lost", "In the room", "In the restaurant", "In the pool"]
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": ["I need help from the front desk."],
+        "submitList": [
+          "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+        ],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["What can we help you with?"],
+        "theySay": ["I need some extra pillows."],
+        "submitList": ["Extra pillows"]
+      },
+      {
+        "weSay": ["Do you need any other assistance?"],
+        "theySay": ["No, just the pillows."],
+        "submitList": ["No assistance"],
+        "pickingList": [
+          ["Extra item", "Extra pillows", "Blanket", "Towel", "Sheets"],
+          [
+            "Additional assistance",
+            "No assistance",
+            "Extra assistance",
+            "Extra towel",
+            "Extra blanket"
+          ]
+        ]
+      },
+      {
+        "weSay": ["What room number are you in?"],
+        "theySay": ["Room 301."],
+        "submitList": ["Room 301"],
+        "pickingList": [["Room number", "Room 302", "Room 305", "Room 308"]]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": ["I want to book a gym session."],
+        "submitList": [
+          "Wellness & Leisure-Gym/Fitness center-Book gym session"
+        ],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["What time would you like to use the gym?"],
+        "theySay": ["At 5 PM."],
+        "submitList": ["At 5 PM"]
+      },
+      {
+        "weSay": ["Will you need a personal trainer?"],
+        "theySay": ["No, I don’t."],
+        "submitList": ["No trainer"],
+        "pickingList": [
+          ["Gym time", "At 5 PM", "At 6 PM", "At 4 PM", "At 7 PM"],
+          [
+            "Trainer service",
+            "No trainer",
+            "Trainer needed",
+            "One session",
+            "Two sessions"
+          ]
+        ]
+      },
+      {
+        "weSay": ["For how many hours?"],
+        "theySay": ["For one hour."],
+        "submitList": ["One hour"],
+        "pickingList": [
+          ["Gym duration", "Two hours", "Half an hour", "Three hours"]
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": ["I want to book a massage session."],
+        "submitList": ["Wellness & Leisure-Spa & massage-Book massage session"],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["What type of massage would you like?"],
+        "theySay": ["A full body massage."],
+        "submitList": ["Full body massage"]
+      },
+      {
+        "weSay": ["When would you like the session?"],
+        "theySay": ["At 4 PM."],
+        "submitList": ["At 4 PM"],
+        "pickingList": [
+          [
+            "Massage type",
+            "Full body massage",
+            "Head massage",
+            "Foot massage",
+            "Deep tissue massage"
+          ],
+          ["Massage time", "At 5 PM", "At 6 PM", "At 3 PM"]
+        ]
+      },
+      {
+        "weSay": ["Would you like any additional treatments?"],
+        "theySay": ["No, just the massage."],
+        "submitList": ["No additional treatments"],
+        "pickingList": [
+          [
+            "Additional treatment",
+            "No treatments",
+            "Additional facial",
+            "Foot treatment"
+          ]
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": ["I want to book a pool session."],
+        "submitList": ["Wellness & Leisure-Swimming pool-Book pool session"],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["What time do you want to swim?"],
+        "theySay": ["At 3 PM."],
+        "submitList": ["At 3 PM"]
+      },
+      {
+        "weSay": ["Do you need towels provided?"],
+        "theySay": ["Yes, please."],
+        "submitList": ["Towels provided"],
+        "pickingList": [
+          ["Swim time", "At 3 PM", "At 4 PM", "At 2 PM", "At 5 PM"],
+          [
+            "Towels",
+            "Towels provided",
+            "No towels",
+            "Extra towels",
+            "Fresh towels"
+          ]
+        ]
+      },
+      {
+        "weSay": ["How long will you swim?"],
+        "theySay": ["For two hours."],
+        "submitList": ["Two hours"],
+        "pickingList": [
+          ["Swim duration", "One hour", "Three hours", "30 minutes"]
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": ["I want to book a sauna session."],
+        "submitList": ["Wellness & Leisure-Sauna-Book sauna session"],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["When would you like to use the sauna?"],
+        "theySay": ["At 6 PM."],
+        "submitList": ["At 6 PM"]
+      },
+      {
+        "weSay": ["For how long?"],
+        "theySay": ["For 30 minutes."],
+        "submitList": ["30 minutes"],
+        "pickingList": [
+          ["Sauna time", "At 6 PM", "At 7 PM", "At 5 PM", "At 8 PM"],
+          [
+            "Sauna duration",
+            "15 minutes",
+            "One hour",
+            "45 minutes",
+            "20 minutes"
+          ]
+        ]
+      },
+      {
+        "weSay": ["Would you like a private session?"],
+        "theySay": ["Yes, please."],
+        "submitList": ["Private session"],
+        "pickingList": [
+          ["Sauna type", "Private session", "Public session", "VIP session"]
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": ["I want to book a court for tennis."],
+        "submitList": [
+          "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+        ],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["When would you like to book the court?"],
+        "theySay": ["Tomorrow morning."],
+        "submitList": ["Tomorrow morning"]
+      },
+      {
+        "weSay": ["For how many players?"],
+        "theySay": ["Two players."],
+        "submitList": ["Two players"],
+        "pickingList": [
+          [
+            "Booking time",
+            "Tomorrow morning",
+            "Tomorrow afternoon",
+            "Next day",
+            "This evening"
+          ],
+          [
+            "Players count",
+            "Two players",
+            "Three players",
+            "Four players",
+            "One player"
+          ]
+        ]
+      },
+      {
+        "weSay": ["Do you need tennis rackets?"],
+        "theySay": ["Yes, please."],
+        "submitList": ["Tennis rackets"],
+        "pickingList": [
+          [
+            "Equipment",
+            "Tennis rackets",
+            "No rackets",
+            "Own rackets",
+            "Rental rackets"
+          ]
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": ["I want to book a personal trainer session."],
+        "submitList": [
+          "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+        ],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["What time would you like the session?"],
+        "theySay": ["At 7 AM."],
+        "submitList": ["At 7 AM"]
+      },
+      {
+        "weSay": ["What type of training do you need?"],
+        "theySay": ["Weight training."],
+        "submitList": ["Weight training"],
+        "pickingList": [
+          ["Session time", "At 7 AM", "At 8 AM", "At 6 AM", "At 9 AM"],
+          ["Training type", "Weight training", "Cardio", "Yoga", "Pilates"]
+        ]
+      },
+      {
+        "weSay": ["How long is the session?"],
+        "theySay": ["One hour."],
+        "submitList": ["One hour"],
+        "pickingList": [
+          [
+            "Session duration",
+            "Two hours",
+            "Half an hour",
+            "90 minutes",
+            "45 minutes"
+          ]
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": ["I want to book a meeting room, please."],
+        "submitList": ["Business Services-Meeting rooms-Book meeting room"],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["What day do you need the room?"],
+        "theySay": ["On Monday."],
+        "submitList": ["Monday"]
+      },
+      {
+        "weSay": ["For how many people?"],
+        "theySay": ["For 10 people."],
+        "submitList": ["Ten people"],
+        "pickingList": [
+          ["Room booking day", "Monday", "Tuesday", "Wednesday", "Thursday"],
+          [
+            "Group size",
+            "Ten people",
+            "Five people",
+            "Fifteen people",
+            "Eight people"
+          ]
+        ]
+      },
+      {
+        "weSay": ["Will you need any equipment?"],
+        "theySay": ["Yes, a projector."],
+        "submitList": ["Projector"],
+        "pickingList": [
+          ["Equipment", "Projector", "Screen", "Speakers", "Microphone"]
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": ["I want to book a conference room."],
+        "submitList": [
+          "Business Services-Conference facilities-Book conference room"
+        ],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["How many people will attend?"],
+        "theySay": ["50 people."],
+        "submitList": ["Fifty people"]
+      },
+      {
+        "weSay": ["What day will the conference be?"],
+        "theySay": ["Next Friday."],
+        "submitList": ["Next Friday"],
+        "pickingList": [
+          [
+            "Attendees count",
+            "50 people",
+            "40 people",
+            "60 people",
+            "70 people"
+          ],
+          ["Conference day", "This Friday", "Next Saturday", "Next Monday"]
+        ]
+      },
+      {
+        "weSay": ["Do you need catering services?"],
+        "theySay": ["Yes, please."],
+        "submitList": ["Catering service"],
+        "pickingList": [
+          [
+            "Catering",
+            "Catering service",
+            "No catering",
+            "Light refreshments",
+            "Full meal"
+          ]
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": ["I need to send a fax."],
+        "submitList": [
+          "Business Services-Printing & fax services-Request printing or fax"
+        ],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["What document do you need to fax?"],
+        "theySay": ["A contract."],
+        "submitList": ["Contract"]
+      },
+      {
+        "weSay": ["Where would you like to send it?"],
+        "theySay": ["To London."],
+        "submitList": ["London"],
+        "pickingList": [
+          ["Document type", "Contract", "Report", "Invoice", "Letter"],
+          ["Destination", "To Paris", "To New York", "To Tokyo", "To Sydney"]
+        ]
+      },
+      {
+        "weSay": ["Do you need a printed receipt?"],
+        "theySay": ["Yes, please."],
+        "submitList": ["Printed receipt"],
+        "pickingList": [
+          [
+            "Receipt",
+            "Printed receipt",
+            "No receipt",
+            "Electronic receipt",
+            "Copy"
+          ]
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": ["Can I have the Wi-Fi password, please?"],
+        "submitList": ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["What room are you in?"],
+        "theySay": ["Room 202."],
+        "submitList": ["Room 202"]
+      },
+      {
+        "weSay": ["Would you like assistance connecting?"],
+        "theySay": ["No, I’m fine."],
+        "submitList": ["No assistance"],
+        "pickingList": [
+          ["Room number", "Room 202", "Room 203", "Room 204", "Room 205"],
+          [
+            "Connection assistance",
+            "No assistance",
+            "Technical assistance",
+            "Connection service",
+            "Help needed"
+          ]
+        ]
+      },
+      {
+        "weSay": ["Is there anything else you need?"],
+        "theySay": ["No, thank you."],
+        "submitList": ["No other needs"],
+        "pickingList": [
+          [
+            "Assistance",
+            "No other needs",
+            "Additional assistance",
+            "Help needed"
+          ]
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": ["Can you help me with the Wi-Fi connection?"],
+        "submitList": [
+          "Business Services-Wi-Fi access-Request connection support"
+        ],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["What device are you using?"],
+        "theySay": ["My laptop."],
+        "submitList": ["Laptop"]
+      },
+      {
+        "weSay": ["Can you see the Wi-Fi network?"],
+        "theySay": ["No, I can’t."],
+        "submitList": ["No Wi-Fi"],
+        "pickingList": [
+          ["Device type", "Laptop", "Phone", "Tablet", "Desktop"],
+          [
+            "Wi-Fi connection",
+            "No Wi-Fi",
+            "Slow connection",
+            "Limited access",
+            "Full access"
+          ]
+        ]
+      },
+      {
+        "weSay": ["Would you like me to come to your room?"],
+        "theySay": ["Yes, please."],
+        "submitList": ["Room assistance"],
+        "pickingList": [
+          [
+            "On-site help",
+            "Room assistance",
+            "No room assistance",
+            "Visit required",
+            "Remote help"
+          ]
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": ["I need office supplies, please."],
+        "submitList": [
+          "Business Services-Office supplies-Request office supplies"
+        ],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["What do you need?"],
+        "theySay": ["Some paper and pens."],
+        "submitList": ["Paper and pens"]
+      },
+      {
+        "weSay": ["How much paper do you need?"],
+        "theySay": ["Just 20 sheets."],
+        "submitList": ["20 sheets"],
+        "pickingList": [
+          [
+            "Supplies needed",
+            "Paper and pens",
+            "Notebooks",
+            "Markers",
+            "Sticky notes"
+          ],
+          [
+            "Paper quantity",
+            "10 sheets",
+            "50 sheets",
+            "30 sheets",
+            "100 sheets"
+          ]
+        ]
+      },
+      {
+        "weSay": ["Do you need anything else?"],
+        "theySay": ["No, that’s all."],
+        "submitList": ["No other supplies"],
+        "pickingList": [
+          [
+            "Supplies needed",
+            "No other supplies",
+            "Extra pens",
+            "Extra paper",
+            "Markers"
+          ]
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": ["I want to book the business center."],
+        "submitList": [
+          "Business Services-Business center services (e.g., secretarial services)-Book business center"
+        ],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["What time do you need it?"],
+        "theySay": ["At 9 AM."],
+        "submitList": ["At 9 AM"]
+      },
+      {
+        "weSay": ["For how many hours?"],
+        "theySay": ["Two hours."],
+        "submitList": ["Two hours"],
+        "pickingList": [
+          ["Service time", "At 9 AM", "At 10 AM", "At 8 AM", "At 11 AM"],
+          [
+            "Service duration",
+            "One hour",
+            "Three hours",
+            "Four hours",
+            "90 minutes"
+          ]
+        ]
+      },
+      {
+        "weSay": ["Will you need printing services?"],
+        "theySay": ["Yes, please."],
+        "submitList": ["Printing service"],
+        "pickingList": [
+          [
+            "Additional service",
+            "Printing service",
+            "No printing",
+            "Scanning service",
+            "Faxing service"
+          ]
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": ["I want to book an airport shuttle, please."],
+        "submitList": [
+          "Transport & Parking-Airport shuttle-Book airport shuttle"
+        ],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["When is your flight?"],
+        "theySay": ["At 10 AM."],
+        "submitList": ["At 10 AM"]
+      },
+      {
+        "weSay": ["How many passengers?"],
+        "theySay": ["Two people."],
+        "submitList": ["Two passengers"],
+        "pickingList": [
+          ["Flight time", "At 10 AM", "At 9 AM", "At 11 AM", "At 8 AM"],
+          [
+            "Passenger count",
+            "One passenger",
+            "Three passengers",
+            "Four passengers"
+          ]
+        ]
+      },
+      {
+        "weSay": ["Do you need help with your luggage?"],
+        "theySay": ["Yes, please."],
+        "submitList": ["Luggage assistance"],
+        "pickingList": [
+          [
+            "Luggage help",
+            "Luggage assistance",
+            "No assistance",
+            "Self-service"
+          ]
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": ["I need valet parking, please."],
+        "submitList": [
+          "Transport & Parking-Valet parking-Request valet parking"
+        ],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["What is your car make?"],
+        "theySay": ["A Honda."],
+        "submitList": ["Honda"]
+      },
+      {
+        "weSay": ["Will you need your car soon?"],
+        "theySay": ["Yes, in two hours."],
+        "submitList": ["Two hours"],
+        "pickingList": [
+          ["Car make", "Honda", "Toyota", "Ford", "BMW"],
+          [
+            "Car usage time",
+            "One hour",
+            "Three hours",
+            "Four hours",
+            "Immediately"
+          ]
+        ]
+      },
+      {
+        "weSay": ["Do you need anything else?"],
+        "theySay": ["No, thank you."],
+        "submitList": ["No other needs"],
+        "pickingList": [
+          [
+            "Assistance",
+            "No other needs",
+            "Additional service",
+            "Fuel refill",
+            "Car wash"
+          ]
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": ["I want to book a taxi, please."],
+        "submitList": ["Transport & Parking-Taxi booking-Book taxi"],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["Where are you going?"],
+        "theySay": ["To the airport."],
+        "submitList": ["Airport"]
+      },
+      {
+        "weSay": ["What time do you need the taxi?"],
+        "theySay": ["At 5 PM."],
+        "submitList": ["At 5 PM"],
+        "pickingList": [
+          ["Destination", "Airport", "Train station", "Bus station", "Hotel"],
+          ["Taxi time", "At 4 PM", "At 6 PM", "At 5:30 PM"]
+        ]
+      },
+      {
+        "weSay": ["How many people?"],
+        "theySay": ["Just one."],
+        "submitList": ["One passenger"],
+        "pickingList": [
+          [
+            "Passenger count",
+            "Two passengers",
+            "Three passengers",
+            "Four passengers"
+          ]
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": ["I want to rent a car, please."],
+        "submitList": ["Transport & Parking-Car rental-Book car rental"],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["What type of car would you like?"],
+        "theySay": ["A sedan."],
+        "submitList": ["Sedan"]
+      },
+      {
+        "weSay": ["For how many days?"],
+        "theySay": ["For three days."],
+        "submitList": ["Three days"],
+        "pickingList": [
+          ["Car type", "Sedan", "SUV", "Coupe", "Hatchback"],
+          ["Rental duration", "One day", "Two days", "Four days", "Five days"]
+        ]
+      },
+      {
+        "weSay": ["Will you need GPS?"],
+        "theySay": ["Yes, please."],
+        "submitList": ["GPS"],
+        "pickingList": [["Equipment", "GPS", "No GPS", "Bluetooth", "Charger"]]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": [
+          "I want to reserve a charging station for my electric car."
+        ],
+        "submitList": [
+          "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+        ],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["When do you need the charging station?"],
+        "theySay": ["Tomorrow morning."],
+        "submitList": ["Tomorrow morning"]
+      },
+      {
+        "weSay": ["For how long?"],
+        "theySay": ["For one hour."],
+        "submitList": ["One hour"],
+        "pickingList": [
+          [
+            "Charging time",
+            "Tomorrow morning",
+            "This afternoon",
+            "Tomorrow evening",
+            "Tonight"
+          ],
+          [
+            "Charging duration",
+            "Two hours",
+            "Half an hour",
+            "Three hours",
+            "45 minutes"
+          ]
+        ]
+      },
+      {
+        "weSay": ["Will you need assistance plugging in?"],
+        "theySay": ["No, I’m fine."],
+        "submitList": ["No assistance"],
+        "pickingList": [
+          [
+            "Charging assistance",
+            "No assistance",
+            "Help needed",
+            "Technical support"
+          ]
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": ["I want to rent a bicycle, please."],
+        "submitList": ["Transport & Parking-Bicycle rental-Rent bicycle"],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["For how long do you need the bicycle?"],
+        "theySay": ["For two hours."],
+        "submitList": ["Two hours"]
+      },
+      {
+        "weSay": ["Do you need a helmet?"],
+        "theySay": ["Yes, please."],
+        "submitList": ["Helmet"],
+        "pickingList": [
+          [
+            "Rental duration",
+            "Two hours",
+            "One hour",
+            "Three hours",
+            "Half an hour"
+          ],
+          [
+            "Safety gear",
+            "Helmet",
+            "No helmet",
+            "Extra helmet",
+            "Protective gear"
+          ]
+        ]
+      },
+      {
+        "weSay": ["Will you need a bike lock?"],
+        "theySay": ["Yes, please."],
+        "submitList": ["Bike lock"],
+        "pickingList": [
+          [
+            "Security item",
+            "Bike lock",
+            "No lock",
+            "Extra lock",
+            "Personal lock"
+          ]
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": ["I want to book a banquet hall, please."],
+        "submitList": ["Event Services-Banquet halls-Book banquet hall"],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["What date is the event?"],
+        "theySay": ["On July 15th."],
+        "submitList": ["July 15th"]
+      },
+      {
+        "weSay": ["How many guests are expected?"],
+        "theySay": ["100 guests."],
+        "submitList": ["100 guests"],
+        "pickingList": [
+          ["Event date", "July 15th", "July 16th", "July 14th", "July 20th"],
+          ["Guest count", "50 guests", "150 guests", "75 guests", "200 guests"]
+        ]
+      },
+      {
+        "weSay": ["Will you need audio-visual equipment?"],
+        "theySay": ["Yes, please."],
+        "submitList": ["AV equipment"],
+        "pickingList": [
+          ["Event equipment", "Projector", "Microphone", "Speakers", "Lighting"]
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": ["I want to request catering services, please."],
+        "submitList": ["Event Services-Catering-Request catering service"],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["What type of food would you like?"],
+        "theySay": ["Asian cuisine."],
+        "submitList": ["Asian cuisine"]
+      },
+      {
+        "weSay": ["How many people will be served?"],
+        "theySay": ["50 people."],
+        "submitList": ["50 people"],
+        "pickingList": [
+          [
+            "Cuisine type",
+            "Asian cuisine",
+            "Italian cuisine",
+            "French cuisine",
+            "Mexican cuisine"
+          ],
+          ["Guest count", "30 people", "40 people", "60 people", "70 people"]
+        ]
+      },
+      {
+        "weSay": ["Do you need drinks included?"],
+        "theySay": ["Yes, please."],
+        "submitList": ["Drinks included"],
+        "pickingList": [
+          [
+            "Beverage service",
+            "Drinks included",
+            "No drinks",
+            "Alcohol only",
+            "Soft drinks"
+          ]
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": ["I want to book a wedding planning service."],
+        "submitList": [
+          "Event Services-Wedding planning-Book wedding planning service"
+        ],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["When is the wedding date?"],
+        "theySay": ["In December."],
+        "submitList": ["December"]
+      },
+      {
+        "weSay": ["How many guests?"],
+        "theySay": ["150 guests."],
+        "submitList": ["150 guests"],
+        "pickingList": [
+          ["Wedding date", "December", "November", "January", "October"],
+          [
+            "Guest count",
+            "100 guests",
+            "200 guests",
+            "250 guests",
+            "300 guests"
+          ]
+        ]
+      },
+      {
+        "weSay": ["Will you need floral arrangements?"],
+        "theySay": ["Yes, please."],
+        "submitList": ["Floral arrangements"],
+        "pickingList": [
+          [
+            "Wedding decoration",
+            "Floral arrangements",
+            "No flowers",
+            "Extra flowers",
+            "Minimal flowers"
+          ]
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": ["I want to book a corporate event, please."],
+        "submitList": [
+          "Event Services-Corporate event management-Book corporate event"
+        ],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["What is the event date?"],
+        "theySay": ["On November 20th."],
+        "submitList": ["November 20th"]
+      },
+      {
+        "weSay": ["How many attendees?"],
+        "theySay": ["200 attendees."],
+        "submitList": ["200 attendees"],
+        "pickingList": [
+          [
+            "Event date",
+            "November 20th",
+            "November 19th",
+            "November 21st",
+            "November 25th"
+          ],
+          [
+            "Attendee count",
+            "150 attendees",
+            "250 attendees",
+            "300 attendees",
+            "350 attendees"
+          ]
+        ]
+      },
+      {
+        "weSay": ["Do you need seating arrangements?"],
+        "theySay": ["Yes, please."],
+        "submitList": ["Seating arrangements"],
+        "pickingList": [
+          [
+            "Event setup",
+            "Seating arrangements",
+            "Standing event",
+            "Mixed seating",
+            "Special seating"
+          ]
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": ["I want to rent audio-visual equipment, please."],
+        "submitList": [
+          "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+        ],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["What equipment do you need?"],
+        "theySay": ["A projector and speakers."],
+        "submitList": ["Projector and speakers"]
+      },
+      {
+        "weSay": ["For how long?"],
+        "theySay": ["For two days."],
+        "submitList": ["Two days"],
+        "pickingList": [
+          [
+            "Event equipment",
+            "Projector",
+            "Speakers",
+            "Microphone",
+            "Lighting"
+          ],
+          [
+            "Equipment rental duration",
+            "One day",
+            "Three days",
+            "Four days",
+            "Five days"
+          ]
+        ]
+      },
+      {
+        "weSay": ["Do you need a technician?"],
+        "theySay": ["No, thank you."],
+        "submitList": ["No technician"],
+        "pickingList": [
+          [
+            "Technical support",
+            "No technician",
+            "Technician needed",
+            "On-call technician",
+            "Standby support"
+          ]
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": ["I want to give feedback about the service."],
+        "submitList": [
+          "Customer Relationship-Feedback collection-Provide feedback"
+        ],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["What would you like to comment on?"],
+        "theySay": ["The room cleaning service."],
+        "submitList": ["Room cleaning"]
+      },
+      {
+        "weSay": ["Were you satisfied with the service?"],
+        "theySay": ["Yes, I was."],
+        "submitList": ["Satisfied"],
+        "pickingList": [
+          [
+            "Service feedback",
+            "Room cleaning",
+            "Food service",
+            "Front desk",
+            "Laundry service"
+          ],
+          [
+            "Satisfaction",
+            "Satisfied",
+            "Not satisfied",
+            "Very satisfied",
+            "Needs improvement"
+          ]
+        ]
+      },
+      {
+        "weSay": ["Do you have any suggestions?"],
+        "theySay": ["No, everything was fine."],
+        "submitList": ["No suggestions"],
+        "pickingList": [
+          [
+            "Feedback",
+            "No suggestions",
+            "More frequent cleaning",
+            "Better food",
+            "Improved service"
+          ]
+        ]
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "weSay": ["How can I help you?"],
+        "theySay": ["I want to take part in the customer satisfaction survey."],
+        "submitList": [
+          "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+        ],
+        "notify": ["Tìm hiểu nhu cầu khách hàng"],
+        "tablePicking": [
+          [
+            ["Room Services-Cleaning-Request service"],
+            ["Room Services-Laundry-Request service"],
+            ["Room Services-In-room dining-Place order"],
+            [
+              "Room Services-Towel & linen change-Request towel or linen change"
+            ],
+            ["Room Services-Wake-up call-Schedule wake-up call"],
+            ["Dining Services-Restaurant-Reserve table"],
+            ["Dining Services-Bar/Café-Reserve bar/café seat"],
+            ["Dining Services-Buffet-Reserve buffet seat"],
+            [
+              "Dining Services-Special dietary options-Request special dietary meal"
+            ],
+            ["Guest Support-Booking (Room and additional services)-Book room"],
+            [
+              "Guest Support-Reception desk (Check-in/Check-out)-Request check-in/check-out"
+            ],
+            ["Guest Support-Luggage storage-Send/receive luggage"],
+            ["Guest Support-Travel and tour assistance-Book tour"],
+            ["Guest Support-Currency exchange-Currency exchange"],
+            ["Guest Support-Lost and found service-Report lost item"],
+            [
+              "Guest Support-24-hour front desk-Request 24-hour front desk assistance"
+            ],
+            ["Wellness & Leisure-Gym/Fitness center-Book gym session"],
+            ["Wellness & Leisure-Spa & massage-Book massage session"],
+            ["Wellness & Leisure-Swimming pool-Book pool session"],
+            ["Wellness & Leisure-Sauna-Book sauna session"],
+            [
+              "Wellness & Leisure-Sports facilities (e.g., tennis, yoga)-Book court"
+            ],
+            [
+              "Wellness & Leisure-Personal trainer services-Book personal trainer session"
+            ],
+            ["Business Services-Meeting rooms-Book meeting room"],
+            ["Business Services-Conference facilities-Book conference room"],
+            [
+              "Business Services-Printing & fax services-Request printing or fax"
+            ],
+            ["Business Services-Wi-Fi access-Request Wi-Fi password"],
+            ["Business Services-Wi-Fi access-Request connection support"],
+            ["Business Services-Office supplies-Request office supplies"],
+            [
+              "Business Services-Business center services (e.g., secretarial services)-Book business center"
+            ],
+            ["Transport & Parking-Airport shuttle-Book airport shuttle"],
+            ["Transport & Parking-Valet parking-Request valet parking"],
+            ["Transport & Parking-Taxi booking-Book taxi"],
+            ["Transport & Parking-Car rental-Book car rental"],
+            [
+              "Transport & Parking-Electric vehicle charging stations-Reserve electric vehicle charging station"
+            ],
+            ["Transport & Parking-Bicycle rental-Rent bicycle"],
+            ["Event Services-Banquet halls-Book banquet hall"],
+            ["Event Services-Catering-Request catering service"],
+            ["Event Services-Wedding planning-Book wedding planning service"],
+            ["Event Services-Corporate event management-Book corporate event"],
+            [
+              "Event Services-Audio-visual equipment rental-Rent audio-visual equipment"
+            ],
+            ["Customer Relationship-Feedback collection-Provide feedback"],
+            [
+              "Customer Relationship-Guest satisfaction surveys-Participate in customer satisfaction survey"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "weSay": ["How was your overall stay?"],
+        "theySay": ["It was very good."],
+        "submitList": ["Very good"]
+      },
+      {
+        "weSay": ["Was the staff helpful?"],
+        "theySay": ["Yes, they were."],
+        "submitList": ["Helpful staff"],
+        "pickingList": [
+          ["Overall satisfaction", "Very good", "Excellent", "Good", "Average"],
+          [
+            "Staff feedback",
+            "Helpful staff",
+            "Unhelpful staff",
+            "Polite staff",
+            "Rude staff"
+          ]
+        ]
+      },
+      {
+        "weSay": ["Would you stay with us again?"],
+        "theySay": ["Yes, I would."],
+        "submitList": ["Returning guest"],
+        "pickingList": [["Future plans", "Yes", "No", "Maybe", "Unsure"]]
+      }
+    ]
+  ]
+]

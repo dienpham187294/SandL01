@@ -36,7 +36,17 @@ export default function Header({ sttRoom, STTconnectFN }) {
     return null;
   }
   return (
-    <div>
+    <div
+      style={{
+        position: "fixed",
+        width: "100%",
+        height: "10vh",
+        bottom: 0,
+        borderTop: "1px solid black",
+        boxShadow: "0px -2px 10px rgba(0, 0, 0, 0.3)", // Thêm giá trị box-shadow
+        // scale: "0.8",
+      }}
+    >
       <div>
         <Navbar bg="light" expand="lg">
           <Navbar.Brand>
@@ -65,7 +75,7 @@ export default function Header({ sttRoom, STTconnectFN }) {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto">
+            {/* <Nav className="mr-auto">
               {returnDropdown(
                 "Giáo án giao tiếp",
                 pracEnSets,
@@ -104,7 +114,7 @@ export default function Header({ sttRoom, STTconnectFN }) {
                 { name: "name", link: "link" },
                 null
               )}
-            </Nav>
+            </Nav> */}
             {/* <Move /> */}
           </Navbar.Collapse>
         </Navbar>
@@ -115,7 +125,11 @@ export default function Header({ sttRoom, STTconnectFN }) {
 
 function returnDropdown(name, inputSets, keysSets, link) {
   return (
-    <NavDropdown title={name} id="basic-nav-dropdown">
+    <NavDropdown
+      title={name}
+      id="basic-nav-dropdown"
+      className="dropup" // Thêm lớp "dropup" để tạo drop-up
+    >
       {inputSets.map((e, i) =>
         (() => {
           const urlPath =

@@ -13,9 +13,10 @@ import ChatWidget from "./components/ChatWidget";
 import io from "socket.io-client";
 import initializeVoicesAndPlatform from "./ulti/initializeVoicesAndPlatform";
 import "bootstrap-icons/font/bootstrap-icons.css";
-
+import PracDiv from "./components/prac_componets/A1_Get_Test";
 import LinkAPI from "./ulti/T0_linkApi";
-
+// import PixiCanvas from "./components/PixiJS";
+import RootPrac from "./components/prac_componets/B1_RootPrac";
 const socket = io(LinkAPI, {
   transports: ["websocket", "polling", "flashsocket"],
 });
@@ -76,7 +77,6 @@ const App = () => {
       <ObjREADContext.Provider value={ObjREAD}>
         <Router>
           <div className="chat-app">
-            <Header sttRoom={sttRoom} STTconnectFN={STTconnectFN} />
             <ChatWidget />
             <Routes>
               <Route
@@ -88,19 +88,7 @@ const App = () => {
                 path="/roomoffline/:roomCode/:currentIndex"
                 element={<RoomOffline setSttRoom={setSttRoom} />}
               />
-              <Route
-                path="/"
-                element={
-                  <Lobby
-                    STTconnectFN={STTconnectFN}
-                    setSttRoom={setSttRoom}
-                    fileName={"elementary-a1-lesson-plan"}
-                    objList={[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
-                    objListDefault={[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
-                    custom={false}
-                  />
-                }
-              />
+              <Route path="/" element={<PracDiv />} />
               <Route path="/noexist" element={<NotExist />} />
               <Route
                 path="/learninghub/:id"
@@ -126,6 +114,7 @@ const App = () => {
                 }
               />
             </Routes>
+            <Header sttRoom={sttRoom} STTconnectFN={STTconnectFN} />
           </div>
         </Router>
       </ObjREADContext.Provider>
@@ -135,3 +124,12 @@ const App = () => {
 
 export default App;
 export { socket };
+
+// <Lobby
+// STTconnectFN={STTconnectFN}
+// setSttRoom={setSttRoom}
+// fileName={"elementary-a1-lesson-plan"}
+// objList={[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
+// objListDefault={[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
+// custom={false}
+// />
