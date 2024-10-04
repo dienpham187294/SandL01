@@ -372,6 +372,7 @@ function Test() {
                 />
               ) : null}
             </div>
+            {JSON.stringify(SubmitSets)}
             <h1 className="divFlexH1">Thông tin</h1>
           </div>
         </div>

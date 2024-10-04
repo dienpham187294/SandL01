@@ -130,12 +130,7 @@
       {
         "weSay": ["What type of room would you like?"],
         "theySay": ["A double room."],
-        "submitList": ["Double room"]
-      },
-      {
-        "weSay": ["How many nights will you stay?"],
-        "theySay": ["Three nights."],
-        "submitList": ["Three nights"],
+        "submitList": ["Double room"],
         "pickingList": [
           [
             "What type of room would you like?",
@@ -145,7 +140,14 @@
             "Family room",
             "Suite",
             "Double room"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["How many nights will you stay?"],
+        "theySay": ["Three nights."],
+        "submitList": ["Three nights"],
+        "pickingList": [
           [
             "How many nights will you stay?",
             "Stay duration",
@@ -305,12 +307,7 @@
       {
         "weSay": ["Do you have a reservation?"],
         "theySay": ["Yes, I do."],
-        "submitList": ["Reservation"]
-      },
-      {
-        "weSay": ["Can I have your ID, please?"],
-        "theySay": ["Here it is."],
-        "submitList": ["ID"],
+        "submitList": ["Reservation"],
         "pickingList": [
           [
             "Do you have a reservation?",
@@ -320,7 +317,14 @@
             "Confirmed reservation",
             "Pending reservation",
             "Reservation"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["Can I have your ID, please?"],
+        "theySay": ["Here it is."],
+        "submitList": ["ID"],
+        "pickingList": [
           [
             "Can I have your ID, please?",
             "Identification",
@@ -478,12 +482,7 @@
       {
         "weSay": ["How many bags do you have?"],
         "theySay": ["Two bags."],
-        "submitList": ["Two bags"]
-      },
-      {
-        "weSay": ["When do you need them sent?"],
-        "theySay": ["Tomorrow morning"],
-        "submitList": ["Tomorrow morning"],
+        "submitList": ["Two bags"],
         "pickingList": [
           [
             "How many bags do you have?",
@@ -493,7 +492,14 @@
             "One bag",
             "Four bags",
             "Two bags"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["When do you need them sent?"],
+        "theySay": ["Tomorrow morning"],
+        "submitList": ["Tomorrow morning"],
+        "pickingList": [
           [
             "When do you need them sent?",
             "Bag delivery time",
@@ -650,12 +656,7 @@
       {
         "weSay": ["Which tour would you like?"],
         "theySay": ["The city tour."],
-        "submitList": ["City tour"]
-      },
-      {
-        "weSay": ["How many people are in your group?"],
-        "theySay": ["Four people."],
-        "submitList": ["Four people"],
+        "submitList": ["City tour"],
         "pickingList": [
           [
             "Which tour would you like?",
@@ -665,7 +666,14 @@
             "Mountain tour",
             "Shopping tour",
             "City tour"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["How many people are in your group?"],
+        "theySay": ["Four people."],
+        "submitList": ["Four people"],
+        "pickingList": [
           [
             "How many people are in your group?",
             "Group size",
@@ -823,12 +831,7 @@
       {
         "weSay": ["What currency do you have?"],
         "theySay": ["US dollars."],
-        "submitList": ["US dollars"]
-      },
-      {
-        "weSay": ["How much would you like to exchange?"],
-        "theySay": ["100 dollars."],
-        "submitList": ["100 dollars"],
+        "submitList": ["US dollars"],
         "pickingList": [
           [
             "What currency do you have?",
@@ -838,7 +841,14 @@
             "Pounds",
             "Yen",
             "US dollars"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["How much would you like to exchange?"],
+        "theySay": ["100 dollars."],
+        "submitList": ["100 dollars"],
+        "pickingList": [
           [
             "How much would you like to exchange?",
             "Exchange amount",
@@ -997,12 +1007,7 @@
       {
         "weSay": ["What did you lose?"],
         "theySay": ["My phone."],
-        "submitList": ["Phone"]
-      },
-      {
-        "weSay": ["When did you last see it?"],
-        "theySay": ["This morning."],
-        "submitList": ["This morning"],
+        "submitList": ["Phone"],
         "pickingList": [
           [
             "What did you lose?",
@@ -1012,7 +1017,14 @@
             "Bag",
             "Keys",
             "Phone"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["When did you last see it?"],
+        "theySay": ["This morning."],
+        "submitList": ["This morning"],
+        "pickingList": [
           [
             "When did you last see it?",
             "Time seen last",
@@ -1171,12 +1183,7 @@
       {
         "weSay": ["What can we help you with?"],
         "theySay": ["I need some extra pillows."],
-        "submitList": ["Extra pillows"]
-      },
-      {
-        "weSay": ["Do you need any other assistance?"],
-        "theySay": ["No, just the pillows."],
-        "submitList": ["No assistance"],
+        "submitList": ["Extra pillows"],
         "pickingList": [
           [
             "What can we help you with?",
@@ -1186,7 +1193,14 @@
             "Towel",
             "Sheets",
             "Extra pillows"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["Do you need any other assistance?"],
+        "theySay": ["No, just the pillows."],
+        "submitList": ["No assistance"],
+        "pickingList": [
           [
             "Do you need any other assistance?",
             "Additional assistance",
@@ -1346,12 +1360,7 @@
       {
         "weSay": ["What time would you like to use the gym?"],
         "theySay": ["At 5 PM."],
-        "submitList": ["At 5 PM"]
-      },
-      {
-        "weSay": ["Will you need a personal trainer?"],
-        "theySay": ["No, I don’t."],
-        "submitList": ["No trainer"],
+        "submitList": ["At 5 PM"],
         "pickingList": [
           [
             "What time would you like to use the gym?",
@@ -1361,7 +1370,14 @@
             "At 4 PM",
             "At 7 PM",
             "At 5 PM"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["Will you need a personal trainer?"],
+        "theySay": ["No, I don’t."],
+        "submitList": ["No trainer"],
+        "pickingList": [
           [
             "Will you need a personal trainer?",
             "Trainer service",
@@ -1519,12 +1535,7 @@
       {
         "weSay": ["What type of massage would you like?"],
         "theySay": ["A full body massage."],
-        "submitList": ["Full body massage"]
-      },
-      {
-        "weSay": ["When would you like the session?"],
-        "theySay": ["At 4 PM."],
-        "submitList": ["At 4 PM"],
+        "submitList": ["Full body massage"],
         "pickingList": [
           [
             "What type of massage would you like?",
@@ -1534,7 +1545,14 @@
             "Foot massage",
             "Deep tissue massage",
             "Full body massage"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["When would you like the session?"],
+        "theySay": ["At 4 PM."],
+        "submitList": ["At 4 PM"],
+        "pickingList": [
           [
             "When would you like the session?",
             "Massage time",
@@ -1691,12 +1709,7 @@
       {
         "weSay": ["What time do you want to swim?"],
         "theySay": ["At 3 PM."],
-        "submitList": ["At 3 PM"]
-      },
-      {
-        "weSay": ["Do you need towels provided?"],
-        "theySay": ["Yes, please."],
-        "submitList": ["Towels provided"],
+        "submitList": ["At 3 PM"],
         "pickingList": [
           [
             "What time do you want to swim?",
@@ -1706,7 +1719,14 @@
             "At 2 PM",
             "At 5 PM",
             "At 3 PM"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["Do you need towels provided?"],
+        "theySay": ["Yes, please."],
+        "submitList": ["Towels provided"],
+        "pickingList": [
           [
             "Do you need towels provided?",
             "Towels",
@@ -1864,12 +1884,7 @@
       {
         "weSay": ["When would you like to use the sauna?"],
         "theySay": ["At 6 PM."],
-        "submitList": ["At 6 PM"]
-      },
-      {
-        "weSay": ["For how long?"],
-        "theySay": ["For 30 minutes."],
-        "submitList": ["30 minutes"],
+        "submitList": ["At 6 PM"],
         "pickingList": [
           [
             "When would you like to use the sauna?",
@@ -1879,7 +1894,14 @@
             "At 5 PM",
             "At 8 PM",
             "At 6 PM"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["For how long?"],
+        "theySay": ["For 30 minutes."],
+        "submitList": ["30 minutes"],
+        "pickingList": [
           [
             "For how long?",
             "Sauna duration",
@@ -2039,12 +2061,7 @@
       {
         "weSay": ["When would you like to book the court?"],
         "theySay": ["Tomorrow morning."],
-        "submitList": ["Tomorrow morning"]
-      },
-      {
-        "weSay": ["For how many players?"],
-        "theySay": ["Two players."],
-        "submitList": ["Two players"],
+        "submitList": ["Tomorrow morning"],
         "pickingList": [
           [
             "When would you like to book the court?",
@@ -2054,7 +2071,14 @@
             "Next day",
             "This evening",
             "Tomorrow morning"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["For how many players?"],
+        "theySay": ["Two players."],
+        "submitList": ["Two players"],
+        "pickingList": [
           [
             "For how many players?",
             "Players count",
@@ -2215,12 +2239,7 @@
       {
         "weSay": ["What time would you like the session?"],
         "theySay": ["At 7 AM."],
-        "submitList": ["At 7 AM"]
-      },
-      {
-        "weSay": ["What type of training do you need?"],
-        "theySay": ["Weight training."],
-        "submitList": ["Weight training"],
+        "submitList": ["At 7 AM"],
         "pickingList": [
           [
             "What time would you like the session?",
@@ -2230,7 +2249,14 @@
             "At 6 AM",
             "At 9 AM",
             "At 7 AM"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["What type of training do you need?"],
+        "theySay": ["Weight training."],
+        "submitList": ["Weight training"],
+        "pickingList": [
           [
             "What type of training do you need?",
             "Training type",
@@ -2389,12 +2415,7 @@
       {
         "weSay": ["What day do you need the room?"],
         "theySay": ["On Monday."],
-        "submitList": ["Monday"]
-      },
-      {
-        "weSay": ["For how many people?"],
-        "theySay": ["For 10 people."],
-        "submitList": ["Ten people"],
+        "submitList": ["Monday"],
         "pickingList": [
           [
             "What day do you need the room?",
@@ -2404,7 +2425,14 @@
             "Wednesday",
             "Thursday",
             "Monday"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["For how many people?"],
+        "theySay": ["For 10 people."],
+        "submitList": ["Ten people"],
+        "pickingList": [
           [
             "For how many people?",
             "Group size",
@@ -2565,12 +2593,7 @@
       {
         "weSay": ["How many people will attend?"],
         "theySay": ["50 people."],
-        "submitList": ["Fifty people"]
-      },
-      {
-        "weSay": ["What day will the conference be?"],
-        "theySay": ["Next Friday."],
-        "submitList": ["Next Friday"],
+        "submitList": ["Fifty people"],
         "pickingList": [
           [
             "How many people will attend?",
@@ -2580,7 +2603,14 @@
             "60 people",
             "70 people",
             "Fifty people"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["What day will the conference be?"],
+        "theySay": ["Next Friday."],
+        "submitList": ["Next Friday"],
+        "pickingList": [
           [
             "What day will the conference be?",
             "Conference day",
@@ -2740,12 +2770,7 @@
       {
         "weSay": ["What document do you need to fax?"],
         "theySay": ["A contract."],
-        "submitList": ["Contract"]
-      },
-      {
-        "weSay": ["Where would you like to send it?"],
-        "theySay": ["To London."],
-        "submitList": ["London"],
+        "submitList": ["Contract"],
         "pickingList": [
           [
             "What document do you need to fax?",
@@ -2755,7 +2780,14 @@
             "Invoice",
             "Letter",
             "Contract"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["Where would you like to send it?"],
+        "theySay": ["To London."],
+        "submitList": ["London"],
+        "pickingList": [
           [
             "Where would you like to send it?",
             "Destination",
@@ -2914,12 +2946,7 @@
       {
         "weSay": ["What room are you in?"],
         "theySay": ["Room 202."],
-        "submitList": ["Room 202"]
-      },
-      {
-        "weSay": ["Would you like assistance connecting?"],
-        "theySay": ["No, I’m fine."],
-        "submitList": ["No assistance"],
+        "submitList": ["Room 202"],
         "pickingList": [
           [
             "What room are you in?",
@@ -2929,7 +2956,14 @@
             "Room 204",
             "Room 205",
             "Room 202"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["Would you like assistance connecting?"],
+        "theySay": ["No, I’m fine."],
+        "submitList": ["No assistance"],
+        "pickingList": [
           [
             "Would you like assistance connecting?",
             "Connection assistance",
@@ -3089,12 +3123,7 @@
       {
         "weSay": ["What device are you using?"],
         "theySay": ["My laptop."],
-        "submitList": ["Laptop"]
-      },
-      {
-        "weSay": ["Can you see the Wi-Fi network?"],
-        "theySay": ["No, I can’t."],
-        "submitList": ["No Wi-Fi"],
+        "submitList": ["Laptop"],
         "pickingList": [
           [
             "What device are you using?",
@@ -3104,7 +3133,14 @@
             "Tablet",
             "Desktop",
             "Laptop"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["Can you see the Wi-Fi network?"],
+        "theySay": ["No, I can’t."],
+        "submitList": ["No Wi-Fi"],
+        "pickingList": [
           [
             "Can you see the Wi-Fi network?",
             "Wi-Fi connection",
@@ -3265,12 +3301,7 @@
       {
         "weSay": ["What do you need?"],
         "theySay": ["Some paper and pens."],
-        "submitList": ["Paper and pens"]
-      },
-      {
-        "weSay": ["How much paper do you need?"],
-        "theySay": ["Just 20 sheets."],
-        "submitList": ["20 sheets"],
+        "submitList": ["Paper and pens"],
         "pickingList": [
           [
             "What do you need?",
@@ -3280,7 +3311,14 @@
             "Markers",
             "Sticky notes",
             "Paper and pens"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["How much paper do you need?"],
+        "theySay": ["Just 20 sheets."],
+        "submitList": ["20 sheets"],
+        "pickingList": [
           [
             "How much paper do you need?",
             "Paper quantity",
@@ -3441,12 +3479,7 @@
       {
         "weSay": ["What time do you need it?"],
         "theySay": ["At 9 AM."],
-        "submitList": ["At 9 AM"]
-      },
-      {
-        "weSay": ["For how many hours?"],
-        "theySay": ["Two hours."],
-        "submitList": ["Two hours"],
+        "submitList": ["At 9 AM"],
         "pickingList": [
           [
             "What time do you need it?",
@@ -3456,7 +3489,14 @@
             "At 8 AM",
             "At 11 AM",
             "At 9 AM"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["For how many hours?"],
+        "theySay": ["Two hours."],
+        "submitList": ["Two hours"],
+        "pickingList": [
           [
             "For how many hours?",
             "Service duration",
@@ -3617,12 +3657,7 @@
       {
         "weSay": ["When is your flight?"],
         "theySay": ["At 10 AM."],
-        "submitList": ["At 10 AM"]
-      },
-      {
-        "weSay": ["How many passengers?"],
-        "theySay": ["Two people."],
-        "submitList": ["Two passengers"],
+        "submitList": ["At 10 AM"],
         "pickingList": [
           [
             "When is your flight?",
@@ -3632,7 +3667,14 @@
             "At 11 AM",
             "At 8 AM",
             "At 10 AM"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["How many passengers?"],
+        "theySay": ["Two people."],
+        "submitList": ["Two passengers"],
+        "pickingList": [
           [
             "How many passengers?",
             "Passenger count",
@@ -3791,12 +3833,7 @@
       {
         "weSay": ["What is your car make?"],
         "theySay": ["A Honda."],
-        "submitList": ["Honda"]
-      },
-      {
-        "weSay": ["Will you need your car soon?"],
-        "theySay": ["Yes, in two hours."],
-        "submitList": ["Two hours"],
+        "submitList": ["Honda"],
         "pickingList": [
           [
             "What is your car make?",
@@ -3806,7 +3843,14 @@
             "Ford",
             "BMW",
             "Honda"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["Will you need your car soon?"],
+        "theySay": ["Yes, in two hours."],
+        "submitList": ["Two hours"],
+        "pickingList": [
           [
             "Will you need your car soon?",
             "Car usage time",
@@ -3965,12 +4009,7 @@
       {
         "weSay": ["Where are you going?"],
         "theySay": ["To the airport."],
-        "submitList": ["Airport"]
-      },
-      {
-        "weSay": ["What time do you need the taxi?"],
-        "theySay": ["At 5 PM."],
-        "submitList": ["At 5 PM"],
+        "submitList": ["Airport"],
         "pickingList": [
           [
             "Where are you going?",
@@ -3980,7 +4019,14 @@
             "Bus station",
             "Hotel",
             "Airport"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["What time do you need the taxi?"],
+        "theySay": ["At 5 PM."],
+        "submitList": ["At 5 PM"],
+        "pickingList": [
           [
             "What time do you need the taxi?",
             "Taxi time",
@@ -4137,12 +4183,7 @@
       {
         "weSay": ["What type of car would you like?"],
         "theySay": ["A sedan."],
-        "submitList": ["Sedan"]
-      },
-      {
-        "weSay": ["For how many days?"],
-        "theySay": ["For three days."],
-        "submitList": ["Three days"],
+        "submitList": ["Sedan"],
         "pickingList": [
           [
             "What type of car would you like?",
@@ -4152,7 +4193,14 @@
             "Coupe",
             "Hatchback",
             "Sedan"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["For how many days?"],
+        "theySay": ["For three days."],
+        "submitList": ["Three days"],
+        "pickingList": [
           [
             "For how many days?",
             "Rental duration",
@@ -4315,12 +4363,7 @@
       {
         "weSay": ["When do you need the charging station?"],
         "theySay": ["Tomorrow morning."],
-        "submitList": ["Tomorrow morning"]
-      },
-      {
-        "weSay": ["For how long?"],
-        "theySay": ["For one hour."],
-        "submitList": ["One hour"],
+        "submitList": ["Tomorrow morning"],
         "pickingList": [
           [
             "When do you need the charging station?",
@@ -4330,7 +4373,14 @@
             "Tomorrow evening",
             "Tonight",
             "Tomorrow morning"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["For how long?"],
+        "theySay": ["For one hour."],
+        "submitList": ["One hour"],
+        "pickingList": [
           [
             "For how long?",
             "Charging duration",
@@ -4488,12 +4538,7 @@
       {
         "weSay": ["For how long do you need the bicycle?"],
         "theySay": ["For two hours."],
-        "submitList": ["Two hours"]
-      },
-      {
-        "weSay": ["Do you need a helmet?"],
-        "theySay": ["Yes, please."],
-        "submitList": ["Helmet"],
+        "submitList": ["Two hours"],
         "pickingList": [
           [
             "For how long do you need the bicycle?",
@@ -4503,7 +4548,14 @@
             "Three hours",
             "Half an hour",
             "Two hours"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["Do you need a helmet?"],
+        "theySay": ["Yes, please."],
+        "submitList": ["Helmet"],
+        "pickingList": [
           [
             "Do you need a helmet?",
             "Safety gear",
@@ -4662,12 +4714,7 @@
       {
         "weSay": ["What date is the event?"],
         "theySay": ["On July 15th."],
-        "submitList": ["July 15th"]
-      },
-      {
-        "weSay": ["How many guests are expected?"],
-        "theySay": ["100 guests."],
-        "submitList": ["100 guests"],
+        "submitList": ["July 15th"],
         "pickingList": [
           [
             "What date is the event?",
@@ -4677,7 +4724,14 @@
             "July 14th",
             "July 20th",
             "July 15th"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["How many guests are expected?"],
+        "theySay": ["100 guests."],
+        "submitList": ["100 guests"],
+        "pickingList": [
           [
             "How many guests are expected?",
             "Guest count",
@@ -4836,12 +4890,7 @@
       {
         "weSay": ["What type of food would you like?"],
         "theySay": ["Asian cuisine."],
-        "submitList": ["Asian cuisine"]
-      },
-      {
-        "weSay": ["How many people will be served?"],
-        "theySay": ["50 people."],
-        "submitList": ["50 people"],
+        "submitList": ["Asian cuisine"],
         "pickingList": [
           [
             "What type of food would you like?",
@@ -4851,7 +4900,14 @@
             "French cuisine",
             "Mexican cuisine",
             "Asian cuisine"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["How many people will be served?"],
+        "theySay": ["50 people."],
+        "submitList": ["50 people"],
+        "pickingList": [
           [
             "How many people will be served?",
             "Guest count",
@@ -5012,12 +5068,7 @@
       {
         "weSay": ["When is the wedding date?"],
         "theySay": ["In December."],
-        "submitList": ["December"]
-      },
-      {
-        "weSay": ["How many guests?"],
-        "theySay": ["150 guests."],
-        "submitList": ["150 guests"],
+        "submitList": ["December"],
         "pickingList": [
           [
             "When is the wedding date?",
@@ -5027,7 +5078,14 @@
             "January",
             "October",
             "December"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["How many guests?"],
+        "theySay": ["150 guests."],
+        "submitList": ["150 guests"],
+        "pickingList": [
           [
             "How many guests?",
             "Guest count",
@@ -5188,12 +5246,7 @@
       {
         "weSay": ["What is the event date?"],
         "theySay": ["On November 20th."],
-        "submitList": ["November 20th"]
-      },
-      {
-        "weSay": ["How many attendees?"],
-        "theySay": ["200 attendees."],
-        "submitList": ["200 attendees"],
+        "submitList": ["November 20th"],
         "pickingList": [
           [
             "What is the event date?",
@@ -5203,7 +5256,14 @@
             "November 21st",
             "November 25th",
             "November 20th"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["How many attendees?"],
+        "theySay": ["200 attendees."],
+        "submitList": ["200 attendees"],
+        "pickingList": [
           [
             "How many attendees?",
             "Attendee count",
@@ -5364,12 +5424,7 @@
       {
         "weSay": ["What equipment do you need?"],
         "theySay": ["A projector and speakers."],
-        "submitList": ["Projector and speakers"]
-      },
-      {
-        "weSay": ["For how long?"],
-        "theySay": ["For two days."],
-        "submitList": ["Two days"],
+        "submitList": ["Projector and speakers"],
         "pickingList": [
           [
             "What equipment do you need?",
@@ -5379,7 +5434,14 @@
             "Microphone",
             "Lighting",
             "Projector and speakers"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["For how long?"],
+        "theySay": ["For two days."],
+        "submitList": ["Two days"],
+        "pickingList": [
           [
             "For how long?",
             "Equipment rental duration",
@@ -5540,12 +5602,7 @@
       {
         "weSay": ["What would you like to comment on?"],
         "theySay": ["The room cleaning service."],
-        "submitList": ["Room cleaning"]
-      },
-      {
-        "weSay": ["Were you satisfied with the service?"],
-        "theySay": ["Yes, I was."],
-        "submitList": ["Satisfied"],
+        "submitList": ["Room cleaning"],
         "pickingList": [
           [
             "What would you like to comment on?",
@@ -5555,7 +5612,14 @@
             "Front desk",
             "Laundry service",
             "Room cleaning"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["Were you satisfied with the service?"],
+        "theySay": ["Yes, I was."],
+        "submitList": ["Satisfied"],
+        "pickingList": [
           [
             "Were you satisfied with the service?",
             "Satisfaction",
@@ -5716,12 +5780,7 @@
       {
         "weSay": ["How was your overall stay?"],
         "theySay": ["It was very good."],
-        "submitList": ["Very good"]
-      },
-      {
-        "weSay": ["Was the staff helpful?"],
-        "theySay": ["Yes, they were."],
-        "submitList": ["Helpful staff"],
+        "submitList": ["Very good"],
         "pickingList": [
           [
             "How was your overall stay?",
@@ -5731,7 +5790,14 @@
             "Good",
             "Average",
             "Very good"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["Was the staff helpful?"],
+        "theySay": ["Yes, they were."],
+        "submitList": ["Helpful staff"],
+        "pickingList": [
           [
             "Was the staff helpful?",
             "Staff feedback",
@@ -5890,12 +5956,7 @@
       {
         "weSay": ["What time would you like the room cleaned?"],
         "theySay": ["At 10 AM, please."],
-        "submitList": ["At 10 AM"]
-      },
-      {
-        "weSay": ["Do you want us to clean the bathroom as well?"],
-        "theySay": ["Yes, please."],
-        "submitList": ["Bathroom included"],
+        "submitList": ["At 10 AM"],
         "pickingList": [
           [
             "What time would you like the room cleaned?",
@@ -5905,7 +5966,14 @@
             "At 1 PM",
             "At 2 PM",
             "At 10 AM"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["Do you want us to clean the bathroom as well?"],
+        "theySay": ["Yes, please."],
+        "submitList": ["Bathroom included"],
+        "pickingList": [
           [
             "Do you want us to clean the bathroom as well?",
             "Bathroom cleaning",
@@ -6054,12 +6122,7 @@
       {
         "weSay": ["How many items do you have?"],
         "theySay": ["Five shirts."],
-        "submitList": ["Five items"]
-      },
-      {
-        "weSay": ["Do you need ironing service?"],
-        "theySay": ["Yes, please."],
-        "submitList": ["Ironing service"],
+        "submitList": ["Five items"],
         "pickingList": [
           [
             "How many items do you have?",
@@ -6069,7 +6132,14 @@
             "Six items",
             "Seven items",
             "Five items"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["Do you need ironing service?"],
+        "theySay": ["Yes, please."],
+        "submitList": ["Ironing service"],
+        "pickingList": [
           [
             "Do you need ironing service?",
             "Laundry service",
@@ -6225,12 +6295,7 @@
       {
         "weSay": ["What would you like to order?"],
         "theySay": ["A pizza, please."],
-        "submitList": ["Pizza"]
-      },
-      {
-        "weSay": ["Would you like something to drink?"],
-        "theySay": ["Yes, a soda."],
-        "submitList": ["Soda"],
+        "submitList": ["Pizza"],
         "pickingList": [
           [
             "What would you like to order?",
@@ -6240,7 +6305,14 @@
             "Burger",
             "Salad",
             "Pizza"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["Would you like something to drink?"],
+        "theySay": ["Yes, a soda."],
+        "submitList": ["Soda"],
+        "pickingList": [
           [
             "Would you like something to drink?",
             "Drink",
@@ -6400,12 +6472,7 @@
       {
         "weSay": ["How many towels do you need?"],
         "theySay": ["Two towels, please."],
-        "submitList": ["Two towels"]
-      },
-      {
-        "weSay": ["Do you need new sheets as well?"],
-        "theySay": ["No, just towels."],
-        "submitList": ["No sheets"],
+        "submitList": ["Two towels"],
         "pickingList": [
           [
             "How many towels do you need?",
@@ -6415,7 +6482,14 @@
             "Three towels",
             "Four towels",
             "Two towels"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["Do you need new sheets as well?"],
+        "theySay": ["No, just towels."],
+        "submitList": ["No sheets"],
+        "pickingList": [
           [
             "Do you need new sheets as well?",
             "Bed linen",
@@ -6572,12 +6646,7 @@
       {
         "weSay": ["Would you like coffee or tea with your wake-up call?"],
         "theySay": ["Tea, please."],
-        "submitList": ["Tea"]
-      },
-      {
-        "weSay": ["Do you need a second reminder?"],
-        "theySay": ["No, one is enough."],
-        "submitList": ["No reminder"],
+        "submitList": ["Tea"],
         "pickingList": [
           [
             "Would you like coffee or tea with your wake-up call?",
@@ -6587,7 +6656,14 @@
             "Juice",
             "Water",
             "Tea"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["Do you need a second reminder?"],
+        "theySay": ["No, one is enough."],
+        "submitList": ["No reminder"],
+        "pickingList": [
           [
             "Do you need a second reminder?",
             "Wake-up call",
@@ -6600,9 +6676,10 @@
         ]
       },
       {
-        "weSay": ["Hi"],
-        "theySay": ["Hi"],
-        "Error": ["Cảnh báo lỗi Thiếu submitList."]
+        "weSay": ["DOOO"],
+        "theySay": ["DOOO"],
+        "submitList": ["DOOO"],
+        "pickingList": [["DOOO", "DOOO"]]
       }
     ]
   ],
@@ -6735,12 +6812,7 @@
       {
         "weSay": ["For how many people?"],
         "theySay": ["Four people."],
-        "submitList": ["Four people"]
-      },
-      {
-        "weSay": ["What time would you like the table?"],
-        "theySay": ["At 8 PM"],
-        "submitList": ["At 8 PM"],
+        "submitList": ["Four people"],
         "pickingList": [
           [
             "For how many people?",
@@ -6750,7 +6822,14 @@
             "Three people",
             "Five people",
             "Four people"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["What time would you like the table?"],
+        "theySay": ["At 8 PM"],
+        "submitList": ["At 8 PM"],
+        "pickingList": [
           [
             "What time would you like the table?",
             "Reservation time",
@@ -6908,12 +6987,7 @@
       {
         "weSay": ["What time would you like to come?"],
         "theySay": ["At 6 PM."],
-        "submitList": ["At 6 PM"]
-      },
-      {
-        "weSay": ["Do you prefer a bar stool or a table?"],
-        "theySay": ["A table, please."],
-        "submitList": ["Table"],
+        "submitList": ["At 6 PM"],
         "pickingList": [
           [
             "What time would you like to come?",
@@ -6923,7 +6997,14 @@
             "At 5 PM",
             "At 8 PM",
             "At 6 PM"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["Do you prefer a bar stool or a table?"],
+        "theySay": ["A table, please."],
+        "submitList": ["Table"],
+        "pickingList": [
           [
             "Do you prefer a bar stool or a table?",
             "Seating choice",
@@ -7082,12 +7163,7 @@
       {
         "weSay": ["How many guests will be with you?"],
         "theySay": ["Three guests."],
-        "submitList": ["Three guests"]
-      },
-      {
-        "weSay": ["What time will you arrive?"],
-        "theySay": ["At 12 PM"],
-        "submitList": ["At 12 PM"],
+        "submitList": ["Three guests"],
         "pickingList": [
           [
             "How many guests will be with you?",
@@ -7097,7 +7173,14 @@
             "Four guests",
             "Five guests",
             "Three guests"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["What time will you arrive?"],
+        "theySay": ["At 12 PM"],
+        "submitList": ["At 12 PM"],
+        "pickingList": [
           [
             "What time will you arrive?",
             "Arrival time",
@@ -7257,12 +7340,7 @@
       {
         "weSay": ["Do you have any food allergies?"],
         "theySay": ["Yes, I’m allergic to nuts."],
-        "submitList": ["Allergic to nuts"]
-      },
-      {
-        "weSay": ["What meal would you like?"],
-        "theySay": ["A vegetarian dish."],
-        "submitList": ["Vegetarian meal"],
+        "submitList": ["Allergic to nuts"],
         "pickingList": [
           [
             "Do you have any food allergies?",
@@ -7272,7 +7350,14 @@
             "Dairy allergy",
             "No allergies",
             "Allergic to nuts"
-          ],
+          ]
+        ]
+      },
+      {
+        "weSay": ["What meal would you like?"],
+        "theySay": ["A vegetarian dish."],
+        "submitList": ["Vegetarian meal"],
+        "pickingList": [
           [
             "What meal would you like?",
             "Meal preference",
