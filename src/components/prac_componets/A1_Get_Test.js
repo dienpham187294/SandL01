@@ -226,6 +226,15 @@ function Test() {
       console.log("Error handling command:", error);
     }
   };
+
+  if (screenWidth < 1000) {
+    return (
+      <div>
+        <h1>Mobile Screen</h1>
+      </div>
+    );
+  }
+
   return (
     <div>
       {" "}
@@ -320,6 +329,7 @@ function Test() {
                 </table>
 
                 <hr />
+                {JSON.stringify(CMDList)}
                 <WeCanSayView WeCanSay={WeCanSay} />
               </div>
             </div>

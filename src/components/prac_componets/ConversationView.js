@@ -14,7 +14,7 @@ function ConversationView({
     <div style={getContainerStyle(PracData)}>
       {PracData.map((dataGroup, groupIndex) => (
         <div key={`group-${groupIndex}`}>
-          {renderIndexMarker(groupIndex, Index)}
+          {/* {renderIndexMarker(groupIndex, Index)} */}
 
           {dataGroup.map((dataItem, itemIndex) => (
             <div
@@ -22,25 +22,45 @@ function ConversationView({
               style={getItemStyle(Index >= groupIndex)}
             >
               {renderPurpose(Index === groupIndex, dataItem)}
-              {renderSubmitList(Index > groupIndex, dataItem)}
+              {renderSubmitList(Index > groupIndex, dataItem, groupIndex)}
               {renderNotification(Index === groupIndex, dataItem)}
               {renderDebugInfo(
                 Index === 3 && Index === groupIndex && itemIndex === 0,
                 SubmitSets,
                 PickData
               )}
-              {renderTablePickingButton(
+              {/* {renderTablePickingButton(
                 Index === groupIndex && itemIndex === 0,
                 dataItem,
                 SetTableMode
-              )}
-              {renderPickingList(
+              )} */}
+
+              {Index >= groupIndex && dataItem.pickingList
+                ? dataItem.pickingList.map(
+                    (ePickingListPot, iPickingListPot) => (
+                      <div
+                        style={{ display: "inline-block" }}
+                        key={iPickingListPot}
+                      >
+                        {showPick(
+                          ePickingListPot,
+                          SetPickData,
+                          PickData,
+                          Index === itemIndex ? false : true,
+                          itemIndex
+                        )}
+                      </div>
+                    )
+                  )
+                : null}
+
+              {/* {renderPickingList(
                 Index >= groupIndex,
                 dataItem,
                 SetPickData,
                 PickData,
                 groupIndex
-              )}
+              )} */}
             </div>
           ))}
         </div>
@@ -70,10 +90,11 @@ function renderPurpose(isCurrent, dataItem) {
   return null;
 }
 
-function renderSubmitList(isVisible, dataItem) {
+function renderSubmitList(isVisible, dataItem, index) {
   if (isVisible && dataItem.submitList) {
     return (
-      <div>
+      <div style={{ color: "blue" }}>
+        {index + 1}.{" "}
         {dataItem.submitList.map((text, index) => (
           <i key={`submit-${index}`} style={submitListStyle}>
             __{text}
@@ -113,14 +134,21 @@ function renderTablePickingButton(shouldShow, dataItem, SetTableMode) {
   if (shouldShow && dataItem.tablePicking) {
     return (
       <>
-        <i>***File hệ thống đính kèm</i>
-
-        {/* <button
+        <button
           className="btn btn-primary ml-1"
-          onClick={() => SetTableMode(3)}
+          onClick={() => {
+            try {
+              const elementA = document.getElementById("id03");
+              if (elementA) {
+                elementA.click(); // Ensure the element exists before focusing
+              }
+            } catch (error) {
+              console.error("Error focusing on element: ", error); // Log the error if something goes wrong
+            }
+          }}
         >
           <i className="bi bi-card-checklist"></i>
-        </button> */}
+        </button>
       </>
     );
   }
@@ -147,31 +175,54 @@ function renderPickingList(
 export default ConversationView;
 
 // showPick helper function
-function showPick(arr, SetPickData, PickData, indexOfPhase) {
-  if (!Array.isArray(arr)) {
-    console.error("Invalid array input");
+function showPick(arr, SetPickData, PickData, mode, indexOfPhase) {
+  try {
+    if (mode) {
+      return null;
+    }
+    if (!Array.isArray(arr)) {
+      throw new Error("Input is not an array");
+    }
+
+    const handleChange = (e) => {
+      const selectedValue = e.target.value;
+
+      if (!mode) {
+        // Remove any previous values from other selects that are already in PickData and not the current select
+        const updatedPickData = PickData.filter((item) => !arr.includes(item));
+
+        if (selectedValue !== "none") {
+          // Add the new selected value to the filtered PickData
+          SetPickData([...updatedPickData, selectedValue.trim()]);
+        } else {
+          // Only update with the filtered data when 'none' is selected (i.e., no value added)
+          SetPickData(updatedPickData);
+        }
+      }
+    };
+
+    return (
+      <select
+        style={{ width: "200px" }}
+        className="form-control"
+        onChange={handleChange}
+        value={PickData.find((item) => arr.includes(item)) || "none"}
+      >
+        {arr.map((e, i) => (
+          <option
+            key={indexOfPhase + "" + i}
+            value={i === 0 ? "None" : e.trim()}
+          >
+            {e}
+          </option>
+        ))}
+        <option value={"None"}>None</option>
+      </select>
+    );
+  } catch (error) {
+    console.error(error);
     return null;
   }
-
-  const handleChange = (e) => {
-    const selectedValue = e.target.value;
-    if (selectedValue !== "none") {
-      updatePickData(arr, selectedValue.trim(), SetPickData, PickData);
-    } else {
-      removeSelectedItem(arr, SetPickData, PickData);
-    }
-  };
-
-  return (
-    <select
-      style={{ width: "200px" }}
-      className="form-control"
-      onChange={handleChange}
-      value={PickData.find((item) => arr.includes(item)) || "none"}
-    >
-      {renderOptions(arr, indexOfPhase)}
-    </select>
-  );
 }
 
 function updatePickData(arr, selectedValue, SetPickData, PickData) {

@@ -90,7 +90,7 @@ function collectWeSayCMDLIST(arr, keySets) {
       if (current[key]) {
         // Kết hợp kết quả với vị trí của phần tử và giá trị từ key hiện tại
         const combinedResult = current[key].map(
-          (item, itemIndex) => `${keyIndex} ${item}`
+          (item, itemIndex) => `${outerIndex} ${item}`
         );
         result = result.concat(combinedResult);
       }
