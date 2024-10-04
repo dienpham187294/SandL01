@@ -1,7 +1,7 @@
 import { useRef, useState, useEffect } from "react";
 import { Stage, Sprite, Graphics } from "@pixi/react";
 
-const PixiCanvas = ({ widthPixi = "800", heightPixi = "600" }) => {
+const PixiCanvas = ({ widthPixi = 800, heightPixi = 600 }) => {
   const [bunnyPosition, setBunnyPosition] = useState({ x: 200, y: 200 });
   const [BunnyRotation, setBunnyRotation] = useState(0);
   const [alpha, setAlpha] = useState(1); // State for alpha transparency

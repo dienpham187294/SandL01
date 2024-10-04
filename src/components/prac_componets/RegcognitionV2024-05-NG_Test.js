@@ -12,7 +12,7 @@ const Dictaphone = ({ fn_Xuly, CMDList, fn_speakSlowly, fn_speakAgain }) => {
     clearTimeout(timeoutId);
     timeoutId = setTimeout(() => {
       stopListening();
-    }, 60000); // 60 giây
+    }, 180000); // 180 giây
   }, []);
 
   // Sử dụng useCallback cho các hàm callback để tránh khởi tạo lại không cần thiết
@@ -39,10 +39,10 @@ const Dictaphone = ({ fn_Xuly, CMDList, fn_speakSlowly, fn_speakAgain }) => {
       {
         command: CMDList || ["I am a teacher"],
         callback: (command) => {
-          handleXuly(command, "Done");
+          handleXuly(command, "interimtransript");
         },
         isFuzzyMatch: true,
-        fuzzyMatchingThreshold: 0.65,
+        fuzzyMatchingThreshold: 0.55,
         bestMatchOnly: true,
       },
       {
@@ -105,6 +105,14 @@ const Dictaphone = ({ fn_Xuly, CMDList, fn_speakSlowly, fn_speakAgain }) => {
         width: "100vw",
         height: "10vh",
         padding: "15px",
+        // backgroundColor: "#FAEBD7",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.5)",
+        borderRadius: "8px",
+        // borderBottom: "1px solid black",
+        overflow: "hidden",
       }}
     >
       <div className="col-4">
@@ -128,6 +136,7 @@ const Dictaphone = ({ fn_Xuly, CMDList, fn_speakSlowly, fn_speakAgain }) => {
           </button>
         ) : (
           <button
+            id="startRegId"
             className="btn btn-primary p-2"
             style={buttonStyle}
             onClick={() => {
@@ -162,7 +171,7 @@ const Dictaphone = ({ fn_Xuly, CMDList, fn_speakSlowly, fn_speakAgain }) => {
           <i className="bi bi-arrow-clockwise"></i>
         </button>{" "}
       </div>
-      <div className="col-4">
+      <div className="col-3">
         {" "}
         <i>{interimTranscript}</i>
       </div>

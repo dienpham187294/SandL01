@@ -70,11 +70,29 @@ function collectWeSay(arr, keySets) {
   // Sử dụng reduce để gom tất cả các giá trị từ các key trong keySets
   return arr.reduce((result, current) => {
     // Loop qua từng key trong keySets
-    keySets.forEach((key) => {
+    keySets.forEach((key, i) => {
       // Kiểm tra nếu key tồn tại trong current
       if (current[key]) {
         // Kết hợp kết quả với giá trị từ key hiện tại
         result = result.concat(current[key]);
+      }
+    });
+    return result;
+  }, []);
+}
+
+function collectWeSayCMDLIST(arr, keySets) {
+  // Sử dụng reduce để gom tất cả các giá trị từ các key trong keySets
+  return arr.reduce((result, current, outerIndex) => {
+    // Loop qua từng key trong keySets
+    keySets.forEach((key, keyIndex) => {
+      // Kiểm tra nếu key tồn tại trong current
+      if (current[key]) {
+        // Kết hợp kết quả với vị trí của phần tử và giá trị từ key hiện tại
+        const combinedResult = current[key].map(
+          (item, itemIndex) => `${keyIndex} ${item}`
+        );
+        result = result.concat(combinedResult);
       }
     });
     return result;
@@ -172,6 +190,7 @@ export {
   parceARandomSets,
   shuffleArray,
   collectWeSay,
+  collectWeSayCMDLIST,
   removeNoneElements,
   qsSets,
   pickRandomN,

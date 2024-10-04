@@ -113,13 +113,14 @@ function renderTablePickingButton(shouldShow, dataItem, SetTableMode) {
   if (shouldShow && dataItem.tablePicking) {
     return (
       <>
-        <i>File hệ thống: </i>
-        <button
+        <i>***File hệ thống đính kèm</i>
+
+        {/* <button
           className="btn btn-primary ml-1"
           onClick={() => SetTableMode(3)}
         >
           <i className="bi bi-card-checklist"></i>
-        </button>
+        </button> */}
       </>
     );
   }
@@ -226,6 +227,10 @@ const getContainerStyle = (PracData) => ({
   transition: "all 1s ease-in-out",
   opacity: PracData ? 1 : 0,
   transform: PracData ? "translateY(0)" : "translateY(-10px)",
+  border: "1px solid black",
+  borderRadius: "5px",
+  padding: "15px",
+  backgroundColor: "#FFEFD5",
 });
 
 const getItemStyle = (isVisible) => ({

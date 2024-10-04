@@ -1,17 +1,27 @@
-import React, { useState } from "react";
-import $ from "jquery";
+import React, { useState, useEffect } from "react";
 
-function TableView({
-  TableMode,
-  TableData,
-  screenWidth,
-  screenHeight,
-  SetPickData,
-  PickData,
-  SetTableMode,
-}) {
+function TableView({ TableMode, TableData, SetPickData, PickData }) {
   const [searchIndex, setSearchIndex] = useState(0);
   const [searchResults, setSearchResults] = useState([]);
+
+  useEffect(() => {
+    const handleKeyDown = (event) => {
+      if (event.key === "Enter") {
+        // handleSearch(document.getElementById("searchInput").value);
+        navigateResults(1);
+      } else if (event.key === "ArrowUp") {
+        navigateResults(-1);
+      } else if (event.key === "ArrowDown") {
+        navigateResults(1);
+      }
+    };
+
+    document.addEventListener("keydown", handleKeyDown);
+
+    return () => {
+      document.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [searchResults, searchIndex]);
 
   const handleSearch = (query) => {
     const tableCells = document.querySelectorAll("#tablePickingId td");
@@ -37,12 +47,14 @@ function TableView({
   };
 
   const searchTableCells = (query, tableCells) => {
+    const results = [];
     tableCells.forEach((cell) => {
       if (cell.innerText.toLowerCase().includes(query.toLowerCase())) {
-        setSearchResults((prevResults) => [...prevResults, cell]);
+        results.push(cell);
         cell.style.backgroundColor = "lightgreen";
       }
     });
+    setSearchResults(results);
   };
 
   const highlightSearchResult = (index) => {
@@ -123,23 +135,15 @@ function TableView({
               </button>
             </div>
           )}
-          <div style={otherControlsStyle}>
-            <select onChange={(e) => adjustFontSize(e.currentTarget.value)}>
-              <option value={16}>Font Size</option>
-              {[10, 15, 20, 25, 30, 35, 40, 45].map((size, i) => (
-                <option key={i} value={size}>
-                  {size}px
-                </option>
-              ))}
-            </select>
-            {/* <button
-              className="btn btn-outline-danger"
-              style={closeButtonStyle}
-              onClick={() => SetTableMode(null)}
-            >
-              <i className="bi bi-x-square"></i>
-            </button> */}
-          </div>
+
+          <select onChange={(e) => adjustFontSize(e.currentTarget.value)}>
+            <option value={16}>Font Size</option>
+            {[10, 15, 20, 25, 30, 35, 40, 45].map((size, i) => (
+              <option key={i} value={size}>
+                {size}px
+              </option>
+            ))}
+          </select>
         </div>
         <hr />
         <DataTableALLInformationPicking
@@ -163,6 +167,7 @@ function DataTableALLInformationPicking({
 }) {
   const renderTable = (rows) => (
     <table
+      id="TableViewId"
       className="table table-sm table-striped"
       style={tableStyle(TableMode)}
     >
@@ -213,10 +218,6 @@ const handleCellClick = (cell, SetPickData, PickData, TableMode) => {
   }
 };
 
-const adjustFontSize = (size) => {
-  $("#tablePickingId").css({ fontSize: `${size}px` });
-};
-
 const remoteDivStyle = {
   position: "sticky",
   width: "100%",
@@ -239,7 +240,6 @@ const searchBarStyle = {
 };
 
 const searchInputStyle = {
-  display: "inline-block",
   border: "1px solid #ced4da",
   borderRadius: "4px",
   padding: "5px 10px",
@@ -250,30 +250,6 @@ const searchDisplayStyle = {
   fontSize: "14px",
   fontWeight: "bold",
 };
-
-const otherControlsStyle = {
-  display: "flex",
-  gap: "10px",
-};
-
-const closeButtonStyle = {
-  width: "40px",
-  height: "40px",
-  borderRadius: "50%",
-  display: "inline-block",
-  boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
-  cursor: "pointer",
-  textAlign: "center",
-};
-
-// const tableStyle = (TableMode = {
-//   backgroundColor: TableMode === 3 ? "#FFEFD5" : "yellow",
-//   borderBottom: "1px solid black",
-//   marginBottom: "10px",
-//   marginTop: "5%",
-//   textAlign: "left",
-//   borderRadius: "5px",
-// });
 
 const tableStyle = (TableMode) => ({
   backgroundColor: TableMode === 3 ? "#FFEFD5" : "#B0E0E6",
@@ -287,4 +263,10 @@ const tableStyle = (TableMode) => ({
 const cellStyle = {
   borderLeft: "1px solid black",
   padding: "10px",
+};
+const adjustFontSize = (size) => {
+  const tableElement = document.getElementById("TableViewId");
+  if (tableElement) {
+    tableElement.style.fontSize = `${size}px`;
+  }
 };

@@ -40,3 +40,10 @@
   top: auto;
   bottom: 100%; /* Vị trí của menu sẽ ở phía trên */
 }
+.divFlexH1 {
+  padding: 0 20px;
+}
+
+.divFlexH1:hover {
+  color: blue;
+}
