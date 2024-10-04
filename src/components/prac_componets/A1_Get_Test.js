@@ -301,7 +301,7 @@ function Test() {
                   <tbody>
                     <tr>
                       <td style={{ width: "250px", padding: "5px" }}>
-                        Khách chờ
+                        Danh sách khách hàng chờ . . .
                       </td>
                       <td style={{ padding: "5px" }}>
                         {" "}
@@ -329,8 +329,8 @@ function Test() {
                 </table>
 
                 <hr />
-                {JSON.stringify(CMDList)}
-                <WeCanSayView WeCanSay={WeCanSay} />
+                {/* {JSON.stringify(CMDList)}
+                <WeCanSayView WeCanSay={WeCanSay} /> */}
               </div>
             </div>
             <h1 className="divFlexH1">Giao tiếp</h1>
