@@ -275,13 +275,15 @@ const debugInfoStyle = {
 };
 
 const getContainerStyle = (PracData) => ({
-  transition: "all 1s ease-in-out",
+  transition: "all 3s ease-in-out",
   opacity: PracData ? 1 : 0,
   transform: PracData ? "translateY(0)" : "translateY(-10px)",
   border: "1px solid black",
-  borderRadius: "5px",
+  borderRadius: "15px",
   padding: "15px",
   backgroundColor: "#FFEFD5",
+  textAlign: "left",
+  overflow: "auto",
 });
 
 const getItemStyle = (isVisible) => ({

@@ -13,10 +13,11 @@ import ChatWidget from "./components/ChatWidget";
 import io from "socket.io-client";
 import initializeVoicesAndPlatform from "./ulti/initializeVoicesAndPlatform";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import PracDiv from "./components/prac_componets/A1_Get_Test";
+import PracDiv from "./components/prac_componets/A1_ContentFramework";
 import LinkAPI from "./ulti/T0_linkApi";
+
 // import PixiCanvas from "./components/PixiJS";
-import RootPrac from "./components/prac_componets/B1_RootPrac";
+// import RootPrac from "./components/prac_componets/B1_RootPrac";
 const socket = io(LinkAPI, {
   transports: ["websocket", "polling", "flashsocket"],
 });
@@ -89,6 +90,7 @@ const App = () => {
                 element={<RoomOffline setSttRoom={setSttRoom} />}
               />
               <Route path="/" element={<PracDiv />} />
+
               <Route path="/noexist" element={<NotExist />} />
               <Route
                 path="/learninghub/:id"

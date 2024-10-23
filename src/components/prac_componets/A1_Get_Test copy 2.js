@@ -5,7 +5,9 @@ import Dictaphone from "./RegcognitionV2024-05-NG_Test";
 import initializeVoicesAndPlatform from "./initializeVoicesAndPlatform";
 import TableView from "./TableView";
 import ConversationView from "./ConversationView";
-import PixiJS from "../PixiJS";
+import PixiJS from "./inside_01_components/PixiJS";
+import Tongquan from "./inside_01_components/Div01_Tongquan";
+import Noidung from "./inside_01_components/Div02_Noidung";
 import {
   findClosestMatch,
   getRandomElement,
@@ -17,7 +19,7 @@ import {
   qsSets,
   pickRandomN,
 } from "./help_prac_function";
-import InputDataTest from "./dataTest_01.json";
+import InputDataTest from "../prac_componets/dataContent/file-thuchanh/tk-hotelstaff-01.json";
 
 const screenWidth = window.screen.width;
 const screenHeight = window.screen.height;
@@ -45,7 +47,7 @@ function Test() {
   const [Score, SetScore] = useState(0);
   const [TableMode, SetTableMode] = useState(null);
   // State để lưu id của div được chọn
-  const [selectedDiv, setSelectedDiv] = useState(null);
+  const [selectedDiv, setSelectedDiv] = useState(1);
 
   // Hàm để xử lý sự kiện click vào div
   const handleDivClick = (id) => {
@@ -236,6 +238,66 @@ function Test() {
   }
 
   return (
+    <div
+      style={{
+        border: "1px solid black",
+        borderRadius: "20px",
+        width: "50vw",
+        height: "65vh",
+        overflow: "hidden",
+        boxShadow: "0 4px 8px rgba(0, 0, 0, 1), 0 6px 20px rgba(0, 0, 0, 1)", // Thêm box-shadow
+        backgroundColor: "white", // Đảm bảo nền là trắng
+      }}
+    >
+      {" "}
+      <Dictaphone
+        fn_Xuly={handleCMD}
+        CMDList={CMDList}
+        fn_speakAgain={handleSpeakAgain}
+        fn_speakSlowly={handleSpeakSlowly}
+      />
+      <div>
+        <img
+          style={avatarStyle(PracData)}
+          src={ImgAvatar || "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg"}
+          width="60px"
+        />
+        <div>
+          <div style={{ padding: "25px" }}>
+            {" "}
+            {renderActionButton(
+              PracData,
+              Score,
+              () => {
+                const btn = document.getElementById("startRegId");
+                if (btn) {
+                  btn.click();
+                }
+                CungThucHanhIndex++;
+                SetPracData(
+                  InputDataTest[PracTestList[CungThucHanhIndex]].data
+                );
+                ReadMessage(ObjRead, "Hi", Gender || 1, 0.5);
+              },
+              SetPracData
+            )}
+          </div>
+
+          <ConversationView
+            PracData={PracData}
+            Index={Index}
+            SubmitSets={SubmitSets}
+            PickData={PickData}
+            SetPickData={SetPickData}
+            SetTableMode={SetTableMode}
+          />
+          <hr />
+        </div>
+      </div>
+    </div>
+  );
+
+  return (
     <div>
       {" "}
       <div>
@@ -246,6 +308,52 @@ function Test() {
           fn_speakSlowly={handleSpeakSlowly}
         />
       </div>{" "}
+      <div>
+        <img style={avatarStyle(PracData)} src={ImgAvatar} width="150px" />
+
+        <div>
+          <div style={headerStyle}></div>
+          <ConversationView
+            PracData={PracData}
+            Index={Index}
+            SubmitSets={SubmitSets}
+            PickData={PickData}
+            SetPickData={SetPickData}
+            SetTableMode={SetTableMode}
+          />
+          <hr />
+          <table border={"1"} style={{ width: "100%" }}>
+            <tbody>
+              <tr>
+                <td style={{ width: "250px", padding: "5px" }}>
+                  Danh sách khách hàng chờ . . .
+                </td>
+                <td style={{ padding: "5px" }}>
+                  {" "}
+                  <div>
+                    {renderActionButton(
+                      PracData,
+                      Score,
+                      () => {
+                        const btn = document.getElementById("startRegId");
+                        if (btn) {
+                          btn.click();
+                        }
+                        CungThucHanhIndex++;
+                        SetPracData(
+                          InputDataTest[PracTestList[CungThucHanhIndex]]
+                        );
+                        ReadMessage(ObjRead, "Hi", Gender || 1, 0.5);
+                      },
+                      SetPracData
+                    )}
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
       <div style={containerStyle}>
         <div
           id="id01"
@@ -255,11 +363,13 @@ function Test() {
           <div style={contentStyle}>
             <div
               style={{
-                width: "55vw",
+                width: "73vw",
                 height: "65vh",
                 overflow: "auto",
               }}
-            ></div>
+            >
+              <Tongquan />
+            </div>
             <h1 className="divFlexH1">Tổng quan</h1>
           </div>
         </div>
@@ -271,22 +381,19 @@ function Test() {
           <div style={contentStyle}>
             <div
               style={{
-                width: "55vw",
+                width: "73vw",
                 height: "65vh",
                 overflow: "auto",
               }}
             >
-              {/* <div style={{ display: "flex", width: "150px", height: "150px" }}> */}
-              <img
+              <Noidung />
+              {/* <img
                 style={avatarStyle(PracData)}
                 src={ImgAvatar}
                 width="150px"
               />
-              {/* </div> */}
 
-              <div
-              // style={mainContainerStyle(PracData)}
-              >
+              <div>
                 <div style={headerStyle}></div>
                 <ConversationView
                   PracData={PracData}
@@ -327,16 +434,12 @@ function Test() {
                     </tr>
                   </tbody>
                 </table>
-
-                <hr />
-                {/* {JSON.stringify(CMDList)}
-                <WeCanSayView WeCanSay={WeCanSay} /> */}
-              </div>
+              </div> */}
             </div>
-            <h1 className="divFlexH1">Giao tiếp</h1>
+            <h1 className="divFlexH1">Nội dung</h1>
           </div>
         </div>
-        <div
+        {/* <div
           id="id03"
           onClick={() => handleDivClick("id03")}
           style={{ ...divStyle, ...getDivStyle("id03") }}
@@ -372,10 +475,10 @@ function Test() {
                 />
               ) : null}
             </div>
-            {JSON.stringify(SubmitSets)}
+
             <h1 className="divFlexH1">Thông tin</h1>
           </div>
-        </div>
+        </div> */}
         <div
           id="id04"
           onClick={() => handleDivClick("id04")}
@@ -384,17 +487,17 @@ function Test() {
           <div style={contentStyle}>
             <div
               style={{
-                width: "55vw",
+                width: "73vw",
                 height: "65vh",
                 overflow: "auto",
               }}
             >
               <PixiJS />
             </div>
-            <h1 className="divFlexH1">Bản đồ</h1>
+            <h1 className="divFlexH1">Thị trấn</h1>
           </div>
         </div>
-        <div
+        {/* <div
           id="id05"
           onClick={() => handleDivClick("id05")}
           style={{ ...divStyle, ...getDivStyle("id05") }}
@@ -409,7 +512,7 @@ function Test() {
             ></div>
             <h1 className="divFlexH1">Nhiệm vụ</h1>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
@@ -506,6 +609,7 @@ const avatarStyle = (PracData) => ({
   margin: "10px",
   transition: "all 2s ease-in-out",
   transform: PracData ? "translateY(0)" : "translateY(-200px)",
+  zIndex: "10",
 });
 
 const renderControlButton = (data, onClick, iconClass) =>
