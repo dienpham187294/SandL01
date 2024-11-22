@@ -1,6 +1,6 @@
 import tableContent from "../dataContent/file-detail/tk-hotelstaff-01.json";
 import { Link } from "react-router-dom";
-function FrameNoidung() {
+function FrameNoidung({ queryObject }) {
   return (
     <div style={styles.parentContainer}>
       <h1>Danh sách công việc chi tiết mà "Nhân vật" cần xử lý</h1>
@@ -33,7 +33,14 @@ function FrameNoidung() {
               </div> */}
               <div style={styles.buttonRow}>
                 <Link
-                  to={"/?page=moreDetail&&id=" + e.idFile + "-" + e.idContent}
+                  to={
+                    "/?page=moreDetail&&id=" +
+                    queryObject.id +
+                    "&&sub=" +
+                    e.idFile +
+                    "-" +
+                    e.idContent
+                  }
                 >
                   <button style={styles.button}>Chi tiết</button>
                 </Link>

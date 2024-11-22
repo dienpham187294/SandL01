@@ -75,7 +75,7 @@ export default function Header({ sttRoom, STTconnectFN }) {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            {/* <Nav className="mr-auto">
+            <Nav className="mr-auto">
               {returnDropdown(
                 "Giáo án giao tiếp",
                 pracEnSets,
@@ -114,7 +114,7 @@ export default function Header({ sttRoom, STTconnectFN }) {
                 { name: "name", link: "link" },
                 null
               )}
-            </Nav> */}
+            </Nav>
             {/* <Move /> */}
           </Navbar.Collapse>
         </Navbar>

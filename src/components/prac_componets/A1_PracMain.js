@@ -19,8 +19,9 @@ import {
   qsSets,
   pickRandomN,
 } from "./help_prac_function";
-import InputDataTest from "../prac_componets/dataContent/file-thuchanh/tk-hotelstaff-01.json";
 
+// import InputDataTest from "./dataContent/file-thuchanh/tk-hotelstaff-01.json";
+let InputDataTest;
 const screenWidth = window.screen.width;
 const screenHeight = window.screen.height;
 let PracDataSave = [];
@@ -28,7 +29,7 @@ let IndexSave = 0;
 let theySaySave = "Hi how are you?";
 let CungThucHanhIndex = 0;
 
-function Test() {
+function PracMain({ DataPrac }) {
   const [PracData, SetPracData] = useState(null);
   const [PickData, SetPickData] = useState([]);
   const [Index, SetIndex] = useState(0);
@@ -74,6 +75,10 @@ function Test() {
       };
     }
   };
+
+  useEffect(() => {
+    InputDataTest = DataPrac;
+  }, [DataPrac]);
 
   useEffect(() => {
     PracDataSave = PracData;
@@ -131,8 +136,10 @@ function Test() {
 
   // Đặt danh sách ngẫu nhiên cho bài tập
   const setRandomTestList = () => {
-    const randomSets = parceARandomSets(InputDataTest.length);
-    SetPracTestList(randomSets);
+    try {
+      const randomSets = parceARandomSets(InputDataTest.length);
+      SetPracTestList(randomSets);
+    } catch (error) {}
   };
 
   const resetIndexAndPickData = () => {
@@ -234,6 +241,16 @@ function Test() {
       <div>
         <h1>Mobile Screen</h1>
       </div>
+    );
+  }
+
+  // return <>{JSON.stringify(DataPrac)}</>;
+
+  if (DataPrac === null) {
+    return (
+      <>
+        <h1>Loading . . . . </h1>
+      </>
     );
   }
 
@@ -675,7 +692,7 @@ const fixedButtonStyle = {
   borderRadius: "50%",
 };
 
-export default Test;
+export default PracMain;
 
 // Styles cho container
 const containerStyle = {

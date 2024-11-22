@@ -1,6 +1,6 @@
 import tableContent from "../dataContent/file-detail/tk-hotelstaff-01.json";
 import { Link } from "react-router-dom";
-function MoreDetailNoidung() {
+function MoreDetailNoidung({ queryObject }) {
   return (
     <div style={styles.parentContainer}>
       <h1>LOREM 01 ABC</h1>
@@ -10,6 +10,13 @@ function MoreDetailNoidung() {
       <Link to={"/"}>
         <button className="btn btn-outline-primary" style={{}}>
           Quay lại
+        </button>
+      </Link>
+      <Link
+        to={"/?page=prac&&id=" + queryObject.id + "&&sub=" + queryObject.sub}
+      >
+        <button className="btn btn-outline-primary" style={{}}>
+          Thực hành
         </button>
       </Link>
       <hr />

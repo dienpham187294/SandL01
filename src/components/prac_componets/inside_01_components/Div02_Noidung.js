@@ -29,13 +29,21 @@ function Noidung() {
   }, [location.search]);
   return (
     <div style={styles.parentContainer}>
-      {Object.keys(queryObject).length === 0 ? <FrameNoidung /> : null}
+      {Object.keys(queryObject).length === 0 ? (
+        <FrameNoidung queryObject={queryObject} />
+      ) : null}
 
-      {queryObject.page === "detail" ? <DetailNoidung /> : null}
+      {queryObject.page === "detail" ? (
+        <DetailNoidung queryObject={queryObject} />
+      ) : null}
 
-      {queryObject.page === "prac" ? <PracNoidung /> : null}
+      {queryObject.page === "prac" ? (
+        <PracNoidung queryObject={queryObject} />
+      ) : null}
 
-      {queryObject.page === "moreDetail" ? <MoreDetailNoidung /> : null}
+      {queryObject.page === "moreDetail" ? (
+        <MoreDetailNoidung queryObject={queryObject} />
+      ) : null}
     </div>
   );
 }
