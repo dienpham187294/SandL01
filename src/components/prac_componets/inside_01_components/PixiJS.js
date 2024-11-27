@@ -40,6 +40,9 @@ const PixiCanvas = ({ widthPixi = 800, heightPixi = 600 }) => {
       const targetY = roundToNearest(e.clientY - rect.top, 2);
       targetPosition.current = { x: targetX, y: targetY };
       isMoving.current = true;
+
+      console.log(targetX, targetY);
+
       moveCharacter(
         countStep(
           roundToNearest(bunnyPosition.x, 2),
