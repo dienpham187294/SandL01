@@ -6,6 +6,17 @@ import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import NewListHref from "./A1_Header_href_EslConversation.json";
 import HrefImages from "./A1_Header_href_WithImages.json";
 import HrefLearnonyoutube from "./A1_Header_href_Learnonyoutube.json";
+
+const coreKnowledgeSets = [
+  {
+    root: "coreknowledge",
+    preName: "",
+    name: "Thông tin - Kiến thức về Ghép âm - tách âm",
+    link: "ghep-tach-am",
+    id: "socapI",
+  },
+];
+
 const pracEnSets = [
   {
     root: "learninghub",
@@ -40,9 +51,9 @@ export default function Header({ sttRoom, STTconnectFN }) {
       style={{
         position: "fixed",
         width: "100%",
-        height: "10vh",
-        bottom: 0,
-        borderTop: "1px solid black",
+        height: "8vh",
+        top: 0,
+        borderBottom: "1px solid black",
         boxShadow: "0px -2px 10px rgba(0, 0, 0, 0.3)", // Thêm giá trị box-shadow
         // scale: "0.8",
       }}
@@ -76,6 +87,13 @@ export default function Header({ sttRoom, STTconnectFN }) {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
+              {returnDropdown(
+                "Kiến thức cốt lõi",
+                coreKnowledgeSets,
+                { name: "name", link: "link", preName: "preName" },
+                null
+              )}
+
               {returnDropdown(
                 "Giáo án giao tiếp",
                 pracEnSets,
@@ -128,7 +146,7 @@ function returnDropdown(name, inputSets, keysSets, link) {
     <NavDropdown
       title={name}
       id="basic-nav-dropdown"
-      className="dropup" // Thêm lớp "dropup" để tạo drop-up
+      // className="dropup" // Thêm lớp "dropup" để tạo drop-up
     >
       {inputSets.map((e, i) =>
         (() => {

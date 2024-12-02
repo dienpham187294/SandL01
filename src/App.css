@@ -36,10 +36,10 @@
     transform: rotate(360deg);
   }
 }
-.dropup .dropdown-menu {
+/* .dropup .dropdown-menu {
   top: auto;
   bottom: 100%; /* Vị trí của menu sẽ ở phía trên */
-}
+} */
 .divFlexH1 {
   padding: 0 20px;
 }

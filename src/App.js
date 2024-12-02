@@ -13,9 +13,9 @@ import ChatWidget from "./components/ChatWidget";
 import io from "socket.io-client";
 import initializeVoicesAndPlatform from "./ulti/initializeVoicesAndPlatform";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import PracDiv from "./components/prac_componets/A1_ContentFramework";
+import HomeView from "./components/A1_Home";
 import LinkAPI from "./ulti/T0_linkApi";
-
+import KnowGhepAm from "./components/A1_Know_Ghepam";
 // import PixiCanvas from "./components/PixiJS";
 // import RootPrac from "./components/prac_componets/B1_RootPrac";
 const socket = io(LinkAPI, {
@@ -89,7 +89,12 @@ const App = () => {
                 path="/roomoffline/:roomCode/:currentIndex"
                 element={<RoomOffline setSttRoom={setSttRoom} />}
               />
-              <Route path="/" element={<PracDiv />} />
+              <Route path="/" element={<HomeView />} />
+
+              <Route
+                path="/coreknowledge/ghep-tach-am"
+                element={<KnowGhepAm />}
+              />
 
               <Route path="/noexist" element={<NotExist />} />
               <Route

@@ -48,7 +48,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
 
   return (
     <HelmetProvider>
-      <div style={{ padding: "5%" }}>
+      <div style={{ marginTop: "8vh", padding: "5%" }}>
         <Helmet>
           <title>
             {`Cùng thực hành: ${
@@ -68,6 +68,28 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
             )}, ${id}`}
           />
         </Helmet>
+        <h5>
+          Thực hành lặp lại (có ghi nhận phản hồi-sửa chửa) là con đường phải đi
+          qua để đạt được kĩ năng. Hãy lấy kỉ luật và cùng thực hành chung làm
+          động lực.
+        </h5>
+        <ul>
+          <li>Mục tiêu chung cuộc là 10.000 lần nghe nói.</li>
+          <li>
+            Mục tiêu mỗi buổi thực hành ít cũng phải trên 100 lần nghe nói. Một
+            buổi thực hành không dành thời gian nghe-nói nhiều là một buổi chưa
+            hiệu quả.
+          </li>
+          <li>
+            Mỗi buổi học đều nên nhắc lại các kiến thức cốt lõi về tách ghép âm
+          </li>
+          <li>Thực hành ghép âm</li> <li>Thực hành tách âm</li>
+          <li>
+            Làm rõ, học thuộc các "gán nghĩa" từ bảng nội dung (ưu tiên phụ nếu
+            có thời gian).
+          </li>
+          <li>Mở rộng thực hành nhiều bài cùng một lúc.</li>
+        </ul>
 
         {rShowLessonTABLE(dataLearning, currentIndex, setCurrentIndex)}
         <hr />
@@ -119,7 +141,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
 
         <hr />
 
-        <div style={{ fontSize: "larger" }}>
+        {/* <div style={{ fontSize: "larger" }}>
           <h1>Học thuộc lòng!</h1>
           <p>
             <i>
@@ -146,7 +168,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
           </button>
           <hr />
           {generateBootstrapList(dataLearning[currentIndex]?.ListenList)}
-        </div>
+        </div> */}
       </div>
     </HelmetProvider>
   );
