@@ -1,0 +1,5210 @@
+[
+  {
+    "id": "Personal-Information",
+    "SEO": {
+      "seo": {
+        "metaTitle": "Thông tin cá nhân",
+        "metaDescription": "Học cách sử dụng các mẫu câu đơn giản để hỏi và trả lời về tên, số điện thoại, quê quán, nghề nghiệp, sở thích và thông tin gia đình của một người.",
+        "keywords": [
+          "tiếng Anh A1",
+          "hỏi và trả lời",
+          "thông tin cá nhân",
+          "thông tin gia đình",
+          "mẫu câu hỏi"
+        ]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "Personal Information",
+        "IFimg": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg"
+      },
+      "HD": [
+        {
+          "HD-01": "Name or Phone Number",
+          "HD-02": "Hometown",
+          "HD-03": "Occupation",
+          "HD-04": "Personal Interests",
+          "HD-05": "Number of Family Members",
+          "HD-06": "Family Members Included"
+        },
+        {
+          "HD-01": "Her name is Emily.",
+          "HD-02": "She is from London.",
+          "HD-03": "She works as an Engineer.",
+          "HD-04": "She enjoys cycling and reading.",
+          "HD-05": "There are four of them in her family.",
+          "HD-06": "Her family includes parents and a sister."
+        },
+        {
+          "HD-01": "Her name is Jessica.",
+          "HD-02": "She is from Sydney.",
+          "HD-03": "She works as a Chef.",
+          "HD-04": "She enjoys cooking and painting.",
+          "HD-05": "There are three of them in her family.",
+          "HD-06": "Her family includes a spouse and a child."
+        },
+        {
+          "HD-01": "Her name is Sarah.",
+          "HD-02": "She is from Mumbai.",
+          "HD-03": "She works as a Teacher.",
+          "HD-04": "She enjoys dancing and writing.",
+          "HD-05": "There are five of them in her family.",
+          "HD-06": "Her family includes parents and two brothers."
+        },
+        {
+          "HD-01": "Her phone number is 486.",
+          "HD-02": "She is from Tokyo.",
+          "HD-03": "She works as a Doctor.",
+          "HD-04": "She enjoys traveling and listening to music",
+          "HD-05": "There are six of them in her family.",
+          "HD-06": "Her family includes parents and three siblings."
+        },
+        {
+          "HD-01": "Her phone number is 391.",
+          "HD-02": "She is from New York.",
+          "HD-03": "She works as an Artist.",
+          "HD-04": "She enjoys photography and practicing yoga",
+          "HD-05": "There are two of them in her family.",
+          "HD-06": "Her family includes a partner."
+        },
+        {
+          "HD-01": "XXX",
+          "HD-02": "XX",
+          "HD-03": "XX",
+          "HD-04": "XX",
+          "HD-05": "XX",
+          "HD-06": "XX"
+        },
+        {
+          "HD-01": "What is her name or phone number?",
+          "HD-02": "Where is she from?",
+          "HD-03": "What does she do for a living?",
+          "HD-04": "What is her hobbies?",
+          "HD-05": "How many people are there in her family?",
+          "HD-06": "Who are the members of her family?"
+        },
+        {
+          "HD-01": "Her name/phone number is . . .",
+          "HD-02": "She is from . . .",
+          "HD-03": "She works as . . .",
+          "HD-04": "She enjoys . . .",
+          "HD-05": "There are ... of them in her family.",
+          "HD-06": "Her family includes . . ."
+        }
+      ],
+      "TB": []
+    },
+    "charactor": [
+      {
+        "name": "Emily",
+        "gender": "female",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "fsp": "What does she do for a living?",
+        "data": [
+          {
+            "qs": ["What is her name or phone number?"],
+            "aw": ["Her name is Emily."],
+            "aw01": [{ "st": "Her name is Emily.", "id": "A1" }]
+          },
+          {
+            "qs": ["She works as an Engineer."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What does she do for a living?", "id": "A0" }]
+      },
+      {
+        "name": "Emily",
+        "gender": "female",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "fsp": "Emily, how many people are there in her family?",
+        "data": [
+          {
+            "qs": ["What is her name or phone number?"],
+            "aw": ["Her name is Emily."],
+            "aw01": [{ "st": "Her name is Emily.", "id": "A3" }]
+          },
+          {
+            "qs": ["There are four of them in her family."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Emily, how many people are there in her family?",
+            "id": "A2"
+          }
+        ]
+      },
+      {
+        "name": "Sarah",
+        "gender": "female",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "fsp": "Where is she from?",
+        "data": [
+          {
+            "qs": ["What is her name or phone number?"],
+            "aw": ["Her name is Sarah."],
+            "aw01": [{ "st": "Her name is Sarah.", "id": "A5" }]
+          },
+          {
+            "qs": ["She is from Mumbai."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Where is she from?", "id": "A4" }]
+      },
+      {
+        "name": "Ashley",
+        "gender": "female",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "fsp": "Where is she from?",
+        "data": [
+          {
+            "qs": ["What is her name or phone number?"],
+            "aw": ["Her phone number is 486."],
+            "aw01": [{ "st": "Her phone number is 486.", "id": "A7" }]
+          },
+          {
+            "qs": ["She is from Tokyo."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Where is she from?", "id": "A6" }]
+      },
+      {
+        "name": "Sarah",
+        "gender": "female",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "fsp": "How many people are there in her family?",
+        "data": [
+          {
+            "qs": ["What is her name or phone number?"],
+            "aw": ["Her name is Sarah."],
+            "aw01": [{ "st": "Her name is Sarah.", "id": "A9" }]
+          },
+          {
+            "qs": ["There are five of them in her family."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "How many people are there in her family?", "id": "A8" }
+        ]
+      },
+      {
+        "name": "Sarah",
+        "gender": "female",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "fsp": "Who are the members of her family?",
+        "data": [
+          {
+            "qs": ["What is her name or phone number?"],
+            "aw": ["Her name is Sarah."],
+            "aw01": [{ "st": "Her name is Sarah.", "id": "A11" }]
+          },
+          {
+            "qs": ["Her family includes parents and two brothers."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Who are the members of her family?", "id": "A10" }]
+      },
+      {
+        "name": "Ashley",
+        "gender": "female",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "fsp": "How many people are there in her family?",
+        "data": [
+          {
+            "qs": ["What is her name or phone number?"],
+            "aw": ["Her phone number is 486."],
+            "aw01": [{ "st": "Her phone number is 486.", "id": "A13" }]
+          },
+          {
+            "qs": ["There are six of them in her family."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "How many people are there in her family?", "id": "A12" }
+        ]
+      },
+      {
+        "name": "Sarah",
+        "gender": "female",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "fsp": "Sarah, what is her hobbies?",
+        "data": [
+          {
+            "qs": ["What is her name or phone number?"],
+            "aw": ["Her name is Sarah."],
+            "aw01": [{ "st": "Her name is Sarah.", "id": "A15" }]
+          },
+          {
+            "qs": ["She enjoys dancing and writing."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Sarah, what is her hobbies?", "id": "A14" }]
+      },
+      {
+        "name": "Emily",
+        "gender": "female",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "fsp": "Who are the members of her family?",
+        "data": [
+          {
+            "qs": ["What is her name or phone number?"],
+            "aw": ["Her name is Emily."],
+            "aw01": [{ "st": "Her name is Emily.", "id": "A17" }]
+          },
+          {
+            "qs": ["Her family includes parents and a sister."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Who are the members of her family?", "id": "A16" }]
+      },
+      {
+        "name": "Jessica",
+        "gender": "female",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "fsp": "What is her hobbies?",
+        "data": [
+          {
+            "qs": ["What is her name or phone number?"],
+            "aw": ["Her name is Jessica."],
+            "aw01": [{ "st": "Her name is Jessica.", "id": "A19" }]
+          },
+          {
+            "qs": ["She enjoys cooking and painting."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What is her hobbies?", "id": "A18" }]
+      },
+      {
+        "name": "Ashley",
+        "gender": "female",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "fsp": "What does she do for a living?",
+        "data": [
+          {
+            "qs": ["What is her name or phone number?"],
+            "aw": ["Her phone number is 486."],
+            "aw01": [{ "st": "Her phone number is 486.", "id": "A21" }]
+          },
+          {
+            "qs": ["She works as a Doctor."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What does she do for a living?", "id": "A20" }]
+      },
+      {
+        "name": "Jennifer",
+        "gender": "female",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "fsp": "Who are the members of her family?",
+        "data": [
+          {
+            "qs": ["What is her name or phone number?"],
+            "aw": ["Her phone number is 391."],
+            "aw01": [{ "st": "Her phone number is 391.", "id": "A23" }]
+          },
+          {
+            "qs": ["Her family includes a partner."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Who are the members of her family?", "id": "A22" }]
+      },
+      {
+        "name": "Jennifer",
+        "gender": "female",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "fsp": "What is her hobbies?",
+        "data": [
+          {
+            "qs": ["What is her name or phone number?"],
+            "aw": ["Her phone number is 391."],
+            "aw01": [{ "st": "Her phone number is 391.", "id": "A25" }]
+          },
+          {
+            "qs": ["She enjoys photography and practicing yoga"],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What is her hobbies?", "id": "A24" }]
+      },
+      {
+        "name": "Jennifer",
+        "gender": "female",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "fsp": "Where is she from?",
+        "data": [
+          {
+            "qs": ["What is her name or phone number?"],
+            "aw": ["Her phone number is 391."],
+            "aw01": [{ "st": "Her phone number is 391.", "id": "A27" }]
+          },
+          {
+            "qs": ["She is from New York."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Where is she from?", "id": "A26" }]
+      },
+      {
+        "name": "Jennifer",
+        "gender": "female",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "fsp": "How many people are there in her family?",
+        "data": [
+          {
+            "qs": ["What is her name or phone number?"],
+            "aw": ["Her phone number is 391."],
+            "aw01": [{ "st": "Her phone number is 391.", "id": "A29" }]
+          },
+          {
+            "qs": ["There are two of them in her family."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "How many people are there in her family?", "id": "A28" }
+        ]
+      },
+      {
+        "name": "Ashley",
+        "gender": "female",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "fsp": "Who are the members of her family?",
+        "data": [
+          {
+            "qs": ["What is her name or phone number?"],
+            "aw": ["Her phone number is 486."],
+            "aw01": [{ "st": "Her phone number is 486.", "id": "A31" }]
+          },
+          {
+            "qs": ["Her family includes parents and three siblings."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Who are the members of her family?", "id": "A30" }]
+      },
+      {
+        "name": "Jessica",
+        "gender": "female",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "fsp": "Jessica, what does she do for a living?",
+        "data": [
+          {
+            "qs": ["What is her name or phone number?"],
+            "aw": ["Her name is Jessica."],
+            "aw01": [{ "st": "Her name is Jessica.", "id": "A33" }]
+          },
+          {
+            "qs": ["She works as a Chef."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Jessica, what does she do for a living?", "id": "A32" }
+        ]
+      },
+      {
+        "name": "Jessica",
+        "gender": "female",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "fsp": "How many people are there in her family?",
+        "data": [
+          {
+            "qs": ["What is her name or phone number?"],
+            "aw": ["Her name is Jessica."],
+            "aw01": [{ "st": "Her name is Jessica.", "id": "A35" }]
+          },
+          {
+            "qs": ["There are three of them in her family."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "How many people are there in her family?", "id": "A34" }
+        ]
+      },
+      {
+        "name": "Jennifer",
+        "gender": "female",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "fsp": "What does she do for a living?",
+        "data": [
+          {
+            "qs": ["What is her name or phone number?"],
+            "aw": ["Her phone number is 391."],
+            "aw01": [{ "st": "Her phone number is 391.", "id": "A37" }]
+          },
+          {
+            "qs": ["She works as an Artist."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What does she do for a living?", "id": "A36" }]
+      },
+      {
+        "name": "Emily",
+        "gender": "female",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "fsp": "Emily, where is she from?",
+        "data": [
+          {
+            "qs": ["What is her name or phone number?"],
+            "aw": ["Her name is Emily."],
+            "aw01": [{ "st": "Her name is Emily.", "id": "A39" }]
+          },
+          {
+            "qs": ["She is from London."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Emily, where is she from?", "id": "A38" }]
+      },
+      {
+        "name": "Emily",
+        "gender": "female",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "fsp": "What is her hobbies?",
+        "data": [
+          {
+            "qs": ["What is her name or phone number?"],
+            "aw": ["Her name is Emily."],
+            "aw01": [{ "st": "Her name is Emily.", "id": "A41" }]
+          },
+          {
+            "qs": ["She enjoys cycling and reading."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What is her hobbies?", "id": "A40" }]
+      },
+      {
+        "name": "Jessica",
+        "gender": "female",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "fsp": "Jessica, who are the members of her family?",
+        "data": [
+          {
+            "qs": ["What is her name or phone number?"],
+            "aw": ["Her name is Jessica."],
+            "aw01": [{ "st": "Her name is Jessica.", "id": "A43" }]
+          },
+          {
+            "qs": ["Her family includes a spouse and a child."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Jessica, who are the members of her family?", "id": "A42" }
+        ]
+      },
+      {
+        "name": "Ashley",
+        "gender": "female",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "fsp": "What is her hobbies?",
+        "data": [
+          {
+            "qs": ["What is her name or phone number?"],
+            "aw": ["Her phone number is 486."],
+            "aw01": [{ "st": "Her phone number is 486.", "id": "A45" }]
+          },
+          {
+            "qs": ["She enjoys traveling and listening to music"],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What is her hobbies?", "id": "A44" }]
+      },
+      {
+        "name": "Sarah",
+        "gender": "female",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "fsp": "What does she do for a living?",
+        "data": [
+          {
+            "qs": ["What is her name or phone number?"],
+            "aw": ["Her name is Sarah."],
+            "aw01": [{ "st": "Her name is Sarah.", "id": "A47" }]
+          },
+          {
+            "qs": ["She works as a Teacher."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What does she do for a living?", "id": "A46" }]
+      },
+      {
+        "name": "Jessica",
+        "gender": "female",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "fsp": "Where is she from?",
+        "data": [
+          {
+            "qs": ["What is her name or phone number?"],
+            "aw": ["Her name is Jessica."],
+            "aw01": [{ "st": "Her name is Jessica.", "id": "A49" }]
+          },
+          {
+            "qs": ["She is from Sydney."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Where is she from?", "id": "A48" }]
+      }
+    ]
+  },
+  {
+    "id": "Greeting",
+    "SEO": {
+      "seo": {
+        "metaTitle": "Chào hỏi",
+        "metaDescription": "Học cách sử dụng các mẫu câu đơn giản để chào hỏi và đáp lại trong các tình huống giao tiếp hàng ngày.",
+        "keywords": [
+          "tiếng Anh A1",
+          "giao tiếp hàng ngày",
+          "chào hỏi",
+          "đáp lại",
+          "tình huống giao tiếp"
+        ]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "Greeting",
+        "IFimg": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg"
+      },
+      "HD": [
+        {
+          "HD-01": "Meeting situation",
+          "HD-02": "How to greet",
+          "HD-03": "How people respond"
+        },
+        {
+          "HD-01": "Meeting for the first time",
+          "HD-02": "Hello, nice to meet you",
+          "HD-03": "Nice to meet you too"
+        },
+        {
+          "HD-01": "Friend meeting",
+          "HD-02": "Hi!",
+          "HD-03": "Hi! How are you?"
+        },
+        {
+          "HD-01": "Meet in the morning",
+          "HD-02": "Good morning!",
+          "HD-03": "Good morning!"
+        },
+        {
+          "HD-01": "Meet in the afternoon",
+          "HD-02": "Good afternoon!",
+          "HD-03": "Good afternoon!"
+        },
+        {
+          "HD-01": "Meet in the evening",
+          "HD-02": "Good evening!",
+          "HD-03": "Good evening!"
+        },
+        {
+          "HD-01": "Ask about health",
+          "HD-02": "How are you?",
+          "HD-03": "I'm good, thank you! And you?"
+        },
+        {
+          "HD-01": "Hello when arriving at a place",
+          "HD-02": "Hello everyone!",
+          "HD-03": "Hi! Welcome!"
+        },
+        {
+          "HD-01": "Thanks someone",
+          "HD-02": "Thank you!",
+          "HD-03": "You're welcome!"
+        },
+        {
+          "HD-01": "Help me",
+          "HD-02": "Could you help me, please?",
+          "HD-03": "Sure! What do you need?"
+        },
+        {
+          "HD-01": "Have a nice day",
+          "HD-02": "Have a nice day!",
+          "HD-03": "Thanks! You too!"
+        },
+        {
+          "HD-01": "Say hello when meeting strangers",
+          "HD-02": "Hi there!",
+          "HD-03": "Hi!"
+        },
+        {
+          "HD-01": "See you again after a while",
+          "HD-02": "Long time no see!",
+          "HD-03": "Yes, it's been a while!"
+        },
+        { "HD-01": null, "HD-02": null, "HD-03": "X" }
+      ],
+      "TB": []
+    },
+    "charactor": [
+      {
+        "name": "Jessica",
+        "gender": "female",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "fsp": "How to respond when people say: Hello, nice to meet you",
+        "data": [
+          {
+            "qs": ["Nice to meet you too"],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "How to respond when people say: Hello, nice to meet you",
+            "id": "A50"
+          }
+        ]
+      },
+      {
+        "name": "Jennifer",
+        "gender": "female",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "fsp": "How to respond when people say: Good afternoon!",
+        "data": [
+          { "qs": ["Good afternoon!"], "submit": ["FN01"], "action": ["FN01"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "How to respond when people say: Good afternoon!",
+            "id": "A51"
+          }
+        ]
+      },
+      {
+        "name": "Jessica",
+        "gender": "female",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "fsp": "How to respond when people say: Hi there!",
+        "data": [{ "qs": ["Hi!"], "submit": ["FN01"], "action": ["FN01"] }],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "How to respond when people say: Hi there!", "id": "A52" }
+        ]
+      },
+      {
+        "name": "Joshua",
+        "gender": "male",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "fsp": "How to respond when people say: Could you help me, please?",
+        "data": [
+          {
+            "qs": ["Sure! What do you need?"],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "How to respond when people say: Could you help me, please?",
+            "id": "A53"
+          }
+        ]
+      },
+      {
+        "name": "Andrew",
+        "gender": "male",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "fsp": "How to respond when people say: Hello everyone!",
+        "data": [
+          { "qs": ["Hi! Welcome!"], "submit": ["FN01"], "action": ["FN01"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "How to respond when people say: Hello everyone!",
+            "id": "A54"
+          }
+        ]
+      },
+      {
+        "name": "David",
+        "gender": "male",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "fsp": "How to respond when people say: Good evening!",
+        "data": [
+          { "qs": ["Good evening!"], "submit": ["FN01"], "action": ["FN01"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "How to respond when people say: Good evening!", "id": "A55" }
+        ]
+      },
+      {
+        "name": "Michael",
+        "gender": "male",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "fsp": "How to respond when people say: How are you?",
+        "data": [
+          {
+            "qs": ["I'm good, thank you! And you?"],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "How to respond when people say: How are you?", "id": "A56" }
+        ]
+      },
+      {
+        "name": "Emily",
+        "gender": "female",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "fsp": "How to respond when people say: Hello!",
+        "data": [{ "qs": ["Hello!"], "submit": ["FN01"], "action": ["FN01"] }],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "How to respond when people say: Hello!", "id": "A57" }
+        ]
+      },
+      {
+        "name": "Emily",
+        "gender": "female",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "fsp": "How to respond when people say: Have a nice day!",
+        "data": [
+          { "qs": ["Thanks! You too!"], "submit": ["FN01"], "action": ["FN01"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "How to respond when people say: Have a nice day!",
+            "id": "A58"
+          }
+        ]
+      },
+      {
+        "name": "Sarah",
+        "gender": "female",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "fsp": "How to respond when people say: Hi!",
+        "data": [
+          { "qs": ["Hi! How are you?"], "submit": ["FN01"], "action": ["FN01"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "How to respond when people say: Hi!", "id": "A59" }
+        ]
+      },
+      {
+        "name": "Christopher",
+        "gender": "male",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "fsp": "How to respond when people say: Thank you!",
+        "data": [
+          { "qs": ["You're welcome!"], "submit": ["FN01"], "action": ["FN01"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "How to respond when people say: Thank you!", "id": "A60" }
+        ]
+      },
+      {
+        "name": "Ashley",
+        "gender": "female",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "fsp": "How to respond when people say: Good morning!",
+        "data": [
+          { "qs": ["Good morning!"], "submit": ["FN01"], "action": ["FN01"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "How to respond when people say: Good morning!", "id": "A61" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Day&Time",
+    "SEO": {
+      "seo": {
+        "metaTitle": "Mua sắm",
+        "metaDescription": "Học cách sử dụng các mẫu câu đơn giản để hỏi và trả lời về thời gian, ngày tháng, và chi tiết mua hàng.",
+        "keywords": [
+          "tiếng Anh A1",
+          "hỏi và trả lời",
+          "mua sắm",
+          "ngày tháng mua hàng",
+          "chi tiết mua hàng"
+        ]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "Day&Time",
+        "IFimg": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg"
+      },
+      "HD": [
+        {
+          "HD-01": "Day of the Week",
+          "HD-02": "Time",
+          "HD-03": "Date&Month",
+          "HD-04": "Type of Fruit Purchased",
+          "HD-05": "Quantity"
+        },
+        {
+          "HD-01": "Monday",
+          "HD-02": "At 9:00 AM.",
+          "HD-03": "The 1st of January",
+          "HD-04": "Apples",
+          "HD-05": "A dozen"
+        },
+        {
+          "HD-01": "Wednesday",
+          "HD-02": "At 3:30 PM.",
+          "HD-03": "The 15th of February",
+          "HD-04": "Bananas",
+          "HD-05": 12
+        },
+        {
+          "HD-01": "Friday",
+          "HD-02": "At 11:00 AM.",
+          "HD-03": "The 23rd of March",
+          "HD-04": "Oranges",
+          "HD-05": 8
+        },
+        {
+          "HD-01": "Sunday",
+          "HD-02": "At 5:00 PM.",
+          "HD-03": "The 7th of April",
+          "HD-04": "Grapes",
+          "HD-05": "2 bunches"
+        },
+        {
+          "HD-01": "Tuesday",
+          "HD-02": "At 2:00 PM.",
+          "HD-03": "The 12th of May",
+          "HD-04": "Strawberries",
+          "HD-05": "3 boxes"
+        },
+        {
+          "HD-01": "X",
+          "HD-02": "X",
+          "HD-03": "X",
+          "HD-04": "XXX",
+          "HD-05": "X"
+        },
+        {
+          "HD-01": "When did I buy it?",
+          "HD-02": "What time did I buy it?",
+          "HD-03": "What date did I buy it?",
+          "HD-04": "What thing did you buy?\nWhat thing?\nWhat is it?",
+          "HD-05": "How many did you buy?"
+        },
+        {
+          "HD-01": "You bought it on ___",
+          "HD-02": "You bought it at ___",
+          "HD-03": "You bought it on the ___",
+          "HD-04": "Apples",
+          "HD-05": "You bought ___"
+        }
+      ],
+      "TB": []
+    },
+    "charactor": [
+      {
+        "gender": "female",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "fsp": "What date did I buy Strawberries?",
+        "data": [
+          {
+            "qs": ["What thing did you buy?", "What thing?", "What is it?"],
+            "aw": ["Strawberries"],
+            "aw01": [{ "st": "Strawberries", "id": "A63" }]
+          },
+          {
+            "qs": ["You bought it on the 12th of May"],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What date did I buy Strawberries?", "id": "A62" }]
+      },
+      {
+        "gender": "female",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "fsp": "What date did I buy it?",
+        "data": [
+          {
+            "qs": ["What thing did you buy?", "What thing?", "What is it?"],
+            "aw": ["Grapes"],
+            "aw01": [{ "st": "Grapes", "id": "A65" }]
+          },
+          {
+            "qs": ["You bought it on the 7th of April"],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What date did I buy it?", "id": "A64" }]
+      },
+      {
+        "gender": "male",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "fsp": "How many did I buy?",
+        "data": [
+          {
+            "qs": ["What thing did you buy?", "What thing?", "What is it?"],
+            "aw": ["Strawberries"],
+            "aw01": [{ "st": "Strawberries", "id": "A67" }]
+          },
+          {
+            "qs": ["You bought 3 boxes."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How many did I buy?", "id": "A66" }]
+      },
+      {
+        "gender": "male",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "fsp": "What time did I buy Strawberries?",
+        "data": [
+          {
+            "qs": ["What thing did you buy?", "What thing?", "What is it?"],
+            "aw": ["Strawberries"],
+            "aw01": [{ "st": "Strawberries", "id": "A69" }]
+          },
+          {
+            "qs": ["You bought it at 2:00 PM."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What time did I buy Strawberries?", "id": "A68" }]
+      },
+      {
+        "gender": "male",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "fsp": "What time did I buy it?",
+        "data": [
+          {
+            "qs": ["What thing did you buy?", "What thing?", "What is it?"],
+            "aw": ["Apples"],
+            "aw01": [{ "st": "Apples", "id": "A71" }]
+          },
+          {
+            "qs": ["You bought it at 9:00 AM."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What time did I buy it?", "id": "A70" }]
+      },
+      {
+        "gender": "female",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "fsp": "What day did I buy Bananas?",
+        "data": [
+          {
+            "qs": ["What thing did you buy?", "What thing?", "What is it?"],
+            "aw": ["Bananas"],
+            "aw01": [{ "st": "Bananas", "id": "A73" }]
+          },
+          {
+            "qs": ["You bought it on Wednesday"],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What day did I buy Bananas?", "id": "A72" }]
+      },
+      {
+        "gender": "male",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "fsp": "How many did I buy?",
+        "data": [
+          {
+            "qs": ["What thing did you buy?", "What thing?", "What is it?"],
+            "aw": ["Bananas"],
+            "aw01": [{ "st": "Bananas", "id": "A75" }]
+          },
+          { "qs": ["You bought 12."], "submit": ["FN01"], "action": ["FN01"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How many did I buy?", "id": "A74" }]
+      },
+      {
+        "gender": "male",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "fsp": "How many did I buy?",
+        "data": [
+          {
+            "qs": ["What thing did you buy?", "What thing?", "What is it?"],
+            "aw": ["Grapes"],
+            "aw01": [{ "st": "Grapes", "id": "A77" }]
+          },
+          {
+            "qs": ["You bought 2 bunches."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How many did I buy?", "id": "A76" }]
+      },
+      {
+        "gender": "female",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "fsp": "What date did I buy it?",
+        "data": [
+          {
+            "qs": ["What thing did you buy?", "What thing?", "What is it?"],
+            "aw": ["Oranges"],
+            "aw01": [{ "st": "Oranges", "id": "A79" }]
+          },
+          {
+            "qs": ["You bought it on the 23rd of March"],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What date did I buy it?", "id": "A78" }]
+      },
+      {
+        "gender": "female",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "fsp": "What date did I buy it?",
+        "data": [
+          {
+            "qs": ["What thing did you buy?", "What thing?", "What is it?"],
+            "aw": ["Apples"],
+            "aw01": [{ "st": "Apples", "id": "A81" }]
+          },
+          {
+            "qs": ["You bought it on the 1st of January"],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What date did I buy it?", "id": "A80" }]
+      },
+      {
+        "gender": "female",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "fsp": "When did I buy it?",
+        "data": [
+          {
+            "qs": ["What thing did you buy?", "What thing?", "What is it?"],
+            "aw": ["Apples"],
+            "aw01": [{ "st": "Apples", "id": "A83" }]
+          },
+          {
+            "qs": ["You bought it on Monday"],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "When did I buy it?", "id": "A82" }]
+      },
+      {
+        "gender": "male",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "fsp": "What time did I buy Oranges?",
+        "data": [
+          {
+            "qs": ["What thing did you buy?", "What thing?", "What is it?"],
+            "aw": ["Oranges"],
+            "aw01": [{ "st": "Oranges", "id": "A85" }]
+          },
+          {
+            "qs": ["You bought it at 11:00 AM."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What time did I buy Oranges?", "id": "A84" }]
+      },
+      {
+        "gender": "male",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "fsp": "How many did I buy?",
+        "data": [
+          {
+            "qs": ["What thing did you buy?", "What thing?", "What is it?"],
+            "aw": ["Apples"],
+            "aw01": [{ "st": "Apples", "id": "A87" }]
+          },
+          {
+            "qs": ["You bought a dozen"],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How many did I buy?", "id": "A86" }]
+      },
+      {
+        "gender": "male",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "fsp": "How many did I buy Oranges?",
+        "data": [
+          {
+            "qs": ["What thing did you buy?", "What thing?", "What is it?"],
+            "aw": ["Oranges"],
+            "aw01": [{ "st": "Oranges", "id": "A89" }]
+          },
+          { "qs": ["You bought 8."], "submit": ["FN01"], "action": ["FN01"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How many did I buy Oranges?", "id": "A88" }]
+      },
+      {
+        "gender": "female",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "fsp": "What date did I buy Bananas?",
+        "data": [
+          {
+            "qs": ["What thing did you buy?", "What thing?", "What is it?"],
+            "aw": ["Bananas"],
+            "aw01": [{ "st": "Bananas", "id": "A91" }]
+          },
+          {
+            "qs": ["You bought it on the 15th of February"],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What date did I buy Bananas?", "id": "A90" }]
+      },
+      {
+        "gender": "male",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "fsp": "What time did I buy it?",
+        "data": [
+          {
+            "qs": ["What thing did you buy?", "What thing?", "What is it?"],
+            "aw": ["Bananas"],
+            "aw01": [{ "st": "Bananas", "id": "A93" }]
+          },
+          {
+            "qs": ["You bought it at 3:30 PM."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What time did I buy it?", "id": "A92" }]
+      },
+      {
+        "gender": "female",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "fsp": "When did I buy it?",
+        "data": [
+          {
+            "qs": ["What thing did you buy?", "What thing?", "What is it?"],
+            "aw": ["Oranges"],
+            "aw01": [{ "st": "Oranges", "id": "A95" }]
+          },
+          {
+            "qs": ["You bought it on Friday"],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "When did I buy it?", "id": "A94" }]
+      },
+      {
+        "gender": "female",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "fsp": "What day did I buy Grapes?",
+        "data": [
+          {
+            "qs": ["What thing did you buy?", "What thing?", "What is it?"],
+            "aw": ["Grapes"],
+            "aw01": [{ "st": "Grapes", "id": "A97" }]
+          },
+          {
+            "qs": ["You bought it on Sunday"],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What day did I buy Grapes?", "id": "A96" }]
+      },
+      {
+        "gender": "female",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "fsp": "When did I buy it?",
+        "data": [
+          {
+            "qs": ["What thing did you buy?", "What thing?", "What is it?"],
+            "aw": ["Strawberries"],
+            "aw01": [{ "st": "Strawberries", "id": "A99" }]
+          },
+          {
+            "qs": ["You bought it on Tuesday"],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "When did I buy it?", "id": "A98" }]
+      },
+      {
+        "gender": "male",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "fsp": "What time did I buy it?",
+        "data": [
+          {
+            "qs": ["What thing did you buy?", "What thing?", "What is it?"],
+            "aw": ["Grapes"],
+            "aw01": [{ "st": "Grapes", "id": "A101" }]
+          },
+          {
+            "qs": ["You bought it at 5:00 PM."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What time did I buy it?", "id": "A100" }]
+      }
+    ]
+  },
+  {
+    "id": "Describe-Objects",
+    "SEO": {
+      "seo": {
+        "metaTitle": "Mô tả đồ vật",
+        "metaDescription": "Học cách sử dụng các mẫu câu đơn giản để hỏi và trả lời về đặc điểm, mục đích và cách sử dụng của một đồ vật phổ biến như đồng hồ.",
+        "keywords": [
+          "tiếng Anh A1",
+          "hỏi và trả lời",
+          "đồ vật",
+          "mô tả",
+          "công dụng",
+          "đồng hồ"
+        ]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "Describe Objects",
+        "IFimg": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg"
+      },
+      "HD": [
+        {
+          "HD-01": "Household Item",
+          "HD-02": "Detailed Description",
+          "HD-03": "Purpose",
+          "HD-04": "Common Use"
+        },
+        {
+          "HD-01": "Sofa",
+          "HD-02": "It is a large, soft, and comfortable piece of furniture",
+          "HD-03": "It is used to sit or lie down.",
+          "HD-04": "You can use it in the living room to relax."
+        },
+        {
+          "HD-01": "Frying Pan",
+          "HD-02": "It is a round, flat metal utensil",
+          "HD-03": "It is used to cook food",
+          "HD-04": "You can use it in the kitchen to fry eggs or pancakes."
+        },
+        {
+          "HD-01": "Lamp",
+          "HD-02": "It is tall, has a shade, and provides light.",
+          "HD-03": "It is used to illuminate a room",
+          "HD-04": "You can use it in any room to read or work."
+        },
+        {
+          "HD-01": "Pillow",
+          "HD-02": "It is a soft, fluffy, rectangular cushion.",
+          "HD-03": "It is used to support your head while sleeping.",
+          "HD-04": "You can use it on the bed for comfort while sleeping."
+        },
+        {
+          "HD-01": "Clock",
+          "HD-02": "It has a round face with numbers and two hands",
+          "HD-03": "It is used to tell time.",
+          "HD-04": "You can use it in different rooms to check the time."
+        },
+        { "HD-01": "XXX", "HD-02": "XX", "HD-03": "XX", "HD-04": "XX" },
+        {
+          "HD-01": "What is it?",
+          "HD-02": "Can you give a detailed description of it?",
+          "HD-03": "Can you explain the purpose of it?",
+          "HD-04": "Can you describe some common uses of it?"
+        },
+        { "HD-01": "It is a ___", "HD-02": null, "HD-03": null, "HD-04": null }
+      ],
+      "TB": []
+    },
+    "charactor": [
+      {
+        "name": "Jessica",
+        "gender": "female",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "fsp": "Can you give a detailed description of a frying pan?",
+        "data": [
+          {
+            "qs": ["What is it?"],
+            "aw": ["It is a frying pan."],
+            "aw01": [{ "st": "It is a frying pan.", "id": "A103" }]
+          },
+          {
+            "qs": ["It is a round, flat metal utensil used for cooking."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Well"],
+            "aw01": [{ "st": "Well", "id": "A104" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Can you give a detailed description of a frying pan?",
+            "id": "A102"
+          }
+        ]
+      },
+      {
+        "name": "Emily",
+        "gender": "female",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "fsp": "Can you give a detailed description of it?",
+        "data": [
+          {
+            "qs": ["What is it?"],
+            "aw": ["It is a sofa."],
+            "aw01": [{ "st": "It is a sofa.", "id": "A106" }]
+          },
+          {
+            "qs": [
+              "It is a large, soft, and comfortable piece of furniture for seating"
+            ],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Well"],
+            "aw01": [{ "st": "Well", "id": "A107" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Can you give a detailed description of it?", "id": "A105" }
+        ]
+      },
+      {
+        "name": "Sarah",
+        "gender": "female",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "fsp": "Can you give a detailed description of it?",
+        "data": [
+          {
+            "qs": ["What is it?"],
+            "aw": ["It is a lamp."],
+            "aw01": [{ "st": "It is a lamp.", "id": "A109" }]
+          },
+          {
+            "qs": ["It is tall, has a shade, and provides light."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Well"],
+            "aw01": [{ "st": "Well", "id": "A110" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Can you give a detailed description of it?", "id": "A108" }
+        ]
+      },
+      {
+        "name": "Joshua",
+        "gender": "male",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "fsp": "Can you explain the purpose of it?",
+        "data": [
+          {
+            "qs": ["What is it?"],
+            "aw": ["It is a clock."],
+            "aw01": [{ "st": "It is a clock.", "id": "A112" }]
+          },
+          {
+            "qs": ["It is used to tell time."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Well"],
+            "aw01": [{ "st": "Well", "id": "A113" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Can you explain the purpose of it?", "id": "A111" }
+        ]
+      },
+      {
+        "name": "Jennifer",
+        "gender": "female",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "fsp": "Can you describe some common uses of a clock?",
+        "data": [
+          {
+            "qs": ["What is it?"],
+            "aw": ["It is a clock."],
+            "aw01": [{ "st": "It is a clock.", "id": "A115" }]
+          },
+          {
+            "qs": ["You can use it in different rooms to check the time."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Well"],
+            "aw01": [{ "st": "Well", "id": "A116" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Can you describe some common uses of a clock?",
+            "id": "A114"
+          }
+        ]
+      },
+      {
+        "name": "Jessica",
+        "gender": "female",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "fsp": "Can you describe some common uses of it?",
+        "data": [
+          {
+            "qs": ["What is it?"],
+            "aw": ["It is a frying pan."],
+            "aw01": [{ "st": "It is a frying pan.", "id": "A118" }]
+          },
+          {
+            "qs": ["You can use it in the kitchen to fry eggs or pancakes."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Well"],
+            "aw01": [{ "st": "Well", "id": "A119" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Can you describe some common uses of it?", "id": "A117" }
+        ]
+      },
+      {
+        "name": "David",
+        "gender": "male",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "fsp": "Can you explain the purpose of a sofa.?",
+        "data": [
+          {
+            "qs": ["What is it?"],
+            "aw": ["It is a sofa."],
+            "aw01": [{ "st": "It is a sofa.", "id": "A121" }]
+          },
+          {
+            "qs": ["It is used to sit or lie down."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Well"],
+            "aw01": [{ "st": "Well", "id": "A122" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Can you explain the purpose of a sofa.?", "id": "A120" }
+        ]
+      },
+      {
+        "name": "Jennifer",
+        "gender": "female",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "fsp": "Can you give a detailed description of it?",
+        "data": [
+          {
+            "qs": ["What is it?"],
+            "aw": ["It is a clock."],
+            "aw01": [{ "st": "It is a clock.", "id": "A124" }]
+          },
+          {
+            "qs": [
+              "It has a round face with numbers and two hands to show the time."
+            ],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Well"],
+            "aw01": [{ "st": "Well", "id": "A125" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Can you give a detailed description of it?", "id": "A123" }
+        ]
+      },
+      {
+        "name": "Andrew",
+        "gender": "male",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "fsp": "Can you explain the purpose of it?",
+        "data": [
+          {
+            "qs": ["What is it?"],
+            "aw": ["It is a lamp."],
+            "aw01": [{ "st": "It is a lamp.", "id": "A127" }]
+          },
+          {
+            "qs": ["It is used to illuminate a room"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Well"],
+            "aw01": [{ "st": "Well", "id": "A128" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Can you explain the purpose of it?", "id": "A126" }
+        ]
+      },
+      {
+        "name": "Ashley",
+        "gender": "female",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "fsp": "Can you describe some common uses of it?",
+        "data": [
+          {
+            "qs": ["What is it?"],
+            "aw": ["It is a pillow."],
+            "aw01": [{ "st": "It is a pillow.", "id": "A130" }]
+          },
+          {
+            "qs": ["You can use it on the bed for comfort while sleeping."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Well"],
+            "aw01": [{ "st": "Well", "id": "A131" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Can you describe some common uses of it?", "id": "A129" }
+        ]
+      },
+      {
+        "name": "Sarah",
+        "gender": "female",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "fsp": "Can you describe some common uses of a lamp?",
+        "data": [
+          {
+            "qs": ["What is it?"],
+            "aw": ["It is a lamp."],
+            "aw01": [{ "st": "It is a lamp.", "id": "A133" }]
+          },
+          {
+            "qs": ["You can use it in any room to read or work."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Well"],
+            "aw01": [{ "st": "Well", "id": "A134" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Can you describe some common uses of a lamp?", "id": "A132" }
+        ]
+      },
+      {
+        "name": "Michael",
+        "gender": "male",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "fsp": "Can you explain the purpose of it?",
+        "data": [
+          {
+            "qs": ["What is it?"],
+            "aw": ["It is a frying pan."],
+            "aw01": [{ "st": "It is a frying pan.", "id": "A136" }]
+          },
+          {
+            "qs": ["It is used to cook food"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Well"],
+            "aw01": [{ "st": "Well", "id": "A137" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Can you explain the purpose of it?", "id": "A135" }
+        ]
+      },
+      {
+        "name": "Emily",
+        "gender": "female",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "fsp": "Can you describe some common uses of it?",
+        "data": [
+          {
+            "qs": ["What is it?"],
+            "aw": ["It is a sofa."],
+            "aw01": [{ "st": "It is a sofa.", "id": "A139" }]
+          },
+          {
+            "qs": ["You can use it in the living room to relax."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Well"],
+            "aw01": [{ "st": "Well", "id": "A140" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Can you describe some common uses of it?", "id": "A138" }
+        ]
+      },
+      {
+        "name": "Christopher",
+        "gender": "male",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "fsp": "Can you explain the purpose of a pillow?",
+        "data": [
+          {
+            "qs": ["What is it?"],
+            "aw": ["It is a pillow."],
+            "aw01": [{ "st": "It is a pillow.", "id": "A142" }]
+          },
+          {
+            "qs": ["It is used to support your head while sleeping."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Well"],
+            "aw01": [{ "st": "Well", "id": "A143" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Can you explain the purpose of a pillow?", "id": "A141" }
+        ]
+      },
+      {
+        "name": "Ashley",
+        "gender": "female",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "fsp": "Can you give a detailed description of it?",
+        "data": [
+          {
+            "qs": ["What is it?"],
+            "aw": ["It is a pillow."],
+            "aw01": [{ "st": "It is a pillow.", "id": "A145" }]
+          },
+          {
+            "qs": ["It is a soft, fluffy, rectangular cushion."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Well"],
+            "aw01": [{ "st": "Well", "id": "A146" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Can you give a detailed description of it?", "id": "A144" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Directions",
+    "SEO": {
+      "seo": {
+        "metaTitle": "Di chuyển và Phương tiện",
+        "metaDescription": "Học cách sử dụng các mẫu câu đơn giản để hỏi và trả lời về các địa điểm, cách di chuyển từ nơi này đến nơi khác, phương tiện di chuyển, và thời gian cần thiết.",
+        "keywords": [
+          "tiếng Anh A1",
+          "di chuyển",
+          "phương tiện giao thông",
+          "chỉ đường",
+          "thời gian di chuyển"
+        ]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "Directions",
+        "IFimg": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg"
+      },
+      "HD": [
+        {
+          "HD-01": "Starting Point",
+          "HD-02": "Destination",
+          "HD-03": "Location Description",
+          "HD-04": "Directions from Starting Point to Destination",
+          "HD-05": "Means of Transportation",
+          "HD-06": "Time Required"
+        },
+        {
+          "HD-01": "Home",
+          "HD-02": "Office",
+          "HD-03": "It is in the downtown area.",
+          "HD-04": "Go straight, turn right at the bank, then left at the cafe",
+          "HD-05": "The means of transportation is a bus.",
+          "HD-06": "It takes 30 minutes."
+        },
+        {
+          "HD-01": "School",
+          "HD-02": "Library",
+          "HD-03": "It is across the park.",
+          "HD-04": "Exit school gate, and walk across the park.",
+          "HD-05": "The means of transportation is walking.",
+          "HD-06": "It takes 15 minutes."
+        },
+        {
+          "HD-01": "Gym",
+          "HD-02": "Supermarket",
+          "HD-03": "It is next to the gym.",
+          "HD-04": "Exit gym, supermarket is on the right",
+          "HD-05": "The means of transportation is walking.",
+          "HD-06": "It takes 5 minutes."
+        },
+        {
+          "HD-01": "Hotel",
+          "HD-02": "Beach",
+          "HD-03": "It is a seaside location.",
+          "HD-04": "Go straight down Main Street, the beach is at the end of the road.",
+          "HD-05": "The means of transportation is a taxi.",
+          "HD-06": "It takes 20 minutes."
+        },
+        {
+          "HD-01": "Park",
+          "HD-02": "Cafe",
+          "HD-03": "It is an urban area.",
+          "HD-04": "Go out of the park, take the bike lane on Green Street, and the cafe is on the left after two blocks.",
+          "HD-05": "The means of transportation is a bicycle.",
+          "HD-06": "It takes 10 minutes."
+        },
+        {
+          "HD-01": null,
+          "HD-02": null,
+          "HD-03": "XX",
+          "HD-04": "XX",
+          "HD-05": "XX",
+          "HD-06": "XX"
+        },
+        {
+          "HD-01": null,
+          "HD-02": null,
+          "HD-03": "What is the location description of the ____?",
+          "HD-04": "What are the directions from __ to __?",
+          "HD-05": "What is the means of transportation for going from __ to __?",
+          "HD-06": "What is the time required to go from ___ to ___?"
+        },
+        {
+          "HD-01": null,
+          "HD-02": null,
+          "HD-03": "It is ____.",
+          "HD-04": "__",
+          "HD-05": "The means of transportation is __.",
+          "HD-06": "It takes ___."
+        }
+      ],
+      "TB": []
+    },
+    "charactor": [
+      {
+        "name": "Sarah",
+        "gender": "female",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "fsp": "What is the location description of the beach?",
+        "data": [
+          {
+            "qs": ["It is a seaside location."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Good, thank you."],
+            "aw01": [{ "st": "Good, thank you.", "id": "A148" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the location description of the beach?",
+            "id": "A147"
+          }
+        ]
+      },
+      {
+        "name": "Jennifer",
+        "gender": "female",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "fsp": "What is the location description of the library?",
+        "data": [
+          {
+            "qs": ["It is across the park."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Good, thank you."],
+            "aw01": [{ "st": "Good, thank you.", "id": "A150" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the location description of the library?",
+            "id": "A149"
+          }
+        ]
+      },
+      {
+        "name": "Emily",
+        "gender": "female",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "fsp": "What is the location description of the office?",
+        "data": [
+          {
+            "qs": ["It is in the downtown area."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Good, thank you."],
+            "aw01": [{ "st": "Good, thank you.", "id": "A152" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the location description of the office?",
+            "id": "A151"
+          }
+        ]
+      },
+      {
+        "name": "Sarah",
+        "gender": "female",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "fsp": "What is the means of transportation for going from home to office?",
+        "data": [
+          {
+            "qs": ["The means of transportation is a bus."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Good, thank you."],
+            "aw01": [{ "st": "Good, thank you.", "id": "A154" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the means of transportation for going from home to office?",
+            "id": "A153"
+          }
+        ]
+      },
+      {
+        "name": "Jessica",
+        "gender": "female",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "fsp": "What are the directions from home to office?",
+        "data": [
+          {
+            "qs": [
+              "Go straight, turn right at the bank, then left at the cafe."
+            ],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Good, thank you."],
+            "aw01": [{ "st": "Good, thank you.", "id": "A156" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What are the directions from home to office?", "id": "A155" }
+        ]
+      },
+      {
+        "name": "Michael",
+        "gender": "male",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "fsp": "What is the means of transportation for going from school to library?",
+        "data": [
+          {
+            "qs": ["The means of transportation is walking."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Good, thank you."],
+            "aw01": [{ "st": "Good, thank you.", "id": "A158" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the means of transportation for going from school to library?",
+            "id": "A157"
+          }
+        ]
+      },
+      {
+        "name": "Emily",
+        "gender": "female",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "fsp": "What is the means of transportation for going from gym to supermarket?",
+        "data": [
+          {
+            "qs": ["The means of transportation is walking."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Good, thank you."],
+            "aw01": [{ "st": "Good, thank you.", "id": "A160" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the means of transportation for going from gym to supermarket?",
+            "id": "A159"
+          }
+        ]
+      },
+      {
+        "name": "Michael",
+        "gender": "male",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "fsp": "What is the location description of the cafe?",
+        "data": [
+          {
+            "qs": ["It is an urban area."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Good, thank you."],
+            "aw01": [{ "st": "Good, thank you.", "id": "A162" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the location description of the cafe?",
+            "id": "A161"
+          }
+        ]
+      },
+      {
+        "name": "Andrew",
+        "gender": "male",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "fsp": "What are the directions from park to cafe?",
+        "data": [
+          {
+            "qs": [
+              "Go out of the park, take the bike lane on Green Street, and the cafe is on the left after two blocks."
+            ],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Good, thank you."],
+            "aw01": [{ "st": "Good, thank you.", "id": "A164" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What are the directions from park to cafe?", "id": "A163" }
+        ]
+      },
+      {
+        "name": "Joshua",
+        "gender": "male",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "fsp": "What are the directions from gym to supermarket?",
+        "data": [
+          {
+            "qs": ["Exit the gym; the supermarket is on the right."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Good, thank you."],
+            "aw01": [{ "st": "Good, thank you.", "id": "A166" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What are the directions from gym to supermarket?",
+            "id": "A165"
+          }
+        ]
+      },
+      {
+        "name": "Jessica",
+        "gender": "female",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "fsp": "What is the time required to go from gym to supermarket?",
+        "data": [
+          {
+            "qs": ["It takes 5 minutes."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Good, thank you."],
+            "aw01": [{ "st": "Good, thank you.", "id": "A168" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the time required to go from gym to supermarket?",
+            "id": "A167"
+          }
+        ]
+      },
+      {
+        "name": "Andrew",
+        "gender": "male",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "fsp": "What is the time required to go from school to library?",
+        "data": [
+          {
+            "qs": ["It takes 15 minutes."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Good, thank you."],
+            "aw01": [{ "st": "Good, thank you.", "id": "A170" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the time required to go from school to library?",
+            "id": "A169"
+          }
+        ]
+      },
+      {
+        "name": "Ashley",
+        "gender": "female",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "fsp": "What are the directions from hotel to beach?",
+        "data": [
+          {
+            "qs": [
+              "Go straight down Main Street, the beach is at the end of the road."
+            ],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Good, thank you."],
+            "aw01": [{ "st": "Good, thank you.", "id": "A172" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What are the directions from hotel to beach?", "id": "A171" }
+        ]
+      },
+      {
+        "name": "Joshua",
+        "gender": "male",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "fsp": "What is the time required to go from park to cafe?",
+        "data": [
+          {
+            "qs": ["It takes 10 minutes."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Good, thank you."],
+            "aw01": [{ "st": "Good, thank you.", "id": "A174" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the time required to go from park to cafe?",
+            "id": "A173"
+          }
+        ]
+      },
+      {
+        "name": "Ashley",
+        "gender": "female",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "fsp": "What is the time required to go from home to office?",
+        "data": [
+          {
+            "qs": ["It takes 30 minutes."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Good, thank you."],
+            "aw01": [{ "st": "Good, thank you.", "id": "A176" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the time required to go from home to office?",
+            "id": "A175"
+          }
+        ]
+      },
+      {
+        "name": "David",
+        "gender": "male",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "fsp": "What is the time required to go from hotel to beach?",
+        "data": [
+          {
+            "qs": ["It takes 20 minutes."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Good, thank you."],
+            "aw01": [{ "st": "Good, thank you.", "id": "A178" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the time required to go from hotel to beach?",
+            "id": "A177"
+          }
+        ]
+      },
+      {
+        "name": "David",
+        "gender": "male",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "fsp": "What are the directions from school to library?",
+        "data": [
+          {
+            "qs": ["Exit school gate, and walk across the park."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Good, thank you."],
+            "aw01": [{ "st": "Good, thank you.", "id": "A180" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What are the directions from school to library?",
+            "id": "A179"
+          }
+        ]
+      },
+      {
+        "name": "Jennifer",
+        "gender": "female",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "fsp": "What is the means of transportation for going from hotel to beach?",
+        "data": [
+          {
+            "qs": ["The means of transportation is a taxi."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Good, thank you."],
+            "aw01": [{ "st": "Good, thank you.", "id": "A182" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the means of transportation for going from hotel to beach?",
+            "id": "A181"
+          }
+        ]
+      },
+      {
+        "name": "Christopher",
+        "gender": "male",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "fsp": "What is the means of transportation for going from park to cafe?",
+        "data": [
+          {
+            "qs": ["The means of transportation is a bicycle."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Good, thank you."],
+            "aw01": [{ "st": "Good, thank you.", "id": "A184" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the means of transportation for going from park to cafe?",
+            "id": "A183"
+          }
+        ]
+      },
+      {
+        "name": "Christopher",
+        "gender": "male",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "fsp": "What is the location description of the supermarket?",
+        "data": [
+          {
+            "qs": ["It is next to the gym."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Good, thank you."],
+            "aw01": [{ "st": "Good, thank you.", "id": "A186" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the location description of the supermarket?",
+            "id": "A185"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Daily-Activity",
+    "SEO": {
+      "seo": {
+        "metaTitle": "Hoạt Động Hàng Ngày",
+        "metaDescription": "Học cách sử dụng các mẫu câu đơn giản để hỏi và trả lời về thời gian, hoạt động, cảm xúc, tính thường xuyên và tần suất của hoạt động hàng ngày.",
+        "keywords": [
+          "tiếng Anh A1",
+          "mô tả hoạt động",
+          "hoạt động hàng ngày",
+          "cảm xúc",
+          "tần suất"
+        ]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "Daily Activity",
+        "IFimg": "https://i.postimg.cc/s2GYz4SL/David-20.jpg"
+      },
+      "HD": [
+        {
+          "HD-01": "What Time/Part of Day",
+          "HD-02": "What Daily Activity",
+          "HD-03": "How It Feels",
+          "HD-04": "Is It Done Regularly",
+          "HD-05": "How Often It Is Done"
+        },
+        {
+          "HD-01": "It is 6:00 AM, early in the morning.",
+          "HD-02": "You are stretching.",
+          "HD-03": "You feel good.",
+          "HD-04": "Yes",
+          "HD-05": "Every day"
+        },
+        {
+          "HD-01": "It is 7:00 AM, in the morning.",
+          "HD-02": "You are jogging.",
+          "HD-03": "You feel strong.",
+          "HD-04": "Yes",
+          "HD-05": "Every day"
+        },
+        {
+          "HD-01": "It is 8:00 AM, in the morning.",
+          "HD-02": "You are having breakfast.",
+          "HD-03": "You feel full.",
+          "HD-04": "Yes",
+          "HD-05": "Every day"
+        },
+        {
+          "HD-01": "It is 10:00 AM, in the middle of the morning.",
+          "HD-02": "You are having a coffee break.",
+          "HD-03": "You feel relaxed.",
+          "HD-04": "Yes",
+          "HD-05": "Every day"
+        },
+        {
+          "HD-01": "It is 12:00 PM, noon.",
+          "HD-02": "You are eating lunch.",
+          "HD-03": "You feel happy.",
+          "HD-04": "Yes",
+          "HD-05": "Every day"
+        },
+        {
+          "HD-01": "It is 2:00 PM, in the afternoon.",
+          "HD-02": "You are in a work meeting.",
+          "HD-03": "You feel busy.",
+          "HD-04": "Yes",
+          "HD-05": "Twice a week"
+        },
+        {
+          "HD-01": "It is 3:00 PM, in the afternoon.",
+          "HD-02": "You are taking a nap.",
+          "HD-03": "You feel rested.",
+          "HD-04": "No",
+          "HD-05": "Once a week"
+        },
+        {
+          "HD-01": "It is 5:00 PM, in the late afternoon.",
+          "HD-02": "You are exercising at the gym.",
+          "HD-03": "You feel strong.",
+          "HD-04": "Yes",
+          "HD-05": "Three times a week"
+        },
+        {
+          "HD-01": "It is 6:00 PM, in the evening.",
+          "HD-02": "You are cooking dinner.",
+          "HD-03": "You feel happy.",
+          "HD-04": "Yes",
+          "HD-05": "Every day"
+        },
+        {
+          "HD-01": "It is 8:00 PM, at night.",
+          "HD-02": "You are watching TV.",
+          "HD-03": "You feel happy.",
+          "HD-04": "Yes",
+          "HD-05": "Every night"
+        },
+        {
+          "HD-01": "It is 9:00 PM, at night.",
+          "HD-02": "You are reading a book.",
+          "HD-03": "You feel calm.",
+          "HD-04": "Yes",
+          "HD-05": "Every night"
+        },
+        {
+          "HD-01": "XX",
+          "HD-02": "XX",
+          "HD-03": "XX",
+          "HD-04": "X",
+          "HD-05": "XX"
+        },
+        {
+          "HD-01": "What time do I ____?",
+          "HD-02": "What do I do at ____?",
+          "HD-03": "How do I feel after ___?",
+          "HD-04": "Do I ___ regularly?",
+          "HD-05": "How often do I ___?"
+        },
+        {
+          "HD-01": "It is ___",
+          "HD-02": "You are ___",
+          "HD-03": "You feel ___",
+          "HD-04": "Yes, you are. /No, you are not.",
+          "HD-05": "____"
+        }
+      ],
+      "TB": []
+    },
+    "charactor": [
+      {
+        "name": "Ashley",
+        "gender": "female",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "fsp": "How often do I read books?",
+        "data": [
+          {
+            "qs": ["Every night"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A188" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How often do I read books?", "id": "A187" }]
+      },
+      {
+        "name": "Jennifer",
+        "gender": "female",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "fsp": "What do I do at 9:00 PM, at night?",
+        "data": [
+          {
+            "qs": ["You are reading a book."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A190" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What do I do at 9:00 PM, at night?", "id": "A189" }
+        ]
+      },
+      {
+        "name": "Michael",
+        "gender": "male",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "fsp": "What time do I take a nap?",
+        "data": [
+          {
+            "qs": ["It is 3:00 PM, in the afternoon."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A192" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What time do I take a nap?", "id": "A191" }]
+      },
+      {
+        "name": "Andrew",
+        "gender": "male",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "fsp": "What time do I exercise at the gym?",
+        "data": [
+          {
+            "qs": ["It is 5:00 PM, in the late afternoon."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A194" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What time do I exercise at the gym?", "id": "A193" }
+        ]
+      },
+      {
+        "name": "Jennifer",
+        "gender": "female",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "fsp": "Do I have breakfast regularly?",
+        "data": [
+          {
+            "qs": ["Yes, you are."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A196" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Do I have breakfast regularly?", "id": "A195" }]
+      },
+      {
+        "name": "Jessica",
+        "gender": "female",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "fsp": "What do I do at 5:00 PM, late afternoon?",
+        "data": [
+          {
+            "qs": ["You are exercising at the gym."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A198" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What do I do at 5:00 PM, late afternoon?", "id": "A197" }
+        ]
+      },
+      {
+        "name": "Emily",
+        "gender": "female",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "fsp": "How do I feel after watching TV?",
+        "data": [
+          {
+            "qs": ["You feel happy."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A200" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How do I feel after watching TV?", "id": "A199" }]
+      },
+      {
+        "name": "David",
+        "gender": "male",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "fsp": "How do I feel after eating lunch?",
+        "data": [
+          {
+            "qs": ["You feel happy."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A202" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How do I feel after eating lunch?", "id": "A201" }]
+      },
+      {
+        "name": "Emily",
+        "gender": "female",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "fsp": "What time do I read a book?",
+        "data": [
+          {
+            "qs": ["It is 9:00 PM, at night."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A204" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What time do I read a book?", "id": "A203" }]
+      },
+      {
+        "name": "Andrew",
+        "gender": "male",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "fsp": "How do I feel after taking a nap?",
+        "data": [
+          {
+            "qs": ["You feel rested."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A206" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How do I feel after taking a nap?", "id": "A205" }]
+      },
+      {
+        "name": "Sarah",
+        "gender": "female",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "fsp": "What do I do at 6:00 PM, in the evening?",
+        "data": [
+          {
+            "qs": ["You are cooking dinner."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A208" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What do I do at 6:00 PM, in the evening?", "id": "A207" }
+        ]
+      },
+      {
+        "name": "Jennifer",
+        "gender": "female",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "fsp": "What do I do at 6:00 AM, early morning?",
+        "data": [
+          {
+            "qs": ["You are stretching."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A210" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What do I do at 6:00 AM, early morning?", "id": "A209" }
+        ]
+      },
+      {
+        "name": "Ashley",
+        "gender": "female",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "fsp": "How often do I stretch?",
+        "data": [
+          {
+            "qs": ["Every day"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A212" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How often do I stretch?", "id": "A211" }]
+      },
+      {
+        "name": "Joshua",
+        "gender": "male",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "fsp": "Do I exercise at the gym regularly?",
+        "data": [
+          {
+            "qs": ["Yes, you are."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A214" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Do I exercise at the gym regularly?", "id": "A213" }
+        ]
+      },
+      {
+        "name": "Joshua",
+        "gender": "male",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "fsp": "How do I feel after cooking dinner?",
+        "data": [
+          {
+            "qs": ["You feel happy."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A216" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "How do I feel after cooking dinner?", "id": "A215" }
+        ]
+      },
+      {
+        "name": "Sarah",
+        "gender": "female",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "fsp": "Do I stretch regularly?",
+        "data": [
+          {
+            "qs": ["Yes, you are."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A218" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Do I stretch regularly?", "id": "A217" }]
+      },
+      {
+        "name": "Jennifer",
+        "gender": "female",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "fsp": "How often do I go jogging?",
+        "data": [
+          {
+            "qs": ["Every day"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A220" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How often do I go jogging?", "id": "A219" }]
+      },
+      {
+        "name": "Jessica",
+        "gender": "female",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "fsp": "Do I watch TV regularly?",
+        "data": [
+          {
+            "qs": ["Yes, you are."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A222" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Do I watch TV regularly?", "id": "A221" }]
+      },
+      {
+        "name": "Sarah",
+        "gender": "female",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "fsp": "Do I read books regularly?",
+        "data": [
+          {
+            "qs": ["Yes, you are."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A224" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Do I read books regularly?", "id": "A223" }]
+      },
+      {
+        "name": "Jennifer",
+        "gender": "female",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "fsp": "How do I feel after a coffee break?",
+        "data": [
+          {
+            "qs": ["You feel relaxed."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A226" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "How do I feel after a coffee break?", "id": "A225" }
+        ]
+      },
+      {
+        "name": "Christopher",
+        "gender": "male",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "fsp": "What do I do at 12:00 PM, noon?",
+        "data": [
+          {
+            "qs": ["You are eating lunch."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A228" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What do I do at 12:00 PM, noon?", "id": "A227" }]
+      },
+      {
+        "name": "Sarah",
+        "gender": "female",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "fsp": "How do I feel after jogging?",
+        "data": [
+          {
+            "qs": ["You feel strong."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A230" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How do I feel after jogging?", "id": "A229" }]
+      },
+      {
+        "name": "Emily",
+        "gender": "female",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "fsp": "What time do I stretch?",
+        "data": [
+          {
+            "qs": ["It is 6:00 AM, early in the morning."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A232" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What time do I stretch?", "id": "A231" }]
+      },
+      {
+        "name": "Joshua",
+        "gender": "male",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "fsp": "How often do I take naps?",
+        "data": [
+          {
+            "qs": ["Once a week"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A234" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How often do I take naps?", "id": "A233" }]
+      },
+      {
+        "name": "Christopher",
+        "gender": "male",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "fsp": "Do I take naps regularly?",
+        "data": [
+          {
+            "qs": ["No, you are not."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A236" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Do I take naps regularly?", "id": "A235" }]
+      },
+      {
+        "name": "Christopher",
+        "gender": "male",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "fsp": "How do I feel after exercising at the gym?",
+        "data": [
+          {
+            "qs": ["You feel strong."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A238" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "How do I feel after exercising at the gym?", "id": "A237" }
+        ]
+      },
+      {
+        "name": "David",
+        "gender": "male",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "fsp": "What time do I have a work meeting?",
+        "data": [
+          {
+            "qs": ["It is 2:00 PM, in the afternoon."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A240" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What time do I have a work meeting?", "id": "A239" }
+        ]
+      },
+      {
+        "name": "Emily",
+        "gender": "female",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "fsp": "Do I cook dinner regularly?",
+        "data": [
+          {
+            "qs": ["Yes, you are."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A242" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Do I cook dinner regularly?", "id": "A241" }]
+      },
+      {
+        "name": "Ashley",
+        "gender": "female",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "fsp": "What do I do at 8:00 PM, at night?",
+        "data": [
+          {
+            "qs": ["You are watching TV."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A244" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What do I do at 8:00 PM, at night?", "id": "A243" }
+        ]
+      },
+      {
+        "name": "Michael",
+        "gender": "male",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "fsp": "How often do I take coffee breaks?",
+        "data": [
+          {
+            "qs": ["Every day"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A246" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "How often do I take coffee breaks?", "id": "A245" }
+        ]
+      },
+      {
+        "name": "David",
+        "gender": "male",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "fsp": "How often do I have breakfast?",
+        "data": [
+          {
+            "qs": ["Every day"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A248" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How often do I have breakfast?", "id": "A247" }]
+      },
+      {
+        "name": "Christopher",
+        "gender": "male",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "fsp": "What time do I cook dinner?",
+        "data": [
+          {
+            "qs": ["It is 6:00 PM, in the evening."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A250" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What time do I cook dinner?", "id": "A249" }]
+      },
+      {
+        "name": "Sarah",
+        "gender": "female",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "fsp": "What time do I have breakfast?",
+        "data": [
+          {
+            "qs": ["It is 8:00 AM, in the morning."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A252" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What time do I have breakfast?", "id": "A251" }]
+      },
+      {
+        "name": "Ashley",
+        "gender": "female",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "fsp": "How do I feel after breakfast?",
+        "data": [
+          {
+            "qs": ["You feel full."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A254" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How do I feel after breakfast?", "id": "A253" }]
+      },
+      {
+        "name": "Joshua",
+        "gender": "male",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "fsp": "What do I do at 2:00 PM, in the afternoon?",
+        "data": [
+          {
+            "qs": ["You are in a work meeting."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A256" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What do I do at 2:00 PM, in the afternoon?", "id": "A255" }
+        ]
+      },
+      {
+        "name": "Jessica",
+        "gender": "female",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "fsp": "How do I feel after reading a book?",
+        "data": [
+          {
+            "qs": ["You feel calm."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A258" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "How do I feel after reading a book?", "id": "A257" }
+        ]
+      },
+      {
+        "name": "Jessica",
+        "gender": "female",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "fsp": "How do I feel after stretching?",
+        "data": [
+          {
+            "qs": ["You feel good."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A260" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How do I feel after stretching?", "id": "A259" }]
+      },
+      {
+        "name": "Andrew",
+        "gender": "male",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "fsp": "How often do I eat lunch?",
+        "data": [
+          {
+            "qs": ["Every day"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A262" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How often do I eat lunch?", "id": "A261" }]
+      },
+      {
+        "name": "Emily",
+        "gender": "female",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "fsp": "What do I do at 3:00 PM, in the afternoon?",
+        "data": [
+          {
+            "qs": ["You are taking a nap."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A264" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What do I do at 3:00 PM, in the afternoon?", "id": "A263" }
+        ]
+      },
+      {
+        "name": "David",
+        "gender": "male",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "fsp": "What do I do at 7:00 AM, in the morning?",
+        "data": [
+          {
+            "qs": ["You are jogging."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A266" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What do I do at 7:00 AM, in the morning?", "id": "A265" }
+        ]
+      },
+      {
+        "name": "Andrew",
+        "gender": "male",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "fsp": "Do I have work meetings regularly?",
+        "data": [
+          {
+            "qs": ["Yes, you are."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A268" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Do I have work meetings regularly?", "id": "A267" }
+        ]
+      },
+      {
+        "name": "Michael",
+        "gender": "male",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "fsp": "How do I feel after a work meeting?",
+        "data": [
+          {
+            "qs": ["You feel busy."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A270" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "How do I feel after a work meeting?", "id": "A269" }
+        ]
+      },
+      {
+        "name": "David",
+        "gender": "male",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "fsp": "Do I take coffee breaks regularly?",
+        "data": [
+          {
+            "qs": ["Yes, you are."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A272" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Do I take coffee breaks regularly?", "id": "A271" }
+        ]
+      },
+      {
+        "name": "Christopher",
+        "gender": "male",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "fsp": "How often do I have work meetings?",
+        "data": [
+          {
+            "qs": ["Twice a week"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A274" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "How often do I have work meetings?", "id": "A273" }
+        ]
+      },
+      {
+        "name": "Emily",
+        "gender": "female",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "fsp": "How often do I exercise at the gym?",
+        "data": [
+          {
+            "qs": ["Three times a week"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A276" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "How often do I exercise at the gym?", "id": "A275" }
+        ]
+      },
+      {
+        "name": "Jennifer",
+        "gender": "female",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "fsp": "What time do I eat lunch?",
+        "data": [
+          {
+            "qs": ["It is 12:00 PM, noon."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A278" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What time do I eat lunch?", "id": "A277" }]
+      },
+      {
+        "name": "Ashley",
+        "gender": "female",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "fsp": "Do I go jogging regularly?",
+        "data": [
+          {
+            "qs": ["Yes, you are."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A280" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Do I go jogging regularly?", "id": "A279" }]
+      },
+      {
+        "name": "Jessica",
+        "gender": "female",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "fsp": "What time do I go jogging?",
+        "data": [
+          {
+            "qs": ["It is 7:00 AM, in the morning."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A282" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What time do I go jogging?", "id": "A281" }]
+      },
+      {
+        "name": "Joshua",
+        "gender": "male",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "fsp": "What time do I watch TV?",
+        "data": [
+          {
+            "qs": ["It is 8:00 PM, at night."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A284" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What time do I watch TV?", "id": "A283" }]
+      },
+      {
+        "name": "Michael",
+        "gender": "male",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "fsp": "Do I eat lunch regularly?",
+        "data": [
+          {
+            "qs": ["Yes, you are."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A286" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Do I eat lunch regularly?", "id": "A285" }]
+      },
+      {
+        "name": "Jessica",
+        "gender": "female",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "fsp": "How often do I cook dinner?",
+        "data": [
+          {
+            "qs": ["Every day"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A288" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How often do I cook dinner?", "id": "A287" }]
+      },
+      {
+        "name": "Michael",
+        "gender": "male",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "fsp": "What do I do at 8:00 AM, in the morning?",
+        "data": [
+          {
+            "qs": ["You are having breakfast."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A290" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What do I do at 8:00 AM, in the morning?", "id": "A289" }
+        ]
+      },
+      {
+        "name": "Sarah",
+        "gender": "female",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "fsp": "How often do I watch TV?",
+        "data": [
+          {
+            "qs": ["Every night"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A292" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How often do I watch TV?", "id": "A291" }]
+      },
+      {
+        "name": "Andrew",
+        "gender": "male",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "fsp": "What do I do at 10:00 AM, mid-morning?",
+        "data": [
+          {
+            "qs": ["You are having a coffee break."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A294" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What do I do at 10:00 AM, mid-morning?", "id": "A293" }
+        ]
+      },
+      {
+        "name": "Ashley",
+        "gender": "female",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "fsp": "What time do I take a coffee break?",
+        "data": [
+          {
+            "qs": ["It is 10:00 AM, in the middle of the morning."],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw": ["Thanks"],
+            "aw01": [{ "st": "Thanks", "id": "A296" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What time do I take a coffee break?", "id": "A295" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Buy/Sell",
+    "SEO": {
+      "seo": {
+        "metaTitle": "Phương thức thanh toán",
+        "metaDescription": "Học cách sử dụng các mẫu câu đơn giản để hỏi và trả lời về nơi mua sắm, sản phẩm, giá cả, khuyến mãi, và phương thức thanh toán.",
+        "keywords": [
+          "tiếng Anh A1",
+          "mua sắm",
+          "giá cả",
+          "giảm giá",
+          "phương thức thanh toán"
+        ]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "Buy/Sell",
+        "IFimg": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg"
+      },
+      "HD": [
+        {
+          "HD-01": "Purchased location",
+          "HD-02": "Purchased items",
+          "HD-03": "How Much",
+          "HD-04": "Is There a Discount",
+          "HD-05": "Payment Method"
+        },
+        {
+          "HD-01": "You buy in a supermarket.",
+          "HD-02": "It is apples.",
+          "HD-03": "It costs $2 per kilogram.",
+          "HD-04": "No",
+          "HD-05": "You pay by cash."
+        },
+        {
+          "HD-01": "You buy in a bookstore.",
+          "HD-02": "It is a novel.",
+          "HD-03": "It costs $15.",
+          "HD-04": "Yes, 10% off",
+          "HD-05": "You pay by credit card."
+        },
+        {
+          "HD-01": "You buy in a clothing store.",
+          "HD-02": "It is jeans.",
+          "HD-03": "It costs $40.",
+          "HD-04": "Yes, 20% off",
+          "HD-05": "You pay by debit card."
+        },
+        {
+          "HD-01": "You buy it at an electronics store",
+          "HD-02": "It is headphones.",
+          "HD-03": "It costs $60.",
+          "HD-04": "No",
+          "HD-05": "You pay by cash."
+        },
+        {
+          "HD-01": "You buy in a pharmacy.",
+          "HD-02": "It is pain reliever.",
+          "HD-03": "It costs $8.",
+          "HD-04": "Yes, 5% off",
+          "HD-05": "You pay by credit card."
+        },
+        {
+          "HD-01": "XX",
+          "HD-02": "XX",
+          "HD-03": "XX",
+          "HD-04": "XX",
+          "HD-05": "XX"
+        },
+        {
+          "HD-01": "Where do I buy ___?",
+          "HD-02": "What do I buy at____?",
+          "HD-03": "How much do ___ cost?",
+          "HD-04": "Is there a discount for ___?",
+          "HD-05": "What is the payment method when I buy ____?"
+        },
+        {
+          "HD-01": "You buy in ___.",
+          "HD-02": "It is ___.",
+          "HD-03": "It costs ___.",
+          "HD-04": "___",
+          "HD-05": "You pay by___."
+        }
+      ],
+      "TB": []
+    },
+    "charactor": [
+      {
+        "name": "Andrew",
+        "gender": "male",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "fsp": "Is there a discount for jeans?",
+        "data": [
+          { "qs": ["Yes, 20% off."], "submit": ["FN01"], "action": ["FN01"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Is there a discount for jeans?", "id": "A297" }]
+      },
+      {
+        "name": "David",
+        "gender": "male",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "fsp": "Is there a discount for apples?",
+        "data": [{ "qs": ["No."], "submit": ["FN01"], "action": ["FN01"] }],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Is there a discount for apples?", "id": "A298" }]
+      },
+      {
+        "name": "Christopher",
+        "gender": "male",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "fsp": "Is there a discount for headphones?",
+        "data": [{ "qs": ["No."], "submit": ["FN01"], "action": ["FN01"] }],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Is there a discount for headphones?", "id": "A299" }
+        ]
+      },
+      {
+        "name": "Emily",
+        "gender": "female",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "fsp": "How much do apples cost?",
+        "data": [
+          {
+            "qs": ["It costs $2 per kilogram."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How much do apples cost?", "id": "A300" }]
+      },
+      {
+        "name": "Emily",
+        "gender": "female",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "fsp": "What do I buy at the supermarket?",
+        "data": [
+          { "qs": ["It is apples."], "submit": ["FN01"], "action": ["FN01"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What do I buy at the supermarket?", "id": "A301" }]
+      },
+      {
+        "name": "Ashley",
+        "gender": "female",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "fsp": "How much do headphones cost?",
+        "data": [
+          { "qs": ["It costs $60."], "submit": ["FN01"], "action": ["FN01"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How much do headphones cost?", "id": "A302" }]
+      },
+      {
+        "name": "Ashley",
+        "gender": "female",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "fsp": "What is the payment method when I buy headphones?",
+        "data": [
+          { "qs": ["You pay by cash."], "submit": ["FN01"], "action": ["FN01"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the payment method when I buy headphones?",
+            "id": "A303"
+          }
+        ]
+      },
+      {
+        "name": "Sarah",
+        "gender": "female",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "fsp": "How much do jeans cost?",
+        "data": [
+          { "qs": ["It costs $40."], "submit": ["FN01"], "action": ["FN01"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How much do jeans cost?", "id": "A304" }]
+      },
+      {
+        "name": "Jessica",
+        "gender": "female",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "fsp": "How much does a novel cost?",
+        "data": [
+          { "qs": ["It costs $15."], "submit": ["FN01"], "action": ["FN01"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How much does a novel cost?", "id": "A305" }]
+      },
+      {
+        "name": "Andrew",
+        "gender": "male",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "fsp": "Where do I buy jeans?",
+        "data": [
+          {
+            "qs": ["You buy in a clothing store."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Where do I buy jeans?", "id": "A306" }]
+      },
+      {
+        "name": "Sarah",
+        "gender": "female",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "fsp": "What do I buy at the clothing store?",
+        "data": [
+          { "qs": ["It is jeans."], "submit": ["FN01"], "action": ["FN01"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What do I buy at the clothing store?", "id": "A307" }
+        ]
+      },
+      {
+        "name": "Michael",
+        "gender": "male",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "fsp": "Is there a discount for the novel?",
+        "data": [
+          { "qs": ["Yes, 10% off."], "submit": ["FN01"], "action": ["FN01"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Is there a discount for the novel?", "id": "A308" }
+        ]
+      },
+      {
+        "name": "Sarah",
+        "gender": "female",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "fsp": "What is the payment method when I buy jeans?",
+        "data": [
+          {
+            "qs": ["You pay by debit card."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What is the payment method when I buy jeans?", "id": "A309" }
+        ]
+      },
+      {
+        "name": "David",
+        "gender": "male",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "fsp": "Where do I buy apples?",
+        "data": [
+          {
+            "qs": ["You buy in a supermarket."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Where do I buy apples?", "id": "A310" }]
+      },
+      {
+        "name": "Emily",
+        "gender": "female",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "fsp": "What is the payment method when I buy apples?",
+        "data": [
+          { "qs": ["You pay by cash."], "submit": ["FN01"], "action": ["FN01"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the payment method when I buy apples?",
+            "id": "A311"
+          }
+        ]
+      },
+      {
+        "name": "Jennifer",
+        "gender": "female",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "fsp": "What is the payment method when I buy pain reliever?",
+        "data": [
+          {
+            "qs": ["You pay by credit card."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the payment method when I buy pain reliever?",
+            "id": "A312"
+          }
+        ]
+      },
+      {
+        "name": "Christopher",
+        "gender": "male",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "fsp": "Where do I buy headphones?",
+        "data": [
+          {
+            "qs": ["You buy it at an electronics store"],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Where do I buy headphones?", "id": "A313" }]
+      },
+      {
+        "name": "Jessica",
+        "gender": "female",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "fsp": "What do I buy at the bookstore?",
+        "data": [
+          { "qs": ["It is a novel."], "submit": ["FN01"], "action": ["FN01"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What do I buy at the bookstore?", "id": "A314" }]
+      },
+      {
+        "name": "Michael",
+        "gender": "male",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "fsp": "Where do I buy a novel?",
+        "data": [
+          {
+            "qs": ["You buy in a bookstore."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Where do I buy a novel?", "id": "A315" }]
+      },
+      {
+        "name": "Joshua",
+        "gender": "male",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "fsp": "Where do I buy pain reliever?",
+        "data": [
+          {
+            "qs": ["You buy in a pharmacy."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Where do I buy pain reliever?", "id": "A316" }]
+      },
+      {
+        "name": "Jennifer",
+        "gender": "female",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "fsp": "How much does pain reliever cost?",
+        "data": [
+          { "qs": ["It costs $8."], "submit": ["FN01"], "action": ["FN01"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How much does pain reliever cost?", "id": "A317" }]
+      },
+      {
+        "name": "Jessica",
+        "gender": "female",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "fsp": "What is the payment method when I buy a novel?",
+        "data": [
+          {
+            "qs": ["You pay by credit card."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the payment method when I buy a novel?",
+            "id": "A318"
+          }
+        ]
+      },
+      {
+        "name": "Joshua",
+        "gender": "male",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "fsp": "Is there a discount for pain reliever?",
+        "data": [
+          { "qs": ["Yes, 5% off."], "submit": ["FN01"], "action": ["FN01"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Is there a discount for pain reliever?", "id": "A319" }
+        ]
+      },
+      {
+        "name": "Jennifer",
+        "gender": "female",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "fsp": "What do I buy at the pharmacy?",
+        "data": [
+          {
+            "qs": ["It is pain reliever."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What do I buy at the pharmacy?", "id": "A320" }]
+      },
+      {
+        "name": "Ashley",
+        "gender": "female",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "fsp": "What do I buy in electronics?",
+        "data": [
+          {
+            "qs": ["It is headphones."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What do I buy in electronics?", "id": "A321" }]
+      }
+    ]
+  },
+  {
+    "id": "Food&Drink",
+    "SEO": {
+      "seo": {
+        "metaTitle": "Trải nghiệm Ăn Uống",
+        "metaDescription": "Học cách sử dụng các mẫu câu đơn giản để hỏi và trả lời về lựa chọn món ăn và thức uống cũng như cảm xúc của bạn sau khi thưởng thức.",
+        "keywords": [
+          "tiếng Anh A1",
+          "miêu tả trải nghiệm",
+          "ăn uống",
+          "cảm xúc",
+          "lựa chọn món ăn"
+        ]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "Food&Drink",
+        "IFimg": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg"
+      },
+      "HD": [
+        {
+          "HD-01": "When and Where to Eat",
+          "HD-02": "Restaurant’s Recommended Dish",
+          "HD-03": "What to Eat",
+          "HD-04": "What to Drink",
+          "HD-05": "Feedback"
+        },
+        {
+          "HD-01": "Morning at home",
+          "HD-02": "You have no recommendations",
+          "HD-03": "You would like to eat eggs.",
+          "HD-04": "You would like to drink tea.",
+          "HD-05": "You feel good."
+        },
+        {
+          "HD-01": "Noon at Noodle House",
+          "HD-02": "Chicken noodles could be a good option.",
+          "HD-03": "You would like to eat noodles.",
+          "HD-04": "You would like to drink juice.",
+          "HD-05": "You feel yummy."
+        },
+        {
+          "HD-01": "Evening at Diner",
+          "HD-02": "A burger could be a good option.",
+          "HD-03": "You would like to eat a burger.",
+          "HD-04": "You would like to drink coke.",
+          "HD-05": "You feel nice."
+        },
+        {
+          "HD-01": "Afternoon at Cafe",
+          "HD-02": "Cake could be a good option.",
+          "HD-03": "You would like to eat cake.",
+          "HD-04": "You would like to drink water.",
+          "HD-05": "You feel tasty."
+        },
+        {
+          "HD-01": "Midday at Bistro",
+          "HD-02": "Salad could be a good option.",
+          "HD-03": "You would like to eat a salad.",
+          "HD-04": "You would like to drink lemonade.",
+          "HD-05": "You feel fresh."
+        },
+        {
+          "HD-01": null,
+          "HD-02": "XX",
+          "HD-03": "XX",
+          "HD-04": "XX",
+          "HD-05": "XX"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "What is the recommendation ___ ?",
+          "HD-03": "What do I want to eat __?",
+          "HD-04": "What do I want to drink _?",
+          "HD-05": "What is my response/feeling___?"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "__",
+          "HD-03": "You would like to eat eggs.",
+          "HD-04": "You would like to drink tea.",
+          "HD-05": "You feel __"
+        }
+      ],
+      "TB": []
+    },
+    "charactor": [
+      {
+        "name": "Michael",
+        "gender": "male",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "fsp": "What is my response after eating breakfast at home?",
+        "data": [
+          { "qs": ["You feel good."], "submit": ["FN01"], "action": ["FN01"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is my response after eating breakfast at home?",
+            "id": "A322"
+          }
+        ]
+      },
+      {
+        "name": "Michael",
+        "gender": "male",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "fsp": "What is my response after dining at the diner?",
+        "data": [
+          { "qs": ["You feel nice."], "submit": ["FN01"], "action": ["FN01"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is my response after dining at the diner?",
+            "id": "A323"
+          }
+        ]
+      },
+      {
+        "name": "Michael",
+        "gender": "male",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "fsp": "What do I want to eat for lunch at Noodle House?",
+        "data": [
+          {
+            "qs": ["You would like to eat noodles."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What do I want to eat for lunch at Noodle House?",
+            "id": "A324"
+          }
+        ]
+      },
+      {
+        "name": "Michael",
+        "gender": "male",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "fsp": "What is my response after having lunch at the Bistro?",
+        "data": [
+          { "qs": ["You feel fresh."], "submit": ["FN01"], "action": ["FN01"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is my response after having lunch at the Bistro?",
+            "id": "A325"
+          }
+        ]
+      },
+      {
+        "name": "Michael",
+        "gender": "male",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "fsp": "What is my feeling after having lunch at Noodle House?",
+        "data": [
+          { "qs": ["You feel yummy."], "submit": ["FN01"], "action": ["FN01"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is my feeling after having lunch at Noodle House?",
+            "id": "A326"
+          }
+        ]
+      },
+      {
+        "name": "Michael",
+        "gender": "male",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "fsp": "What do I want to drink in the evening at the diner?",
+        "data": [
+          {
+            "qs": ["You would like to drink coke."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What do I want to drink in the evening at the diner?",
+            "id": "A327"
+          }
+        ]
+      },
+      {
+        "name": "Michael",
+        "gender": "male",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "fsp": "What is my response after an afternoon meal at the cafe?",
+        "data": [
+          { "qs": ["You feel tasty."], "submit": ["FN01"], "action": ["FN01"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is my response after an afternoon meal at the cafe?",
+            "id": "A328"
+          }
+        ]
+      },
+      {
+        "name": "Michael",
+        "gender": "male",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "fsp": "What do I want to drink in the afternoon at a coffee shop?",
+        "data": [
+          {
+            "qs": ["You would like to drink water."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What do I want to drink in the afternoon at a coffee shop?",
+            "id": "A329"
+          }
+        ]
+      },
+      {
+        "name": "Michael",
+        "gender": "male",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "fsp": "What do I want to eat for lunch at the Bistro?",
+        "data": [
+          {
+            "qs": ["You would like to eat a salad."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What do I want to eat for lunch at the Bistro?",
+            "id": "A330"
+          }
+        ]
+      },
+      {
+        "name": "Michael",
+        "gender": "male",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "fsp": "What do I want to drink at noon at Noodle House?",
+        "data": [
+          {
+            "qs": ["You would like to drink juice."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What do I want to drink at noon at Noodle House?",
+            "id": "A331"
+          }
+        ]
+      },
+      {
+        "name": "Michael",
+        "gender": "male",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "fsp": "What do I want to eat in the afternoon at a cafe?",
+        "data": [
+          {
+            "qs": ["You would like to eat cake."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What do I want to eat in the afternoon at a cafe?",
+            "id": "A332"
+          }
+        ]
+      },
+      {
+        "name": "Michael",
+        "gender": "male",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "fsp": "What do I want to eat in the morning at home?",
+        "data": [
+          {
+            "qs": ["You would like to eat eggs."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What do I want to eat in the morning at home?",
+            "id": "A333"
+          }
+        ]
+      },
+      {
+        "name": "Michael",
+        "gender": "male",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "fsp": "What do I want to drink in the morning at home?",
+        "data": [
+          {
+            "qs": ["You would like to drink tea."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What do I want to drink in the morning at home?",
+            "id": "A334"
+          }
+        ]
+      },
+      {
+        "name": "Michael",
+        "gender": "male",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "fsp": "What do I want to drink for lunch at the pub?",
+        "data": [
+          {
+            "qs": ["You would like to drink lemonade."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What do I want to drink for lunch at the pub?",
+            "id": "A335"
+          }
+        ]
+      },
+      {
+        "name": "Michael",
+        "gender": "male",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "fsp": "What are recommendations for evenings at the diner?",
+        "data": [
+          {
+            "qs": ["A burger could be a good option."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What are recommendations for evenings at the diner?",
+            "id": "A336"
+          }
+        ]
+      },
+      {
+        "name": "Michael",
+        "gender": "male",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "fsp": "What are recommendations for mornings at home?",
+        "data": [
+          {
+            "qs": ["You have no recommendations"],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What are recommendations for mornings at home?",
+            "id": "A337"
+          }
+        ]
+      },
+      {
+        "name": "Michael",
+        "gender": "male",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "fsp": "What are your suggestions for lunch at Noodle House?",
+        "data": [
+          {
+            "qs": ["Chicken noodles could be a good option."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What are your suggestions for lunch at Noodle House?",
+            "id": "A338"
+          }
+        ]
+      },
+      {
+        "name": "Michael",
+        "gender": "male",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "fsp": "What do I want to eat in the evening at the diner?",
+        "data": [
+          {
+            "qs": ["You would like to eat a burger."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What do I want to eat in the evening at the diner?",
+            "id": "A339"
+          }
+        ]
+      },
+      {
+        "name": "Michael",
+        "gender": "male",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "fsp": "Any advice for an afternoon at a coffee shop?",
+        "data": [
+          {
+            "qs": ["Cake could be a good option."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Any advice for an afternoon at a coffee shop?",
+            "id": "A340"
+          }
+        ]
+      },
+      {
+        "name": "Michael",
+        "gender": "male",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "fsp": "What are the recommendations for lunch at the Bistro?",
+        "data": [
+          {
+            "qs": ["Salad could be a good option."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What are the recommendations for lunch at the Bistro?",
+            "id": "A341"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Hobbies",
+    "SEO": {
+      "seo": {
+        "metaTitle": "Sở Thích và Cảm Xúc",
+        "metaDescription": "Học cách sử dụng các mẫu câu đơn giản để hỏi và trả lời về các sở thích cá nhân, thời gian dành cho chúng, ai bạn thường làm chúng cùng, và cảm xúc của bạn sau đó.",
+        "keywords": [
+          "tiếng Anh A1",
+          "sở thích",
+          "cảm xúc",
+          "miêu tả sở thích",
+          "thời gian thực hiện"
+        ]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "Hobbies",
+        "IFimg": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg"
+      },
+      "HD": [
+        {
+          "HD-01": "Which Hobby",
+          "HD-02": "Since When",
+          "HD-03": "Usually Play With Whom and When",
+          "HD-04": "How Long Each Time",
+          "HD-05": "Feeling After Playing"
+        },
+        {
+          "HD-01": "It is painting.",
+          "HD-02": "I started in 2018.",
+          "HD-03": "You are alone on weekends.",
+          "HD-04": "You spend 2 hours.",
+          "HD-05": "You feel relaxed."
+        },
+        {
+          "HD-01": "It is soccer.",
+          "HD-02": "I started this hobby in my childhood.",
+          "HD-03": "You are with friends on Thursday evenings.",
+          "HD-04": "You spend 1 hour.",
+          "HD-05": "You feel energized."
+        },
+        {
+          "HD-01": "It is playing guitar.",
+          "HD-02": "I started it last year.",
+          "HD-03": "You are alone every night.",
+          "HD-04": "You spend 30 minutes.",
+          "HD-05": "You feel happy."
+        },
+        {
+          "HD-01": "It is reading.",
+          "HD-02": "I started it at a young age.",
+          "HD-03": "You are alone every morning.",
+          "HD-04": "You spend 1 hour.",
+          "HD-05": "You feel content."
+        },
+        {
+          "HD-01": "It is baking.",
+          "HD-02": "I started this hobby 6 months ago.",
+          "HD-03": "You are with your family on Sundays.",
+          "HD-04": "You spend 3 hours.",
+          "HD-05": "You feel joyful."
+        },
+        {
+          "HD-01": "XX",
+          "HD-02": "XX",
+          "HD-03": "XX",
+          "HD-04": "XX",
+          "HD-05": "XX"
+        },
+        {
+          "HD-01": "Which hobby have I been doing _____?",
+          "HD-02": "How long have you have you been ___?",
+          "HD-03": "Whom and when do I usually ____ with?",
+          "HD-04": "How long do I ___ each time?",
+          "HD-05": "How do I feel after ___?"
+        },
+        {
+          "HD-01": "It is ___",
+          "HD-02": "I started ___",
+          "HD-03": "___",
+          "HD-04": "You spend ___",
+          "HD-05": "You feel ___"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "How long have you",
+          "HD-03": "It is painting.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": null,
+          "HD-03": "It is soccer.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": null,
+          "HD-03": "It is playing guitar.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": null,
+          "HD-03": "It is reading.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": null,
+          "HD-03": "It is baking.",
+          "HD-04": null,
+          "HD-05": null
+        }
+      ],
+      "TB": []
+    },
+    "charactor": [
+      {
+        "Emily": "Ashley",
+        "female": "female",
+        "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "fsp": "Which hobby have I been doing since last year?",
+        "data": [
+          {
+            "qs": ["It is playing guitar."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which hobby have I been doing since last year?",
+            "id": "A342"
+          }
+        ]
+      },
+      {
+        "Emily": "Jessica",
+        "female": "female",
+        "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "fsp": "Whom and when do I usually bake with?",
+        "data": [
+          {
+            "qs": ["You are with your family on Sundays."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Whom and when do I usually bake with?", "id": "A343" }
+        ]
+      },
+      {
+        "Emily": "Michael",
+        "female": "male",
+        "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "fsp": "Whom and when do I usually paint with?",
+        "data": [
+          {
+            "qs": ["You are alone on weekends."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Whom and when do I usually paint with?", "id": "A344" }
+        ]
+      },
+      {
+        "Emily": "Joshua",
+        "female": "male",
+        "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "fsp": "How do I feel after playing guitar?",
+        "data": [
+          { "qs": ["You feel happy."], "submit": ["FN01"], "action": ["FN01"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "How do I feel after playing guitar?", "id": "A345" }
+        ]
+      },
+      {
+        "Emily": "Joshua",
+        "female": "male",
+        "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "fsp": "How long have you been playing the guitar?",
+        "data": [
+          {
+            "qs": ["I have been playing the guitar since last year."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "How long have you been playing the guitar?", "id": "A346" }
+        ]
+      },
+      {
+        "Emily": "Andrew",
+        "female": "male",
+        "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "fsp": "How long have you been painting?",
+        "data": [
+          {
+            "qs": ["I have been painting since 2018."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How long have you been painting?", "id": "A347" }]
+      },
+      {
+        "Emily": "Sarah",
+        "female": "female",
+        "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "fsp": "How long have you been baking?",
+        "data": [
+          {
+            "qs": ["I have been baking for 6 months"],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How long have you been baking?", "id": "A348" }]
+      },
+      {
+        "Emily": "Sarah",
+        "female": "female",
+        "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "fsp": "How long do I paint each time?",
+        "data": [
+          {
+            "qs": ["You spend 2 hours."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How long do I paint each time?", "id": "A349" }]
+      },
+      {
+        "Emily": "Jessica",
+        "female": "female",
+        "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "fsp": "Which hobby have I been doing since 2018?",
+        "data": [
+          { "qs": ["It is painting."], "submit": ["FN01"], "action": ["FN01"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Which hobby have I been doing since 2018?", "id": "A350" }
+        ]
+      },
+      {
+        "Emily": "Sarah",
+        "female": "female",
+        "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "fsp": "How do I feel after baking?",
+        "data": [
+          { "qs": ["You feel joyful."], "submit": ["FN01"], "action": ["FN01"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How do I feel after baking?", "id": "A351" }]
+      },
+      {
+        "Emily": "David",
+        "female": "male",
+        "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "fsp": "Which hobby have I been doing since 6 months ago?",
+        "data": [
+          { "qs": ["It is baking."], "submit": ["FN01"], "action": ["FN01"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which hobby have I been doing since 6 months ago?",
+            "id": "A352"
+          }
+        ]
+      },
+      {
+        "Emily": "Jennifer",
+        "female": "female",
+        "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "fsp": "Which hobby have I been doing since a young age?",
+        "data": [
+          { "qs": ["It is reading."], "submit": ["FN01"], "action": ["FN01"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which hobby have I been doing since a young age?",
+            "id": "A353"
+          }
+        ]
+      },
+      {
+        "Emily": "Christopher",
+        "female": "male",
+        "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "fsp": "Whom and when do I usually play guitar with?",
+        "data": [
+          {
+            "qs": ["You are alone every night."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Whom and when do I usually play guitar with?", "id": "A354" }
+        ]
+      },
+      {
+        "Emily": "Jessica",
+        "female": "female",
+        "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "fsp": "How do I feel after reading?",
+        "data": [
+          {
+            "qs": ["You feel content."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How do I feel after reading?", "id": "A355" }]
+      },
+      {
+        "Emily": "Jessica",
+        "female": "female",
+        "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "fsp": "How long have you been reading?",
+        "data": [
+          {
+            "qs": ["I have been reading since a young age."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How long have you been reading?", "id": "A356" }]
+      },
+      {
+        "Emily": "David",
+        "female": "male",
+        "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "fsp": "How long do I read each time?",
+        "data": [
+          {
+            "qs": ["You spend 1 hour."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How long do I read each time?", "id": "A357" }]
+      },
+      {
+        "Emily": "Ashley",
+        "female": "female",
+        "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "fsp": "How long do I play soccer each time?",
+        "data": [
+          {
+            "qs": ["You spend 1 hour."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "How long do I play soccer each time?", "id": "A358" }
+        ]
+      },
+      {
+        "Emily": "Andrew",
+        "female": "male",
+        "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "fsp": "How do I feel after painting?",
+        "data": [
+          {
+            "qs": ["You feel relaxed."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How do I feel after painting?", "id": "A359" }]
+      },
+      {
+        "Emily": "Christopher",
+        "female": "male",
+        "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "fsp": "How long have you been playing soccer?",
+        "data": [
+          {
+            "qs": ["I have been playing soccer since my childhood."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "How long have you been playing soccer?", "id": "A360" }
+        ]
+      },
+      {
+        "Emily": "Christopher",
+        "female": "male",
+        "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "fsp": "How do I feel after soccer?",
+        "data": [
+          {
+            "qs": ["You feel energized."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How do I feel after soccer?", "id": "A361" }]
+      },
+      {
+        "Emily": "Sarah",
+        "female": "female",
+        "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "fsp": "Which hobby have I been doing since childhood?",
+        "data": [
+          { "qs": ["It is soccer."], "submit": ["FN01"], "action": ["FN01"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which hobby have I been doing since childhood?",
+            "id": "A362"
+          }
+        ]
+      },
+      {
+        "Emily": "Jennifer",
+        "female": "female",
+        "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "fsp": "How long do I play guitar each time?",
+        "data": [
+          {
+            "qs": ["You spend 30 minutes."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "How long do I play guitar each time?", "id": "A363" }
+        ]
+      },
+      {
+        "Emily": "Andrew",
+        "female": "male",
+        "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "fsp": "Whom and when do I usually play soccer with?",
+        "data": [
+          {
+            "qs": ["You are with friends on Thursday evenings."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Whom and when do I usually play soccer with?", "id": "A364" }
+        ]
+      },
+      {
+        "Emily": "Joshua",
+        "female": "male",
+        "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "fsp": "Whom and when do I usually read with?",
+        "data": [
+          {
+            "qs": ["You are alone every morning."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Whom and when do I usually read with?", "id": "A365" }
+        ]
+      },
+      {
+        "Emily": "Michael",
+        "female": "male",
+        "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "fsp": "How long do I bake each time?",
+        "data": [
+          {
+            "qs": ["You spend 3 hours."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How long do I bake each time?", "id": "A366" }]
+      }
+    ]
+  },
+  {
+    "id": "Family",
+    "SEO": {
+      "seo": {
+        "metaTitle": "Mô tả Thành Viên Gia Đình",
+        "metaDescription": "Học cách sử dụng các mẫu câu đơn giản để hỏi và trả lời về ngoại hình, tính cách, và sở thích của các thành viên trong gia đình, từ đó giúp người học giao tiếp hiệu quả hơn trong các tình huống đời sống hàng ngày.",
+        "keywords": [
+          "tiếng Anh A1",
+          "mô tả gia đình",
+          "ngoại hình",
+          "tính cách",
+          "sở thích"
+        ]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "Family",
+        "IFimg": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg"
+      },
+      "HD": [
+        {
+          "HD-01": "Family Position",
+          "HD-02": "Physical Description",
+          "HD-03": "Personality Description",
+          "HD-04": "Habits/Interests Description"
+        },
+        {
+          "HD-01": "Father",
+          "HD-02": "He is tall, with short brown hair, and wears glasses.",
+          "HD-03": "He is friendly and disciplined.",
+          "HD-04": "He enjoys fishing on weekends."
+        },
+        {
+          "HD-01": "Mother",
+          "HD-02": "She is of medium height, has long black hair, and is always smiling.",
+          "HD-03": "She is warm and nurturing.",
+          "HD-04": "She loves baking cakes."
+        },
+        {
+          "HD-01": "Older Sister",
+          "HD-02": "She is short, with red hair and freckles.",
+          "HD-03": "She is adventurous and bold.",
+          "HD-04": "She enjoys skateboarding in the park."
+        },
+        {
+          "HD-01": "Younger Brother",
+          "HD-02": "He is of average height, and an athletic build.",
+          "HD-03": "He is curious and energetic.",
+          "HD-04": "He enjoys collecting comic books."
+        },
+        {
+          "HD-01": "Grandfather",
+          "HD-02": "He is elderly, balding, and has a white beard.",
+          "HD-03": "He is wise and humorous.",
+          "HD-04": "He enjoys telling stories."
+        },
+        { "HD-01": null, "HD-02": "XX", "HD-03": "XX", "HD-04": "XX" },
+        {
+          "HD-01": null,
+          "HD-02": "What does my younger brother look like?",
+          "HD-03": "What’s my mother’s personality like?",
+          "HD-04": "What are some of my older sister’s habits and interests?"
+        },
+        { "HD-01": null, "HD-02": "__", "HD-03": "__", "HD-04": "__" }
+      ],
+      "TB": []
+    },
+    "charactor": [
+      {
+        "name": "Jessica",
+        "gender": "female",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "fsp": "What does my Mother look like?",
+        "data": [
+          {
+            "qs": [
+              "She is of medium height, has long black hair, and is always smiling."
+            ],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What does my Mother look like?", "id": "A367" }]
+      },
+      {
+        "name": "Andrew",
+        "gender": "male",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "fsp": "What is my Older Sister’s personality like?",
+        "data": [
+          {
+            "qs": ["She is adventurous and bold."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What is my Older Sister’s personality like?", "id": "A368" }
+        ]
+      },
+      {
+        "name": "Emily",
+        "gender": "female",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "fsp": "What does my Father look like?",
+        "data": [
+          {
+            "qs": ["He is tall, with short brown hair, and wears glasses."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What does my Father look like?", "id": "A369" }]
+      },
+      {
+        "name": "Ashley",
+        "gender": "female",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "fsp": "What does my Younger Brother look like?",
+        "data": [
+          {
+            "qs": ["He is of average height, and an athletic build."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What does my Younger Brother look like?", "id": "A370" }
+        ]
+      },
+      {
+        "name": "Jessica",
+        "gender": "female",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "fsp": "What are some of my Mother’s habits and interests?",
+        "data": [
+          {
+            "qs": ["She loves baking cakes."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What are some of my Mother’s habits and interests?",
+            "id": "A371"
+          }
+        ]
+      },
+      {
+        "name": "Christopher",
+        "gender": "male",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "fsp": "What is my Younger Brother’s personality like?",
+        "data": [
+          {
+            "qs": ["He is curious and energetic."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is my Younger Brother’s personality like?",
+            "id": "A372"
+          }
+        ]
+      },
+      {
+        "name": "Ashley",
+        "gender": "female",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "fsp": "What are some of my Younger Brother’s habits and interests?",
+        "data": [
+          {
+            "qs": ["He enjoys collecting comic books."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What are some of my Younger Brother’s habits and interests?",
+            "id": "A373"
+          }
+        ]
+      },
+      {
+        "name": "Michael",
+        "gender": "male",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "fsp": "What is my Mother’s personality like?",
+        "data": [
+          {
+            "qs": ["She is warm and nurturing."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What is my Mother’s personality like?", "id": "A374" }
+        ]
+      },
+      {
+        "name": "Sarah",
+        "gender": "female",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "fsp": "What does my Older Sister look like?",
+        "data": [
+          {
+            "qs": ["She is short, with red hair and freckles."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What does my Older Sister look like?", "id": "A375" }
+        ]
+      },
+      {
+        "name": "Emily",
+        "gender": "female",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "fsp": "What are some of my Father’s habits and interests?",
+        "data": [
+          {
+            "qs": ["He enjoys fishing on weekends."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What are some of my Father’s habits and interests?",
+            "id": "A376"
+          }
+        ]
+      },
+      {
+        "name": "Jennifer",
+        "gender": "female",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "fsp": "What does my Grandfather look like?",
+        "data": [
+          {
+            "qs": ["He is elderly, balding, and has a white beard."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What does my Grandfather look like?", "id": "A377" }
+        ]
+      },
+      {
+        "name": "David",
+        "gender": "male",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "fsp": "What is my Father’s personality like?",
+        "data": [
+          {
+            "qs": ["He is friendly and disciplined."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What is my Father’s personality like?", "id": "A378" }
+        ]
+      },
+      {
+        "name": "Joshua",
+        "gender": "male",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "fsp": "What is my Grandfather’s personality like?",
+        "data": [
+          {
+            "qs": ["He is wise and humorous."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What is my Grandfather’s personality like?", "id": "A379" }
+        ]
+      },
+      {
+        "name": "Jennifer",
+        "gender": "female",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "fsp": "What are some of my Grandfather’s habits and interests?",
+        "data": [
+          {
+            "qs": ["He enjoys telling stories."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What are some of my Grandfather’s habits and interests?",
+            "id": "A380"
+          }
+        ]
+      },
+      {
+        "name": "Sarah",
+        "gender": "female",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "fsp": "What are some of my Older Sister’s habits and interests?",
+        "data": [
+          {
+            "qs": ["She enjoys skateboarding in the park."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What are some of my Older Sister’s habits and interests?",
+            "id": "A381"
+          }
+        ]
+      }
+    ]
+  }
+]

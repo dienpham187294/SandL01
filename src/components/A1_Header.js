@@ -27,6 +27,13 @@ const pracEnSets = [
   },
   {
     root: "learninghub",
+    preName: "Khóa Sơ cấp:",
+    name: "Cùng thực hành nghe nói 10 chủ đề giao tiếp cơ bản ver.01",
+    link: "elementary-a1-lesson-plan-ver01",
+    id: "socapI",
+  },
+  {
+    root: "learninghub",
     preName: "Khóa tiêu chuẩn:",
     name: "Cùng thực hành nghe nói chủ đề: Ăn - Ở - Đi lại",
     link: "restaurant-hotel-travel",

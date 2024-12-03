@@ -1,4 +1,33 @@
 let imale, ifemale;
+function playAudio(filename, disableButton, enableButton) {
+  // Tạo một đường dẫn đến file audio
+  const audioPath = `/audio/${filename}.mp3`;
+
+  // Tạo phần tử Audio
+  const audio = new Audio(audioPath);
+
+  audio.addEventListener("play", () => {
+    // console.log(`Start playing: ${filename}`);
+    disableButton(); // Vô hiệu hóa nút khi audio đang phát
+  });
+  // Xử lý sự kiện khi audio phát xong
+  audio.addEventListener("ended", () => {
+    // console.log(`Finished playing: ${filename}`);
+    enableButton();
+    audio.remove(); // Giải phóng bộ nhớ
+  });
+
+  // Xử lý sự kiện khi audio không thể phát
+  audio.addEventListener("error", (err) => {
+    console.error(`Error playing audio file: ${filename}`, err);
+    audio.remove(); // Giải phóng bộ nhớ trong trường hợp lỗi
+  });
+
+  // Phát audio
+  audio.play().catch((error) => {
+    console.error(`Error playing audio: ${filename}`, error);
+  });
+}
 
 // Function to set the state of a button
 function setButtonState(buttonId, isEnabled) {
@@ -43,7 +72,20 @@ function checkFunctionExecution(functionName) {
 }
 
 // Main function to read messages
-export default async function ReadMessage(ObjVoices, text, voiceNum) {
+export default async function ReadMessage(ObjVoices, text, voiceNum, audio) {
+  if (audio) {
+    if (!Array.isArray(audio) || audio.length === 0) {
+    } else {
+      try {
+        const randomIndex = Math.floor(Math.random() * audio.length);
+        playAudio(audio[randomIndex].id, disableButton, enableButton);
+        return;
+      } catch (error) {
+        console.log(error);
+      }
+    }
+  }
+
   if (!checkFunctionExecution("ReadMessage")) {
     console.warn("ReadMessage called too frequently.");
     return;

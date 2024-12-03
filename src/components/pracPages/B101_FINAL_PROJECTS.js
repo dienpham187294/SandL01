@@ -153,7 +153,8 @@ function FINAL_PROJECT({
         ReadMessage(
           ObjREAD,
           playData.fsp,
-          playData.gender === "female" ? 1 : 0
+          playData.gender === "female" ? 1 : 0,
+          playData.fspSets
         );
       }
 
@@ -343,8 +344,19 @@ function FINAL_PROJECT({
                   }}
                   className="btn btn-outline-primary"
                   onClick={() => {
+
+                    
                     try {
-                      ReadMessage(ObjREAD, playData.fsp, GENDER);
+                      ReadMessage(
+                        ObjREAD,
+                        playData.fsp,
+                        GENDER,
+                        playData.fspSets
+                      );
+
+                      // if (playData.fspSets) {
+                      //   playAudio(playData.fspSets[0].id);
+                      // }
                     } catch (error) {}
                   }}
                 >

@@ -29,14 +29,18 @@ const Dictaphone = ({
 
   useEffect(() => {
     if (RegInput !== null) {
-      
       setMessage(RegInput);
       const objTR = findMostSimilarQuestion(RegInput, CMDlist);
       if (objTR === null) {
         ReadMessage(ObjVoices, "Sorry, what did you say?", GENDER);
       } else {
         if (objTR.aw !== undefined) {
-          ReadMessage(ObjVoices, getRandomElementFromArray(objTR.aw), GENDER);
+          ReadMessage(
+            ObjVoices,
+            getRandomElementFromArray(objTR.aw),
+            GENDER,
+            objTR.aw01
+          );
         }
         if (objTR.action !== undefined) {
           if (objTR.action[0] === "WRONG") {
