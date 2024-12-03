@@ -81,12 +81,28 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
             hiệu quả.
           </li>
           <li>
-            Mỗi buổi học đều nên nhắc lại các kiến thức cốt lõi về tách ghép âm
+            Mỗi buổi học đều nên nhắc lại các kiến thức cốt lõi về tách ghép âm.
           </li>
-          <li>Thực hành ghép âm</li> <li>Thực hành tách âm</li>
+          <li>Thực hành ghép âm (chọn vài từ trong bảng nội dung để ghép)</li>{" "}
           <li>
-            Làm rõ, học thuộc các "gán nghĩa" từ bảng nội dung (ưu tiên phụ nếu
-            có thời gian).
+            Thực hành tách âm (người hướng dẫn đọc vài từ và yêu cầu người thực
+            hành nghe xem nguyên âm đại diện là gì?)
+          </li>
+          <li>
+            ***Lưu ý khi hướng dẫn và học về Ghép âm - Phân tách âm: Giai đoạn
+            ban đầu hãy tập trung vào nguyên âm đại diện UEOAI-ơ và nguyên lý
+            ghép âm, các âm phụ khác thì lướt qua hoặc chỉ thị phạm mà không
+            phân tích kĩ.
+          </li>
+          <li>
+            Khi hướng dẫn và học nội dung trong bảng, chỉ cần vừa đủ để có thể
+            thực hành, đừng quá học kĩ càng, cũng đừng tập trung vào làm rõ
+            nghĩa hoặc cấu trúc câu, hãy nắm vừa đủ và nhanh chóng chuyển qua
+            thực hành, khi thực hành tự khắc sẽ nắm nội dung.
+          </li>
+          <li>
+            Sau khi đã thực hành 1 hoặc 1 vài lần quay lại làm rõ, học thuộc các
+            "gán nghĩa" từ bảng nội dung (ưu tiên phụ nếu có thời gian).
           </li>
           <li>Mở rộng thực hành nhiều bài cùng một lúc.</li>
         </ul>
