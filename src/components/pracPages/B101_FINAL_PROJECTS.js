@@ -149,7 +149,7 @@ function FINAL_PROJECT({
       setCMD(playData.data);
       setGENDER(playData.gender === "female" ? 1 : 0);
       setLang(playData.lang === "VN" ? "vi-VN" : "en-US");
-      if (!IsMobile && NumberOneByOneHost === 0) {
+      if ((!IsMobile && NumberOneByOneHost === 0) || playData.fspSets) {
         ReadMessage(
           ObjREAD,
           playData.fsp,
@@ -344,8 +344,6 @@ function FINAL_PROJECT({
                   }}
                   className="btn btn-outline-primary"
                   onClick={() => {
-
-                    
                     try {
                       ReadMessage(
                         ObjREAD,

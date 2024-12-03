@@ -32,7 +32,12 @@ const Dictaphone = ({
       setMessage(RegInput);
       const objTR = findMostSimilarQuestion(RegInput, CMDlist);
       if (objTR === null) {
-        ReadMessage(ObjVoices, "Sorry, what did you say?", GENDER);
+        ReadMessage(
+          ObjVoices,
+          "Sorry, what did you say?",
+          GENDER,
+          GENDER === 1 ? [{ id: "sorryFemale" }] : [{ id: "sorryMale" }]
+        );
       } else {
         if (objTR.aw !== undefined) {
           ReadMessage(
