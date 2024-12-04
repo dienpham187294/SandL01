@@ -18,17 +18,17 @@ const coreKnowledgeSets = [
 ];
 
 const pracEnSets = [
+  // {
+  //   root: "learninghub",
+  //   preName: "Khóa Sơ cấp:",
+  //   name: "Cùng thực hành nghe nói 10 chủ đề giao tiếp cơ bản",
+  //   link: "elementary-a1-lesson-plan",
+  //   id: "socapI",
+  // },
   {
     root: "learninghub",
     preName: "Khóa Sơ cấp:",
     name: "Cùng thực hành nghe nói 10 chủ đề giao tiếp cơ bản",
-    link: "elementary-a1-lesson-plan",
-    id: "socapI",
-  },
-  {
-    root: "learninghub",
-    preName: "Khóa Sơ cấp:",
-    name: "Cùng thực hành nghe nói 10 chủ đề giao tiếp cơ bản ver.01",
     link: "elementary-a1-lesson-plan-ver01",
     id: "socapI",
   },
@@ -40,13 +40,13 @@ const pracEnSets = [
     id: "socapII",
   },
 
-  {
-    root: "learninghub",
-    preName: "For parents:",
-    name: "Cùng thực hành các nội dung thân thuộc với trẻ em 2-5 tuổi",
-    link: "parents-and-kids",
-    id: "socapII",
-  },
+  // {
+  //   root: "learninghub",
+  //   preName: "For parents:",
+  //   name: "Cùng thực hành các nội dung thân thuộc với trẻ em 2-5 tuổi",
+  //   link: "parents-and-kids",
+  //   id: "socapII",
+  // },
 ];
 
 export default function Header({ sttRoom, STTconnectFN }) {
