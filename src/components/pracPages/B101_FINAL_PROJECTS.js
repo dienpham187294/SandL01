@@ -13,6 +13,7 @@ import TableDisplay from "./B101_FINAL_TableDisplay";
 import { ObjREADContext } from "../../App"; // Import ObjREADContext
 import isImageUrl from "../../ulti/isImageUrl";
 import useImagePreloader from "../useImagePreloader";
+import helper_fn_localStorage from "../../ulti/helper_fn_localStorage";
 const colors = ["red", "orange", "black", "green", "blue", "indigo", "violet"];
 // console.log(ObjREADContext);
 function FINAL_PROJECT({
@@ -28,6 +29,7 @@ function FINAL_PROJECT({
   NumberOneByOneHost,
   tableView,
   setMessage,
+  roomCode,
 }) {
   const [StartSTT, setStartSTT] = useState(true);
   const [INDEXtoPlay, setINDEXtoPlay] = useState(-1);
@@ -45,11 +47,19 @@ function FINAL_PROJECT({
   const [TimeCountDown, setTimeCountDown] = useState(null);
   // const [OBJAfterReg, setOBJAfterReg] = useState(null);
 
-  const [OnTable, setOnTable] = useState(null);
+  const [OnTable, setOnTable] = useState(
+    helper_fn_localStorage.getNumberFromLocalStorage(roomCode)
+  );
+
   const [getSTTDictaphone, setGetSTTDictaphone] = useState(false);
+
   const ObjREAD = useContext(ObjREADContext);
 
   // Hàm kiểm tra và thêm phần tử vào mảng nếu chưa tồn tại
+  const [styleMain, setStyles] = useState({
+    opacity: 0,
+    transition: "opacity 1s ease",
+  });
 
   const addElementIfNotExist = (element) => {
     setPushAW((prevArray) => {
@@ -59,6 +69,21 @@ function FINAL_PROJECT({
       return prevArray;
     });
   };
+
+  useEffect(() => {
+    setTimeout(() => {
+      setStyles((prevStyles) => ({
+        ...prevStyles,
+        opacity: 1,
+      }));
+    }, 200);
+  }, []);
+
+  // Check screen size on mount and when window is resized
+  useEffect(() => {
+    helper_fn_localStorage.saveNumberToLocalStorage(roomCode, OnTable);
+  }, [OnTable]);
+
   // Function to check screen size
   const checkScreenSize = () => {
     // console.log(window.innerWidth);
@@ -76,7 +101,13 @@ function FINAL_PROJECT({
 
   useEffect(() => {
     if (IsPause) {
-      setStartSTT(true);
+      setStyles((prevStyles) => ({
+        ...prevStyles,
+        opacity: 0,
+      }));
+      setTimeout(() => {
+        setStartSTT(true);
+      }, 1000);
     }
   }, [IsPause]);
 
@@ -87,7 +118,14 @@ function FINAL_PROJECT({
         setINDEXtoPlay(indexSets);
       }
     } else {
-      setStartSTT(true);
+      setStyles((prevStyles) => ({
+        ...prevStyles,
+        opacity: 0,
+      }));
+      setTimeout(() => {
+        setStartSTT(true);
+      }, 1000);
+
       // handleIncrementReadyClick();
     }
   }, [numberBegin]);
@@ -166,11 +204,23 @@ function FINAL_PROJECT({
     if (Submit !== null && PushAW.length > 0) {
       let checkIndex = checkArrays(Submit, PushAW);
       if (checkIndex === 1) {
-        setStartSTT(true);
-        setScore((D) => D + 1);
+        setStyles((prevStyles) => ({
+          ...prevStyles,
+          opacity: 0,
+        }));
+        setTimeout(() => {
+          setStartSTT(true);
+          setScore((D) => D + 1);
+        }, 1000);
       } else if (checkIndex === 2) {
-        setStartSTT(true);
-        setScore((D) => D - 1);
+        setStyles((prevStyles) => ({
+          ...prevStyles,
+          opacity: 0,
+        }));
+        setTimeout(() => {
+          setStartSTT(true);
+          setScore((D) => D - 1);
+        }, 1000);
       }
     }
   }, [Submit, PushAW]);
@@ -228,8 +278,14 @@ function FINAL_PROJECT({
           <button
             className="btn btn-outline-primary"
             onClick={() => {
-              setStartSTT(true);
-              setStartSTT((D) => D + 1);
+              setStyles((prevStyles) => ({
+                ...prevStyles,
+                opacity: 0,
+              }));
+              setTimeout(() => {
+                setStartSTT(true);
+                setScore((D) => D + 1);
+              }, 1000);
             }}
           >
             Done
@@ -257,28 +313,40 @@ function FINAL_PROJECT({
               <button
                 className="btn btn-outline-primary"
                 onClick={() => {
-                  setStartSTT(true);
-                  setScore((D) => D - 1);
+                  setStyles((prevStyles) => ({
+                    ...prevStyles,
+                    opacity: 0,
+                  }));
+                  setTimeout(() => {
+                    setStartSTT(true);
+                    setScore((D) => D - 1);
+                  }, 1000);
                 }}
               >
                 NEXT
               </button>
-              {getSTTDictaphone ? (
-                <Dictaphone
-                  getSTTDictaphone={setGetSTTDictaphone}
-                  setGetSTTDictaphone={setGetSTTDictaphone}
-                  CMDlist={CMD}
-                  GENDER={GENDER}
-                  setScore={setScore}
-                  addElementIfNotExist={addElementIfNotExist}
-                  ObjVoices={ObjREAD}
-                  Lang={Lang}
-                  setStartSTT={setStartSTT}
-                  setMessage={setMessage}
-                />
-              ) : (
-                <RegButton setGetSTTDictaphone={setGetSTTDictaphone} />
-              )}{" "}
+              <div
+                className={`transition-container ${
+                  getSTTDictaphone ? "show-dictaphone" : "show-regbutton"
+                }`}
+              >
+                {getSTTDictaphone ? (
+                  <Dictaphone
+                    getSTTDictaphone={setGetSTTDictaphone}
+                    setGetSTTDictaphone={setGetSTTDictaphone}
+                    CMDlist={CMD}
+                    GENDER={GENDER}
+                    setScore={setScore}
+                    addElementIfNotExist={addElementIfNotExist}
+                    ObjVoices={ObjREAD}
+                    Lang={Lang}
+                    setStartSTT={setStartSTT}
+                    setMessage={setMessage}
+                  />
+                ) : (
+                  <RegButton setGetSTTDictaphone={setGetSTTDictaphone} />
+                )}
+              </div>
             </div>
           ) : null}
         </div>
@@ -287,9 +355,7 @@ function FINAL_PROJECT({
   }
   try {
     return (
-      <div
-      // className="projects_outmain"
-      >
+      <div style={styleMain}>
         <hr />
         {StartSTT ? (
           <div>
@@ -308,9 +374,18 @@ function FINAL_PROJECT({
                 {" "}
                 <button
                   style={{ borderRadius: "5px" }}
+                  id="btnBoQua"
                   onClick={() => {
-                    setStartSTT(true);
-                    setScore((D) => D - 1);
+                    const button = document.getElementById("btnBoQua");
+                    button.style.opacity = 0; // Làm mờ nút dần
+                    setStyles((prevStyles) => ({
+                      ...prevStyles,
+                      opacity: 0,
+                    }));
+                    setTimeout(() => {
+                      setStartSTT(true);
+                      setScore((D) => D - 1);
+                    }, 1000);
                   }}
                 >
                   Bỏ qua
@@ -394,13 +469,13 @@ function FINAL_PROJECT({
                     />
                   ) : (
                     <RegButton setGetSTTDictaphone={setGetSTTDictaphone} />
-                  )}{" "}
+                  )}
                 </div>
               ) : null}
             </div>
 
             <div>
-              {!IsMobile && tableView === "Normal" ? (
+              {/* {!IsMobile && tableView === "Normal" ? (
                 <div>
                   <TableDisplay
                     OnTable={OnTable}
@@ -408,9 +483,9 @@ function FINAL_PROJECT({
                     setOnTable={setOnTable}
                   />
                 </div>
-              ) : null}
+              ) : null} */}
 
-              {OnTable !== null ? (
+              {!IsMobile && tableView === "Normal" ? (
                 <div style={{ textAlign: "center" }}>
                   <button
                     style={{
@@ -435,7 +510,7 @@ function FINAL_PROJECT({
                       setOnTable(null);
                     }}
                   >
-                    Back
+                    All
                   </button>
                   {DataPracticingOverRoll.map((e, i) => {
                     let start = Math.max(0, OnTable - 5);
@@ -480,32 +555,45 @@ function FINAL_PROJECT({
                       return null;
                     }
                   })}
-
-                  <div>
-                    <TableHD
-                      data={DataPracticingOverRoll[OnTable]["HDTB"]["HD"]}
-                      HINT={HINT}
-                    />
-                  </div>
-                  <div className="row">
-                    <div className="col-9">
-                      {DataPracticingOverRoll[OnTable]["HDTB"]["TB"].map(
-                        (e, i) => (
-                          <TableTB
-                            key={i}
-                            data={e}
-                            addElementIfNotExist={addElementIfNotExist}
-                            color={colors[i % 7]}
-                            PushAW={PushAW}
-                          />
-                        )
-                      )}
+                  {OnTable !== null ? (
+                    <div>
+                      <TableHD
+                        data={DataPracticingOverRoll[OnTable]["HDTB"]["HD"]}
+                        HINT={HINT}
+                      />
                     </div>
-
-                    <div className="col-3">
-                      <TablePushAW data={PushAW} />
+                  ) : (
+                    <div>
+                      <TableHD
+                        data={fn_f_allTable_t_tableOfContent(
+                          DataPracticingOverRoll
+                        )}
+                        HINT={null}
+                      />
                     </div>
-                  </div>
+                  )}
+                  {OnTable !== null ? (
+                    <div className="row">
+                      <div className="col-9">
+                        {DataPracticingOverRoll[OnTable]["HDTB"]["TB"].map(
+                          (e, i) => (
+                            <TableTB
+                              key={i}
+                              data={e}
+                              addElementIfNotExist={addElementIfNotExist}
+                              color={colors[i % 7]}
+                              PushAW={PushAW}
+                            />
+                          )
+                        )}
+                      </div>
+
+                      <div className="col-3">
+                        <TablePushAW data={PushAW} />
+                      </div>
+                    </div>
+                  ) : null}
+
                   <div style={{ height: "300px" }}></div>
                 </div>
               ) : null}
@@ -563,4 +651,17 @@ function disableButtonFsp() {
     button.style.cursor = "not-allowed"; // Optional: Change cursor style when disabled
     button.style.opacity = "0.1"; // Optional: Change opacity when disabled
   }
+}
+
+function fn_f_allTable_t_tableOfContent(input) {
+  let resSets = [];
+  input.forEach((e, i) => {
+    if (i % 4 === 0) {
+      resSets.push({});
+    }
+    resSets[resSets.length - 1]["id" + (i % 4)] =
+      e.HDTB.IF.IFname + " (" + (i + 1) + ")";
+  });
+
+  return resSets;
 }

@@ -217,22 +217,22 @@ const Lobby = ({
                   </select>
                 </div>
                 <div className="col-4">
-                  <label htmlFor="tableView">Table view: </label>
+                  <label htmlFor="tableView">Hiển thị Bảng: </label>
                   <select
                     id="tableView"
                     className="form-control"
                     value={tableView}
                     onChange={(e) => setTableView(e.target.value)}
                   >
-                    {["Normal", "Hide"].map((view) => (
+                    {["Normal", "Hide"].map((view, iview) => (
                       <option key={view} value={view}>
-                        {view}
+                        {["Bình thường", "Ẩn bảng"][iview]}
                       </option>
                     ))}
                   </select>
                 </div>
                 <div className="col-4">
-                  <label htmlFor="pracMode">Practice mode: </label>
+                  <label htmlFor="pracMode">Chế độ luyện tập: </label>
                   <select
                     id="pracMode"
                     className="form-control"

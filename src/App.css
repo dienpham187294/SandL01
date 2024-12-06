@@ -47,3 +47,20 @@
 .divFlexH1:hover {
   color: blue;
 }
+
+.transition-container {
+  position: relative;
+  transition: opacity 3s ease, transform 3s ease;
+  opacity: 0;
+  transform: translateY(20px); /* Khởi đầu ở dưới */
+}
+
+.transition-container.show-dictaphone {
+  opacity: 1;
+  transform: translateY(0); /* Hiện lên */
+}
+
+.transition-container.show-regbutton {
+  opacity: 1;
+  transform: translateY(0); /* Hiện lên */
+}

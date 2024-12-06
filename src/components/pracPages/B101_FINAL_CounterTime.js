@@ -4,11 +4,21 @@ const CountdownTimer = ({ setSTT, STT, TIME, setScore }) => {
   const [timeLeft, setTimeLeft] = useState(TIME); // 120 seconds countdown
 
   useEffect(() => {
+    setTimeout(() => {
+      const div_get_id = document.getElementById("counterTime");
+      div_get_id.style.opacity = "1";
+    }, 500);
+  }, []);
+
+  useEffect(() => {
     if (timeLeft > 0) {
       const timerId = setInterval(() => {
         setTimeLeft((prevTime) => prevTime - 1);
       }, 1000);
-
+      if (timeLeft === 2) {
+        const div_get_id = document.getElementById("counterTime");
+        div_get_id.style.height = 0; // Làm mờ nút dần
+      }
       // Cleanup interval on component unmount
       return () => clearInterval(timerId);
     } else if (timeLeft === 0) {
@@ -29,9 +39,8 @@ const CountdownTimer = ({ setSTT, STT, TIME, setScore }) => {
   };
 
   return (
-    <div style={styles.container}>
+    <div id="counterTime" style={styles.container}>
       <h1 style={styles.timer}>{formatTime(timeLeft)}</h1>
-      {/* {timeLeft === 0 && <p style={styles.message}>Time's up!</p>} */}
     </div>
   );
 };
@@ -45,6 +54,8 @@ const styles = {
     justifyContent: "center",
     height: "10vh",
     backgroundColor: "#f0f0f0",
+    opacity: "0",
+    transition: "height 2s ease, opacity 1s ease",
   },
   timer: {
     fontSize: "48px",

@@ -17,16 +17,13 @@ function playAudio(filename, disableButton, enableButton) {
     audio.remove(); // Giải phóng bộ nhớ
   });
 
-  // Xử lý sự kiện khi audio không thể phát
   audio.addEventListener("error", (err) => {
+    enableButton();
     console.error(`Error playing audio file: ${filename}`, err);
-    audio.remove(); // Giải phóng bộ nhớ trong trường hợp lỗi
+    audio.remove(); // Giải phóng bộ nhớ
   });
 
-  // Phát audio
-  audio.play().catch((error) => {
-    console.error(`Error playing audio: ${filename}`, error);
-  });
+  audio.play();
 }
 
 // Function to set the state of a button
@@ -86,6 +83,9 @@ export default async function ReadMessage(ObjVoices, text, voiceNum, audio) {
     }
   }
 
+  if (text === null) {
+    return;
+  }
   if (!checkFunctionExecution("ReadMessage")) {
     console.warn("ReadMessage called too frequently.");
     return;

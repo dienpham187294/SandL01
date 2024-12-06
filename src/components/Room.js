@@ -297,6 +297,7 @@ const Room = ({ setSttRoom }) => {
             NumberOneByOneHost={NumberOneByOneHost}
             tableView={roomInfo.tableView}
             setMessage={setMessage}
+            roomCode={roomCode}
           />
         </div>
       ) : null}

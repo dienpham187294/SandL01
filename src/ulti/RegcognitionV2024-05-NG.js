@@ -6,6 +6,8 @@ import stringSimilarity from "string-similarity";
 import ReadMessage from "./ReadMessage_2024";
 // import { socket } from "../App";
 
+let commands = [];
+
 const Dictaphone = ({
   getSTTDictaphone,
   setGetSTTDictaphone,
@@ -18,9 +20,115 @@ const Dictaphone = ({
   setStartSTT,
   setMessage,
 }) => {
-  const { transcript, listening, resetTranscript } = useSpeechRecognition();
+  const { interimTranscript, transcript, listening, resetTranscript } =
+    useSpeechRecognition({ commands });
+
   const [RegInput, setRegInput] = useState(null);
   // const idSocket = socket.id.slice(0, 4);
+  const [styles, setStyles] = useState({
+    opacity: 0,
+    height: "100px",
+    transition: "opacity 1s ease, height 1s ease, width 1s ease",
+
+    position: "fixed",
+    backgroundColor: "white",
+    top: "50%",
+    left: "50%",
+
+    transform: "translate(-50%, -50%)",
+    border: "1px solid black",
+    borderRadius: "5px",
+    cursor: "pointer",
+    padding: "1rem",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    zIndex: 5,
+  });
+
+  // useEffect(() => {
+  //   let cmd_get_f_CMDlist = [];
+  //   CMDlist.forEach((e0, i0) => {
+  //     e0.qs.forEach((e1, i1) => {
+  //       cmd_get_f_CMDlist.push(i0 + "-" + i1 + "-" + e1);
+  //     });
+  //   });
+
+  //   commands = [
+  //     {
+  //       command: cmd_get_f_CMDlist,
+  //       callback: (command) => {
+  //         try {
+  //           let res = command.split("-");
+
+  //           if (CMDlist[res[0]].aw !== undefined) {
+  //             ReadMessage(
+  //               ObjVoices,
+  //               getRandomElementFromArray(CMDlist[res[0]].aw),
+  //               GENDER,
+  //               CMDlist[res[0]].aw01
+  //             );
+  //           }
+  //           if (CMDlist[res[0]].action !== undefined) {
+  //             if (CMDlist[res[0]].action[0] === "WRONG") {
+  //               setScore((S) => S - 1);
+  //               setStartSTT(true);
+  //             } else {
+  //               addElementIfNotExist(CMDlist[res[0]].action[0]);
+  //             }
+  //           }
+
+  //           setStyles((prevStyles) => ({
+  //             ...prevStyles,
+  //             opacity: 0,
+  //             height: "100px",
+  //             width: "300px",
+  //           }));
+  //           setTimeout(() => {
+  //             setGetSTTDictaphone(false);
+  //           }, 500);
+  //         } catch (error) {}
+  //       },
+  //       isFuzzyMatch: true,
+  //       fuzzyMatchingThreshold: 0.6,
+  //       bestMatchOnly: true,
+  //     },
+  //     // {
+  //     //   command: ["clear", "reset"],
+  //     //   callback: ({ resetTranscript }) => resetTranscript(),
+  //     // },
+  //     // {
+  //     //   command: "stop",
+  //     //   callback: stopListening,
+  //     // },
+  //     // {
+  //     //   command: [
+  //     //     "Can you say that again?",
+  //     //     "Can you repeat that?",
+  //     //     "Could you say it again, please?",
+  //     //   ],
+  //     //   callback: () => fn_speakAgain(),
+  //     // },
+  //     // {
+  //     //   command: [
+  //     //     "Can you speak slowly?",
+  //     //     "Can you say it slowly?",
+  //     //     "Speak slower, please.",
+  //     //     "Please repeat slowly.",
+  //     //   ],
+  //     //   callback: () => fn_speakSlowly(),
+  //     // },
+  //   ];
+  // }, [CMDlist]);
+
+  useEffect(() => {
+    setStyles((prevStyles) => ({
+      ...prevStyles,
+      opacity: 1,
+      height: "600px",
+    }));
+  }, []);
+
   useEffect(() => {
     if (getSTTDictaphone) {
       startListening();
@@ -30,7 +138,11 @@ const Dictaphone = ({
   useEffect(() => {
     if (RegInput !== null) {
       setMessage(RegInput);
+
       const objTR = findMostSimilarQuestion(RegInput, CMDlist);
+
+      console.log(CMDlist);
+
       if (objTR === null) {
         ReadMessage(
           ObjVoices,
@@ -39,13 +151,10 @@ const Dictaphone = ({
           GENDER === 1 ? [{ id: "sorryFemale" }] : [{ id: "sorryMale" }]
         );
       } else {
-        if (objTR.aw !== undefined) {
-          ReadMessage(
-            ObjVoices,
-            getRandomElementFromArray(objTR.aw),
-            GENDER,
-            objTR.aw01
-          );
+        if (objTR.aw01 !== undefined) {
+          ReadMessage(null, null, null, objTR.aw01);
+        } else if (objTR.aw !== undefined) {
+          ReadMessage(ObjVoices, getRandomElementFromArray(objTR.aw), GENDER);
         }
         if (objTR.action !== undefined) {
           if (objTR.action[0] === "WRONG") {
@@ -56,8 +165,15 @@ const Dictaphone = ({
           }
         }
       }
-
-      setGetSTTDictaphone(false);
+      setStyles((prevStyles) => ({
+        ...prevStyles,
+        opacity: 0,
+        height: "100px",
+        width: "300px",
+      }));
+      setTimeout(() => {
+        setGetSTTDictaphone(false);
+      }, 1000);
     }
   }, [RegInput]);
 
@@ -73,33 +189,17 @@ const Dictaphone = ({
   };
 
   return (
-    <div
-      className="container"
-      style={{
-        position: "fixed",
-        backgroundColor: "white",
-        top: "50%",
-        left: "50%",
-        height: "600px",
-        transform: "translate(-50%, -50%)",
-        border: "1px solid black",
-        borderRadius: "5px",
-        cursor: "pointer",
-        padding: "1rem",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        zIndex: 5,
-      }}
-    >
+    <div className="container" id="div_of_dictaphone" style={styles}>
       <div className="row" style={{ width: "80%" }}>
-        <div className="col-6">
+        <div className="col-8">
           <h3>
             <b>{transcript || ". . . . ."}</b>
           </h3>
-          <hr />
+        </div>
+        <div className="col-2">
+          {" "}
           <button
-            style={{ scale: "1.5" }}
+            style={{ scale: "1.5", marginRight: "10x" }}
             className="btn btn-info"
             onClick={() => {
               resetTranscript();
@@ -108,8 +208,20 @@ const Dictaphone = ({
             Clear
           </button>
         </div>
-        <div
-          className="col-6"
+        <div className="col-2">
+          <button
+            style={{ scale: "1.5" }}
+            className="btn btn-info"
+            onClick={() => {
+              stopListening();
+              setRegInput(transcript);
+            }}
+          >
+            <i className="bi bi-mic-fill mr-1"></i>
+          </button>
+        </div>
+        {/* <div
+          className="col-2"
           style={{
             display: "flex",
             flexDirection: "column",
@@ -135,7 +247,7 @@ const Dictaphone = ({
           >
             <i className="bi bi-mic-fill"></i>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
