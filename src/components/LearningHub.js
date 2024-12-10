@@ -68,59 +68,16 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
             )}, ${id}`}
           />
         </Helmet>
-        <h5>
-          Thực hành lặp lại (có ghi nhận phản hồi-sửa chửa) là con đường phải đi
-          qua để đạt được kĩ năng. Hãy lấy kỉ luật và cùng thực hành chung làm
-          động lực.
-        </h5>
-        <ul>
-          <li>Mục tiêu chung cuộc là 10.000 lần nghe nói.</li>
-          <li>
-            Mục tiêu mỗi buổi thực hành ít cũng phải trên 100 lần nghe nói. Một
-            buổi thực hành không dành thời gian nghe-nói nhiều là một buổi chưa
-            hiệu quả.
-          </li>
-          <li>
-            Mỗi buổi học đều nên nhắc lại các kiến thức cốt lõi về tách ghép âm.
-          </li>
-          <li>Thực hành ghép âm (chọn vài từ trong bảng nội dung để ghép)</li>{" "}
-          <li>
-            Thực hành tách âm (người hướng dẫn đọc vài từ và yêu cầu người thực
-            hành nghe xem nguyên âm đại diện là gì?)
-          </li>
-          <li>
-            ***Lưu ý khi hướng dẫn và học về Ghép âm - Phân tách âm: Giai đoạn
-            ban đầu hãy tập trung vào nguyên âm đại diện UEOAI-ơ và nguyên lý
-            ghép âm, các âm phụ khác thì lướt qua hoặc chỉ thị phạm mà không
-            phân tích kĩ.
-          </li>
-          <li>
-            Khi hướng dẫn và học nội dung trong bảng, chỉ cần vừa đủ để có thể
-            thực hành, đừng quá học kĩ càng, cũng đừng tập trung vào làm rõ
-            nghĩa hoặc cấu trúc câu, hãy nắm vừa đủ và nhanh chóng chuyển qua
-            thực hành, khi thực hành tự khắc sẽ nắm nội dung.
-          </li>
-          <li>
-            Sau khi đã thực hành 1 hoặc 1 vài lần quay lại làm rõ, học thuộc các
-            "gán nghĩa" từ bảng nội dung (ưu tiên phụ nếu có thời gian).
-          </li>
-          <li>Mở rộng thực hành nhiều bài cùng một lúc.</li>
-        </ul>
 
         {rShowLessonTABLE(dataLearning, currentIndex, setCurrentIndex)}
+
         <hr />
         <TableHD data={dataLearning[currentIndex]?.HDTB?.HD} HINT={"HINT"} />
+        {generateBootstrapList(dataLearning[currentIndex]?.ListenList)}
 
-        <div
-          style={{
-            border: "1px solid green",
-            borderRadius: "5px",
-            padding: "2%",
-            fontSize: "larger",
-          }}
-        >
-          {renderContent(dataLearning, currentIndex)}
-        </div>
+        {dataLearning[currentIndex] ? (
+          <div>{renderContent(dataLearning, currentIndex)}</div>
+        ) : null}
 
         {STTPractice && dataLearning !== null ? (
           <Lobby
@@ -157,7 +114,49 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
 
         <hr />
 
-        {/* <div style={{ fontSize: "larger" }}>
+        <div style={{ padding: "5%" }}>
+          <h5>
+            Thực hành lặp lại (có ghi nhận phản hồi-sửa chửa) là con đường phải
+            đi qua để đạt được kĩ năng. Hãy lấy kỉ luật và cùng thực hành chung
+            làm động lực.
+          </h5>
+          <ul>
+            <li>Mục tiêu chung cuộc là 10.000 lần nghe nói.</li>
+            <li>
+              Mục tiêu mỗi buổi thực hành ít cũng phải trên 100 lần nghe nói.
+              Một buổi thực hành không dành thời gian nghe-nói nhiều là một buổi
+              chưa hiệu quả.
+            </li>
+            <li>
+              Mỗi buổi học đều nên nhắc lại các kiến thức cốt lõi về tách ghép
+              âm.
+            </li>
+            <li>Thực hành ghép âm (chọn vài từ trong bảng nội dung để ghép)</li>{" "}
+            <li>
+              Thực hành tách âm (người hướng dẫn đọc vài từ và yêu cầu người
+              thực hành nghe xem nguyên âm đại diện là gì?)
+            </li>
+            <li>
+              ***Lưu ý khi hướng dẫn và học về Ghép âm - Phân tách âm: Giai đoạn
+              ban đầu hãy tập trung vào nguyên âm đại diện UEOAI-ơ và nguyên lý
+              ghép âm, các âm phụ khác thì lướt qua hoặc chỉ thị phạm mà không
+              phân tích kĩ.
+            </li>
+            <li>
+              Khi hướng dẫn và học nội dung trong bảng, chỉ cần vừa đủ để có thể
+              thực hành, đừng quá học kĩ càng, cũng đừng tập trung vào làm rõ
+              nghĩa hoặc cấu trúc câu, hãy nắm vừa đủ và nhanh chóng chuyển qua
+              thực hành, khi thực hành tự khắc sẽ nắm nội dung.
+            </li>
+            <li>
+              Sau khi đã thực hành 1 hoặc 1 vài lần quay lại làm rõ, học thuộc
+              các "gán nghĩa" từ bảng nội dung (ưu tiên phụ nếu có thời gian).
+            </li>
+            <li>Mở rộng thực hành nhiều bài cùng một lúc.</li>
+          </ul>
+        </div>
+
+        <div style={{ fontSize: "larger" }}>
           <h1>Học thuộc lòng!</h1>
           <p>
             <i>
@@ -183,8 +182,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
             Learning by heart
           </button>
           <hr />
-          {generateBootstrapList(dataLearning[currentIndex]?.ListenList)}
-        </div> */}
+        </div>
       </div>
     </HelmetProvider>
   );
@@ -203,12 +201,14 @@ function generateBootstrapList(sentences) {
     }
 
     const listItems = sentences.map((sentence, index) => (
-      <li className="list-group-item" key={index}>
-        {sentence}
-      </li>
+      <option key={index}>{sentence}</option>
     ));
 
-    return <ul className="list-group">{listItems}</ul>;
+    return (
+      <select style={{ maxHeight: "300px" }} className="">
+        {listItems}
+      </select>
+    );
   } catch (error) {
     console.error(error);
     return null;

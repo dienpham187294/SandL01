@@ -1,29 +1,56 @@
 let imale, ifemale;
-function playAudio(filename, disableButton, enableButton) {
-  // Tạo một đường dẫn đến file audio
-  const audioPath = `/audio/${filename}.mp3`;
+function playAudio(filename, disableButton, enableButton, onFail) {
+  try {
+    // Tạo một đường dẫn đến file audio
+    let link_t_get_audio = "/audio/";
+    if (filename.includes("_")) {
+      link_t_get_audio += filename.split("_")[0] + "/";
+    } else {
+      if (filename.startsWith("B")) {
+        link_t_get_audio += "T1A1/";
+      }
+    }
 
-  // Tạo phần tử Audio
-  const audio = new Audio(audioPath);
+    const audioPath = `${link_t_get_audio}${filename}.mp3`;
 
-  audio.addEventListener("play", () => {
-    // console.log(`Start playing: ${filename}`);
-    disableButton(); // Vô hiệu hóa nút khi audio đang phát
-  });
-  // Xử lý sự kiện khi audio phát xong
-  audio.addEventListener("ended", () => {
-    // console.log(`Finished playing: ${filename}`);
-    enableButton();
-    audio.remove(); // Giải phóng bộ nhớ
-  });
+    // Tạo phần tử Audio
+    const audio = new Audio(audioPath);
 
-  audio.addEventListener("error", (err) => {
-    enableButton();
-    console.error(`Error playing audio file: ${filename}`, err);
-    audio.remove(); // Giải phóng bộ nhớ
-  });
+    audio.addEventListener("play", () => {
+      disableButton(); // Vô hiệu hóa nút khi audio đang phát
+    });
 
-  audio.play();
+    // Xử lý sự kiện khi audio phát xong
+    audio.addEventListener("ended", () => {
+      enableButton();
+      audio.remove(); // Giải phóng bộ nhớ
+    });
+
+    // Xử lý sự kiện khi có lỗi trong quá trình phát
+    audio.addEventListener("error", () => {
+      enableButton(); // Kích hoạt lại nút
+      console.warn(`Audio file not supported or not found: ${audioPath}`);
+      audio.remove(); // Giải phóng bộ nhớ
+      if (typeof onFail === "function") {
+        onFail(); // Gọi callback khi lỗi
+      }
+    });
+
+    // Thử phát audio
+    audio.play().catch(() => {
+      enableButton(); // Kích hoạt lại nút nếu play() gặp lỗi
+      console.warn(`Failed to play audio: ${audioPath}`);
+      if (typeof onFail === "function") {
+        onFail(); // Gọi callback khi lỗi
+      }
+    });
+  } catch (error) {
+    console.error("Error in playAudio function:", error);
+    enableButton(); // Đảm bảo nút được kích hoạt lại trong trường hợp lỗi
+    if (typeof onFail === "function") {
+      onFail(); // Gọi callback khi lỗi
+    }
+  }
 }
 
 // Function to set the state of a button
@@ -69,20 +96,26 @@ function checkFunctionExecution(functionName) {
 }
 
 // Main function to read messages
+
 export default async function ReadMessage(ObjVoices, text, voiceNum, audio) {
   if (audio) {
     if (!Array.isArray(audio) || audio.length === 0) {
     } else {
       try {
         const randomIndex = Math.floor(Math.random() * audio.length);
-        playAudio(audio[randomIndex].id, disableButton, enableButton);
+        playAudio(audio[randomIndex].id, disableButton, enableButton, () => {
+          ReadMessage_02(ObjVoices, text, voiceNum);
+        });
         return;
       } catch (error) {
+        alert(1);
         console.log(error);
       }
     }
   }
+}
 
+async function ReadMessage_02(ObjVoices, text, voiceNum, audio) {
   if (text === null) {
     return;
   }

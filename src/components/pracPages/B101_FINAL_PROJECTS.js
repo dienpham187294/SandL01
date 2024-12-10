@@ -560,6 +560,14 @@ function FINAL_PROJECT({
                       <TableHD
                         data={DataPracticingOverRoll[OnTable]["HDTB"]["HD"]}
                         HINT={HINT}
+                        fnOnclick={(e) => {
+                          const match = e.match(/\((\d+)\)/);
+                          if (match) {
+                            // Extract the number, convert to integer, subtract 1
+                            const number = parseInt(match[1], 10) - 1;
+                            setOnTable(number);
+                          }
+                        }}
                       />
                     </div>
                   ) : (
@@ -569,6 +577,14 @@ function FINAL_PROJECT({
                           DataPracticingOverRoll
                         )}
                         HINT={null}
+                        fnOnclick={(e) => {
+                          const match = e.match(/\((\d+)\)/);
+                          if (match) {
+                            // Extract the number, convert to integer, subtract 1
+                            const number = parseInt(match[1], 10) - 1;
+                            setOnTable(number);
+                          }
+                        }}
                       />
                     </div>
                   )}
@@ -660,7 +676,7 @@ function fn_f_allTable_t_tableOfContent(input) {
       resSets.push({});
     }
     resSets[resSets.length - 1]["id" + (i % 4)] =
-      e.HDTB.IF.IFname + " (" + (i + 1) + ")";
+      (e.HDTB.IF.IFname || e.HDTB.IF.Ifname) + " (" + (i + 1) + ")";
   });
 
   return resSets;

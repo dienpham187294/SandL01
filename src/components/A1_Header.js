@@ -39,6 +39,13 @@ const pracEnSets = [
     link: "restaurant-hotel-travel",
     id: "socapII",
   },
+  {
+    root: "learninghub",
+    preName: "Nội dung:",
+    name: "13 kỹ năng cho bạn trẻ: Sống tốt đẹp.",
+    link: "lessons-young-people-should-practice",
+    id: "socapII",
+  },
 
   // {
   //   root: "learninghub",

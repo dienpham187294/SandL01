@@ -1,6 +1,6 @@
 // import { useEffect, useState } from "react";
 
-function TableHD({ data, HINT }) {
+function TableHD({ data, HINT, fnOnclick }) {
   try {
     const colorMapping = {
       X: "green",
@@ -14,12 +14,21 @@ function TableHD({ data, HINT }) {
     const headers = data.length > 0 ? Object.keys(data[0]) : [];
 
     return (
-      <table className="table table-striped" style={{ whiteSpace: "pre-line" }}>
+      <table
+        className="table table-striped"
+        style={{
+          textAlign: "left",
+          whiteSpace: "pre-line",
+          margin: "5%",
+          width: "90%",
+          cursor: "pointer",
+        }}
+      >
         <tbody>
           {data.map((row, rowIndex) => (
             <tr key={rowIndex}>
               {headers.map((header, colIndex) => (
-                <td key={colIndex}>
+                <td key={colIndex} onClick={() => fnOnclick(row[header])}>
                   {colorMapping[row[header]] ? (
                     <span
                       style={{
