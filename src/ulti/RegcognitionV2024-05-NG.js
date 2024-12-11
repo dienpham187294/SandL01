@@ -189,66 +189,29 @@ const Dictaphone = ({
   };
 
   return (
-    <div className="container" id="div_of_dictaphone" style={styles}>
-      <div className="row" style={{ width: "80%" }}>
-        <div className="col-8">
-          <h3>
-            <b>{transcript || ". . . . ."}</b>
-          </h3>
-        </div>
-        <div className="col-2">
-          {" "}
-          <button
-            style={{ scale: "1.5", marginRight: "10x" }}
-            className="btn btn-info"
-            onClick={() => {
-              resetTranscript();
-            }}
-          >
-            Clear
-          </button>
-        </div>
-        <div className="col-2">
-          <button
-            style={{ scale: "1.5" }}
-            className="btn btn-info"
-            onClick={() => {
-              stopListening();
-              setRegInput(transcript);
-            }}
-          >
-            <i className="bi bi-mic-fill mr-1"></i>
-          </button>
-        </div>
-        {/* <div
-          className="col-2"
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            justifyContent: "center",
-          }}
-        >
-          <div
-            style={{
-              border: "1px solid black",
-              borderRadius: "5px",
-              cursor: "pointer",
-              padding: "1rem",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              scale: "1.5",
-            }}
-            onClick={() => {
-              stopListening();
-              setRegInput(transcript);
-            }}
-          >
-            <i className="bi bi-mic-fill"></i>
-          </div>
-        </div> */}
-      </div>
+    <div className="container" id="div_of_dictaphone" style={{}}>
+      {" "}
+      <button
+        // style={{ scale: "1.5", marginRight: "10x" }}
+        className="btn btn-danger"
+        onClick={() => {
+          resetTranscript();
+        }}
+      >
+        Xóa nội dung vừa nói
+      </button>{" "}
+      <button
+        // style={{ scale: "1.5" }}
+        className="btn btn-info"
+        onClick={() => {
+          stopListening();
+          setRegInput(transcript);
+        }}
+      >
+        {/* <i className="bi bi-mic-fill mr-1"></i> */}
+        <i>Sử dụng nội dung vừa nói</i>
+      </button>
+      <h3>{transcript || <i>đang lắng nghe . . . </i>}</h3>
     </div>
   );
 };

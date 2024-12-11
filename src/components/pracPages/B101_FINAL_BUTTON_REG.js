@@ -2,9 +2,9 @@ import React from "react";
 
 const RegButton = ({ setGetSTTDictaphone }) => {
   const buttonStyle = {
-    position: "fixed",
-    top: "16%",
-    right: "7%",
+    // position: "fixed",
+    // top: "16%",
+    // right: "7%",
     padding: "10px 20px",
     fontSize: "1.5rem",
     color: "white",

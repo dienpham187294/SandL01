@@ -356,7 +356,7 @@ function FINAL_PROJECT({
   try {
     return (
       <div style={styleMain}>
-        <hr />
+        {/* <hr /> */}
         {StartSTT ? (
           <div>
             <StartButton
@@ -368,7 +368,7 @@ function FINAL_PROJECT({
           </div>
         ) : (
           <div className="row">
-            <div className="col-6">
+            <div className="col-3">
               {/* <h5>Score: {Score}</h5> */}
               <div>
                 {" "}
@@ -410,49 +410,44 @@ function FINAL_PROJECT({
                     loading="lazy"
                   />
                 )}
-                <button
-                  id="BtnFsp"
-                  style={{
-                    marginTop: "10%",
-                    marginLeft: "10%",
-                    scale: IsMobile ? "1.0" : "1.5",
-                  }}
-                  className="btn btn-outline-primary"
-                  onClick={() => {
-                    try {
-                      ReadMessage(
-                        ObjREAD,
-                        playData.fsp,
-                        GENDER,
-                        playData.fspSets
-                      );
+                {!getSTTDictaphone ? (
+                  <button
+                    id="BtnFsp"
+                    style={{
+                      marginTop: "10%",
+                      marginLeft: "10%",
+                      scale: IsMobile ? "1.0" : "1.5",
+                    }}
+                    className="btn btn-outline-primary"
+                    onClick={() => {
+                      try {
+                        ReadMessage(
+                          ObjREAD,
+                          playData.fsp,
+                          GENDER,
+                          playData.fspSets
+                        );
 
-                      // if (playData.fspSets) {
-                      //   playAudio(playData.fspSets[0].id);
-                      // }
-                    } catch (error) {}
-                  }}
-                >
-                  <i className="bi bi-chat-left-dots"></i>
-                </button>
+                        // if (playData.fspSets) {
+                        //   playAudio(playData.fspSets[0].id);
+                        // }
+                      } catch (error) {}
+                    }}
+                  >
+                    <i className="bi bi-chat-left-dots"></i>
+                  </button>
+                ) : null}
               </div>
             </div>
-            <div className="col-6">
-              {TimeCountDown !== null ? (
-                <CountdownTimer
-                  setSTT={setStartSTT}
-                  STT={true}
-                  TIME={TimeCountDown}
-                  setScore={setScore}
-                />
-              ) : null}
-
-              {Clue && !isImageUrl(Clue) ? (
-                <>
-                  <hr /> <b>Clue:</b> <h5 style={{ color: "blue" }}>{Clue}</h5>
-                </>
-              ) : null}
-
+            <div
+              className="col-7"
+              style={{
+                // textAlign: "center",
+                height: "200px",
+                overflow: "hidden",
+              }}
+            >
+              {" "}
               {playData !== null ? (
                 <div>
                   {getSTTDictaphone ? (
@@ -473,6 +468,29 @@ function FINAL_PROJECT({
                 </div>
               ) : null}
             </div>
+            <div className="col-2">
+              {TimeCountDown !== null ? (
+                <CountdownTimer
+                  setSTT={setStartSTT}
+                  STT={true}
+                  TIME={TimeCountDown}
+                  setScore={setScore}
+                />
+              ) : null}
+
+              {Clue && !isImageUrl(Clue) ? (
+                <>
+                  <hr /> <b>Clue:</b> <h5 style={{ color: "blue" }}>{Clue}</h5>
+                </>
+              ) : null}
+            </div>
+            <button
+              style={{ display: "none" }}
+              id="setGetSTTDictaphone"
+              onClick={() => {
+                setGetSTTDictaphone(false);
+              }}
+            ></button>
 
             <div>
               {/* {!IsMobile && tableView === "Normal" ? (
@@ -681,3 +699,4 @@ function fn_f_allTable_t_tableOfContent(input) {
 
   return resSets;
 }
+

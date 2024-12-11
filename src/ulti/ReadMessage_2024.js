@@ -74,6 +74,9 @@ function enableButton() {
 function disableButton() {
   setButtonState("RegButton", false);
   setButtonState("BtnFsp", false);
+  const button = document.getElementById("setGetSTTDictaphone");
+  button.click();
+  //
 }
 
 // Function to count and split sentences in a given text

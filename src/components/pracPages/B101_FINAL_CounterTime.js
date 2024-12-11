@@ -15,13 +15,12 @@ const CountdownTimer = ({ setSTT, STT, TIME, setScore }) => {
       const timerId = setInterval(() => {
         setTimeLeft((prevTime) => prevTime - 1);
       }, 1000);
-      if (timeLeft === 2) {
-        const div_get_id = document.getElementById("counterTime");
-        div_get_id.style.height = 0; // Làm mờ nút dần
-      }
+
       // Cleanup interval on component unmount
       return () => clearInterval(timerId);
     } else if (timeLeft === 0) {
+      const div_get_id = document.getElementById("counterTime");
+      div_get_id.style.opacity = 0; // Làm mờ nút dần
       try {
         setScore((S) => S - 1);
       } catch (error) {}
@@ -56,6 +55,8 @@ const styles = {
     backgroundColor: "#f0f0f0",
     opacity: "0",
     transition: "height 2s ease, opacity 1s ease",
+    borderRadius: "15px",
+    border: "1px solid black",
   },
   timer: {
     fontSize: "48px",
