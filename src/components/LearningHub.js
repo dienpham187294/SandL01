@@ -5,7 +5,7 @@ import Lobby from "./Lobby";
 import TableHD from "./pracPages/B101_FINAL_TABLE-HD";
 import TableTB from "./pracPages/B101_FINAL_TABLE-TB-NotAdd";
 // import { ObjREADContext } from "../App";
-
+import Dictaphone from "../ulti/RegcognitionV2024-05-NG_FOR_TEACHING";
 const colors = ["red", "orange", "black", "green", "blue", "indigo", "violet"];
 
 const LearningHub = ({ setSttRoom, STTconnectFN }) => {
@@ -16,6 +16,9 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
   const [error, setError] = useState(null);
   const [STTPractice, setSTTPractice] = useState(true);
   // const ObjREAD = useContext(ObjREADContext);
+
+  const [choose_a_st, setchoose_a_st] = useState("");
+
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -72,8 +75,18 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
         {rShowLessonTABLE(dataLearning, currentIndex, setCurrentIndex)}
 
         <hr />
-        <TableHD data={dataLearning[currentIndex]?.HDTB?.HD} HINT={"HINT"} />
-        {generateBootstrapList(dataLearning[currentIndex]?.ListenList)}
+        <TableHD
+          data={dataLearning[currentIndex]?.HDTB?.HD}
+          HINT={"HINT"}
+          fnOnclick={(e) => {
+            setchoose_a_st(e);
+          }}
+        />
+        {generateBootstrapList(
+          dataLearning[currentIndex]?.ListenList,
+          choose_a_st,
+          setchoose_a_st
+        )}
 
         {dataLearning[currentIndex] ? (
           <div>{renderContent(dataLearning, currentIndex)}</div>
@@ -194,20 +207,96 @@ function createArrayFromNumber(n) {
   return Array.from({ length: n + 1 }, (_, index) => index);
 }
 
-function generateBootstrapList(sentences) {
+function generateBootstrapList(sentences, choose_a_st, setchoose_a_st) {
   try {
     if (!Array.isArray(sentences)) {
       throw new Error("Input is not an array");
     }
 
     const listItems = sentences.map((sentence, index) => (
-      <option key={index}>{sentence}</option>
+      <option value={sentence} key={index}>
+        {sentence}
+      </option>
     ));
 
     return (
-      <select style={{ maxHeight: "300px" }} className="">
-        {listItems}
-      </select>
+      <div>
+        <h1>{choose_a_st}</h1>
+        {choose_a_st ? (
+          <table style={{ textAlign: "center", fontSize: "30px" }}>
+            <tbody>
+              <tr>
+                {choose_a_st.split(" ").map((e, i) => (
+                  <td key={i}>
+                    {" "}
+                    <span style={{ padding: "20px" }}>{e}</span>{" "}
+                  </td>
+                ))}
+              </tr>
+              <tr>
+                {choose_a_st.split(" ").map((e, i) => (
+                  <td key={i}>
+                    <input
+                      type="text"
+                      style={{
+                        width: "90%",
+                        textAlign: "center",
+                        // padding: "5px",
+                        // boxSizing: "border-box",
+                      }}
+                      // placeholder="Type here"
+                    />
+                  </td>
+                ))}
+              </tr>{" "}
+              <tr>
+                {choose_a_st.split(" ").map((e, i) => (
+                  <td key={i}>
+                    <input
+                      type="text"
+                      style={{
+                        width: "90%",
+                        textAlign: "center",
+                        // padding: "5px",
+                        // boxSizing: "border-box",
+                      }}
+                      // placeholder="Type here"
+                    />
+                  </td>
+                ))}
+              </tr>{" "}
+              <tr>
+                {choose_a_st.split(" ").map((e, i) => (
+                  <td key={i}>
+                    <input
+                      type="text"
+                      style={{
+                        width: "90%",
+                        textAlign: "center",
+                        // padding: "5px",
+                        // boxSizing: "border-box",
+                      }}
+                      // placeholder="Type here"
+                    />
+                  </td>
+                ))}
+              </tr>
+            </tbody>
+          </table>
+        ) : null}
+        <hr />
+        <Dictaphone /> <hr />
+        <select
+          onChange={(e) => {
+            setchoose_a_st(e.target.value);
+          }}
+          style={{ maxHeight: "300px", padding: "25px" }}
+          className=""
+        >
+          <option value={""}>Các câu trong bài thực hành</option>
+          {listItems}
+        </select>
+      </div>
     );
   } catch (error) {
     console.error(error);

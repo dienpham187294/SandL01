@@ -25,6 +25,7 @@ const Lobby = ({
   const [selectedIndices, setSelectedIndices] = useState([]);
   const [QuickRoom, setQuickRoom] = useState(true);
 
+
   useEffect(() => {
     const defaultIndices = objListDefault.map((item) => objList.indexOf(item));
     setSelectedIndices(defaultIndices);
@@ -141,21 +142,30 @@ const Lobby = ({
           thành kỹ năng.
         </i>
         <hr />
-        <button
-          className="btn btn-primary mb-4"
-          onClick={handleCreateRoomOffline}
-        >
-          Tạo nhanh một phòng riêng
-        </button>
-        <hr />
-        <button
-          className="btn btn-outline-primary mb-4"
-          onClick={() => {
-            setQuickRoom(false);
-          }}
-        >
-          Tùy chỉnh một phòng thực hành chung
-        </button>
+        <div className="row">
+          <div className="col-6">
+            {" "}
+            <button
+              style={{ width: "150px", height: "150px" }}
+              className="btn btn-primary mb-4"
+              onClick={handleCreateRoomOffline}
+            >
+              <b>Tạo nhanh một phòng riêng</b>
+            </button>
+          </div>
+          <div className="col-6">
+            {" "}
+            <button
+              style={{ width: "150px", height: "150px" }}
+              className="btn btn-outline-primary mb-4"
+              onClick={() => {
+                setQuickRoom(false);
+              }}
+            >
+              <b>Tùy chỉnh một phòng thực hành chung </b>
+            </button>
+          </div>
+        </div>
       </div>
     );
   }
