@@ -71,9 +71,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
             )}, ${id}`}
           />
         </Helmet>
-
         {rShowLessonTABLE(dataLearning, currentIndex, setCurrentIndex)}
-
         <hr />
         <TableHD
           data={dataLearning[currentIndex]?.HDTB?.HD}
@@ -82,145 +80,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
             setchoose_a_st(e);
           }}
         />
-        {generateBootstrapList(
-          dataLearning[currentIndex]?.ListenList,
-          choose_a_st,
-          setchoose_a_st
-        )}
-
-        {dataLearning[currentIndex] ? (
-          <div>{renderContent(dataLearning, currentIndex)}</div>
-        ) : null}
-
-        {STTPractice && dataLearning !== null ? (
-          <Lobby
-            STTconnectFN={STTconnectFN}
-            setSttRoom={setSttRoom}
-            fileName={id}
-            objList={createArrayFromNumber(dataLearning.length - 1)}
-            objListDefault={[currentIndex]}
-            custom={true}
-            id={id}
-            currentIndex={currentIndex}
-          />
-        ) : (
-          <div style={{ textAlign: "center", padding: "20px 10px" }}>
-            <button
-              onClick={() => {
-                setSTTPractice(true);
-              }}
-              className="btn btn-primary"
-              style={{ fontSize: "1.6em" }}
-            >
-              Cùng thực hành
-            </button>
-          </div>
-        )}
-
-        {dataLearning !== null && (
-          <div>
-            {dataLearning[currentIndex]?.HDTB?.TB.map((e, i) => (
-              <TableTB key={i} data={e} color={colors[i % 7]} />
-            ))}
-          </div>
-        )}
-
         <hr />
-
-        <div style={{ padding: "5%" }}>
-          <h5>
-            Thực hành lặp lại (có ghi nhận phản hồi-sửa chửa) là con đường phải
-            đi qua để đạt được kĩ năng. Hãy lấy kỉ luật và cùng thực hành chung
-            làm động lực.
-          </h5>
-          <ul>
-            <li>Mục tiêu chung cuộc là 10.000 lần nghe nói.</li>
-            <li>
-              Mục tiêu mỗi buổi thực hành ít cũng phải trên 100 lần nghe nói.
-              Một buổi thực hành không dành thời gian nghe-nói nhiều là một buổi
-              chưa hiệu quả.
-            </li>
-            <li>
-              Mỗi buổi học đều nên nhắc lại các kiến thức cốt lõi về tách ghép
-              âm.
-            </li>
-            <li>Thực hành ghép âm (chọn vài từ trong bảng nội dung để ghép)</li>{" "}
-            <li>
-              Thực hành tách âm (người hướng dẫn đọc vài từ và yêu cầu người
-              thực hành nghe xem nguyên âm đại diện là gì?)
-            </li>
-            <li>
-              ***Lưu ý khi hướng dẫn và học về Ghép âm - Phân tách âm: Giai đoạn
-              ban đầu hãy tập trung vào nguyên âm đại diện UEOAI-ơ và nguyên lý
-              ghép âm, các âm phụ khác thì lướt qua hoặc chỉ thị phạm mà không
-              phân tích kĩ.
-            </li>
-            <li>
-              Khi hướng dẫn và học nội dung trong bảng, chỉ cần vừa đủ để có thể
-              thực hành, đừng quá học kĩ càng, cũng đừng tập trung vào làm rõ
-              nghĩa hoặc cấu trúc câu, hãy nắm vừa đủ và nhanh chóng chuyển qua
-              thực hành, khi thực hành tự khắc sẽ nắm nội dung.
-            </li>
-            <li>
-              Sau khi đã thực hành 1 hoặc 1 vài lần quay lại làm rõ, học thuộc
-              các "gán nghĩa" từ bảng nội dung (ưu tiên phụ nếu có thời gian).
-            </li>
-            <li>Mở rộng thực hành nhiều bài cùng một lúc.</li>
-          </ul>
-        </div>
-
-        <div style={{ fontSize: "larger" }}>
-          <h1>Học thuộc lòng!</h1>
-          <p>
-            <i>
-              Là một cách bổ trợ <b>trực tiếp, nhanh chóng và hiệu quả</b> cho
-              quá trình thực hành nghe nói. Tuy có hơi nhàm chán nhưng bù lại sẽ{" "}
-              <b>rút ngắn đáng kể </b>số lần cần phải thực hành để đạt đến
-              ngưỡng giao tiếp được.
-            </i>
-          </p>
-          <p>Bước 1: Hãy chép mỗi câu phía dưới đây ra giấy một lần.</p>
-          <p>
-            Bước 2: Bấm vào Nút <b>Learning by heart!</b> bên dưới. Máy sẽ đọc
-            từng câu một, bạn có 10 giây để nghe và chép lại ra giấy (có thể ghi
-            tắt).
-          </p>
-          <button
-            onClick={() => {
-              navigate(`/learningbyheart/${id}/${currentIndex}`);
-            }}
-            className="btn btn-primary"
-            style={{ fontSize: "1.3em" }}
-          >
-            Learning by heart
-          </button>
-          <hr />
-        </div>
-      </div>
-    </HelmetProvider>
-  );
-};
-
-export default LearningHub;
-
-function createArrayFromNumber(n) {
-  return Array.from({ length: n + 1 }, (_, index) => index);
-}
-
-function generateBootstrapList(sentences, choose_a_st, setchoose_a_st) {
-  try {
-    if (!Array.isArray(sentences)) {
-      throw new Error("Input is not an array");
-    }
-
-    const listItems = sentences.map((sentence, index) => (
-      <option value={sentence} key={index}>
-        {sentence}
-      </option>
-    ));
-
-    return (
-      <div>
         <h1>{choose_a_st}</h1>
         {choose_a_st ? (
           <table style={{ textAlign: "center", fontSize: "30px" }}>
@@ -284,6 +144,153 @@ function generateBootstrapList(sentences, choose_a_st, setchoose_a_st) {
             </tbody>
           </table>
         ) : null}
+        {choose_a_st ? (
+          <input
+            className="form-control"
+            type="text"
+            style={{
+              // width: "90%",
+              textAlign: "center",
+              padding: "5px",
+              boxSizing: "border-box",
+              fontSize: "30px",
+            }}
+            // placeholder="Type here"
+          />
+        ) : null}
+        {generateBootstrapList(
+          dataLearning[currentIndex]?.ListenList,
+          choose_a_st,
+          setchoose_a_st
+        )}
+        {dataLearning[currentIndex] ? (
+          <div>{renderContent(dataLearning, currentIndex)}</div>
+        ) : null}
+        {STTPractice && dataLearning !== null ? (
+          <Lobby
+            STTconnectFN={STTconnectFN}
+            setSttRoom={setSttRoom}
+            fileName={id}
+            objList={createArrayFromNumber(dataLearning.length - 1)}
+            objListDefault={[currentIndex]}
+            custom={true}
+            id={id}
+            currentIndex={currentIndex}
+          />
+        ) : (
+          <div style={{ textAlign: "center", padding: "20px 10px" }}>
+            <button
+              onClick={() => {
+                setSTTPractice(true);
+              }}
+              className="btn btn-primary"
+              style={{ fontSize: "1.6em" }}
+            >
+              Cùng thực hành
+            </button>
+          </div>
+        )}
+        {dataLearning !== null && (
+          <div>
+            {dataLearning[currentIndex]?.HDTB?.TB.map((e, i) => (
+              <TableTB key={i} data={e} color={colors[i % 7]} />
+            ))}
+          </div>
+        )}
+        <hr />
+        <div style={{ padding: "5%" }}>
+          <h5>
+            Thực hành lặp lại (có ghi nhận phản hồi-sửa chửa) là con đường phải
+            đi qua để đạt được kĩ năng. Hãy lấy kỉ luật và cùng thực hành chung
+            làm động lực.
+          </h5>
+          <ul>
+            <li>Mục tiêu chung cuộc là 10.000 lần nghe nói.</li>
+            <li>
+              Mục tiêu mỗi buổi thực hành ít cũng phải trên 100 lần nghe nói.
+              Một buổi thực hành không dành thời gian nghe-nói nhiều là một buổi
+              chưa hiệu quả.
+            </li>
+            <li>
+              Mỗi buổi học đều nên nhắc lại các kiến thức cốt lõi về tách ghép
+              âm.
+            </li>
+            <li>Thực hành ghép âm (chọn vài từ trong bảng nội dung để ghép)</li>{" "}
+            <li>
+              Thực hành tách âm (người hướng dẫn đọc vài từ và yêu cầu người
+              thực hành nghe xem nguyên âm đại diện là gì?)
+            </li>
+            <li>
+              ***Lưu ý khi hướng dẫn và học về Ghép âm - Phân tách âm: Giai đoạn
+              ban đầu hãy tập trung vào nguyên âm đại diện UEOAI-ơ và nguyên lý
+              ghép âm, các âm phụ khác thì lướt qua hoặc chỉ thị phạm mà không
+              phân tích kĩ.
+            </li>
+            <li>
+              Khi hướng dẫn và học nội dung trong bảng, chỉ cần vừa đủ để có thể
+              thực hành, đừng quá học kĩ càng, cũng đừng tập trung vào làm rõ
+              nghĩa hoặc cấu trúc câu, hãy nắm vừa đủ và nhanh chóng chuyển qua
+              thực hành, khi thực hành tự khắc sẽ nắm nội dung.
+            </li>
+            <li>
+              Sau khi đã thực hành 1 hoặc 1 vài lần quay lại làm rõ, học thuộc
+              các "gán nghĩa" từ bảng nội dung (ưu tiên phụ nếu có thời gian).
+            </li>
+            <li>Mở rộng thực hành nhiều bài cùng một lúc.</li>
+          </ul>
+        </div>
+        <div style={{ fontSize: "larger" }}>
+          <h1>Học thuộc lòng!</h1>
+          <p>
+            <i>
+              Là một cách bổ trợ <b>trực tiếp, nhanh chóng và hiệu quả</b> cho
+              quá trình thực hành nghe nói. Tuy có hơi nhàm chán nhưng bù lại sẽ{" "}
+              <b>rút ngắn đáng kể </b>số lần cần phải thực hành để đạt đến
+              ngưỡng giao tiếp được.
+            </i>
+          </p>
+          <p>Bước 1: Hãy chép mỗi câu phía dưới đây ra giấy một lần.</p>
+          <p>
+            Bước 2: Bấm vào Nút <b>Learning by heart!</b> bên dưới. Máy sẽ đọc
+            từng câu một, bạn có 10 giây để nghe và chép lại ra giấy (có thể ghi
+            tắt).
+          </p>
+          <button
+            onClick={() => {
+              navigate(`/learningbyheart/${id}/${currentIndex}`);
+            }}
+            className="btn btn-primary"
+            style={{ fontSize: "1.3em" }}
+          >
+            Learning by heart
+          </button>
+          <hr />
+        </div>
+      </div>
+    </HelmetProvider>
+  );
+};
+
+export default LearningHub;
+
+function createArrayFromNumber(n) {
+  return Array.from({ length: n + 1 }, (_, index) => index);
+}
+
+function generateBootstrapList(sentences, choose_a_st, setchoose_a_st) {
+  try {
+    if (!Array.isArray(sentences)) {
+      throw new Error("Input is not an array");
+    }
+
+    const listItems = sentences.map((sentence, index) => (
+      <option value={sentence} key={index}>
+        {sentence}
+      </option>
+    ));
+
+    return (
+      <div>
         <hr />
         <Dictaphone /> <hr />
         <select
