@@ -158,6 +158,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
             // placeholder="Type here"
           />
         ) : null}
+        <Dictaphone /> <hr />
         {generateBootstrapList(
           dataLearning[currentIndex]?.ListenList,
           choose_a_st,
@@ -292,7 +293,7 @@ function generateBootstrapList(sentences, choose_a_st, setchoose_a_st) {
     return (
       <div>
         <hr />
-        <Dictaphone /> <hr />
+
         <select
           onChange={(e) => {
             setchoose_a_st(e.target.value);
