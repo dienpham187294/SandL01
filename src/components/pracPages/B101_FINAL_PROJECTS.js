@@ -48,7 +48,9 @@ function FINAL_PROJECT({
   // const [OBJAfterReg, setOBJAfterReg] = useState(null);
 
   const [OnTable, setOnTable] = useState(
-    helper_fn_localStorage.getNumberFromLocalStorage(roomCode)
+    helper_fn_localStorage.getNumberFromLocalStorage(roomCode) >= 0
+      ? helper_fn_localStorage.getNumberFromLocalStorage(roomCode)
+      : null
   );
 
   const [getSTTDictaphone, setGetSTTDictaphone] = useState(false);
@@ -226,8 +228,18 @@ function FINAL_PROJECT({
   }, [Submit, PushAW]);
   useEffect(() => {
     if (getSTTDictaphone) {
+      try {
+        document.getElementById("div_01").style.flex = "2";
+        document.getElementById("div_02").style.flex = "8";
+      } catch (error) {}
+
       disableButtonFsp();
     } else {
+      try {
+        document.getElementById("div_01").style.flex = "8";
+        document.getElementById("div_02").style.flex = "2";
+      } catch (error) {}
+
       enableButtonFsp();
     }
   }, [getSTTDictaphone]);
@@ -368,10 +380,173 @@ function FINAL_PROJECT({
           </div>
         ) : (
           <div className="row">
-            <div className="col-3">
-              {/* <h5>Score: {Score}</h5> */}
-              <div>
+            <div
+              style={{
+                display: "flex",
+                height: "90vh",
+                width: "90wh",
+                transition: "flex 1s ease",
+              }}
+            >
+              <div
+                id="div_01"
+                style={{
+                  flex: "8",
+                  overflow: "auto",
+                  transition: "flex 1s ease",
+                }}
+              >
                 {" "}
+                {!IsMobile && tableView === "Normal" ? (
+                  <div style={{ textAlign: "center" }}>
+                    <button
+                      style={{
+                        width: "15%",
+                        padding: "10px",
+                        marginTop: "20px",
+                        backgroundColor: "#4CAF50",
+                        color: "white",
+                        border: "none",
+                        borderRadius: "4px",
+                        cursor: "pointer",
+                        textAlign: "center",
+                        transition: "background-color 0.3s, transform 0.3s",
+                      }}
+                      onMouseEnter={(e) =>
+                        (e.target.style.transform = "scale(1.05)")
+                      }
+                      onMouseLeave={(e) =>
+                        (e.target.style.transform = "scale(1)")
+                      }
+                      onClick={() => {
+                        setOnTable(null);
+                      }}
+                    >
+                      All
+                    </button>
+                    {DataPracticingOverRoll.map((e, i) => {
+                      let start = Math.max(0, OnTable - 5);
+                      let end = Math.min(
+                        DataPracticingOverRoll.length,
+                        OnTable + 5
+                      );
+
+                      // Điều chỉnh để luôn có 10 phần tử hiển thị nếu có đủ phần tử
+                      if (end - start < 10) {
+                        if (start === 0) {
+                          end = Math.min(10, DataPracticingOverRoll.length);
+                        } else if (end === DataPracticingOverRoll.length) {
+                          start = Math.max(
+                            0,
+                            DataPracticingOverRoll.length - 10
+                          );
+                        }
+                      }
+
+                      if (i >= start && i < end) {
+                        return (
+                          <button
+                            onClick={() => {
+                              setOnTable(i);
+                            }}
+                            key={i}
+                            style={{
+                              minWidth: "50px",
+                              padding: "10px",
+                              marginTop: "20px",
+                              marginLeft: "10px",
+                              backgroundColor: OnTable === i ? "green" : "blue",
+                              color: "white",
+                              border: "none",
+                              borderRadius: "4px",
+                              cursor: "pointer",
+                              textAlign: "center",
+                            }}
+                          >
+                            {i + 1}
+                          </button>
+                        );
+                      } else {
+                        return null;
+                      }
+                    })}
+                    {OnTable !== null ? (
+                      <div>
+                        <TableHD
+                          data={DataPracticingOverRoll[OnTable]["HDTB"]["HD"]}
+                          HINT={HINT}
+                          fnOnclick={(e) => {
+                            try {
+                              if (e[0] === "[") {
+                                addElementIfNotExist(e);
+                              }
+                            } catch (error) {}
+                          }}
+                        />
+                      </div>
+                    ) : (
+                      <div>
+                        <TableHD
+                          data={fn_f_allTable_t_tableOfContent(
+                            DataPracticingOverRoll
+                          )}
+                          HINT={null}
+                          fnOnclick={(e) => {
+                            const match = e.match(/\((\d+)\)/);
+                            if (match) {
+                              // Extract the number, convert to integer, subtract 1
+                              const number = parseInt(match[1], 10) - 1;
+                              setOnTable(number);
+                            }
+                          }}
+                        />
+                      </div>
+                    )}
+                    {OnTable !== null ? (
+                      <div className="row">
+                        <div className="col-9">
+                          {DataPracticingOverRoll[OnTable]["HDTB"]["TB"].map(
+                            (e, i) => (
+                              <TableTB
+                                key={i}
+                                data={e}
+                                addElementIfNotExist={addElementIfNotExist}
+                                color={colors[i % 7]}
+                                PushAW={PushAW}
+                              />
+                            )
+                          )}
+                        </div>
+
+                        <div className="col-3">
+                          <TablePushAW data={PushAW} />
+                        </div>
+                      </div>
+                    ) : null}
+
+                    <div style={{ height: "300px" }}></div>
+                  </div>
+                ) : null}
+              </div>
+              <div
+                id="div_02"
+                style={{ flex: "2", transition: "flex 1s ease" }}
+              >
+                {" "}
+                {TimeCountDown !== null ? (
+                  <CountdownTimer
+                    setSTT={setStartSTT}
+                    STT={true}
+                    TIME={TimeCountDown}
+                    setScore={setScore}
+                  />
+                ) : null}
+                {Clue && !isImageUrl(Clue) ? (
+                  <>
+                    <hr /> <b>Clue:</b>{" "}
+                    <h5 style={{ color: "blue" }}>{Clue}</h5>
+                  </>
+                ) : null}
                 <button
                   style={{ borderRadius: "5px" }}
                   id="btnBoQua"
@@ -390,7 +565,7 @@ function FINAL_PROJECT({
                 >
                   Bỏ qua
                 </button>
-                <br />
+                <br />{" "}
                 {Clue && isImageUrl(Clue) ? (
                   <img
                     style={{ border: "4px solid blue", borderRadius: "10px" }}
@@ -437,7 +612,30 @@ function FINAL_PROJECT({
                     <i className="bi bi-chat-left-dots"></i>
                   </button>
                 ) : null}
+                {playData !== null ? (
+                  <div>
+                    {getSTTDictaphone ? (
+                      <Dictaphone
+                        getSTTDictaphone={setGetSTTDictaphone}
+                        setGetSTTDictaphone={setGetSTTDictaphone}
+                        CMDlist={CMD}
+                        GENDER={GENDER}
+                        setScore={setScore}
+                        addElementIfNotExist={addElementIfNotExist}
+                        ObjVoices={ObjREAD}
+                        Lang={Lang}
+                        setMessage={setMessage}
+                      />
+                    ) : (
+                      <RegButton setGetSTTDictaphone={setGetSTTDictaphone} />
+                    )}
+                  </div>
+                ) : null}
               </div>
+            </div>
+            <div className="col-3">
+              {/* <h5>Score: {Score}</h5> */}
+              <div> </div>
             </div>
             <div
               className="col-7"
@@ -448,42 +646,8 @@ function FINAL_PROJECT({
               }}
             >
               {" "}
-              {playData !== null ? (
-                <div>
-                  {getSTTDictaphone ? (
-                    <Dictaphone
-                      getSTTDictaphone={setGetSTTDictaphone}
-                      setGetSTTDictaphone={setGetSTTDictaphone}
-                      CMDlist={CMD}
-                      GENDER={GENDER}
-                      setScore={setScore}
-                      addElementIfNotExist={addElementIfNotExist}
-                      ObjVoices={ObjREAD}
-                      Lang={Lang}
-                      setMessage={setMessage}
-                    />
-                  ) : (
-                    <RegButton setGetSTTDictaphone={setGetSTTDictaphone} />
-                  )}
-                </div>
-              ) : null}
             </div>
-            <div className="col-2">
-              {TimeCountDown !== null ? (
-                <CountdownTimer
-                  setSTT={setStartSTT}
-                  STT={true}
-                  TIME={TimeCountDown}
-                  setScore={setScore}
-                />
-              ) : null}
-
-              {Clue && !isImageUrl(Clue) ? (
-                <>
-                  <hr /> <b>Clue:</b> <h5 style={{ color: "blue" }}>{Clue}</h5>
-                </>
-              ) : null}
-            </div>
+            <div className="col-2"></div>
             <button
               style={{ display: "none" }}
               id="setGetSTTDictaphone"
@@ -492,146 +656,7 @@ function FINAL_PROJECT({
               }}
             ></button>
 
-            <div>
-              {/* {!IsMobile && tableView === "Normal" ? (
-                <div>
-                  <TableDisplay
-                    OnTable={OnTable}
-                    DataAllSets={DataPracticingOverRoll}
-                    setOnTable={setOnTable}
-                  />
-                </div>
-              ) : null} */}
-
-              {!IsMobile && tableView === "Normal" ? (
-                <div style={{ textAlign: "center" }}>
-                  <button
-                    style={{
-                      width: "15%",
-                      padding: "10px",
-                      marginTop: "20px",
-                      backgroundColor: "#4CAF50",
-                      color: "white",
-                      border: "none",
-                      borderRadius: "4px",
-                      cursor: "pointer",
-                      textAlign: "center",
-                      transition: "background-color 0.3s, transform 0.3s",
-                    }}
-                    onMouseEnter={(e) =>
-                      (e.target.style.transform = "scale(1.05)")
-                    }
-                    onMouseLeave={(e) =>
-                      (e.target.style.transform = "scale(1)")
-                    }
-                    onClick={() => {
-                      setOnTable(null);
-                    }}
-                  >
-                    All
-                  </button>
-                  {DataPracticingOverRoll.map((e, i) => {
-                    let start = Math.max(0, OnTable - 5);
-                    let end = Math.min(
-                      DataPracticingOverRoll.length,
-                      OnTable + 5
-                    );
-
-                    // Điều chỉnh để luôn có 10 phần tử hiển thị nếu có đủ phần tử
-                    if (end - start < 10) {
-                      if (start === 0) {
-                        end = Math.min(10, DataPracticingOverRoll.length);
-                      } else if (end === DataPracticingOverRoll.length) {
-                        start = Math.max(0, DataPracticingOverRoll.length - 10);
-                      }
-                    }
-
-                    if (i >= start && i < end) {
-                      return (
-                        <button
-                          onClick={() => {
-                            setOnTable(i);
-                          }}
-                          key={i}
-                          style={{
-                            minWidth: "50px",
-                            padding: "10px",
-                            marginTop: "20px",
-                            marginLeft: "10px",
-                            backgroundColor: OnTable === i ? "green" : "blue",
-                            color: "white",
-                            border: "none",
-                            borderRadius: "4px",
-                            cursor: "pointer",
-                            textAlign: "center",
-                          }}
-                        >
-                          {i + 1}
-                        </button>
-                      );
-                    } else {
-                      return null;
-                    }
-                  })}
-                  {OnTable !== null ? (
-                    <div>
-                      <TableHD
-                        data={DataPracticingOverRoll[OnTable]["HDTB"]["HD"]}
-                        HINT={HINT}
-                        fnOnclick={(e) => {
-                          const match = e.match(/\((\d+)\)/);
-                          if (match) {
-                            // Extract the number, convert to integer, subtract 1
-                            const number = parseInt(match[1], 10) - 1;
-                            setOnTable(number);
-                          }
-                        }}
-                      />
-                    </div>
-                  ) : (
-                    <div>
-                      <TableHD
-                        data={fn_f_allTable_t_tableOfContent(
-                          DataPracticingOverRoll
-                        )}
-                        HINT={null}
-                        fnOnclick={(e) => {
-                          const match = e.match(/\((\d+)\)/);
-                          if (match) {
-                            // Extract the number, convert to integer, subtract 1
-                            const number = parseInt(match[1], 10) - 1;
-                            setOnTable(number);
-                          }
-                        }}
-                      />
-                    </div>
-                  )}
-                  {OnTable !== null ? (
-                    <div className="row">
-                      <div className="col-9">
-                        {DataPracticingOverRoll[OnTable]["HDTB"]["TB"].map(
-                          (e, i) => (
-                            <TableTB
-                              key={i}
-                              data={e}
-                              addElementIfNotExist={addElementIfNotExist}
-                              color={colors[i % 7]}
-                              PushAW={PushAW}
-                            />
-                          )
-                        )}
-                      </div>
-
-                      <div className="col-3">
-                        <TablePushAW data={PushAW} />
-                      </div>
-                    </div>
-                  ) : null}
-
-                  <div style={{ height: "300px" }}></div>
-                </div>
-              ) : null}
-            </div>
+            <div></div>
           </div>
         )}
       </div>
@@ -699,4 +724,3 @@ function fn_f_allTable_t_tableOfContent(input) {
 
   return resSets;
 }
-

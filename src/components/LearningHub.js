@@ -24,7 +24,12 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
   useEffect(() => {
     const fetchTitle = async () => {
       try {
-        const response = await fetch(`/jsonData/${id}.json`);
+        let response;
+        if (id.charAt(1) === "z") {
+          response = await fetch(`/jsonData/forseo/${id}.json`);
+        } else {
+          response = await fetch(`/jsonData/${id}.json`);
+        }
         if (!response.ok) {
           throw new Error("Network response was not ok");
         }
@@ -93,57 +98,29 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                   </td>
                 ))}
               </tr>
-              <tr>
-                {choose_a_st.split(" ").map((e, i) => (
-                  <td key={i}>
-                    <input
-                      type="text"
-                      style={{
-                        width: "90%",
-                        textAlign: "center",
-                        // padding: "5px",
-                        // boxSizing: "border-box",
-                      }}
-                      // placeholder="Type here"
-                    />
-                  </td>
-                ))}
-              </tr>{" "}
-              <tr>
-                {choose_a_st.split(" ").map((e, i) => (
-                  <td key={i}>
-                    <input
-                      type="text"
-                      style={{
-                        width: "90%",
-                        textAlign: "center",
-                        // padding: "5px",
-                        // boxSizing: "border-box",
-                      }}
-                      // placeholder="Type here"
-                    />
-                  </td>
-                ))}
-              </tr>{" "}
-              <tr>
-                {choose_a_st.split(" ").map((e, i) => (
-                  <td key={i}>
-                    <input
-                      type="text"
-                      style={{
-                        width: "90%",
-                        textAlign: "center",
-                        // padding: "5px",
-                        // boxSizing: "border-box",
-                      }}
-                      // placeholder="Type here"
-                    />
-                  </td>
-                ))}
-              </tr>
+
+              {["Đoán", "Tra", "Tìm", "Ghép"].map((e_key) => (
+                <tr key={e_key}>
+                  {choose_a_st.split(" ").map((e, i) => (
+                    <td key={i}>
+                      <input
+                        type="text"
+                        style={{
+                          width: "90%",
+                          textAlign: "center",
+                          // padding: "5px",
+                          // boxSizing: "border-box",
+                        }}
+                        // placeholder={e_key}
+                      />
+                    </td>
+                  ))}
+                </tr>
+              ))}
             </tbody>
           </table>
         ) : null}
+        <h5>Đoán - Tra - Tìm - Ghép</h5>
         {choose_a_st ? (
           <input
             className="form-control"

@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import Header from "./components/A1_Header";
 import Lobby from "./components/Lobby";
+import RoomN from "./components/RoomN";
 import Room from "./components/Room";
 import RoomOffline from "./components/Roomoffline";
 import NotExist from "./components/NotExist";
@@ -83,6 +84,10 @@ const App = () => {
               <Route
                 path="/room/:roomCode"
                 element={<Room setSttRoom={setSttRoom} />}
+              />
+              <Route
+                path="/roomn/:roomCode/:currentIndex"
+                element={<RoomN setSttRoom={setSttRoom} />}
               />
 
               <Route

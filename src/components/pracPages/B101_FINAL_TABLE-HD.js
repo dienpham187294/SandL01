@@ -28,7 +28,19 @@ function TableHD({ data, HINT, fnOnclick }) {
           {data.map((row, rowIndex) => (
             <tr key={rowIndex}>
               {headers.map((header, colIndex) => (
-                <td key={colIndex} onClick={() => fnOnclick(row[header])}>
+                <td
+                  style={
+                    row[header] && row[header].includes("(*)")
+                      ? {
+                          fontSize: "larger",
+                          fontWeight: "bold",
+                          color: "blue",
+                        }
+                      : {}
+                  }
+                  key={colIndex}
+                  onClick={() => fnOnclick(row[header])}
+                >
                   {colorMapping[row[header]] ? (
                     <span
                       style={{

@@ -17,6 +17,16 @@ const coreKnowledgeSets = [
   },
 ];
 
+const prac_to_work = [
+  {
+    root: "learninghub",
+    preName: "",
+    name: "CV_Dẫn chương trình các việc nên làm tốt hơn.",
+    link: "mc_about_lesson_peopleshouldpractice",
+    id: "socapI",
+  },
+];
+
 const pracEnSets = [
   // {
   //   root: "learninghub",
@@ -107,6 +117,12 @@ export default function Header({ sttRoom, STTconnectFN }) {
                 { name: "name", link: "link", preName: "preName" },
                 null
               )}
+              {returnDropdown(
+                "Sử dụng tiếng anh",
+                prac_to_work,
+                { name: "name", link: "link", preName: "preName" },
+                null
+              )}
 
               {returnDropdown(
                 "Giáo án giao tiếp",
@@ -132,7 +148,6 @@ export default function Header({ sttRoom, STTconnectFN }) {
                 { name: "name", link: "link", preName: "preName" },
                 null
               )}
-
               {returnDropdown(
                 "Khác",
                 [

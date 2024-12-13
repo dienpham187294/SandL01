@@ -100,7 +100,16 @@ const Room = ({ setSttRoom }) => {
     if (roomInfo !== null) {
       const fetchTitle = async () => {
         try {
-          const response = await fetch(`/jsonData/${roomInfo.fileName}.json`);
+          let response;
+
+          if (roomInfo.fileName.charAt(1) === "z") {
+            response = await fetch(
+              `/jsonData/forseo/${roomInfo.fileName}.json`
+            );
+          } else {
+            response = await fetch(`/jsonData/${roomInfo.fileName}.json`);
+          }
+
           if (!response.ok) {
             throw new Error("Network response was not ok");
           }

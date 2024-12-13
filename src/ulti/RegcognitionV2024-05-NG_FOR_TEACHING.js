@@ -19,7 +19,7 @@ const Dictaphone = ({}) => {
   };
 
   return (
-    <div className="container row" style={styles}>
+    <div className="container row mt-4" style={styles}>
       <div className="col-4">
         <button
           className="btn btn-info"
@@ -48,9 +48,8 @@ const Dictaphone = ({}) => {
       </div>
       <div className="col-8">
         {" "}
-        <h1 style={{ backgroundColor: "black", color: "white" }}>
-          {transcript}
-        </h1>{" "}
+        <i>{listening ? "đang lắng nghe . . ." : null}</i>
+        <h1 style={{}}>{transcript}</h1>{" "}
       </div>
     </div>
   );

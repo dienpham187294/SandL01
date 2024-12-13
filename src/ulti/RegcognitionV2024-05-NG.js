@@ -140,9 +140,6 @@ const Dictaphone = ({
       setMessage(RegInput);
 
       const objTR = findMostSimilarQuestion(RegInput, CMDlist);
-
-      console.log(CMDlist);
-
       if (objTR === null) {
         ReadMessage(
           ObjVoices,
@@ -152,7 +149,12 @@ const Dictaphone = ({
         );
       } else {
         if (objTR.aw01 !== undefined) {
-          ReadMessage(null, null, null, objTR.aw01);
+          ReadMessage(
+            ObjVoices,
+            getRandomElementFromArray(objTR.aw),
+            GENDER,
+            objTR.aw01
+          );
         } else if (objTR.aw !== undefined) {
           ReadMessage(ObjVoices, getRandomElementFromArray(objTR.aw), GENDER);
         }
@@ -165,15 +167,7 @@ const Dictaphone = ({
           }
         }
       }
-      setStyles((prevStyles) => ({
-        ...prevStyles,
-        opacity: 0,
-        height: "100px",
-        width: "300px",
-      }));
-      setTimeout(() => {
-        setGetSTTDictaphone(false);
-      }, 1000);
+      setGetSTTDictaphone(false);
     }
   }, [RegInput]);
 

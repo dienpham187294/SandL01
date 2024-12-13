@@ -71,7 +71,15 @@ const Room = ({ setSttRoom }) => {
     if (roomInfo !== null) {
       const fetchTitle = async () => {
         try {
-          const response = await fetch(`/jsonData/${roomInfo.fileName}.json`);
+          let response;
+          if (roomInfo.fileName.charAt(1) === "z") {
+            response = await fetch(
+              `/jsonData/forseo/${roomInfo.fileName}.json`
+            );
+          } else {
+            response = await fetch(`/jsonData/${roomInfo.fileName}.json`);
+          }
+
           if (!response.ok) {
             throw new Error("Network response was not ok");
           }
@@ -165,7 +173,7 @@ const Room = ({ setSttRoom }) => {
                 setNumberBegin((D) => D + 1);
                 setTimeout(() => {
                   setSttCoundown("02");
-                }, 1000);
+                }, 100);
               } else {
                 setSttCoundown("02");
               }
@@ -239,8 +247,8 @@ const Room = ({ setSttRoom }) => {
               className="btn btn-primary"
               style={{
                 borderRadius: "50%", // Làm phần tử có dạng hình tròn
-                width: "500px",
-                height: "500px",
+                width: "200px",
+                height: "200px",
                 fontSize: "50px",
                 color: "black",
                 position: "absolute", // Định vị con trong cha
@@ -257,13 +265,13 @@ const Room = ({ setSttRoom }) => {
                   setNumberBegin((D) => D + 1);
                   setTimeout(() => {
                     setSttCoundown("02");
-                  }, 1000);
+                  }, 100);
                 } else {
                   setSttCoundown("02");
                 }
               }}
             >
-              <i> Bấm vào đây</i>
+              {/* <i> Bấm vào đây</i> */}
             </button>
           ) : null}
         </div>
@@ -361,20 +369,18 @@ function generateRandomArray(m) {
   }
   return randomArray;
 }
-
 function saveNumberWithDailyExpiry(key, value) {
   const now = new Date();
-  const expiry = new Date();
 
-  // Đặt thời gian hết hạn vào cuối ngày hiện tại (23:59:59)
-  expiry.setHours(23, 59, 59, 999);
+  // Thời gian hết hạn tính bằng mili giây
+  const expiry = now.getTime() + 5 * 60 * 1000;
 
   const item = {
     value: value,
-    expiry: expiry.getTime(), // Thời gian hết hạn
+    expiry: expiry,
   };
 
-  localStorage.setItem(key, JSON.stringify(item)); // Lưu vào localStorage
+  localStorage.setItem(key, JSON.stringify(item));
 }
 
 function getNumberWithDailyExpiry(key) {

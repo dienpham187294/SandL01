@@ -1,0 +1,1394 @@
+[
+  {
+    "id": "Apologizing-for-mistakes.",
+    "charactor": [
+      {
+        "fsp": "I joined the program: Apologizing for mistakes.",
+        "type": "A00",
+        "stt": 0,
+        "name": "Emily",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What exactly do you need?"],
+            "aw": ["I need advice on how to apologize."],
+            "aw01": [
+              { "st": "I need advice on how to apologize.", "id": "SH1_1" }
+            ]
+          },
+          {
+            "qs": ["Can you share your situation?"],
+            "aw": ["I said bad things about my friend."],
+            "aw01": [
+              { "st": "I said bad things about my friend.", "id": "SH1_2" }
+            ]
+          },
+          {
+            "qs": ["Does your friend know?"],
+            "aw": ["No, but I feel ashamed."],
+            "aw01": [{ "st": "No, but I feel ashamed.", "id": "SH1_3" }]
+          },
+          {
+            "qs": ["Be honest, apologize, and say you feel sorry."],
+            "aw": ["Thank you."],
+            "submit": ["[1]"],
+            "aw01": [{ "st": "Thank you.", "id": "SH1_4" }]
+          }
+        ],
+        "submit": ["[1]"],
+        "fspSets": [
+          {
+            "st": "I joined the program: Apologizing for mistakes.",
+            "id": "SH1_0"
+          }
+        ]
+      },
+      {
+        "fsp": "I joined the program: Apologizing for mistakes.",
+        "type": "A02",
+        "stt": 8,
+        "name": "Emily",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What exactly do you need?"],
+            "aw": ["I want to share a story about apologizing and its value."],
+            "aw01": [
+              {
+                "st": "I want to share a story about apologizing and its value.",
+                "id": "SH1_6"
+              }
+            ]
+          },
+          {
+            "qs": ["Great! Tell me your experience."],
+            "aw": [
+              "I lied to my mom. I apologized, and now our relationship is better."
+            ],
+            "aw01": [
+              {
+                "st": "I lied to my mom. I apologized, and now our relationship is better.",
+                "id": "SH1_7"
+              }
+            ]
+          },
+          {
+            "qs": ["What do you want to say to the audience?"],
+            "aw": ["If you are wrong, admit it. It helps relationships."],
+            "aw01": [
+              {
+                "st": "If you are wrong, admit it. It helps relationships.",
+                "id": "SH1_8"
+              }
+            ]
+          },
+          {
+            "qs": ["Thank you for sharing your story."],
+            "aw": ["Thank you so much."],
+            "submit": ["[8]"],
+            "aw01": [{ "st": "Thank you so much.", "id": "SH1_9" }]
+          }
+        ],
+        "submit": ["[8]"],
+        "fspSets": [
+          {
+            "st": "I joined the program: Apologizing for mistakes.",
+            "id": "SH1_5"
+          }
+        ]
+      },
+      {
+        "fsp": "I joined the program: Apologizing for mistakes.",
+        "type": "A01",
+        "stt": 4,
+        "name": "Sarah",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What exactly do you need?"],
+            "aw": ["I want to send an apology message."],
+            "aw01": [
+              { "st": "I want to send an apology message.", "id": "SH1_11" }
+            ]
+          },
+          {
+            "qs": ["Who do you want to apologize to?"],
+            "aw": ["To my dad."],
+            "aw01": [{ "st": "To my dad.", "id": "SH1_12" }]
+          },
+          {
+            "qs": ["Why do you want to apologize, and what is your message?"],
+            "aw": [
+              "I didn’t listen to my dad. Tell him I am sorry and I will do better."
+            ],
+            "aw01": [
+              {
+                "st": "I didn’t listen to my dad. Tell him I am sorry and I will do better.",
+                "id": "SH1_13"
+              }
+            ]
+          },
+          {
+            "qs": ["We will send your message to your dad."],
+            "aw": ["Thank you."],
+            "submit": ["[4]"],
+            "aw01": [{ "st": "Thank you.", "id": "SH1_14" }]
+          }
+        ],
+        "submit": ["[4]"],
+        "fspSets": [
+          {
+            "st": "I joined the program: Apologizing for mistakes.",
+            "id": "SH1_10"
+          }
+        ]
+      },
+      {
+        "fsp": "I joined the program: Apologizing for mistakes.",
+        "type": "A01",
+        "stt": 5,
+        "name": "Christopher",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What exactly do you need?"],
+            "aw": ["I want to send an apology message."],
+            "aw01": [
+              { "st": "I want to send an apology message.", "id": "SH1_16" }
+            ]
+          },
+          {
+            "qs": ["Who do you want to apologize to?"],
+            "aw": ["To my dad."],
+            "aw01": [{ "st": "To my dad.", "id": "SH1_17" }]
+          },
+          {
+            "qs": ["Why do you want to apologize, and what is your message?"],
+            "aw": [
+              "I didn’t listen to my dad. Tell him I am sorry and I will do better."
+            ],
+            "aw01": [
+              {
+                "st": "I didn’t listen to my dad. Tell him I am sorry and I will do better.",
+                "id": "SH1_18"
+              }
+            ]
+          },
+          {
+            "qs": ["We will send your message to your dad."],
+            "aw": ["Thank you so much."],
+            "submit": ["[6]"],
+            "aw01": [{ "st": "Thank you so much.", "id": "SH1_19" }]
+          }
+        ],
+        "submit": ["[6]"],
+        "fspSets": [
+          {
+            "st": "I joined the program: Apologizing for mistakes.",
+            "id": "SH1_15"
+          }
+        ]
+      },
+      {
+        "fsp": "I joined the program: Apologizing for mistakes.",
+        "type": "A00",
+        "stt": 3,
+        "name": "Michael",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What exactly do you need?"],
+            "aw": ["I need advice on how to apologize."],
+            "aw01": [
+              { "st": "I need advice on how to apologize.", "id": "SH1_21" }
+            ]
+          },
+          {
+            "qs": ["Can you share your situation?"],
+            "aw": ["I stayed up late and didn’t listen to my parents."],
+            "aw01": [
+              {
+                "st": "I stayed up late and didn’t listen to my parents.",
+                "id": "SH1_22"
+              }
+            ]
+          },
+          {
+            "qs": ["Did your parents scold you?"],
+            "aw": ["A little, but they love me."],
+            "aw01": [{ "st": "A little, but they love me.", "id": "SH1_23" }]
+          },
+          {
+            "qs": ["Don’t do it again. Your parents will feel sad."],
+            "aw": ["Thank you."],
+            "submit": ["[4]"],
+            "aw01": [{ "st": "Thank you.", "id": "SH1_24" }]
+          }
+        ],
+        "submit": ["[4]"],
+        "fspSets": [
+          {
+            "st": "I joined the program: Apologizing for mistakes.",
+            "id": "SH1_20"
+          }
+        ]
+      },
+      {
+        "fsp": "I joined the program: Apologizing for mistakes.",
+        "type": "A02",
+        "stt": 8,
+        "name": "Jennifer",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What exactly do you need?"],
+            "aw": ["I want to share a story about apologizing and its value."],
+            "aw01": [
+              {
+                "st": "I want to share a story about apologizing and its value.",
+                "id": "SH1_26"
+              }
+            ]
+          },
+          {
+            "qs": ["Great! Tell me your experience."],
+            "aw": [
+              "I lied to my mom. I apologized, and now our relationship is better."
+            ],
+            "aw01": [
+              {
+                "st": "I lied to my mom. I apologized, and now our relationship is better.",
+                "id": "SH1_27"
+              }
+            ]
+          },
+          {
+            "qs": ["What do you want to say to the audience?"],
+            "aw": ["If you are wrong, admit it. It helps relationships."],
+            "aw01": [
+              {
+                "st": "If you are wrong, admit it. It helps relationships.",
+                "id": "SH1_28"
+              }
+            ]
+          },
+          {
+            "qs": ["Thank you for sharing your story."],
+            "aw": ["Thank you."],
+            "submit": ["[7]"],
+            "aw01": [{ "st": "Thank you.", "id": "SH1_29" }]
+          }
+        ],
+        "submit": ["[7]"],
+        "fspSets": [
+          {
+            "st": "I joined the program: Apologizing for mistakes.",
+            "id": "SH1_25"
+          }
+        ]
+      },
+      {
+        "fsp": "I joined the program: Apologizing for mistakes.",
+        "type": "A02",
+        "stt": 10,
+        "name": "Emily",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What exactly do you need?"],
+            "aw": ["I want to share a story about apologizing and its value."],
+            "aw01": [
+              {
+                "st": "I want to share a story about apologizing and its value.",
+                "id": "SH1_31"
+              }
+            ]
+          },
+          {
+            "qs": ["Great! Tell me your experience."],
+            "aw": [
+              "I said bad things about my best friend, and they found out. I apologized, and now we are friends again."
+            ],
+            "aw01": [
+              {
+                "st": "I said bad things about my best friend, and they found out. I apologized, and now we are friends again.",
+                "id": "SH1_32"
+              }
+            ]
+          },
+          {
+            "qs": ["What do you want to say to the audience?"],
+            "aw": [
+              "Don’t talk badly about your friends. If you are wrong, apologize honestly."
+            ],
+            "aw01": [
+              {
+                "st": "Don’t talk badly about your friends. If you are wrong, apologize honestly.",
+                "id": "SH1_33"
+              }
+            ]
+          },
+          {
+            "qs": ["Thank you for sharing your story."],
+            "aw": ["Thank you."],
+            "submit": ["[9]"],
+            "aw01": [{ "st": "Thank you.", "id": "SH1_34" }]
+          }
+        ],
+        "submit": ["[9]"],
+        "fspSets": [
+          {
+            "st": "I joined the program: Apologizing for mistakes.",
+            "id": "SH1_30"
+          }
+        ]
+      },
+      {
+        "fsp": "I joined the program: Apologizing for mistakes.",
+        "type": "A00",
+        "stt": 2,
+        "name": "Sarah",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What exactly do you need?"],
+            "aw": ["I need advice on how to apologize."],
+            "aw01": [
+              { "st": "I need advice on how to apologize.", "id": "SH1_36" }
+            ]
+          },
+          {
+            "qs": ["Can you share your situation?"],
+            "aw": ["I stayed up late and didn’t listen to my parents."],
+            "aw01": [
+              {
+                "st": "I stayed up late and didn’t listen to my parents.",
+                "id": "SH1_37"
+              }
+            ]
+          },
+          {
+            "qs": ["Did your parents scold you?"],
+            "aw": ["No, but they looked upset."],
+            "aw01": [{ "st": "No, but they looked upset.", "id": "SH1_38" }]
+          },
+          {
+            "qs": ["Say sorry and promise not to do it again."],
+            "aw": ["Thank you so much."],
+            "submit": ["[4]"],
+            "aw01": [{ "st": "Thank you so much.", "id": "SH1_39" }]
+          }
+        ],
+        "submit": ["[4]"],
+        "fspSets": [
+          {
+            "st": "I joined the program: Apologizing for mistakes.",
+            "id": "SH1_35"
+          }
+        ]
+      },
+      {
+        "fsp": "I joined the program: Apologizing for mistakes.",
+        "type": "A01",
+        "stt": 6,
+        "name": "Jennifer",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What exactly do you need?"],
+            "aw": ["I want to send an apology message."],
+            "aw01": [
+              { "st": "I want to send an apology message.", "id": "SH1_41" }
+            ]
+          },
+          {
+            "qs": ["Who do you want to apologize to?"],
+            "aw": ["To my mom."],
+            "aw01": [{ "st": "To my mom.", "id": "SH1_42" }]
+          },
+          {
+            "qs": ["Can you share your reason and your message?"],
+            "aw": [
+              "I stayed out late and made her sad. I am sorry and I will do better."
+            ],
+            "aw01": [
+              {
+                "st": "I stayed out late and made her sad. I am sorry and I will do better.",
+                "id": "SH1_43"
+              }
+            ]
+          },
+          {
+            "qs": ["We will send your message to your mom."],
+            "aw": ["Thank you so much."],
+            "submit": ["[7]"],
+            "aw01": [{ "st": "Thank you so much.", "id": "SH1_44" }]
+          }
+        ],
+        "submit": ["[7]"],
+        "fspSets": [
+          {
+            "st": "I joined the program: Apologizing for mistakes.",
+            "id": "SH1_40"
+          }
+        ]
+      },
+      {
+        "fsp": "I joined the program: Apologizing for mistakes.",
+        "type": "A00",
+        "stt": 1,
+        "name": "David",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What exactly do you need?"],
+            "aw": ["I need advice on how to apologize."],
+            "aw01": [
+              { "st": "I need advice on how to apologize.", "id": "SH1_46" }
+            ]
+          },
+          {
+            "qs": ["Can you share your situation?"],
+            "aw": ["I said bad things about my friend."],
+            "aw01": [
+              { "st": "I said bad things about my friend.", "id": "SH1_47" }
+            ]
+          },
+          {
+            "qs": ["Does your friend know?"],
+            "aw": ["Yes, my friend is angry with me."],
+            "aw01": [
+              { "st": "Yes, my friend is angry with me.", "id": "SH1_48" }
+            ]
+          },
+          {
+            "qs": ["Try giving a candy and say sorry to make peace."],
+            "aw": ["Thank you."],
+            "submit": ["[2]"],
+            "aw01": [{ "st": "Thank you.", "id": "SH1_49" }]
+          }
+        ],
+        "submit": ["[2]"],
+        "fspSets": [
+          {
+            "st": "I joined the program: Apologizing for mistakes.",
+            "id": "SH1_45"
+          }
+        ]
+      },
+      {
+        "fsp": "I joined the program: Apologizing for mistakes.",
+        "type": "A02",
+        "stt": 11,
+        "name": "Michael",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What exactly do you need?"],
+            "aw": ["I want to share a story about apologizing and its value."],
+            "aw01": [
+              {
+                "st": "I want to share a story about apologizing and its value.",
+                "id": "SH1_51"
+              }
+            ]
+          },
+          {
+            "qs": ["Great! Tell me your experience."],
+            "aw": [
+              "I said bad things about my best friend, and they found out. I apologized, and now we are friends again."
+            ],
+            "aw01": [
+              {
+                "st": "I said bad things about my best friend, and they found out. I apologized, and now we are friends again.",
+                "id": "SH1_52"
+              }
+            ]
+          },
+          {
+            "qs": ["What do you want to say to the audience?"],
+            "aw": [
+              "Apologize quickly when you are wrong. Friendship is precious."
+            ],
+            "aw01": [
+              {
+                "st": "Apologize quickly when you are wrong. Friendship is precious.",
+                "id": "SH1_53"
+              }
+            ]
+          },
+          {
+            "qs": ["Thank you for sharing your story."],
+            "aw": ["Thank you so much."],
+            "submit": ["[11]"],
+            "aw01": [{ "st": "Thank you so much.", "id": "SH1_54" }]
+          }
+        ],
+        "submit": ["[11]"],
+        "fspSets": [
+          {
+            "st": "I joined the program: Apologizing for mistakes.",
+            "id": "SH1_50"
+          }
+        ]
+      },
+      {
+        "fsp": "I joined the program: Apologizing for mistakes.",
+        "type": "A01",
+        "stt": 4,
+        "name": "Ashley",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What exactly do you need?"],
+            "aw": ["I want to send an apology message."],
+            "aw01": [
+              { "st": "I want to send an apology message.", "id": "SH1_56" }
+            ]
+          },
+          {
+            "qs": ["Who do you want to apologize to?"],
+            "aw": ["To my dad."],
+            "aw01": [{ "st": "To my dad.", "id": "SH1_57" }]
+          },
+          {
+            "qs": ["Why do you want to apologize, and what is your message?"],
+            "aw": [
+              "I didn’t listen to my dad. Tell him I am sorry and I will do better."
+            ],
+            "aw01": [
+              {
+                "st": "I didn’t listen to my dad. Tell him I am sorry and I will do better.",
+                "id": "SH1_58"
+              }
+            ]
+          },
+          {
+            "qs": ["We will send your message to your dad."],
+            "aw": ["Thank you so much."],
+            "submit": ["[5]"],
+            "aw01": [{ "st": "Thank you so much.", "id": "SH1_59" }]
+          }
+        ],
+        "submit": ["[5]"],
+        "fspSets": [
+          {
+            "st": "I joined the program: Apologizing for mistakes.",
+            "id": "SH1_55"
+          }
+        ]
+      },
+      {
+        "fsp": "I joined the program: Apologizing for mistakes.",
+        "type": "A02",
+        "stt": 9,
+        "name": "David",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What exactly do you need?"],
+            "aw": ["I want to share a story about apologizing and its value."],
+            "aw01": [
+              {
+                "st": "I want to share a story about apologizing and its value.",
+                "id": "SH1_61"
+              }
+            ]
+          },
+          {
+            "qs": ["Great! Tell me your experience."],
+            "aw": [
+              "I lied to my mom. I apologized, and now our relationship is better."
+            ],
+            "aw01": [
+              {
+                "st": "I lied to my mom. I apologized, and now our relationship is better.",
+                "id": "SH1_62"
+              }
+            ]
+          },
+          {
+            "qs": ["What do you want to say to the audience?"],
+            "aw": [
+              "Don’t stay silent when you are wrong. You could lose someone you love."
+            ],
+            "aw01": [
+              {
+                "st": "Don’t stay silent when you are wrong. You could lose someone you love.",
+                "id": "SH1_63"
+              }
+            ]
+          },
+          {
+            "qs": ["Thank you for sharing your story."],
+            "aw": ["Thank you so much."],
+            "submit": ["[9]"],
+            "aw01": [{ "st": "Thank you so much.", "id": "SH1_64" }]
+          }
+        ],
+        "submit": ["[9]"],
+        "fspSets": [
+          {
+            "st": "I joined the program: Apologizing for mistakes.",
+            "id": "SH1_60"
+          }
+        ]
+      },
+      {
+        "fsp": "I joined the program: Apologizing for mistakes.",
+        "type": "A01",
+        "stt": 7,
+        "name": "Joshua",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What exactly do you need?"],
+            "aw": ["I want to send an apology message."],
+            "aw01": [
+              { "st": "I want to send an apology message.", "id": "SH1_66" }
+            ]
+          },
+          {
+            "qs": ["Who do you want to apologize to?"],
+            "aw": ["To my mom."],
+            "aw01": [{ "st": "To my mom.", "id": "SH1_67" }]
+          },
+          {
+            "qs": ["Can you share your reason and your message?"],
+            "aw": ["I lied to my mom. I am sorry and hope she forgives me."],
+            "aw01": [
+              {
+                "st": "I lied to my mom. I am sorry and hope she forgives me.",
+                "id": "SH1_68"
+              }
+            ]
+          },
+          {
+            "qs": ["We will send your message to your mom."],
+            "aw": ["Thank you so much."],
+            "submit": ["[8]"],
+            "aw01": [{ "st": "Thank you so much.", "id": "SH1_69" }]
+          }
+        ],
+        "submit": ["[8]"],
+        "fspSets": [
+          {
+            "st": "I joined the program: Apologizing for mistakes.",
+            "id": "SH1_65"
+          }
+        ]
+      },
+      {
+        "fsp": "I joined the program: Apologizing for mistakes.",
+        "type": "A00",
+        "stt": 2,
+        "name": "Jessica",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What exactly do you need?"],
+            "aw": ["I need advice on how to apologize."],
+            "aw01": [
+              { "st": "I need advice on how to apologize.", "id": "SH1_71" }
+            ]
+          },
+          {
+            "qs": ["Can you share your situation?"],
+            "aw": ["I stayed up late and didn’t listen to my parents."],
+            "aw01": [
+              {
+                "st": "I stayed up late and didn’t listen to my parents.",
+                "id": "SH1_72"
+              }
+            ]
+          },
+          {
+            "qs": ["Did your parents scold you?"],
+            "aw": ["No, but they looked upset."],
+            "aw01": [{ "st": "No, but they looked upset.", "id": "SH1_73" }]
+          },
+          {
+            "qs": ["Say sorry and promise not to do it again."],
+            "aw": ["Thank you."],
+            "submit": ["[3]"],
+            "aw01": [{ "st": "Thank you.", "id": "SH1_74" }]
+          }
+        ],
+        "submit": ["[3]"],
+        "fspSets": [
+          {
+            "st": "I joined the program: Apologizing for mistakes.",
+            "id": "SH1_70"
+          }
+        ]
+      },
+      {
+        "fsp": "I joined the program: Apologizing for mistakes.",
+        "type": "A00",
+        "stt": 0,
+        "name": "Jessica",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What exactly do you need?"],
+            "aw": ["I need advice on how to apologize."],
+            "aw01": [
+              { "st": "I need advice on how to apologize.", "id": "SH1_76" }
+            ]
+          },
+          {
+            "qs": ["Can you share your situation?"],
+            "aw": ["I said bad things about my friend."],
+            "aw01": [
+              { "st": "I said bad things about my friend.", "id": "SH1_77" }
+            ]
+          },
+          {
+            "qs": ["Does your friend know?"],
+            "aw": ["No, but I feel ashamed."],
+            "aw01": [{ "st": "No, but I feel ashamed.", "id": "SH1_78" }]
+          },
+          {
+            "qs": ["Be honest, apologize, and say you feel sorry."],
+            "aw": ["Thank you so much."],
+            "submit": ["[2]"],
+            "aw01": [{ "st": "Thank you so much.", "id": "SH1_79" }]
+          }
+        ],
+        "submit": ["[2]"],
+        "fspSets": [
+          {
+            "st": "I joined the program: Apologizing for mistakes.",
+            "id": "SH1_75"
+          }
+        ]
+      },
+      {
+        "fsp": "I joined the program: Apologizing for mistakes.",
+        "type": "A01",
+        "stt": 5,
+        "name": "Andrew",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What exactly do you need?"],
+            "aw": ["I want to send an apology message."],
+            "aw01": [
+              { "st": "I want to send an apology message.", "id": "SH1_81" }
+            ]
+          },
+          {
+            "qs": ["Who do you want to apologize to?"],
+            "aw": ["To my dad."],
+            "aw01": [{ "st": "To my dad.", "id": "SH1_82" }]
+          },
+          {
+            "qs": ["Why do you want to apologize, and what is your message?"],
+            "aw": [
+              "I didn’t listen to my dad. Tell him I am sorry and I will do better."
+            ],
+            "aw01": [
+              {
+                "st": "I didn’t listen to my dad. Tell him I am sorry and I will do better.",
+                "id": "SH1_83"
+              }
+            ]
+          },
+          {
+            "qs": ["We will send your message to your dad."],
+            "aw": ["Thank you."],
+            "submit": ["[5]"],
+            "aw01": [{ "st": "Thank you.", "id": "SH1_84" }]
+          }
+        ],
+        "submit": ["[5]"],
+        "fspSets": [
+          {
+            "st": "I joined the program: Apologizing for mistakes.",
+            "id": "SH1_80"
+          }
+        ]
+      },
+      {
+        "fsp": "I joined the program: Apologizing for mistakes.",
+        "type": "A02",
+        "stt": 11,
+        "name": "David",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What exactly do you need?"],
+            "aw": ["I want to share a story about apologizing and its value."],
+            "aw01": [
+              {
+                "st": "I want to share a story about apologizing and its value.",
+                "id": "SH1_86"
+              }
+            ]
+          },
+          {
+            "qs": ["Great! Tell me your experience."],
+            "aw": [
+              "I said bad things about my best friend, and they found out. I apologized, and now we are friends again."
+            ],
+            "aw01": [
+              {
+                "st": "I said bad things about my best friend, and they found out. I apologized, and now we are friends again.",
+                "id": "SH1_87"
+              }
+            ]
+          },
+          {
+            "qs": ["What do you want to say to the audience?"],
+            "aw": [
+              "Apologize quickly when you are wrong. Friendship is precious."
+            ],
+            "aw01": [
+              {
+                "st": "Apologize quickly when you are wrong. Friendship is precious.",
+                "id": "SH1_88"
+              }
+            ]
+          },
+          {
+            "qs": ["Thank you for sharing your story."],
+            "aw": ["Thank you."],
+            "submit": ["[10]"],
+            "aw01": [{ "st": "Thank you.", "id": "SH1_89" }]
+          }
+        ],
+        "submit": ["[10]"],
+        "fspSets": [
+          {
+            "st": "I joined the program: Apologizing for mistakes.",
+            "id": "SH1_85"
+          }
+        ]
+      },
+      {
+        "fsp": "I joined the program: Apologizing for mistakes.",
+        "type": "A01",
+        "stt": 6,
+        "name": "Ashley",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What exactly do you need?"],
+            "aw": ["I want to send an apology message."],
+            "aw01": [
+              { "st": "I want to send an apology message.", "id": "SH1_91" }
+            ]
+          },
+          {
+            "qs": ["Who do you want to apologize to?"],
+            "aw": ["To my mom."],
+            "aw01": [{ "st": "To my mom.", "id": "SH1_92" }]
+          },
+          {
+            "qs": ["Can you share your reason and your message?"],
+            "aw": [
+              "I stayed out late and made her sad. I am sorry and I will do better."
+            ],
+            "aw01": [
+              {
+                "st": "I stayed out late and made her sad. I am sorry and I will do better.",
+                "id": "SH1_93"
+              }
+            ]
+          },
+          {
+            "qs": ["We will send your message to your mom."],
+            "aw": ["Thank you."],
+            "submit": ["[6]"],
+            "aw01": [{ "st": "Thank you.", "id": "SH1_94" }]
+          }
+        ],
+        "submit": ["[6]"],
+        "fspSets": [
+          {
+            "st": "I joined the program: Apologizing for mistakes.",
+            "id": "SH1_90"
+          }
+        ]
+      },
+      {
+        "fsp": "I joined the program: Apologizing for mistakes.",
+        "type": "A02",
+        "stt": 9,
+        "name": "Joshua",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What exactly do you need?"],
+            "aw": ["I want to share a story about apologizing and its value."],
+            "aw01": [
+              {
+                "st": "I want to share a story about apologizing and its value.",
+                "id": "SH1_96"
+              }
+            ]
+          },
+          {
+            "qs": ["Great! Tell me your experience."],
+            "aw": [
+              "I lied to my mom. I apologized, and now our relationship is better."
+            ],
+            "aw01": [
+              {
+                "st": "I lied to my mom. I apologized, and now our relationship is better.",
+                "id": "SH1_97"
+              }
+            ]
+          },
+          {
+            "qs": ["What do you want to say to the audience?"],
+            "aw": [
+              "Don’t stay silent when you are wrong. You could lose someone you love."
+            ],
+            "aw01": [
+              {
+                "st": "Don’t stay silent when you are wrong. You could lose someone you love.",
+                "id": "SH1_98"
+              }
+            ]
+          },
+          {
+            "qs": ["Thank you for sharing your story."],
+            "aw": ["Thank you."],
+            "submit": ["[8]"],
+            "aw01": [{ "st": "Thank you.", "id": "SH1_99" }]
+          }
+        ],
+        "submit": ["[8]"],
+        "fspSets": [
+          {
+            "st": "I joined the program: Apologizing for mistakes.",
+            "id": "SH1_95"
+          }
+        ]
+      },
+      {
+        "fsp": "I joined the program: Apologizing for mistakes.",
+        "type": "A00",
+        "stt": 3,
+        "name": "Andrew",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What exactly do you need?"],
+            "aw": ["I need advice on how to apologize."],
+            "aw01": [
+              { "st": "I need advice on how to apologize.", "id": "SH1_101" }
+            ]
+          },
+          {
+            "qs": ["Can you share your situation?"],
+            "aw": ["I stayed up late and didn’t listen to my parents."],
+            "aw01": [
+              {
+                "st": "I stayed up late and didn’t listen to my parents.",
+                "id": "SH1_102"
+              }
+            ]
+          },
+          {
+            "qs": ["Did your parents scold you?"],
+            "aw": ["A little, but they love me."],
+            "aw01": [{ "st": "A little, but they love me.", "id": "SH1_103" }]
+          },
+          {
+            "qs": ["Don’t do it again. Your parents will feel sad."],
+            "aw": ["Thank you so much."],
+            "submit": ["[5]"],
+            "aw01": [{ "st": "Thank you so much.", "id": "SH1_104" }]
+          }
+        ],
+        "submit": ["[5]"],
+        "fspSets": [
+          {
+            "st": "I joined the program: Apologizing for mistakes.",
+            "id": "SH1_100"
+          }
+        ]
+      },
+      {
+        "fsp": "I joined the program: Apologizing for mistakes.",
+        "type": "A00",
+        "stt": 1,
+        "name": "Michael",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What exactly do you need?"],
+            "aw": ["I need advice on how to apologize."],
+            "aw01": [
+              { "st": "I need advice on how to apologize.", "id": "SH1_106" }
+            ]
+          },
+          {
+            "qs": ["Can you share your situation?"],
+            "aw": ["I said bad things about my friend."],
+            "aw01": [
+              { "st": "I said bad things about my friend.", "id": "SH1_107" }
+            ]
+          },
+          {
+            "qs": ["Does your friend know?"],
+            "aw": ["Yes, my friend is angry with me."],
+            "aw01": [
+              { "st": "Yes, my friend is angry with me.", "id": "SH1_108" }
+            ]
+          },
+          {
+            "qs": ["Try giving a candy and say sorry to make peace."],
+            "aw": ["Thank you so much."],
+            "submit": ["[3]"],
+            "aw01": [{ "st": "Thank you so much.", "id": "SH1_109" }]
+          }
+        ],
+        "submit": ["[3]"],
+        "fspSets": [
+          {
+            "st": "I joined the program: Apologizing for mistakes.",
+            "id": "SH1_105"
+          }
+        ]
+      },
+      {
+        "fsp": "I joined the program: Apologizing for mistakes.",
+        "type": "A02",
+        "stt": 10,
+        "name": "Jessica",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What exactly do you need?"],
+            "aw": ["I want to share a story about apologizing and its value."],
+            "aw01": [
+              {
+                "st": "I want to share a story about apologizing and its value.",
+                "id": "SH1_111"
+              }
+            ]
+          },
+          {
+            "qs": ["Great! Tell me your experience."],
+            "aw": [
+              "I said bad things about my best friend, and they found out. I apologized, and now we are friends again."
+            ],
+            "aw01": [
+              {
+                "st": "I said bad things about my best friend, and they found out. I apologized, and now we are friends again.",
+                "id": "SH1_112"
+              }
+            ]
+          },
+          {
+            "qs": ["What do you want to say to the audience?"],
+            "aw": [
+              "Don’t talk badly about your friends. If you are wrong, apologize honestly."
+            ],
+            "aw01": [
+              {
+                "st": "Don’t talk badly about your friends. If you are wrong, apologize honestly.",
+                "id": "SH1_113"
+              }
+            ]
+          },
+          {
+            "qs": ["Thank you for sharing your story."],
+            "aw": ["Thank you so much."],
+            "submit": ["[10]"],
+            "aw01": [{ "st": "Thank you so much.", "id": "SH1_114" }]
+          }
+        ],
+        "submit": ["[10]"],
+        "fspSets": [
+          {
+            "st": "I joined the program: Apologizing for mistakes.",
+            "id": "SH1_110"
+          }
+        ]
+      },
+      {
+        "fsp": "I joined the program: Apologizing for mistakes.",
+        "type": "A01",
+        "stt": 7,
+        "name": "Christopher",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What exactly do you need?"],
+            "aw": ["I want to send an apology message."],
+            "aw01": [
+              { "st": "I want to send an apology message.", "id": "SH1_116" }
+            ]
+          },
+          {
+            "qs": ["Who do you want to apologize to?"],
+            "aw": ["To my mom."],
+            "aw01": [{ "st": "To my mom.", "id": "SH1_117" }]
+          },
+          {
+            "qs": ["Can you share your reason and your message?"],
+            "aw": ["I lied to my mom. I am sorry and hope she forgives me."],
+            "aw01": [
+              {
+                "st": "I lied to my mom. I am sorry and hope she forgives me.",
+                "id": "SH1_118"
+              }
+            ]
+          },
+          {
+            "qs": ["We will send your message to your mom."],
+            "aw": ["Thank you."],
+            "submit": ["[7]"],
+            "aw01": [{ "st": "Thank you.", "id": "SH1_119" }]
+          }
+        ],
+        "submit": ["[7]"],
+        "fspSets": [
+          {
+            "st": "I joined the program: Apologizing for mistakes.",
+            "id": "SH1_115"
+          }
+        ]
+      }
+    ],
+    "ListenList": [
+      "A00_I joined the program: Apologizing for mistakes.",
+      "A00_What exactly do you need?",
+      "A00_I need advice on how to apologize.",
+      "A00_Can you share your situation?",
+      "A00_I said bad things about my friend.",
+      "A00_Does your friend know?",
+      "A00_No, but I feel ashamed.",
+      "A00_Be honest, apologize, and say you feel sorry.",
+      "A00_Thank you.",
+      "A00_Yes, my friend is angry with me.",
+      "A00_Try giving a candy and say sorry to make peace.",
+      "A00_I stayed up late and didn’t listen to my parents.",
+      "A00_Did your parents scold you?",
+      "A00_No, but they looked upset.",
+      "A00_Say sorry and promise not to do it again.",
+      "A00_A little, but they love me.",
+      "A00_Don’t do it again. Your parents will feel sad.",
+      "A01_I joined the program: Apologizing for mistakes.",
+      "A01_What exactly do you need?",
+      "A01_I want to send an apology message.",
+      "A01_Who do you want to apologize to?",
+      "A01_To my dad.",
+      "A01_Why do you want to apologize, and what is your message?",
+      "A01_I didn’t listen to my dad. Tell him I am sorry and I will do better.",
+      "A01_We will send your message to your dad.",
+      "A01_Thank you.",
+      "A01_To my mom.",
+      "A01_Can you share your reason and your message?",
+      "A01_I stayed out late and made her sad. I am sorry and I will do better.",
+      "A01_We will send your message to your mom.",
+      "A01_I lied to my mom. I am sorry and hope she forgives me.",
+      "A02_I joined the program: Apologizing for mistakes.",
+      "A02_What exactly do you need?",
+      "A02_I want to share a story about apologizing and its value.",
+      "A02_Great! Tell me your experience.",
+      "A02_I lied to my mom. I apologized, and now our relationship is better.",
+      "A02_What do you want to say to the audience?",
+      "A02_If you are wrong, admit it. It helps relationships.",
+      "A02_Thank you for sharing your story.",
+      "A02_Thank you.",
+      "A02_Don’t stay silent when you are wrong. You could lose someone you love.",
+      "A02_I said bad things about my best friend, and they found out. I apologized, and now we are friends again.",
+      "A02_Don’t talk badly about your friends. If you are wrong, apologize honestly.",
+      "A02_Apologize quickly when you are wrong. Friendship is precious.",
+      "A00_Thank you so much.",
+      "A01_Thank you so much.",
+      "A02_Thank you so much."
+    ],
+    "typeSets": ["A00", "A01", "A02"],
+    "SEO": {
+      "seo": {
+        "metaTitle": "Apologizing for mistakes.",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": { "Ifname": "Apologizing for mistakes." },
+      "HD": [
+        {
+          "HD-00": "I joined the program: Apologizing for mistakes.(0)",
+          "HD-01": null,
+          "HD-02": null,
+          "HD-03": null
+        },
+        {
+          "HD-00": "What exactly do you need?(*)",
+          "HD-01": null,
+          "HD-02": null,
+          "HD-03": null
+        },
+        {
+          "HD-00": "I need advice on how to apologize.(0)",
+          "HD-01": "Can you share your situation?(*)",
+          "HD-02": null,
+          "HD-03": null
+        },
+        {
+          "HD-00": null,
+          "HD-01": "I said bad things about my friend.(0)",
+          "HD-02": "Does your friend know?(*)",
+          "HD-03": null
+        },
+        {
+          "HD-00": null,
+          "HD-01": null,
+          "HD-02": "No, but I feel ashamed.(0)",
+          "HD-03": "Be honest, apologize, and say you feel sorry.(*)"
+        },
+        {
+          "HD-00": null,
+          "HD-01": null,
+          "HD-02": "Yes, my friend is angry with me.(1)",
+          "HD-03": "Try giving a candy and say sorry to make peace.(*)"
+        },
+        {
+          "HD-00": null,
+          "HD-01": "I stayed up late and didn’t listen to my parents.(1)",
+          "HD-02": "Did your parents scold you?(*)",
+          "HD-03": null
+        },
+        {
+          "HD-00": null,
+          "HD-01": null,
+          "HD-02": "No, but they looked upset.(1)",
+          "HD-03": "Say sorry and promise not to do it again.(*)"
+        },
+        {
+          "HD-00": null,
+          "HD-01": null,
+          "HD-02": "A little, but they love me.(2)",
+          "HD-03": "Don’t do it again. Your parents will feel sad.(*)"
+        },
+        {
+          "HD-00": "I want to send an apology message.(1)",
+          "HD-01": "Who do you want to apologize to?(*)",
+          "HD-02": null,
+          "HD-03": null
+        },
+        {
+          "HD-00": null,
+          "HD-01": "To my dad.(1)",
+          "HD-02": "Why do you want to apologize, and what is your message?(*)",
+          "HD-03": null
+        },
+        {
+          "HD-00": null,
+          "HD-01": null,
+          "HD-02": "I didn’t listen to my dad. Tell him I am sorry and I will do better.(1)",
+          "HD-03": "We will send your message to your dad.(*)"
+        },
+        {
+          "HD-00": null,
+          "HD-01": null,
+          "HD-02": "I didn’t listen to my dad. Tell him I am sorry and I will do better.(2)",
+          "HD-03": "We will send your message to your dad.(*)"
+        },
+        {
+          "HD-00": null,
+          "HD-01": "To my mom.(2)",
+          "HD-02": "Can you share your reason and your message?(*)",
+          "HD-03": null
+        },
+        {
+          "HD-00": null,
+          "HD-01": null,
+          "HD-02": "I stayed out late and made her sad. I am sorry and I will do better.(2)",
+          "HD-03": "We will send your message to your mom.(*)"
+        },
+        {
+          "HD-00": null,
+          "HD-01": null,
+          "HD-02": "I lied to my mom. I am sorry and hope she forgives me.(3)",
+          "HD-03": "We will send your message to your mom.(*)"
+        },
+        {
+          "HD-00": "I want to share a story about apologizing and its value.(2)",
+          "HD-01": "Great! Tell me your experience.(*)",
+          "HD-02": null,
+          "HD-03": null
+        },
+        {
+          "HD-00": null,
+          "HD-01": "I lied to my mom. I apologized, and now our relationship is better.(2)",
+          "HD-02": "What do you want to say to the audience?(*)",
+          "HD-03": null
+        },
+        {
+          "HD-00": null,
+          "HD-01": null,
+          "HD-02": "If you are wrong, admit it. It helps relationships.(2)",
+          "HD-03": "Thank you for sharing your story.(*)"
+        },
+        {
+          "HD-00": null,
+          "HD-01": null,
+          "HD-02": "Don’t stay silent when you are wrong. You could lose someone you love.(3)",
+          "HD-03": "Thank you for sharing your story.(*)"
+        },
+        {
+          "HD-00": null,
+          "HD-01": "I said bad things about my best friend, and they found out. I apologized, and now we are friends again.(3)",
+          "HD-02": "What do you want to say to the audience?(*)",
+          "HD-03": null
+        },
+        {
+          "HD-00": null,
+          "HD-01": null,
+          "HD-02": "Don’t talk badly about your friends. If you are wrong, apologize honestly.(3)",
+          "HD-03": "Thank you for sharing your story.(*)"
+        },
+        {
+          "HD-00": null,
+          "HD-01": null,
+          "HD-02": "Apologize quickly when you are wrong. Friendship is precious.(4)",
+          "HD-03": "Thank you for sharing your story.(*)"
+        },
+        {
+          "HD-00": "XXX",
+          "HD-01": "Thank you. (1)",
+          "HD-02": "Thank you so much. (2)",
+          "HD-03": null
+        },
+        { "HD-00": "X", "HD-01": "X", "HD-02": "X", "HD-03": "X" },
+        { "HD-00": "[1]", "HD-01": "[2]", "HD-02": "[3]", "HD-03": "[4]" },
+        { "HD-00": "[5]", "HD-01": "[6]", "HD-02": "[7]", "HD-03": "[8]" },
+        { "HD-00": "[9]", "HD-01": "[10]", "HD-02": "[11]", "HD-03": null }
+      ],
+      "TB": []
+    }
+  }
+]
