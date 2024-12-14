@@ -22,6 +22,8 @@ function TableHD({ data, HINT, fnOnclick }) {
           margin: "5%",
           width: "90%",
           cursor: "pointer",
+          border: "1px solid black",
+          borderRadius: "5px",
         }}
       >
         <tbody>
@@ -36,7 +38,7 @@ function TableHD({ data, HINT, fnOnclick }) {
                           fontWeight: "bold",
                           color: "blue",
                         }
-                      : {}
+                      : { fontWeight: "bold", fontSize: "large" }
                   }
                   key={colIndex}
                   onClick={() => fnOnclick(row[header])}

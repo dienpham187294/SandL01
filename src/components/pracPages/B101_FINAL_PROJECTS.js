@@ -530,7 +530,13 @@ function FINAL_PROJECT({
               </div>
               <div
                 id="div_02"
-                style={{ flex: "2", transition: "flex 1s ease" }}
+                style={{
+                  flex: "2",
+                  transition: "flex 1s ease",
+                  backgroundColor: "#f2e6ff",
+                  border: "1px solid black",
+                  borderRadius: "15px",
+                }}
               >
                 {" "}
                 {TimeCountDown !== null ? (

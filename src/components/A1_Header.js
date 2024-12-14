@@ -21,7 +21,7 @@ const prac_to_work = [
   {
     root: "learninghub",
     preName: "",
-    name: "CV_Dẫn chương trình các việc nên làm tốt hơn.",
+    name: "MC Chương trình: Tư vấn và chia sẻ thói quen tốt. (I).",
     link: "mc_about_lesson_peopleshouldpractice",
     id: "socapI",
   },
