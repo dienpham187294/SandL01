@@ -25,7 +25,6 @@ const Lobby = ({
   const [selectedIndices, setSelectedIndices] = useState([]);
   const [QuickRoom, setQuickRoom] = useState(true);
 
-
   useEffect(() => {
     const defaultIndices = objListDefault.map((item) => objList.indexOf(item));
     setSelectedIndices(defaultIndices);
@@ -143,17 +142,17 @@ const Lobby = ({
         </i>
         <hr />
         <div className="row">
-          <div className="col-6">
+          <div className="col-12">
             {" "}
             <button
               style={{ width: "150px", height: "150px" }}
               className="btn btn-primary mb-4"
               onClick={handleCreateRoomOffline}
             >
-              <b>Tạo nhanh một phòng riêng</b>
+              <b>Vào thực hành</b>
             </button>
           </div>
-          <div className="col-6">
+          {/* <div className="col-6">
             {" "}
             <button
               style={{ width: "150px", height: "150px" }}
@@ -164,7 +163,7 @@ const Lobby = ({
             >
               <b>Tùy chỉnh một phòng thực hành chung </b>
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     );

@@ -85,6 +85,11 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
             setchoose_a_st(e);
           }}
         />
+        {generateBootstrapList(
+          dataLearning[currentIndex]?.ListenList,
+          choose_a_st,
+          setchoose_a_st
+        )}{" "}
         <hr />
         <h1>{choose_a_st}</h1>
         {choose_a_st ? (
@@ -105,6 +110,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                     <td key={i}>
                       <input
                         type="text"
+                        className="clearClassForTable"
                         style={{
                           width: "90%",
                           textAlign: "center",
@@ -119,7 +125,33 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
               ))}
             </tbody>
           </table>
-        ) : null}
+        ) : null}{" "}
+        <button
+          onClick={() => {
+            try {
+              const inputs =
+                document.getElementsByClassName("clearClassForTable");
+              for (let i = 0; i < inputs.length; i++) {
+                if (inputs[i] instanceof HTMLInputElement) {
+                  inputs[i].value = ""; // Clear the value of input elements
+                }
+              }
+            } catch (error) {
+              console.error("Error clearing input values:", error);
+            }
+          }}
+          className="btn btn-primary me-3"
+        >
+          Clear Table
+        </button>
+        <button
+          className="btn btn-danger"
+          onClick={() => {
+            setchoose_a_st(null);
+          }}
+        >
+          Hide table
+        </button>
         <h5>Đoán - Tra - Tìm - Ghép</h5>
         {choose_a_st ? (
           <input
@@ -136,11 +168,6 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
           />
         ) : null}
         <Dictaphone /> <hr />
-        {generateBootstrapList(
-          dataLearning[currentIndex]?.ListenList,
-          choose_a_st,
-          setchoose_a_st
-        )}
         {dataLearning[currentIndex] ? (
           <div>{renderContent(dataLearning, currentIndex)}</div>
         ) : null}
