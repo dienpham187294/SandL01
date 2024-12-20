@@ -9,6 +9,7 @@ import LinkAPI from "../ulti/T0_linkApi";
 const Room = ({ setSttRoom }) => {
   const { roomCode, currentIndex } = useParams();
   const locationSet = useLocation();
+  const params = new URLSearchParams(locationSet.search);
   const [users, setUsers] = useState(null);
   const [roomInfo, setRoomInfo] = useState({
     fileName: roomCode,
@@ -87,12 +88,12 @@ const Room = ({ setSttRoom }) => {
 
           let firstList = [currentIndex || 0];
           try {
-            const params = new URLSearchParams(locationSet.search);
             let newList = parseStringToNumbers(params.get("a"));
             if (newList) {
               firstList = newList;
             }
           } catch (error) {}
+          console.log(firstList);
 
           console.log(firstList);
           setDataPracticingCharactor(
@@ -219,7 +220,7 @@ const Room = ({ setSttRoom }) => {
                     ? IndexSets[(numberBegin - 1) % IndexSets.length]
                     : numberBegin - 1
                 }
-                TimeDefault={roomInfo.timeDefault || 120}
+                TimeDefault={params.get("t") || 120}
                 handleIncrementReadyClick={() => setNumberBegin((D) => D + 1)}
                 IsPause={false}
                 NumberOneByOneHost={0}
