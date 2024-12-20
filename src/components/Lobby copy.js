@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useParams, useLocation } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { socket } from "../App";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -26,10 +26,10 @@ const Lobby = ({
   const [selectedIndices, setSelectedIndices] = useState([]);
   const [QuickRoom, setQuickRoom] = useState(true);
   const paramSet = useParams();
-  const locationSet = useLocation();
-  useEffect(() => {
-    console.log(paramSet, locationSet);
-  }, [paramSet, locationSet]);
+
+us
+
+
 
   useEffect(() => {
     const defaultIndices = objListDefault.map((item) => objList.indexOf(item));

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams, useLocation } from "react-router-dom";
 import { socket } from "../App";
 import "bootstrap/dist/css/bootstrap.min.css";
 import PracticeDIV from "./pracPages/B101_FINAL_PROJECTS";
@@ -8,13 +8,12 @@ import LinkAPI from "../ulti/T0_linkApi";
 
 const Room = ({ setSttRoom }) => {
   const { roomCode, currentIndex } = useParams();
-
+  const locationSet = useLocation();
   const [users, setUsers] = useState(null);
-
   const [roomInfo, setRoomInfo] = useState({
     fileName: roomCode,
-    objList: [currentIndex],
-    reverse: 2,
+    objList: [0, 1, 2, 3, 4, 5, 6],
+    reverse: 1,
   });
 
   const [IndexSets, setIndexSets] = useState(null);
@@ -86,13 +85,18 @@ const Room = ({ setSttRoom }) => {
           const data = await response.json();
           setDataPracticingOverRoll(data);
 
+          let firstList = [currentIndex || 0];
+          try {
+            const params = new URLSearchParams(locationSet.search);
+            let newList = parseStringToNumbers(params.get("a"));
+            if (newList) {
+              firstList = newList;
+            }
+          } catch (error) {}
+
+          console.log(firstList);
           setDataPracticingCharactor(
-            interleaveCharacters(
-              data,
-              roomInfo.objList,
-              roomInfo.reverse,
-              setIndexSets
-            )
+            interleaveCharacters(data, firstList, 1, setIndexSets)
           );
         } catch (error) {
           console.error("Error fetching data:", error);
@@ -114,23 +118,6 @@ const Room = ({ setSttRoom }) => {
     return <div className="container mt-3">Đợi trong giây lát . . . . . .</div>;
   }
 
-  // if (IsPause) {
-  //   return (
-  //     <div className="container mt-3">
-  //       Tạm dừng
-  //       <hr />
-  //       <button
-  //         style={{ borderRadius: "5px", width: "100px" }}
-  //         onClick={() => {
-  //           setIsPause(!IsPause);
-  //         }}
-  //       >
-  //         {IsPause ? "Tiếp tục" : "Tạm dừng"}
-  //       </button>
-  //       Điểm: {Score} / Lượt {numberBegin} |
-  //     </div>
-  //   );
-  // }
   return (
     <div
       style={{
@@ -399,4 +386,40 @@ function getNumberWithDailyExpiry(key) {
   }
 
   return item.value; // Trả về số nếu chưa hết hạn
+}
+
+function parseStringToNumbers(input) {
+  try {
+    const parts = input.split(/(a|b)/); // Tách chuỗi dựa trên 'a' và 'b'
+    let result = [];
+    let temp = [];
+
+    for (let i = 0; i < parts.length; i++) {
+      if (!isNaN(parts[i]) && parts[i] !== "") {
+        temp.push(parseInt(parts[i])); // Chuyển số dạng chuỗi thành số nguyên
+      } else if (parts[i] === "b") {
+        if (temp.length > 0) {
+          const start = temp.pop(); // Lấy số trước 'b'
+          const end = parseInt(parts[i + 1]); // Số sau 'b'
+          if (!isNaN(end)) {
+            for (let j = start; j <= end; j++) {
+              result.push(j); // Thêm các số từ start đến end
+            }
+            i++; // Bỏ qua số đã xử lý sau 'b'
+          }
+        }
+      } else if (parts[i] === "a") {
+        if (temp.length > 0) result.push(temp.pop()); // Giữ số cuối cùng trong bộ đệm
+      }
+    }
+
+    // Xử lý số cuối cùng còn lại
+    if (temp.length > 0) result.push(...temp);
+
+    // Kiểm tra nếu mảng kết quả rỗng thì trả về null
+    return result.length > 0 ? result : null;
+  } catch (error) {
+    // Trả về null nếu có lỗi
+    return null;
+  }
 }
