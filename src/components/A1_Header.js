@@ -25,6 +25,14 @@ const prac_to_work = [
     link: "mc_about_lesson_peopleshouldpractice",
     id: "socapI",
   },
+
+  {
+    root: "learninghub",
+    preName: "",
+    name: "Luyện tập phỏng vấn theo kịch bản.",
+    link: "interview_w_foreign_teacher",
+    id: "socapI",
+  },
 ];
 
 const pracEnSets = [

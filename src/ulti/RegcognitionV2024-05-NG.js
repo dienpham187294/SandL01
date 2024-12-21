@@ -206,6 +206,15 @@ const Dictaphone = ({
         <i>Sử dụng nội dung vừa nói</i>
       </button>
       <h3>{transcript || <i>đang lắng nghe . . . </i>}</h3>
+      <button
+        id="stopListenBTN"
+        style={{ display: "none" }}
+        onClick={() => {
+          stopListening();
+        }}
+      >
+        StopListen
+      </button>
     </div>
   );
 };

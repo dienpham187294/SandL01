@@ -93,11 +93,14 @@ const Room = ({ setSttRoom }) => {
               firstList = newList;
             }
           } catch (error) {}
-          console.log(firstList);
-
-          console.log(firstList);
           setDataPracticingCharactor(
-            interleaveCharacters(data, firstList, 1, setIndexSets)
+            interleaveCharacters(
+              data,
+              firstList,
+              1,
+              setIndexSets,
+              params.get("b")
+            )
           );
         } catch (error) {
           console.error("Error fetching data:", error);
@@ -170,28 +173,6 @@ const Room = ({ setSttRoom }) => {
             +
           </button>
         ) : null}
-        {/* {numberBegin === 0 ? (
-          <button
-            style={{ borderRadius: "5px", width: "100px", height: "100px" }}
-            onClick={() => {
-              setNumberBegin((D) => D + 1);
-            }}
-          >
-            Start
-          </button>
-        ) : (
-          <button
-            style={{ borderRadius: "5px", width: "100px", height: "100px" }}
-            onClick={() => {
-              setIsPause(!IsPause);
-            }}
-          >
-            {IsPause ? "Tiếp tục" : "Tạm dừng"}
-          </button>
-        )} */}
-        {/* {SttCoundown === "01" ? (
-          <CountdownTimer setSTT={setSttCoundown} STT={"02"} TIME={3} />
-        ) : null} */}
       </div>
 
       <div style={{ flex: 8 }}>
@@ -322,20 +303,49 @@ const Room = ({ setSttRoom }) => {
 
 export default Room;
 
-function interleaveCharacters(array1, array2, reverse, setIndexSets) {
-  const numberGetPerOne = Math.floor(200 / array2.length);
+function interleaveCharacters(
+  data_all,
+  index_sets_t_get_pracData,
+  reverse,
+  setIndexSets,
+  filerSets
+) {
+  const numberGetPerOne = Math.floor(200 / index_sets_t_get_pracData.length);
   let arrRes = [];
-  array2.forEach((e) => {
-    let resTemp = splitAndConcatArray(array1[e].charactor, reverse).slice(
-      0,
-      numberGetPerOne
-    );
+  index_sets_t_get_pracData.forEach((e) => {
+    let resTemp = splitAndConcatArray(
+      filer_type_o_charactor(data_all[e].charactor, filerSets),
+      reverse
+    ).slice(0, numberGetPerOne);
     arrRes = arrRes.concat(resTemp);
   });
 
   setIndexSets(generateRandomArray(arrRes.length));
 
   return arrRes;
+}
+
+function filer_type_o_charactor(charactorSets, filerTypeSetsStringValue) {
+  try {
+    if (filerTypeSetsStringValue === null) {
+      return charactorSets;
+    }
+
+    let filerTypeSetsArrayValue = filerTypeSetsStringValue.split("b");
+    let res_after_filer = [];
+    charactorSets.forEach((e, i) => {
+      if (filerTypeSetsArrayValue.includes(e.type)) {
+        res_after_filer.push(e);
+      }
+    });
+    if (res_after_filer.length > 0) {
+      return res_after_filer;
+    } else {
+      return charactorSets;
+    }
+  } catch (error) {
+    return charactorSets;
+  }
 }
 
 function splitAndConcatArray(array, m) {

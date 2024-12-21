@@ -32,7 +32,7 @@ function TableHD({ data, HINT, fnOnclick }) {
               {headers.map((header, colIndex) => (
                 <td
                   style={
-                    row[header] && row[header].includes("(*)")
+                    row[header] && (row[header] + "").includes("(*)")
                       ? {
                           fontSize: "larger",
                           fontWeight: "bold",

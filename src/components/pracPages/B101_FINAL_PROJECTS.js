@@ -557,16 +557,27 @@ function FINAL_PROJECT({
                   style={{ borderRadius: "5px" }}
                   id="btnBoQua"
                   onClick={() => {
-                    const button = document.getElementById("btnBoQua");
-                    button.style.opacity = 0; // Làm mờ nút dần
-                    setStyles((prevStyles) => ({
-                      ...prevStyles,
-                      opacity: 0,
-                    }));
-                    setTimeout(() => {
-                      setStartSTT(true);
-                      setScore((D) => D - 1);
-                    }, 1000);
+                    try {
+                      const buttonStopListen =
+                        document.getElementById("stopListenBTN");
+                      if (buttonStopListen) {
+                        buttonStopListen.click();
+                      }
+
+                      const button = document.getElementById("btnBoQua");
+                      if (button) {
+                        button.style.opacity = 0; // Làm mờ nút dần
+                      }
+                      setStyles((prevStyles) => ({
+                        ...prevStyles,
+                        opacity: 0,
+                      }));
+
+                      setTimeout(() => {
+                        setStartSTT(true);
+                        setScore((D) => D - 1);
+                      }, 1000);
+                    } catch (error) {}
                   }}
                 >
                   Bỏ qua
