@@ -1,0 +1,3630 @@
+[
+  {
+    "id": "Cách-tiếp-cận-truyền-thống-đến-một-mô-hình-kinh-doanh",
+    "charactor": [
+      {
+        "type": "B3",
+        "stt": 133,
+        "fsp": "Choosing the right business model is key to long-term sustainability go with \"Why do entrepreneurs often fail to consider business models?\", is it right?",
+        "name": "Jessica",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["No"] },
+          {
+            "qs": ["Could you please tell me the correct question?"],
+            "aw": ["What is one key to long-term business sustainability?"],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "What is one key to long-term business sustainability?",
+                "id": "PV_1"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Choosing the right business model is key to long-term sustainability go with \"Why do entrepreneurs often fail to consider business models?\", is it right?",
+            "id": "PV_0"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "stt": 3,
+        "fsp": "Can businesses create their own unique business models?",
+        "name": "Jessica",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "Yes, businesses can selectively combine systems and processes to achieve their main goal."
+            ],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Can businesses create their own unique business models?",
+            "id": "PV_2"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 46,
+        "fsp": "It ensures that the business can achieve its goals more effectively go with \"Why is it important to carefully choose a business model?\", is it right?",
+        "name": "Andrew",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["Yes"], "submit": ["FN01"], "action": ["FN01"] },
+          { "qs": ["No"], "action": ["WRONG"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "It ensures that the business can achieve its goals more effectively go with \"Why is it important to carefully choose a business model?\", is it right?",
+            "id": "PV_3"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "stt": 24,
+        "fsp": "Could you tell me the question that leads to \"They test and modify their ideas multiple times before launching a final version.\"?",
+        "name": "Michael",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["How do successful startups handle their initial ideas?"],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Could you tell me the question that leads to \"They test and modify their ideas multiple times before launching a final version.\"?",
+            "id": "PV_4"
+          }
+        ]
+      },
+      {
+        "type": "B2",
+        "stt": 103,
+        "fsp": "It ensures that the business can achieve its goals more effectively go with \"How can a traditional approach to business help entrepreneurs?\", is it right?",
+        "name": "Jessica",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["No"], "submit": ["FN01"], "action": ["FN01"] },
+          { "qs": ["Yes"], "action": ["WRONG"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "It ensures that the business can achieve its goals more effectively go with \"How can a traditional approach to business help entrepreneurs?\", is it right?",
+            "id": "PV_5"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "stt": 27,
+        "fsp": "Could you tell me the question that leads to \"It ensures that the business can achieve its goals more effectively.\"?",
+        "name": "Ashley",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Why is it important to carefully choose a business model?"],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Could you tell me the question that leads to \"It ensures that the business can achieve its goals more effectively.\"?",
+            "id": "PV_6"
+          }
+        ]
+      },
+      {
+        "type": "B2",
+        "stt": 96,
+        "fsp": "Their loyalty to the product or service blinds them to carefully evaluate business models go with \"What are traditional business models based on?\", is it right?",
+        "name": "Andrew",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["No"], "submit": ["FN01"], "action": ["FN01"] },
+          { "qs": ["Yes"], "action": ["WRONG"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Their loyalty to the product or service blinds them to carefully evaluate business models go with \"What are traditional business models based on?\", is it right?",
+            "id": "PV_7"
+          }
+        ]
+      },
+      {
+        "type": "B3",
+        "stt": 131,
+        "fsp": "They focus too much on the product and neglect the business model go with \"How does testing products improve them?\", is it right?",
+        "name": "Emily",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["No"] },
+          {
+            "qs": ["Could you please tell me the correct question?"],
+            "aw": ["What is a common mistake entrepreneurs make?"],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "What is a common mistake entrepreneurs make?",
+                "id": "PV_9"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "They focus too much on the product and neglect the business model go with \"How does testing products improve them?\", is it right?",
+            "id": "PV_8"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 91,
+        "fsp": "The first step is to test and revise the idea thoroughly go with \"What is the first step for a successful business idea?\", is it right?",
+        "name": "Emily",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["Yes"] },
+          {
+            "qs": ["Could you please repeat the anwer?"],
+            "aw": ["The first step is to test and revise the idea thoroughly."],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "The first step is to test and revise the idea thoroughly.",
+                "id": "PV_11"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "The first step is to test and revise the idea thoroughly go with \"What is the first step for a successful business idea?\", is it right?",
+            "id": "PV_10"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "stt": 11,
+        "fsp": "How does combining systems and processes help a business?",
+        "name": "Emily",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "It helps the business create a customized approach to achieve its goals."
+            ],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "How does combining systems and processes help a business?",
+            "id": "PV_12"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "stt": 10,
+        "fsp": "What might happen if a startup skips testing its product?",
+        "name": "Joshua",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": [
+              "The product may fail in the market due to lack of refinement."
+            ],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What might happen if a startup skips testing its product?",
+            "id": "PV_13"
+          }
+        ]
+      },
+      {
+        "type": "B2",
+        "stt": 106,
+        "fsp": "It helps the business create a customized approach to achieve its goals go with \"Are startups more or less risky than established businesses?\", is it right?",
+        "name": "Andrew",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["No"], "submit": ["FN01"], "action": ["FN01"] },
+          { "qs": ["Yes"], "action": ["WRONG"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "It helps the business create a customized approach to achieve its goals go with \"Are startups more or less risky than established businesses?\", is it right?",
+            "id": "PV_14"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 54,
+        "fsp": "No, sometimes startups need to create a unique model to meet their needs go with \"Can traditional business models always fit a startup?\", is it right?",
+        "name": "Michael",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["Yes"], "submit": ["FN01"], "action": ["FN01"] },
+          { "qs": ["No"], "action": ["WRONG"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "No, sometimes startups need to create a unique model to meet their needs go with \"Can traditional business models always fit a startup?\", is it right?",
+            "id": "PV_15"
+          }
+        ]
+      },
+      {
+        "type": "B3",
+        "stt": 117,
+        "fsp": "Yes, businesses can selectively combine systems and processes to achieve their main goal go with \"What is the main goal of any business?\", is it right?",
+        "name": "Ashley",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["No"] },
+          {
+            "qs": ["Could you please tell me the correct question?"],
+            "aw": ["Can businesses create their own unique business models?"],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "Can businesses create their own unique business models?",
+                "id": "PV_17"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Yes, businesses can selectively combine systems and processes to achieve their main goal go with \"What is the main goal of any business?\", is it right?",
+            "id": "PV_16"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "stt": 32,
+        "fsp": "Could you tell me the question that leads to \"They can reduce risks by exploring several business models before choosing one.\"?",
+        "name": "David",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["How can startups become less risky?"],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Could you tell me the question that leads to \"They can reduce risks by exploring several business models before choosing one.\"?",
+            "id": "PV_18"
+          }
+        ]
+      },
+      {
+        "type": "B3",
+        "stt": 128,
+        "fsp": "It can prevent entrepreneurs from seeing flaws in their business model go with \"What is the first step for a successful business idea?\", is it right?",
+        "name": "Christopher",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["No"] },
+          {
+            "qs": ["Could you please tell me the correct question?"],
+            "aw": ["Why is it bad to be too loyal to a product or service?"],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "Why is it bad to be too loyal to a product or service?",
+                "id": "PV_20"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "It can prevent entrepreneurs from seeing flaws in their business model go with \"What is the first step for a successful business idea?\", is it right?",
+            "id": "PV_19"
+          }
+        ]
+      },
+      {
+        "type": "B2",
+        "stt": 101,
+        "fsp": "They reduce risks and become more sustainable go with \"Should startups launch their first idea directly?\", is it right?",
+        "name": "Emily",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["No"], "submit": ["FN01"], "action": ["FN01"] },
+          { "qs": ["Yes"], "action": ["WRONG"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "They reduce risks and become more sustainable go with \"Should startups launch their first idea directly?\", is it right?",
+            "id": "PV_21"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 93,
+        "fsp": "They focus too much on the product and neglect the business model go with \"What is a common mistake entrepreneurs make?\", is it right?",
+        "name": "Jessica",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["Yes"] },
+          {
+            "qs": ["Could you please repeat the anwer?"],
+            "aw": [
+              "They focus too much on the product and neglect the business model."
+            ],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "They focus too much on the product and neglect the business model.",
+                "id": "PV_23"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "They focus too much on the product and neglect the business model go with \"What is a common mistake entrepreneurs make?\", is it right?",
+            "id": "PV_22"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "stt": 7,
+        "fsp": "Should startups launch their first idea directly?",
+        "name": "Ashley",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "No, they should refine their ideas through testing and revisions."
+            ],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Should startups launch their first idea directly?",
+            "id": "PV_24"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "stt": 34,
+        "fsp": "Could you tell me the question that leads to \"The first step is to test and revise the idea thoroughly.\"?",
+        "name": "Michael",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What is the first step for a successful business idea?"],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Could you tell me the question that leads to \"The first step is to test and revise the idea thoroughly.\"?",
+            "id": "PV_25"
+          }
+        ]
+      },
+      {
+        "type": "B3",
+        "stt": 123,
+        "fsp": "It can provide a tested framework that suits industry standards go with \"What might happen if a startup skips testing its product?\", is it right?",
+        "name": "Jessica",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["No"] },
+          {
+            "qs": ["Could you please tell me the correct question?"],
+            "aw": [
+              "How can a traditional approach to business help entrepreneurs?"
+            ],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "How can a traditional approach to business help entrepreneurs?",
+                "id": "PV_27"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "It can provide a tested framework that suits industry standards go with \"What might happen if a startup skips testing its product?\", is it right?",
+            "id": "PV_26"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "stt": 21,
+        "fsp": "Could you tell me the question that leads to \"They are often based on common practices that suit most businesses in the same industry.\"?",
+        "name": "Emily",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What are traditional business models based on?"],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Could you tell me the question that leads to \"They are often based on common practices that suit most businesses in the same industry.\"?",
+            "id": "PV_28"
+          }
+        ]
+      },
+      {
+        "type": "B2",
+        "stt": 110,
+        "fsp": "The first step is to test and revise the idea thoroughly go with \"Can traditional business models always fit a startup?\", is it right?",
+        "name": "Joshua",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["No"], "submit": ["FN01"], "action": ["FN01"] },
+          { "qs": ["Yes"], "action": ["WRONG"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "The first step is to test and revise the idea thoroughly go with \"Can traditional business models always fit a startup?\", is it right?",
+            "id": "PV_29"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "stt": 2,
+        "fsp": "What are traditional business models based on?",
+        "name": "David",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": [
+              "They are often based on common practices that suit most businesses in the same industry."
+            ],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What are traditional business models based on?",
+            "id": "PV_30"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 76,
+        "fsp": "Choosing the right business model is key to long-term sustainability go with \"What is one key to long-term business sustainability?\", is it right?",
+        "name": "Andrew",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["Yes"] },
+          {
+            "qs": ["Could you please repeat the question?"],
+            "aw": ["What is one key to long-term business sustainability?"],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "What is one key to long-term business sustainability?",
+                "id": "PV_32"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Choosing the right business model is key to long-term sustainability go with \"What is one key to long-term business sustainability?\", is it right?",
+            "id": "PV_31"
+          }
+        ]
+      },
+      {
+        "type": "B3",
+        "stt": 116,
+        "fsp": "They are often based on common practices that suit most businesses in the same industry go with \"Can businesses create their own unique business models?\", is it right?",
+        "name": "Andrew",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["No"] },
+          {
+            "qs": ["Could you please tell me the correct question?"],
+            "aw": ["What are traditional business models based on?"],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "What are traditional business models based on?",
+                "id": "PV_34"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "They are often based on common practices that suit most businesses in the same industry go with \"Can businesses create their own unique business models?\", is it right?",
+            "id": "PV_33"
+          }
+        ]
+      },
+      {
+        "type": "B2",
+        "stt": 111,
+        "fsp": "No, sometimes startups need to create a unique model to meet their needs go with \"What is a common mistake entrepreneurs make?\", is it right?",
+        "name": "Emily",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["No"], "submit": ["FN01"], "action": ["FN01"] },
+          { "qs": ["Yes"], "action": ["WRONG"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "No, sometimes startups need to create a unique model to meet their needs go with \"What is a common mistake entrepreneurs make?\", is it right?",
+            "id": "PV_35"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 56,
+        "fsp": "Testing helps identify and fix flaws before launching the product go with \"How does testing products improve them?\", is it right?",
+        "name": "Andrew",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["Yes"], "submit": ["FN01"], "action": ["FN01"] },
+          { "qs": ["No"], "action": ["WRONG"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Testing helps identify and fix flaws before launching the product go with \"How does testing products improve them?\", is it right?",
+            "id": "PV_36"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "stt": 8,
+        "fsp": "Why is it important to carefully choose a business model?",
+        "name": "Christopher",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": [
+              "It ensures that the business can achieve its goals more effectively."
+            ],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Why is it important to carefully choose a business model?",
+            "id": "PV_37"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "stt": 22,
+        "fsp": "Could you tell me the question that leads to \"Yes, businesses can selectively combine systems and processes to achieve their main goal.\"?",
+        "name": "David",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Can businesses create their own unique business models?"],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Could you tell me the question that leads to \"Yes, businesses can selectively combine systems and processes to achieve their main goal.\"?",
+            "id": "PV_38"
+          }
+        ]
+      },
+      {
+        "type": "B3",
+        "stt": 130,
+        "fsp": "No, sometimes startups need to create a unique model to meet their needs go with \"What is a common mistake entrepreneurs make?\", is it right?",
+        "name": "Joshua",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["No"] },
+          {
+            "qs": ["Could you please tell me the correct question?"],
+            "aw": ["Can traditional business models always fit a startup?"],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "Can traditional business models always fit a startup?",
+                "id": "PV_40"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "No, sometimes startups need to create a unique model to meet their needs go with \"What is a common mistake entrepreneurs make?\", is it right?",
+            "id": "PV_39"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "stt": 15,
+        "fsp": "What is the first step for a successful business idea?",
+        "name": "Sarah",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["The first step is to test and revise the idea thoroughly."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the first step for a successful business idea?",
+            "id": "PV_41"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 58,
+        "fsp": "Their loyalty to the product or service blinds them to carefully evaluate business models go with \"Why do entrepreneurs often fail to consider business models?\", is it right?",
+        "name": "Christopher",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["Yes"] },
+          {
+            "qs": ["Could you please repeat the question?"],
+            "aw": [
+              "Why do entrepreneurs often fail to consider business models?"
+            ],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "Why do entrepreneurs often fail to consider business models?",
+                "id": "PV_43"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Their loyalty to the product or service blinds them to carefully evaluate business models go with \"Why do entrepreneurs often fail to consider business models?\", is it right?",
+            "id": "PV_42"
+          }
+        ]
+      },
+      {
+        "type": "B2",
+        "stt": 112,
+        "fsp": "They focus too much on the product and neglect the business model go with \"How does testing products improve them?\", is it right?",
+        "name": "David",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["No"], "submit": ["FN01"], "action": ["FN01"] },
+          { "qs": ["Yes"], "action": ["WRONG"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "They focus too much on the product and neglect the business model go with \"How does testing products improve them?\", is it right?",
+            "id": "PV_44"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "stt": 25,
+        "fsp": "Could you tell me the question that leads to \"They reduce risks and become more sustainable.\"?",
+        "name": "Sarah",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "What do businesses gain by considering multiple business models?"
+            ],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Could you tell me the question that leads to \"They reduce risks and become more sustainable.\"?",
+            "id": "PV_45"
+          }
+        ]
+      },
+      {
+        "type": "B3",
+        "stt": 132,
+        "fsp": "Testing helps identify and fix flaws before launching the product go with \"What is one key to long-term business sustainability?\", is it right?",
+        "name": "David",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["No"] },
+          {
+            "qs": ["Could you please tell me the correct question?"],
+            "aw": ["How does testing products improve them?"],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              { "st": "How does testing products improve them?", "id": "PV_47" }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Testing helps identify and fix flaws before launching the product go with \"What is one key to long-term business sustainability?\", is it right?",
+            "id": "PV_46"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "stt": 18,
+        "fsp": "How does testing products improve them?",
+        "name": "Christopher",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": [
+              "Testing helps identify and fix flaws before launching the product."
+            ],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "How does testing products improve them?", "id": "PV_48" }
+        ]
+      },
+      {
+        "type": "A2",
+        "stt": 38,
+        "fsp": "Could you tell me the question that leads to \"Choosing the right business model is key to long-term sustainability.\"?",
+        "name": "Christopher",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What is one key to long-term business sustainability?"],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Could you tell me the question that leads to \"Choosing the right business model is key to long-term sustainability.\"?",
+            "id": "PV_49"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 60,
+        "fsp": "Yes, businesses can selectively combine systems and processes to achieve their main goal go with \"Can businesses create their own unique business models?\", is it right?",
+        "name": "Joshua",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["Yes"] },
+          {
+            "qs": ["Could you please repeat the question?"],
+            "aw": ["Can businesses create their own unique business models?"],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "Can businesses create their own unique business models?",
+                "id": "PV_51"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Yes, businesses can selectively combine systems and processes to achieve their main goal go with \"Can businesses create their own unique business models?\", is it right?",
+            "id": "PV_50"
+          }
+        ]
+      },
+      {
+        "type": "B2",
+        "stt": 113,
+        "fsp": "Testing helps identify and fix flaws before launching the product go with \"What is one key to long-term business sustainability?\", is it right?",
+        "name": "Jessica",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["No"], "submit": ["FN01"], "action": ["FN01"] },
+          { "qs": ["Yes"], "action": ["WRONG"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Testing helps identify and fix flaws before launching the product go with \"What is one key to long-term business sustainability?\", is it right?",
+            "id": "PV_52"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 72,
+        "fsp": "The first step is to test and revise the idea thoroughly go with \"What is the first step for a successful business idea?\", is it right?",
+        "name": "David",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["Yes"] },
+          {
+            "qs": ["Could you please repeat the question?"],
+            "aw": ["What is the first step for a successful business idea?"],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "What is the first step for a successful business idea?",
+                "id": "PV_54"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "The first step is to test and revise the idea thoroughly go with \"What is the first step for a successful business idea?\", is it right?",
+            "id": "PV_53"
+          }
+        ]
+      },
+      {
+        "type": "B3",
+        "stt": 120,
+        "fsp": "They reduce risks and become more sustainable go with \"Should startups launch their first idea directly?\", is it right?",
+        "name": "Joshua",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["No"] },
+          {
+            "qs": ["Could you please tell me the correct question?"],
+            "aw": [
+              "What do businesses gain by considering multiple business models?"
+            ],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "What do businesses gain by considering multiple business models?",
+                "id": "PV_56"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "They reduce risks and become more sustainable go with \"Should startups launch their first idea directly?\", is it right?",
+            "id": "PV_55"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "stt": 35,
+        "fsp": "Could you tell me the question that leads to \"No, sometimes startups need to create a unique model to meet their needs.\"?",
+        "name": "Sarah",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Can traditional business models always fit a startup?"],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Could you tell me the question that leads to \"No, sometimes startups need to create a unique model to meet their needs.\"?",
+            "id": "PV_57"
+          }
+        ]
+      },
+      {
+        "type": "B2",
+        "stt": 102,
+        "fsp": "No, they should refine their ideas through testing and revisions go with \"Why is it important to carefully choose a business model?\", is it right?",
+        "name": "David",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["No"], "submit": ["FN01"], "action": ["FN01"] },
+          { "qs": ["Yes"], "action": ["WRONG"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "No, they should refine their ideas through testing and revisions go with \"Why is it important to carefully choose a business model?\", is it right?",
+            "id": "PV_58"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "stt": 13,
+        "fsp": "How can startups become less risky?",
+        "name": "Jessica",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "They can reduce risks by exploring several business models before choosing one."
+            ],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "How can startups become less risky?", "id": "PV_59" }
+        ]
+      },
+      {
+        "type": "A1",
+        "stt": 17,
+        "fsp": "What is a common mistake entrepreneurs make?",
+        "name": "Ashley",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "They focus too much on the product and neglect the business model."
+            ],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is a common mistake entrepreneurs make?",
+            "id": "PV_60"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 64,
+        "fsp": "No, they should refine their ideas through testing and revisions go with \"Should startups launch their first idea directly?\", is it right?",
+        "name": "Michael",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["Yes"] },
+          {
+            "qs": ["Could you please repeat the question?"],
+            "aw": ["Should startups launch their first idea directly?"],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "Should startups launch their first idea directly?",
+                "id": "PV_62"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "No, they should refine their ideas through testing and revisions go with \"Should startups launch their first idea directly?\", is it right?",
+            "id": "PV_61"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "stt": 33,
+        "fsp": "Could you tell me the question that leads to \"It can prevent entrepreneurs from seeing flaws in their business model.\"?",
+        "name": "Jessica",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Why is it bad to be too loyal to a product or service?"],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Could you tell me the question that leads to \"It can prevent entrepreneurs from seeing flaws in their business model.\"?",
+            "id": "PV_63"
+          }
+        ]
+      },
+      {
+        "type": "B2",
+        "stt": 104,
+        "fsp": "It can provide a tested framework that suits industry standards go with \"What might happen if a startup skips testing its product?\", is it right?",
+        "name": "Michael",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["No"], "submit": ["FN01"], "action": ["FN01"] },
+          { "qs": ["Yes"], "action": ["WRONG"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "It can provide a tested framework that suits industry standards go with \"What might happen if a startup skips testing its product?\", is it right?",
+            "id": "PV_64"
+          }
+        ]
+      },
+      {
+        "type": "B3",
+        "stt": 127,
+        "fsp": "They can reduce risks by exploring several business models before choosing one go with \"Why is it bad to be too loyal to a product or service?\", is it right?",
+        "name": "Ashley",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["No"] },
+          {
+            "qs": ["Could you please tell me the correct question?"],
+            "aw": ["How can startups become less risky?"],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              { "st": "How can startups become less risky?", "id": "PV_66" }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "They can reduce risks by exploring several business models before choosing one go with \"Why is it bad to be too loyal to a product or service?\", is it right?",
+            "id": "PV_65"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 83,
+        "fsp": "No, they should refine their ideas through testing and revisions go with \"Should startups launch their first idea directly?\", is it right?",
+        "name": "Jessica",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["Yes"] },
+          {
+            "qs": ["Could you please repeat the anwer?"],
+            "aw": [
+              "No, they should refine their ideas through testing and revisions."
+            ],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "No, they should refine their ideas through testing and revisions.",
+                "id": "PV_68"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "No, they should refine their ideas through testing and revisions go with \"Should startups launch their first idea directly?\", is it right?",
+            "id": "PV_67"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "stt": 31,
+        "fsp": "Could you tell me the question that leads to \"Startups are usually riskier than established businesses.\"?",
+        "name": "Emily",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "Are startups more or less risky than established businesses?"
+            ],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Could you tell me the question that leads to \"Startups are usually riskier than established businesses.\"?",
+            "id": "PV_69"
+          }
+        ]
+      },
+      {
+        "type": "B2",
+        "stt": 97,
+        "fsp": "They are often based on common practices that suit most businesses in the same industry go with \"Can businesses create their own unique business models?\", is it right?",
+        "name": "Ashley",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["No"], "submit": ["FN01"], "action": ["FN01"] },
+          { "qs": ["Yes"], "action": ["WRONG"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "They are often based on common practices that suit most businesses in the same industry go with \"Can businesses create their own unique business models?\", is it right?",
+            "id": "PV_70"
+          }
+        ]
+      },
+      {
+        "type": "B3",
+        "stt": 122,
+        "fsp": "It ensures that the business can achieve its goals more effectively go with \"How can a traditional approach to business help entrepreneurs?\", is it right?",
+        "name": "David",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["No"] },
+          {
+            "qs": ["Could you please tell me the correct question?"],
+            "aw": ["Why is it important to carefully choose a business model?"],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "Why is it important to carefully choose a business model?",
+                "id": "PV_72"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "It ensures that the business can achieve its goals more effectively go with \"How can a traditional approach to business help entrepreneurs?\", is it right?",
+            "id": "PV_71"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "stt": 19,
+        "fsp": "What is one key to long-term business sustainability?",
+        "name": "Jennifer",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "Choosing the right business model is key to long-term sustainability."
+            ],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is one key to long-term business sustainability?",
+            "id": "PV_73"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "stt": 36,
+        "fsp": "Could you tell me the question that leads to \"They focus too much on the product and neglect the business model.\"?",
+        "name": "Andrew",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What is a common mistake entrepreneurs make?"],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Could you tell me the question that leads to \"They focus too much on the product and neglect the business model.\"?",
+            "id": "PV_74"
+          }
+        ]
+      },
+      {
+        "type": "B3",
+        "stt": 125,
+        "fsp": "It helps the business create a customized approach to achieve its goals go with \"Are startups more or less risky than established businesses?\", is it right?",
+        "name": "Sarah",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["No"] },
+          {
+            "qs": ["Could you please tell me the correct question?"],
+            "aw": ["How does combining systems and processes help a business?"],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "How does combining systems and processes help a business?",
+                "id": "PV_76"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "It helps the business create a customized approach to achieve its goals go with \"Are startups more or less risky than established businesses?\", is it right?",
+            "id": "PV_75"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 95,
+        "fsp": "Choosing the right business model is key to long-term sustainability go with \"What is one key to long-term business sustainability?\", is it right?",
+        "name": "Sarah",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["Yes"] },
+          {
+            "qs": ["Could you please repeat the anwer?"],
+            "aw": [
+              "Choosing the right business model is key to long-term sustainability."
+            ],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "Choosing the right business model is key to long-term sustainability.",
+                "id": "PV_78"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Choosing the right business model is key to long-term sustainability go with \"What is one key to long-term business sustainability?\", is it right?",
+            "id": "PV_77"
+          }
+        ]
+      },
+      {
+        "type": "B2",
+        "stt": 100,
+        "fsp": "They test and modify their ideas multiple times before launching a final version go with \"What do businesses gain by considering multiple business models?\", is it right?",
+        "name": "Joshua",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["No"], "submit": ["FN01"], "action": ["FN01"] },
+          { "qs": ["Yes"], "action": ["WRONG"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "They test and modify their ideas multiple times before launching a final version go with \"What do businesses gain by considering multiple business models?\", is it right?",
+            "id": "PV_79"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "stt": 4,
+        "fsp": "What is the main goal of any business?",
+        "name": "Michael",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["The main goal is to sell their product or service."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What is the main goal of any business?", "id": "PV_80" }
+        ]
+      },
+      {
+        "type": "B2",
+        "stt": 109,
+        "fsp": "It can prevent entrepreneurs from seeing flaws in their business model go with \"What is the first step for a successful business idea?\", is it right?",
+        "name": "Jennifer",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["No"], "submit": ["FN01"], "action": ["FN01"] },
+          { "qs": ["Yes"], "action": ["WRONG"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "It can prevent entrepreneurs from seeing flaws in their business model go with \"What is the first step for a successful business idea?\", is it right?",
+            "id": "PV_81"
+          }
+        ]
+      },
+      {
+        "type": "B3",
+        "stt": 121,
+        "fsp": "No, they should refine their ideas through testing and revisions go with \"Why is it important to carefully choose a business model?\", is it right?",
+        "name": "Emily",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["No"] },
+          {
+            "qs": ["Could you please tell me the correct question?"],
+            "aw": ["Should startups launch their first idea directly?"],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "Should startups launch their first idea directly?",
+                "id": "PV_83"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "No, they should refine their ideas through testing and revisions go with \"Why is it important to carefully choose a business model?\", is it right?",
+            "id": "PV_82"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "stt": 23,
+        "fsp": "Could you tell me the question that leads to \"The main goal is to sell their product or service.\"?",
+        "name": "Jessica",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What is the main goal of any business?"],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Could you tell me the question that leads to \"The main goal is to sell their product or service.\"?",
+            "id": "PV_84"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "stt": 14,
+        "fsp": "Why is it bad to be too loyal to a product or service?",
+        "name": "Michael",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": [
+              "It can prevent entrepreneurs from seeing flaws in their business model."
+            ],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Why is it bad to be too loyal to a product or service?",
+            "id": "PV_85"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 67,
+        "fsp": "The product may fail in the market due to lack of refinement go with \"What might happen if a startup skips testing its product?\", is it right?",
+        "name": "Ashley",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["Yes"] },
+          {
+            "qs": ["Could you please repeat the question?"],
+            "aw": ["What might happen if a startup skips testing its product?"],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "What might happen if a startup skips testing its product?",
+                "id": "PV_87"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "The product may fail in the market due to lack of refinement go with \"What might happen if a startup skips testing its product?\", is it right?",
+            "id": "PV_86"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 77,
+        "fsp": "Their loyalty to the product or service blinds them to carefully evaluate business models go with \"Why do entrepreneurs often fail to consider business models?\", is it right?",
+        "name": "Ashley",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["Yes"] },
+          {
+            "qs": ["Could you please repeat the anwer?"],
+            "aw": [
+              "Their loyalty to the product or service blinds them to carefully evaluate business models."
+            ],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "Their loyalty to the product or service blinds them to carefully evaluate business models.",
+                "id": "PV_89"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Their loyalty to the product or service blinds them to carefully evaluate business models go with \"Why do entrepreneurs often fail to consider business models?\", is it right?",
+            "id": "PV_88"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "stt": 29,
+        "fsp": "Could you tell me the question that leads to \"The product may fail in the market due to lack of refinement.\"?",
+        "name": "Jennifer",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What might happen if a startup skips testing its product?"],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Could you tell me the question that leads to \"The product may fail in the market due to lack of refinement.\"?",
+            "id": "PV_90"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "stt": 9,
+        "fsp": "How can a traditional approach to business help entrepreneurs?",
+        "name": "Jennifer",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "It can provide a tested framework that suits industry standards."
+            ],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "How can a traditional approach to business help entrepreneurs?",
+            "id": "PV_91"
+          }
+        ]
+      },
+      {
+        "type": "B3",
+        "stt": 124,
+        "fsp": "The product may fail in the market due to lack of refinement go with \"How does combining systems and processes help a business?\", is it right?",
+        "name": "Michael",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["No"] },
+          {
+            "qs": ["Could you please tell me the correct question?"],
+            "aw": ["What might happen if a startup skips testing its product?"],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "What might happen if a startup skips testing its product?",
+                "id": "PV_93"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "The product may fail in the market due to lack of refinement go with \"How does combining systems and processes help a business?\", is it right?",
+            "id": "PV_92"
+          }
+        ]
+      },
+      {
+        "type": "B2",
+        "stt": 107,
+        "fsp": "Startups are usually riskier than established businesses go with \"How can startups become less risky?\", is it right?",
+        "name": "Ashley",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["No"], "submit": ["FN01"], "action": ["FN01"] },
+          { "qs": ["Yes"], "action": ["WRONG"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Startups are usually riskier than established businesses go with \"How can startups become less risky?\", is it right?",
+            "id": "PV_94"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "stt": 37,
+        "fsp": "Could you tell me the question that leads to \"Testing helps identify and fix flaws before launching the product.\"?",
+        "name": "Ashley",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["How does testing products improve them?"],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Could you tell me the question that leads to \"Testing helps identify and fix flaws before launching the product.\"?",
+            "id": "PV_95"
+          }
+        ]
+      },
+      {
+        "type": "B2",
+        "stt": 105,
+        "fsp": "The product may fail in the market due to lack of refinement go with \"How does combining systems and processes help a business?\", is it right?",
+        "name": "Sarah",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["No"], "submit": ["FN01"], "action": ["FN01"] },
+          { "qs": ["Yes"], "action": ["WRONG"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "The product may fail in the market due to lack of refinement go with \"How does combining systems and processes help a business?\", is it right?",
+            "id": "PV_96"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "stt": 5,
+        "fsp": "How do successful startups handle their initial ideas?",
+        "name": "Sarah",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "They test and modify their ideas multiple times before launching a final version."
+            ],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "How do successful startups handle their initial ideas?",
+            "id": "PV_97"
+          }
+        ]
+      },
+      {
+        "type": "B3",
+        "stt": 126,
+        "fsp": "Startups are usually riskier than established businesses go with \"How can startups become less risky?\", is it right?",
+        "name": "Andrew",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["No"] },
+          {
+            "qs": ["Could you please tell me the correct question?"],
+            "aw": [
+              "Are startups more or less risky than established businesses?"
+            ],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "Are startups more or less risky than established businesses?",
+                "id": "PV_99"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Startups are usually riskier than established businesses go with \"How can startups become less risky?\", is it right?",
+            "id": "PV_98"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 57,
+        "fsp": "Choosing the right business model is key to long-term sustainability go with \"What is one key to long-term business sustainability?\", is it right?",
+        "name": "Ashley",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["Yes"], "submit": ["FN01"], "action": ["FN01"] },
+          { "qs": ["No"], "action": ["WRONG"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Choosing the right business model is key to long-term sustainability go with \"What is one key to long-term business sustainability?\", is it right?",
+            "id": "PV_100"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 89,
+        "fsp": "They can reduce risks by exploring several business models before choosing one go with \"How can startups become less risky?\", is it right?",
+        "name": "Jennifer",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["Yes"] },
+          {
+            "qs": ["Could you please repeat the anwer?"],
+            "aw": [
+              "They can reduce risks by exploring several business models before choosing one."
+            ],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "They can reduce risks by exploring several business models before choosing one.",
+                "id": "PV_102"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "They can reduce risks by exploring several business models before choosing one go with \"How can startups become less risky?\", is it right?",
+            "id": "PV_101"
+          }
+        ]
+      },
+      {
+        "type": "B3",
+        "stt": 119,
+        "fsp": "They test and modify their ideas multiple times before launching a final version go with \"What do businesses gain by considering multiple business models?\", is it right?",
+        "name": "Jennifer",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["No"] },
+          {
+            "qs": ["Could you please tell me the correct question?"],
+            "aw": ["How do successful startups handle their initial ideas?"],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "How do successful startups handle their initial ideas?",
+                "id": "PV_104"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "They test and modify their ideas multiple times before launching a final version go with \"What do businesses gain by considering multiple business models?\", is it right?",
+            "id": "PV_103"
+          }
+        ]
+      },
+      {
+        "type": "B2",
+        "stt": 98,
+        "fsp": "Yes, businesses can selectively combine systems and processes to achieve their main goal go with \"What is the main goal of any business?\", is it right?",
+        "name": "Christopher",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["No"], "submit": ["FN01"], "action": ["FN01"] },
+          { "qs": ["Yes"], "action": ["WRONG"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Yes, businesses can selectively combine systems and processes to achieve their main goal go with \"What is the main goal of any business?\", is it right?",
+            "id": "PV_105"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "stt": 30,
+        "fsp": "Could you tell me the question that leads to \"It helps the business create a customized approach to achieve its goals.\"?",
+        "name": "Joshua",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["How does combining systems and processes help a business?"],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Could you tell me the question that leads to \"It helps the business create a customized approach to achieve its goals.\"?",
+            "id": "PV_106"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "stt": 1,
+        "fsp": "Why do entrepreneurs often fail to consider business models?",
+        "name": "Emily",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "Their loyalty to the product or service blinds them to carefully evaluate business models."
+            ],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Why do entrepreneurs often fail to consider business models?",
+            "id": "PV_107"
+          }
+        ]
+      },
+      {
+        "type": "B3",
+        "stt": 118,
+        "fsp": "The main goal is to sell their product or service go with \"How do successful startups handle their initial ideas?\", is it right?",
+        "name": "Christopher",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["No"] },
+          {
+            "qs": ["Could you please tell me the correct question?"],
+            "aw": ["What is the main goal of any business?"],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              { "st": "What is the main goal of any business?", "id": "PV_109" }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "The main goal is to sell their product or service go with \"How do successful startups handle their initial ideas?\", is it right?",
+            "id": "PV_108"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "stt": 28,
+        "fsp": "Could you tell me the question that leads to \"It can provide a tested framework that suits industry standards.\"?",
+        "name": "Christopher",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": [
+              "How can a traditional approach to business help entrepreneurs?"
+            ],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Could you tell me the question that leads to \"It can provide a tested framework that suits industry standards.\"?",
+            "id": "PV_110"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 88,
+        "fsp": "Startups are usually riskier than established businesses go with \"Are startups more or less risky than established businesses?\", is it right?",
+        "name": "Christopher",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["Yes"] },
+          {
+            "qs": ["Could you please repeat the anwer?"],
+            "aw": ["Startups are usually riskier than established businesses."],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "Startups are usually riskier than established businesses.",
+                "id": "PV_112"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Startups are usually riskier than established businesses go with \"Are startups more or less risky than established businesses?\", is it right?",
+            "id": "PV_111"
+          }
+        ]
+      },
+      {
+        "type": "B2",
+        "stt": 108,
+        "fsp": "They can reduce risks by exploring several business models before choosing one go with \"Why is it bad to be too loyal to a product or service?\", is it right?",
+        "name": "Christopher",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["No"], "submit": ["FN01"], "action": ["FN01"] },
+          { "qs": ["Yes"], "action": ["WRONG"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "They can reduce risks by exploring several business models before choosing one go with \"Why is it bad to be too loyal to a product or service?\", is it right?",
+            "id": "PV_113"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "stt": 16,
+        "fsp": "Can traditional business models always fit a startup?",
+        "name": "Andrew",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": [
+              "No, sometimes startups need to create a unique model to meet their needs."
+            ],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Can traditional business models always fit a startup?",
+            "id": "PV_114"
+          }
+        ]
+      },
+      {
+        "type": "B3",
+        "stt": 115,
+        "fsp": "Their loyalty to the product or service blinds them to carefully evaluate business models go with \"What are traditional business models based on?\", is it right?",
+        "name": "Sarah",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["No"] },
+          {
+            "qs": ["Could you please tell me the correct question?"],
+            "aw": [
+              "Why do entrepreneurs often fail to consider business models?"
+            ],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "Why do entrepreneurs often fail to consider business models?",
+                "id": "PV_116"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Their loyalty to the product or service blinds them to carefully evaluate business models go with \"What are traditional business models based on?\", is it right?",
+            "id": "PV_115"
+          }
+        ]
+      },
+      {
+        "type": "B2",
+        "stt": 114,
+        "fsp": "Choosing the right business model is key to long-term sustainability go with \"Why do entrepreneurs often fail to consider business models?\", is it right?",
+        "name": "Michael",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["No"], "submit": ["FN01"], "action": ["FN01"] },
+          { "qs": ["Yes"], "action": ["WRONG"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Choosing the right business model is key to long-term sustainability go with \"Why do entrepreneurs often fail to consider business models?\", is it right?",
+            "id": "PV_117"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "stt": 6,
+        "fsp": "What do businesses gain by considering multiple business models?",
+        "name": "Andrew",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["They reduce risks and become more sustainable."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What do businesses gain by considering multiple business models?",
+            "id": "PV_118"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 47,
+        "fsp": "It can provide a tested framework that suits industry standards go with \"How can a traditional approach to business help entrepreneurs?\", is it right?",
+        "name": "Ashley",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["Yes"], "submit": ["FN01"], "action": ["FN01"] },
+          { "qs": ["No"], "action": ["WRONG"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "It can provide a tested framework that suits industry standards go with \"How can a traditional approach to business help entrepreneurs?\", is it right?",
+            "id": "PV_119"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "stt": 20,
+        "fsp": "Could you tell me the question that leads to \"Their loyalty to the product or service blinds them to carefully evaluate business models.\"?",
+        "name": "Joshua",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": [
+              "Why do entrepreneurs often fail to consider business models?"
+            ],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Could you tell me the question that leads to \"Their loyalty to the product or service blinds them to carefully evaluate business models.\"?",
+            "id": "PV_120"
+          }
+        ]
+      },
+      {
+        "type": "B2",
+        "stt": 99,
+        "fsp": "The main goal is to sell their product or service go with \"How do successful startups handle their initial ideas?\", is it right?",
+        "name": "Jennifer",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["No"], "submit": ["FN01"], "action": ["FN01"] },
+          { "qs": ["Yes"], "action": ["WRONG"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "The main goal is to sell their product or service go with \"How do successful startups handle their initial ideas?\", is it right?",
+            "id": "PV_121"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "stt": 12,
+        "fsp": "Are startups more or less risky than established businesses?",
+        "name": "David",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Startups are usually riskier than established businesses."],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Are startups more or less risky than established businesses?",
+            "id": "PV_122"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "stt": 26,
+        "fsp": "Could you tell me the question that leads to \"No, they should refine their ideas through testing and revisions.\"?",
+        "name": "Andrew",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Should startups launch their first idea directly?"],
+            "submit": ["FN01"],
+            "action": ["FN01"]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Could you tell me the question that leads to \"No, they should refine their ideas through testing and revisions.\"?",
+            "id": "PV_123"
+          }
+        ]
+      },
+      {
+        "type": "B3",
+        "stt": 129,
+        "fsp": "The first step is to test and revise the idea thoroughly go with \"Can traditional business models always fit a startup?\", is it right?",
+        "name": "Jennifer",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["No"] },
+          {
+            "qs": ["Could you please tell me the correct question?"],
+            "aw": ["What is the first step for a successful business idea?"],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "What is the first step for a successful business idea?",
+                "id": "PV_125"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "The first step is to test and revise the idea thoroughly go with \"Can traditional business models always fit a startup?\", is it right?",
+            "id": "PV_124"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 78,
+        "fsp": "They are often based on common practices that suit most businesses in the same industry go with \"What are traditional business models based on?\", is it right?",
+        "name": "Christopher",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["Yes"] },
+          {
+            "qs": ["Could you please repeat the anwer?"],
+            "aw": [
+              "They are often based on common practices that suit most businesses in the same industry."
+            ],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "They are often based on common practices that suit most businesses in the same industry.",
+                "id": "PV_127"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "They are often based on common practices that suit most businesses in the same industry go with \"What are traditional business models based on?\", is it right?",
+            "id": "PV_126"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 45,
+        "fsp": "No, they should refine their ideas through testing and revisions go with \"Should startups launch their first idea directly?\", is it right?",
+        "name": "Sarah",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["Yes"], "submit": ["FN01"], "action": ["FN01"] },
+          { "qs": ["No"], "action": ["WRONG"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "No, they should refine their ideas through testing and revisions go with \"Should startups launch their first idea directly?\", is it right?",
+            "id": "PV_128"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 86,
+        "fsp": "The product may fail in the market due to lack of refinement go with \"What might happen if a startup skips testing its product?\", is it right?",
+        "name": "Andrew",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["Yes"] },
+          {
+            "qs": ["Could you please repeat the anwer?"],
+            "aw": [
+              "The product may fail in the market due to lack of refinement."
+            ],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "The product may fail in the market due to lack of refinement.",
+                "id": "PV_130"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "The product may fail in the market due to lack of refinement go with \"What might happen if a startup skips testing its product?\", is it right?",
+            "id": "PV_129"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 80,
+        "fsp": "The main goal is to sell their product or service go with \"What is the main goal of any business?\", is it right?",
+        "name": "Joshua",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["Yes"] },
+          {
+            "qs": ["Could you please repeat the anwer?"],
+            "aw": ["The main goal is to sell their product or service."],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "The main goal is to sell their product or service.",
+                "id": "PV_132"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "The main goal is to sell their product or service go with \"What is the main goal of any business?\", is it right?",
+            "id": "PV_131"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 79,
+        "fsp": "Yes, businesses can selectively combine systems and processes to achieve their main goal go with \"Can businesses create their own unique business models?\", is it right?",
+        "name": "Jennifer",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["Yes"] },
+          {
+            "qs": ["Could you please repeat the anwer?"],
+            "aw": [
+              "Yes, businesses can selectively combine systems and processes to achieve their main goal."
+            ],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "Yes, businesses can selectively combine systems and processes to achieve their main goal.",
+                "id": "PV_134"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Yes, businesses can selectively combine systems and processes to achieve their main goal go with \"Can businesses create their own unique business models?\", is it right?",
+            "id": "PV_133"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 90,
+        "fsp": "It can prevent entrepreneurs from seeing flaws in their business model go with \"Why is it bad to be too loyal to a product or service?\", is it right?",
+        "name": "Joshua",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["Yes"] },
+          {
+            "qs": ["Could you please repeat the anwer?"],
+            "aw": [
+              "It can prevent entrepreneurs from seeing flaws in their business model."
+            ],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "It can prevent entrepreneurs from seeing flaws in their business model.",
+                "id": "PV_136"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "It can prevent entrepreneurs from seeing flaws in their business model go with \"Why is it bad to be too loyal to a product or service?\", is it right?",
+            "id": "PV_135"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 61,
+        "fsp": "The main goal is to sell their product or service go with \"What is the main goal of any business?\", is it right?",
+        "name": "Emily",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["Yes"] },
+          {
+            "qs": ["Could you please repeat the question?"],
+            "aw": ["What is the main goal of any business?"],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              { "st": "What is the main goal of any business?", "id": "PV_138" }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "The main goal is to sell their product or service go with \"What is the main goal of any business?\", is it right?",
+            "id": "PV_137"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 52,
+        "fsp": "It can prevent entrepreneurs from seeing flaws in their business model go with \"Why is it bad to be too loyal to a product or service?\", is it right?",
+        "name": "David",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["Yes"], "submit": ["FN01"], "action": ["FN01"] },
+          { "qs": ["No"], "action": ["WRONG"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "It can prevent entrepreneurs from seeing flaws in their business model go with \"Why is it bad to be too loyal to a product or service?\", is it right?",
+            "id": "PV_139"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 68,
+        "fsp": "It helps the business create a customized approach to achieve its goals go with \"How does combining systems and processes help a business?\", is it right?",
+        "name": "Christopher",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["Yes"] },
+          {
+            "qs": ["Could you please repeat the question?"],
+            "aw": ["How does combining systems and processes help a business?"],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "How does combining systems and processes help a business?",
+                "id": "PV_141"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "It helps the business create a customized approach to achieve its goals go with \"How does combining systems and processes help a business?\", is it right?",
+            "id": "PV_140"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 84,
+        "fsp": "It ensures that the business can achieve its goals more effectively go with \"Why is it important to carefully choose a business model?\", is it right?",
+        "name": "Michael",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["Yes"] },
+          {
+            "qs": ["Could you please repeat the anwer?"],
+            "aw": [
+              "It ensures that the business can achieve its goals more effectively."
+            ],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "It ensures that the business can achieve its goals more effectively.",
+                "id": "PV_143"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "It ensures that the business can achieve its goals more effectively go with \"Why is it important to carefully choose a business model?\", is it right?",
+            "id": "PV_142"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 66,
+        "fsp": "It can provide a tested framework that suits industry standards go with \"How can a traditional approach to business help entrepreneurs?\", is it right?",
+        "name": "Andrew",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["Yes"] },
+          {
+            "qs": ["Could you please repeat the question?"],
+            "aw": [
+              "How can a traditional approach to business help entrepreneurs?"
+            ],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "How can a traditional approach to business help entrepreneurs?",
+                "id": "PV_145"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "It can provide a tested framework that suits industry standards go with \"How can a traditional approach to business help entrepreneurs?\", is it right?",
+            "id": "PV_144"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 63,
+        "fsp": "They reduce risks and become more sustainable go with \"What do businesses gain by considering multiple business models?\", is it right?",
+        "name": "Jessica",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["Yes"] },
+          {
+            "qs": ["Could you please repeat the question?"],
+            "aw": [
+              "What do businesses gain by considering multiple business models?"
+            ],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "What do businesses gain by considering multiple business models?",
+                "id": "PV_147"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "They reduce risks and become more sustainable go with \"What do businesses gain by considering multiple business models?\", is it right?",
+            "id": "PV_146"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 41,
+        "fsp": "Yes, businesses can selectively combine systems and processes to achieve their main goal go with \"Can businesses create their own unique business models?\", is it right?",
+        "name": "Emily",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["Yes"], "submit": ["FN01"], "action": ["FN01"] },
+          { "qs": ["No"], "action": ["WRONG"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Yes, businesses can selectively combine systems and processes to achieve their main goal go with \"Can businesses create their own unique business models?\", is it right?",
+            "id": "PV_148"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 59,
+        "fsp": "They are often based on common practices that suit most businesses in the same industry go with \"What are traditional business models based on?\", is it right?",
+        "name": "Jennifer",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["Yes"] },
+          {
+            "qs": ["Could you please repeat the question?"],
+            "aw": ["What are traditional business models based on?"],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "What are traditional business models based on?",
+                "id": "PV_150"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "They are often based on common practices that suit most businesses in the same industry go with \"What are traditional business models based on?\", is it right?",
+            "id": "PV_149"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 81,
+        "fsp": "They test and modify their ideas multiple times before launching a final version go with \"How do successful startups handle their initial ideas?\", is it right?",
+        "name": "Emily",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["Yes"] },
+          {
+            "qs": ["Could you please repeat the anwer?"],
+            "aw": [
+              "They test and modify their ideas multiple times before launching a final version."
+            ],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "They test and modify their ideas multiple times before launching a final version.",
+                "id": "PV_152"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "They test and modify their ideas multiple times before launching a final version go with \"How do successful startups handle their initial ideas?\", is it right?",
+            "id": "PV_151"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 50,
+        "fsp": "Startups are usually riskier than established businesses go with \"Are startups more or less risky than established businesses?\", is it right?",
+        "name": "Joshua",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["Yes"], "submit": ["FN01"], "action": ["FN01"] },
+          { "qs": ["No"], "action": ["WRONG"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Startups are usually riskier than established businesses go with \"Are startups more or less risky than established businesses?\", is it right?",
+            "id": "PV_153"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 55,
+        "fsp": "They focus too much on the product and neglect the business model go with \"What is a common mistake entrepreneurs make?\", is it right?",
+        "name": "Sarah",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["Yes"], "submit": ["FN01"], "action": ["FN01"] },
+          { "qs": ["No"], "action": ["WRONG"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "They focus too much on the product and neglect the business model go with \"What is a common mistake entrepreneurs make?\", is it right?",
+            "id": "PV_154"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 51,
+        "fsp": "They can reduce risks by exploring several business models before choosing one go with \"How can startups become less risky?\", is it right?",
+        "name": "Emily",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["Yes"], "submit": ["FN01"], "action": ["FN01"] },
+          { "qs": ["No"], "action": ["WRONG"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "They can reduce risks by exploring several business models before choosing one go with \"How can startups become less risky?\", is it right?",
+            "id": "PV_155"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 87,
+        "fsp": "It helps the business create a customized approach to achieve its goals go with \"How does combining systems and processes help a business?\", is it right?",
+        "name": "Ashley",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["Yes"] },
+          {
+            "qs": ["Could you please repeat the anwer?"],
+            "aw": [
+              "It helps the business create a customized approach to achieve its goals."
+            ],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "It helps the business create a customized approach to achieve its goals.",
+                "id": "PV_157"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "It helps the business create a customized approach to achieve its goals go with \"How does combining systems and processes help a business?\", is it right?",
+            "id": "PV_156"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 65,
+        "fsp": "It ensures that the business can achieve its goals more effectively go with \"Why is it important to carefully choose a business model?\", is it right?",
+        "name": "Sarah",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["Yes"] },
+          {
+            "qs": ["Could you please repeat the question?"],
+            "aw": ["Why is it important to carefully choose a business model?"],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "Why is it important to carefully choose a business model?",
+                "id": "PV_159"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "It ensures that the business can achieve its goals more effectively go with \"Why is it important to carefully choose a business model?\", is it right?",
+            "id": "PV_158"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 73,
+        "fsp": "No, sometimes startups need to create a unique model to meet their needs go with \"Can traditional business models always fit a startup?\", is it right?",
+        "name": "Jessica",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["Yes"] },
+          {
+            "qs": ["Could you please repeat the question?"],
+            "aw": ["Can traditional business models always fit a startup?"],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "Can traditional business models always fit a startup?",
+                "id": "PV_161"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "No, sometimes startups need to create a unique model to meet their needs go with \"Can traditional business models always fit a startup?\", is it right?",
+            "id": "PV_160"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 48,
+        "fsp": "The product may fail in the market due to lack of refinement go with \"What might happen if a startup skips testing its product?\", is it right?",
+        "name": "Christopher",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["Yes"], "submit": ["FN01"], "action": ["FN01"] },
+          { "qs": ["No"], "action": ["WRONG"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "The product may fail in the market due to lack of refinement go with \"What might happen if a startup skips testing its product?\", is it right?",
+            "id": "PV_162"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 70,
+        "fsp": "They can reduce risks by exploring several business models before choosing one go with \"How can startups become less risky?\", is it right?",
+        "name": "Joshua",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["Yes"] },
+          {
+            "qs": ["Could you please repeat the question?"],
+            "aw": ["How can startups become less risky?"],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              { "st": "How can startups become less risky?", "id": "PV_164" }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "They can reduce risks by exploring several business models before choosing one go with \"How can startups become less risky?\", is it right?",
+            "id": "PV_163"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 69,
+        "fsp": "Startups are usually riskier than established businesses go with \"Are startups more or less risky than established businesses?\", is it right?",
+        "name": "Jennifer",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["Yes"] },
+          {
+            "qs": ["Could you please repeat the question?"],
+            "aw": [
+              "Are startups more or less risky than established businesses?"
+            ],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "Are startups more or less risky than established businesses?",
+                "id": "PV_166"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Startups are usually riskier than established businesses go with \"Are startups more or less risky than established businesses?\", is it right?",
+            "id": "PV_165"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 94,
+        "fsp": "Testing helps identify and fix flaws before launching the product go with \"How does testing products improve them?\", is it right?",
+        "name": "Michael",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["Yes"] },
+          {
+            "qs": ["Could you please repeat the anwer?"],
+            "aw": [
+              "Testing helps identify and fix flaws before launching the product."
+            ],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "Testing helps identify and fix flaws before launching the product.",
+                "id": "PV_168"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Testing helps identify and fix flaws before launching the product go with \"How does testing products improve them?\", is it right?",
+            "id": "PV_167"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 44,
+        "fsp": "They reduce risks and become more sustainable go with \"What do businesses gain by considering multiple business models?\", is it right?",
+        "name": "Michael",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["Yes"], "submit": ["FN01"], "action": ["FN01"] },
+          { "qs": ["No"], "action": ["WRONG"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "They reduce risks and become more sustainable go with \"What do businesses gain by considering multiple business models?\", is it right?",
+            "id": "PV_169"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 53,
+        "fsp": "The first step is to test and revise the idea thoroughly go with \"What is the first step for a successful business idea?\", is it right?",
+        "name": "Jessica",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["Yes"], "submit": ["FN01"], "action": ["FN01"] },
+          { "qs": ["No"], "action": ["WRONG"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "The first step is to test and revise the idea thoroughly go with \"What is the first step for a successful business idea?\", is it right?",
+            "id": "PV_170"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 40,
+        "fsp": "They are often based on common practices that suit most businesses in the same industry go with \"What are traditional business models based on?\", is it right?",
+        "name": "Joshua",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["Yes"], "submit": ["FN01"], "action": ["FN01"] },
+          { "qs": ["No"], "action": ["WRONG"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "They are often based on common practices that suit most businesses in the same industry go with \"What are traditional business models based on?\", is it right?",
+            "id": "PV_171"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 42,
+        "fsp": "The main goal is to sell their product or service go with \"What is the main goal of any business?\", is it right?",
+        "name": "David",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["Yes"], "submit": ["FN01"], "action": ["FN01"] },
+          { "qs": ["No"], "action": ["WRONG"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "The main goal is to sell their product or service go with \"What is the main goal of any business?\", is it right?",
+            "id": "PV_172"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 71,
+        "fsp": "It can prevent entrepreneurs from seeing flaws in their business model go with \"Why is it bad to be too loyal to a product or service?\", is it right?",
+        "name": "Emily",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["Yes"] },
+          {
+            "qs": ["Could you please repeat the question?"],
+            "aw": ["Why is it bad to be too loyal to a product or service?"],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "Why is it bad to be too loyal to a product or service?",
+                "id": "PV_174"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "It can prevent entrepreneurs from seeing flaws in their business model go with \"Why is it bad to be too loyal to a product or service?\", is it right?",
+            "id": "PV_173"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 62,
+        "fsp": "They test and modify their ideas multiple times before launching a final version go with \"How do successful startups handle their initial ideas?\", is it right?",
+        "name": "David",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["Yes"] },
+          {
+            "qs": ["Could you please repeat the question?"],
+            "aw": ["How do successful startups handle their initial ideas?"],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "How do successful startups handle their initial ideas?",
+                "id": "PV_176"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "They test and modify their ideas multiple times before launching a final version go with \"How do successful startups handle their initial ideas?\", is it right?",
+            "id": "PV_175"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 85,
+        "fsp": "It can provide a tested framework that suits industry standards go with \"How can a traditional approach to business help entrepreneurs?\", is it right?",
+        "name": "Sarah",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["Yes"] },
+          {
+            "qs": ["Could you please repeat the anwer?"],
+            "aw": [
+              "It can provide a tested framework that suits industry standards."
+            ],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "It can provide a tested framework that suits industry standards.",
+                "id": "PV_178"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "It can provide a tested framework that suits industry standards go with \"How can a traditional approach to business help entrepreneurs?\", is it right?",
+            "id": "PV_177"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 82,
+        "fsp": "They reduce risks and become more sustainable go with \"What do businesses gain by considering multiple business models?\", is it right?",
+        "name": "David",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["Yes"] },
+          {
+            "qs": ["Could you please repeat the anwer?"],
+            "aw": ["They reduce risks and become more sustainable."],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "They reduce risks and become more sustainable.",
+                "id": "PV_180"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "They reduce risks and become more sustainable go with \"What do businesses gain by considering multiple business models?\", is it right?",
+            "id": "PV_179"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 92,
+        "fsp": "No, sometimes startups need to create a unique model to meet their needs go with \"Can traditional business models always fit a startup?\", is it right?",
+        "name": "David",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["Yes"] },
+          {
+            "qs": ["Could you please repeat the anwer?"],
+            "aw": [
+              "No, sometimes startups need to create a unique model to meet their needs."
+            ],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "No, sometimes startups need to create a unique model to meet their needs.",
+                "id": "PV_182"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "No, sometimes startups need to create a unique model to meet their needs go with \"Can traditional business models always fit a startup?\", is it right?",
+            "id": "PV_181"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 75,
+        "fsp": "Testing helps identify and fix flaws before launching the product go with \"How does testing products improve them?\", is it right?",
+        "name": "Sarah",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["Yes"] },
+          {
+            "qs": ["Could you please repeat the question?"],
+            "aw": ["How does testing products improve them?"],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "How does testing products improve them?",
+                "id": "PV_184"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Testing helps identify and fix flaws before launching the product go with \"How does testing products improve them?\", is it right?",
+            "id": "PV_183"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 74,
+        "fsp": "They focus too much on the product and neglect the business model go with \"What is a common mistake entrepreneurs make?\", is it right?",
+        "name": "Michael",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "gender": "male",
+        "data": [
+          { "qs": ["Yes"] },
+          {
+            "qs": ["Could you please repeat the question?"],
+            "aw": ["What is a common mistake entrepreneurs make?"],
+            "action": ["FN01"],
+            "submit": ["FN01"],
+            "aw01": [
+              {
+                "st": "What is a common mistake entrepreneurs make?",
+                "id": "PV_186"
+              }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "They focus too much on the product and neglect the business model go with \"What is a common mistake entrepreneurs make?\", is it right?",
+            "id": "PV_185"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 39,
+        "fsp": "Their loyalty to the product or service blinds them to carefully evaluate business models go with \"Why do entrepreneurs often fail to consider business models?\", is it right?",
+        "name": "Jennifer",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["Yes"], "submit": ["FN01"], "action": ["FN01"] },
+          { "qs": ["No"], "action": ["WRONG"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Their loyalty to the product or service blinds them to carefully evaluate business models go with \"Why do entrepreneurs often fail to consider business models?\", is it right?",
+            "id": "PV_187"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 49,
+        "fsp": "It helps the business create a customized approach to achieve its goals go with \"How does combining systems and processes help a business?\", is it right?",
+        "name": "Jennifer",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["Yes"], "submit": ["FN01"], "action": ["FN01"] },
+          { "qs": ["No"], "action": ["WRONG"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "It helps the business create a customized approach to achieve its goals go with \"How does combining systems and processes help a business?\", is it right?",
+            "id": "PV_188"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "stt": 43,
+        "fsp": "They test and modify their ideas multiple times before launching a final version go with \"How do successful startups handle their initial ideas?\", is it right?",
+        "name": "Jessica",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "gender": "female",
+        "data": [
+          { "qs": ["Yes"], "submit": ["FN01"], "action": ["FN01"] },
+          { "qs": ["No"], "action": ["WRONG"] }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "They test and modify their ideas multiple times before launching a final version go with \"How do successful startups handle their initial ideas?\", is it right?",
+            "id": "PV_189"
+          }
+        ]
+      }
+    ],
+    "ListenList": [
+      "A1_Why do entrepreneurs often fail to consider business models?",
+      "A1_Their loyalty to the product or service blinds them to carefully evaluate business models.",
+      "A1_What are traditional business models based on?",
+      "A1_They are often based on common practices that suit most businesses in the same industry.",
+      "A1_Can businesses create their own unique business models?",
+      "A1_Yes, businesses can selectively combine systems and processes to achieve their main goal.",
+      "A1_What is the main goal of any business?",
+      "A1_The main goal is to sell their product or service.",
+      "A1_How do successful startups handle their initial ideas?",
+      "A1_They test and modify their ideas multiple times before launching a final version.",
+      "A1_What do businesses gain by considering multiple business models?",
+      "A1_They reduce risks and become more sustainable.",
+      "A1_Should startups launch their first idea directly?",
+      "A1_No, they should refine their ideas through testing and revisions.",
+      "A1_Why is it important to carefully choose a business model?",
+      "A1_It ensures that the business can achieve its goals more effectively.",
+      "A1_How can a traditional approach to business help entrepreneurs?",
+      "A1_It can provide a tested framework that suits industry standards.",
+      "A1_What might happen if a startup skips testing its product?",
+      "A1_The product may fail in the market due to lack of refinement.",
+      "A1_How does combining systems and processes help a business?",
+      "A1_It helps the business create a customized approach to achieve its goals.",
+      "A1_Are startups more or less risky than established businesses?",
+      "A1_Startups are usually riskier than established businesses.",
+      "A1_How can startups become less risky?",
+      "A1_They can reduce risks by exploring several business models before choosing one.",
+      "A1_Why is it bad to be too loyal to a product or service?",
+      "A1_It can prevent entrepreneurs from seeing flaws in their business model.",
+      "A1_What is the first step for a successful business idea?",
+      "A1_The first step is to test and revise the idea thoroughly.",
+      "A1_Can traditional business models always fit a startup?",
+      "A1_No, sometimes startups need to create a unique model to meet their needs.",
+      "A1_What is a common mistake entrepreneurs make?",
+      "A1_They focus too much on the product and neglect the business model.",
+      "A1_How does testing products improve them?",
+      "A1_Testing helps identify and fix flaws before launching the product.",
+      "A1_What is one key to long-term business sustainability?",
+      "A1_Choosing the right business model is key to long-term sustainability.",
+      "A2_Could you tell me the question that leads to \"Their loyalty to the product or service blinds them to carefully evaluate business models.\"?",
+      "A2_Why do entrepreneurs often fail to consider business models?",
+      "A2_Could you tell me the question that leads to \"They are often based on common practices that suit most businesses in the same industry.\"?",
+      "A2_What are traditional business models based on?",
+      "A2_Could you tell me the question that leads to \"Yes, businesses can selectively combine systems and processes to achieve their main goal.\"?",
+      "A2_Can businesses create their own unique business models?",
+      "A2_Could you tell me the question that leads to \"The main goal is to sell their product or service.\"?",
+      "A2_What is the main goal of any business?",
+      "A2_Could you tell me the question that leads to \"They test and modify their ideas multiple times before launching a final version.\"?",
+      "A2_How do successful startups handle their initial ideas?",
+      "A2_Could you tell me the question that leads to \"They reduce risks and become more sustainable.\"?",
+      "A2_What do businesses gain by considering multiple business models?",
+      "A2_Could you tell me the question that leads to \"No, they should refine their ideas through testing and revisions.\"?",
+      "A2_Should startups launch their first idea directly?",
+      "A2_Could you tell me the question that leads to \"It ensures that the business can achieve its goals more effectively.\"?",
+      "A2_Why is it important to carefully choose a business model?",
+      "A2_Could you tell me the question that leads to \"It can provide a tested framework that suits industry standards.\"?",
+      "A2_How can a traditional approach to business help entrepreneurs?",
+      "A2_Could you tell me the question that leads to \"The product may fail in the market due to lack of refinement.\"?",
+      "A2_What might happen if a startup skips testing its product?",
+      "A2_Could you tell me the question that leads to \"It helps the business create a customized approach to achieve its goals.\"?",
+      "A2_How does combining systems and processes help a business?",
+      "A2_Could you tell me the question that leads to \"Startups are usually riskier than established businesses.\"?",
+      "A2_Are startups more or less risky than established businesses?",
+      "A2_Could you tell me the question that leads to \"They can reduce risks by exploring several business models before choosing one.\"?",
+      "A2_How can startups become less risky?",
+      "A2_Could you tell me the question that leads to \"It can prevent entrepreneurs from seeing flaws in their business model.\"?",
+      "A2_Why is it bad to be too loyal to a product or service?",
+      "A2_Could you tell me the question that leads to \"The first step is to test and revise the idea thoroughly.\"?",
+      "A2_What is the first step for a successful business idea?",
+      "A2_Could you tell me the question that leads to \"No, sometimes startups need to create a unique model to meet their needs.\"?",
+      "A2_Can traditional business models always fit a startup?",
+      "A2_Could you tell me the question that leads to \"They focus too much on the product and neglect the business model.\"?",
+      "A2_What is a common mistake entrepreneurs make?",
+      "A2_Could you tell me the question that leads to \"Testing helps identify and fix flaws before launching the product.\"?",
+      "A2_How does testing products improve them?",
+      "A2_Could you tell me the question that leads to \"Choosing the right business model is key to long-term sustainability.\"?",
+      "A2_What is one key to long-term business sustainability?",
+      "B1_Their loyalty to the product or service blinds them to carefully evaluate business models go with \"Why do entrepreneurs often fail to consider business models?\", is it right?",
+      "B1_Yes",
+      "B1_They are often based on common practices that suit most businesses in the same industry go with \"What are traditional business models based on?\", is it right?",
+      "B1_Yes, businesses can selectively combine systems and processes to achieve their main goal go with \"Can businesses create their own unique business models?\", is it right?",
+      "B1_The main goal is to sell their product or service go with \"What is the main goal of any business?\", is it right?",
+      "B1_They test and modify their ideas multiple times before launching a final version go with \"How do successful startups handle their initial ideas?\", is it right?",
+      "B1_They reduce risks and become more sustainable go with \"What do businesses gain by considering multiple business models?\", is it right?",
+      "B1_No, they should refine their ideas through testing and revisions go with \"Should startups launch their first idea directly?\", is it right?",
+      "B1_It ensures that the business can achieve its goals more effectively go with \"Why is it important to carefully choose a business model?\", is it right?",
+      "B1_It can provide a tested framework that suits industry standards go with \"How can a traditional approach to business help entrepreneurs?\", is it right?",
+      "B1_The product may fail in the market due to lack of refinement go with \"What might happen if a startup skips testing its product?\", is it right?",
+      "B1_It helps the business create a customized approach to achieve its goals go with \"How does combining systems and processes help a business?\", is it right?",
+      "B1_Startups are usually riskier than established businesses go with \"Are startups more or less risky than established businesses?\", is it right?",
+      "B1_They can reduce risks by exploring several business models before choosing one go with \"How can startups become less risky?\", is it right?",
+      "B1_It can prevent entrepreneurs from seeing flaws in their business model go with \"Why is it bad to be too loyal to a product or service?\", is it right?",
+      "B1_The first step is to test and revise the idea thoroughly go with \"What is the first step for a successful business idea?\", is it right?",
+      "B1_No, sometimes startups need to create a unique model to meet their needs go with \"Can traditional business models always fit a startup?\", is it right?",
+      "B1_They focus too much on the product and neglect the business model go with \"What is a common mistake entrepreneurs make?\", is it right?",
+      "B1_Testing helps identify and fix flaws before launching the product go with \"How does testing products improve them?\", is it right?",
+      "B1_Choosing the right business model is key to long-term sustainability go with \"What is one key to long-term business sustainability?\", is it right?",
+      "B1_Could you please repeat the question?",
+      "B1_Why do entrepreneurs often fail to consider business models?",
+      "B1_What are traditional business models based on?",
+      "B1_Can businesses create their own unique business models?",
+      "B1_What is the main goal of any business?",
+      "B1_How do successful startups handle their initial ideas?",
+      "B1_What do businesses gain by considering multiple business models?",
+      "B1_Should startups launch their first idea directly?",
+      "B1_Why is it important to carefully choose a business model?",
+      "B1_How can a traditional approach to business help entrepreneurs?",
+      "B1_What might happen if a startup skips testing its product?",
+      "B1_How does combining systems and processes help a business?",
+      "B1_Are startups more or less risky than established businesses?",
+      "B1_How can startups become less risky?",
+      "B1_Why is it bad to be too loyal to a product or service?",
+      "B1_What is the first step for a successful business idea?",
+      "B1_Can traditional business models always fit a startup?",
+      "B1_What is a common mistake entrepreneurs make?",
+      "B1_How does testing products improve them?",
+      "B1_What is one key to long-term business sustainability?",
+      "B1_Could you please repeat the anwer?",
+      "B1_Their loyalty to the product or service blinds them to carefully evaluate business models.",
+      "B1_They are often based on common practices that suit most businesses in the same industry.",
+      "B1_Yes, businesses can selectively combine systems and processes to achieve their main goal.",
+      "B1_The main goal is to sell their product or service.",
+      "B1_They test and modify their ideas multiple times before launching a final version.",
+      "B1_They reduce risks and become more sustainable.",
+      "B1_No, they should refine their ideas through testing and revisions.",
+      "B1_It ensures that the business can achieve its goals more effectively.",
+      "B1_It can provide a tested framework that suits industry standards.",
+      "B1_The product may fail in the market due to lack of refinement.",
+      "B1_It helps the business create a customized approach to achieve its goals.",
+      "B1_Startups are usually riskier than established businesses.",
+      "B1_They can reduce risks by exploring several business models before choosing one.",
+      "B1_It can prevent entrepreneurs from seeing flaws in their business model.",
+      "B1_The first step is to test and revise the idea thoroughly.",
+      "B1_No, sometimes startups need to create a unique model to meet their needs.",
+      "B1_They focus too much on the product and neglect the business model.",
+      "B1_Testing helps identify and fix flaws before launching the product.",
+      "B1_Choosing the right business model is key to long-term sustainability.",
+      "B2_Their loyalty to the product or service blinds them to carefully evaluate business models go with \"What are traditional business models based on?\", is it right?",
+      "B2_No",
+      "B2_They are often based on common practices that suit most businesses in the same industry go with \"Can businesses create their own unique business models?\", is it right?",
+      "B2_Yes, businesses can selectively combine systems and processes to achieve their main goal go with \"What is the main goal of any business?\", is it right?",
+      "B2_The main goal is to sell their product or service go with \"How do successful startups handle their initial ideas?\", is it right?",
+      "B2_They test and modify their ideas multiple times before launching a final version go with \"What do businesses gain by considering multiple business models?\", is it right?",
+      "B2_They reduce risks and become more sustainable go with \"Should startups launch their first idea directly?\", is it right?",
+      "B2_No, they should refine their ideas through testing and revisions go with \"Why is it important to carefully choose a business model?\", is it right?",
+      "B2_It ensures that the business can achieve its goals more effectively go with \"How can a traditional approach to business help entrepreneurs?\", is it right?",
+      "B2_It can provide a tested framework that suits industry standards go with \"What might happen if a startup skips testing its product?\", is it right?",
+      "B2_The product may fail in the market due to lack of refinement go with \"How does combining systems and processes help a business?\", is it right?",
+      "B2_It helps the business create a customized approach to achieve its goals go with \"Are startups more or less risky than established businesses?\", is it right?",
+      "B2_Startups are usually riskier than established businesses go with \"How can startups become less risky?\", is it right?",
+      "B2_They can reduce risks by exploring several business models before choosing one go with \"Why is it bad to be too loyal to a product or service?\", is it right?",
+      "B2_It can prevent entrepreneurs from seeing flaws in their business model go with \"What is the first step for a successful business idea?\", is it right?",
+      "B2_The first step is to test and revise the idea thoroughly go with \"Can traditional business models always fit a startup?\", is it right?",
+      "B2_No, sometimes startups need to create a unique model to meet their needs go with \"What is a common mistake entrepreneurs make?\", is it right?",
+      "B2_They focus too much on the product and neglect the business model go with \"How does testing products improve them?\", is it right?",
+      "B2_Testing helps identify and fix flaws before launching the product go with \"What is one key to long-term business sustainability?\", is it right?",
+      "B2_Choosing the right business model is key to long-term sustainability go with \"Why do entrepreneurs often fail to consider business models?\", is it right?",
+      "B3_Their loyalty to the product or service blinds them to carefully evaluate business models go with \"What are traditional business models based on?\", is it right?",
+      "B3_No",
+      "B3_Could you please tell me the correct question?",
+      "B3_Why do entrepreneurs often fail to consider business models?",
+      "B3_They are often based on common practices that suit most businesses in the same industry go with \"Can businesses create their own unique business models?\", is it right?",
+      "B3_What are traditional business models based on?",
+      "B3_Yes, businesses can selectively combine systems and processes to achieve their main goal go with \"What is the main goal of any business?\", is it right?",
+      "B3_Can businesses create their own unique business models?",
+      "B3_The main goal is to sell their product or service go with \"How do successful startups handle their initial ideas?\", is it right?",
+      "B3_What is the main goal of any business?",
+      "B3_They test and modify their ideas multiple times before launching a final version go with \"What do businesses gain by considering multiple business models?\", is it right?",
+      "B3_How do successful startups handle their initial ideas?",
+      "B3_They reduce risks and become more sustainable go with \"Should startups launch their first idea directly?\", is it right?",
+      "B3_What do businesses gain by considering multiple business models?",
+      "B3_No, they should refine their ideas through testing and revisions go with \"Why is it important to carefully choose a business model?\", is it right?",
+      "B3_Should startups launch their first idea directly?",
+      "B3_It ensures that the business can achieve its goals more effectively go with \"How can a traditional approach to business help entrepreneurs?\", is it right?",
+      "B3_Why is it important to carefully choose a business model?",
+      "B3_It can provide a tested framework that suits industry standards go with \"What might happen if a startup skips testing its product?\", is it right?",
+      "B3_How can a traditional approach to business help entrepreneurs?",
+      "B3_The product may fail in the market due to lack of refinement go with \"How does combining systems and processes help a business?\", is it right?",
+      "B3_What might happen if a startup skips testing its product?",
+      "B3_It helps the business create a customized approach to achieve its goals go with \"Are startups more or less risky than established businesses?\", is it right?",
+      "B3_How does combining systems and processes help a business?",
+      "B3_Startups are usually riskier than established businesses go with \"How can startups become less risky?\", is it right?",
+      "B3_Are startups more or less risky than established businesses?",
+      "B3_They can reduce risks by exploring several business models before choosing one go with \"Why is it bad to be too loyal to a product or service?\", is it right?",
+      "B3_How can startups become less risky?",
+      "B3_It can prevent entrepreneurs from seeing flaws in their business model go with \"What is the first step for a successful business idea?\", is it right?",
+      "B3_Why is it bad to be too loyal to a product or service?",
+      "B3_The first step is to test and revise the idea thoroughly go with \"Can traditional business models always fit a startup?\", is it right?",
+      "B3_What is the first step for a successful business idea?",
+      "B3_No, sometimes startups need to create a unique model to meet their needs go with \"What is a common mistake entrepreneurs make?\", is it right?",
+      "B3_Can traditional business models always fit a startup?",
+      "B3_They focus too much on the product and neglect the business model go with \"How does testing products improve them?\", is it right?",
+      "B3_What is a common mistake entrepreneurs make?",
+      "B3_Testing helps identify and fix flaws before launching the product go with \"What is one key to long-term business sustainability?\", is it right?",
+      "B3_How does testing products improve them?",
+      "B3_Choosing the right business model is key to long-term sustainability go with \"Why do entrepreneurs often fail to consider business models?\", is it right?",
+      "B3_What is one key to long-term business sustainability?"
+    ],
+    "typeSets": ["A1", "A2", "B1", "B2", "B3"],
+    "SEO": {
+      "seo": {
+        "metaTitle": "Cách tiếp cận truyền thống đến một mô hình kinh doanh",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "Cách tiếp cận truyền thống đến một mô hình kinh doanh",
+        "IFdes": "Hầu hết các startup phá sản vì các doanh nhân quá tin tưởng vào mục đích tồn tại của sản phẩm Sự trung thành vào sản phẩm / dịch vụ khiến họ thất bại trong việc cân nhắc kĩ lưỡng về mô hình kinh doanh mà công ty nên tuân theo.\n\nThông thường, mô hình kinh doanh có thể là một loại hình phổ biến phù hợp với mọi doanh nghiệp trong ngành Hoặc doanh nghiệp có thể chủ động tạo ra một sự pha trộn có chọn lọc giữa các hệ thống và quy trình để theo đuổi mục tiêu chính – đó là bán sản phẩm hoặc dịch vụ của riêng họ.\n\nCác dự án khởi nghiệp thành công sẽ không ngay lập tức tung ý tưởng đầu tiên ra thị trường Thay vào đó, sản phẩm / dịch vụ của họ thường phải trải qua nhiều lần thử nghiệm và sửa đổi để đưa ra bản hoàn thiện cuối cùng.\n\nTương tự như vậy, các doanh nghiệp sẽ bớt rủi ro và bền vững hơn nếu họ cân nhắc một vài mô hình kinh doanh trước khi quyết định sử dụng một mô hình cụ thể."
+      },
+      "HD": [
+        {
+          "HD-01": "What is the main reason most startups fail?",
+          "HD-02": "Most startups fail because entrepreneurs are overly confident in the purpose of their products."
+        },
+        {
+          "HD-01": "Why do entrepreneurs often fail to consider business models?",
+          "HD-02": "Their loyalty to the product or service blinds them to carefully evaluate business models."
+        },
+        {
+          "HD-01": "What are traditional business models based on?",
+          "HD-02": "They are often based on common practices that suit most businesses in the same industry."
+        },
+        {
+          "HD-01": "Can businesses create their own unique business models?",
+          "HD-02": "Yes, businesses can selectively combine systems and processes to achieve their main goal."
+        },
+        {
+          "HD-01": "What is the main goal of any business?",
+          "HD-02": "The main goal is to sell their product or service."
+        },
+        {
+          "HD-01": "How do successful startups handle their initial ideas?",
+          "HD-02": "They test and modify their ideas multiple times before launching a final version."
+        },
+        {
+          "HD-01": "What do businesses gain by considering multiple business models?",
+          "HD-02": "They reduce risks and become more sustainable."
+        },
+        {
+          "HD-01": "Should startups launch their first idea directly?",
+          "HD-02": "No, they should refine their ideas through testing and revisions."
+        },
+        {
+          "HD-01": "Why is it important to carefully choose a business model?",
+          "HD-02": "It ensures that the business can achieve its goals more effectively."
+        },
+        {
+          "HD-01": "How can a traditional approach to business help entrepreneurs?",
+          "HD-02": "It can provide a tested framework that suits industry standards."
+        },
+        {
+          "HD-01": "What might happen if a startup skips testing its product?",
+          "HD-02": "The product may fail in the market due to lack of refinement."
+        },
+        {
+          "HD-01": "How does combining systems and processes help a business?",
+          "HD-02": "It helps the business create a customized approach to achieve its goals."
+        },
+        {
+          "HD-01": "Are startups more or less risky than established businesses?",
+          "HD-02": "Startups are usually riskier than established businesses."
+        },
+        {
+          "HD-01": "How can startups become less risky?",
+          "HD-02": "They can reduce risks by exploring several business models before choosing one."
+        },
+        {
+          "HD-01": "Why is it bad to be too loyal to a product or service?",
+          "HD-02": "It can prevent entrepreneurs from seeing flaws in their business model."
+        },
+        {
+          "HD-01": "What is the first step for a successful business idea?",
+          "HD-02": "The first step is to test and revise the idea thoroughly."
+        },
+        {
+          "HD-01": "Can traditional business models always fit a startup?",
+          "HD-02": "No, sometimes startups need to create a unique model to meet their needs."
+        },
+        {
+          "HD-01": "What is a common mistake entrepreneurs make?",
+          "HD-02": "They focus too much on the product and neglect the business model."
+        },
+        {
+          "HD-01": "How does testing products improve them?",
+          "HD-02": "Testing helps identify and fix flaws before launching the product."
+        },
+        {
+          "HD-01": "What is one key to long-term business sustainability?",
+          "HD-02": "Choosing the right business model is key to long-term sustainability."
+        }
+      ],
+      "TB": []
+    }
+  }
+]

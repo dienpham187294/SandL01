@@ -33,6 +33,13 @@ const prac_to_work = [
     link: "interview_w_foreign_teacher",
     id: "socapI",
   },
+  {
+    root: "learninghub",
+    preName: "",
+    name: "Khái niệm về mô hình doanh nghiệp (Canvas model).",
+    link: "t1-canvas-model",
+    id: "socapI",
+  },
 ];
 
 const pracEnSets = [
@@ -65,13 +72,13 @@ const pracEnSets = [
     id: "socapII",
   },
 
-  // {
-  //   root: "learninghub",
-  //   preName: "For parents:",
-  //   name: "Cùng thực hành các nội dung thân thuộc với trẻ em 2-5 tuổi",
-  //   link: "parents-and-kids",
-  //   id: "socapII",
-  // },
+  {
+    root: "learninghub",
+    preName: "For parents:",
+    name: "Các nội dung thân thuộc với trẻ em",
+    link: "parents-and-kids",
+    id: "socapII",
+  },
 ];
 
 export default function Header({ sttRoom, STTconnectFN }) {

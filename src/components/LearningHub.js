@@ -6,6 +6,7 @@ import TableHD from "./pracPages/B101_FINAL_TABLE-HD";
 import TableTB from "./pracPages/B101_FINAL_TABLE-TB-NotAdd";
 // import { ObjREADContext } from "../App";
 import Dictaphone from "../ulti/RegcognitionV2024-05-NG_FOR_TEACHING";
+import NguyenTacghepam from "./A1_NguyentacGhepam";
 const colors = ["red", "orange", "black", "green", "blue", "indigo", "violet"];
 
 const LearningHub = ({ setSttRoom, STTconnectFN }) => {
@@ -76,201 +77,460 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
             )}, ${id}`}
           />
         </Helmet>
-        {rShowLessonTABLE(dataLearning, currentIndex, setCurrentIndex)}
-        <hr />
-        <TableHD
-          data={dataLearning[currentIndex]?.HDTB?.HD}
-          HINT={"HINT"}
-          fnOnclick={(e) => {
-            setchoose_a_st(e);
-          }}
-        />
-        {generateBootstrapList(
-          dataLearning[currentIndex]?.ListenList,
-          choose_a_st,
-          setchoose_a_st
-        )}{" "}
-        <hr />
-        <h1>{choose_a_st}</h1>
-        {choose_a_st ? (
-          <table style={{ textAlign: "center", fontSize: "30px" }}>
-            <tbody>
-              <tr>
-                {choose_a_st.split(" ").map((e, i) => (
-                  <td key={i}>
-                    {" "}
-                    <span style={{ padding: "20px" }}>{e}</span>{" "}
-                  </td>
-                ))}
-              </tr>
+        <section>
+          <select
+            onChange={(e) => {
+              // Tìm tất cả các div có class 'divlearnHub'
+              const divs = document.querySelectorAll(".divlearnHub");
 
-              {["Đoán", "Tra", "Tìm", "Ghép"].map((e_key) => (
-                <tr key={e_key}>
-                  {choose_a_st.split(" ").map((e, i) => (
-                    <td key={i}>
-                      <input
-                        type="text"
-                        className="clearClassForTable"
-                        style={{
-                          width: "90%",
-                          textAlign: "center",
-                          // padding: "5px",
-                          // boxSizing: "border-box",
-                        }}
-                        // placeholder={e_key}
-                      />
-                    </td>
-                  ))}
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        ) : null}{" "}
-        <button
-          onClick={() => {
-            try {
-              const inputs =
-                document.getElementsByClassName("clearClassForTable");
-              for (let i = 0; i < inputs.length; i++) {
-                if (inputs[i] instanceof HTMLInputElement) {
-                  inputs[i].value = ""; // Clear the value of input elements
-                }
+              // Chuyển tất cả các div này thành flex: 0
+              divs.forEach((div) => {
+                div.style.flex = "0";
+                div.style.opacity = "0";
+                div.style.width = "0px";
+                div.style.padding = "0px";
+              });
+
+              // Tìm div có id bằng giá trị của e.target.value
+              const targetDiv = document.getElementById(e.target.value);
+              if (targetDiv) {
+                // Chuyển flex của div này thành 8
+                targetDiv.style.opacity = "1";
+                targetDiv.style.flex = "8";
+                targetDiv.style.width = "80wh";
+                targetDiv.style.padding = "24px";
+              } else {
+                console.warn("No div found with the id:", e.target.value);
               }
-            } catch (error) {
-              console.error("Error clearing input values:", error);
-            }
-          }}
-          className="btn btn-primary me-3"
-        >
-          Clear Table
-        </button>
-        <button
-          className="btn btn-danger"
-          onClick={() => {
-            setchoose_a_st(null);
-          }}
-        >
-          Hide table
-        </button>
-        <h5>Đoán - Tra - Tìm - Ghép</h5>
-        {choose_a_st ? (
-          <input
-            className="form-control"
-            type="text"
-            style={{
-              // width: "90%",
-              textAlign: "center",
-              padding: "5px",
-              boxSizing: "border-box",
-              fontSize: "30px",
             }}
-            // placeholder="Type here"
-          />
-        ) : null}
-        <Dictaphone /> <hr />
-        {dataLearning[currentIndex] ? (
-          <div>{renderContent(dataLearning, currentIndex)}</div>
-        ) : null}
-        {STTPractice && dataLearning !== null ? (
-          <Lobby
-            STTconnectFN={STTconnectFN}
-            setSttRoom={setSttRoom}
-            fileName={id}
-            objList={createArrayFromNumber(dataLearning.length - 1)}
-            objListDefault={[currentIndex]}
-            custom={true}
-            id={id}
-            currentIndex={currentIndex}
-          />
-        ) : (
-          <div style={{ textAlign: "center", padding: "20px 10px" }}>
+          >
+            <option value="div_01_content_to_learn">Nội dung</option>
+            <option value="div_01_content_table_to_practice">Thực hành</option>
+            <option value="div_01_prac_ghep_am">Ghép âm</option>{" "}
+            <option value="div_01_prac_luyen_am">Luyện âm</option>
+            <option value="div_01_prac_hoc_thuoc">Học thuộc</option>{" "}
+            <option value="div_01_prac_phuongphaphoc">Phương pháp học</option>
+            <option value="div_01_prac_bangnhap">Bảng nháp</option>
+            <option value="div_01_prac_vaothuchanh">Vào thực hành</option>
+          </select>
+          <div style={{ display: "flex" }}>
+            {" "}
+            <div
+              id="div_01_content_to_learn"
+              className="divlearnHub"
+              style={{
+                flex: 0,
+                backgroundColor: "",
+                transition: "all 1s ease",
+                whiteSpace: "pre-line",
+                border: "1px solid black",
+                padding: "2%",
+                borderRadius: "5px",
+              }}
+            >
+              <p style={{ fontSize: "30px", fontWeight: "400" }}>
+                {" "}
+                {dataLearning[currentIndex]?.HDTB?.IF?.IFdes}{" "}
+                {dataLearning[currentIndex] ? (
+                  <div>{renderContent(dataLearning, currentIndex)}</div>
+                ) : null}
+              </p>
+            </div>
+            <div
+              id="div_01_content_table_to_practice"
+              className="divlearnHub"
+              style={{
+                flex: 8,
+                backgroundColor: "lightgreen",
+                transition: "all 1s ease",
+              }}
+            >
+              {rShowLessonTABLE(dataLearning, currentIndex, setCurrentIndex)}
+              <TableHD
+                data={dataLearning[currentIndex]?.HDTB?.HD}
+                HINT={"HINT"}
+                fnOnclick={(e) => {
+                  setchoose_a_st(e);
+                }}
+              />{" "}
+              {dataLearning !== null && (
+                <div>
+                  {dataLearning[currentIndex]?.HDTB?.TB.map((e, i) => (
+                    <TableTB key={i} data={e} color={colors[i % 7]} />
+                  ))}
+                </div>
+              )}
+            </div>
+            <div
+              id="div_01_prac_ghep_am"
+              className="divlearnHub"
+              style={{
+                flex: 0,
+                backgroundColor: "lightblue",
+                transition: "all 1s ease",
+                padding: "20px",
+                overflow: "hidden",
+              }}
+            >
+              {" "}
+              {generateBootstrapList(
+                dataLearning[currentIndex]?.ListenList,
+                choose_a_st,
+                setchoose_a_st
+              )}{" "}
+              <hr />
+              <h5>Đoán - Tra - Tìm - Ghép</h5>
+              <h1>{choose_a_st}</h1>{" "}
+              <button
+                onClick={() => {
+                  try {
+                    const textArea =
+                      document.getElementById("clearClassForTable");
+                    if (textArea) {
+                      textArea.value = ""; // Đặt giá trị rỗng cho textarea
+                    }
+                  } catch (error) {
+                    console.error("Error clearing input values:", error);
+                  }
+                }}
+                style={{ marginLeft: "100px" }}
+                className="btn btn-primary me-3"
+              >
+                Clear Table
+              </button>
+              <hr />
+              <textarea
+                style={{
+                  width: "90%",
+                  height: "300px",
+                  fontSize: "36px",
+                  fontWeight: "700",
+                  color: "#ffffff",
+                  backgroundColor: "#1e90ff",
+                  cursor: "pointer",
+                  marginLeft: "80px",
+                }}
+                id="clearClassForTable"
+              ></textarea>
+              <hr />
+              <NguyenTacghepam />
+              {/* <button
+                className="btn btn-danger"
+                onClick={() => {
+                  setchoose_a_st(null);
+                }}
+              >
+                Hide table
+              </button> */}
+            </div>
+            <div
+              id="div_01_prac_luyen_am"
+              className="divlearnHub"
+              style={{
+                flex: 0,
+                backgroundColor: "",
+                transition: "all 1s ease",
+                whiteSpace: "pre-line",
+                border: "1px solid black",
+                padding: "2%",
+                borderRadius: "5px",
+                overflow: "hidden",
+              }}
+            >
+              <h1></h1>
+              <p style={{ fontSize: "larger" }}>
+                <Dictaphone />
+              </p>
+            </div>
+            <div
+              id="div_01_prac_hoc_thuoc"
+              className="divlearnHub"
+              style={{
+                flex: 0,
+                backgroundColor: "",
+                transition: "all 1s ease",
+                whiteSpace: "pre-line",
+                border: "1px solid black",
+                padding: "2%",
+                borderRadius: "5px",
+                overflow: "hidden",
+              }}
+            >
+              <h1></h1>
+              <p style={{ fontSize: "larger" }}>
+                {" "}
+                <h1>Học thuộc lòng!</h1>
+                <p>
+                  <i>
+                    Là một cách bổ trợ <b>trực tiếp, nhanh chóng và hiệu quả</b>{" "}
+                    cho quá trình thực hành nghe nói. Tuy có hơi nhàm chán nhưng
+                    bù lại sẽ <b>rút ngắn đáng kể </b>số lần cần phải thực hành
+                    để đạt đến ngưỡng giao tiếp được.
+                  </i>
+                </p>
+                <p>Bước 1: Hãy chép mỗi câu phía dưới đây ra giấy một lần.</p>
+                <p>
+                  Bước 2: Bấm vào Nút <b>Learning by heart!</b> bên dưới. Máy sẽ
+                  đọc từng câu một, bạn có 10 giây để nghe và chép lại ra giấy
+                  (có thể ghi tắt).
+                </p>
+                <button
+                  onClick={() => {
+                    navigate(`/learningbyheart/${id}/${currentIndex}`);
+                  }}
+                  className="btn btn-primary"
+                  style={{ fontSize: "1.3em" }}
+                >
+                  Learning by heart
+                </button>
+                <hr />
+              </p>
+            </div>
+            <div
+              id="div_01_prac_phuongphaphoc"
+              className="divlearnHub"
+              style={{
+                flex: 0,
+                backgroundColor: "",
+                transition: "all 1s ease",
+                whiteSpace: "pre-line",
+                border: "1px solid black",
+                padding: "2%",
+                borderRadius: "5px",
+                overflow: "hidden",
+              }}
+            >
+              <h1></h1>
+              <p style={{ fontSize: "larger" }}>
+                {" "}
+                <div style={{ padding: "5%" }}>
+                  <h5>
+                    Thực hành lặp lại (có ghi nhận phản hồi-sửa chửa) là con
+                    đường phải đi qua để đạt được kĩ năng. Hãy lấy kỉ luật và
+                    cùng thực hành chung làm động lực.
+                  </h5>
+                  <ul>
+                    <li>Mục tiêu chung cuộc là 10.000 lần nghe nói.</li>
+                    <li>
+                      Mục tiêu mỗi buổi thực hành ít cũng phải trên 100 lần nghe
+                      nói. Một buổi thực hành không dành thời gian nghe-nói
+                      nhiều là một buổi chưa hiệu quả.
+                    </li>
+                    <li>
+                      Mỗi buổi học đều nên nhắc lại các kiến thức cốt lõi về
+                      tách ghép âm.
+                    </li>
+                    <li>
+                      Thực hành ghép âm (chọn vài từ trong bảng nội dung để
+                      ghép)
+                    </li>{" "}
+                    <li>
+                      Thực hành tách âm (người hướng dẫn đọc vài từ và yêu cầu
+                      người thực hành nghe xem nguyên âm đại diện là gì?)
+                    </li>
+                    <li>
+                      ***Lưu ý khi hướng dẫn và học về Ghép âm - Phân tách âm:
+                      Giai đoạn ban đầu hãy tập trung vào nguyên âm đại diện
+                      UEOAI-ơ và nguyên lý ghép âm, các âm phụ khác thì lướt qua
+                      hoặc chỉ thị phạm mà không phân tích kĩ.
+                    </li>
+                    <li>
+                      Khi hướng dẫn và học nội dung trong bảng, chỉ cần vừa đủ
+                      để có thể thực hành, đừng quá học kĩ càng, cũng đừng tập
+                      trung vào làm rõ nghĩa hoặc cấu trúc câu, hãy nắm vừa đủ
+                      và nhanh chóng chuyển qua thực hành, khi thực hành tự khắc
+                      sẽ nắm nội dung.
+                    </li>
+                    <li>
+                      Sau khi đã thực hành 1 hoặc 1 vài lần quay lại làm rõ, học
+                      thuộc các "gán nghĩa" từ bảng nội dung (ưu tiên phụ nếu có
+                      thời gian).
+                    </li>
+                    <li>Mở rộng thực hành nhiều bài cùng một lúc.</li>
+                  </ul>
+                </div>
+              </p>
+            </div>{" "}
+            <div
+              id="div_01_prac_bangnhap"
+              className="divlearnHub"
+              style={{
+                flex: 0,
+                backgroundColor: "",
+                transition: "all 1s ease",
+                whiteSpace: "pre-line",
+                border: "1px solid black",
+                padding: "2%",
+                borderRadius: "5px",
+                overflow: "hidden",
+              }}
+            >
+              <h1>DRAFT!</h1>
+
+              <textarea
+                style={{
+                  width: "90%",
+                  height: "800px",
+                  fontSize: "36px",
+                  fontWeight: "700",
+                  color: "#ffffff",
+                  backgroundColor: "#1e90ff",
+                  cursor: "pointer",
+                  marginLeft: "60px",
+                }}
+              ></textarea>
+            </div>
+            <div
+              id="div_01_prac_vaothuchanh"
+              className="divlearnHub"
+              style={{
+                flex: 0,
+                backgroundColor: "",
+                transition: "all 1s ease",
+                whiteSpace: "pre-line",
+                border: "1px solid black",
+                padding: "2%",
+                borderRadius: "5px",
+                overflow: "hidden",
+              }}
+            >
+              {STTPractice && dataLearning !== null ? (
+                <Lobby
+                  STTconnectFN={STTconnectFN}
+                  setSttRoom={setSttRoom}
+                  fileName={id}
+                  objList={createArrayFromNumber(dataLearning.length - 1)}
+                  objListDefault={[currentIndex]}
+                  custom={true}
+                  id={id}
+                  currentIndex={currentIndex}
+                />
+              ) : (
+                <div style={{ textAlign: "center", padding: "20px 10px" }}>
+                  <button
+                    onClick={() => {
+                      setSTTPractice(true);
+                    }}
+                    className="btn btn-primary"
+                    style={{ fontSize: "1.6em" }}
+                  >
+                    Cùng thực hành
+                  </button>
+                </div>
+              )}
+            </div>
+          </div>
+        </section>
+        {/* <div style={{ display: "flex", transition: "flex 1s ease" }}>
+          <div
+            id="div_01_content_to_learn"
+            className="divlearnHub"
+            style={{ flex: 0, width: "80wh", overflow: "hidden" }}
+          >
+            <h1>{dataLearning[currentIndex]?.SEO?.seo?.metaTitle}</h1>
+          </div>
+          <div
+            id="div_01_content_table_to_practice"
+            style={{ flex: 8, width: "80wh", overflow: "hidden" }}
+          >
+            {rShowLessonTABLE(dataLearning, currentIndex, setCurrentIndex)}
+            <TableHD
+              data={dataLearning[currentIndex]?.HDTB?.HD}
+              HINT={"HINT"}
+              fnOnclick={(e) => {
+                setchoose_a_st(e);
+              }}
+            />
+          </div>
+          <div
+            id="div_01_practice"
+            className="divlearnHub"
+            style={{ flex: 0, width: "80wh", overflow: "hidden" }}
+          >
+            {generateBootstrapList(
+              dataLearning[currentIndex]?.ListenList,
+              choose_a_st,
+              setchoose_a_st
+            )}{" "}
+            <hr />
+            <h1>{choose_a_st}</h1>
+            {choose_a_st ? (
+              <table style={{ textAlign: "center", fontSize: "30px" }}>
+                <tbody>
+                  <tr>
+                    {choose_a_st.split(" ").map((e, i) => (
+                      <td key={i}>
+                        {" "}
+                        <span style={{ padding: "20px" }}>{e}</span>{" "}
+                      </td>
+                    ))}
+                  </tr>
+
+                  {["Đoán", "Tra", "Tìm", "Ghép"].map((e_key) => (
+                    <tr key={e_key}>
+                      {choose_a_st.split(" ").map((e, i) => (
+                        <td key={i}>
+                          <input
+                            type="text"
+                            className="clearClassForTable"
+                            style={{
+                              width: "90%",
+                              textAlign: "center",
+                              // padding: "5px",
+                              // boxSizing: "border-box",
+                            }}
+                            // placeholder={e_key}
+                          />
+                        </td>
+                      ))}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            ) : null}{" "}
             <button
               onClick={() => {
-                setSTTPractice(true);
+                try {
+                  const inputs =
+                    document.getElementsByClassName("clearClassForTable");
+                  for (let i = 0; i < inputs.length; i++) {
+                    if (inputs[i] instanceof HTMLInputElement) {
+                      inputs[i].value = ""; // Clear the value of input elements
+                    }
+                  }
+                } catch (error) {
+                  console.error("Error clearing input values:", error);
+                }
               }}
-              className="btn btn-primary"
-              style={{ fontSize: "1.6em" }}
+              className="btn btn-primary me-3"
             >
-              Cùng thực hành
+              Clear Table
             </button>
+            <button
+              className="btn btn-danger"
+              onClick={() => {
+                setchoose_a_st(null);
+              }}
+            >
+              Hide table
+            </button>
+            <h5>Đoán - Tra - Tìm - Ghép</h5>
+            {choose_a_st ? (
+              <input
+                className="form-control"
+                type="text"
+                style={{
+                  // width: "90%",
+                  textAlign: "center",
+                  padding: "5px",
+                  boxSizing: "border-box",
+                  fontSize: "30px",
+                }}
+                // placeholder="Type here"
+              />
+            ) : null}
           </div>
-        )}
-        {dataLearning !== null && (
-          <div>
-            {dataLearning[currentIndex]?.HDTB?.TB.map((e, i) => (
-              <TableTB key={i} data={e} color={colors[i % 7]} />
-            ))}
-          </div>
-        )}
-        <hr />
-        <div style={{ padding: "5%" }}>
-          <h5>
-            Thực hành lặp lại (có ghi nhận phản hồi-sửa chửa) là con đường phải
-            đi qua để đạt được kĩ năng. Hãy lấy kỉ luật và cùng thực hành chung
-            làm động lực.
-          </h5>
-          <ul>
-            <li>Mục tiêu chung cuộc là 10.000 lần nghe nói.</li>
-            <li>
-              Mục tiêu mỗi buổi thực hành ít cũng phải trên 100 lần nghe nói.
-              Một buổi thực hành không dành thời gian nghe-nói nhiều là một buổi
-              chưa hiệu quả.
-            </li>
-            <li>
-              Mỗi buổi học đều nên nhắc lại các kiến thức cốt lõi về tách ghép
-              âm.
-            </li>
-            <li>Thực hành ghép âm (chọn vài từ trong bảng nội dung để ghép)</li>{" "}
-            <li>
-              Thực hành tách âm (người hướng dẫn đọc vài từ và yêu cầu người
-              thực hành nghe xem nguyên âm đại diện là gì?)
-            </li>
-            <li>
-              ***Lưu ý khi hướng dẫn và học về Ghép âm - Phân tách âm: Giai đoạn
-              ban đầu hãy tập trung vào nguyên âm đại diện UEOAI-ơ và nguyên lý
-              ghép âm, các âm phụ khác thì lướt qua hoặc chỉ thị phạm mà không
-              phân tích kĩ.
-            </li>
-            <li>
-              Khi hướng dẫn và học nội dung trong bảng, chỉ cần vừa đủ để có thể
-              thực hành, đừng quá học kĩ càng, cũng đừng tập trung vào làm rõ
-              nghĩa hoặc cấu trúc câu, hãy nắm vừa đủ và nhanh chóng chuyển qua
-              thực hành, khi thực hành tự khắc sẽ nắm nội dung.
-            </li>
-            <li>
-              Sau khi đã thực hành 1 hoặc 1 vài lần quay lại làm rõ, học thuộc
-              các "gán nghĩa" từ bảng nội dung (ưu tiên phụ nếu có thời gian).
-            </li>
-            <li>Mở rộng thực hành nhiều bài cùng một lúc.</li>
-          </ul>
-        </div>
-        <div style={{ fontSize: "larger" }}>
-          <h1>Học thuộc lòng!</h1>
-          <p>
-            <i>
-              Là một cách bổ trợ <b>trực tiếp, nhanh chóng và hiệu quả</b> cho
-              quá trình thực hành nghe nói. Tuy có hơi nhàm chán nhưng bù lại sẽ{" "}
-              <b>rút ngắn đáng kể </b>số lần cần phải thực hành để đạt đến
-              ngưỡng giao tiếp được.
-            </i>
-          </p>
-          <p>Bước 1: Hãy chép mỗi câu phía dưới đây ra giấy một lần.</p>
-          <p>
-            Bước 2: Bấm vào Nút <b>Learning by heart!</b> bên dưới. Máy sẽ đọc
-            từng câu một, bạn có 10 giây để nghe và chép lại ra giấy (có thể ghi
-            tắt).
-          </p>
-          <button
-            onClick={() => {
-              navigate(`/learningbyheart/${id}/${currentIndex}`);
-            }}
-            className="btn btn-primary"
-            style={{ fontSize: "1.3em" }}
-          >
-            Learning by heart
-          </button>
-          <hr />
-        </div>
+        </div> */}
       </div>
     </HelmetProvider>
   );
@@ -302,7 +562,7 @@ function generateBootstrapList(sentences, choose_a_st, setchoose_a_st) {
           onChange={(e) => {
             setchoose_a_st(e.target.value);
           }}
-          style={{ maxHeight: "300px", padding: "25px" }}
+          style={{ marginLeft: "100px", width: "300px", padding: "5px" }}
           className=""
         >
           <option value={""}>Các câu trong bài thực hành</option>

@@ -253,15 +253,6 @@ function KnowGhepAm() {
         <h1>UỂ OẢI Ơ</h1>
       </div>
 
-      {/* <p>Xác định nhóm khách hàng mục tiêu mà sản phẩm nhắm đến.</p> */}
-      {/* <h1>Sản phẩm này mang lại lợi ích gì?</h1>
-      <p>Lợi ích cụ thể mà khách hàng có thể nhận được khi sử dụng sản phẩm.</p> */}
-      {/* <h1>Sản phẩm này khác biệt như thế nào so với đối thủ?</h1>
-      <p>
-        Những ưu điểm, đặc điểm nổi bật mà sản phẩm có thể cung cấp tốt hơn các
-        sản phẩm khác trên thị trường.
-      </p> */}
-      {/* <h1>Giá của sản phẩm là bao nhiêu?</h1> */}
       <div
         style={{
           fontFamily: "Arial, sans-serif",
@@ -299,7 +290,9 @@ function KnowGhepAm() {
                 uː
                 <br />ʊ
               </td>
-              <td>e</td>{" "}
+              <td>
+                e <br />ɛ
+              </td>{" "}
               <td>
                 ɒ<br />
                 ɔː

@@ -116,6 +116,7 @@ const LearningByHeartHub = ({ STTconnectFN }) => {
           textAlign: "center",
           fontFamily: "Arial, sans-serif",
           color: "#333",
+          marginTop: "15vh",
         }}
       >
         <Helmet>
