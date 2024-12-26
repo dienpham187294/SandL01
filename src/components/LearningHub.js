@@ -107,7 +107,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
             <option value="div_01_content_to_learn">Nội dung</option>
             <option value="div_01_content_table_to_practice">Thực hành</option>
             <option value="div_01_prac_ghep_am">Ghép âm</option>{" "}
-            <option value="div_01_prac_luyen_am">Luyện âm</option>
+            <option value="div_01_prac_luyen_am">Nguyên tắc ghép âm</option>
             <option value="div_01_prac_hoc_thuoc">Học thuộc</option>{" "}
             <option value="div_01_prac_phuongphaphoc">Phương pháp học</option>
             <option value="div_01_prac_bangnhap">Bảng nháp</option>
@@ -213,7 +213,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                 id="clearClassForTable"
               ></textarea>
               <hr />
-              <NguyenTacghepam />
+              <Dictaphone />
               {/* <button
                 className="btn btn-danger"
                 onClick={() => {
@@ -239,7 +239,8 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
             >
               <h1></h1>
               <p style={{ fontSize: "larger" }}>
-                <Dictaphone />
+                {" "}
+                <NguyenTacghepam />
               </p>
             </div>
             <div

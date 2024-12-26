@@ -6,7 +6,11 @@ import SpeechRecognition, {
 const Dictaphone = ({}) => {
   const { interimTranscript, transcript, listening, resetTranscript } =
     useSpeechRecognition({});
-  const [styles, setStyles] = useState({});
+  const [styles, setStyles] = useState({
+    border: "1px solid black",
+    padding: "10px",
+    borderRadius: "5px",
+  });
   const startListening = () => {
     SpeechRecognition.startListening({
       continuous: true,
