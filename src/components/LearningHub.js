@@ -89,6 +89,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                 div.style.opacity = "0";
                 div.style.width = "0px";
                 div.style.padding = "0px";
+                div.style.pointerEvents = "none";
               });
 
               // Tìm div có id bằng giá trị của e.target.value
@@ -99,6 +100,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                 targetDiv.style.flex = "8";
                 targetDiv.style.width = "80wh";
                 targetDiv.style.padding = "24px";
+                targetDiv.style.pointerEvents = "auto";
               } else {
                 console.warn("No div found with the id:", e.target.value);
               }
@@ -217,6 +219,8 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                   backgroundColor: "#1e90ff",
                   cursor: "pointer",
                   marginLeft: "80px",
+                  zIndex: 100,
+                  textDecoration: "underline",
                 }}
                 id="clearClassForTable"
               ></textarea>
@@ -396,6 +400,9 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                   backgroundColor: "#1e90ff",
                   cursor: "pointer",
                   marginLeft: "60px",
+                  padding: "10px",
+                  zIndex: 100,
+                  textDecoration: "underline",
                 }}
               ></textarea>
             </div>
