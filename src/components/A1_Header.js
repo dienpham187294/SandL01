@@ -79,6 +79,14 @@ const pracEnSets = [
     link: "parents-and-kids",
     id: "socapII",
   },
+
+  {
+    root: "learninghub",
+    preName: "Cơ bản:",
+    name: "14 chủ đề giao tiếp cơ bản",
+    link: "a1_14_basic_subjects",
+    id: "socapII",
+  },
 ];
 
 export default function Header({ sttRoom, STTconnectFN }) {

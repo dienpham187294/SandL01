@@ -104,6 +104,8 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
               }
             }}
           >
+            {" "}
+            <option value="div_01_content_table_to_practice">Chọn</option>
             <option value="div_01_content_to_learn">Nội dung</option>
             <option value="div_01_content_table_to_practice">Thực hành</option>
             <option value="div_01_prac_ghep_am">Ghép âm</option>{" "}
@@ -126,6 +128,8 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                 border: "1px solid black",
                 padding: "2%",
                 borderRadius: "5px",
+                width: "0",
+                padding: "0",
               }}
             >
               <p style={{ fontSize: "30px", fontWeight: "400" }}>
@@ -143,6 +147,8 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                 flex: 8,
                 backgroundColor: "lightgreen",
                 transition: "all 1s ease",
+                width: "80wh",
+                padding: "20px",
               }}
             >
               {rShowLessonTABLE(dataLearning, currentIndex, setCurrentIndex)}
@@ -170,6 +176,8 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                 transition: "all 1s ease",
                 padding: "20px",
                 overflow: "hidden",
+                width: "0",
+                padding: "0",
               }}
             >
               {" "}
@@ -235,6 +243,8 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                 padding: "2%",
                 borderRadius: "5px",
                 overflow: "hidden",
+                width: "0",
+                padding: "0",
               }}
             >
               <h1></h1>
@@ -255,10 +265,11 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                 padding: "2%",
                 borderRadius: "5px",
                 overflow: "hidden",
+                width: "0",
+                padding: "0",
               }}
             >
-              <h1></h1>
-              <p style={{ fontSize: "larger" }}>
+              <p style={{ fontSize: "30px" }}>
                 {" "}
                 <h1>Học thuộc lòng!</h1>
                 <p>
@@ -299,22 +310,27 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                 padding: "2%",
                 borderRadius: "5px",
                 overflow: "hidden",
+                width: "0",
+                padding: "0",
               }}
             >
               <h1></h1>
-              <p style={{ fontSize: "larger" }}>
+              <p style={{ fontSize: "30px" }}>
                 {" "}
                 <div style={{ padding: "5%" }}>
-                  <h5>
+                  <h1>
                     Thực hành lặp lại (có ghi nhận phản hồi-sửa chửa) là con
                     đường phải đi qua để đạt được kĩ năng. Hãy lấy kỉ luật và
                     cùng thực hành chung làm động lực.
-                  </h5>
+                  </h1>
                   <ul>
-                    <li>Mục tiêu chung cuộc là 10.000 lần nghe nói.</li>
                     <li>
-                      Mục tiêu mỗi buổi thực hành ít cũng phải trên 100 lần nghe
-                      nói. Một buổi thực hành không dành thời gian nghe-nói
+                      Mục tiêu tối thiểu để biết nghe nói là 10.000 lượt nghe
+                      nói.
+                    </li>
+                    <li>
+                      Mục tiêu mỗi buổi thực hành ít cũng phải trên 100 lượt
+                      nghe nói. Một buổi thực hành không dành thời gian nghe-nói
                       nhiều là một buổi chưa hiệu quả.
                     </li>
                     <li>
@@ -364,6 +380,8 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                 padding: "2%",
                 borderRadius: "5px",
                 overflow: "hidden",
+                width: "0",
+                padding: "0",
               }}
             >
               <h1>DRAFT!</h1>
@@ -393,6 +411,8 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                 padding: "2%",
                 borderRadius: "5px",
                 overflow: "hidden",
+                width: "0",
+                padding: "0",
               }}
             >
               {STTPractice && dataLearning !== null ? (
