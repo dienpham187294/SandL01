@@ -140,7 +140,21 @@ const Dictaphone = ({
     if (RegInput !== null) {
       setMessage(RegInput);
 
-      const objTR = findMostSimilarQuestion(RegInput, CMDlist);
+      let objTR_00 = findMostSimilarQuestion(RegInput, CMDlist);
+      let objTR_01 = findMostSimilarQuestion(
+        document.getElementById("interimRes").innerText,
+        CMDlist
+      );
+
+      let objTR = null;
+
+      if (objTR_00 !== null) {
+        objTR = objTR_00;
+      }
+      if (objTR_00 === null && objTR_01 !== null) {
+        objTR = objTR_01;
+      }
+
       if (objTR === null) {
         ReadMessage(
           ObjVoices,
