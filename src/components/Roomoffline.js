@@ -332,6 +332,7 @@ function filer_type_o_charactor(charactorSets, filerTypeSetsStringValue) {
     }
 
     let filerTypeSetsArrayValue = filerTypeSetsStringValue.split("zz");
+    console.log(filerTypeSetsArrayValue, "filerTypeSetsArrayValue");
     let res_after_filer = [];
     charactorSets.forEach((e, i) => {
       if (filerTypeSetsArrayValue.includes(e.type)) {
