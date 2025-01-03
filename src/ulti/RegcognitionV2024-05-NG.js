@@ -46,80 +46,81 @@ const Dictaphone = ({
     zIndex: 5,
   });
 
-  // useEffect(() => {
-  //   let cmd_get_f_CMDlist = [];
-  //   CMDlist.forEach((e0, i0) => {
-  //     e0.qs.forEach((e1, i1) => {
-  //       cmd_get_f_CMDlist.push(i0 + "-" + i1 + "-" + e1);
-  //     });
-  //   });
+  useEffect(() => {
+    let cmd_get_f_CMDlist = [];
+    CMDlist.forEach((e0, i0) => {
+      e0.qs.forEach((e1, i1) => {
+        cmd_get_f_CMDlist.push(i0 + "-" + i1 + "-" + e1);
+      });
+    });
 
-  //   commands = [
-  //     {
-  //       command: cmd_get_f_CMDlist,
-  //       callback: (command) => {
-  //         try {
-  //           let res = command.split("-");
+    commands = [
+      {
+        command: cmd_get_f_CMDlist,
+        callback: (command) => {
+          try {
+            let res = command.split("-");
+            const interimRes = document.getElementById("interimRes");
+            interimRes.innerText = JSON.stringify(res[2]);
+            // if (CMDlist[res[0]].aw !== undefined) {
+            //   ReadMessage(
+            //     ObjVoices,
+            //     getRandomElementFromArray(CMDlist[res[0]].aw),
+            //     GENDER,
+            //     CMDlist[res[0]].aw01
+            //   );
+            // }
+            // if (CMDlist[res[0]].action !== undefined) {
+            //   if (CMDlist[res[0]].action[0] === "WRONG") {
+            //     setScore((S) => S - 1);
+            //     setStartSTT(true);
+            //   } else {
+            //     addElementIfNotExist(CMDlist[res[0]].action[0]);
+            //   }
+            // }
 
-  //           if (CMDlist[res[0]].aw !== undefined) {
-  //             ReadMessage(
-  //               ObjVoices,
-  //               getRandomElementFromArray(CMDlist[res[0]].aw),
-  //               GENDER,
-  //               CMDlist[res[0]].aw01
-  //             );
-  //           }
-  //           if (CMDlist[res[0]].action !== undefined) {
-  //             if (CMDlist[res[0]].action[0] === "WRONG") {
-  //               setScore((S) => S - 1);
-  //               setStartSTT(true);
-  //             } else {
-  //               addElementIfNotExist(CMDlist[res[0]].action[0]);
-  //             }
-  //           }
-
-  //           setStyles((prevStyles) => ({
-  //             ...prevStyles,
-  //             opacity: 0,
-  //             height: "100px",
-  //             width: "300px",
-  //           }));
-  //           setTimeout(() => {
-  //             setGetSTTDictaphone(false);
-  //           }, 500);
-  //         } catch (error) {}
-  //       },
-  //       isFuzzyMatch: true,
-  //       fuzzyMatchingThreshold: 0.6,
-  //       bestMatchOnly: true,
-  //     },
-  //     // {
-  //     //   command: ["clear", "reset"],
-  //     //   callback: ({ resetTranscript }) => resetTranscript(),
-  //     // },
-  //     // {
-  //     //   command: "stop",
-  //     //   callback: stopListening,
-  //     // },
-  //     // {
-  //     //   command: [
-  //     //     "Can you say that again?",
-  //     //     "Can you repeat that?",
-  //     //     "Could you say it again, please?",
-  //     //   ],
-  //     //   callback: () => fn_speakAgain(),
-  //     // },
-  //     // {
-  //     //   command: [
-  //     //     "Can you speak slowly?",
-  //     //     "Can you say it slowly?",
-  //     //     "Speak slower, please.",
-  //     //     "Please repeat slowly.",
-  //     //   ],
-  //     //   callback: () => fn_speakSlowly(),
-  //     // },
-  //   ];
-  // }, [CMDlist]);
+            // setStyles((prevStyles) => ({
+            //   ...prevStyles,
+            //   opacity: 0,
+            //   height: "100px",
+            //   width: "300px",
+            // }));
+            // setTimeout(() => {
+            //   setGetSTTDictaphone(false);
+            // }, 500);
+          } catch (error) {}
+        },
+        isFuzzyMatch: true,
+        fuzzyMatchingThreshold: 0.65,
+        bestMatchOnly: true,
+      },
+      // {
+      //   command: ["clear", "reset"],
+      //   callback: ({ resetTranscript }) => resetTranscript(),
+      // },
+      // {
+      //   command: "stop",
+      //   callback: stopListening,
+      // },
+      // {
+      //   command: [
+      //     "Can you say that again?",
+      //     "Can you repeat that?",
+      //     "Could you say it again, please?",
+      //   ],
+      //   callback: () => fn_speakAgain(),
+      // },
+      // {
+      //   command: [
+      //     "Can you speak slowly?",
+      //     "Can you say it slowly?",
+      //     "Speak slower, please.",
+      //     "Please repeat slowly.",
+      //   ],
+      //   callback: () => fn_speakSlowly(),
+      // },
+    ];
+  }, [CMDlist]);
 
   useEffect(() => {
     setStyles((prevStyles) => ({
@@ -206,6 +207,9 @@ const Dictaphone = ({
         <i>Sử dụng nội dung vừa nói</i>
       </button>
       <h3>{transcript || <i>đang lắng nghe . . . </i>}</h3>
+      <h5>
+        <i id="interimRes"></i>
+      </h5>
       <button
         id="stopListenBTN"
         style={{ display: "none" }}
