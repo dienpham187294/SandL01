@@ -64,7 +64,7 @@ const Dictaphone = ({
           try {
             // let res = command.split("-");
             const interimRes = document.getElementById("interimRes");
-            interimRes.innerText = JSON.stringify(command);
+            interimRes.innerText = command;
             // if (CMDlist[res[0]].aw !== undefined) {
             //   ReadMessage(
             //     ObjVoices,
