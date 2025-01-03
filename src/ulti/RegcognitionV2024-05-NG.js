@@ -50,7 +50,9 @@ const Dictaphone = ({
     let cmd_get_f_CMDlist = [];
     CMDlist.forEach((e0, i0) => {
       e0.qs.forEach((e1, i1) => {
-        cmd_get_f_CMDlist.push(i0 + "-" + i1 + "-" + e1);
+        cmd_get_f_CMDlist.push(
+          // i0 + "-" + i1 + "-" + 
+          e1);
       });
     });
 
@@ -59,9 +61,9 @@ const Dictaphone = ({
         command: cmd_get_f_CMDlist,
         callback: (command) => {
           try {
-            let res = command.split("-");
+            // let res = command.split("-");
             const interimRes = document.getElementById("interimRes");
-            interimRes.innerText = JSON.stringify(res[2]);
+            interimRes.innerText = JSON.stringify(command);
             // if (CMDlist[res[0]].aw !== undefined) {
             //   ReadMessage(
             //     ObjVoices,
@@ -176,7 +178,7 @@ const Dictaphone = ({
         if (objTR.action !== undefined) {
           if (objTR.action[0] === "WRONG") {
             setScore((S) => S - 1);
-            setStartSTT(true);
+            // setStartSTT(true);
           } else {
             addElementIfNotExist(objTR.action[0]);
           }

@@ -331,7 +331,7 @@ function filer_type_o_charactor(charactorSets, filerTypeSetsStringValue) {
       return charactorSets;
     }
 
-    let filerTypeSetsArrayValue = filerTypeSetsStringValue.split("b");
+    let filerTypeSetsArrayValue = filerTypeSetsStringValue.split("zz");
     let res_after_filer = [];
     charactorSets.forEach((e, i) => {
       if (filerTypeSetsArrayValue.includes(e.type)) {
@@ -428,6 +428,7 @@ function parseStringToNumbers(input) {
     if (temp.length > 0) result.push(...temp);
 
     // Kiểm tra nếu mảng kết quả rỗng thì trả về null
+    console.log(result, "AAAAAAAAAAAAaaa");
     return result.length > 0 ? result : null;
   } catch (error) {
     // Trả về null nếu có lỗi
