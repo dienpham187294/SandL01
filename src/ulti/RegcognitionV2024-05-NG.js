@@ -51,8 +51,9 @@ const Dictaphone = ({
     CMDlist.forEach((e0, i0) => {
       e0.qs.forEach((e1, i1) => {
         cmd_get_f_CMDlist.push(
-          // i0 + "-" + i1 + "-" + 
-          e1);
+          // i0 + "-" + i1 + "-" +
+          e1
+        );
       });
     });
 
@@ -177,7 +178,7 @@ const Dictaphone = ({
         }
         if (objTR.action !== undefined) {
           if (objTR.action[0] === "WRONG") {
-            setScore((S) => S - 1);
+            setScore((S) => S - 1.5);
             // setStartSTT(true);
           } else {
             addElementIfNotExist(objTR.action[0]);
