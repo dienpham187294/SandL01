@@ -20,7 +20,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
   const [STTPractice, setSTTPractice] = useState(true);
   // const ObjREAD = useContext(ObjREADContext);
 
-  const [choose_a_st, setchoose_a_st] = useState("Hi how are you");
+  const [choose_a_st, setchoose_a_st] = useState(null);
   const [CMDlist, setCMDlist] = useState("Hi how are you");
   const navigate = useNavigate();
 
@@ -53,17 +53,22 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
     handle_div(params.get("id"));
     if (params.get("st")) {
       try {
-        setCMDlist(params.get("st").split("-").join(" "));
+        try {
+          setCMDlist(params.get("st").split("-").join(" "));
+        } catch (error) {}
       } catch (error) {}
     }
   }, [params]);
 
   useEffect(() => {
-    navigate(
-      `/learninghub/${id}?id=div_01_prac_ghep_am&&st=` +
-        choose_a_st.split(" ").join("-")
-    );
+    try {
+      navigate(
+        `/learninghub/${id}?id=div_01_prac_ghep_am&&st=` +
+          choose_a_st.split(" ").join("-")
+      );
+    } catch (error) {}
   }, [choose_a_st]);
+
   if (loading) {
     return <div>Loading...</div>;
   }

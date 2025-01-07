@@ -96,7 +96,7 @@ const ChatWidget = () => {
     <div style={containerStyle}>
       <div style={headerStyle} onClick={toggleChat}>
         Chat {unreadCount > 0 && <span>({unreadCount})</span>}
-        <span>{isOpen ? "▼" : "▲"}</span>
+        <span>{isOpen ? "▼" : "▲"}</span>{" "}
       </div>
       {isOpen && (
         <>
@@ -124,6 +124,7 @@ function handle_cmd_f_admin(msg, navigate, setIsOpen) {
   if (!msg.text.includes("##cmd")) {
     return;
   }
+
   if (msg.text.includes("_openchat")) {
     setIsOpen(true);
   }
