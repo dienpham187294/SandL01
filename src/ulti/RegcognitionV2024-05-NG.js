@@ -224,7 +224,7 @@ const Dictaphone = ({
         {/* <i className="bi bi-mic-fill mr-1"></i> */}
         <i>Sử dụng nội dung vừa nói (1) và (2)</i>
       </button>
-      <h3> (1){transcript || <i>đang lắng nghe . . . </i>}</h3>
+      <h3> (1){transcript || <i>Hãy nói gì đó . . . </i>}</h3>
       <h5 style={{ color: "blue" }}>
         {" "}
         (2)
@@ -238,7 +238,30 @@ const Dictaphone = ({
         }}
       >
         StopListen
-      </button>
+      </button>{" "}
+      <hr />
+      <i> Chỉ cần (1) hoặc (2) đúng là đã đủ chuẩn thực hành.</i>
+      <br />
+      ***
+      <br />
+      <i>
+        - Đọc chuẩn (1) sẽ khó hơn, là cái chuẩn chúng ta hướng đến trong dài
+        hạn, yêu cầu rèn luyện lâu dài.
+      </i>{" "}
+      <br />
+      <b>- Tuy nhiên đọc chuẩn (2) đã đủ để thực hành.</b> <br />
+      <i>
+        - Thực hành xử lý 1 bài tổng thể nhanh chóng trong thời gian ngắn quan
+        trọng hơn là chuẩn chỉnh 100% từng câu từng chữ.
+      </i>
+      <br />
+      <i>
+        - Rèn luyện là quá trình lâu dài, không cần phải hoàn hảo ngay từ đầu.
+        Trong quá trình rèn luyện, chúng ta sẽ nhận phản hồi và chỉnh sửa dần
+        dần.
+      </i>{" "}
+      <hr />
+      Chúc các anh chị, các bạn được nhiều lợi lạc.
     </div>
   );
 };

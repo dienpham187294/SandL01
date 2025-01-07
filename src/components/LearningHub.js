@@ -20,8 +20,8 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
   const [STTPractice, setSTTPractice] = useState(true);
   // const ObjREAD = useContext(ObjREADContext);
 
-  const [choose_a_st, setchoose_a_st] = useState("");
-
+  const [choose_a_st, setchoose_a_st] = useState("Hi how are you");
+  const [CMDlist, setCMDlist] = useState("Hi how are you");
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -50,10 +50,20 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
 
   useEffect(() => {
     // alert(params.id);
-
     handle_div(params.get("id"));
+    if (params.get("st")) {
+      try {
+        setCMDlist(params.get("st").split("-").join(" "));
+      } catch (error) {}
+    }
   }, [params]);
 
+  useEffect(() => {
+    navigate(
+      `/learninghub/${id}?id=div_01_prac_ghep_am&&st=` +
+        choose_a_st.split(" ").join("-")
+    );
+  }, [choose_a_st]);
   if (loading) {
     return <div>Loading...</div>;
   }
@@ -215,7 +225,8 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                   ></textarea>
                 </div>
                 <div className="col-6">
-                  <Dictaphone />
+                  {CMDlist}
+                  <Dictaphone CMDlist={CMDlist} />
                 </div>
               </div>
 

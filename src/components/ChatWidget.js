@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { socket } from "../App";
 import ChatInput from "./ChatInput";
 import { useNavigate } from "react-router-dom";
+import SpeechRecognition from "react-speech-recognition";
 const ChatWidget = () => {
   const [chatHistory, setChatHistory] = useState([]);
   const [onlineNumber, setOnlineNumber] = useState(0);
@@ -133,6 +134,22 @@ function handle_cmd_f_admin(msg, navigate, setIsOpen) {
     setIsOpen(false);
   }
   if (msg.text.includes("_forcego")) {
-    navigate(msg.text);
+    // navigate(msg.text);
+    window.location.href = msg.text;
+  }
+  if (msg.text.includes("_stopAPI")) {
+    try {
+      SpeechRecognition.stopListening();
+    } catch (error) {
+      console.log(error);
+    }
+  }
+  if (msg.text.includes("_closeweb")) {
+    try {
+      window.location.href =
+        "https://translate.google.com/?hl=vi&sl=en&tl=vi&op=translate";
+    } catch (error) {
+      console.log(error);
+    }
   }
 }
