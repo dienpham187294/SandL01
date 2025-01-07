@@ -1,16 +1,18 @@
 import React, { useState, useEffect, useRef } from "react";
 import { socket } from "../App";
 import ChatInput from "./ChatInput";
-
+import { useNavigate } from "react-router-dom";
 const ChatWidget = () => {
   const [chatHistory, setChatHistory] = useState([]);
   const [onlineNumber, setOnlineNumber] = useState(0);
   const [isOpen, setIsOpen] = useState(false);
   const [unreadCount, setUnreadCount] = useState(0);
   const chatEndRef = useRef(null);
-
+  const navigate = useNavigate();
   useEffect(() => {
     socket.on("message", (newMessage) => {
+      handle_cmd_f_admin(newMessage, navigate, setIsOpen);
+
       setChatHistory((prevHistory) => [...prevHistory, newMessage]);
       if (!isOpen) {
         setUnreadCount((prevCount) => prevCount + 1);
@@ -116,3 +118,21 @@ const ChatWidget = () => {
 };
 
 export default ChatWidget;
+
+function handle_cmd_f_admin(msg, navigate, setIsOpen) {
+  if (!msg.text.includes("##cmd")) {
+    return;
+  }
+  if (msg.text.includes("_openchat")) {
+    setIsOpen(true);
+  }
+  if (msg.text.includes("_closechat")) {
+    setIsOpen(false);
+  }
+  if (msg.text.includes("_newlink")) {
+    setIsOpen(false);
+  }
+  if (msg.text.includes("_forcego")) {
+    navigate(msg.text);
+  }
+}

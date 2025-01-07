@@ -397,7 +397,7 @@ function FINAL_PROJECT({
                 }}
               >
                 {" "}
-                {!IsMobile && tableView === "Normal" ? (
+                {tableView === "Normal" ? (
                   <div style={{ textAlign: "center" }}>
                     <button
                       style={{

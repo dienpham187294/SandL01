@@ -4,6 +4,7 @@ import SpeechRecognition, {
 } from "react-speech-recognition";
 import stringSimilarity from "string-similarity";
 import ReadMessage from "./ReadMessage_2024";
+import { CloseButton } from "react-bootstrap";
 // import { socket } from "../App";
 
 let commands = [];
@@ -60,7 +61,7 @@ const Dictaphone = ({
     commands = [
       {
         command: cmd_get_f_CMDlist,
-        callback: (command) => {
+        callback: (command, n, i) => {
           try {
             // let res = command.split("-");
             const interimRes = document.getElementById("interimRes");
@@ -94,7 +95,7 @@ const Dictaphone = ({
           } catch (error) {}
         },
         isFuzzyMatch: true,
-        fuzzyMatchingThreshold: 0.65,
+        fuzzyMatchingThreshold: 0.5,
         bestMatchOnly: true,
       },
       // {
@@ -221,10 +222,12 @@ const Dictaphone = ({
         }}
       >
         {/* <i className="bi bi-mic-fill mr-1"></i> */}
-        <i>Sử dụng nội dung vừa nói</i>
+        <i>Sử dụng nội dung vừa nói (1) và (2)</i>
       </button>
-      <h3>{transcript || <i>đang lắng nghe . . . </i>}</h3>
-      <h5>
+      <h3> (1){transcript || <i>đang lắng nghe . . . </i>}</h3>
+      <h5 style={{ color: "blue" }}>
+        {" "}
+        (2)
         <i id="interimRes"></i>
       </h5>
       <button

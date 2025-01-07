@@ -31,28 +31,31 @@ const Dictaphone = ({}) => {
             resetTranscript();
           }}
         >
-          Clear
+          Xóa nội dung
         </button>{" "}
         <button
-          className="btn btn-info"
+          id="stopListenBTN"
+          className="btn btn-danger m-1"
           onClick={() => {
             stopListening();
           }}
         >
-          Stop
+          Tắt
         </button>{" "}
         <button
-          className="btn btn-info"
+          className="btn btn-primary m-1"
           onClick={() => {
             startListening();
           }}
         >
-          Start
+          Bắt đầu
         </button>
       </div>
       <div className="col-8">
         {" "}
-        <i>{listening ? "đang lắng nghe . . ." : null}</i>
+        <h5 style={{ color: "blue" }}>
+          {listening ? "Đang bật - Hãy nói . . ." : "Đang tắt."}
+        </h5>
         <h1 style={{}}>{transcript}</h1>{" "}
       </div>
     </div>

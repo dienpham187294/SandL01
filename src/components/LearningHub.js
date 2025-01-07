@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useContext } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams, useNavigate, useLocation } from "react-router-dom";
 import Lobby from "./Lobby";
 import TableHD from "./pracPages/B101_FINAL_TABLE-HD";
 import TableTB from "./pracPages/B101_FINAL_TABLE-TB-NotAdd";
@@ -11,6 +11,8 @@ const colors = ["red", "orange", "black", "green", "blue", "indigo", "violet"];
 
 const LearningHub = ({ setSttRoom, STTconnectFN }) => {
   const { id } = useParams();
+  const locationSet = useLocation();
+  const params = new URLSearchParams(locationSet.search);
   const [dataLearning, setDataLearning] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [loading, setLoading] = useState(true);
@@ -45,6 +47,12 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
 
     fetchTitle();
   }, [id]);
+
+  useEffect(() => {
+    // alert(params.id);
+
+    handle_div(params.get("id"));
+  }, [params]);
 
   if (loading) {
     return <div>Loading...</div>;
@@ -81,29 +89,8 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
           <select
             onChange={(e) => {
               // Tìm tất cả các div có class 'divlearnHub'
-              const divs = document.querySelectorAll(".divlearnHub");
-
-              // Chuyển tất cả các div này thành flex: 0
-              divs.forEach((div) => {
-                div.style.flex = "0";
-                div.style.opacity = "0";
-                div.style.width = "0px";
-                div.style.padding = "0px";
-                div.style.pointerEvents = "none";
-              });
-
-              // Tìm div có id bằng giá trị của e.target.value
-              const targetDiv = document.getElementById(e.target.value);
-              if (targetDiv) {
-                // Chuyển flex của div này thành 8
-                targetDiv.style.opacity = "1";
-                targetDiv.style.flex = "8";
-                targetDiv.style.width = "80wh";
-                targetDiv.style.padding = "24px";
-                targetDiv.style.pointerEvents = "auto";
-              } else {
-                console.warn("No div found with the id:", e.target.value);
-              }
+              navigate(`/learninghub/${id}?id=` + e.target.value);
+              // handle_div);
             }}
           >
             {" "}
@@ -182,50 +169,56 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                 padding: "0",
               }}
             >
-              {" "}
-              {generateBootstrapList(
-                dataLearning[currentIndex]?.ListenList,
-                choose_a_st,
-                setchoose_a_st
-              )}{" "}
-              <hr />
-              <h5>Đoán - Tra - Tìm - Ghép</h5>
-              <h1>{choose_a_st}</h1>{" "}
-              <button
-                onClick={() => {
-                  try {
-                    const textArea =
-                      document.getElementById("clearClassForTable");
-                    if (textArea) {
-                      textArea.value = ""; // Đặt giá trị rỗng cho textarea
-                    }
-                  } catch (error) {
-                    console.error("Error clearing input values:", error);
-                  }
-                }}
-                style={{ marginLeft: "100px" }}
-                className="btn btn-primary me-3"
-              >
-                Clear Table
-              </button>
-              <hr />
-              <textarea
-                style={{
-                  width: "90%",
-                  height: "300px",
-                  fontSize: "36px",
-                  fontWeight: "700",
-                  color: "#ffffff",
-                  backgroundColor: "#1e90ff",
-                  cursor: "pointer",
-                  marginLeft: "80px",
-                  zIndex: 100,
-                  textDecoration: "underline",
-                }}
-                id="clearClassForTable"
-              ></textarea>
-              <hr />
-              <Dictaphone />
+              <div className="row">
+                <div className="col-6">
+                  {" "}
+                  {generateBootstrapList(
+                    dataLearning[currentIndex]?.ListenList,
+                    choose_a_st,
+                    setchoose_a_st
+                  )}{" "}
+                  <hr />
+                  <h5>Đoán - Tra - Tìm - Ghép</h5>
+                  <h1>{choose_a_st}</h1>{" "}
+                  <button
+                    onClick={() => {
+                      try {
+                        const textArea =
+                          document.getElementById("clearClassForTable");
+                        if (textArea) {
+                          textArea.value = ""; // Đặt giá trị rỗng cho textarea
+                        }
+                      } catch (error) {
+                        console.error("Error clearing input values:", error);
+                      }
+                    }}
+                    style={{ marginLeft: "100px" }}
+                    className="btn btn-primary me-3"
+                  >
+                    Clear Table
+                  </button>
+                  <hr />
+                  <textarea
+                    style={{
+                      width: "90%",
+                      height: "300px",
+                      fontSize: "36px",
+                      fontWeight: "700",
+                      color: "#ffffff",
+                      backgroundColor: "#1e90ff",
+                      cursor: "pointer",
+                      marginLeft: "80px",
+                      zIndex: 100,
+                      textDecoration: "underline",
+                    }}
+                    id="clearClassForTable"
+                  ></textarea>
+                </div>
+                <div className="col-6">
+                  <Dictaphone />
+                </div>
+              </div>
+
               {/* <button
                 className="btn btn-danger"
                 onClick={() => {
@@ -388,23 +381,63 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                 padding: "0",
               }}
             >
-              <h1>DRAFT!</h1>
-
-              <textarea
-                style={{
-                  width: "90%",
-                  height: "800px",
-                  fontSize: "36px",
-                  fontWeight: "700",
-                  color: "#ffffff",
-                  backgroundColor: "#1e90ff",
-                  cursor: "pointer",
-                  marginLeft: "60px",
-                  padding: "10px",
-                  zIndex: 100,
-                  textDecoration: "underline",
-                }}
-              ></textarea>
+              <h1>Nháp!</h1>
+              <div className="row">
+                <div className="col-4">
+                  {" "}
+                  <textarea
+                    style={{
+                      width: "90%",
+                      height: "800px",
+                      fontSize: "36px",
+                      fontWeight: "700",
+                      color: "#ffffff",
+                      backgroundColor: "#1e90ff",
+                      cursor: "pointer",
+                      marginLeft: "60px",
+                      padding: "10px",
+                      zIndex: 100,
+                      textDecoration: "underline",
+                    }}
+                  ></textarea>
+                </div>{" "}
+                <div className="col-4">
+                  {" "}
+                  <textarea
+                    style={{
+                      width: "90%",
+                      height: "800px",
+                      fontSize: "36px",
+                      fontWeight: "700",
+                      color: "#ffffff",
+                      backgroundColor: "#1e90ff",
+                      cursor: "pointer",
+                      marginLeft: "60px",
+                      padding: "10px",
+                      zIndex: 100,
+                      textDecoration: "underline",
+                    }}
+                  ></textarea>
+                </div>{" "}
+                <div className="col-4">
+                  {" "}
+                  <textarea
+                    style={{
+                      width: "90%",
+                      height: "800px",
+                      fontSize: "36px",
+                      fontWeight: "700",
+                      color: "#ffffff",
+                      backgroundColor: "#1e90ff",
+                      cursor: "pointer",
+                      marginLeft: "60px",
+                      padding: "10px",
+                      zIndex: 100,
+                      textDecoration: "underline",
+                    }}
+                  ></textarea>
+                </div>
+              </div>
             </div>
             <div
               id="div_01_prac_vaothuchanh"
@@ -751,4 +784,31 @@ function convertToRoman(num) {
     }
   }
   return roman;
+}
+function handle_div(id) {
+  if (!id) {
+    id = "div_01_content_table_to_practice";
+  }
+  const divs = document.querySelectorAll(".divlearnHub");
+  // Chuyển tất cả các div này thành flex: 0
+  divs.forEach((div) => {
+    div.style.flex = "0";
+    div.style.opacity = "0";
+    div.style.width = "0px";
+    div.style.padding = "0px";
+    div.style.pointerEvents = "none";
+  });
+
+  // Tìm div có id bằng giá trị của e.target.value
+  const targetDiv = document.getElementById(id);
+  if (targetDiv) {
+    // Chuyển flex của div này thành 8
+    targetDiv.style.opacity = "1";
+    targetDiv.style.flex = "8";
+    targetDiv.style.width = "80wh";
+    targetDiv.style.padding = "24px";
+    targetDiv.style.pointerEvents = "auto";
+  } else {
+    console.warn("No div found with the id:", id);
+  }
 }

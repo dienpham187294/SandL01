@@ -101,6 +101,12 @@ function checkFunctionExecution(functionName) {
 // Main function to read messages
 
 export default async function ReadMessage(ObjVoices, text, voiceNum, audio) {
+  
+  if (!checkFunctionExecution("ReadMessage")) {
+    console.warn("ReadMessage called too frequently.");
+    return;
+  }
+
   if (audio) {
     if (!Array.isArray(audio) || audio.length === 0) {
     } else {
@@ -120,10 +126,6 @@ export default async function ReadMessage(ObjVoices, text, voiceNum, audio) {
 
 async function ReadMessage_02(ObjVoices, text, voiceNum, audio) {
   if (text === null) {
-    return;
-  }
-  if (!checkFunctionExecution("ReadMessage")) {
-    console.warn("ReadMessage called too frequently.");
     return;
   }
 
