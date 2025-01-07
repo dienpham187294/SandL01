@@ -228,7 +228,7 @@ const Dictaphone = ({
       <h5 style={{ color: "blue" }}>
         {" "}
         (2)
-        <i id="interimRes"></i>
+        <i>{interimTranscript}</i> <i id="interimRes"></i>
       </h5>
       <button
         id="stopListenBTN"

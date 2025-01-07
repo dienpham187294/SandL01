@@ -84,7 +84,7 @@ const Dictaphone = ({ CMDlist }) => {
         <h5 style={{ color: "blue" }}>
           {" "}
           (2)
-          <i id="interimRes"></i>
+          <i>{interimTranscript}</i> <i id="interimRes"></i>
         </h5>
         <hr />
         <i> Chỉ cần (1) hoặc (2) đúng là đã đủ chuẩn thực hành.</i>
