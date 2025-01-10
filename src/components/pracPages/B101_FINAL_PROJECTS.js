@@ -648,6 +648,22 @@ function FINAL_PROJECT({
                     )}
                   </div>
                 ) : null}
+                <hr />
+                {playData.hint ? (
+                  <div>
+                    *Gợi ý:
+                    <br />
+                    {isImageUrl(playData.hint) ? (
+                      <img
+                        src={playData.hint}
+                        alt={`element-hint`}
+                        style={imageStyle}
+                      />
+                    ) : (
+                      playData.hint
+                    )}
+                  </div>
+                ) : null}
               </div>
             </div>
             <div className="col-3">
@@ -741,3 +757,11 @@ function fn_f_allTable_t_tableOfContent(input) {
 
   return resSets;
 }
+
+const imageStyle = {
+  maxWidth: "150px",
+  maxHeight: "150px",
+  objectFit: "cover",
+  borderRadius: "4px",
+  border: "2px solid green",
+};

@@ -43,13 +43,13 @@ const prac_to_work = [
 ];
 
 const pracEnSets = [
-  // {
-  //   root: "learninghub",
-  //   preName: "Khóa Sơ cấp:",
-  //   name: "Cùng thực hành nghe nói 10 chủ đề giao tiếp cơ bản",
-  //   link: "elementary-a1-lesson-plan",
-  //   id: "socapI",
-  // },
+  {
+    root: "learninghub",
+    preName: "TA01:",
+    name: "Tiếng anh lớp 1 - NXB Giáo dục",
+    link: "ta_01_nxb_giaoduc",
+    id: "socapI",
+  },
   {
     root: "learninghub",
     preName: "Khóa Sơ cấp:",

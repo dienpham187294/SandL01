@@ -31,9 +31,9 @@ function playAudio(filename, disableButton, enableButton, onFail) {
       enableButton(); // Kích hoạt lại nút
       console.warn(`Audio file not supported or not found: ${audioPath}`);
       audio.remove(); // Giải phóng bộ nhớ
-      if (typeof onFail === "function") {
-        onFail(); // Gọi callback khi lỗi
-      }
+      // if (typeof onFail === "function") {
+      //   onFail(); // Gọi callback khi lỗi
+      // }
     });
 
     // Thử phát audio
@@ -101,7 +101,6 @@ function checkFunctionExecution(functionName) {
 // Main function to read messages
 
 export default async function ReadMessage(ObjVoices, text, voiceNum, audio) {
-  
   if (!checkFunctionExecution("ReadMessage")) {
     console.warn("ReadMessage called too frequently.");
     return;
@@ -117,14 +116,15 @@ export default async function ReadMessage(ObjVoices, text, voiceNum, audio) {
         });
         return;
       } catch (error) {
-        alert(1);
         console.log(error);
       }
     }
+  } else {
+    ReadMessage_02(ObjVoices, text, voiceNum);
   }
 }
 
-async function ReadMessage_02(ObjVoices, text, voiceNum, audio) {
+async function ReadMessage_02(ObjVoices, text, voiceNum) {
   if (text === null) {
     return;
   }

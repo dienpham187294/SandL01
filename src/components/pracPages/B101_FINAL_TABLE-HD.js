@@ -5,7 +5,7 @@ function TableHD({ data, HINT, fnOnclick }) {
     const colorMapping = {
       X: "green",
       XX: "dodgerblue",
-      [HINT]: "red",
+      [HINT+"#hint"]: "red",
       MM: "purple",
       XXX: "black",
     };
@@ -51,6 +51,12 @@ function TableHD({ data, HINT, fnOnclick }) {
                         borderRadius: "5px",
                       }}
                     ></span>
+                  ) : isImageUrl(row[header]) ? (
+                    <img
+                      src={row[header]}
+                      alt={`element-${rowIndex}`}
+                      style={imageStyle}
+                    />
                   ) : (
                     row[header]
                   )}
@@ -67,3 +73,15 @@ function TableHD({ data, HINT, fnOnclick }) {
 }
 
 export default TableHD;
+
+const isImageUrl = (url) => {
+  return /\.(jpeg|jpg|gif|png|webp|svg)$/.test(url);
+};
+
+const imageStyle = {
+  maxWidth: "150px",
+  maxHeight: "150px",
+  objectFit: "cover",
+  borderRadius: "4px",
+  border: "2px solid green",
+};

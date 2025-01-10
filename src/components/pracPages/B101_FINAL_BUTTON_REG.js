@@ -6,6 +6,7 @@ const RegButton = ({ setGetSTTDictaphone }) => {
     // top: "16%",
     // right: "7%",
     padding: "10px 20px",
+    margin: "20px",
     fontSize: "1.5rem",
     color: "white",
     backgroundColor: "red",
