@@ -6,7 +6,7 @@ import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import NewListHref from "./A1_Header_href_EslConversation.json";
 import HrefImages from "./A1_Header_href_WithImages.json";
 import HrefLearnonyoutube from "./A1_Header_href_Learnonyoutube.json";
-
+import Move from "./A0_move";
 const coreKnowledgeSets = [
   {
     root: "coreknowledge",
@@ -185,7 +185,7 @@ export default function Header({ sttRoom, STTconnectFN }) {
                 null
               )}
             </Nav>
-            {/* <Move /> */}
+            <Move />
           </Navbar.Collapse>
         </Navbar>
       </div>
