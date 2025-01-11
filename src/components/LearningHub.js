@@ -194,8 +194,8 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                   )}{" "}
                   <hr />
                   <h5>Đoán - Tra - Tìm - Ghép</h5>
-                  <h4>U - E - O - A - i - Ơ</h4>
-                  <h1>{choose_a_st}</h1>{" "}
+                  <h4 style={{ color: "blue" }}>U - E - O - A - i - Ơ</h4>
+                  <h1>{choose_a_st ? choose_a_st : CMDlist}</h1>{" "}
                   <button
                     onClick={() => {
                       try {
