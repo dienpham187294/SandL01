@@ -2,6 +2,7 @@
 import $ from "jquery";
 import { useState, useEffect } from "react";
 import T0_linkApi from "../ulti/T0_linkApi";
+import AB1 from "./moveLink/AB1.json";
 // import PickRandom from "../../util/commonFunction/fnRelateToArr/PickRandom";
 // console.log(T0_linkApi);
 
@@ -39,6 +40,18 @@ export default function Move() {
         n = false;
         $(".bai-an").show();
       }
+
+      AB1.forEach((e) => {
+        if (getCode === e.linkCode) {
+          n = false;
+          let link = objLink.basic.split(objLink.replaceCode).join(e.link);
+          $("#divMove").html(link);
+          $("#btnMove")[0].click();
+          $("#divMove").html(null);
+          return;
+        }
+      });
+
       if (getCode.slice(0, 2) === "QL") {
         n = false;
         let link = objLink.otherTab
@@ -81,31 +94,31 @@ export default function Move() {
         $("#divMove").html(null);
         return;
       }
-      if (getCode.slice(0, 6) === "BIPA01") {
-        n = false;
-        let link = objLink.basic.split(objLink.replaceCode).join("/pro-a1");
-        $("#divMove").html(link);
-        $("#btnMove")[0].click();
-        $("#divMove").html(null);
-        return;
-      }
-      if (getCode.slice(0, 1) === "I") {
-        n = false;
-        let iValue = objLink.origin + getCode + "?t=" + getTime;
-        let link = objLink.basic.split(objLink.replaceCode).join(iValue);
-        $("#divMove").html(link);
-        $("#btnMove")[0].click();
-        $("#divMove").html(null);
-      }
+      // if (getCode.slice(0, 6) === "BIPA01") {
+      //   n = false;
+      //   let link = objLink.basic.split(objLink.replaceCode).join("/pro-a1");
+      //   $("#divMove").html(link);
+      //   $("#btnMove")[0].click();
+      //   $("#divMove").html(null);
+      //   return;
+      // }
+      // if (getCode.slice(0, 1) === "I") {
+      //   n = false;
+      //   let iValue = objLink.origin + getCode + "?t=" + getTime;
+      //   let link = objLink.basic.split(objLink.replaceCode).join(iValue);
+      //   $("#divMove").html(link);
+      //   $("#btnMove")[0].click();
+      //   $("#divMove").html(null);
+      // }
 
-      if (getCode.slice(0, 1) === "T") {
-        n = false;
-        let iValue = objLink.T + getCode + "?t=" + getTime;
-        let link = objLink.basic.split(objLink.replaceCode).join(iValue);
-        $("#divMove").html(link);
-        $("#btnMove")[0].click();
-        $("#divMove").html(null);
-      }
+      // if (getCode.slice(0, 1) === "T") {
+      //   n = false;
+      //   let iValue = objLink.T + getCode + "?t=" + getTime;
+      //   let link = objLink.basic.split(objLink.replaceCode).join(iValue);
+      //   $("#divMove").html(link);
+      //   $("#btnMove")[0].click();
+      //   $("#divMove").html(null);
+      // }
 
       if (getCode.slice(0, 1) === "V") {
         n = false;
