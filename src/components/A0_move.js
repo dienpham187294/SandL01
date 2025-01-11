@@ -41,6 +41,19 @@ export default function Move() {
         $(".bai-an").show();
       }
 
+      let linkcode_from_chat_sets = getStorageLink();
+
+      linkcode_from_chat_sets.forEach((e) => {
+        if (getCode === e.linkCode) {
+          n = false;
+          let link = objLink.basic.split(objLink.replaceCode).join(e.link);
+          $("#divMove").html(link);
+          $("#btnMove")[0].click();
+          $("#divMove").html(null);
+          return;
+        }
+      });
+
       AB1.forEach((e) => {
         if (getCode === e.linkCode) {
           n = false;
@@ -177,3 +190,18 @@ export default function Move() {
 //   let qString = queryString.parse(window.location.search)
 
 // }, [])
+
+function getStorageLink() {
+  // Lấy dữ liệu từ LocalStorage
+  let storedData = JSON.parse(localStorage.getItem("links"));
+  if (!storedData) return [];
+
+  // Lọc các đối tượng đã hết hạn và xóa chúng
+  const currentTime = new Date().getTime();
+  storedData = storedData.filter((item) => item.expirationTime > currentTime);
+
+  // Lưu lại các đối tượng còn hiệu lực vào LocalStorage
+  localStorage.setItem("links", JSON.stringify(storedData));
+
+  return storedData;
+}

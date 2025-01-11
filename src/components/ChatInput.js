@@ -11,13 +11,7 @@ const ChatInput = () => {
         hour: "2-digit",
         minute: "2-digit",
       });
-
-      if (message.includes("##cmd_getlink")) {
-        socket.emit("message", { text: window.location.href, time: timestamp });
-      } else {
-        socket.emit("message", { text: message, time: timestamp });
-      }
-
+      socket.emit("message", { text: message, time: timestamp });
       setMessage("");
     }
   };

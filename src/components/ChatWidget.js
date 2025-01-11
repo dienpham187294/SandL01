@@ -3,6 +3,7 @@ import { socket } from "../App";
 import ChatInput from "./ChatInput";
 import { useNavigate } from "react-router-dom";
 import SpeechRecognition from "react-speech-recognition";
+
 const ChatWidget = () => {
   const [chatHistory, setChatHistory] = useState([]);
   const [onlineNumber, setOnlineNumber] = useState(0);
@@ -23,6 +24,18 @@ const ChatWidget = () => {
       setOnlineNumber(newNumber);
     });
     socket.on("messageHistory", (history) => {
+      console.log(history);
+      history.forEach((e) => {
+        try {
+          if (
+            e.text.includes("##cmd_linkcode_") ||
+            e.text.includes("##cmd_removelinkcode")
+          ) {
+            handle_cmd_f_admin(e.text, navigate, setIsOpen);
+          }
+        } catch (error) {}
+      });
+
       setChatHistory(history);
     });
 
@@ -153,4 +166,48 @@ function handle_cmd_f_admin(msg, navigate, setIsOpen) {
       console.log(error);
     }
   }
+
+  if (msg.text.includes("##cmd_linkcode_")) {
+    try {
+      let input = msg.text.split("##cmd_linkcode_");
+      storeLink({ linkCode: input[1].toUpperCase(), link: input[0] });
+    } catch (error) {
+      console.log(error);
+    }
+  }
+  if (msg.text.includes("##cmd_removelinkcode")) {
+    try {
+      localStorage.removeItem("links");
+    } catch (error) {
+      console.log(error);
+    }
+  }
+}
+
+function storeLink(data) {
+  // Lấy dữ liệu hiện có từ LocalStorage
+  let storedData = JSON.parse(localStorage.getItem("links"));
+
+  if (!storedData) {
+    storedData = [];
+  }
+
+  // Thêm thời gian hết hạn (5 giờ từ lúc cập nhật)
+  const expirationTime = new Date().getTime() + 5 * 60 * 60 * 1000; // 5 giờ tính bằng mili giây
+  data.expirationTime = expirationTime;
+
+  // Tìm đối tượng có linkCode trùng và thay thế
+  const existingIndex = storedData.findIndex(
+    (item) => item.linkCode === data.linkCode
+  );
+  if (existingIndex !== -1) {
+    // Thay thế đối tượng có linkCode trùng
+    storedData[existingIndex] = data;
+  } else {
+    // Thêm mới đối tượng
+    storedData.push(data);
+  }
+
+  // Lưu lại dữ liệu vào LocalStorage
+  localStorage.setItem("links", JSON.stringify(storedData));
 }

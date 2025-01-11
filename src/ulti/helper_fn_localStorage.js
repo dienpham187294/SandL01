@@ -19,4 +19,8 @@ function getNumberFromLocalStorage(id) {
   return data !== null ? parseFloat(data) : null; // Chuyển chuỗi về số
 }
 
-export default { saveNumberToLocalStorage, getNumberFromLocalStorage };
+
+export default {
+  saveNumberToLocalStorage,
+  getNumberFromLocalStorage,
+};
