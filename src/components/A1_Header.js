@@ -180,6 +180,12 @@ export default function Header({ sttRoom, STTconnectFN }) {
                     link: "",
                     preName: "",
                   },
+                  {
+                    name: "Các đường dẫn bài học hôm nay",
+                    root: "link",
+                    link: "",
+                    preName: "",
+                  },
                 ],
                 { name: "name", link: "link" },
                 null

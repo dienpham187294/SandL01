@@ -7,6 +7,7 @@ import TableTB from "./pracPages/B101_FINAL_TABLE-TB-NotAdd";
 // import { ObjREADContext } from "../App";
 import Dictaphone from "../ulti/RegcognitionV2024-05-NG_FOR_TEACHING";
 import NguyenTacghepam from "./A1_NguyentacGhepam";
+import ReadMessage from "../ulti/ReadMessage_2024";
 const colors = ["red", "orange", "black", "green", "blue", "indigo", "violet"];
 
 const LearningHub = ({ setSttRoom, STTconnectFN }) => {
@@ -160,7 +161,13 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                 data={dataLearning[currentIndex]?.HDTB?.HD}
                 HINT={"HINT"}
                 fnOnclick={(e) => {
-                  setchoose_a_st(e);
+                  try {
+                    navigate(
+                      `/learninghub/${id}?id=div_01_prac_ghep_am&&st=` +
+                        e.split(" ").join("-")
+                    );
+                  } catch (error) {}
+                  // setchoose_a_st(e);
                 }}
               />{" "}
               {dataLearning !== null && (
@@ -186,7 +193,16 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
             >
               <div className="row">
                 <div className="col-6">
-                  {" "}
+                  <button
+                    onClick={() => {
+                      navigate(
+                        `/learninghub/${id}?id=div_01_content_table_to_practice`
+                      );
+                    }}
+                    className="btn btn-info"
+                  >
+                    Quay lại bảng
+                  </button>
                   {generateBootstrapList(
                     dataLearning[currentIndex]?.ListenList,
                     choose_a_st,
@@ -223,7 +239,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                       color: "#ffffff",
                       backgroundColor: "#1e90ff",
                       cursor: "pointer",
-                      marginLeft: "80px",
+                      marginLeft: "40px",
                       zIndex: 100,
                       textDecoration: "underline",
                     }}
@@ -233,6 +249,34 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                 <div className="col-6">
                   {CMDlist}
                   <Dictaphone CMDlist={CMDlist} />
+                  <hr />
+                  <button
+                    className="btn btn-danger"
+                    onClick={() => {
+                      ReadMessage(
+                        { imale: 0, ifemale: 2 },
+                        "Sorry, what did you say?",
+                        1,
+                        [{ id: "sorryFemale" }]
+                      );
+                    }}
+                  >
+                    Kiểm tra thử âm thanh
+                  </button>
+                  <i>
+                    (Có nghe âm anh máy nói "Sorry, what do you mean?" là ổn)
+                  </i>
+                  <br /> <br />
+                  <button
+                    className="btn btn-danger"
+                    onClick={() => {
+                      kiemtramic();
+                    }}
+                  >
+                    Kiểm tra mic
+                  </button>
+                  <br />
+                  <i id="kiemtramicro"></i> <hr />
                 </div>
               </div>
 
@@ -827,5 +871,53 @@ function handle_div(id) {
     targetDiv.style.pointerEvents = "auto";
   } else {
     console.warn("No div found with the id:", id);
+  }
+}
+
+function kiemtramic() {
+  try {
+    // Kiểm tra trạng thái quyền truy cập micro
+    navigator.permissions
+      .query({ name: "microphone" })
+      .then(function (permissionStatus) {
+        if (permissionStatus.state === "denied") {
+          // Nếu quyền bị từ chối trước đó, yêu cầu lại quyền
+          document.getElementById("kiemtramicro").innerText =
+            "Quyền truy cập micro đã bị từ chối trước đó. Vui lòng cấp quyền lại!";
+
+          // Yêu cầu lại quyền truy cập micro
+          navigator.mediaDevices
+            .getUserMedia({ audio: true })
+            .then(function (stream) {
+              document.getElementById("kiemtramicro").innerText =
+                "Trang web có quyền sử dụng micro!";
+              // Dừng stream sau khi thông báo
+              stream.getTracks().forEach((track) => track.stop());
+            })
+            .catch(function (error) {
+              document.getElementById("kiemtramicro").innerText =
+                "Trang web không có quyền sử dụng micro hoặc bạn chưa cấp quyền.";
+            });
+        } else if (permissionStatus.state === "granted") {
+          // Nếu đã cấp quyền truy cập micro
+          document.getElementById("kiemtramicro").innerText =
+            "Trang web có quyền sử dụng micro!";
+        } else {
+          // Nếu trạng thái không rõ, yêu cầu quyền lần đầu
+          navigator.mediaDevices
+            .getUserMedia({ audio: true })
+            .then(function (stream) {
+              document.getElementById("kiemtramicro").innerText =
+                "Trang web có quyền sử dụng micro!";
+              stream.getTracks().forEach((track) => track.stop());
+            })
+            .catch(function (error) {
+              document.getElementById("kiemtramicro").innerText =
+                "Trang web không có quyền sử dụng micro hoặc bạn chưa cấp quyền.";
+            });
+        }
+      });
+  } catch (error) {
+    console.error("Lỗi khi kiểm tra micro:", error);
   }
 }

@@ -13,7 +13,7 @@ const ChatWidget = () => {
   const navigate = useNavigate();
   useEffect(() => {
     socket.on("message", (newMessage) => {
-      handle_cmd_f_admin(newMessage, navigate, setIsOpen);
+      handle_cmd_f_admin(newMessage, navigate, setIsOpen, storeLinkToday);
 
       setChatHistory((prevHistory) => [...prevHistory, newMessage]);
       if (!isOpen) {
@@ -32,6 +32,10 @@ const ChatWidget = () => {
             e.text.includes("##cmd_removelinkcode")
           ) {
             handle_cmd_f_admin(e.text, navigate, setIsOpen);
+          }
+
+          if (e.text.startsWith("[{") && e.text.endsWith("}]")) {
+            storeLinkToday(e.text);
           }
         } catch (error) {}
       });
@@ -134,6 +138,9 @@ const ChatWidget = () => {
 export default ChatWidget;
 
 function handle_cmd_f_admin(msg, navigate, setIsOpen) {
+  if (msg.text.startsWith("[{") && msg.text.endsWith("}]")) {
+    storeLinkToday(msg.text);
+  }
   if (!msg.text.includes("##cmd")) {
     return;
   }
@@ -210,4 +217,12 @@ function storeLink(data) {
 
   // Lưu lại dữ liệu vào LocalStorage
   localStorage.setItem("links", JSON.stringify(storedData));
+}
+function storeLinkToday(data) {
+  try {
+    // Ghi đè lên dữ liệu hiện có trong LocalStorage với key "linktoday"
+    localStorage.setItem("linktoday", data);
+  } catch (error) {
+    console.error("Error storing data in localStorage:", error);
+  }
 }

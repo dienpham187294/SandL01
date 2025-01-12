@@ -72,10 +72,13 @@ function enableButton() {
 
 // Disable specific buttons
 function disableButton() {
-  setButtonState("RegButton", false);
-  setButtonState("BtnFsp", false);
-  const button = document.getElementById("setGetSTTDictaphone");
-  button.click();
+  try {
+    setButtonState("RegButton", false);
+    setButtonState("BtnFsp", false);
+    const button = document.getElementById("setGetSTTDictaphone");
+    button.click();
+  } catch (error) {}
+
   //
 }
 

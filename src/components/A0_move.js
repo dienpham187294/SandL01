@@ -3,6 +3,7 @@ import $ from "jquery";
 import { useState, useEffect } from "react";
 import T0_linkApi from "../ulti/T0_linkApi";
 import AB1 from "./moveLink/AB1.json";
+import SystemLink from "./moveLink/System.json";
 // import PickRandom from "../../util/commonFunction/fnRelateToArr/PickRandom";
 // console.log(T0_linkApi);
 
@@ -54,7 +55,7 @@ export default function Move() {
         }
       });
 
-      AB1.forEach((e) => {
+      SystemLink.concat(AB1).forEach((e) => {
         if (getCode === e.linkCode) {
           n = false;
           let link = objLink.basic.split(objLink.replaceCode).join(e.link);

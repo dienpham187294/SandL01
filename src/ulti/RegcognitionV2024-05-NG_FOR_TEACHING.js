@@ -74,6 +74,7 @@ const Dictaphone = ({ CMDlist }) => {
           <b style={{ color: "blue" }}>{CMDlist}</b>
         </h2>
         <b>Bấm bắt đầu và đọc câu này lên để rèn luyện khả năng ghép âm.</b>
+     
       </div>
       <div className="col-8">
         {" "}
@@ -115,3 +116,4 @@ const Dictaphone = ({ CMDlist }) => {
 };
 
 export default Dictaphone;
+

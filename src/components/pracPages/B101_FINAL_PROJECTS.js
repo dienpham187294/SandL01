@@ -24,6 +24,7 @@ function FINAL_PROJECT({
   numberBegin,
   indexSets,
   TimeDefault,
+  regRate,
   handleIncrementReadyClick,
   IsPause,
   NumberOneByOneHost,
@@ -352,6 +353,7 @@ function FINAL_PROJECT({
                     addElementIfNotExist={addElementIfNotExist}
                     ObjVoices={ObjREAD}
                     Lang={Lang}
+                    regRate={regRate}
                     setStartSTT={setStartSTT}
                     setMessage={setMessage}
                   />

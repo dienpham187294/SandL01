@@ -7,6 +7,7 @@ import RoomN from "./components/RoomN";
 import Room from "./components/Room";
 import RoomOffline from "./components/Roomoffline";
 import NotExist from "./components/NotExist";
+import LinkToday from "./components/LinkToday";
 import LearningHub from "./components/LearningHub";
 import LearningByHeartHub from "./components/LearningByHeart";
 import Settings from "./components/setting";
@@ -102,6 +103,7 @@ const App = () => {
               />
 
               <Route path="/noexist" element={<NotExist />} />
+              <Route path="/link" element={<LinkToday />} />
               <Route
                 path="/learninghub/:id"
                 element={

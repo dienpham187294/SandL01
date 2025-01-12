@@ -18,6 +18,7 @@ const Dictaphone = ({
   addElementIfNotExist,
   ObjVoices,
   Lang,
+  regRate,
   setStartSTT,
   setMessage,
 }) => {
@@ -95,7 +96,7 @@ const Dictaphone = ({
           } catch (error) {}
         },
         isFuzzyMatch: true,
-        fuzzyMatchingThreshold: 0.5,
+        fuzzyMatchingThreshold: regRate,
         bestMatchOnly: true,
       },
       // {
