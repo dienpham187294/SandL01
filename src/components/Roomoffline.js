@@ -202,7 +202,7 @@ const Room = ({ setSttRoom }) => {
                     : numberBegin - 1
                 }
                 TimeDefault={params.get("t") || 120}
-                regRate={params.get("regRate") || 0.5}
+                regRate={0.3}
                 handleIncrementReadyClick={() => setNumberBegin((D) => D + 1)}
                 IsPause={false}
                 NumberOneByOneHost={0}

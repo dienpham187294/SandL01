@@ -22,6 +22,7 @@ const Dictaphone = ({
   setStartSTT,
   setMessage,
 }) => {
+  console.log(regRate);
   const { interimTranscript, transcript, listening, resetTranscript } =
     useSpeechRecognition({ commands });
   const [otherGetInterim, setotherGetInterim] = useState("In");
@@ -96,7 +97,7 @@ const Dictaphone = ({
           } catch (error) {}
         },
         isFuzzyMatch: true,
-        fuzzyMatchingThreshold: regRate,
+        fuzzyMatchingThreshold: 0.3,
         bestMatchOnly: true,
       },
       // {
