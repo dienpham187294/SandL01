@@ -264,7 +264,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                     Kiểm tra thử âm thanh
                   </button>
                   <i>
-                    (Có nghe âm anh máy nói "Sorry, what do you mean?" là ổn)
+                    (Có nghe âm thanh máy nói "Sorry, what did you say?" là ổn)
                   </i>
                   <br /> <br />
                   <button
@@ -273,7 +273,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                       kiemtramic();
                     }}
                   >
-                    Kiểm tra mic
+                    Kiểm tra microphone
                   </button>
                   <br />
                   <i id="kiemtramicro"></i> <hr />
