@@ -8,6 +8,7 @@ const Dictaphone = ({ CMDlist }) => {
   const { interimTranscript, transcript, listening, resetTranscript } =
     useSpeechRecognition({ commands });
 
+
   useEffect(() => {
     commands = [
       {
@@ -39,6 +40,8 @@ const Dictaphone = ({ CMDlist }) => {
   const stopListening = () => {
     SpeechRecognition.stopListening();
   };
+
+
 
   return (
     <div className="container row mt-4" style={styles}>
@@ -74,7 +77,6 @@ const Dictaphone = ({ CMDlist }) => {
           <b style={{ color: "blue" }}>{CMDlist}</b>
         </h2>
         <b>Bấm bắt đầu và đọc câu này lên để rèn luyện khả năng ghép âm.</b>
-     
       </div>
       <div className="col-8">
         {" "}
@@ -87,6 +89,7 @@ const Dictaphone = ({ CMDlist }) => {
           (2)
           <i>{interimTranscript}</i> <i id="interimRes"></i>
         </h5>
+       
         <hr />
         <i> Chỉ cần (1) hoặc (2) đúng là đã đủ chuẩn thực hành.</i>
         <br />
@@ -116,4 +119,3 @@ const Dictaphone = ({ CMDlist }) => {
 };
 
 export default Dictaphone;
-

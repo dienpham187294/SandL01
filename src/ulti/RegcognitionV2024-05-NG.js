@@ -24,7 +24,7 @@ const Dictaphone = ({
 }) => {
   const { interimTranscript, transcript, listening, resetTranscript } =
     useSpeechRecognition({ commands });
-
+  const [otherGetInterim, setotherGetInterim] = useState("In");
   const [RegInput, setRegInput] = useState(null);
   // const idSocket = socket.id.slice(0, 4);
   const [styles, setStyles] = useState({
@@ -201,7 +201,11 @@ const Dictaphone = ({
   const stopListening = () => {
     SpeechRecognition.stopListening();
   };
-
+  // useEffect(() => {
+  //   if (interimTranscript === "") {
+  //     setotherGetInterim((D) => D + " " + interimTranscript);
+  //   }
+  // }, [interimTranscript]);
   return (
     <div className="container" id="div_of_dictaphone" style={{}}>
       {" "}
@@ -216,6 +220,7 @@ const Dictaphone = ({
       </button>{" "}
       <button
         // style={{ scale: "1.5" }}
+        disabled={interimTranscript !== "" ? true : false}
         className="btn btn-info"
         onClick={() => {
           stopListening();
@@ -230,7 +235,8 @@ const Dictaphone = ({
         {" "}
         (2)
         <i>{interimTranscript}</i> <i id="interimRes"></i>
-      </h5>
+      </h5>{" "}
+      {/* {otherGetInterim} */}
       <button
         id="stopListenBTN"
         style={{ display: "none" }}
