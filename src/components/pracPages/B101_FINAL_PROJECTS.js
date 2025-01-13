@@ -643,6 +643,7 @@ function FINAL_PROJECT({
                         addElementIfNotExist={addElementIfNotExist}
                         ObjVoices={ObjREAD}
                         Lang={Lang}
+                        regRate={regRate}
                         setMessage={setMessage}
                       />
                     ) : (

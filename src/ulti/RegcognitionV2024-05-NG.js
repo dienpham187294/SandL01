@@ -22,10 +22,9 @@ const Dictaphone = ({
   setStartSTT,
   setMessage,
 }) => {
-  console.log(regRate);
   const { interimTranscript, transcript, listening, resetTranscript } =
     useSpeechRecognition({ commands });
-  const [otherGetInterim, setotherGetInterim] = useState("In");
+  const [otherGetInterim, setotherGetInterim] = useState("");
   const [RegInput, setRegInput] = useState(null);
   // const idSocket = socket.id.slice(0, 4);
   const [styles, setStyles] = useState({
@@ -65,9 +64,10 @@ const Dictaphone = ({
         command: cmd_get_f_CMDlist,
         callback: (command, n, i) => {
           try {
+            setotherGetInterim(command);
             // let res = command.split("-");
-            const interimRes = document.getElementById("interimRes");
-            interimRes.innerText = command;
+            // const interimRes = document.getElementById("interimRes");
+            // interimRes.innerText = command;
             // if (CMDlist[res[0]].aw !== undefined) {
             //   ReadMessage(
             //     ObjVoices,
@@ -142,56 +142,6 @@ const Dictaphone = ({
     }
   }, [getSTTDictaphone]);
 
-  useEffect(() => {
-    if (RegInput !== null) {
-      setMessage(RegInput);
-
-      let objTR_00 = findMostSimilarQuestion(RegInput, CMDlist);
-      let objTR_01 = findMostSimilarQuestion(
-        document.getElementById("interimRes").innerText,
-        CMDlist
-      );
-
-      let objTR = null;
-
-      if (objTR_00 !== null) {
-        objTR = objTR_00;
-      }
-      if (objTR_00 === null && objTR_01 !== null) {
-        objTR = objTR_01;
-      }
-
-      if (objTR === null) {
-        ReadMessage(
-          ObjVoices,
-          "Sorry, what did you say?",
-          GENDER,
-          GENDER === 1 ? [{ id: "sorryFemale" }] : [{ id: "sorryMale" }]
-        );
-      } else {
-        if (objTR.aw01 !== undefined) {
-          ReadMessage(
-            ObjVoices,
-            getRandomElementFromArray(objTR.aw),
-            GENDER,
-            objTR.aw01
-          );
-        } else if (objTR.aw !== undefined) {
-          ReadMessage(ObjVoices, getRandomElementFromArray(objTR.aw), GENDER);
-        }
-        if (objTR.action !== undefined) {
-          if (objTR.action[0] === "WRONG") {
-            setScore((S) => S - 1.5);
-            // setStartSTT(true);
-          } else {
-            addElementIfNotExist(objTR.action[0]);
-          }
-        }
-      }
-      setGetSTTDictaphone(false);
-    }
-  }, [RegInput]);
-
   const startListening = () => {
     SpeechRecognition.startListening({
       continuous: true,
@@ -201,12 +151,56 @@ const Dictaphone = ({
 
   const stopListening = () => {
     SpeechRecognition.stopListening();
-  };
+  };  
   // useEffect(() => {
   //   if (interimTranscript === "") {
   //     setotherGetInterim((D) => D + " " + interimTranscript);
   //   }
   // }, [interimTranscript]);
+
+  function check(RegInput) {
+    if (RegInput !== null) {
+      setMessage(RegInput);
+      const processedInput = removeDuplicates(RegInput);
+      const objTR_00 = findMostSimilarQuestion(RegInput, CMDlist);
+      const objTR_01 = findMostSimilarQuestion(otherGetInterim, CMDlist);
+      const objTR_02 = findMostSimilarQuestion(processedInput, CMDlist);
+
+      let objTR = objTR_00 || objTR_02 || objTR_01;
+
+      if (objTR === null) {
+        // Nếu không tìm thấy câu trả lời, đọc thông điệp yêu cầu làm rõ
+        ReadMessage(
+          ObjVoices,
+          "Sorry, what did you say?",
+          GENDER,
+          GENDER === 1 ? [{ id: "sorryFemale" }] : [{ id: "sorryMale" }]
+        );
+      } else {
+        // Xử lý đối tượng câu trả lời nếu tồn tại
+        const answer = objTR.aw ? getRandomElementFromArray(objTR.aw) : null;
+        const voice = objTR.aw01 || undefined;
+
+        if (answer) {
+          ReadMessage(
+            ObjVoices,
+            answer,
+            GENDER,
+            voice ? [{ id: voice }] : undefined
+          );
+        }
+
+        // Xử lý hành động nếu có
+        if (objTR.action && objTR.action[0] === "WRONG") {
+          setScore((S) => S - 1.5);
+        } else if (objTR.action && objTR.action[0] !== "WRONG") {
+          addElementIfNotExist(objTR.action[0]);
+        }
+      }
+      setGetSTTDictaphone(false);
+    }
+  }
+
   return (
     <div className="container" id="div_of_dictaphone" style={{}}>
       {" "}
@@ -221,11 +215,14 @@ const Dictaphone = ({
       </button>{" "}
       <button
         // style={{ scale: "1.5" }}
-        disabled={interimTranscript !== "" ? true : false}
+        disabled={
+          interimTranscript !== "" && otherGetInterim === "" ? true : false
+        }
         className="btn btn-info"
         onClick={() => {
           stopListening();
-          setRegInput(transcript);
+          check(transcript);
+          // setRegInput(transcript);
         }}
       >
         {/* <i className="bi bi-mic-fill mr-1"></i> */}
@@ -234,9 +231,15 @@ const Dictaphone = ({
       <h3> (1){transcript || <i>Hãy nói gì đó . . . </i>}</h3>
       <h5 style={{ color: "blue" }}>
         {" "}
-        (2)
-        <i>{interimTranscript}</i> <i id="interimRes"></i>
+        (2){" "}
+        <i id="interimRes">
+          {interimTranscript !== "" && otherGetInterim === ""
+            ? "Đang xử lý, chờ 3s."
+            : otherGetInterim}
+        </i>
       </h5>{" "}
+      {/* <br />
+      <i>{interimTranscript}</i> */}
       {/* {otherGetInterim} */}
       <button
         id="stopListenBTN"
@@ -330,4 +333,19 @@ function getRandomElementFromArray(array) {
   }
   const randomIndex = Math.floor(Math.random() * array.length);
   return array[randomIndex];
+}
+
+function removeDuplicates(sentence) {
+  const words = sentence.split(" "); // Tách câu thành mảng các từ
+  const seen = new Set(); // Tạo một Set để lưu các từ đã gặp
+  const result = [];
+
+  for (const word of words) {
+    if (!seen.has(word)) {
+      result.push(word);
+      seen.add(word); // Thêm từ vào Set nếu chưa gặp
+    }
+  }
+
+  return result.join(" "); // Ghép lại các từ thành câu mới
 }

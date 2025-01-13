@@ -5,7 +5,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import PracticeDIV from "./pracPages/B101_FINAL_PROJECTS";
 import CountdownTimer from "./pracPages/B101_FINAL_CounterTime";
 import LinkAPI from "../ulti/T0_linkApi";
-
+import SpeechRecognition, {
+  useSpeechRecognition,
+} from "react-speech-recognition";
 const Room = ({ setSttRoom }) => {
   const { roomCode, currentIndex } = useParams();
   const locationSet = useLocation();
@@ -66,6 +68,11 @@ const Room = ({ setSttRoom }) => {
   useEffect(() => {
     setSttRoom(true);
   }, []);
+  useEffect(() => {
+    if (SttCoundown === "01") {
+      SpeechRecognition.stopListening();
+    }
+  }, [SttCoundown]);
 
   useEffect(() => {
     if (roomInfo !== null) {
@@ -202,7 +209,7 @@ const Room = ({ setSttRoom }) => {
                     : numberBegin - 1
                 }
                 TimeDefault={params.get("t") || 120}
-                regRate={0.3}
+                regRate={params.get("r") || 0.3}
                 handleIncrementReadyClick={() => setNumberBegin((D) => D + 1)}
                 IsPause={false}
                 NumberOneByOneHost={0}
@@ -312,14 +319,34 @@ function interleaveCharacters(
   filerSets
 ) {
   const numberGetPerOne = Math.floor(200 / index_sets_t_get_pracData.length);
-  let arrRes = [];
+
+  // Chọn ngẫu nhiên một trong ba giá trị: Math.floor(numberGetPerOne / 2), numberGetPerOne, hoặc 0
+  const randomIndex = Math.floor(Math.random() * 3);
+  const numberCut = [Math.floor(numberGetPerOne / 2), numberGetPerOne, 0][
+    randomIndex
+  ];
+  let arrRes_gd_1 = [];
+
   index_sets_t_get_pracData.forEach((e) => {
-    let resTemp = splitAndConcatArray(
+    let resTemp = getArrayElements(
       filer_type_o_charactor(data_all[e].charactor, filerSets),
-      reverse
-    ).slice(0, numberGetPerOne);
-    arrRes = arrRes.concat(resTemp);
+      numberCut,
+      numberGetPerOne
+    );
+
+    arrRes_gd_1.push(resTemp);
   });
+
+  let arrRes = [];
+
+  for (let i = 0; i < numberGetPerOne; i++) {
+    arrRes_gd_1.forEach((e) => {
+      if (e[i]) {
+        arrRes.push(e[i]);
+      }
+    });
+  }
+  console.log(arrRes.length, "Số phần tử bài học");
 
   setIndexSets(generateRandomArray(arrRes.length));
 
@@ -365,7 +392,7 @@ function splitAndConcatArray(array, m) {
 function generateRandomArray(m) {
   let randomArray = [];
   for (let i = 0; i < m; i++) {
-    randomArray.push(Math.floor(Math.random() * (m + 1)));
+    randomArray.push(i);
   }
   return randomArray;
 }
@@ -436,4 +463,20 @@ function parseStringToNumbers(input) {
     // Trả về null nếu có lỗi
     return null;
   }
+}
+
+function getArrayElements(arr, m, n) {
+  // Tính toán chỉ mục m sao cho không vượt quá độ dài mảng
+  const startIndex = m % arr.length;
+
+  // Xếp lại mảng từ startIndex đến hết và nối với phần đầu mảng
+  const rotatedArr = arr.slice(startIndex).concat(arr.slice(0, startIndex));
+
+  // Nếu n >= arr.length, trả về toàn bộ mảng đã xoay
+  if (n >= arr.length) {
+    return rotatedArr;
+  }
+
+  // Nếu n < arr.length, trả về n phần tử đầu tiên của mảng đã xoay
+  return rotatedArr.slice(0, n);
 }
