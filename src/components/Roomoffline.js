@@ -150,7 +150,7 @@ const Room = ({ setSttRoom }) => {
           }}
           onClick={() => {
             navigate(
-              "/learninghub/" + roomCode + "id=div_01_content_table_to_practice"
+              "/learninghub/" + roomCode + "?id=div_01_content_table_to_practice"
             );
           }}
         />
