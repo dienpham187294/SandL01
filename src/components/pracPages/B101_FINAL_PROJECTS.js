@@ -25,6 +25,7 @@ function FINAL_PROJECT({
   indexSets,
   TimeDefault,
   regRate,
+  regRate_01,
   handleIncrementReadyClick,
   IsPause,
   NumberOneByOneHost,
@@ -354,6 +355,7 @@ function FINAL_PROJECT({
                     ObjVoices={ObjREAD}
                     Lang={Lang}
                     regRate={regRate}
+                    regRate_01={regRate_01}
                     setStartSTT={setStartSTT}
                     setMessage={setMessage}
                   />
@@ -644,6 +646,7 @@ function FINAL_PROJECT({
                         ObjVoices={ObjREAD}
                         Lang={Lang}
                         regRate={regRate}
+                        regRate_01={regRate_01}
                         setMessage={setMessage}
                       />
                     ) : (

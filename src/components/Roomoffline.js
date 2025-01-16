@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useParams, useLocation } from "react-router-dom";
+import { useParams, useLocation, useNavigate } from "react-router-dom";
 import { socket } from "../App";
 import "bootstrap/dist/css/bootstrap.min.css";
 import PracticeDIV from "./pracPages/B101_FINAL_PROJECTS";
@@ -38,7 +38,7 @@ const Room = ({ setSttRoom }) => {
   const [NumberOneByOneHost, setNumberOneByOneHost] = useState(0);
 
   const [Message, setMessage] = useState(null);
-
+  const navigate = useNavigate();
   useEffect(() => {
     try {
       if (Score < 0) {
@@ -139,6 +139,21 @@ const Room = ({ setSttRoom }) => {
       }}
     >
       <div style={{ flex: 1 }}>
+        <img
+          src="https://i.postimg.cc/Bv9MGGy8/favicon-ico.png"
+          width={"60px"}
+          style={{
+            margin: "10px",
+            border: "1px solid blue",
+            borderRadius: "15px",
+            cursor: "pointer",
+          }}
+          onClick={() => {
+            navigate(
+              "/learninghub/" + roomCode + "id=div_01_content_table_to_practice"
+            );
+          }}
+        />
         <div
           style={{
             display: "flex",
@@ -209,11 +224,12 @@ const Room = ({ setSttRoom }) => {
                     : numberBegin - 1
                 }
                 TimeDefault={params.get("t") || 120}
-                regRate={params.get("r") || 0.3}
+                regRate={params.get("r") || 0.5}
+                regRate_01={params.get("r01") || 0.6}
                 handleIncrementReadyClick={() => setNumberBegin((D) => D + 1)}
                 IsPause={false}
                 NumberOneByOneHost={0}
-                tableView={"Normal"}
+                tableView={params.get("tb") || "Normal"}
                 setMessage={setMessage}
                 roomCode={roomCode}
               />

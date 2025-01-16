@@ -19,6 +19,7 @@ const Dictaphone = ({
   ObjVoices,
   Lang,
   regRate,
+  regRate_01,
   setStartSTT,
   setMessage,
 }) => {
@@ -97,7 +98,7 @@ const Dictaphone = ({
           } catch (error) {}
         },
         isFuzzyMatch: true,
-        fuzzyMatchingThreshold: 0.3,
+        fuzzyMatchingThreshold: regRate,
         bestMatchOnly: true,
       },
       // {
@@ -151,7 +152,7 @@ const Dictaphone = ({
 
   const stopListening = () => {
     SpeechRecognition.stopListening();
-  };  
+  };
   // useEffect(() => {
   //   if (interimTranscript === "") {
   //     setotherGetInterim((D) => D + " " + interimTranscript);
@@ -162,9 +163,17 @@ const Dictaphone = ({
     if (RegInput !== null) {
       setMessage(RegInput);
       const processedInput = removeDuplicates(RegInput);
-      const objTR_00 = findMostSimilarQuestion(RegInput, CMDlist);
-      const objTR_01 = findMostSimilarQuestion(otherGetInterim, CMDlist);
-      const objTR_02 = findMostSimilarQuestion(processedInput, CMDlist);
+      const objTR_00 = findMostSimilarQuestion(RegInput, CMDlist, regRate_01);
+      const objTR_01 = findMostSimilarQuestion(
+        otherGetInterim,
+        CMDlist,
+        regRate_01
+      );
+      const objTR_02 = findMostSimilarQuestion(
+        processedInput,
+        CMDlist,
+        regRate_01
+      );
 
       let objTR = objTR_00 || objTR_02 || objTR_01;
 
@@ -226,7 +235,12 @@ const Dictaphone = ({
         }}
       >
         {/* <i className="bi bi-mic-fill mr-1"></i> */}
-        <i>Sử dụng nội dung vừa nói (1) và (2)</i>
+        <i>
+          {" "}
+          {interimTranscript !== "" && otherGetInterim === ""
+            ? "Đang xử lý, chờ 3s."
+            : `Sử dụng nội dung vừa nói (1) và (2)`}
+        </i>
       </button>
       <h3> (1){transcript || <i>Hãy nói gì đó . . . </i>}</h3>
       <h5 style={{ color: "blue" }}>
@@ -289,7 +303,7 @@ function removeAccentsAndLowercase(str) {
 }
 
 // Function to find the most similar question object
-function findMostSimilarQuestion(statement, questions) {
+function findMostSimilarQuestion(statement, questions, regRate_01) {
   let maxSimilarity = -1;
   let mostSimilarQuestion = null;
 
@@ -303,7 +317,7 @@ function findMostSimilarQuestion(statement, questions) {
   }
 
   // Set the similarity threshold based on whether the statement contains a number
-  const similarityThreshold = containsNumber(statement) ? 0.25 : 0.6;
+  const similarityThreshold = regRate_01;
 
   questions.forEach((questionObj) => {
     // Loop through each question in the array "qs"
