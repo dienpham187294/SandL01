@@ -154,23 +154,23 @@ export default function Header({ sttRoom, STTconnectFN }) {
                 null
               )}
               {returnDropdown(
-                "ESL Conversation",
-                NewListHref,
+                "ESL",
+                NewListHref.concat(HrefImages, HrefLearnonyoutube),
                 { name: "name", link: "link", preName: "preName" },
                 null
               )}
-              {returnDropdown(
+              {/* {returnDropdown(
                 "Từ vựng và Hình ảnh",
                 HrefImages,
                 { name: "name", link: "link", preName: "preName" },
                 null
-              )}
-              {returnDropdown(
+              )} */}
+              {/* {returnDropdown(
                 "Learn on youtube",
                 HrefLearnonyoutube,
                 { name: "name", link: "link", preName: "preName" },
                 null
-              )}
+              )} */}
               {returnDropdown(
                 "Khác",
                 [
