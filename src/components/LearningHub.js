@@ -193,43 +193,60 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
             >
               <div className="row">
                 <div className="col-6">
-                  <button
-                    onClick={() => {
-                      navigate(
-                        `/learninghub/${id}?id=div_01_content_table_to_practice`
-                      );
-                    }}
-                    className="btn btn-info"
-                  >
-                    Quay lại bảng
-                  </button>
-                  {generateBootstrapList(
-                    dataLearning[currentIndex]?.ListenList,
-                    choose_a_st,
-                    setchoose_a_st
-                  )}{" "}
+                  <div className="row">
+                    <div className="col-2">
+                      {" "}
+                      <button
+                        onClick={() => {
+                          navigate(
+                            `/learninghub/${id}?id=div_01_content_table_to_practice`
+                          );
+                        }}
+                        className="btn btn-info"
+                      >
+                        Quay lại bảng
+                      </button>
+                    </div>
+                    <div className="col-6">
+                      {" "}
+                      {generateBootstrapList(
+                        dataLearning[currentIndex]?.ListenList,
+                        choose_a_st,
+                        setchoose_a_st
+                      )}{" "}
+                    </div>
+                    <div className="col-3">
+                      {" "}
+                      <button
+                        onClick={() => {
+                          try {
+                            const textArea =
+                              document.getElementById("clearClassForTable");
+                            if (textArea) {
+                              textArea.value = ""; // Đặt giá trị rỗng cho textarea
+                            }
+                          } catch (error) {
+                            console.error(
+                              "Error clearing input values:",
+                              error
+                            );
+                          }
+                        }}
+                        style={{ marginLeft: "100px" }}
+                        className="btn btn-primary"
+                      >
+                        Clear Table
+                      </button>
+                    </div>
+                  </div>
                   <hr />
-                  <h5>Đoán - Tra - Tìm - Ghép</h5>
-                  <h4 style={{ color: "blue" }}>U - E - O - A - i - Ơ</h4>
-                  <h1>{choose_a_st ? choose_a_st : CMDlist}</h1>{" "}
-                  <button
-                    onClick={() => {
-                      try {
-                        const textArea =
-                          document.getElementById("clearClassForTable");
-                        if (textArea) {
-                          textArea.value = ""; // Đặt giá trị rỗng cho textarea
-                        }
-                      } catch (error) {
-                        console.error("Error clearing input values:", error);
-                      }
-                    }}
-                    style={{ marginLeft: "100px" }}
-                    className="btn btn-primary me-3"
-                  >
-                    Clear Table
-                  </button>
+                  <div className="row">
+                    {" "}
+                    <h5>Đoán - Tra - Tìm - Ghép</h5>
+                    <h4 style={{ color: "blue" }}>U - E - O - A - i - Ơ</h4>
+                  </div>
                   <hr />
+                  <h1>{choose_a_st ? choose_a_st : CMDlist}</h1> <hr />
                   <textarea
                     style={{
                       width: "90%",
@@ -245,6 +262,26 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                     }}
                     id="clearClassForTable"
                   ></textarea>
+                  <div className="row">
+                    <hr />
+                    <div className="col-6">
+                      {" "}
+                      <h5>4 bước: Đoán - Tra - Tìm - Ghép</h5>
+                    </div>
+                    <div className="col-6">
+                      <h4>
+                        * Nguyên lý ghép âm: ghép trái trước-ghép phải sau
+                      </h4>
+                    </div>{" "}
+                    <div className="col-6">
+                      {" "}
+                      "Tìm" là tìm đầu tiên:
+                      <h4 style={{ color: "blue" }}>U - E - O - A - i - Ơ</h4>
+                    </div>{" "}
+                    <div className="col-6">
+                      <h4> * Đọc giữ nhịp theo quy tắc 4 ngón bàn tay phải</h4>
+                    </div>
+                  </div>
                 </div>
                 <div className="col-6">
                   {CMDlist}
@@ -678,13 +715,11 @@ function generateBootstrapList(sentences, choose_a_st, setchoose_a_st) {
 
     return (
       <div>
-        <hr />
-
         <select
           onChange={(e) => {
             setchoose_a_st(e.target.value);
           }}
-          style={{ marginLeft: "100px", width: "300px", padding: "5px" }}
+          style={{ width: "300px", padding: "5px" }}
           className=""
         >
           <option value={""}>Các câu trong bài thực hành</option>
