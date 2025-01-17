@@ -106,7 +106,8 @@ const Room = ({ setSttRoom }) => {
               firstList,
               1,
               setIndexSets,
-              params.get("b")
+              params.get("b"),
+              params.get("up")
             )
           );
         } catch (error) {
@@ -150,7 +151,9 @@ const Room = ({ setSttRoom }) => {
           }}
           onClick={() => {
             navigate(
-              "/learninghub/" + roomCode + "?id=div_01_content_table_to_practice"
+              "/learninghub/" +
+                roomCode +
+                "?id=div_01_content_table_to_practice"
             );
           }}
         />
@@ -332,7 +335,8 @@ function interleaveCharacters(
   index_sets_t_get_pracData,
   reverse,
   setIndexSets,
-  filerSets
+  filerSets,
+  upCode
 ) {
   const numberGetPerOne = Math.floor(200 / index_sets_t_get_pracData.length);
 
@@ -344,8 +348,12 @@ function interleaveCharacters(
   let arrRes_gd_1 = [];
 
   index_sets_t_get_pracData.forEach((e) => {
+    let getUpCode = "charactor";
+    if (upCode && data_all[e]["charactor" + upCode]) {
+      getUpCode = "charactor" + upCode;
+    }
     let resTemp = getArrayElements(
-      filer_type_o_charactor(data_all[e].charactor, filerSets),
+      filer_type_o_charactor(data_all[e][getUpCode], filerSets),
       numberCut,
       numberGetPerOne
     );
