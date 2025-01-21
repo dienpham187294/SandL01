@@ -210,8 +210,8 @@ function returnDropdown(name, inputSets, keysSets, link) {
         (() => {
           const urlPath =
             e.root !== null
-              ? `/${e.root}/` + e[keysSets.link]
-              : `/${e[keysSets.link]}`;
+              ? `/${e.root}/` + e[keysSets.link] + `?ls=0`
+              : `/${e[keysSets.link]}?ls=0`;
           return (
             <NavDropdown.Item key={i} as={Link} to={urlPath}>
               {e[keysSets.preName] ? (

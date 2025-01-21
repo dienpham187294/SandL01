@@ -59,14 +59,22 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
         } catch (error) {}
       } catch (error) {}
     }
+
+    if (params.get("ls")) {
+      try {
+        try {
+          setCurrentIndex(params.get("ls"));
+        } catch (error) {}
+      } catch (error) {}
+    }
   }, [params]);
 
   useEffect(() => {
     try {
       navigate(
-        `/learninghub/${id}?id=div_01_prac_ghep_am&&st=` +
+        `/learninghub/${id}?ls=${currentIndex}&&id=div_01_prac_ghep_am&&st=` +
           choose_a_st.split(" ").join("-")
-      );
+      );  
     } catch (error) {}
   }, [choose_a_st]);
 
@@ -105,7 +113,12 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
           <select
             onChange={(e) => {
               // Tìm tất cả các div có class 'divlearnHub'
-              navigate(`/learninghub/${id}?id=` + e.target.value);
+              navigate(
+                `/learninghub/${id}?ls=` +
+                  currentIndex +
+                  `&&id=` +
+                  e.target.value
+              );
               // handle_div);
             }}
           >
@@ -156,14 +169,20 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                 padding: "20px",
               }}
             >
-              {rShowLessonTABLE(dataLearning, currentIndex, setCurrentIndex)}
+              {rShowLessonTABLE(
+                dataLearning,
+                currentIndex,
+                setCurrentIndex,
+                navigate,
+                id
+              )}
               <TableHD
                 data={dataLearning[currentIndex]?.HDTB?.HD}
                 HINT={"HINT"}
                 fnOnclick={(e) => {
                   try {
                     navigate(
-                      `/learninghub/${id}?id=div_01_prac_ghep_am&&st=` +
+                      `/learninghub/${id}?ls=${currentIndex}&&id=div_01_prac_ghep_am&&st=` +
                         e.split(" ").join("-")
                     );
                   } catch (error) {}
@@ -199,7 +218,9 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                       <button
                         onClick={() => {
                           navigate(
-                            `/learninghub/${id}?id=div_01_content_table_to_practice`
+                            `/learninghub/${id}?ls=` +
+                              currentIndex +
+                              `&&id=div_01_content_table_to_practice`
                           );
                         }}
                         className="btn btn-info"
@@ -733,7 +754,13 @@ function generateBootstrapList(sentences, choose_a_st, setchoose_a_st) {
   }
 }
 
-function rShowLessonTABLE(dataLearning, currentIndex, setCurrentIndex) {
+function rShowLessonTABLE(
+  dataLearning,
+  currentIndex,
+  setCurrentIndex,
+  navigate,
+  id
+) {
   try {
     return (
       <div>
@@ -741,7 +768,7 @@ function rShowLessonTABLE(dataLearning, currentIndex, setCurrentIndex) {
           {dataLearning.length > 1 ? (
             <h2>
               <u>
-                <i>Bài {convertToRoman(currentIndex + 1)}</i>
+                <i>Bài {convertToRoman(parseInt(currentIndex) + 1)}</i>
               </u>
             </h2>
           ) : null}
@@ -785,7 +812,13 @@ function rShowLessonTABLE(dataLearning, currentIndex, setCurrentIndex) {
 
         {dataLearning.length > 1 ? (
           <div style={{ marginLeft: "30%", width: "40%", marginRight: "20px" }}>
-            {renderContentOftable(dataLearning, currentIndex, setCurrentIndex)}
+            {renderContentOftable(
+              dataLearning,
+              currentIndex,
+              setCurrentIndex,
+              navigate,
+              id
+            )}
           </div>
         ) : null}
       </div>
@@ -816,14 +849,23 @@ function renderContent(dataLearning, currentIndex) {
   }
 }
 
-function renderContentOftable(dataLearning, currentIndex, setCurrentIndex) {
+function renderContentOftable(
+  dataLearning,
+  currentIndex,
+  setCurrentIndex,
+  navigate,
+  id
+) {
   try {
     if (!dataLearning) return null;
 
     return (
       <select
         value={currentIndex}
-        onChange={(e) => setCurrentIndex(parseInt(e.target.value))}
+        onChange={(e) => {
+          navigate(`/learninghub/${id}?ls=` + e.target.value);
+          // setCurrentIndex(parseInt(e.target.value));
+        }}
         style={{
           border: "1px solid #ccc",
           borderRadius: "5px",
