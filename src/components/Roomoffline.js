@@ -53,12 +53,12 @@ const Room = ({ setSttRoom }) => {
       });
     } catch (error) {}
   }, [Score]);
-  useEffect(() => {
-    try {
-      const idSocket = socket.id.slice(0, 4);
-      socket.emit("messageReg", { text: "[" + idSocket + "] " + Message });
-    } catch (error) {}
-  }, [Message]);
+  // useEffect(() => {
+  //   try {
+  //     const idSocket = socket.id.slice(0, 4);
+  //     socket.emit("messageReg", { text: "[" + idSocket + "] " + Message });
+  //   } catch (error) {}
+  // }, [Message]);
   useEffect(() => {
     if (numberBegin !== 0) {
       setSttCoundown("01");
