@@ -47,10 +47,10 @@ const Room = ({ setSttRoom }) => {
         saveNumberWithDailyExpiry("score", Score);
       }
 
-      const idSocket = socket.id.slice(0, 4);
-      socket.emit("messageReg", {
-        text: "[" + idSocket + "] " + Score + " Điểm",
-      });
+      // const idSocket = socket.id.slice(0, 4);
+      // socket.emit("messageReg", {
+      //   text: "[" + idSocket + "] " + Score + " Điểm",
+      // });
     } catch (error) {}
   }, [Score]);
   // useEffect(() => {
