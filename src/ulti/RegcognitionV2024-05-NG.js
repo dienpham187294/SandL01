@@ -24,7 +24,7 @@ const Dictaphone = ({
   setMessage,
 }) => {
   const { interimTranscript, transcript, listening, resetTranscript } =
-    useSpeechRecognition({ commands });
+    useSpeechRecognition({ commands, continuous: true, interimResults: true });
   const [otherGetInterim, setotherGetInterim] = useState("");
   const [RegInput, setRegInput] = useState(null);
   // const idSocket = socket.id.slice(0, 4);

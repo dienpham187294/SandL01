@@ -16,6 +16,7 @@ const ChatWidget = () => {
       handle_cmd_f_admin(newMessage, navigate, setIsOpen, storeLinkToday);
 
       setChatHistory((prevHistory) => [...prevHistory, newMessage]);
+
       if (!isOpen) {
         setUnreadCount((prevCount) => prevCount + 1);
       }
@@ -27,6 +28,8 @@ const ChatWidget = () => {
       console.log(history);
       history.forEach((e) => {
         try {
+          if (e.text.includes("http://")) {
+          }
           if (
             e.text.includes("##cmd_linkcode_") ||
             e.text.includes("##cmd_removelinkcode")
@@ -120,7 +123,28 @@ const ChatWidget = () => {
           <ul style={historyStyle}>
             {chatHistory.map((msg, index) => (
               <li key={index} style={messageStyle}>
-                <div>{msg.text}</div>
+                <div>
+                  {msg.text.includes("http://") || msg.text.includes("https://")
+                    ? tachStringTheoHttp(msg.text).map((e, i) =>
+                        e.includes("http://") || e.includes("https://") ? (
+                          <a
+                            key={i}
+                            href={e}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <br />
+                            <button className="btn btn-primary">
+                              Bấm vào đây
+                            </button>
+                            <br />
+                          </a>
+                        ) : (
+                          e
+                        )
+                      )
+                    : msg.text}
+                </div>
                 <div style={{ fontSize: "0.8em", color: "gray" }}>
                   {msg.time}
                 </div>
@@ -225,4 +249,20 @@ function storeLinkToday(data) {
   } catch (error) {
     console.error("Error storing data in localStorage:", error);
   }
+}
+
+function tachStringTheoHttp(str) {
+  // Sử dụng regex để tìm tất cả các URL và tách chuỗi
+  const regex = /https?:\/\/[^\s]+/g;
+
+  // Tách chuỗi thành một mảng với phần không phải URL và URL
+  const result = str.split(regex).reduce((arr, part, index) => {
+    arr.push(part.trim()); // Thêm phần không phải URL vào mảng
+    if (index < str.match(regex).length) {
+      arr.push(str.match(regex)[index]); // Thêm URL vào mảng
+    }
+    return arr;
+  }, []);
+
+  return result;
 }
