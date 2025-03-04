@@ -130,7 +130,9 @@ const ChatWidget = () => {
                           <a
                             key={i}
                             href={e}
-                            target="_blank"
+                            target={
+                              e.includes("phamvandien") ? "_self" : "_blank"
+                            }
                             rel="noopener noreferrer"
                           >
                             <br />
