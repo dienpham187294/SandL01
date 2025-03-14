@@ -158,7 +158,7 @@ async function ReadMessage_02(ObjVoices, text, voiceNum) {
   const speakSentences = (index, sentenceLength) => {
     let msg = new SpeechSynthesisUtterance();
     msg.voice = voices[voiceIndex];
-    msg.rate = 0.8;
+    msg.rate = 0.7;
     msg.text = sentences[index];
 
     msg.onstart = () => {

@@ -45,6 +45,13 @@ const prac_to_work = [
 const pracEnSets = [
   {
     root: "learninghub",
+    preName: "Phản xạ: ",
+    name: "Vỡ lòng",
+    link: "phanxa_lv0",
+    id: "socapI",
+  },
+  {
+    root: "learninghub",
     preName: "TA01:",
     name: "Tiếng anh lớp 1 - NXB Giáo dục",
     link: "ta_01_nxb_giaoduc",

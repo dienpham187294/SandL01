@@ -1,17 +1,25 @@
 // import { useEffect, useState } from "react";
 
-function TableHD({ data, HINT, fnOnclick }) {
+function TableHD({ data, data_TB, HINT, fnOnclick }) {
   try {
     const colorMapping = {
       X: "green",
       XX: "dodgerblue",
-      [HINT+"#hint"]: "red",
+      [HINT + "#hint"]: "red",
       MM: "purple",
       XXX: "black",
     };
 
     // Extract headers from the keys of the first object
     const headers = data.length > 0 ? Object.keys(data[0]) : [];
+    console.log(JSON.stringify(data_TB));
+
+    let data_TB_newformat = [];
+    data_TB.forEach((e) => {
+      e.forEach((e1) => {
+        data_TB_newformat.push(e1 + "");
+      });
+    });
 
     return (
       <table
@@ -41,7 +49,11 @@ function TableHD({ data, HINT, fnOnclick }) {
                       : { fontWeight: "bold", fontSize: "large" }
                   }
                   key={colIndex}
-                  onClick={() => fnOnclick(row[header])}
+                  onClick={() => {
+                    if (data_TB_newformat.includes(row[header] + "")) {
+                      fnOnclick(row[header] + "");
+                    }
+                  }}
                 >
                   {colorMapping[row[header]] ? (
                     <span

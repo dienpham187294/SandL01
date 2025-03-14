@@ -478,12 +478,13 @@ function FINAL_PROJECT({
                       <div>
                         <TableHD
                           data={DataPracticingOverRoll[OnTable]["HDTB"]["HD"]}
+                          data_TB={
+                            DataPracticingOverRoll[OnTable]["HDTB"]["TB"]
+                          }
                           HINT={HINT}
                           fnOnclick={(e) => {
                             try {
-                              if (e[0] === "[") {
-                                addElementIfNotExist(e);
-                              }
+                              addElementIfNotExist(e);
                             } catch (error) {}
                           }}
                         />
@@ -494,6 +495,7 @@ function FINAL_PROJECT({
                           data={fn_f_allTable_t_tableOfContent(
                             DataPracticingOverRoll
                           )}
+                          data_TB={[]}
                           HINT={null}
                           fnOnclick={(e) => {
                             const match = e.match(/\((\d+)\)/);
@@ -506,7 +508,7 @@ function FINAL_PROJECT({
                         />
                       </div>
                     )}
-                    {OnTable !== null ? (
+                    {/* {OnTable !== null ? (
                       <div className="row">
                         <div className="col-9">
                           {DataPracticingOverRoll[OnTable]["HDTB"]["TB"].map(
@@ -526,7 +528,7 @@ function FINAL_PROJECT({
                           <TablePushAW data={PushAW} />
                         </div>
                       </div>
-                    ) : null}
+                    ) : null} */}
 
                     <div style={{ height: "300px" }}></div>
                   </div>
@@ -670,6 +672,9 @@ function FINAL_PROJECT({
                     )}
                   </div>
                 ) : null}
+                <hr />
+                <TablePushAW data={PushAW} />
+                <hr />
               </div>
             </div>
             <div className="col-3">

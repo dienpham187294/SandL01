@@ -74,7 +74,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
       navigate(
         `/learninghub/${id}?ls=${currentIndex}&&id=div_01_prac_ghep_am&&st=` +
           choose_a_st.split(" ").join("-")
-      );  
+      );
     } catch (error) {}
   }, [choose_a_st]);
 
@@ -178,6 +178,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
               )}
               <TableHD
                 data={dataLearning[currentIndex]?.HDTB?.HD}
+                data_TB={[]}
                 HINT={"HINT"}
                 fnOnclick={(e) => {
                   try {
@@ -189,13 +190,13 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                   // setchoose_a_st(e);
                 }}
               />{" "}
-              {dataLearning !== null && (
+              {/* {dataLearning !== null && (
                 <div>
                   {dataLearning[currentIndex]?.HDTB?.TB.map((e, i) => (
                     <TableTB key={i} data={e} color={colors[i % 7]} />
                   ))}
                 </div>
-              )}
+              )} */}
             </div>
             <div
               id="div_01_prac_ghep_am"
