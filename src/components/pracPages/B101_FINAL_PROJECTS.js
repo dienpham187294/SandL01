@@ -482,9 +482,11 @@ function FINAL_PROJECT({
                             DataPracticingOverRoll[OnTable]["HDTB"]["TB"]
                           }
                           HINT={HINT}
-                          fnOnclick={(e) => {
+                          fnOnclick={(e, cmd) => {
                             try {
-                              addElementIfNotExist(e);
+                              if (cmd && cmd === "submit") {
+                                addElementIfNotExist(e);
+                              }
                             } catch (error) {}
                           }}
                         />

@@ -40,12 +40,7 @@ function TableHD({ data, data_TB, HINT, fnOnclick }) {
               {headers.map((header, colIndex) => (
                 <td
                   style={
-                    row[header] && data_TB_newformat.includes(row[header] + "")
-                      ? {
-                          fontStyle: "italic",
-                          fontSize: "large",
-                        }
-                      : row[header] && (row[header] + "").includes("(*)")
+                    row[header] && (row[header] + "").includes("(*)")
                       ? {
                           fontSize: "larger",
                           fontWeight: "bold",
@@ -56,7 +51,9 @@ function TableHD({ data, data_TB, HINT, fnOnclick }) {
                   key={colIndex}
                   onClick={() => {
                     if (data_TB_newformat.includes(row[header] + "")) {
-                      fnOnclick(row[header] + "");
+                      fnOnclick(row[header] + "", "submit");
+                    } else {
+                      fnOnclick(row[header], "none");
                     }
                   }}
                 >
@@ -74,21 +71,15 @@ function TableHD({ data, data_TB, HINT, fnOnclick }) {
                       alt={`element-${rowIndex}`}
                       style={imageStyle}
                     />
-                  ) : data_TB_newformat.includes(row[header] + "") ? (
-                    <div
-                      style={{
-                        border: "1px solid blue",
-                        padding: "5px",
-                        borderRadius: "5px",
-                        backgroundColor: "white",
-                        color: "blue",
-                      }}
-                    >
-                      {" "}
-                      {row[header]}
-                    </div>
                   ) : (
-                    row[header]
+                    <div>
+                      {row[header]}{" "}
+                      {data_TB_newformat.includes(row[header] + "") ? (
+                        <i className="bi bi-hand-index-thumb"></i>
+                      ) : (
+                        ""
+                      )}
+                    </div>
                   )}
                 </td>
               ))}
