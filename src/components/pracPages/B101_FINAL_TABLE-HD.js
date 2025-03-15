@@ -40,7 +40,12 @@ function TableHD({ data, data_TB, HINT, fnOnclick }) {
               {headers.map((header, colIndex) => (
                 <td
                   style={
-                    row[header] && (row[header] + "").includes("(*)")
+                    row[header] && data_TB_newformat.includes(row[header] + "")
+                      ? {
+                          fontStyle: "italic",
+                          fontSize: "large",
+                        }
+                      : row[header] && (row[header] + "").includes("(*)")
                       ? {
                           fontSize: "larger",
                           fontWeight: "bold",
@@ -69,6 +74,19 @@ function TableHD({ data, data_TB, HINT, fnOnclick }) {
                       alt={`element-${rowIndex}`}
                       style={imageStyle}
                     />
+                  ) : data_TB_newformat.includes(row[header] + "") ? (
+                    <div
+                      style={{
+                        border: "1px solid blue",
+                        padding: "5px",
+                        borderRadius: "5px",
+                        backgroundColor: "white",
+                        color: "blue",
+                      }}
+                    >
+                      {" "}
+                      {row[header]}
+                    </div>
                   ) : (
                     row[header]
                   )}
