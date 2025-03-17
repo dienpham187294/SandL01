@@ -79,7 +79,7 @@ function TableHD({ data, data_TB, HINT, fnOnclick }) {
                           style={{ color: "green" }}
                           className="bi bi-hand-index-thumb"
                         >
-                          |{" "}
+                          {" "}
                         </i>
                       ) : (
                         ""
