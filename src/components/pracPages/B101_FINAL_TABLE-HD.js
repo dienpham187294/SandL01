@@ -75,7 +75,12 @@ function TableHD({ data, data_TB, HINT, fnOnclick }) {
                     <div>
                       {row[header]}{" "}
                       {data_TB_newformat.includes(row[header] + "") ? (
-                        <i className="bi bi-hand-index-thumb"></i>
+                        <i
+                          style={{ color: "green" }}
+                          className="bi bi-hand-index-thumb"
+                        >
+                          |{" "}
+                        </i>
                       ) : (
                         ""
                       )}
