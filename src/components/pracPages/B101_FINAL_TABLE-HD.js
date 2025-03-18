@@ -72,7 +72,13 @@ function TableHD({ data, data_TB, HINT, fnOnclick }) {
                       style={imageStyle}
                     />
                   ) : (
-                    <div>
+                    <div
+                      style={
+                        data_TB_newformat.includes(row[header] + "")
+                          ? { borderBottom: "4px solid blue" }
+                          : {}
+                      }
+                    >
                       {row[header]}{" "}
                       {data_TB_newformat.includes(row[header] + "") ? (
                         <i
