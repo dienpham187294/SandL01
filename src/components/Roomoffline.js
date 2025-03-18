@@ -46,11 +46,12 @@ const Room = ({ setSttRoom }) => {
       } else {
         saveNumberWithDailyExpiry("score", Score);
       }
-
-      // const idSocket = socket.id.slice(0, 4);
-      // socket.emit("messageReg", {
-      //   text: "[" + idSocket + "] " + Score + " Điểm",
-      // });
+      if (Score % 5 === 0) {
+        const idSocket = socket.id.slice(0, 4);
+        socket.emit("messageReg", {
+          text: "[" + idSocket + "] " + Score + " Điểm",
+        });
+      }
     } catch (error) {}
   }, [Score]);
   // useEffect(() => {
