@@ -46,7 +46,8 @@ const Room = ({ setSttRoom }) => {
       } else {
         saveNumberWithDailyExpiry("score", Score);
       }
-      if (Score % 5 === 0) {
+
+      if (Score < 5 || Score % 5 === 0) {
         const idSocket = socket.id.slice(0, 4);
         socket.emit("messageReg", {
           text: "[" + idSocket + "] " + Score + " Điểm",
