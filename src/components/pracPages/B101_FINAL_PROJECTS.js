@@ -660,7 +660,13 @@ function FINAL_PROJECT({
                 ) : null}
                 <hr />
                 {playData.hint ? (
-                  <div>
+                  <div
+                    style={{
+                      fontSize: "16px",
+                      fontWeight: "600",
+                      padding: "10px",
+                    }}
+                  >
                     *Gợi ý:
                     <br />
                     {isImageUrl(playData.hint) ? (

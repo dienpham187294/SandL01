@@ -38,7 +38,7 @@ const TableTB = ({ data }) => {
             {isImageUrl(element) ? (
               <img src={element} alt={`element-${index}`} style={imageStyle} />
             ) : (
-              <div style={textStyle}>{element}</div>
+              <div style={textStyle}>{element.slice(0, 5)} . . .</div>
             )}
           </div>
         ))}

@@ -1,0 +1,1081 @@
+[
+  {
+    "id": "mom",
+    "ListenList": [
+      "A1_Hi",
+      "A1_Where did you go mom?",
+      "A1_I went to the supermarket",
+      "A1_What did you buy in the supermarket?",
+      "A1_I bought a bottle of chocolate milk for you.",
+      "A1_I bought some fruits for our family",
+      "A1_I bought some seafood for today dinner",
+      "A2_Hi",
+      "A2_Where did you go mom?",
+      "A2_I went to the mall",
+      "A2_What did you buy in the mall?",
+      "A2_I bought a brand new T-shirt for you",
+      "A2_I bought a new jeans for your sister",
+      "A2_I bought a new apple watch",
+      "A3_Hi",
+      "A3_Where did you go mom?",
+      "A3_I just went to my company",
+      "A3_What did you do in the company?",
+      "A3_I just talked to my boss about tomorrow plan",
+      "A3_I just finished some files in my computer",
+      "A3_I just printed some paperwork from my computer",
+      "A4_Hi",
+      "A4_Where did you go mom?",
+      "A4_I went outside to buy coffee",
+      "A4_What kind of coffee did you buy?",
+      "A4_I just bought a salt coffee for me",
+      "A4_I just bought an egg coffee for you and a black coffee for your dad.",
+      "A4_I just bought 2 condensed milk coffee for you and me",
+      "A5_Hi",
+      "A5_Where did you go mom?",
+      "A5_I went to the supermarket",
+      "A5_What did you buy in the supermarket?",
+      "A5_I bought a new car toy for your brother",
+      "A5_What kind of car toy did you buy mom?",
+      "A5_I bought an electric remote control toy car for your brother",
+      "A5_I just bought 2 new knives and 1 big bowl for the kitchen",
+      "A6_Hi",
+      "A6_Where did you go mom?",
+      "A6_I went to the mall",
+      "A6_What did you buy in the mall?",
+      "A6_I just bought some items for the kitchen",
+      "A6_What kind of kitchen item did you buy?",
+      "A6_I just got promoted to the manager position",
+      "A6_I bought it from the shop near your school",
+      "A7_Hi",
+      "A7_Where did you go mom?",
+      "A7_I just went to my company",
+      "A7_What did you do in the company?",
+      "A7_I just got promoted to a new position in the company",
+      "A7_Which position did you get promote?",
+      "A7_I bought a new LEGO car toy for your brother",
+      "A7_I just bought a new dishwasher machine",
+      "A8_Hi",
+      "A8_Where did you go mom?",
+      "A8_I went outside to buy coffee",
+      "A8_What kind of coffee did you buy?",
+      "A8_I just bought a coconut milk coffee for you because I know it is your favorite.",
+      "A8_Where did you buy this coconut milk coffee?",
+      "A8_I just got promoted to the business supervisor",
+      "A8_I bought it from a take-away coffee shop on my way back home"
+    ],
+    "typeSets": ["A1", "A2", "A3", "A4", "A5", "A6", "A7", "A8"],
+    "SEO": {
+      "seo": {
+        "metaTitle": "Mom",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": { "IFname": "Mom", "IFdes": "Mom", "IF-audiocode": "NE01_F1" },
+      "HD": [
+        {
+          "HD-01": "Bối cảnh",
+          "HD-02": "Love you, Mom! So glad you're back!",
+          "HD-03": "Yêu mẹ, mẹ về rồi con vui quá",
+          "HD-04": null
+        },
+        { "HD-01": "X", "HD-02": null, "HD-03": null, "HD-04": null },
+        {
+          "HD-01": "Where did you go mom?",
+          "HD-02": "Mẹ đã đi đâu vậy ạ?",
+          "HD-03": null,
+          "HD-04": null
+        },
+        { "HD-01": "X", "HD-02": null, "HD-03": null, "HD-04": null },
+        {
+          "HD-01": "I went to the supermarket",
+          "HD-02": "What did you buy in the supermarket?",
+          "HD-03": "Mẹ đã mua gì ở siêu thị thế ?",
+          "HD-04": null
+        },
+        {
+          "HD-01": "Mẹ đã đi tới siêu thị.",
+          "HD-02": "I bought a bottle of chocolate milk for you.",
+          "HD-03": "I bought some fruits for our family",
+          "HD-04": "I bought some seafood for today dinner"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Mẹ đã mua một cái hộp sữa socola cho con",
+          "HD-03": "Mẹ đã mua một ít trái cây cho gia đình chúng ta.",
+          "HD-04": "Mẹ đã mua hải sản cho bữa tối hôm nay"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "I bought a new car toy for your brother",
+          "HD-03": "X",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Mẹ đã mua một chiếc xe đồ chơi mới cho anh trai của con.",
+          "HD-03": null,
+          "HD-04": null
+        },
+        {
+          "HD-01": "I went to the mall",
+          "HD-02": "What did you buy in the mall?",
+          "HD-03": "Mẹ đã mua gì ở trung tâm thương mại thế?",
+          "HD-04": null
+        },
+        {
+          "HD-01": "Mẹ đã đi tới trung tâm thương mại",
+          "HD-02": "I bought a brand new T-shirt for you",
+          "HD-03": "I bought a new jeans for your sister",
+          "HD-04": "I bought a new apple watch"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Mẹ đã mua một cái áo thun mới cho con",
+          "HD-03": "Mẹ đã mua một cái quần jeans mới cho chị của con",
+          "HD-04": "Mẹ đã mua một cái đồng hồ Apple mới"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "I just bought some items for the kitchen",
+          "HD-03": "X",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Mẹ vừa mua một số dụng cụ cho nhà bếp.",
+          "HD-03": null,
+          "HD-04": null
+        },
+        {
+          "HD-01": "I just went to my company",
+          "HD-02": "What did you do in the company?",
+          "HD-03": "Mẹ đã làm gì ở trong công ty thế ạ?",
+          "HD-04": null
+        },
+        {
+          "HD-01": "Mẹ đã đi tới công ty",
+          "HD-02": "I just talked to my boss about tomorrow plan",
+          "HD-03": "I just finished some files in my computer",
+          "HD-04": "I just printed some paperwork from my computer"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Mẹ đã nói chuyện với sếp của mẹ về kế hoạch ngày mai.",
+          "HD-03": "Mẹ vừa hoàn thành một số tệp trong máy tính của mẹ",
+          "HD-04": "Mẹ vừa in một số giấy tờ từ máy tính của mẹ."
+        },
+        {
+          "HD-01": null,
+          "HD-02": "I just got promoted to a new position in the company",
+          "HD-03": "X",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Mẹ vừa mới được thăng chức lên một vị trí mới trong công ty.",
+          "HD-03": null,
+          "HD-04": null
+        },
+        {
+          "HD-01": "I went outside to buy coffee",
+          "HD-02": "What kind of coffee did you buy?",
+          "HD-03": "Mẹ đã mua loại cà phê gì thế?",
+          "HD-04": null
+        },
+        {
+          "HD-01": "Mẹ đã đi ra ngoài mua cà phê.",
+          "HD-02": "I just bought a salt coffee for me",
+          "HD-03": "I just bought an egg coffee for you and a black coffee for your dad.",
+          "HD-04": "I just bought 2 condensed milk coffee for you and me"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Mẹ vừa mua một ly cà phê muối cho mẹ.",
+          "HD-03": "Mẹ vừa mua một ly cà phê trứng cho con và một ly cà phê đen cho bố con",
+          "HD-04": "Mẹ vừa mua 2 ly cà phê sữa cho con và mẹ"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "I just bought a coconut milk coffee for you because I know it is your favorite.",
+          "HD-03": "X",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Mẹ vừa mua một ly cà phê sữa dừa cho con vì mẹ biết đó là món con thích.",
+          "HD-03": null,
+          "HD-04": null
+        },
+        { "HD-01": null, "HD-02": "XX", "HD-03": "XX", "HD-04": null },
+        {
+          "HD-01": "X",
+          "HD-02": "What kind of car toy did you buy mom?",
+          "HD-03": "Mẹ đã mua loại xe đồ chơi gì thế?",
+          "HD-04": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": "What kind of kitchen item did you buy?",
+          "HD-03": "Mẹ đã mua những vật dụng gì trong bếp thế?",
+          "HD-04": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": "Which position did you get promote?",
+          "HD-03": "Mẹ đã được thăng chức lên vị trí gì thế?",
+          "HD-04": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": "Where did you buy this coconut milk coffee?",
+          "HD-03": "Mẹ đã mua ly cà phê sữa dừa này ở đâu thế?",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "I bought an electric remote control toy car for your brother",
+          "HD-03": "Mẹ đã mua một chiếc xe điện điều khiển từ xa cho anh trai con.",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "I just bought 2 new knives and 1 big bowl for the kitchen",
+          "HD-03": "Mẹ đã mua 2 con dao mới và một cái tô lớn cho nhà bếp.",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "I just got promoted to the manager position",
+          "HD-03": "Mẹ đã được thăng chức lên làm quản lý.",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "I bought it from the shop near your school",
+          "HD-03": "Mẹ đã mua nó ở cửa hàng gần trường con.",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "I bought a new LEGO car toy for your brother",
+          "HD-03": "Mẹ đã mua một chiếc xe đồ chơi LEGO mới cho anh trai con",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "I just bought a new dishwasher machine",
+          "HD-03": "Mẹ đã mua một cái máy rửa chén mới cho nhà bếp",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "I just got promoted to the business supervisor",
+          "HD-03": "Mẹ đã được thăng chức làm giám sát kinh doanh",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "I bought it from a take-away coffee shop on my way back home",
+          "HD-03": "Mẹ đã mua nó từ một cửa hàng cà phê mang đi trên đường mẹ về nhà",
+          "HD-04": null
+        }
+      ],
+      "TB": [
+        [
+          "I went to the supermarket",
+          "I bought a bottle of chocolate milk for you.",
+          "I bought a new car toy for your brother",
+          "I bought a brand new T-shirt for you",
+          "I just bought some items for the kitchen",
+          "I just talked to my boss about tomorrow plan",
+          "I just got promoted to a new position in the company",
+          "I just bought a salt coffee for me",
+          "I just bought a coconut milk coffee for you because I know it is your favorite.",
+          "I bought an electric remote control toy car for your brother",
+          "I just bought 2 new knives and 1 big bowl for the kitchen",
+          "I just got promoted to the manager position",
+          "I bought it from the shop near your school",
+          "I bought a new LEGO car toy for your brother",
+          "I just bought a new dishwasher machine",
+          "I just got promoted to the business supervisor",
+          "I bought it from a take-away coffee shop on my way back home"
+        ],
+        [
+          "I went to the mall",
+          "I bought some fruits for our family",
+          "I bought a new jeans for your sister",
+          "I just finished some files in my computer",
+          "I just bought an egg coffee for you and a black coffee for your dad."
+        ],
+        [
+          "I just went to my company",
+          "I bought some seafood for today dinner",
+          "I bought a new apple watch",
+          "I just printed some paperwork from my computer",
+          "I just bought 2 condensed milk coffee for you and me"
+        ],
+        ["I went outside to buy coffee"]
+      ]
+    },
+    "charactor": [
+      {
+        "type": "A7",
+        "hint": "Love you, Mom! So glad you're back!",
+        "fsp": "Hi",
+        "name": "Christopher",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Where did you go mom?"],
+            "aw": ["I just went to my company"],
+            "submit": ["I just went to my company"],
+            "aw01": [{ "st": "I just went to my company", "id": "NE01_F122" }]
+          },
+          {
+            "qs": ["What did you do in the company?"],
+            "aw": ["I just got promoted to a new position in the company"],
+            "submit": ["I just got promoted to a new position in the company"],
+            "aw01": [
+              {
+                "st": "I just got promoted to a new position in the company",
+                "id": "NE01_F158"
+              }
+            ]
+          },
+          {
+            "qs": ["Which position did you get promote?"],
+            "aw": ["I just bought a new dishwasher machine"],
+            "submit": ["I just bought a new dishwasher machine"],
+            "aw01": [
+              {
+                "st": "I just bought a new dishwasher machine",
+                "id": "NE01_F159"
+              }
+            ]
+          }
+        ],
+        "submit": [
+          "I just went to my company",
+          "I just got promoted to a new position in the company",
+          "I just bought a new dishwasher machine"
+        ],
+        "fspSets": [{ "st": "Hi", "id": "NE01_F13" }]
+      },
+      {
+        "type": "A2",
+        "hint": "Love you, Mom! So glad you're back!",
+        "fsp": "Hi",
+        "name": "Andrew",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Where did you go mom?"],
+            "aw": ["I went to the mall"],
+            "submit": ["I went to the mall"],
+            "aw01": [{ "st": "I went to the mall", "id": "NE01_F110" }]
+          },
+          {
+            "qs": ["What did you buy in the mall?"],
+            "aw": ["I bought a new apple watch"],
+            "submit": ["I bought a new apple watch"],
+            "aw01": [{ "st": "I bought a new apple watch", "id": "NE01_F117" }]
+          }
+        ],
+        "submit": ["I went to the mall", "I bought a new apple watch"],
+        "fspSets": [{ "st": "Hi", "id": "NE01_F13" }]
+      },
+      {
+        "type": "A1",
+        "hint": "Love you, Mom! So glad you're back!",
+        "fsp": "Hi",
+        "name": "Jessica",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Where did you go mom?"],
+            "aw": ["I went to the supermarket"],
+            "submit": ["I went to the supermarket"],
+            "aw01": [{ "st": "I went to the supermarket", "id": "NE01_F11" }]
+          },
+          {
+            "qs": ["What did you buy in the supermarket?"],
+            "aw": ["I bought some seafood for today dinner"],
+            "submit": ["I bought some seafood for today dinner"],
+            "aw01": [
+              {
+                "st": "I bought some seafood for today dinner",
+                "id": "NE01_F18"
+              }
+            ]
+          }
+        ],
+        "submit": [
+          "I went to the supermarket",
+          "I bought some seafood for today dinner"
+        ],
+        "fspSets": [{ "st": "Hi", "id": "NE01_F10" }]
+      },
+      {
+        "type": "A5",
+        "hint": "Love you, Mom! So glad you're back!",
+        "fsp": "Hi",
+        "name": "Michael",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Where did you go mom?"],
+            "aw": ["I went to the supermarket"],
+            "submit": ["I went to the supermarket"],
+            "aw01": [{ "st": "I went to the supermarket", "id": "NE01_F14" }]
+          },
+          {
+            "qs": ["What did you buy in the supermarket?"],
+            "aw": ["I bought a new car toy for your brother"],
+            "submit": ["I bought a new car toy for your brother"],
+            "aw01": [
+              {
+                "st": "I bought a new car toy for your brother",
+                "id": "NE01_F142"
+              }
+            ]
+          },
+          {
+            "qs": ["What kind of car toy did you buy mom?"],
+            "aw": ["I just bought 2 new knives and 1 big bowl for the kitchen"],
+            "submit": [
+              "I just bought 2 new knives and 1 big bowl for the kitchen"
+            ],
+            "aw01": [
+              {
+                "st": "I just bought 2 new knives and 1 big bowl for the kitchen",
+                "id": "NE01_F143"
+              }
+            ]
+          }
+        ],
+        "submit": [
+          "I went to the supermarket",
+          "I bought a new car toy for your brother",
+          "I just bought 2 new knives and 1 big bowl for the kitchen"
+        ],
+        "fspSets": [{ "st": "Hi", "id": "NE01_F13" }]
+      },
+      {
+        "type": "A4",
+        "hint": "Love you, Mom! So glad you're back!",
+        "fsp": "Hi",
+        "name": "Joshua",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Where did you go mom?"],
+            "aw": ["I went outside to buy coffee"],
+            "submit": ["I went outside to buy coffee"],
+            "aw01": [
+              { "st": "I went outside to buy coffee", "id": "NE01_F128" }
+            ]
+          },
+          {
+            "qs": ["What kind of coffee did you buy?"],
+            "aw": ["I just bought a salt coffee for me"],
+            "submit": ["I just bought a salt coffee for me"],
+            "aw01": [
+              { "st": "I just bought a salt coffee for me", "id": "NE01_F129" }
+            ]
+          }
+        ],
+        "submit": [
+          "I went outside to buy coffee",
+          "I just bought a salt coffee for me"
+        ],
+        "fspSets": [{ "st": "Hi", "id": "NE01_F13" }]
+      },
+      {
+        "type": "A6",
+        "hint": "Love you, Mom! So glad you're back!",
+        "fsp": "Hi",
+        "name": "Andrew",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Where did you go mom?"],
+            "aw": ["I went to the mall"],
+            "submit": ["I went to the mall"],
+            "aw01": [{ "st": "I went to the mall", "id": "NE01_F110" }]
+          },
+          {
+            "qs": ["What did you buy in the mall?"],
+            "aw": ["I just bought some items for the kitchen"],
+            "submit": ["I just bought some items for the kitchen"],
+            "aw01": [
+              {
+                "st": "I just bought some items for the kitchen",
+                "id": "NE01_F150"
+              }
+            ]
+          },
+          {
+            "qs": ["What kind of kitchen item did you buy?"],
+            "aw": ["I bought it from the shop near your school"],
+            "submit": ["I bought it from the shop near your school"],
+            "aw01": [
+              {
+                "st": "I bought it from the shop near your school",
+                "id": "NE01_F151"
+              }
+            ]
+          }
+        ],
+        "submit": [
+          "I went to the mall",
+          "I just bought some items for the kitchen",
+          "I bought it from the shop near your school"
+        ],
+        "fspSets": [{ "st": "Hi", "id": "NE01_F13" }]
+      },
+      {
+        "type": "A8",
+        "hint": "Love you, Mom! So glad you're back!",
+        "fsp": "Hi",
+        "name": "Jennifer",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Where did you go mom?"],
+            "aw": ["I went outside to buy coffee"],
+            "submit": ["I went outside to buy coffee"],
+            "aw01": [
+              { "st": "I went outside to buy coffee", "id": "NE01_F131" }
+            ]
+          },
+          {
+            "qs": ["What kind of coffee did you buy?"],
+            "aw": [
+              "I just bought a coconut milk coffee for you because I know it is your favorite."
+            ],
+            "submit": [
+              "I just bought a coconut milk coffee for you because I know it is your favorite."
+            ],
+            "aw01": [
+              {
+                "st": "I just bought a coconut milk coffee for you because I know it is your favorite.",
+                "id": "NE01_F162"
+              }
+            ]
+          },
+          {
+            "qs": ["Where did you buy this coconut milk coffee?"],
+            "aw": ["I just got promoted to the business supervisor"],
+            "submit": ["I just got promoted to the business supervisor"],
+            "aw01": [
+              {
+                "st": "I just got promoted to the business supervisor",
+                "id": "NE01_F163"
+              }
+            ]
+          }
+        ],
+        "submit": [
+          "I went outside to buy coffee",
+          "I just bought a coconut milk coffee for you because I know it is your favorite.",
+          "I just got promoted to the business supervisor"
+        ],
+        "fspSets": [{ "st": "Hi", "id": "NE01_F10" }]
+      },
+      {
+        "type": "A3",
+        "hint": "Love you, Mom! So glad you're back!",
+        "fsp": "Hi",
+        "name": "Christopher",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Where did you go mom?"],
+            "aw": ["I just went to my company"],
+            "submit": ["I just went to my company"],
+            "aw01": [{ "st": "I just went to my company", "id": "NE01_F122" }]
+          },
+          {
+            "qs": ["What did you do in the company?"],
+            "aw": ["I just finished some files in my computer"],
+            "submit": ["I just finished some files in my computer"],
+            "aw01": [
+              {
+                "st": "I just finished some files in my computer",
+                "id": "NE01_F123"
+              }
+            ]
+          }
+        ],
+        "submit": [
+          "I just went to my company",
+          "I just finished some files in my computer"
+        ],
+        "fspSets": [{ "st": "Hi", "id": "NE01_F13" }]
+      },
+      {
+        "type": "A2",
+        "hint": "Love you, Mom! So glad you're back!",
+        "fsp": "Hi",
+        "name": "Michael",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Where did you go mom?"],
+            "aw": ["I went to the mall"],
+            "submit": ["I went to the mall"],
+            "aw01": [{ "st": "I went to the mall", "id": "NE01_F110" }]
+          },
+          {
+            "qs": ["What did you buy in the mall?"],
+            "aw": ["I bought a brand new T-shirt for you"],
+            "submit": ["I bought a brand new T-shirt for you"],
+            "aw01": [
+              {
+                "st": "I bought a brand new T-shirt for you",
+                "id": "NE01_F111"
+              }
+            ]
+          }
+        ],
+        "submit": [
+          "I went to the mall",
+          "I bought a brand new T-shirt for you"
+        ],
+        "fspSets": [{ "st": "Hi", "id": "NE01_F13" }]
+      },
+      {
+        "type": "A4",
+        "hint": "Love you, Mom! So glad you're back!",
+        "fsp": "Hi",
+        "name": "Emily",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Where did you go mom?"],
+            "aw": ["I went outside to buy coffee"],
+            "submit": ["I went outside to buy coffee"],
+            "aw01": [
+              { "st": "I went outside to buy coffee", "id": "NE01_F131" }
+            ]
+          },
+          {
+            "qs": ["What kind of coffee did you buy?"],
+            "aw": [
+              "I just bought an egg coffee for you and a black coffee for your dad."
+            ],
+            "submit": [
+              "I just bought an egg coffee for you and a black coffee for your dad."
+            ],
+            "aw01": [
+              {
+                "st": "I just bought an egg coffee for you and a black coffee for your dad.",
+                "id": "NE01_F132"
+              }
+            ]
+          }
+        ],
+        "submit": [
+          "I went outside to buy coffee",
+          "I just bought an egg coffee for you and a black coffee for your dad."
+        ],
+        "fspSets": [{ "st": "Hi", "id": "NE01_F10" }]
+      },
+      {
+        "type": "A5",
+        "hint": "Love you, Mom! So glad you're back!",
+        "fsp": "Hi",
+        "name": "Jessica",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Where did you go mom?"],
+            "aw": ["I went to the supermarket"],
+            "submit": ["I went to the supermarket"],
+            "aw01": [{ "st": "I went to the supermarket", "id": "NE01_F11" }]
+          },
+          {
+            "qs": ["What did you buy in the supermarket?"],
+            "aw": ["I bought a new car toy for your brother"],
+            "submit": ["I bought a new car toy for your brother"],
+            "aw01": [
+              {
+                "st": "I bought a new car toy for your brother",
+                "id": "NE01_F138"
+              }
+            ]
+          },
+          {
+            "qs": ["What kind of car toy did you buy mom?"],
+            "aw": [
+              "I bought an electric remote control toy car for your brother"
+            ],
+            "submit": [
+              "I bought an electric remote control toy car for your brother"
+            ],
+            "aw01": [
+              {
+                "st": "I bought an electric remote control toy car for your brother",
+                "id": "NE01_F139"
+              }
+            ]
+          }
+        ],
+        "submit": [
+          "I went to the supermarket",
+          "I bought a new car toy for your brother",
+          "I bought an electric remote control toy car for your brother"
+        ],
+        "fspSets": [{ "st": "Hi", "id": "NE01_F10" }]
+      },
+      {
+        "type": "A1",
+        "hint": "Love you, Mom! So glad you're back!",
+        "fsp": "Hi",
+        "name": "Emily",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Where did you go mom?"],
+            "aw": ["I went to the supermarket"],
+            "submit": ["I went to the supermarket"],
+            "aw01": [{ "st": "I went to the supermarket", "id": "NE01_F11" }]
+          },
+          {
+            "qs": ["What did you buy in the supermarket?"],
+            "aw": ["I bought a bottle of chocolate milk for you."],
+            "submit": ["I bought a bottle of chocolate milk for you."],
+            "aw01": [
+              {
+                "st": "I bought a bottle of chocolate milk for you.",
+                "id": "NE01_F12"
+              }
+            ]
+          }
+        ],
+        "submit": [
+          "I went to the supermarket",
+          "I bought a bottle of chocolate milk for you."
+        ],
+        "fspSets": [{ "st": "Hi", "id": "NE01_F10" }]
+      },
+      {
+        "type": "A6",
+        "hint": "Love you, Mom! So glad you're back!",
+        "fsp": "Hi",
+        "name": "Sarah",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Where did you go mom?"],
+            "aw": ["I went to the mall"],
+            "submit": ["I went to the mall"],
+            "aw01": [{ "st": "I went to the mall", "id": "NE01_F113" }]
+          },
+          {
+            "qs": ["What did you buy in the mall?"],
+            "aw": ["I just bought some items for the kitchen"],
+            "submit": ["I just bought some items for the kitchen"],
+            "aw01": [
+              {
+                "st": "I just bought some items for the kitchen",
+                "id": "NE01_F146"
+              }
+            ]
+          },
+          {
+            "qs": ["What kind of kitchen item did you buy?"],
+            "aw": ["I just got promoted to the manager position"],
+            "submit": ["I just got promoted to the manager position"],
+            "aw01": [
+              {
+                "st": "I just got promoted to the manager position",
+                "id": "NE01_F147"
+              }
+            ]
+          }
+        ],
+        "submit": [
+          "I went to the mall",
+          "I just bought some items for the kitchen",
+          "I just got promoted to the manager position"
+        ],
+        "fspSets": [{ "st": "Hi", "id": "NE01_F10" }]
+      },
+      {
+        "type": "A3",
+        "hint": "Love you, Mom! So glad you're back!",
+        "fsp": "Hi",
+        "name": "Jennifer",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Where did you go mom?"],
+            "aw": ["I just went to my company"],
+            "submit": ["I just went to my company"],
+            "aw01": [{ "st": "I just went to my company", "id": "NE01_F119" }]
+          },
+          {
+            "qs": ["What did you do in the company?"],
+            "aw": ["I just printed some paperwork from my computer"],
+            "submit": ["I just printed some paperwork from my computer"],
+            "aw01": [
+              {
+                "st": "I just printed some paperwork from my computer",
+                "id": "NE01_F126"
+              }
+            ]
+          }
+        ],
+        "submit": [
+          "I just went to my company",
+          "I just printed some paperwork from my computer"
+        ],
+        "fspSets": [{ "st": "Hi", "id": "NE01_F10" }]
+      },
+      {
+        "type": "A8",
+        "hint": "Love you, Mom! So glad you're back!",
+        "fsp": "Hi",
+        "name": "Joshua",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Where did you go mom?"],
+            "aw": ["I went outside to buy coffee"],
+            "submit": ["I went outside to buy coffee"],
+            "aw01": [
+              { "st": "I went outside to buy coffee", "id": "NE01_F128" }
+            ]
+          },
+          {
+            "qs": ["What kind of coffee did you buy?"],
+            "aw": [
+              "I just bought a coconut milk coffee for you because I know it is your favorite."
+            ],
+            "submit": [
+              "I just bought a coconut milk coffee for you because I know it is your favorite."
+            ],
+            "aw01": [
+              {
+                "st": "I just bought a coconut milk coffee for you because I know it is your favorite.",
+                "id": "NE01_F166"
+              }
+            ]
+          },
+          {
+            "qs": ["Where did you buy this coconut milk coffee?"],
+            "aw": [
+              "I bought it from a take-away coffee shop on my way back home"
+            ],
+            "submit": [
+              "I bought it from a take-away coffee shop on my way back home"
+            ],
+            "aw01": [
+              {
+                "st": "I bought it from a take-away coffee shop on my way back home",
+                "id": "NE01_F167"
+              }
+            ]
+          }
+        ],
+        "submit": [
+          "I went outside to buy coffee",
+          "I just bought a coconut milk coffee for you because I know it is your favorite.",
+          "I bought it from a take-away coffee shop on my way back home"
+        ],
+        "fspSets": [{ "st": "Hi", "id": "NE01_F13" }]
+      },
+      {
+        "type": "A7",
+        "hint": "Love you, Mom! So glad you're back!",
+        "fsp": "Hi",
+        "name": "Ashley",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Where did you go mom?"],
+            "aw": ["I just went to my company"],
+            "submit": ["I just went to my company"],
+            "aw01": [{ "st": "I just went to my company", "id": "NE01_F119" }]
+          },
+          {
+            "qs": ["What did you do in the company?"],
+            "aw": ["I just got promoted to a new position in the company"],
+            "submit": ["I just got promoted to a new position in the company"],
+            "aw01": [
+              {
+                "st": "I just got promoted to a new position in the company",
+                "id": "NE01_F154"
+              }
+            ]
+          },
+          {
+            "qs": ["Which position did you get promote?"],
+            "aw": ["I bought a new LEGO car toy for your brother"],
+            "submit": ["I bought a new LEGO car toy for your brother"],
+            "aw01": [
+              {
+                "st": "I bought a new LEGO car toy for your brother",
+                "id": "NE01_F155"
+              }
+            ]
+          }
+        ],
+        "submit": [
+          "I just went to my company",
+          "I just got promoted to a new position in the company",
+          "I bought a new LEGO car toy for your brother"
+        ],
+        "fspSets": [{ "st": "Hi", "id": "NE01_F10" }]
+      },
+      {
+        "type": "A1",
+        "hint": "Love you, Mom! So glad you're back!",
+        "fsp": "Hi",
+        "name": "David",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Where did you go mom?"],
+            "aw": ["I went to the supermarket"],
+            "submit": ["I went to the supermarket"],
+            "aw01": [{ "st": "I went to the supermarket", "id": "NE01_F14" }]
+          },
+          {
+            "qs": ["What did you buy in the supermarket?"],
+            "aw": ["I bought some fruits for our family"],
+            "submit": ["I bought some fruits for our family"],
+            "aw01": [
+              { "st": "I bought some fruits for our family", "id": "NE01_F15" }
+            ]
+          }
+        ],
+        "submit": [
+          "I went to the supermarket",
+          "I bought some fruits for our family"
+        ],
+        "fspSets": [{ "st": "Hi", "id": "NE01_F13" }]
+      },
+      {
+        "type": "A4",
+        "hint": "Love you, Mom! So glad you're back!",
+        "fsp": "Hi",
+        "name": "David",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Where did you go mom?"],
+            "aw": ["I went outside to buy coffee"],
+            "submit": ["I went outside to buy coffee"],
+            "aw01": [
+              { "st": "I went outside to buy coffee", "id": "NE01_F128" }
+            ]
+          },
+          {
+            "qs": ["What kind of coffee did you buy?"],
+            "aw": ["I just bought 2 condensed milk coffee for you and me"],
+            "submit": ["I just bought 2 condensed milk coffee for you and me"],
+            "aw01": [
+              {
+                "st": "I just bought 2 condensed milk coffee for you and me",
+                "id": "NE01_F135"
+              }
+            ]
+          }
+        ],
+        "submit": [
+          "I went outside to buy coffee",
+          "I just bought 2 condensed milk coffee for you and me"
+        ],
+        "fspSets": [{ "st": "Hi", "id": "NE01_F13" }]
+      },
+      {
+        "type": "A2",
+        "hint": "Love you, Mom! So glad you're back!",
+        "fsp": "Hi",
+        "name": "Sarah",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Where did you go mom?"],
+            "aw": ["I went to the mall"],
+            "submit": ["I went to the mall"],
+            "aw01": [{ "st": "I went to the mall", "id": "NE01_F113" }]
+          },
+          {
+            "qs": ["What did you buy in the mall?"],
+            "aw": ["I bought a new jeans for your sister"],
+            "submit": ["I bought a new jeans for your sister"],
+            "aw01": [
+              {
+                "st": "I bought a new jeans for your sister",
+                "id": "NE01_F114"
+              }
+            ]
+          }
+        ],
+        "submit": [
+          "I went to the mall",
+          "I bought a new jeans for your sister"
+        ],
+        "fspSets": [{ "st": "Hi", "id": "NE01_F10" }]
+      },
+      {
+        "type": "A3",
+        "hint": "Love you, Mom! So glad you're back!",
+        "fsp": "Hi",
+        "name": "Ashley",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Where did you go mom?"],
+            "aw": ["I just went to my company"],
+            "submit": ["I just went to my company"],
+            "aw01": [{ "st": "I just went to my company", "id": "NE01_F119" }]
+          },
+          {
+            "qs": ["What did you do in the company?"],
+            "aw": ["I just talked to my boss about tomorrow plan"],
+            "submit": ["I just talked to my boss about tomorrow plan"],
+            "aw01": [
+              {
+                "st": "I just talked to my boss about tomorrow plan",
+                "id": "NE01_F120"
+              }
+            ]
+          }
+        ],
+        "submit": [
+          "I just went to my company",
+          "I just talked to my boss about tomorrow plan"
+        ],
+        "fspSets": [{ "st": "Hi", "id": "NE01_F10" }]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  }
+]
