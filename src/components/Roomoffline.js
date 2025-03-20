@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import PracticeDIV from "./pracPages/B101_FINAL_PROJECTS";
 import CountdownTimer from "./pracPages/B101_FINAL_CounterTime";
 import LinkAPI from "../ulti/T0_linkApi";
+import shuffleArray from "../ulti/shuffleArray";
 import SpeechRecognition, {
   useSpeechRecognition,
 } from "react-speech-recognition";
@@ -34,7 +35,9 @@ const Room = ({ setSttRoom }) => {
 
   const [DataPracticingCharactor, setDataPracticingCharactor] = useState(null);
   const [DataPracticingOverRoll, setDataPracticingOverRoll] = useState(null);
-  const [Score, setScore] = useState(getNumberWithDailyExpiry("score") || 0);
+  const [Score, setScore] = useState(
+    getNumberWithDailyExpiry("score" + (params.get("b") || "")) || 0
+  );
   const [NumberOneByOneHost, setNumberOneByOneHost] = useState(0);
 
   const [Message, setMessage] = useState(null);
@@ -42,9 +45,9 @@ const Room = ({ setSttRoom }) => {
   useEffect(() => {
     try {
       if (Score < 0) {
-        saveNumberWithDailyExpiry("score", 0);
+        saveNumberWithDailyExpiry("score" + (params.get("b") || ""), 0);
       } else {
-        saveNumberWithDailyExpiry("score", Score);
+        saveNumberWithDailyExpiry("score" + (params.get("b") || ""), Score);
       }
 
       if (Score < 5 || Score % 5 === 0) {
@@ -109,7 +112,8 @@ const Room = ({ setSttRoom }) => {
               1,
               setIndexSets,
               params.get("b"),
-              params.get("up")
+              params.get("up"),
+              params.get("random")
             )
           );
         } catch (error) {
@@ -338,7 +342,8 @@ function interleaveCharacters(
   reverse,
   setIndexSets,
   filerSets,
-  upCode
+  upCode,
+  random
 ) {
   const numberGetPerOne = Math.floor(200 / index_sets_t_get_pracData.length);
 
@@ -374,8 +379,11 @@ function interleaveCharacters(
   }
   console.log(arrRes.length, "Số phần tử bài học");
 
-  setIndexSets(generateRandomArray(arrRes.length));
-
+  if (random === "true") {
+    setIndexSets(generateRandomArray(arrRes.length, true));
+  } else {
+    setIndexSets(generateRandomArray(arrRes.length, false));
+  }
   return arrRes;
 }
 
@@ -415,10 +423,13 @@ function splitAndConcatArray(array, m) {
   return resultArray;
 }
 
-function generateRandomArray(m) {
+function generateRandomArray(m, stt_random) {
   let randomArray = [];
   for (let i = 0; i < m; i++) {
     randomArray.push(i);
+  }
+  if (stt_random) {
+    return shuffleArray(randomArray);
   }
   return randomArray;
 }
