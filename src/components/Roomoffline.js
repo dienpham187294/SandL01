@@ -130,10 +130,23 @@ const Room = ({ setSttRoom }) => {
   };
 
   if (roomInfo === null) {
-    return <div className="container mt-3">Đợi trong giây lát . . .</div>;
+    return (
+      <div className="container mt-3">
+        <h1>Đang tải thông tin bài thực hành</h1>
+        <h1>Vui lòng Đợi trong giây lát</h1>
+      </div>
+    );
   }
   if (DataPracticingCharactor === null) {
-    return <div className="container mt-3">Đợi trong giây lát . . . . . .</div>;
+    return (
+      <div className="container mt-3">
+        <h1>Đang tải dữ liệu thực hành. Vui lòng đợi trong giây lát!</h1>
+        <h1>
+          Tùy thuộc vào tốc độ internet và cấu hình máy tính, việc tải và sắp
+          xếp dữ liệu thực hành sẽ mất ít thời gian.{" "}
+        </h1>
+      </div>
+    );
   }
 
   return (
