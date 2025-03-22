@@ -75,11 +75,18 @@ function TableHD({ data, data_TB, HINT, fnOnclick }) {
                     <div
                       style={
                         data_TB_newformat.includes(row[header] + "")
-                          ? { borderBottom: "4px solid blue" }
+                          ? {
+                              borderBottom: "4px solid blue", // Viền dưới màu xanh dương
+                              borderLeft: "1px solid blue", // Viền trái màu xanh dương
+                              // height: "80px", // Chiều cao của hình khối
+                              padding: "15px", // Khoảng cách nội dung và viền
+                              borderRadius: "8px", // Bo góc nhẹ để hình khối trông mềm mại hơn
+                              backgroundColor: "#f0f8ff", // Màu nền nhẹ để tạo sự nổi bật
+                              boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)", // Tạo bóng đổ nhẹ cho hình khối
+                            }
                           : {}
                       }
                     >
-                      {row[header]}{" "}
                       {data_TB_newformat.includes(row[header] + "") ? (
                         <i
                           style={{ color: "green" }}
@@ -89,7 +96,8 @@ function TableHD({ data, data_TB, HINT, fnOnclick }) {
                         </i>
                       ) : (
                         ""
-                      )}
+                      )}{" "}
+                      {row[header]}{" "}
                     </div>
                   )}
                 </td>

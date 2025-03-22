@@ -1,83 +1,87 @@
 [
   {
-    "id": "mom",
+    "id": "mom-come-home",
     "ListenList": [
-      "A1_Hi",
+      "A1_Mom come home",
       "A1_Where did you go mom?",
       "A1_I went to the supermarket",
       "A1_What did you buy in the supermarket?",
-      "A1_I bought a bottle of chocolate milk for you.",
-      "A1_I bought some fruits for our family",
-      "A1_I bought some seafood for today dinner",
-      "A2_Hi",
+      "A1_I bought a chocolate milk.",
+      "A1_I bought some fruits.",
+      "A1_I bought some seafood",
+      "A2_Mom come home",
       "A2_Where did you go mom?",
       "A2_I went to the mall",
       "A2_What did you buy in the mall?",
-      "A2_I bought a brand new T-shirt for you",
-      "A2_I bought a new jeans for your sister",
+      "A2_I bought a new T-shirt",
+      "A2_I bought a new jeans",
       "A2_I bought a new apple watch",
-      "A3_Hi",
+      "A3_Mom come home",
       "A3_Where did you go mom?",
       "A3_I just went to my company",
-      "A3_What did you do in the company?",
-      "A3_I just talked to my boss about tomorrow plan",
-      "A3_I just finished some files in my computer",
-      "A3_I just printed some paperwork from my computer",
-      "A4_Hi",
+      "A3_What did you do?",
+      "A3_I talked to my boss",
+      "A3_I finished some files",
+      "A3_I printed some paperwork",
+      "A4_Mom come home",
       "A4_Where did you go mom?",
       "A4_I went outside to buy coffee",
-      "A4_What kind of coffee did you buy?",
-      "A4_I just bought a salt coffee for me",
-      "A4_I just bought an egg coffee for you and a black coffee for your dad.",
-      "A4_I just bought 2 condensed milk coffee for you and me",
-      "A5_Hi",
+      "A4_What kind of coffee?",
+      "A4_I bought a salt coffee",
+      "A4_I bought an egg coffee",
+      "A4_I bought two condensed milk coffe",
+      "A5_Mom come home",
       "A5_Where did you go mom?",
       "A5_I went to the supermarket",
       "A5_What did you buy in the supermarket?",
-      "A5_I bought a new car toy for your brother",
-      "A5_What kind of car toy did you buy mom?",
-      "A5_I bought an electric remote control toy car for your brother",
-      "A5_I just bought 2 new knives and 1 big bowl for the kitchen",
-      "A6_Hi",
+      "A5_I bought a new toy",
+      "A5_What toy did you buy?",
+      "A5_A new toy car",
+      "A5_A new knife.",
+      "A6_Mom come home",
       "A6_Where did you go mom?",
       "A6_I went to the mall",
       "A6_What did you buy in the mall?",
-      "A6_I just bought some items for the kitchen",
-      "A6_What kind of kitchen item did you buy?",
-      "A6_I just got promoted to the manager position",
-      "A6_I bought it from the shop near your school",
-      "A7_Hi",
+      "A6_I bought some kitchen items",
+      "A6_What kitchen item?",
+      "A6_Promoted to manager",
+      "A6_I bought it from the shop",
+      "A7_Mom come home",
       "A7_Where did you go mom?",
       "A7_I just went to my company",
-      "A7_What did you do in the company?",
-      "A7_I just got promoted to a new position in the company",
-      "A7_Which position did you get promote?",
-      "A7_I bought a new LEGO car toy for your brother",
-      "A7_I just bought a new dishwasher machine",
-      "A8_Hi",
+      "A7_What did you do?",
+      "A7_I got a promotion",
+      "A7_Which position were you promoted?",
+      "A7_A new LEGO toy",
+      "A7_A new dishwasher machine",
+      "A8_Mom come home",
       "A8_Where did you go mom?",
       "A8_I went outside to buy coffee",
-      "A8_What kind of coffee did you buy?",
-      "A8_I just bought a coconut milk coffee for you because I know it is your favorite.",
-      "A8_Where did you buy this coconut milk coffee?",
-      "A8_I just got promoted to the business supervisor",
-      "A8_I bought it from a take-away coffee shop on my way back home"
+      "A8_What kind of coffee?",
+      "A8_I bought a coconut milk coffee",
+      "A8_Where did you buy this coffee?",
+      "A8_Promoted to supervisor",
+      "A8_I bought it on the street"
     ],
     "typeSets": ["A1", "A2", "A3", "A4", "A5", "A6", "A7", "A8"],
     "SEO": {
       "seo": {
-        "metaTitle": "Mom",
+        "metaTitle": "Mom come home",
         "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
         "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
       }
     },
     "HDTB": {
-      "IF": { "IFname": "Mom", "IFdes": "Mom", "IF-audiocode": "NE01_F1" },
+      "IF": {
+        "IFname": "Mom come home",
+        "IFdes": "Mom come home",
+        "IF-audiocode": "ENC01_F1"
+      },
       "HD": [
         {
           "HD-01": "Bối cảnh",
-          "HD-02": "Love you, Mom! So glad you're back!",
-          "HD-03": "Yêu mẹ, mẹ về rồi con vui quá",
+          "HD-02": "Mom come home",
+          "HD-03": "Mẹ về nhà.",
           "HD-04": null
         },
         { "HD-01": "X", "HD-02": null, "HD-03": null, "HD-04": null },
@@ -96,25 +100,25 @@
         },
         {
           "HD-01": "Mẹ đã đi tới siêu thị.",
-          "HD-02": "I bought a bottle of chocolate milk for you.",
-          "HD-03": "I bought some fruits for our family",
-          "HD-04": "I bought some seafood for today dinner"
+          "HD-02": "I bought a chocolate milk.",
+          "HD-03": "I bought some fruits.",
+          "HD-04": "I bought some seafood"
         },
         {
           "HD-01": null,
           "HD-02": "Mẹ đã mua một cái hộp sữa socola cho con",
-          "HD-03": "Mẹ đã mua một ít trái cây cho gia đình chúng ta.",
-          "HD-04": "Mẹ đã mua hải sản cho bữa tối hôm nay"
+          "HD-03": "Mẹ đã mua một ít trái cây",
+          "HD-04": "Mẹ đã mua hải sản"
         },
         {
           "HD-01": null,
-          "HD-02": "I bought a new car toy for your brother",
+          "HD-02": "I bought a new toy",
           "HD-03": "X",
           "HD-04": null
         },
         {
           "HD-01": null,
-          "HD-02": "Mẹ đã mua một chiếc xe đồ chơi mới cho anh trai của con.",
+          "HD-02": "Mẹ đã mua một chiếc xe đồ chơi mới",
           "HD-03": null,
           "HD-04": null
         },
@@ -126,953 +130,3292 @@
         },
         {
           "HD-01": "Mẹ đã đi tới trung tâm thương mại",
-          "HD-02": "I bought a brand new T-shirt for you",
-          "HD-03": "I bought a new jeans for your sister",
+          "HD-02": "I bought a new T-shirt",
+          "HD-03": "I bought a new jeans",
           "HD-04": "I bought a new apple watch"
         },
         {
           "HD-01": null,
-          "HD-02": "Mẹ đã mua một cái áo thun mới cho con",
-          "HD-03": "Mẹ đã mua một cái quần jeans mới cho chị của con",
+          "HD-02": "Mẹ đã mua một cái áo thun mới",
+          "HD-03": "Mẹ đã mua một cái quần jeans mới",
           "HD-04": "Mẹ đã mua một cái đồng hồ Apple mới"
         },
         {
           "HD-01": null,
-          "HD-02": "I just bought some items for the kitchen",
+          "HD-02": "I bought some kitchen items",
           "HD-03": "X",
           "HD-04": null
         },
         {
           "HD-01": null,
-          "HD-02": "Mẹ vừa mua một số dụng cụ cho nhà bếp.",
+          "HD-02": "Mẹ đã mua một số dụng cụ cho nhà bếp.",
           "HD-03": null,
           "HD-04": null
         },
         {
           "HD-01": "I just went to my company",
-          "HD-02": "What did you do in the company?",
+          "HD-02": "What did you do?",
           "HD-03": "Mẹ đã làm gì ở trong công ty thế ạ?",
           "HD-04": null
         },
         {
           "HD-01": "Mẹ đã đi tới công ty",
-          "HD-02": "I just talked to my boss about tomorrow plan",
-          "HD-03": "I just finished some files in my computer",
-          "HD-04": "I just printed some paperwork from my computer"
+          "HD-02": "I talked to my boss",
+          "HD-03": "I finished some files",
+          "HD-04": "I printed some paperwork"
         },
         {
           "HD-01": null,
-          "HD-02": "Mẹ đã nói chuyện với sếp của mẹ về kế hoạch ngày mai.",
-          "HD-03": "Mẹ vừa hoàn thành một số tệp trong máy tính của mẹ",
-          "HD-04": "Mẹ vừa in một số giấy tờ từ máy tính của mẹ."
+          "HD-02": "Mẹ đã nói chuyện với sếp của mẹ",
+          "HD-03": "Mẹ vừa hoàn thành một số tệp",
+          "HD-04": "Mẹ vừa in một số giấy tờ"
         },
         {
           "HD-01": null,
-          "HD-02": "I just got promoted to a new position in the company",
+          "HD-02": "I got a promotion",
           "HD-03": "X",
           "HD-04": null
         },
         {
           "HD-01": null,
-          "HD-02": "Mẹ vừa mới được thăng chức lên một vị trí mới trong công ty.",
+          "HD-02": "Mẹ vừa mới được thăng chức",
           "HD-03": null,
           "HD-04": null
         },
         {
           "HD-01": "I went outside to buy coffee",
-          "HD-02": "What kind of coffee did you buy?",
+          "HD-02": "What kind of coffee?",
           "HD-03": "Mẹ đã mua loại cà phê gì thế?",
           "HD-04": null
         },
         {
           "HD-01": "Mẹ đã đi ra ngoài mua cà phê.",
-          "HD-02": "I just bought a salt coffee for me",
-          "HD-03": "I just bought an egg coffee for you and a black coffee for your dad.",
-          "HD-04": "I just bought 2 condensed milk coffee for you and me"
+          "HD-02": "I bought a salt coffee",
+          "HD-03": "I bought an egg coffee",
+          "HD-04": "I bought two condensed milk coffe"
         },
         {
           "HD-01": null,
-          "HD-02": "Mẹ vừa mua một ly cà phê muối cho mẹ.",
-          "HD-03": "Mẹ vừa mua một ly cà phê trứng cho con và một ly cà phê đen cho bố con",
-          "HD-04": "Mẹ vừa mua 2 ly cà phê sữa cho con và mẹ"
+          "HD-02": "Mẹ đã mua một ly cà phê muối",
+          "HD-03": "Mẹ đã mua một ly cà phê trứng",
+          "HD-04": "Mẹ đã mua hai ly cà phê sữa"
         },
         {
           "HD-01": null,
-          "HD-02": "I just bought a coconut milk coffee for you because I know it is your favorite.",
+          "HD-02": "I bought a coconut milk coffee",
           "HD-03": "X",
           "HD-04": null
         },
         {
           "HD-01": null,
-          "HD-02": "Mẹ vừa mua một ly cà phê sữa dừa cho con vì mẹ biết đó là món con thích.",
+          "HD-02": "Mẹ đã mua một ly cà phê sữa dừa.",
           "HD-03": null,
           "HD-04": null
         },
         { "HD-01": null, "HD-02": "XX", "HD-03": "XX", "HD-04": null },
         {
           "HD-01": "X",
-          "HD-02": "What kind of car toy did you buy mom?",
-          "HD-03": "Mẹ đã mua loại xe đồ chơi gì thế?",
+          "HD-02": "What toy did you buy?",
+          "HD-03": "Mẹ đã mua loại đồ chơi gì thế?",
           "HD-04": null
         },
         {
           "HD-01": "X",
-          "HD-02": "What kind of kitchen item did you buy?",
+          "HD-02": "What kitchen item?",
           "HD-03": "Mẹ đã mua những vật dụng gì trong bếp thế?",
           "HD-04": null
         },
         {
           "HD-01": "X",
-          "HD-02": "Which position did you get promote?",
+          "HD-02": "Which position were you promoted?",
           "HD-03": "Mẹ đã được thăng chức lên vị trí gì thế?",
           "HD-04": null
         },
         {
           "HD-01": "X",
-          "HD-02": "Where did you buy this coconut milk coffee?",
+          "HD-02": "Where did you buy this coffee?",
           "HD-03": "Mẹ đã mua ly cà phê sữa dừa này ở đâu thế?",
           "HD-04": null
         },
         {
           "HD-01": null,
-          "HD-02": "I bought an electric remote control toy car for your brother",
-          "HD-03": "Mẹ đã mua một chiếc xe điện điều khiển từ xa cho anh trai con.",
+          "HD-02": "A new toy car",
+          "HD-03": "Một chiếc xe đồ chơi mới",
           "HD-04": null
         },
         {
           "HD-01": null,
-          "HD-02": "I just bought 2 new knives and 1 big bowl for the kitchen",
-          "HD-03": "Mẹ đã mua 2 con dao mới và một cái tô lớn cho nhà bếp.",
+          "HD-02": "A new knife.",
+          "HD-03": "Một con dao mới",
           "HD-04": null
         },
         {
           "HD-01": null,
-          "HD-02": "I just got promoted to the manager position",
+          "HD-02": "Promoted to manager",
           "HD-03": "Mẹ đã được thăng chức lên làm quản lý.",
           "HD-04": null
         },
         {
           "HD-01": null,
-          "HD-02": "I bought it from the shop near your school",
-          "HD-03": "Mẹ đã mua nó ở cửa hàng gần trường con.",
+          "HD-02": "I bought it from the shop",
+          "HD-03": "Mẹ đã mua nó ở cửa hàng .",
           "HD-04": null
         },
         {
           "HD-01": null,
-          "HD-02": "I bought a new LEGO car toy for your brother",
-          "HD-03": "Mẹ đã mua một chiếc xe đồ chơi LEGO mới cho anh trai con",
+          "HD-02": "A new LEGO toy",
+          "HD-03": "Một đồ chơi LEGO mới.",
           "HD-04": null
         },
         {
           "HD-01": null,
-          "HD-02": "I just bought a new dishwasher machine",
-          "HD-03": "Mẹ đã mua một cái máy rửa chén mới cho nhà bếp",
+          "HD-02": "A new dishwasher machine",
+          "HD-03": "Một máy rửa chén mới",
           "HD-04": null
         },
         {
           "HD-01": null,
-          "HD-02": "I just got promoted to the business supervisor",
-          "HD-03": "Mẹ đã được thăng chức làm giám sát kinh doanh",
+          "HD-02": "Promoted to supervisor",
+          "HD-03": "Thăng chức làm giám sát",
           "HD-04": null
         },
         {
           "HD-01": null,
-          "HD-02": "I bought it from a take-away coffee shop on my way back home",
-          "HD-03": "Mẹ đã mua nó từ một cửa hàng cà phê mang đi trên đường mẹ về nhà",
+          "HD-02": "I bought it on the street",
+          "HD-03": "Mẹ đã mua nó trên đường",
           "HD-04": null
         }
       ],
       "TB": [
         [
           "I went to the supermarket",
-          "I bought a bottle of chocolate milk for you.",
-          "I bought a new car toy for your brother",
-          "I bought a brand new T-shirt for you",
-          "I just bought some items for the kitchen",
-          "I just talked to my boss about tomorrow plan",
-          "I just got promoted to a new position in the company",
-          "I just bought a salt coffee for me",
-          "I just bought a coconut milk coffee for you because I know it is your favorite.",
-          "I bought an electric remote control toy car for your brother",
-          "I just bought 2 new knives and 1 big bowl for the kitchen",
-          "I just got promoted to the manager position",
-          "I bought it from the shop near your school",
-          "I bought a new LEGO car toy for your brother",
-          "I just bought a new dishwasher machine",
-          "I just got promoted to the business supervisor",
-          "I bought it from a take-away coffee shop on my way back home"
+          "I bought a chocolate milk.",
+          "I bought a new jeans",
+          "I printed some paperwork",
+          "I bought a coconut milk coffee",
+          "A new LEGO toy"
         ],
         [
           "I went to the mall",
-          "I bought some fruits for our family",
-          "I bought a new jeans for your sister",
-          "I just finished some files in my computer",
-          "I just bought an egg coffee for you and a black coffee for your dad."
+          "I bought some fruits.",
+          "I bought a new apple watch",
+          "I got a promotion",
+          "A new toy car",
+          "A new dishwasher machine"
         ],
         [
           "I just went to my company",
-          "I bought some seafood for today dinner",
-          "I bought a new apple watch",
-          "I just printed some paperwork from my computer",
-          "I just bought 2 condensed milk coffee for you and me"
+          "I bought some seafood",
+          "I bought some kitchen items",
+          "I bought a salt coffee",
+          "A new knife.",
+          "Promoted to supervisor"
         ],
-        ["I went outside to buy coffee"]
+        [
+          "I went outside to buy coffee",
+          "I bought a new toy",
+          "I talked to my boss",
+          "I bought an egg coffee",
+          "Promoted to manager",
+          "I bought it on the street"
+        ],
+        [
+          "I bought a new T-shirt",
+          "I finished some files",
+          "I bought two condensed milk coffe",
+          "I bought it from the shop"
+        ]
       ]
     },
     "charactor": [
       {
+        "type": "A5",
+        "hint": "Mom come home",
+        "fsp": "Mom come home",
+        "data": [
+          {
+            "qs": ["Where did you go mom?"],
+            "aw": ["I went to the supermarket"],
+            "submit": ["I went to the supermarket"],
+            "aw01": [{ "st": "I went to the supermarket", "id": "ENC01_F11" }]
+          },
+          {
+            "qs": ["What did you buy in the supermarket?"],
+            "aw": ["I bought a new toy"],
+            "submit": ["I bought a new toy"],
+            "aw01": [{ "st": "I bought a new toy", "id": "ENC01_F138" }]
+          },
+          {
+            "qs": ["What toy did you buy?"],
+            "aw": ["A new knife."],
+            "submit": ["A new knife."],
+            "aw01": [{ "st": "A new knife.", "id": "ENC01_F143" }]
+          }
+        ],
+        "submit": [
+          "I went to the supermarket",
+          "I bought a new toy",
+          "A new knife."
+        ],
+        "fspSets": [{ "st": "Mom come home", "id": "ENC01_F10" }]
+      },
+      {
         "type": "A7",
-        "hint": "Love you, Mom! So glad you're back!",
-        "fsp": "Hi",
-        "name": "Christopher",
-        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
-        "gender": "male",
+        "hint": "Mom come home",
+        "fsp": "Mom come home",
         "data": [
           {
             "qs": ["Where did you go mom?"],
             "aw": ["I just went to my company"],
             "submit": ["I just went to my company"],
-            "aw01": [{ "st": "I just went to my company", "id": "NE01_F122" }]
+            "aw01": [{ "st": "I just went to my company", "id": "ENC01_F119" }]
           },
           {
-            "qs": ["What did you do in the company?"],
-            "aw": ["I just got promoted to a new position in the company"],
-            "submit": ["I just got promoted to a new position in the company"],
-            "aw01": [
-              {
-                "st": "I just got promoted to a new position in the company",
-                "id": "NE01_F158"
-              }
-            ]
+            "qs": ["What did you do?"],
+            "aw": ["I got a promotion"],
+            "submit": ["I got a promotion"],
+            "aw01": [{ "st": "I got a promotion", "id": "ENC01_F154" }]
           },
           {
-            "qs": ["Which position did you get promote?"],
-            "aw": ["I just bought a new dishwasher machine"],
-            "submit": ["I just bought a new dishwasher machine"],
-            "aw01": [
-              {
-                "st": "I just bought a new dishwasher machine",
-                "id": "NE01_F159"
-              }
-            ]
+            "qs": ["Which position were you promoted?"],
+            "aw": ["A new dishwasher machine"],
+            "submit": ["A new dishwasher machine"],
+            "aw01": [{ "st": "A new dishwasher machine", "id": "ENC01_F159" }]
           }
         ],
         "submit": [
           "I just went to my company",
-          "I just got promoted to a new position in the company",
-          "I just bought a new dishwasher machine"
+          "I got a promotion",
+          "A new dishwasher machine"
         ],
-        "fspSets": [{ "st": "Hi", "id": "NE01_F13" }]
+        "fspSets": [{ "st": "Mom come home", "id": "ENC01_F10" }]
+      },
+      {
+        "type": "A1",
+        "hint": "Mom come home",
+        "fsp": "Mom come home",
+        "data": [
+          {
+            "qs": ["Where did you go mom?"],
+            "aw": ["I went to the supermarket"],
+            "submit": ["I went to the supermarket"],
+            "aw01": [{ "st": "I went to the supermarket", "id": "ENC01_F11" }]
+          },
+          {
+            "qs": ["What did you buy in the supermarket?"],
+            "aw": ["I bought some fruits."],
+            "submit": ["I bought some fruits."],
+            "aw01": [{ "st": "I bought some fruits.", "id": "ENC01_F15" }]
+          }
+        ],
+        "submit": ["I went to the supermarket", "I bought some fruits."],
+        "fspSets": [{ "st": "Mom come home", "id": "ENC01_F10" }]
+      },
+      {
+        "type": "A8",
+        "hint": "Mom come home",
+        "fsp": "Mom come home",
+        "data": [
+          {
+            "qs": ["Where did you go mom?"],
+            "aw": ["I went outside to buy coffee"],
+            "submit": ["I went outside to buy coffee"],
+            "aw01": [
+              { "st": "I went outside to buy coffee", "id": "ENC01_F128" }
+            ]
+          },
+          {
+            "qs": ["What kind of coffee?"],
+            "aw": ["I bought a coconut milk coffee"],
+            "submit": ["I bought a coconut milk coffee"],
+            "aw01": [
+              { "st": "I bought a coconut milk coffee", "id": "ENC01_F162" }
+            ]
+          },
+          {
+            "qs": ["Where did you buy this coffee?"],
+            "aw": ["I bought it on the street"],
+            "submit": ["I bought it on the street"],
+            "aw01": [{ "st": "I bought it on the street", "id": "ENC01_F167" }]
+          }
+        ],
+        "submit": [
+          "I went outside to buy coffee",
+          "I bought a coconut milk coffee",
+          "I bought it on the street"
+        ],
+        "fspSets": [{ "st": "Mom come home", "id": "ENC01_F10" }]
+      },
+      {
+        "type": "A4",
+        "hint": "Mom come home",
+        "fsp": "Mom come home",
+        "data": [
+          {
+            "qs": ["Where did you go mom?"],
+            "aw": ["I went outside to buy coffee"],
+            "submit": ["I went outside to buy coffee"],
+            "aw01": [
+              { "st": "I went outside to buy coffee", "id": "ENC01_F128" }
+            ]
+          },
+          {
+            "qs": ["What kind of coffee?"],
+            "aw": ["I bought two condensed milk coffe"],
+            "submit": ["I bought two condensed milk coffe"],
+            "aw01": [
+              { "st": "I bought two condensed milk coffe", "id": "ENC01_F135" }
+            ]
+          }
+        ],
+        "submit": [
+          "I went outside to buy coffee",
+          "I bought two condensed milk coffe"
+        ],
+        "fspSets": [{ "st": "Mom come home", "id": "ENC01_F10" }]
       },
       {
         "type": "A2",
-        "hint": "Love you, Mom! So glad you're back!",
-        "fsp": "Hi",
-        "name": "Andrew",
-        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
-        "gender": "male",
+        "hint": "Mom come home",
+        "fsp": "Mom come home",
         "data": [
           {
             "qs": ["Where did you go mom?"],
             "aw": ["I went to the mall"],
             "submit": ["I went to the mall"],
-            "aw01": [{ "st": "I went to the mall", "id": "NE01_F110" }]
+            "aw01": [{ "st": "I went to the mall", "id": "ENC01_F110" }]
+          },
+          {
+            "qs": ["What did you buy in the mall?"],
+            "aw": ["I bought a new T-shirt"],
+            "submit": ["I bought a new T-shirt"],
+            "aw01": [{ "st": "I bought a new T-shirt", "id": "ENC01_F111" }]
+          }
+        ],
+        "submit": ["I went to the mall", "I bought a new T-shirt"],
+        "fspSets": [{ "st": "Mom come home", "id": "ENC01_F10" }]
+      },
+      {
+        "type": "A6",
+        "hint": "Mom come home",
+        "fsp": "Mom come home",
+        "data": [
+          {
+            "qs": ["Where did you go mom?"],
+            "aw": ["I went to the mall"],
+            "submit": ["I went to the mall"],
+            "aw01": [{ "st": "I went to the mall", "id": "ENC01_F110" }]
+          },
+          {
+            "qs": ["What did you buy in the mall?"],
+            "aw": ["I bought some kitchen items"],
+            "submit": ["I bought some kitchen items"],
+            "aw01": [
+              { "st": "I bought some kitchen items", "id": "ENC01_F146" }
+            ]
+          },
+          {
+            "qs": ["What kitchen item?"],
+            "aw": ["I bought it from the shop"],
+            "submit": ["I bought it from the shop"],
+            "aw01": [{ "st": "I bought it from the shop", "id": "ENC01_F151" }]
+          }
+        ],
+        "submit": [
+          "I went to the mall",
+          "I bought some kitchen items",
+          "I bought it from the shop"
+        ],
+        "fspSets": [{ "st": "Mom come home", "id": "ENC01_F10" }]
+      },
+      {
+        "type": "A3",
+        "hint": "Mom come home",
+        "fsp": "Mom come home",
+        "data": [
+          {
+            "qs": ["Where did you go mom?"],
+            "aw": ["I just went to my company"],
+            "submit": ["I just went to my company"],
+            "aw01": [{ "st": "I just went to my company", "id": "ENC01_F119" }]
+          },
+          {
+            "qs": ["What did you do?"],
+            "aw": ["I printed some paperwork"],
+            "submit": ["I printed some paperwork"],
+            "aw01": [{ "st": "I printed some paperwork", "id": "ENC01_F126" }]
+          }
+        ],
+        "submit": ["I just went to my company", "I printed some paperwork"],
+        "fspSets": [{ "st": "Mom come home", "id": "ENC01_F10" }]
+      },
+      {
+        "type": "A4",
+        "hint": "Mom come home",
+        "fsp": "Mom come home",
+        "data": [
+          {
+            "qs": ["Where did you go mom?"],
+            "aw": ["I went outside to buy coffee"],
+            "submit": ["I went outside to buy coffee"],
+            "aw01": [
+              { "st": "I went outside to buy coffee", "id": "ENC01_F128" }
+            ]
+          },
+          {
+            "qs": ["What kind of coffee?"],
+            "aw": ["I bought a salt coffee"],
+            "submit": ["I bought a salt coffee"],
+            "aw01": [{ "st": "I bought a salt coffee", "id": "ENC01_F129" }]
+          }
+        ],
+        "submit": ["I went outside to buy coffee", "I bought a salt coffee"],
+        "fspSets": [{ "st": "Mom come home", "id": "ENC01_F10" }]
+      },
+      {
+        "type": "A3",
+        "hint": "Mom come home",
+        "fsp": "Mom come home",
+        "data": [
+          {
+            "qs": ["Where did you go mom?"],
+            "aw": ["I just went to my company"],
+            "submit": ["I just went to my company"],
+            "aw01": [{ "st": "I just went to my company", "id": "ENC01_F119" }]
+          },
+          {
+            "qs": ["What did you do?"],
+            "aw": ["I talked to my boss"],
+            "submit": ["I talked to my boss"],
+            "aw01": [{ "st": "I talked to my boss", "id": "ENC01_F120" }]
+          }
+        ],
+        "submit": ["I just went to my company", "I talked to my boss"],
+        "fspSets": [{ "st": "Mom come home", "id": "ENC01_F10" }]
+      },
+      {
+        "type": "A1",
+        "hint": "Mom come home",
+        "fsp": "Mom come home",
+        "data": [
+          {
+            "qs": ["Where did you go mom?"],
+            "aw": ["I went to the supermarket"],
+            "submit": ["I went to the supermarket"],
+            "aw01": [{ "st": "I went to the supermarket", "id": "ENC01_F11" }]
+          },
+          {
+            "qs": ["What did you buy in the supermarket?"],
+            "aw": ["I bought some seafood"],
+            "submit": ["I bought some seafood"],
+            "aw01": [{ "st": "I bought some seafood", "id": "ENC01_F18" }]
+          }
+        ],
+        "submit": ["I went to the supermarket", "I bought some seafood"],
+        "fspSets": [{ "st": "Mom come home", "id": "ENC01_F10" }]
+      },
+      {
+        "type": "A7",
+        "hint": "Mom come home",
+        "fsp": "Mom come home",
+        "data": [
+          {
+            "qs": ["Where did you go mom?"],
+            "aw": ["I just went to my company"],
+            "submit": ["I just went to my company"],
+            "aw01": [{ "st": "I just went to my company", "id": "ENC01_F119" }]
+          },
+          {
+            "qs": ["What did you do?"],
+            "aw": ["I got a promotion"],
+            "submit": ["I got a promotion"],
+            "aw01": [{ "st": "I got a promotion", "id": "ENC01_F154" }]
+          },
+          {
+            "qs": ["Which position were you promoted?"],
+            "aw": ["A new LEGO toy"],
+            "submit": ["A new LEGO toy"],
+            "aw01": [{ "st": "A new LEGO toy", "id": "ENC01_F155" }]
+          }
+        ],
+        "submit": [
+          "I just went to my company",
+          "I got a promotion",
+          "A new LEGO toy"
+        ],
+        "fspSets": [{ "st": "Mom come home", "id": "ENC01_F10" }]
+      },
+      {
+        "type": "A5",
+        "hint": "Mom come home",
+        "fsp": "Mom come home",
+        "data": [
+          {
+            "qs": ["Where did you go mom?"],
+            "aw": ["I went to the supermarket"],
+            "submit": ["I went to the supermarket"],
+            "aw01": [{ "st": "I went to the supermarket", "id": "ENC01_F11" }]
+          },
+          {
+            "qs": ["What did you buy in the supermarket?"],
+            "aw": ["I bought a new toy"],
+            "submit": ["I bought a new toy"],
+            "aw01": [{ "st": "I bought a new toy", "id": "ENC01_F138" }]
+          },
+          {
+            "qs": ["What toy did you buy?"],
+            "aw": ["A new toy car"],
+            "submit": ["A new toy car"],
+            "aw01": [{ "st": "A new toy car", "id": "ENC01_F139" }]
+          }
+        ],
+        "submit": [
+          "I went to the supermarket",
+          "I bought a new toy",
+          "A new toy car"
+        ],
+        "fspSets": [{ "st": "Mom come home", "id": "ENC01_F10" }]
+      },
+      {
+        "type": "A6",
+        "hint": "Mom come home",
+        "fsp": "Mom come home",
+        "data": [
+          {
+            "qs": ["Where did you go mom?"],
+            "aw": ["I went to the mall"],
+            "submit": ["I went to the mall"],
+            "aw01": [{ "st": "I went to the mall", "id": "ENC01_F110" }]
+          },
+          {
+            "qs": ["What did you buy in the mall?"],
+            "aw": ["I bought some kitchen items"],
+            "submit": ["I bought some kitchen items"],
+            "aw01": [
+              { "st": "I bought some kitchen items", "id": "ENC01_F146" }
+            ]
+          },
+          {
+            "qs": ["What kitchen item?"],
+            "aw": ["Promoted to manager"],
+            "submit": ["Promoted to manager"],
+            "aw01": [{ "st": "Promoted to manager", "id": "ENC01_F147" }]
+          }
+        ],
+        "submit": [
+          "I went to the mall",
+          "I bought some kitchen items",
+          "Promoted to manager"
+        ],
+        "fspSets": [{ "st": "Mom come home", "id": "ENC01_F10" }]
+      },
+      {
+        "type": "A2",
+        "hint": "Mom come home",
+        "fsp": "Mom come home",
+        "data": [
+          {
+            "qs": ["Where did you go mom?"],
+            "aw": ["I went to the mall"],
+            "submit": ["I went to the mall"],
+            "aw01": [{ "st": "I went to the mall", "id": "ENC01_F110" }]
           },
           {
             "qs": ["What did you buy in the mall?"],
             "aw": ["I bought a new apple watch"],
             "submit": ["I bought a new apple watch"],
-            "aw01": [{ "st": "I bought a new apple watch", "id": "NE01_F117" }]
+            "aw01": [{ "st": "I bought a new apple watch", "id": "ENC01_F117" }]
           }
         ],
         "submit": ["I went to the mall", "I bought a new apple watch"],
-        "fspSets": [{ "st": "Hi", "id": "NE01_F13" }]
-      },
-      {
-        "type": "A1",
-        "hint": "Love you, Mom! So glad you're back!",
-        "fsp": "Hi",
-        "name": "Jessica",
-        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["Where did you go mom?"],
-            "aw": ["I went to the supermarket"],
-            "submit": ["I went to the supermarket"],
-            "aw01": [{ "st": "I went to the supermarket", "id": "NE01_F11" }]
-          },
-          {
-            "qs": ["What did you buy in the supermarket?"],
-            "aw": ["I bought some seafood for today dinner"],
-            "submit": ["I bought some seafood for today dinner"],
-            "aw01": [
-              {
-                "st": "I bought some seafood for today dinner",
-                "id": "NE01_F18"
-              }
-            ]
-          }
-        ],
-        "submit": [
-          "I went to the supermarket",
-          "I bought some seafood for today dinner"
-        ],
-        "fspSets": [{ "st": "Hi", "id": "NE01_F10" }]
-      },
-      {
-        "type": "A5",
-        "hint": "Love you, Mom! So glad you're back!",
-        "fsp": "Hi",
-        "name": "Michael",
-        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["Where did you go mom?"],
-            "aw": ["I went to the supermarket"],
-            "submit": ["I went to the supermarket"],
-            "aw01": [{ "st": "I went to the supermarket", "id": "NE01_F14" }]
-          },
-          {
-            "qs": ["What did you buy in the supermarket?"],
-            "aw": ["I bought a new car toy for your brother"],
-            "submit": ["I bought a new car toy for your brother"],
-            "aw01": [
-              {
-                "st": "I bought a new car toy for your brother",
-                "id": "NE01_F142"
-              }
-            ]
-          },
-          {
-            "qs": ["What kind of car toy did you buy mom?"],
-            "aw": ["I just bought 2 new knives and 1 big bowl for the kitchen"],
-            "submit": [
-              "I just bought 2 new knives and 1 big bowl for the kitchen"
-            ],
-            "aw01": [
-              {
-                "st": "I just bought 2 new knives and 1 big bowl for the kitchen",
-                "id": "NE01_F143"
-              }
-            ]
-          }
-        ],
-        "submit": [
-          "I went to the supermarket",
-          "I bought a new car toy for your brother",
-          "I just bought 2 new knives and 1 big bowl for the kitchen"
-        ],
-        "fspSets": [{ "st": "Hi", "id": "NE01_F13" }]
-      },
-      {
-        "type": "A4",
-        "hint": "Love you, Mom! So glad you're back!",
-        "fsp": "Hi",
-        "name": "Joshua",
-        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["Where did you go mom?"],
-            "aw": ["I went outside to buy coffee"],
-            "submit": ["I went outside to buy coffee"],
-            "aw01": [
-              { "st": "I went outside to buy coffee", "id": "NE01_F128" }
-            ]
-          },
-          {
-            "qs": ["What kind of coffee did you buy?"],
-            "aw": ["I just bought a salt coffee for me"],
-            "submit": ["I just bought a salt coffee for me"],
-            "aw01": [
-              { "st": "I just bought a salt coffee for me", "id": "NE01_F129" }
-            ]
-          }
-        ],
-        "submit": [
-          "I went outside to buy coffee",
-          "I just bought a salt coffee for me"
-        ],
-        "fspSets": [{ "st": "Hi", "id": "NE01_F13" }]
-      },
-      {
-        "type": "A6",
-        "hint": "Love you, Mom! So glad you're back!",
-        "fsp": "Hi",
-        "name": "Andrew",
-        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["Where did you go mom?"],
-            "aw": ["I went to the mall"],
-            "submit": ["I went to the mall"],
-            "aw01": [{ "st": "I went to the mall", "id": "NE01_F110" }]
-          },
-          {
-            "qs": ["What did you buy in the mall?"],
-            "aw": ["I just bought some items for the kitchen"],
-            "submit": ["I just bought some items for the kitchen"],
-            "aw01": [
-              {
-                "st": "I just bought some items for the kitchen",
-                "id": "NE01_F150"
-              }
-            ]
-          },
-          {
-            "qs": ["What kind of kitchen item did you buy?"],
-            "aw": ["I bought it from the shop near your school"],
-            "submit": ["I bought it from the shop near your school"],
-            "aw01": [
-              {
-                "st": "I bought it from the shop near your school",
-                "id": "NE01_F151"
-              }
-            ]
-          }
-        ],
-        "submit": [
-          "I went to the mall",
-          "I just bought some items for the kitchen",
-          "I bought it from the shop near your school"
-        ],
-        "fspSets": [{ "st": "Hi", "id": "NE01_F13" }]
+        "fspSets": [{ "st": "Mom come home", "id": "ENC01_F10" }]
       },
       {
         "type": "A8",
-        "hint": "Love you, Mom! So glad you're back!",
-        "fsp": "Hi",
-        "name": "Jennifer",
-        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
-        "gender": "female",
+        "hint": "Mom come home",
+        "fsp": "Mom come home",
         "data": [
           {
             "qs": ["Where did you go mom?"],
             "aw": ["I went outside to buy coffee"],
             "submit": ["I went outside to buy coffee"],
             "aw01": [
-              { "st": "I went outside to buy coffee", "id": "NE01_F131" }
+              { "st": "I went outside to buy coffee", "id": "ENC01_F128" }
             ]
           },
           {
-            "qs": ["What kind of coffee did you buy?"],
-            "aw": [
-              "I just bought a coconut milk coffee for you because I know it is your favorite."
-            ],
-            "submit": [
-              "I just bought a coconut milk coffee for you because I know it is your favorite."
-            ],
+            "qs": ["What kind of coffee?"],
+            "aw": ["I bought a coconut milk coffee"],
+            "submit": ["I bought a coconut milk coffee"],
             "aw01": [
-              {
-                "st": "I just bought a coconut milk coffee for you because I know it is your favorite.",
-                "id": "NE01_F162"
-              }
+              { "st": "I bought a coconut milk coffee", "id": "ENC01_F162" }
             ]
           },
           {
-            "qs": ["Where did you buy this coconut milk coffee?"],
-            "aw": ["I just got promoted to the business supervisor"],
-            "submit": ["I just got promoted to the business supervisor"],
-            "aw01": [
-              {
-                "st": "I just got promoted to the business supervisor",
-                "id": "NE01_F163"
-              }
-            ]
+            "qs": ["Where did you buy this coffee?"],
+            "aw": ["Promoted to supervisor"],
+            "submit": ["Promoted to supervisor"],
+            "aw01": [{ "st": "Promoted to supervisor", "id": "ENC01_F163" }]
           }
         ],
         "submit": [
           "I went outside to buy coffee",
-          "I just bought a coconut milk coffee for you because I know it is your favorite.",
-          "I just got promoted to the business supervisor"
+          "I bought a coconut milk coffee",
+          "Promoted to supervisor"
         ],
-        "fspSets": [{ "st": "Hi", "id": "NE01_F10" }]
+        "fspSets": [{ "st": "Mom come home", "id": "ENC01_F10" }]
+      },
+      {
+        "type": "A1",
+        "hint": "Mom come home",
+        "fsp": "Mom come home",
+        "data": [
+          {
+            "qs": ["Where did you go mom?"],
+            "aw": ["I went to the supermarket"],
+            "submit": ["I went to the supermarket"],
+            "aw01": [{ "st": "I went to the supermarket", "id": "ENC01_F11" }]
+          },
+          {
+            "qs": ["What did you buy in the supermarket?"],
+            "aw": ["I bought a chocolate milk."],
+            "submit": ["I bought a chocolate milk."],
+            "aw01": [{ "st": "I bought a chocolate milk.", "id": "ENC01_F12" }]
+          }
+        ],
+        "submit": ["I went to the supermarket", "I bought a chocolate milk."],
+        "fspSets": [{ "st": "Mom come home", "id": "ENC01_F10" }]
       },
       {
         "type": "A3",
-        "hint": "Love you, Mom! So glad you're back!",
-        "fsp": "Hi",
-        "name": "Christopher",
-        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
-        "gender": "male",
+        "hint": "Mom come home",
+        "fsp": "Mom come home",
         "data": [
           {
             "qs": ["Where did you go mom?"],
             "aw": ["I just went to my company"],
             "submit": ["I just went to my company"],
-            "aw01": [{ "st": "I just went to my company", "id": "NE01_F122" }]
+            "aw01": [{ "st": "I just went to my company", "id": "ENC01_F119" }]
           },
           {
-            "qs": ["What did you do in the company?"],
-            "aw": ["I just finished some files in my computer"],
-            "submit": ["I just finished some files in my computer"],
-            "aw01": [
-              {
-                "st": "I just finished some files in my computer",
-                "id": "NE01_F123"
-              }
-            ]
+            "qs": ["What did you do?"],
+            "aw": ["I finished some files"],
+            "submit": ["I finished some files"],
+            "aw01": [{ "st": "I finished some files", "id": "ENC01_F123" }]
           }
         ],
-        "submit": [
-          "I just went to my company",
-          "I just finished some files in my computer"
+        "submit": ["I just went to my company", "I finished some files"],
+        "fspSets": [{ "st": "Mom come home", "id": "ENC01_F10" }]
+      },
+      {
+        "type": "A4",
+        "hint": "Mom come home",
+        "fsp": "Mom come home",
+        "data": [
+          {
+            "qs": ["Where did you go mom?"],
+            "aw": ["I went outside to buy coffee"],
+            "submit": ["I went outside to buy coffee"],
+            "aw01": [
+              { "st": "I went outside to buy coffee", "id": "ENC01_F128" }
+            ]
+          },
+          {
+            "qs": ["What kind of coffee?"],
+            "aw": ["I bought an egg coffee"],
+            "submit": ["I bought an egg coffee"],
+            "aw01": [{ "st": "I bought an egg coffee", "id": "ENC01_F132" }]
+          }
         ],
-        "fspSets": [{ "st": "Hi", "id": "NE01_F13" }]
+        "submit": ["I went outside to buy coffee", "I bought an egg coffee"],
+        "fspSets": [{ "st": "Mom come home", "id": "ENC01_F10" }]
       },
       {
         "type": "A2",
-        "hint": "Love you, Mom! So glad you're back!",
-        "fsp": "Hi",
-        "name": "Michael",
-        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
-        "gender": "male",
+        "hint": "Mom come home",
+        "fsp": "Mom come home",
         "data": [
           {
             "qs": ["Where did you go mom?"],
             "aw": ["I went to the mall"],
             "submit": ["I went to the mall"],
-            "aw01": [{ "st": "I went to the mall", "id": "NE01_F110" }]
+            "aw01": [{ "st": "I went to the mall", "id": "ENC01_F110" }]
           },
           {
             "qs": ["What did you buy in the mall?"],
-            "aw": ["I bought a brand new T-shirt for you"],
-            "submit": ["I bought a brand new T-shirt for you"],
-            "aw01": [
-              {
-                "st": "I bought a brand new T-shirt for you",
-                "id": "NE01_F111"
-              }
-            ]
+            "aw": ["I bought a new jeans"],
+            "submit": ["I bought a new jeans"],
+            "aw01": [{ "st": "I bought a new jeans", "id": "ENC01_F114" }]
           }
         ],
-        "submit": [
-          "I went to the mall",
-          "I bought a brand new T-shirt for you"
+        "submit": ["I went to the mall", "I bought a new jeans"],
+        "fspSets": [{ "st": "Mom come home", "id": "ENC01_F10" }]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  },
+  {
+    "id": "vacation",
+    "ListenList": [
+      "A1_Vacation",
+      "A1_Where should we go for the weekend?",
+      "A1_We should go watch movie",
+      "A1_What movie we should watch?",
+      "A1_We can watch action movie",
+      "A1_Let's watch fiction movie",
+      "A1_Romantic movie is interesting",
+      "A2_Vacation",
+      "A2_Where should we go for the weekend?",
+      "A2_Let's go to the beach",
+      "A2_Where is the beach?",
+      "A2_Let's go to Vung tau beach",
+      "A2_It's near the park",
+      "A2_Straight ahead, on the right",
+      "A3_Vacation",
+      "A3_Where should we go for the weekend?",
+      "A3_We can play games",
+      "A3_What kind of game?",
+      "A3_Shooting game",
+      "A3_Building game",
+      "A3_Puzzle game",
+      "A4_Vacation",
+      "A4_Where should we go for the weekend?",
+      "A4_I want to relax",
+      "A4_Where do you want to relax?",
+      "A4_A cool garden",
+      "A4_A quiet room",
+      "A4_A chill book store",
+      "A5_Vacation",
+      "A5_Where should we go for the weekend?",
+      "A5_We should go watch movie",
+      "A5_What movie we should watch?",
+      "A5_Cartoon movie is fun",
+      "A5_What is the movie name?",
+      "A5_Doraemon",
+      "A5_We go there by car",
+      "A6_Vacation",
+      "A6_Where should we go for the weekend?",
+      "A6_Let's go to the beach",
+      "A6_Where is the beach?",
+      "A6_Next to the hotel",
+      "A6_How to go there?",
+      "A6_It has three players",
+      "A6_No, it is quiet",
+      "A7_Vacation",
+      "A7_Where should we go for the weekend?",
+      "A7_We can play games",
+      "A7_What kind of game?",
+      "A7_Sports game",
+      "A7_How many players for the game?",
+      "A7_Conan",
+      "A7_We go there by bus",
+      "A8_Vacation",
+      "A8_Where should we go for the weekend?",
+      "A8_I want to relax",
+      "A8_Where do you want to relax?",
+      "A8_A beautiful park",
+      "A8_Is it noisy?",
+      "A8_It has two players",
+      "A8_No, it is peaceful"
+    ],
+    "typeSets": ["A1", "A2", "A3", "A4", "A5", "A6", "A7", "A8"],
+    "SEO": {
+      "seo": {
+        "metaTitle": "Vacation",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "Vacation",
+        "IFdes": "Vacation",
+        "IF-audiocode": "ENC01_F2"
+      },
+      "HD": [
+        {
+          "HD-01": "Bối cảnh",
+          "HD-02": "Vacation",
+          "HD-03": "Kì nghỉ",
+          "HD-04": null
+        },
+        { "HD-01": "X", "HD-02": null, "HD-03": null, "HD-04": null },
+        {
+          "HD-01": "Where should we go for the weekend?",
+          "HD-02": "Chúng ta nên làm gì vào cuối tuần?",
+          "HD-03": null,
+          "HD-04": null
+        },
+        { "HD-01": "X", "HD-02": null, "HD-03": null, "HD-04": null },
+        {
+          "HD-01": "We should go watch movie",
+          "HD-02": "What movie we should watch?",
+          "HD-03": "Chúng ta nên xem phim gì?",
+          "HD-04": null
+        },
+        {
+          "HD-01": "Chúng ta nên đi xem phim",
+          "HD-02": "We can watch action movie",
+          "HD-03": "Let's watch fiction movie",
+          "HD-04": "Romantic movie is interesting"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Chúng ta có thể xem phim hành động",
+          "HD-03": "Hãy xem phim viễn tưởng",
+          "HD-04": "Phim lãng mạn thật thú vị"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Cartoon movie is fun",
+          "HD-03": "X",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Phim hoạt hình thật vui",
+          "HD-03": null,
+          "HD-04": null
+        },
+        {
+          "HD-01": "Let's go to the beach",
+          "HD-02": "Where is the beach?",
+          "HD-03": "Bãi biển ở đâu?",
+          "HD-04": null
+        },
+        {
+          "HD-01": "Hãy đi tới bãi biển",
+          "HD-02": "Let's go to Vung tau beach",
+          "HD-03": "It's near the park",
+          "HD-04": "Straight ahead, on the right"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Hãy tới biển Vũng Tàu",
+          "HD-03": "Nó ở gần công viên",
+          "HD-04": "Đi thẳng, nằm bên phải"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Next to the hotel",
+          "HD-03": "X",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Kế bên khách sạn",
+          "HD-03": null,
+          "HD-04": null
+        },
+        {
+          "HD-01": "We can play games",
+          "HD-02": "What kind of game?",
+          "HD-03": "Game thể loại gì?",
+          "HD-04": null
+        },
+        {
+          "HD-01": "Chúng ta có thể chơi game",
+          "HD-02": "Shooting game",
+          "HD-03": "Building game",
+          "HD-04": "Puzzle game"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Game bắn súng",
+          "HD-03": "game xây dựng",
+          "HD-04": "game giải đố"
+        },
+        { "HD-01": null, "HD-02": "Sports game", "HD-03": "X", "HD-04": null },
+        {
+          "HD-01": null,
+          "HD-02": "Game thể thao",
+          "HD-03": null,
+          "HD-04": null
+        },
+        {
+          "HD-01": "I want to relax",
+          "HD-02": "Where do you want to relax?",
+          "HD-03": "Mẹ đã mua loại cà phê gì thế?",
+          "HD-04": null
+        },
+        {
+          "HD-01": "Tôi muốn được nghỉ ngơi",
+          "HD-02": "A cool garden",
+          "HD-03": "A quiet room",
+          "HD-04": "A chill book store"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Một khu vườn mát mẻ",
+          "HD-03": "Một căn phòng yên tĩnh",
+          "HD-04": "Một nhà sách thư giãn"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "A beautiful park",
+          "HD-03": "X",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Một công viên đẹp",
+          "HD-03": null,
+          "HD-04": null
+        },
+        { "HD-01": null, "HD-02": "XX", "HD-03": "XX", "HD-04": null },
+        {
+          "HD-01": "X",
+          "HD-02": "What is the movie name?",
+          "HD-03": "Bộ phim tên gì thế?",
+          "HD-04": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": "How to go there?",
+          "HD-03": "Làm sao để tới đó?",
+          "HD-04": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": "How many players for the game?",
+          "HD-03": "Có bao nhiêu người chơi game đó?",
+          "HD-04": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": "Is it noisy?",
+          "HD-03": "Chỗ đó có ồn không?",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Doraemon",
+          "HD-03": "Doraemon",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "We go there by car",
+          "HD-03": "Ta tới đó bằng xe hơi",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "It has three players",
+          "HD-03": "Nó có ba người chơi",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "No, it is quiet",
+          "HD-03": "Không, nó yên tĩnh",
+          "HD-04": null
+        },
+        { "HD-01": null, "HD-02": "Conan", "HD-03": "Conan", "HD-04": null },
+        {
+          "HD-01": null,
+          "HD-02": "We go there by bus",
+          "HD-03": "Ta tới đó bằng xe bus",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "It has two players",
+          "HD-03": "Nó có hai người chơi",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "No, it is peaceful",
+          "HD-03": "Không, nó yên bình.",
+          "HD-04": null
+        }
+      ],
+      "TB": [
+        [
+          "We should go watch movie",
+          "We can watch action movie",
+          "It's near the park",
+          "Puzzle game",
+          "A beautiful park",
+          "Conan"
         ],
-        "fspSets": [{ "st": "Hi", "id": "NE01_F13" }]
+        [
+          "Let's go to the beach",
+          "Let's watch fiction movie",
+          "Straight ahead, on the right",
+          "Sports game",
+          "Doraemon",
+          "We go there by bus"
+        ],
+        [
+          "We can play games",
+          "Romantic movie is interesting",
+          "Next to the hotel",
+          "A cool garden",
+          "We go there by car",
+          "It has two players"
+        ],
+        [
+          "I want to relax",
+          "Cartoon movie is fun",
+          "Shooting game",
+          "A quiet room",
+          "It has three players",
+          "No, it is peaceful"
+        ],
+        [
+          "Let's go to Vung tau beach",
+          "Building game",
+          "A chill book store",
+          "No, it is quiet"
+        ]
+      ]
+    },
+    "charactor": [
+      {
+        "type": "A1",
+        "hint": "Vacation",
+        "fsp": "Vacation",
+        "data": [
+          {
+            "qs": ["Where should we go for the weekend?"],
+            "aw": ["We should go watch movie"],
+            "submit": ["We should go watch movie"],
+            "aw01": [{ "st": "We should go watch movie", "id": "ENC01_F286" }]
+          },
+          {
+            "qs": ["What movie we should watch?"],
+            "aw": ["We can watch action movie"],
+            "submit": ["We can watch action movie"],
+            "aw01": [{ "st": "We can watch action movie", "id": "ENC01_F287" }]
+          }
+        ],
+        "submit": ["We should go watch movie", "We can watch action movie"],
+        "fspSets": [{ "st": "Vacation", "id": "ENC01_F285" }]
       },
       {
         "type": "A4",
-        "hint": "Love you, Mom! So glad you're back!",
-        "fsp": "Hi",
-        "name": "Emily",
-        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
-        "gender": "female",
+        "hint": "Vacation",
+        "fsp": "Vacation",
         "data": [
           {
-            "qs": ["Where did you go mom?"],
-            "aw": ["I went outside to buy coffee"],
-            "submit": ["I went outside to buy coffee"],
-            "aw01": [
-              { "st": "I went outside to buy coffee", "id": "NE01_F131" }
-            ]
+            "qs": ["Where should we go for the weekend?"],
+            "aw": ["I want to relax"],
+            "submit": ["I want to relax"],
+            "aw01": [{ "st": "I want to relax", "id": "ENC01_F2113" }]
           },
           {
-            "qs": ["What kind of coffee did you buy?"],
-            "aw": [
-              "I just bought an egg coffee for you and a black coffee for your dad."
-            ],
-            "submit": [
-              "I just bought an egg coffee for you and a black coffee for your dad."
-            ],
-            "aw01": [
-              {
-                "st": "I just bought an egg coffee for you and a black coffee for your dad.",
-                "id": "NE01_F132"
-              }
-            ]
+            "qs": ["Where do you want to relax?"],
+            "aw": ["A quiet room"],
+            "submit": ["A quiet room"],
+            "aw01": [{ "st": "A quiet room", "id": "ENC01_F2117" }]
           }
         ],
-        "submit": [
-          "I went outside to buy coffee",
-          "I just bought an egg coffee for you and a black coffee for your dad."
-        ],
-        "fspSets": [{ "st": "Hi", "id": "NE01_F10" }]
-      },
-      {
-        "type": "A5",
-        "hint": "Love you, Mom! So glad you're back!",
-        "fsp": "Hi",
-        "name": "Jessica",
-        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["Where did you go mom?"],
-            "aw": ["I went to the supermarket"],
-            "submit": ["I went to the supermarket"],
-            "aw01": [{ "st": "I went to the supermarket", "id": "NE01_F11" }]
-          },
-          {
-            "qs": ["What did you buy in the supermarket?"],
-            "aw": ["I bought a new car toy for your brother"],
-            "submit": ["I bought a new car toy for your brother"],
-            "aw01": [
-              {
-                "st": "I bought a new car toy for your brother",
-                "id": "NE01_F138"
-              }
-            ]
-          },
-          {
-            "qs": ["What kind of car toy did you buy mom?"],
-            "aw": [
-              "I bought an electric remote control toy car for your brother"
-            ],
-            "submit": [
-              "I bought an electric remote control toy car for your brother"
-            ],
-            "aw01": [
-              {
-                "st": "I bought an electric remote control toy car for your brother",
-                "id": "NE01_F139"
-              }
-            ]
-          }
-        ],
-        "submit": [
-          "I went to the supermarket",
-          "I bought a new car toy for your brother",
-          "I bought an electric remote control toy car for your brother"
-        ],
-        "fspSets": [{ "st": "Hi", "id": "NE01_F10" }]
-      },
-      {
-        "type": "A1",
-        "hint": "Love you, Mom! So glad you're back!",
-        "fsp": "Hi",
-        "name": "Emily",
-        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["Where did you go mom?"],
-            "aw": ["I went to the supermarket"],
-            "submit": ["I went to the supermarket"],
-            "aw01": [{ "st": "I went to the supermarket", "id": "NE01_F11" }]
-          },
-          {
-            "qs": ["What did you buy in the supermarket?"],
-            "aw": ["I bought a bottle of chocolate milk for you."],
-            "submit": ["I bought a bottle of chocolate milk for you."],
-            "aw01": [
-              {
-                "st": "I bought a bottle of chocolate milk for you.",
-                "id": "NE01_F12"
-              }
-            ]
-          }
-        ],
-        "submit": [
-          "I went to the supermarket",
-          "I bought a bottle of chocolate milk for you."
-        ],
-        "fspSets": [{ "st": "Hi", "id": "NE01_F10" }]
-      },
-      {
-        "type": "A6",
-        "hint": "Love you, Mom! So glad you're back!",
-        "fsp": "Hi",
-        "name": "Sarah",
-        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["Where did you go mom?"],
-            "aw": ["I went to the mall"],
-            "submit": ["I went to the mall"],
-            "aw01": [{ "st": "I went to the mall", "id": "NE01_F113" }]
-          },
-          {
-            "qs": ["What did you buy in the mall?"],
-            "aw": ["I just bought some items for the kitchen"],
-            "submit": ["I just bought some items for the kitchen"],
-            "aw01": [
-              {
-                "st": "I just bought some items for the kitchen",
-                "id": "NE01_F146"
-              }
-            ]
-          },
-          {
-            "qs": ["What kind of kitchen item did you buy?"],
-            "aw": ["I just got promoted to the manager position"],
-            "submit": ["I just got promoted to the manager position"],
-            "aw01": [
-              {
-                "st": "I just got promoted to the manager position",
-                "id": "NE01_F147"
-              }
-            ]
-          }
-        ],
-        "submit": [
-          "I went to the mall",
-          "I just bought some items for the kitchen",
-          "I just got promoted to the manager position"
-        ],
-        "fspSets": [{ "st": "Hi", "id": "NE01_F10" }]
-      },
-      {
-        "type": "A3",
-        "hint": "Love you, Mom! So glad you're back!",
-        "fsp": "Hi",
-        "name": "Jennifer",
-        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["Where did you go mom?"],
-            "aw": ["I just went to my company"],
-            "submit": ["I just went to my company"],
-            "aw01": [{ "st": "I just went to my company", "id": "NE01_F119" }]
-          },
-          {
-            "qs": ["What did you do in the company?"],
-            "aw": ["I just printed some paperwork from my computer"],
-            "submit": ["I just printed some paperwork from my computer"],
-            "aw01": [
-              {
-                "st": "I just printed some paperwork from my computer",
-                "id": "NE01_F126"
-              }
-            ]
-          }
-        ],
-        "submit": [
-          "I just went to my company",
-          "I just printed some paperwork from my computer"
-        ],
-        "fspSets": [{ "st": "Hi", "id": "NE01_F10" }]
+        "submit": ["I want to relax", "A quiet room"],
+        "fspSets": [{ "st": "Vacation", "id": "ENC01_F285" }]
       },
       {
         "type": "A8",
-        "hint": "Love you, Mom! So glad you're back!",
-        "fsp": "Hi",
-        "name": "Joshua",
-        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
-        "gender": "male",
+        "hint": "Vacation",
+        "fsp": "Vacation",
         "data": [
           {
-            "qs": ["Where did you go mom?"],
-            "aw": ["I went outside to buy coffee"],
-            "submit": ["I went outside to buy coffee"],
-            "aw01": [
-              { "st": "I went outside to buy coffee", "id": "NE01_F128" }
-            ]
+            "qs": ["Where should we go for the weekend?"],
+            "aw": ["I want to relax"],
+            "submit": ["I want to relax"],
+            "aw01": [{ "st": "I want to relax", "id": "ENC01_F2113" }]
           },
           {
-            "qs": ["What kind of coffee did you buy?"],
-            "aw": [
-              "I just bought a coconut milk coffee for you because I know it is your favorite."
-            ],
-            "submit": [
-              "I just bought a coconut milk coffee for you because I know it is your favorite."
-            ],
-            "aw01": [
-              {
-                "st": "I just bought a coconut milk coffee for you because I know it is your favorite.",
-                "id": "NE01_F166"
-              }
-            ]
+            "qs": ["Where do you want to relax?"],
+            "aw": ["A beautiful park"],
+            "submit": ["A beautiful park"],
+            "aw01": [{ "st": "A beautiful park", "id": "ENC01_F2147" }]
           },
           {
-            "qs": ["Where did you buy this coconut milk coffee?"],
-            "aw": [
-              "I bought it from a take-away coffee shop on my way back home"
-            ],
-            "submit": [
-              "I bought it from a take-away coffee shop on my way back home"
-            ],
-            "aw01": [
-              {
-                "st": "I bought it from a take-away coffee shop on my way back home",
-                "id": "NE01_F167"
-              }
-            ]
+            "qs": ["Is it noisy?"],
+            "aw": ["No, it is peaceful"],
+            "submit": ["No, it is peaceful"],
+            "aw01": [{ "st": "No, it is peaceful", "id": "ENC01_F2152" }]
+          }
+        ],
+        "submit": ["I want to relax", "A beautiful park", "No, it is peaceful"],
+        "fspSets": [{ "st": "Vacation", "id": "ENC01_F285" }]
+      },
+      {
+        "type": "A2",
+        "hint": "Vacation",
+        "fsp": "Vacation",
+        "data": [
+          {
+            "qs": ["Where should we go for the weekend?"],
+            "aw": ["Let's go to the beach"],
+            "submit": ["Let's go to the beach"],
+            "aw01": [{ "st": "Let's go to the beach", "id": "ENC01_F295" }]
+          },
+          {
+            "qs": ["Where is the beach?"],
+            "aw": ["It's near the park"],
+            "submit": ["It's near the park"],
+            "aw01": [{ "st": "It's near the park", "id": "ENC01_F299" }]
+          }
+        ],
+        "submit": ["Let's go to the beach", "It's near the park"],
+        "fspSets": [{ "st": "Vacation", "id": "ENC01_F285" }]
+      },
+      {
+        "type": "A6",
+        "hint": "Vacation",
+        "fsp": "Vacation",
+        "data": [
+          {
+            "qs": ["Where should we go for the weekend?"],
+            "aw": ["Let's go to the beach"],
+            "submit": ["Let's go to the beach"],
+            "aw01": [{ "st": "Let's go to the beach", "id": "ENC01_F295" }]
+          },
+          {
+            "qs": ["Where is the beach?"],
+            "aw": ["Next to the hotel"],
+            "submit": ["Next to the hotel"],
+            "aw01": [{ "st": "Next to the hotel", "id": "ENC01_F2131" }]
+          },
+          {
+            "qs": ["How to go there?"],
+            "aw": ["It has three players"],
+            "submit": ["It has three players"],
+            "aw01": [{ "st": "It has three players", "id": "ENC01_F2132" }]
           }
         ],
         "submit": [
-          "I went outside to buy coffee",
-          "I just bought a coconut milk coffee for you because I know it is your favorite.",
-          "I bought it from a take-away coffee shop on my way back home"
+          "Let's go to the beach",
+          "Next to the hotel",
+          "It has three players"
         ],
-        "fspSets": [{ "st": "Hi", "id": "NE01_F13" }]
+        "fspSets": [{ "st": "Vacation", "id": "ENC01_F285" }]
       },
       {
         "type": "A7",
-        "hint": "Love you, Mom! So glad you're back!",
-        "fsp": "Hi",
-        "name": "Ashley",
-        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
-        "gender": "female",
+        "hint": "Vacation",
+        "fsp": "Vacation",
         "data": [
           {
-            "qs": ["Where did you go mom?"],
-            "aw": ["I just went to my company"],
-            "submit": ["I just went to my company"],
-            "aw01": [{ "st": "I just went to my company", "id": "NE01_F119" }]
+            "qs": ["Where should we go for the weekend?"],
+            "aw": ["We can play games"],
+            "submit": ["We can play games"],
+            "aw01": [{ "st": "We can play games", "id": "ENC01_F2104" }]
           },
           {
-            "qs": ["What did you do in the company?"],
-            "aw": ["I just got promoted to a new position in the company"],
-            "submit": ["I just got promoted to a new position in the company"],
-            "aw01": [
-              {
-                "st": "I just got promoted to a new position in the company",
-                "id": "NE01_F154"
-              }
-            ]
+            "qs": ["What kind of game?"],
+            "aw": ["Sports game"],
+            "submit": ["Sports game"],
+            "aw01": [{ "st": "Sports game", "id": "ENC01_F2139" }]
           },
           {
-            "qs": ["Which position did you get promote?"],
-            "aw": ["I bought a new LEGO car toy for your brother"],
-            "submit": ["I bought a new LEGO car toy for your brother"],
-            "aw01": [
-              {
-                "st": "I bought a new LEGO car toy for your brother",
-                "id": "NE01_F155"
-              }
-            ]
+            "qs": ["How many players for the game?"],
+            "aw": ["Conan"],
+            "submit": ["Conan"],
+            "aw01": [{ "st": "Conan", "id": "ENC01_F2140" }]
           }
         ],
-        "submit": [
-          "I just went to my company",
-          "I just got promoted to a new position in the company",
-          "I bought a new LEGO car toy for your brother"
-        ],
-        "fspSets": [{ "st": "Hi", "id": "NE01_F10" }]
-      },
-      {
-        "type": "A1",
-        "hint": "Love you, Mom! So glad you're back!",
-        "fsp": "Hi",
-        "name": "David",
-        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["Where did you go mom?"],
-            "aw": ["I went to the supermarket"],
-            "submit": ["I went to the supermarket"],
-            "aw01": [{ "st": "I went to the supermarket", "id": "NE01_F14" }]
-          },
-          {
-            "qs": ["What did you buy in the supermarket?"],
-            "aw": ["I bought some fruits for our family"],
-            "submit": ["I bought some fruits for our family"],
-            "aw01": [
-              { "st": "I bought some fruits for our family", "id": "NE01_F15" }
-            ]
-          }
-        ],
-        "submit": [
-          "I went to the supermarket",
-          "I bought some fruits for our family"
-        ],
-        "fspSets": [{ "st": "Hi", "id": "NE01_F13" }]
-      },
-      {
-        "type": "A4",
-        "hint": "Love you, Mom! So glad you're back!",
-        "fsp": "Hi",
-        "name": "David",
-        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["Where did you go mom?"],
-            "aw": ["I went outside to buy coffee"],
-            "submit": ["I went outside to buy coffee"],
-            "aw01": [
-              { "st": "I went outside to buy coffee", "id": "NE01_F128" }
-            ]
-          },
-          {
-            "qs": ["What kind of coffee did you buy?"],
-            "aw": ["I just bought 2 condensed milk coffee for you and me"],
-            "submit": ["I just bought 2 condensed milk coffee for you and me"],
-            "aw01": [
-              {
-                "st": "I just bought 2 condensed milk coffee for you and me",
-                "id": "NE01_F135"
-              }
-            ]
-          }
-        ],
-        "submit": [
-          "I went outside to buy coffee",
-          "I just bought 2 condensed milk coffee for you and me"
-        ],
-        "fspSets": [{ "st": "Hi", "id": "NE01_F13" }]
-      },
-      {
-        "type": "A2",
-        "hint": "Love you, Mom! So glad you're back!",
-        "fsp": "Hi",
-        "name": "Sarah",
-        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["Where did you go mom?"],
-            "aw": ["I went to the mall"],
-            "submit": ["I went to the mall"],
-            "aw01": [{ "st": "I went to the mall", "id": "NE01_F113" }]
-          },
-          {
-            "qs": ["What did you buy in the mall?"],
-            "aw": ["I bought a new jeans for your sister"],
-            "submit": ["I bought a new jeans for your sister"],
-            "aw01": [
-              {
-                "st": "I bought a new jeans for your sister",
-                "id": "NE01_F114"
-              }
-            ]
-          }
-        ],
-        "submit": [
-          "I went to the mall",
-          "I bought a new jeans for your sister"
-        ],
-        "fspSets": [{ "st": "Hi", "id": "NE01_F10" }]
+        "submit": ["We can play games", "Sports game", "Conan"],
+        "fspSets": [{ "st": "Vacation", "id": "ENC01_F285" }]
       },
       {
         "type": "A3",
-        "hint": "Love you, Mom! So glad you're back!",
-        "fsp": "Hi",
-        "name": "Ashley",
-        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
-        "gender": "female",
+        "hint": "Vacation",
+        "fsp": "Vacation",
         "data": [
           {
-            "qs": ["Where did you go mom?"],
-            "aw": ["I just went to my company"],
-            "submit": ["I just went to my company"],
-            "aw01": [{ "st": "I just went to my company", "id": "NE01_F119" }]
+            "qs": ["Where should we go for the weekend?"],
+            "aw": ["We can play games"],
+            "submit": ["We can play games"],
+            "aw01": [{ "st": "We can play games", "id": "ENC01_F2104" }]
           },
           {
-            "qs": ["What did you do in the company?"],
-            "aw": ["I just talked to my boss about tomorrow plan"],
-            "submit": ["I just talked to my boss about tomorrow plan"],
+            "qs": ["What kind of game?"],
+            "aw": ["Shooting game"],
+            "submit": ["Shooting game"],
+            "aw01": [{ "st": "Shooting game", "id": "ENC01_F2105" }]
+          }
+        ],
+        "submit": ["We can play games", "Shooting game"],
+        "fspSets": [{ "st": "Vacation", "id": "ENC01_F285" }]
+      },
+      {
+        "type": "A5",
+        "hint": "Vacation",
+        "fsp": "Vacation",
+        "data": [
+          {
+            "qs": ["Where should we go for the weekend?"],
+            "aw": ["We should go watch movie"],
+            "submit": ["We should go watch movie"],
+            "aw01": [{ "st": "We should go watch movie", "id": "ENC01_F286" }]
+          },
+          {
+            "qs": ["What movie we should watch?"],
+            "aw": ["Cartoon movie is fun"],
+            "submit": ["Cartoon movie is fun"],
+            "aw01": [{ "st": "Cartoon movie is fun", "id": "ENC01_F2123" }]
+          },
+          {
+            "qs": ["What is the movie name?"],
+            "aw": ["Doraemon"],
+            "submit": ["Doraemon"],
+            "aw01": [{ "st": "Doraemon", "id": "ENC01_F2124" }]
+          }
+        ],
+        "submit": [
+          "We should go watch movie",
+          "Cartoon movie is fun",
+          "Doraemon"
+        ],
+        "fspSets": [{ "st": "Vacation", "id": "ENC01_F285" }]
+      },
+      {
+        "type": "A1",
+        "hint": "Vacation",
+        "fsp": "Vacation",
+        "data": [
+          {
+            "qs": ["Where should we go for the weekend?"],
+            "aw": ["We should go watch movie"],
+            "submit": ["We should go watch movie"],
+            "aw01": [{ "st": "We should go watch movie", "id": "ENC01_F286" }]
+          },
+          {
+            "qs": ["What movie we should watch?"],
+            "aw": ["Romantic movie is interesting"],
+            "submit": ["Romantic movie is interesting"],
+            "aw01": [
+              { "st": "Romantic movie is interesting", "id": "ENC01_F293" }
+            ]
+          }
+        ],
+        "submit": ["We should go watch movie", "Romantic movie is interesting"],
+        "fspSets": [{ "st": "Vacation", "id": "ENC01_F285" }]
+      },
+      {
+        "type": "A3",
+        "hint": "Vacation",
+        "fsp": "Vacation",
+        "data": [
+          {
+            "qs": ["Where should we go for the weekend?"],
+            "aw": ["We can play games"],
+            "submit": ["We can play games"],
+            "aw01": [{ "st": "We can play games", "id": "ENC01_F2104" }]
+          },
+          {
+            "qs": ["What kind of game?"],
+            "aw": ["Puzzle game"],
+            "submit": ["Puzzle game"],
+            "aw01": [{ "st": "Puzzle game", "id": "ENC01_F2111" }]
+          }
+        ],
+        "submit": ["We can play games", "Puzzle game"],
+        "fspSets": [{ "st": "Vacation", "id": "ENC01_F285" }]
+      },
+      {
+        "type": "A4",
+        "hint": "Vacation",
+        "fsp": "Vacation",
+        "data": [
+          {
+            "qs": ["Where should we go for the weekend?"],
+            "aw": ["I want to relax"],
+            "submit": ["I want to relax"],
+            "aw01": [{ "st": "I want to relax", "id": "ENC01_F2113" }]
+          },
+          {
+            "qs": ["Where do you want to relax?"],
+            "aw": ["A chill book store"],
+            "submit": ["A chill book store"],
+            "aw01": [{ "st": "A chill book store", "id": "ENC01_F2120" }]
+          }
+        ],
+        "submit": ["I want to relax", "A chill book store"],
+        "fspSets": [{ "st": "Vacation", "id": "ENC01_F285" }]
+      },
+      {
+        "type": "A2",
+        "hint": "Vacation",
+        "fsp": "Vacation",
+        "data": [
+          {
+            "qs": ["Where should we go for the weekend?"],
+            "aw": ["Let's go to the beach"],
+            "submit": ["Let's go to the beach"],
+            "aw01": [{ "st": "Let's go to the beach", "id": "ENC01_F295" }]
+          },
+          {
+            "qs": ["Where is the beach?"],
+            "aw": ["Let's go to Vung tau beach"],
+            "submit": ["Let's go to Vung tau beach"],
+            "aw01": [{ "st": "Let's go to Vung tau beach", "id": "ENC01_F296" }]
+          }
+        ],
+        "submit": ["Let's go to the beach", "Let's go to Vung tau beach"],
+        "fspSets": [{ "st": "Vacation", "id": "ENC01_F285" }]
+      },
+      {
+        "type": "A7",
+        "hint": "Vacation",
+        "fsp": "Vacation",
+        "data": [
+          {
+            "qs": ["Where should we go for the weekend?"],
+            "aw": ["We can play games"],
+            "submit": ["We can play games"],
+            "aw01": [{ "st": "We can play games", "id": "ENC01_F2104" }]
+          },
+          {
+            "qs": ["What kind of game?"],
+            "aw": ["Sports game"],
+            "submit": ["Sports game"],
+            "aw01": [{ "st": "Sports game", "id": "ENC01_F2139" }]
+          },
+          {
+            "qs": ["How many players for the game?"],
+            "aw": ["We go there by bus"],
+            "submit": ["We go there by bus"],
+            "aw01": [{ "st": "We go there by bus", "id": "ENC01_F2144" }]
+          }
+        ],
+        "submit": ["We can play games", "Sports game", "We go there by bus"],
+        "fspSets": [{ "st": "Vacation", "id": "ENC01_F285" }]
+      },
+      {
+        "type": "A6",
+        "hint": "Vacation",
+        "fsp": "Vacation",
+        "data": [
+          {
+            "qs": ["Where should we go for the weekend?"],
+            "aw": ["Let's go to the beach"],
+            "submit": ["Let's go to the beach"],
+            "aw01": [{ "st": "Let's go to the beach", "id": "ENC01_F295" }]
+          },
+          {
+            "qs": ["Where is the beach?"],
+            "aw": ["Next to the hotel"],
+            "submit": ["Next to the hotel"],
+            "aw01": [{ "st": "Next to the hotel", "id": "ENC01_F2131" }]
+          },
+          {
+            "qs": ["How to go there?"],
+            "aw": ["No, it is quiet"],
+            "submit": ["No, it is quiet"],
+            "aw01": [{ "st": "No, it is quiet", "id": "ENC01_F2136" }]
+          }
+        ],
+        "submit": [
+          "Let's go to the beach",
+          "Next to the hotel",
+          "No, it is quiet"
+        ],
+        "fspSets": [{ "st": "Vacation", "id": "ENC01_F285" }]
+      },
+      {
+        "type": "A5",
+        "hint": "Vacation",
+        "fsp": "Vacation",
+        "data": [
+          {
+            "qs": ["Where should we go for the weekend?"],
+            "aw": ["We should go watch movie"],
+            "submit": ["We should go watch movie"],
+            "aw01": [{ "st": "We should go watch movie", "id": "ENC01_F286" }]
+          },
+          {
+            "qs": ["What movie we should watch?"],
+            "aw": ["Cartoon movie is fun"],
+            "submit": ["Cartoon movie is fun"],
+            "aw01": [{ "st": "Cartoon movie is fun", "id": "ENC01_F2123" }]
+          },
+          {
+            "qs": ["What is the movie name?"],
+            "aw": ["We go there by car"],
+            "submit": ["We go there by car"],
+            "aw01": [{ "st": "We go there by car", "id": "ENC01_F2128" }]
+          }
+        ],
+        "submit": [
+          "We should go watch movie",
+          "Cartoon movie is fun",
+          "We go there by car"
+        ],
+        "fspSets": [{ "st": "Vacation", "id": "ENC01_F285" }]
+      },
+      {
+        "type": "A8",
+        "hint": "Vacation",
+        "fsp": "Vacation",
+        "data": [
+          {
+            "qs": ["Where should we go for the weekend?"],
+            "aw": ["I want to relax"],
+            "submit": ["I want to relax"],
+            "aw01": [{ "st": "I want to relax", "id": "ENC01_F2113" }]
+          },
+          {
+            "qs": ["Where do you want to relax?"],
+            "aw": ["A beautiful park"],
+            "submit": ["A beautiful park"],
+            "aw01": [{ "st": "A beautiful park", "id": "ENC01_F2147" }]
+          },
+          {
+            "qs": ["Is it noisy?"],
+            "aw": ["It has two players"],
+            "submit": ["It has two players"],
+            "aw01": [{ "st": "It has two players", "id": "ENC01_F2148" }]
+          }
+        ],
+        "submit": ["I want to relax", "A beautiful park", "It has two players"],
+        "fspSets": [{ "st": "Vacation", "id": "ENC01_F285" }]
+      },
+      {
+        "type": "A3",
+        "hint": "Vacation",
+        "fsp": "Vacation",
+        "data": [
+          {
+            "qs": ["Where should we go for the weekend?"],
+            "aw": ["We can play games"],
+            "submit": ["We can play games"],
+            "aw01": [{ "st": "We can play games", "id": "ENC01_F2104" }]
+          },
+          {
+            "qs": ["What kind of game?"],
+            "aw": ["Building game"],
+            "submit": ["Building game"],
+            "aw01": [{ "st": "Building game", "id": "ENC01_F2108" }]
+          }
+        ],
+        "submit": ["We can play games", "Building game"],
+        "fspSets": [{ "st": "Vacation", "id": "ENC01_F285" }]
+      },
+      {
+        "type": "A1",
+        "hint": "Vacation",
+        "fsp": "Vacation",
+        "data": [
+          {
+            "qs": ["Where should we go for the weekend?"],
+            "aw": ["We should go watch movie"],
+            "submit": ["We should go watch movie"],
+            "aw01": [{ "st": "We should go watch movie", "id": "ENC01_F286" }]
+          },
+          {
+            "qs": ["What movie we should watch?"],
+            "aw": ["Let's watch fiction movie"],
+            "submit": ["Let's watch fiction movie"],
+            "aw01": [{ "st": "Let's watch fiction movie", "id": "ENC01_F290" }]
+          }
+        ],
+        "submit": ["We should go watch movie", "Let's watch fiction movie"],
+        "fspSets": [{ "st": "Vacation", "id": "ENC01_F285" }]
+      },
+      {
+        "type": "A4",
+        "hint": "Vacation",
+        "fsp": "Vacation",
+        "data": [
+          {
+            "qs": ["Where should we go for the weekend?"],
+            "aw": ["I want to relax"],
+            "submit": ["I want to relax"],
+            "aw01": [{ "st": "I want to relax", "id": "ENC01_F2113" }]
+          },
+          {
+            "qs": ["Where do you want to relax?"],
+            "aw": ["A cool garden"],
+            "submit": ["A cool garden"],
+            "aw01": [{ "st": "A cool garden", "id": "ENC01_F2114" }]
+          }
+        ],
+        "submit": ["I want to relax", "A cool garden"],
+        "fspSets": [{ "st": "Vacation", "id": "ENC01_F285" }]
+      },
+      {
+        "type": "A2",
+        "hint": "Vacation",
+        "fsp": "Vacation",
+        "data": [
+          {
+            "qs": ["Where should we go for the weekend?"],
+            "aw": ["Let's go to the beach"],
+            "submit": ["Let's go to the beach"],
+            "aw01": [{ "st": "Let's go to the beach", "id": "ENC01_F295" }]
+          },
+          {
+            "qs": ["Where is the beach?"],
+            "aw": ["Straight ahead, on the right"],
+            "submit": ["Straight ahead, on the right"],
+            "aw01": [
+              { "st": "Straight ahead, on the right", "id": "ENC01_F2102" }
+            ]
+          }
+        ],
+        "submit": ["Let's go to the beach", "Straight ahead, on the right"],
+        "fspSets": [{ "st": "Vacation", "id": "ENC01_F285" }]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  },
+  {
+    "id": "at-a-restaurant",
+    "ListenList": [
+      "A1_At a restaurant",
+      "A1_What is today’s special?",
+      "A1_Today's special is soup.",
+      "A1_What kind of soup?",
+      "A1_We have seafood soup",
+      "A1_It's a chicken soup",
+      "A1_It’s a mushroom soup",
+      "A2_At a restaurant",
+      "A2_What is today’s special?",
+      "A2_We have spicy chicken today.",
+      "A2_How spicy is it?",
+      "A2_It's very hot",
+      "A2_It's not too spicy",
+      "A2_It's super spicy",
+      "A3_At a restaurant",
+      "A3_What is today’s special?",
+      "A3_It's a hamburger combo.",
+      "A3_What kind of como?",
+      "A3_It’s a burger with fries.",
+      "A3_Includes mashed potatoes and a drink.",
+      "A3_Burger, soup and a drink",
+      "A4_At a restaurant",
+      "A4_What is today’s special?",
+      "A4_We have beef noodle today",
+      "A4_What is in the beef noodle?",
+      "A4_Beef, noodles, and herbs.",
+      "A4_Beef, noodles, and broth.",
+      "A4_Thịt bò, mì và gia vị.",
+      "A5_At a restaurant",
+      "A5_What is today’s special?",
+      "A5_Today's special is soup.",
+      "A5_What kind of soup?",
+      "A5_We have vegetable soup",
+      "A5_What is in vegetable soup?",
+      "A5_Mushroom and salad",
+      "A5_Yes, it's can down go to level one",
+      "A6_At a restaurant",
+      "A6_What is today’s special?",
+      "A6_We have spicy chicken today.",
+      "A6_How spicy is it?",
+      "A6_It tastes like pepper",
+      "A6_Can I have it less spicy?",
+      "A6_We have Henekein cold beer",
+      "A6_It has three meatballs",
+      "A7_At a restaurant",
+      "A7_What is today’s special?",
+      "A7_It's a hamburger combo.",
+      "A7_What kind of como?",
+      "A7_We have burger with beer",
+      "A7_What kind of beer do you have?",
+      "A7_Carrot and potatoes",
+      "A7_We can change the spicy level",
+      "A8_At a restaurant",
+      "A8_What is today’s special?",
+      "A8_We have beef noodle today",
+      "A8_What is in the beef noodle?",
+      "A8_Beef, noodles, and meatballs",
+      "A8_How many meatballs in the noodle?",
+      "A8_You can choose Tiger or Saigon beer",
+      "A8_It has four meatballs"
+    ],
+    "typeSets": ["A1", "A2", "A3", "A4", "A5", "A6", "A7", "A8"],
+    "SEO": {
+      "seo": {
+        "metaTitle": "At a restaurant",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "At a restaurant",
+        "IFdes": "At a restaurant",
+        "IF-audiocode": "ENC01_F3"
+      },
+      "HD": [
+        {
+          "HD-01": "Bối cảnh",
+          "HD-02": "At a restaurant",
+          "HD-03": "Tại nhà hàng.",
+          "HD-04": null
+        },
+        { "HD-01": "X", "HD-02": null, "HD-03": null, "HD-04": null },
+        {
+          "HD-01": "What is today’s special?",
+          "HD-02": "Hôm nay có món gì đặc biệt?",
+          "HD-03": null,
+          "HD-04": null
+        },
+        { "HD-01": "X", "HD-02": null, "HD-03": null, "HD-04": null },
+        {
+          "HD-01": "Today's special is soup.",
+          "HD-02": "What kind of soup?",
+          "HD-03": "Đó là loại súp gì?",
+          "HD-04": null
+        },
+        {
+          "HD-01": "Món đặc biệt hôm nay là súp",
+          "HD-02": "We have seafood soup",
+          "HD-03": "It's a chicken soup",
+          "HD-04": "It’s a mushroom soup"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Chúng ta có súp hải sản",
+          "HD-03": "Đó là súp gà",
+          "HD-04": "Đó là súp nấm"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "We have vegetable soup",
+          "HD-03": "X",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Chúng ta có súp rau.",
+          "HD-03": null,
+          "HD-04": null
+        },
+        {
+          "HD-01": "We have spicy chicken today.",
+          "HD-02": "How spicy is it?",
+          "HD-03": "Nó cay như thế nào?",
+          "HD-04": null
+        },
+        {
+          "HD-01": "Chúng ta có gà cay hôm nay",
+          "HD-02": "It's very hot",
+          "HD-03": "It's not too spicy",
+          "HD-04": "It's super spicy"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Nó rất là nóng",
+          "HD-03": "Nó không quá cay",
+          "HD-04": "Nó rất là cay"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "It tastes like pepper",
+          "HD-03": "X",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Nó có vị như là ớt",
+          "HD-03": null,
+          "HD-04": null
+        },
+        {
+          "HD-01": "It's a hamburger combo.",
+          "HD-02": "What kind of como?",
+          "HD-03": "Combo loại gì thế?",
+          "HD-04": null
+        },
+        {
+          "HD-01": "Đó là gói kết hợp hamburger",
+          "HD-02": "It’s a burger with fries.",
+          "HD-03": "Includes mashed potatoes and a drink.",
+          "HD-04": "Burger, soup and a drink"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Đó là burger với khoai tây chiên",
+          "HD-03": "Bao gồm khoai tây nghiền và nước uống",
+          "HD-04": "Burger, súp và nước uống"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "We have burger with beer",
+          "HD-03": "X",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Chúng ta có burger và bia",
+          "HD-03": null,
+          "HD-04": null
+        },
+        {
+          "HD-01": "We have beef noodle today",
+          "HD-02": "What is in the beef noodle?",
+          "HD-03": "Có gì trong phở bò thế?",
+          "HD-04": null
+        },
+        {
+          "HD-01": "Chúng ta có phở bò hôm nay",
+          "HD-02": "Beef, noodles, and herbs.",
+          "HD-03": "Beef, noodles, and broth.",
+          "HD-04": "Thịt bò, mì và gia vị."
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Bò, phở và rau",
+          "HD-03": "Bò, phở và nước dùng",
+          "HD-04": "Bò, phở và gia vị"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Beef, noodles, and meatballs",
+          "HD-03": "X",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Bò, phở và bò viên",
+          "HD-03": null,
+          "HD-04": null
+        },
+        { "HD-01": null, "HD-02": "XX", "HD-03": "XX", "HD-04": null },
+        {
+          "HD-01": "X",
+          "HD-02": "What is in vegetable soup?",
+          "HD-03": "Súp rau củ loại gì thế?",
+          "HD-04": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": "Can I have it less spicy?",
+          "HD-03": "Bạn có thể giảm vị cay được không?",
+          "HD-04": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": "What kind of beer do you have?",
+          "HD-03": "Bạn có loại bia nào?",
+          "HD-04": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": "How many meatballs in the noodle?",
+          "HD-03": "Có bao nhiêu viên bò viên trong tô phở?",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Mushroom and salad",
+          "HD-03": "Nấm và rau salad",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Yes, it's can down go to level one",
+          "HD-03": "Được chứ, nó có thể giảm xuống cấp độ một",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "We have Henekein cold beer",
+          "HD-03": "Chúng tôi có bia Henekein ướp lạnh",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "It has three meatballs",
+          "HD-03": "Nó có ba viên bò viên",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Carrot and potatoes",
+          "HD-03": "Cà rốt và khoai tây",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "We can change the spicy level",
+          "HD-03": "Chúng tôi có thể thay đổi cấp độ cay",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "You can choose Tiger or Saigon beer",
+          "HD-03": "Bạn có thể chọn bia Saigon hay Tiger",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "It has four meatballs",
+          "HD-03": "Nó có bốn viên bò viên",
+          "HD-04": null
+        }
+      ],
+      "TB": [
+        [
+          "Today's special is soup.",
+          "We have seafood soup",
+          "It's not too spicy",
+          "Burger, soup and a drink",
+          "Beef, noodles, and meatballs",
+          "Carrot and potatoes"
+        ],
+        [
+          "We have spicy chicken today.",
+          "It's a chicken soup",
+          "It's super spicy",
+          "We have burger with beer",
+          "Mushroom and salad",
+          "We can change the spicy level"
+        ],
+        [
+          "It's a hamburger combo.",
+          "It’s a mushroom soup",
+          "It tastes like pepper",
+          "Beef, noodles, and herbs.",
+          "Yes, it's can down go to level one",
+          "You can choose Tiger or Saigon beer"
+        ],
+        [
+          "We have beef noodle today",
+          "We have vegetable soup",
+          "It’s a burger with fries.",
+          "Beef, noodles, and broth.",
+          "We have Henekein cold beer",
+          "It has four meatballs"
+        ],
+        [
+          "It's very hot",
+          "Includes mashed potatoes and a drink.",
+          "Thịt bò, mì và gia vị.",
+          "It has three meatballs"
+        ]
+      ]
+    },
+    "charactor": [
+      {
+        "type": "A5",
+        "hint": "At a restaurant",
+        "fsp": "At a restaurant",
+        "data": [
+          {
+            "qs": ["What is today’s special?"],
+            "aw": ["Today's special is soup."],
+            "submit": ["Today's special is soup."],
+            "aw01": [{ "st": "Today's special is soup.", "id": "ENC01_F3171" }]
+          },
+          {
+            "qs": ["What kind of soup?"],
+            "aw": ["We have vegetable soup"],
+            "submit": ["We have vegetable soup"],
+            "aw01": [{ "st": "We have vegetable soup", "id": "ENC01_F3208" }]
+          },
+          {
+            "qs": ["What is in vegetable soup?"],
+            "aw": ["Yes, it's can down go to level one"],
+            "submit": ["Yes, it's can down go to level one"],
             "aw01": [
               {
-                "st": "I just talked to my boss about tomorrow plan",
-                "id": "NE01_F120"
+                "st": "Yes, it's can down go to level one",
+                "id": "ENC01_F3213"
               }
             ]
           }
         ],
         "submit": [
-          "I just went to my company",
-          "I just talked to my boss about tomorrow plan"
+          "Today's special is soup.",
+          "We have vegetable soup",
+          "Yes, it's can down go to level one"
         ],
-        "fspSets": [{ "st": "Hi", "id": "NE01_F10" }]
+        "fspSets": [{ "st": "At a restaurant", "id": "ENC01_F3170" }]
+      },
+      {
+        "type": "A7",
+        "hint": "At a restaurant",
+        "fsp": "At a restaurant",
+        "data": [
+          {
+            "qs": ["What is today’s special?"],
+            "aw": ["It's a hamburger combo."],
+            "submit": ["It's a hamburger combo."],
+            "aw01": [{ "st": "It's a hamburger combo.", "id": "ENC01_F3189" }]
+          },
+          {
+            "qs": ["What kind of como?"],
+            "aw": ["We have burger with beer"],
+            "submit": ["We have burger with beer"],
+            "aw01": [{ "st": "We have burger with beer", "id": "ENC01_F3224" }]
+          },
+          {
+            "qs": ["What kind of beer do you have?"],
+            "aw": ["Carrot and potatoes"],
+            "submit": ["Carrot and potatoes"],
+            "aw01": [{ "st": "Carrot and potatoes", "id": "ENC01_F3225" }]
+          }
+        ],
+        "submit": [
+          "It's a hamburger combo.",
+          "We have burger with beer",
+          "Carrot and potatoes"
+        ],
+        "fspSets": [{ "st": "At a restaurant", "id": "ENC01_F3170" }]
+      },
+      {
+        "type": "A4",
+        "hint": "At a restaurant",
+        "fsp": "At a restaurant",
+        "data": [
+          {
+            "qs": ["What is today’s special?"],
+            "aw": ["We have beef noodle today"],
+            "submit": ["We have beef noodle today"],
+            "aw01": [{ "st": "We have beef noodle today", "id": "ENC01_F3198" }]
+          },
+          {
+            "qs": ["What is in the beef noodle?"],
+            "aw": ["Beef, noodles, and broth."],
+            "submit": ["Beef, noodles, and broth."],
+            "aw01": [{ "st": "Beef, noodles, and broth.", "id": "ENC01_F3202" }]
+          }
+        ],
+        "submit": ["We have beef noodle today", "Beef, noodles, and broth."],
+        "fspSets": [{ "st": "At a restaurant", "id": "ENC01_F3170" }]
+      },
+      {
+        "type": "A1",
+        "hint": "At a restaurant",
+        "fsp": "At a restaurant",
+        "data": [
+          {
+            "qs": ["What is today’s special?"],
+            "aw": ["Today's special is soup."],
+            "submit": ["Today's special is soup."],
+            "aw01": [{ "st": "Today's special is soup.", "id": "ENC01_F3171" }]
+          },
+          {
+            "qs": ["What kind of soup?"],
+            "aw": ["It's a chicken soup"],
+            "submit": ["It's a chicken soup"],
+            "aw01": [{ "st": "It's a chicken soup", "id": "ENC01_F3175" }]
+          }
+        ],
+        "submit": ["Today's special is soup.", "It's a chicken soup"],
+        "fspSets": [{ "st": "At a restaurant", "id": "ENC01_F3170" }]
+      },
+      {
+        "type": "A6",
+        "hint": "At a restaurant",
+        "fsp": "At a restaurant",
+        "data": [
+          {
+            "qs": ["What is today’s special?"],
+            "aw": ["We have spicy chicken today."],
+            "submit": ["We have spicy chicken today."],
+            "aw01": [
+              { "st": "We have spicy chicken today.", "id": "ENC01_F3180" }
+            ]
+          },
+          {
+            "qs": ["How spicy is it?"],
+            "aw": ["It tastes like pepper"],
+            "submit": ["It tastes like pepper"],
+            "aw01": [{ "st": "It tastes like pepper", "id": "ENC01_F3216" }]
+          },
+          {
+            "qs": ["Can I have it less spicy?"],
+            "aw": ["It has three meatballs"],
+            "submit": ["It has three meatballs"],
+            "aw01": [{ "st": "It has three meatballs", "id": "ENC01_F3221" }]
+          }
+        ],
+        "submit": [
+          "We have spicy chicken today.",
+          "It tastes like pepper",
+          "It has three meatballs"
+        ],
+        "fspSets": [{ "st": "At a restaurant", "id": "ENC01_F3170" }]
+      },
+      {
+        "type": "A8",
+        "hint": "At a restaurant",
+        "fsp": "At a restaurant",
+        "data": [
+          {
+            "qs": ["What is today’s special?"],
+            "aw": ["We have beef noodle today"],
+            "submit": ["We have beef noodle today"],
+            "aw01": [{ "st": "We have beef noodle today", "id": "ENC01_F3198" }]
+          },
+          {
+            "qs": ["What is in the beef noodle?"],
+            "aw": ["Beef, noodles, and meatballs"],
+            "submit": ["Beef, noodles, and meatballs"],
+            "aw01": [
+              { "st": "Beef, noodles, and meatballs", "id": "ENC01_F3232" }
+            ]
+          },
+          {
+            "qs": ["How many meatballs in the noodle?"],
+            "aw": ["You can choose Tiger or Saigon beer"],
+            "submit": ["You can choose Tiger or Saigon beer"],
+            "aw01": [
+              {
+                "st": "You can choose Tiger or Saigon beer",
+                "id": "ENC01_F3233"
+              }
+            ]
+          }
+        ],
+        "submit": [
+          "We have beef noodle today",
+          "Beef, noodles, and meatballs",
+          "You can choose Tiger or Saigon beer"
+        ],
+        "fspSets": [{ "st": "At a restaurant", "id": "ENC01_F3170" }]
+      },
+      {
+        "type": "A2",
+        "hint": "At a restaurant",
+        "fsp": "At a restaurant",
+        "data": [
+          {
+            "qs": ["What is today’s special?"],
+            "aw": ["We have spicy chicken today."],
+            "submit": ["We have spicy chicken today."],
+            "aw01": [
+              { "st": "We have spicy chicken today.", "id": "ENC01_F3180" }
+            ]
+          },
+          {
+            "qs": ["How spicy is it?"],
+            "aw": ["It's super spicy"],
+            "submit": ["It's super spicy"],
+            "aw01": [{ "st": "It's super spicy", "id": "ENC01_F3187" }]
+          }
+        ],
+        "submit": ["We have spicy chicken today.", "It's super spicy"],
+        "fspSets": [{ "st": "At a restaurant", "id": "ENC01_F3170" }]
+      },
+      {
+        "type": "A3",
+        "hint": "At a restaurant",
+        "fsp": "At a restaurant",
+        "data": [
+          {
+            "qs": ["What is today’s special?"],
+            "aw": ["It's a hamburger combo."],
+            "submit": ["It's a hamburger combo."],
+            "aw01": [{ "st": "It's a hamburger combo.", "id": "ENC01_F3189" }]
+          },
+          {
+            "qs": ["What kind of como?"],
+            "aw": ["Includes mashed potatoes and a drink."],
+            "submit": ["Includes mashed potatoes and a drink."],
+            "aw01": [
+              {
+                "st": "Includes mashed potatoes and a drink.",
+                "id": "ENC01_F3193"
+              }
+            ]
+          }
+        ],
+        "submit": [
+          "It's a hamburger combo.",
+          "Includes mashed potatoes and a drink."
+        ],
+        "fspSets": [{ "st": "At a restaurant", "id": "ENC01_F3170" }]
+      },
+      {
+        "type": "A4",
+        "hint": "At a restaurant",
+        "fsp": "At a restaurant",
+        "data": [
+          {
+            "qs": ["What is today’s special?"],
+            "aw": ["We have beef noodle today"],
+            "submit": ["We have beef noodle today"],
+            "aw01": [{ "st": "We have beef noodle today", "id": "ENC01_F3198" }]
+          },
+          {
+            "qs": ["What is in the beef noodle?"],
+            "aw": ["Beef, noodles, and herbs."],
+            "submit": ["Beef, noodles, and herbs."],
+            "aw01": [{ "st": "Beef, noodles, and herbs.", "id": "ENC01_F3199" }]
+          }
+        ],
+        "submit": ["We have beef noodle today", "Beef, noodles, and herbs."],
+        "fspSets": [{ "st": "At a restaurant", "id": "ENC01_F3170" }]
+      },
+      {
+        "type": "A8",
+        "hint": "At a restaurant",
+        "fsp": "At a restaurant",
+        "data": [
+          {
+            "qs": ["What is today’s special?"],
+            "aw": ["We have beef noodle today"],
+            "submit": ["We have beef noodle today"],
+            "aw01": [{ "st": "We have beef noodle today", "id": "ENC01_F3198" }]
+          },
+          {
+            "qs": ["What is in the beef noodle?"],
+            "aw": ["Beef, noodles, and meatballs"],
+            "submit": ["Beef, noodles, and meatballs"],
+            "aw01": [
+              { "st": "Beef, noodles, and meatballs", "id": "ENC01_F3232" }
+            ]
+          },
+          {
+            "qs": ["How many meatballs in the noodle?"],
+            "aw": ["It has four meatballs"],
+            "submit": ["It has four meatballs"],
+            "aw01": [{ "st": "It has four meatballs", "id": "ENC01_F3237" }]
+          }
+        ],
+        "submit": [
+          "We have beef noodle today",
+          "Beef, noodles, and meatballs",
+          "It has four meatballs"
+        ],
+        "fspSets": [{ "st": "At a restaurant", "id": "ENC01_F3170" }]
+      },
+      {
+        "type": "A2",
+        "hint": "At a restaurant",
+        "fsp": "At a restaurant",
+        "data": [
+          {
+            "qs": ["What is today’s special?"],
+            "aw": ["We have spicy chicken today."],
+            "submit": ["We have spicy chicken today."],
+            "aw01": [
+              { "st": "We have spicy chicken today.", "id": "ENC01_F3180" }
+            ]
+          },
+          {
+            "qs": ["How spicy is it?"],
+            "aw": ["It's not too spicy"],
+            "submit": ["It's not too spicy"],
+            "aw01": [{ "st": "It's not too spicy", "id": "ENC01_F3184" }]
+          }
+        ],
+        "submit": ["We have spicy chicken today.", "It's not too spicy"],
+        "fspSets": [{ "st": "At a restaurant", "id": "ENC01_F3170" }]
+      },
+      {
+        "type": "A5",
+        "hint": "At a restaurant",
+        "fsp": "At a restaurant",
+        "data": [
+          {
+            "qs": ["What is today’s special?"],
+            "aw": ["Today's special is soup."],
+            "submit": ["Today's special is soup."],
+            "aw01": [{ "st": "Today's special is soup.", "id": "ENC01_F3171" }]
+          },
+          {
+            "qs": ["What kind of soup?"],
+            "aw": ["We have vegetable soup"],
+            "submit": ["We have vegetable soup"],
+            "aw01": [{ "st": "We have vegetable soup", "id": "ENC01_F3208" }]
+          },
+          {
+            "qs": ["What is in vegetable soup?"],
+            "aw": ["Mushroom and salad"],
+            "submit": ["Mushroom and salad"],
+            "aw01": [{ "st": "Mushroom and salad", "id": "ENC01_F3209" }]
+          }
+        ],
+        "submit": [
+          "Today's special is soup.",
+          "We have vegetable soup",
+          "Mushroom and salad"
+        ],
+        "fspSets": [{ "st": "At a restaurant", "id": "ENC01_F3170" }]
+      },
+      {
+        "type": "A1",
+        "hint": "At a restaurant",
+        "fsp": "At a restaurant",
+        "data": [
+          {
+            "qs": ["What is today’s special?"],
+            "aw": ["Today's special is soup."],
+            "submit": ["Today's special is soup."],
+            "aw01": [{ "st": "Today's special is soup.", "id": "ENC01_F3171" }]
+          },
+          {
+            "qs": ["What kind of soup?"],
+            "aw": ["It’s a mushroom soup"],
+            "submit": ["It’s a mushroom soup"],
+            "aw01": [{ "st": "It’s a mushroom soup", "id": "ENC01_F3178" }]
+          }
+        ],
+        "submit": ["Today's special is soup.", "It’s a mushroom soup"],
+        "fspSets": [{ "st": "At a restaurant", "id": "ENC01_F3170" }]
+      },
+      {
+        "type": "A7",
+        "hint": "At a restaurant",
+        "fsp": "At a restaurant",
+        "data": [
+          {
+            "qs": ["What is today’s special?"],
+            "aw": ["It's a hamburger combo."],
+            "submit": ["It's a hamburger combo."],
+            "aw01": [{ "st": "It's a hamburger combo.", "id": "ENC01_F3189" }]
+          },
+          {
+            "qs": ["What kind of como?"],
+            "aw": ["We have burger with beer"],
+            "submit": ["We have burger with beer"],
+            "aw01": [{ "st": "We have burger with beer", "id": "ENC01_F3224" }]
+          },
+          {
+            "qs": ["What kind of beer do you have?"],
+            "aw": ["We can change the spicy level"],
+            "submit": ["We can change the spicy level"],
+            "aw01": [
+              { "st": "We can change the spicy level", "id": "ENC01_F3229" }
+            ]
+          }
+        ],
+        "submit": [
+          "It's a hamburger combo.",
+          "We have burger with beer",
+          "We can change the spicy level"
+        ],
+        "fspSets": [{ "st": "At a restaurant", "id": "ENC01_F3170" }]
+      },
+      {
+        "type": "A3",
+        "hint": "At a restaurant",
+        "fsp": "At a restaurant",
+        "data": [
+          {
+            "qs": ["What is today’s special?"],
+            "aw": ["It's a hamburger combo."],
+            "submit": ["It's a hamburger combo."],
+            "aw01": [{ "st": "It's a hamburger combo.", "id": "ENC01_F3189" }]
+          },
+          {
+            "qs": ["What kind of como?"],
+            "aw": ["Burger, soup and a drink"],
+            "submit": ["Burger, soup and a drink"],
+            "aw01": [{ "st": "Burger, soup and a drink", "id": "ENC01_F3196" }]
+          }
+        ],
+        "submit": ["It's a hamburger combo.", "Burger, soup and a drink"],
+        "fspSets": [{ "st": "At a restaurant", "id": "ENC01_F3170" }]
+      },
+      {
+        "type": "A6",
+        "hint": "At a restaurant",
+        "fsp": "At a restaurant",
+        "data": [
+          {
+            "qs": ["What is today’s special?"],
+            "aw": ["We have spicy chicken today."],
+            "submit": ["We have spicy chicken today."],
+            "aw01": [
+              { "st": "We have spicy chicken today.", "id": "ENC01_F3180" }
+            ]
+          },
+          {
+            "qs": ["How spicy is it?"],
+            "aw": ["It tastes like pepper"],
+            "submit": ["It tastes like pepper"],
+            "aw01": [{ "st": "It tastes like pepper", "id": "ENC01_F3216" }]
+          },
+          {
+            "qs": ["Can I have it less spicy?"],
+            "aw": ["We have Henekein cold beer"],
+            "submit": ["We have Henekein cold beer"],
+            "aw01": [
+              { "st": "We have Henekein cold beer", "id": "ENC01_F3217" }
+            ]
+          }
+        ],
+        "submit": [
+          "We have spicy chicken today.",
+          "It tastes like pepper",
+          "We have Henekein cold beer"
+        ],
+        "fspSets": [{ "st": "At a restaurant", "id": "ENC01_F3170" }]
+      },
+      {
+        "type": "A2",
+        "hint": "At a restaurant",
+        "fsp": "At a restaurant",
+        "data": [
+          {
+            "qs": ["What is today’s special?"],
+            "aw": ["We have spicy chicken today."],
+            "submit": ["We have spicy chicken today."],
+            "aw01": [
+              { "st": "We have spicy chicken today.", "id": "ENC01_F3180" }
+            ]
+          },
+          {
+            "qs": ["How spicy is it?"],
+            "aw": ["It's very hot"],
+            "submit": ["It's very hot"],
+            "aw01": [{ "st": "It's very hot", "id": "ENC01_F3181" }]
+          }
+        ],
+        "submit": ["We have spicy chicken today.", "It's very hot"],
+        "fspSets": [{ "st": "At a restaurant", "id": "ENC01_F3170" }]
+      },
+      {
+        "type": "A4",
+        "hint": "At a restaurant",
+        "fsp": "At a restaurant",
+        "data": [
+          {
+            "qs": ["What is today’s special?"],
+            "aw": ["We have beef noodle today"],
+            "submit": ["We have beef noodle today"],
+            "aw01": [{ "st": "We have beef noodle today", "id": "ENC01_F3198" }]
+          },
+          {
+            "qs": ["What is in the beef noodle?"],
+            "aw": ["Thịt bò, mì và gia vị."],
+            "submit": ["Thịt bò, mì và gia vị."],
+            "aw01": [{ "st": "Thịt bò, mì và gia vị.", "id": "ENC01_F3205" }]
+          }
+        ],
+        "submit": ["We have beef noodle today", "Thịt bò, mì và gia vị."],
+        "fspSets": [{ "st": "At a restaurant", "id": "ENC01_F3170" }]
+      },
+      {
+        "type": "A1",
+        "hint": "At a restaurant",
+        "fsp": "At a restaurant",
+        "data": [
+          {
+            "qs": ["What is today’s special?"],
+            "aw": ["Today's special is soup."],
+            "submit": ["Today's special is soup."],
+            "aw01": [{ "st": "Today's special is soup.", "id": "ENC01_F3171" }]
+          },
+          {
+            "qs": ["What kind of soup?"],
+            "aw": ["We have seafood soup"],
+            "submit": ["We have seafood soup"],
+            "aw01": [{ "st": "We have seafood soup", "id": "ENC01_F3172" }]
+          }
+        ],
+        "submit": ["Today's special is soup.", "We have seafood soup"],
+        "fspSets": [{ "st": "At a restaurant", "id": "ENC01_F3170" }]
+      },
+      {
+        "type": "A3",
+        "hint": "At a restaurant",
+        "fsp": "At a restaurant",
+        "data": [
+          {
+            "qs": ["What is today’s special?"],
+            "aw": ["It's a hamburger combo."],
+            "submit": ["It's a hamburger combo."],
+            "aw01": [{ "st": "It's a hamburger combo.", "id": "ENC01_F3189" }]
+          },
+          {
+            "qs": ["What kind of como?"],
+            "aw": ["It’s a burger with fries."],
+            "submit": ["It’s a burger with fries."],
+            "aw01": [{ "st": "It’s a burger with fries.", "id": "ENC01_F3190" }]
+          }
+        ],
+        "submit": ["It's a hamburger combo.", "It’s a burger with fries."],
+        "fspSets": [{ "st": "At a restaurant", "id": "ENC01_F3170" }]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  },
+  {
+    "id": "at-a-school",
+    "ListenList": [
+      "A1_At a school",
+      "A1_What are we learning today?",
+      "A1_Today, we are learning history",
+      "A1_What is today lesson?",
+      "A1_It's about human history",
+      "A1_It is World war II",
+      "A1_Today, we learn about China",
+      "A2_At a school",
+      "A2_What are we learning today?",
+      "A2_We have English class today.",
+      "A2_What is the next topic?",
+      "A2_It is about education.",
+      "A2_Today topic is animals",
+      "A2_We will study grammar",
+      "A3_At a school",
+      "A3_What are we learning today?",
+      "A3_We are studying Art today",
+      "A3_When is the Art exam?",
+      "A3_It will be on Friday",
+      "A3_About two more days",
+      "A3_At the weekend",
+      "A4_At a school",
+      "A4_What are we learning today?",
+      "A4_Today, we have Science class",
+      "A4_What is the homework today?",
+      "A4_It's about energy",
+      "A4_It will be on page eleven",
+      "A4_Teacher will give it to you",
+      "A5_At a school",
+      "A5_What are we learning today?",
+      "A5_Today, we are learning history",
+      "A5_What is today lesson?",
+      "A5_We will learn about Vietnam history",
+      "A5_Is it hard to learn?",
+      "A5_No, it is too easy",
+      "A5_To describe actions",
+      "A6_At a school",
+      "A6_What are we learning today?",
+      "A6_We have English class today.",
+      "A6_What is the next topic?",
+      "A6_We will learn about verbs",
+      "A6_Why do we learn about verbs?",
+      "A6_Paper and pencil",
+      "A6_It is the last page",
+      "A7_At a school",
+      "A7_What are we learning today?",
+      "A7_We are studying Art today",
+      "A7_When is the Art exam?",
+      "A7_After today lesson",
+      "A7_What do I need to prepare?",
+      "A7_Just a little bit hard",
+      "A7_To understand about it",
+      "A8_At a school",
+      "A8_What are we learning today?",
+      "A8_Today, we have Science class",
+      "A8_What is the homework today?",
+      "A8_It's in the homework book",
+      "A8_Which page is it?",
+      "A8_Practice more at home",
+      "A8_It is page ten"
+    ],
+    "typeSets": ["A1", "A2", "A3", "A4", "A5", "A6", "A7", "A8"],
+    "SEO": {
+      "seo": {
+        "metaTitle": "At a school",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "At a school",
+        "IFdes": "At a school",
+        "IF-audiocode": "ENC01_F4"
+      },
+      "HD": [
+        {
+          "HD-01": "Bối cảnh",
+          "HD-02": "At a school",
+          "HD-03": "Tại trường học",
+          "HD-04": null
+        },
+        { "HD-01": "X", "HD-02": null, "HD-03": null, "HD-04": null },
+        {
+          "HD-01": "What are we learning today?",
+          "HD-02": "Hôm nay chúng ta học gì?",
+          "HD-03": null,
+          "HD-04": null
+        },
+        { "HD-01": "X", "HD-02": null, "HD-03": null, "HD-04": null },
+        {
+          "HD-01": "Today, we are learning history",
+          "HD-02": "What is today lesson?",
+          "HD-03": "Bài học hôm nay là gì?",
+          "HD-04": null
+        },
+        {
+          "HD-01": "Hôm nay chúng ta học Lịch Sử",
+          "HD-02": "It's about human history",
+          "HD-03": "It is World war II",
+          "HD-04": "Today, we learn about China"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Đó là về lịch sử loài người",
+          "HD-03": "Đó là thế chiến thứ 2",
+          "HD-04": "Hôm nay chúng ta sẽ học về Trung Quốc"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "We will learn about Vietnam history",
+          "HD-03": "X",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Chúng ta sẽ học về lịch sử Việt Nam",
+          "HD-03": null,
+          "HD-04": null
+        },
+        {
+          "HD-01": "We have English class today.",
+          "HD-02": "What is the next topic?",
+          "HD-03": "Chủ đề tiếp theo là gì?",
+          "HD-04": null
+        },
+        {
+          "HD-01": "Chúng ta có lớp tiếng Anh hôm nay",
+          "HD-02": "It is about education.",
+          "HD-03": "Today topic is animals",
+          "HD-04": "We will study grammar"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Đó là về giáo dục",
+          "HD-03": "Chủ đề hôm nay là động vật",
+          "HD-04": "Chúng ta sẽ ôn về ngữ pháp"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "We will learn about verbs",
+          "HD-03": "X",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Chúng ta sẽ học về động từ",
+          "HD-03": null,
+          "HD-04": null
+        },
+        {
+          "HD-01": "We are studying Art today",
+          "HD-02": "When is the Art exam?",
+          "HD-03": "Khi nào chúng ta có bài kiểm tra mĩ thuật?",
+          "HD-04": null
+        },
+        {
+          "HD-01": "Chúng ta học môn Mĩ thuật hôm nay",
+          "HD-02": "It will be on Friday",
+          "HD-03": "About two more days",
+          "HD-04": "At the weekend"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Đó là vào thứ Sáu",
+          "HD-03": "Khoảng 2 ngày nữa",
+          "HD-04": "Vào cuối tuần"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "After today lesson",
+          "HD-03": "X",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Sau buổi học ngày hôm nay",
+          "HD-03": null,
+          "HD-04": null
+        },
+        {
+          "HD-01": "Today, we have Science class",
+          "HD-02": "What is the homework today?",
+          "HD-03": "Bài tập hôm nay là gì thể?",
+          "HD-04": null
+        },
+        {
+          "HD-01": "Hôm nay chúng ta có lớp Khoa Học",
+          "HD-02": "It's about energy",
+          "HD-03": "It will be on page eleven",
+          "HD-04": "Teacher will give it to you"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Đó là về năng lượng",
+          "HD-03": "Nó sẽ ở trang số 11",
+          "HD-04": "Giáo viên sẽ đưa nó cho bạn."
+        },
+        {
+          "HD-01": null,
+          "HD-02": "It's in the homework book",
+          "HD-03": "X",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Nó ở trong sách bài tập",
+          "HD-03": null,
+          "HD-04": null
+        },
+        { "HD-01": null, "HD-02": "XX", "HD-03": "XX", "HD-04": null },
+        {
+          "HD-01": "X",
+          "HD-02": "Is it hard to learn?",
+          "HD-03": "Nó có khó học không?",
+          "HD-04": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": "Why do we learn about verbs?",
+          "HD-03": "Tại sao chúng ta lại học về động từ.",
+          "HD-04": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": "What do I need to prepare?",
+          "HD-03": "Tôi phải chuẩn bị những gì?",
+          "HD-04": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": "Which page is it?",
+          "HD-03": "Nó là trang nào thế?",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "No, it is too easy",
+          "HD-03": "Không nó rất là dễ",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "To describe actions",
+          "HD-03": "Để diễn tả hành động",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Paper and pencil",
+          "HD-03": "Giấy và bút chì",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "It is the last page",
+          "HD-03": "Đó là trang cuối cùng",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Just a little bit hard",
+          "HD-03": "Chỉ khó một chút thôi",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "To understand about it",
+          "HD-03": "Để hiểu về nó.",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "Practice more at home",
+          "HD-03": "Luyện tập nhiều hơn ở nhà",
+          "HD-04": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "It is page ten",
+          "HD-03": "Nó nằm ở trang thứ 10",
+          "HD-04": null
+        }
+      ],
+      "TB": [
+        [
+          "Today, we are learning history",
+          "It's about human history",
+          "Today topic is animals",
+          "At the weekend",
+          "It's in the homework book",
+          "Just a little bit hard"
+        ],
+        [
+          "We have English class today.",
+          "It is World war II",
+          "We will study grammar",
+          "After today lesson",
+          "No, it is too easy",
+          "To understand about it"
+        ],
+        [
+          "We are studying Art today",
+          "Today, we learn about China",
+          "We will learn about verbs",
+          "It's about energy",
+          "To describe actions",
+          "Practice more at home"
+        ],
+        [
+          "Today, we have Science class",
+          "We will learn about Vietnam history",
+          "It will be on Friday",
+          "It will be on page eleven",
+          "Paper and pencil",
+          "It is page ten"
+        ],
+        [
+          "It is about education.",
+          "About two more days",
+          "Teacher will give it to you",
+          "It is the last page"
+        ]
+      ]
+    },
+    "charactor": [
+      {
+        "type": "A1",
+        "hint": "At a school",
+        "fsp": "At a school",
+        "data": [
+          {
+            "qs": ["What are we learning today?"],
+            "aw": ["Today, we are learning history"],
+            "submit": ["Today, we are learning history"],
+            "aw01": [
+              { "st": "Today, we are learning history", "id": "ENC01_F4256" }
+            ]
+          },
+          {
+            "qs": ["What is today lesson?"],
+            "aw": ["It is World war II"],
+            "submit": ["It is World war II"],
+            "aw01": [{ "st": "It is World war II", "id": "ENC01_F4260" }]
+          }
+        ],
+        "submit": ["Today, we are learning history", "It is World war II"],
+        "fspSets": [{ "st": "At a school", "id": "ENC01_F4255" }]
+      },
+      {
+        "type": "A8",
+        "hint": "At a school",
+        "fsp": "At a school",
+        "data": [
+          {
+            "qs": ["What are we learning today?"],
+            "aw": ["Today, we have Science class"],
+            "submit": ["Today, we have Science class"],
+            "aw01": [
+              { "st": "Today, we have Science class", "id": "ENC01_F4283" }
+            ]
+          },
+          {
+            "qs": ["What is the homework today?"],
+            "aw": ["It's in the homework book"],
+            "submit": ["It's in the homework book"],
+            "aw01": [{ "st": "It's in the homework book", "id": "ENC01_F4317" }]
+          },
+          {
+            "qs": ["Which page is it?"],
+            "aw": ["Practice more at home"],
+            "submit": ["Practice more at home"],
+            "aw01": [{ "st": "Practice more at home", "id": "ENC01_F4318" }]
+          }
+        ],
+        "submit": [
+          "Today, we have Science class",
+          "It's in the homework book",
+          "Practice more at home"
+        ],
+        "fspSets": [{ "st": "At a school", "id": "ENC01_F4255" }]
+      },
+      {
+        "type": "A7",
+        "hint": "At a school",
+        "fsp": "At a school",
+        "data": [
+          {
+            "qs": ["What are we learning today?"],
+            "aw": ["We are studying Art today"],
+            "submit": ["We are studying Art today"],
+            "aw01": [{ "st": "We are studying Art today", "id": "ENC01_F4274" }]
+          },
+          {
+            "qs": ["When is the Art exam?"],
+            "aw": ["After today lesson"],
+            "submit": ["After today lesson"],
+            "aw01": [{ "st": "After today lesson", "id": "ENC01_F4309" }]
+          },
+          {
+            "qs": ["What do I need to prepare?"],
+            "aw": ["Just a little bit hard"],
+            "submit": ["Just a little bit hard"],
+            "aw01": [{ "st": "Just a little bit hard", "id": "ENC01_F4310" }]
+          }
+        ],
+        "submit": [
+          "We are studying Art today",
+          "After today lesson",
+          "Just a little bit hard"
+        ],
+        "fspSets": [{ "st": "At a school", "id": "ENC01_F4255" }]
+      },
+      {
+        "type": "A2",
+        "hint": "At a school",
+        "fsp": "At a school",
+        "data": [
+          {
+            "qs": ["What are we learning today?"],
+            "aw": ["We have English class today."],
+            "submit": ["We have English class today."],
+            "aw01": [
+              { "st": "We have English class today.", "id": "ENC01_F4265" }
+            ]
+          },
+          {
+            "qs": ["What is the next topic?"],
+            "aw": ["Today topic is animals"],
+            "submit": ["Today topic is animals"],
+            "aw01": [{ "st": "Today topic is animals", "id": "ENC01_F4269" }]
+          }
+        ],
+        "submit": ["We have English class today.", "Today topic is animals"],
+        "fspSets": [{ "st": "At a school", "id": "ENC01_F4255" }]
+      },
+      {
+        "type": "A3",
+        "hint": "At a school",
+        "fsp": "At a school",
+        "data": [
+          {
+            "qs": ["What are we learning today?"],
+            "aw": ["We are studying Art today"],
+            "submit": ["We are studying Art today"],
+            "aw01": [{ "st": "We are studying Art today", "id": "ENC01_F4274" }]
+          },
+          {
+            "qs": ["When is the Art exam?"],
+            "aw": ["At the weekend"],
+            "submit": ["At the weekend"],
+            "aw01": [{ "st": "At the weekend", "id": "ENC01_F4281" }]
+          }
+        ],
+        "submit": ["We are studying Art today", "At the weekend"],
+        "fspSets": [{ "st": "At a school", "id": "ENC01_F4255" }]
+      },
+      {
+        "type": "A4",
+        "hint": "At a school",
+        "fsp": "At a school",
+        "data": [
+          {
+            "qs": ["What are we learning today?"],
+            "aw": ["Today, we have Science class"],
+            "submit": ["Today, we have Science class"],
+            "aw01": [
+              { "st": "Today, we have Science class", "id": "ENC01_F4283" }
+            ]
+          },
+          {
+            "qs": ["What is the homework today?"],
+            "aw": ["It will be on page eleven"],
+            "submit": ["It will be on page eleven"],
+            "aw01": [{ "st": "It will be on page eleven", "id": "ENC01_F4287" }]
+          }
+        ],
+        "submit": ["Today, we have Science class", "It will be on page eleven"],
+        "fspSets": [{ "st": "At a school", "id": "ENC01_F4255" }]
+      },
+      {
+        "type": "A6",
+        "hint": "At a school",
+        "fsp": "At a school",
+        "data": [
+          {
+            "qs": ["What are we learning today?"],
+            "aw": ["We have English class today."],
+            "submit": ["We have English class today."],
+            "aw01": [
+              { "st": "We have English class today.", "id": "ENC01_F4265" }
+            ]
+          },
+          {
+            "qs": ["What is the next topic?"],
+            "aw": ["We will learn about verbs"],
+            "submit": ["We will learn about verbs"],
+            "aw01": [{ "st": "We will learn about verbs", "id": "ENC01_F4301" }]
+          },
+          {
+            "qs": ["Why do we learn about verbs?"],
+            "aw": ["Paper and pencil"],
+            "submit": ["Paper and pencil"],
+            "aw01": [{ "st": "Paper and pencil", "id": "ENC01_F4302" }]
+          }
+        ],
+        "submit": [
+          "We have English class today.",
+          "We will learn about verbs",
+          "Paper and pencil"
+        ],
+        "fspSets": [{ "st": "At a school", "id": "ENC01_F4255" }]
+      },
+      {
+        "type": "A5",
+        "hint": "At a school",
+        "fsp": "At a school",
+        "data": [
+          {
+            "qs": ["What are we learning today?"],
+            "aw": ["Today, we are learning history"],
+            "submit": ["Today, we are learning history"],
+            "aw01": [
+              { "st": "Today, we are learning history", "id": "ENC01_F4256" }
+            ]
+          },
+          {
+            "qs": ["What is today lesson?"],
+            "aw": ["We will learn about Vietnam history"],
+            "submit": ["We will learn about Vietnam history"],
+            "aw01": [
+              {
+                "st": "We will learn about Vietnam history",
+                "id": "ENC01_F4293"
+              }
+            ]
+          },
+          {
+            "qs": ["Is it hard to learn?"],
+            "aw": ["No, it is too easy"],
+            "submit": ["No, it is too easy"],
+            "aw01": [{ "st": "No, it is too easy", "id": "ENC01_F4294" }]
+          }
+        ],
+        "submit": [
+          "Today, we are learning history",
+          "We will learn about Vietnam history",
+          "No, it is too easy"
+        ],
+        "fspSets": [{ "st": "At a school", "id": "ENC01_F4255" }]
+      },
+      {
+        "type": "A8",
+        "hint": "At a school",
+        "fsp": "At a school",
+        "data": [
+          {
+            "qs": ["What are we learning today?"],
+            "aw": ["Today, we have Science class"],
+            "submit": ["Today, we have Science class"],
+            "aw01": [
+              { "st": "Today, we have Science class", "id": "ENC01_F4283" }
+            ]
+          },
+          {
+            "qs": ["What is the homework today?"],
+            "aw": ["It's in the homework book"],
+            "submit": ["It's in the homework book"],
+            "aw01": [{ "st": "It's in the homework book", "id": "ENC01_F4317" }]
+          },
+          {
+            "qs": ["Which page is it?"],
+            "aw": ["It is page ten"],
+            "submit": ["It is page ten"],
+            "aw01": [{ "st": "It is page ten", "id": "ENC01_F4322" }]
+          }
+        ],
+        "submit": [
+          "Today, we have Science class",
+          "It's in the homework book",
+          "It is page ten"
+        ],
+        "fspSets": [{ "st": "At a school", "id": "ENC01_F4255" }]
+      },
+      {
+        "type": "A4",
+        "hint": "At a school",
+        "fsp": "At a school",
+        "data": [
+          {
+            "qs": ["What are we learning today?"],
+            "aw": ["Today, we have Science class"],
+            "submit": ["Today, we have Science class"],
+            "aw01": [
+              { "st": "Today, we have Science class", "id": "ENC01_F4283" }
+            ]
+          },
+          {
+            "qs": ["What is the homework today?"],
+            "aw": ["Teacher will give it to you"],
+            "submit": ["Teacher will give it to you"],
+            "aw01": [
+              { "st": "Teacher will give it to you", "id": "ENC01_F4290" }
+            ]
+          }
+        ],
+        "submit": [
+          "Today, we have Science class",
+          "Teacher will give it to you"
+        ],
+        "fspSets": [{ "st": "At a school", "id": "ENC01_F4255" }]
+      },
+      {
+        "type": "A2",
+        "hint": "At a school",
+        "fsp": "At a school",
+        "data": [
+          {
+            "qs": ["What are we learning today?"],
+            "aw": ["We have English class today."],
+            "submit": ["We have English class today."],
+            "aw01": [
+              { "st": "We have English class today.", "id": "ENC01_F4265" }
+            ]
+          },
+          {
+            "qs": ["What is the next topic?"],
+            "aw": ["It is about education."],
+            "submit": ["It is about education."],
+            "aw01": [{ "st": "It is about education.", "id": "ENC01_F4266" }]
+          }
+        ],
+        "submit": ["We have English class today.", "It is about education."],
+        "fspSets": [{ "st": "At a school", "id": "ENC01_F4255" }]
+      },
+      {
+        "type": "A3",
+        "hint": "At a school",
+        "fsp": "At a school",
+        "data": [
+          {
+            "qs": ["What are we learning today?"],
+            "aw": ["We are studying Art today"],
+            "submit": ["We are studying Art today"],
+            "aw01": [{ "st": "We are studying Art today", "id": "ENC01_F4274" }]
+          },
+          {
+            "qs": ["When is the Art exam?"],
+            "aw": ["About two more days"],
+            "submit": ["About two more days"],
+            "aw01": [{ "st": "About two more days", "id": "ENC01_F4278" }]
+          }
+        ],
+        "submit": ["We are studying Art today", "About two more days"],
+        "fspSets": [{ "st": "At a school", "id": "ENC01_F4255" }]
+      },
+      {
+        "type": "A6",
+        "hint": "At a school",
+        "fsp": "At a school",
+        "data": [
+          {
+            "qs": ["What are we learning today?"],
+            "aw": ["We have English class today."],
+            "submit": ["We have English class today."],
+            "aw01": [
+              { "st": "We have English class today.", "id": "ENC01_F4265" }
+            ]
+          },
+          {
+            "qs": ["What is the next topic?"],
+            "aw": ["We will learn about verbs"],
+            "submit": ["We will learn about verbs"],
+            "aw01": [{ "st": "We will learn about verbs", "id": "ENC01_F4301" }]
+          },
+          {
+            "qs": ["Why do we learn about verbs?"],
+            "aw": ["It is the last page"],
+            "submit": ["It is the last page"],
+            "aw01": [{ "st": "It is the last page", "id": "ENC01_F4306" }]
+          }
+        ],
+        "submit": [
+          "We have English class today.",
+          "We will learn about verbs",
+          "It is the last page"
+        ],
+        "fspSets": [{ "st": "At a school", "id": "ENC01_F4255" }]
+      },
+      {
+        "type": "A7",
+        "hint": "At a school",
+        "fsp": "At a school",
+        "data": [
+          {
+            "qs": ["What are we learning today?"],
+            "aw": ["We are studying Art today"],
+            "submit": ["We are studying Art today"],
+            "aw01": [{ "st": "We are studying Art today", "id": "ENC01_F4274" }]
+          },
+          {
+            "qs": ["When is the Art exam?"],
+            "aw": ["After today lesson"],
+            "submit": ["After today lesson"],
+            "aw01": [{ "st": "After today lesson", "id": "ENC01_F4309" }]
+          },
+          {
+            "qs": ["What do I need to prepare?"],
+            "aw": ["To understand about it"],
+            "submit": ["To understand about it"],
+            "aw01": [{ "st": "To understand about it", "id": "ENC01_F4314" }]
+          }
+        ],
+        "submit": [
+          "We are studying Art today",
+          "After today lesson",
+          "To understand about it"
+        ],
+        "fspSets": [{ "st": "At a school", "id": "ENC01_F4255" }]
+      },
+      {
+        "type": "A1",
+        "hint": "At a school",
+        "fsp": "At a school",
+        "data": [
+          {
+            "qs": ["What are we learning today?"],
+            "aw": ["Today, we are learning history"],
+            "submit": ["Today, we are learning history"],
+            "aw01": [
+              { "st": "Today, we are learning history", "id": "ENC01_F4256" }
+            ]
+          },
+          {
+            "qs": ["What is today lesson?"],
+            "aw": ["It's about human history"],
+            "submit": ["It's about human history"],
+            "aw01": [{ "st": "It's about human history", "id": "ENC01_F4257" }]
+          }
+        ],
+        "submit": [
+          "Today, we are learning history",
+          "It's about human history"
+        ],
+        "fspSets": [{ "st": "At a school", "id": "ENC01_F4255" }]
+      },
+      {
+        "type": "A5",
+        "hint": "At a school",
+        "fsp": "At a school",
+        "data": [
+          {
+            "qs": ["What are we learning today?"],
+            "aw": ["Today, we are learning history"],
+            "submit": ["Today, we are learning history"],
+            "aw01": [
+              { "st": "Today, we are learning history", "id": "ENC01_F4256" }
+            ]
+          },
+          {
+            "qs": ["What is today lesson?"],
+            "aw": ["We will learn about Vietnam history"],
+            "submit": ["We will learn about Vietnam history"],
+            "aw01": [
+              {
+                "st": "We will learn about Vietnam history",
+                "id": "ENC01_F4293"
+              }
+            ]
+          },
+          {
+            "qs": ["Is it hard to learn?"],
+            "aw": ["To describe actions"],
+            "submit": ["To describe actions"],
+            "aw01": [{ "st": "To describe actions", "id": "ENC01_F4298" }]
+          }
+        ],
+        "submit": [
+          "Today, we are learning history",
+          "We will learn about Vietnam history",
+          "To describe actions"
+        ],
+        "fspSets": [{ "st": "At a school", "id": "ENC01_F4255" }]
+      },
+      {
+        "type": "A3",
+        "hint": "At a school",
+        "fsp": "At a school",
+        "data": [
+          {
+            "qs": ["What are we learning today?"],
+            "aw": ["We are studying Art today"],
+            "submit": ["We are studying Art today"],
+            "aw01": [{ "st": "We are studying Art today", "id": "ENC01_F4274" }]
+          },
+          {
+            "qs": ["When is the Art exam?"],
+            "aw": ["It will be on Friday"],
+            "submit": ["It will be on Friday"],
+            "aw01": [{ "st": "It will be on Friday", "id": "ENC01_F4275" }]
+          }
+        ],
+        "submit": ["We are studying Art today", "It will be on Friday"],
+        "fspSets": [{ "st": "At a school", "id": "ENC01_F4255" }]
+      },
+      {
+        "type": "A2",
+        "hint": "At a school",
+        "fsp": "At a school",
+        "data": [
+          {
+            "qs": ["What are we learning today?"],
+            "aw": ["We have English class today."],
+            "submit": ["We have English class today."],
+            "aw01": [
+              { "st": "We have English class today.", "id": "ENC01_F4265" }
+            ]
+          },
+          {
+            "qs": ["What is the next topic?"],
+            "aw": ["We will study grammar"],
+            "submit": ["We will study grammar"],
+            "aw01": [{ "st": "We will study grammar", "id": "ENC01_F4272" }]
+          }
+        ],
+        "submit": ["We have English class today.", "We will study grammar"],
+        "fspSets": [{ "st": "At a school", "id": "ENC01_F4255" }]
+      },
+      {
+        "type": "A4",
+        "hint": "At a school",
+        "fsp": "At a school",
+        "data": [
+          {
+            "qs": ["What are we learning today?"],
+            "aw": ["Today, we have Science class"],
+            "submit": ["Today, we have Science class"],
+            "aw01": [
+              { "st": "Today, we have Science class", "id": "ENC01_F4283" }
+            ]
+          },
+          {
+            "qs": ["What is the homework today?"],
+            "aw": ["It's about energy"],
+            "submit": ["It's about energy"],
+            "aw01": [{ "st": "It's about energy", "id": "ENC01_F4284" }]
+          }
+        ],
+        "submit": ["Today, we have Science class", "It's about energy"],
+        "fspSets": [{ "st": "At a school", "id": "ENC01_F4255" }]
+      },
+      {
+        "type": "A1",
+        "hint": "At a school",
+        "fsp": "At a school",
+        "data": [
+          {
+            "qs": ["What are we learning today?"],
+            "aw": ["Today, we are learning history"],
+            "submit": ["Today, we are learning history"],
+            "aw01": [
+              { "st": "Today, we are learning history", "id": "ENC01_F4256" }
+            ]
+          },
+          {
+            "qs": ["What is today lesson?"],
+            "aw": ["Today, we learn about China"],
+            "submit": ["Today, we learn about China"],
+            "aw01": [
+              { "st": "Today, we learn about China", "id": "ENC01_F4263" }
+            ]
+          }
+        ],
+        "submit": [
+          "Today, we are learning history",
+          "Today, we learn about China"
+        ],
+        "fspSets": [{ "st": "At a school", "id": "ENC01_F4255" }]
       }
     ],
     "charactor_UP_01": [],
