@@ -225,6 +225,8 @@ function FINAL_PROJECT({
           setStartSTT(true);
           setScore((D) => D - 1);
         }, 1000);
+      } else if (checkIndex === 3) {
+        setScore((D) => D - 0.5);
       }
     }
   }, [Submit, PushAW]);
@@ -738,8 +740,12 @@ function checkArrays(array01, array02) {
   const elementsNotInArray01 = array02.filter(
     (element) => !array01.includes(element)
   );
+
   if (elementsNotInArray01.length >= 3) {
     return 2;
+  }
+  if (elementsNotInArray01.length > 0) {
+    return 3;
   }
   return 0;
 }
