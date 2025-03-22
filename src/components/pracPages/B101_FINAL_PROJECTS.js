@@ -16,6 +16,7 @@ import useImagePreloader from "../useImagePreloader";
 import helper_fn_localStorage from "../../ulti/helper_fn_localStorage";
 const colors = ["red", "orange", "black", "green", "blue", "indigo", "violet"];
 // console.log(ObjREADContext);
+let sttJustOnePlus = true;
 function FINAL_PROJECT({
   DataPracticingOverRoll,
   DataPracticingCharactor,
@@ -205,8 +206,9 @@ function FINAL_PROJECT({
   }, [playData, ObjREAD]);
 
   useEffect(() => {
-    if (Submit !== null && PushAW.length > 0) {
+    if (Submit !== null && PushAW.length > 0 && sttJustOnePlus) {
       let checkIndex = checkArrays(Submit, PushAW);
+
       if (checkIndex === 1) {
         setStyles((prevStyles) => ({
           ...prevStyles,
@@ -734,9 +736,7 @@ function shuffleArray(array) {
 
 function checkArrays(array01, array02) {
   const allInArray02 = array01.every((element) => array02.includes(element));
-  if (allInArray02) {
-    return 1;
-  }
+
   const elementsNotInArray01 = array02.filter(
     (element) => !array01.includes(element)
   );
@@ -746,6 +746,10 @@ function checkArrays(array01, array02) {
   }
   if (elementsNotInArray01.length > 0) {
     return 3;
+  }
+  
+  if (allInArray02) {
+    return 1;
   }
   return 0;
 }
