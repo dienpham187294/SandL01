@@ -741,16 +741,13 @@ function checkArrays(array01, array02) {
     (element) => !array01.includes(element)
   );
 
-  if (elementsNotInArray01.length >= 3) {
+  if (elementsNotInArray01 > 0) {
     return 2;
   }
-  if (elementsNotInArray01.length > 0) {
-    return 3;
-  }
-  
-  if (allInArray02) {
+  if (allInArray02 && elementsNotInArray01 === 0) {
     return 1;
   }
+
   return 0;
 }
 
