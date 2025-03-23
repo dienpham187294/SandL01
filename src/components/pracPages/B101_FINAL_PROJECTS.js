@@ -16,6 +16,9 @@ import useImagePreloader from "../useImagePreloader";
 import helper_fn_localStorage from "../../ulti/helper_fn_localStorage";
 const colors = ["red", "orange", "black", "green", "blue", "indigo", "violet"];
 // console.log(ObjREADContext);
+
+let stt_justone_plus = false;
+
 function FINAL_PROJECT({
   DataPracticingOverRoll,
   DataPracticingCharactor,
@@ -174,9 +177,11 @@ function FINAL_PROJECT({
       setCMD(null);
       setGENDER(null);
       setPushAW([]);
+
       setClue(null);
       setTimeCountDown(null);
       setLang("en-GB");
+      stt_justone_plus = false;
     } else {
       setTimeCountDown(
         playData.time !== undefined
@@ -205,9 +210,13 @@ function FINAL_PROJECT({
   }, [playData, ObjREAD]);
 
   useEffect(() => {
+    if (stt_justone_plus) {
+      return;
+    }
     if (Submit !== null && PushAW.length > 0) {
       let checkIndex = checkArrays(Submit, PushAW);
       if (checkIndex === 1) {
+        stt_justone_plus = true;
         setStyles((prevStyles) => ({
           ...prevStyles,
           opacity: 0,
@@ -734,9 +743,7 @@ function shuffleArray(array) {
 
 function checkArrays(array01, array02) {
   const allInArray02 = array01.every((element) => array02.includes(element));
-  if (allInArray02) {
-    return 1;
-  }
+
   const elementsNotInArray01 = array02.filter(
     (element) => !array01.includes(element)
   );
@@ -744,8 +751,11 @@ function checkArrays(array01, array02) {
   if (elementsNotInArray01.length >= 3) {
     return 2;
   }
-  if (elementsNotInArray01.length > 0) {
+  if (elementsNotInArray01.length > 0 && !allInArray02) {
     return 3;
+  }
+  if (allInArray02 && elementsNotInArray01.length < 3) {
+    return 1;
   }
   return 0;
 }
