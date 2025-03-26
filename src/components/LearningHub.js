@@ -184,7 +184,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                   try {
                     navigate(
                       `/learninghub/${id}?ls=${currentIndex}&&id=div_01_prac_ghep_am&&st=` +
-                        e.split(" ").join("-")
+                        (e + "").split(" ").join("-")
                     );
                   } catch (error) {}
                   // setchoose_a_st(e);
