@@ -6,6 +6,7 @@ import SpeechRecognition from "react-speech-recognition";
 
 const ChatWidget = () => {
   const [chatHistory, setChatHistory] = useState([]);
+  const [NotifyHistory, setNotifyHistory] = useState([]);
   const [onlineNumber, setOnlineNumber] = useState(0);
   const [isOpen, setIsOpen] = useState(false);
   const [unreadCount, setUnreadCount] = useState(0);
@@ -15,7 +16,11 @@ const ChatWidget = () => {
     socket.on("message", (newMessage) => {
       handle_cmd_f_admin(newMessage, navigate, setIsOpen, storeLinkToday);
 
-      setChatHistory((prevHistory) => [...prevHistory, newMessage]);
+      if (newMessage.type === "notify") {
+        setNotifyHistory((prevHistory) => [newMessage, ...prevHistory]);
+      } else {
+        setChatHistory((prevHistory) => [...prevHistory, newMessage]);
+      }
 
       if (!isOpen) {
         setUnreadCount((prevCount) => prevCount + 1);
@@ -70,8 +75,8 @@ const ChatWidget = () => {
     position: "fixed",
     bottom: "0",
     right: "0",
-    width: isOpen ? "300px" : "100px",
-    height: isOpen ? "50vh" : "50px",
+    width: isOpen ? "400px" : "100px",
+    height: isOpen ? "70vh" : "50px",
     border: "1px solid #ccc",
     borderRadius: "5px",
     overflow: "hidden",
@@ -89,6 +94,18 @@ const ChatWidget = () => {
     cursor: "pointer",
     display: "flex",
     justifyContent: "space-between",
+  };
+
+  const notifyStyle = {
+    padding: isOpen ? "10px" : "0px",
+    // backgroundColor: "#f1f1f1",
+    height: isOpen ? "150px" : "0px",
+    color: "black",
+    cursor: "pointer",
+    // display: "flex",
+    fontSize: "small",
+    // justifyContent: "space-between",
+    // overflow: "hidden",
   };
 
   const historyStyle = {
@@ -114,10 +131,21 @@ const ChatWidget = () => {
 
   return (
     <div style={containerStyle}>
+      <div style={notifyStyle}>
+        {NotifyHistory.slice(0, 9).map((msg, index) => (
+          <div
+            key={index}
+            style={{ ...messageStyle, display: "inline-block", margin: "1px" }} // Apply both styles correctly
+          >
+            {msg.text} {msg.time}
+          </div>
+        ))}
+      </div>
       <div style={headerStyle} onClick={toggleChat}>
         Chat {unreadCount > 0 && <span>({unreadCount})</span>}
         <span>{isOpen ? "▼" : "▲"}</span>{" "}
       </div>
+
       {isOpen && (
         <>
           <ul style={historyStyle}>

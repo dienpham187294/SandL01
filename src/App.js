@@ -56,6 +56,9 @@ const App = () => {
   useEffect(() => {
     // Check socket connection status
     const handleSocketConnection = () => {
+      localStorage.getItem("dinhDanh") ||
+        localStorage.setItem("dinhDanh", socket.id);
+
       setSTTconnect02(socket.connected);
     };
 

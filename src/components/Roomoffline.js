@@ -50,10 +50,14 @@ const Room = ({ setSttRoom }) => {
         saveNumberWithDailyExpiry("score" + (params.get("b") || ""), Score);
       }
 
-      if (Score < 5 || Score % 5 === 0 || (Score - 0.5) % 5 === 0) {
-        const idSocket = socket.id.slice(0, 4);
+      if (Score) {
+        const idDinhDanh = localStorage.getItem("dinhDanh");
+        const nameDinhDanh = localStorage.getItem("nameDinhDanh") || "";
         socket.emit("messageReg", {
-          text: "[" + idSocket + "] " + Score + " Điểm",
+          text: Score + " Điểm",
+          time: idDinhDanh ? idDinhDanh.slice(0, 4) : "" + " " + nameDinhDanh,
+          type: "notify",
+          id: idDinhDanh,
         });
       }
     } catch (error) {}
