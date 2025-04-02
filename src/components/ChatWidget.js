@@ -47,8 +47,18 @@ const ChatWidget = () => {
           }
         } catch (error) {}
       });
+      let historyMesage = [];
+      let historyNotify = [];
+      history.forEach((e) => {
+        if (e.type && e.type === "notify") {
+          historyNotify.push(e);
+        } else {
+          historyMesage.push(e);
+        }
+      });
 
-      setChatHistory(history);
+      setChatHistory(historyMesage);
+      setNotifyHistory(historyNotify);
     });
 
     return () => {
