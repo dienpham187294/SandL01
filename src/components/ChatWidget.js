@@ -86,7 +86,7 @@ const ChatWidget = () => {
     bottom: "0",
     right: "0",
     width: isOpen ? "400px" : "100px",
-    height: isOpen ? "55vh" : "50px",
+    height: isOpen ? "60vh" : "50px",
     border: "1px solid #ccc",
     borderRadius: "5px",
     overflow: "hidden",
@@ -109,7 +109,7 @@ const ChatWidget = () => {
   const notifyStyle = {
     padding: isOpen ? "10px" : "0px",
     // backgroundColor: "#f1f1f1",
-    height: isOpen ? "150px" : "0px",
+    height: isOpen ? "120px" : "0px",
     color: "black",
     cursor: "pointer",
     // display: "flex",
