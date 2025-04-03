@@ -133,6 +133,52 @@ const Room = ({ setSttRoom }) => {
     socket.emit("updateOneELEMENT", roomCode, socket.id, key, value, mode);
   };
 
+  if (params && IndexSets && params.get("qstable")) {
+    return (
+      <>
+        <div style={{ padding: "5%", fontSize: "larger" }}>
+          <h1 style={{ color: "blue" }}>
+            Buổi phỏng vấn qua video giữa học viên và người hướng dẫn
+          </h1>
+
+          <h5>
+            Nhiệm vụ của các học viên trong buổi phỏng vấn này bao gồm:
+            <br />
+            + Lắng nghe những câu hỏi từ người hướng dẫn;
+            <br />
+            + Sử dụng bảng thông tin để hỗ trợ quá trình trả lời;
+            <br />+ Phân tích tình huống, đặt câu hỏi để làm rõ thông tin và tìm
+            kiếm đáp án hợp lý.
+          </h5>
+
+          <i>
+            Qua quá trình trao đổi, người hướng dẫn sẽ có cơ hội đánh giá quá
+            trình thực hành, sự tiến bộ của học viên cũng như xác định những
+            điểm yếu cần cải thiện. Đây không chỉ là kết quả cụ thể từ một quá
+            trình rèn luyện mà còn là tài liệu để người thầy, cô có thể xây dựng
+            những phương án hỗ trợ hiệu quả hơn, giúp học viên đạt được kết quả
+            tốt nhất trong hành trình học tập.
+          </i>
+          <hr />
+          {IndexSets.map((e, i) => (
+            <div>
+              <b>
+                {i + 1}.{DataPracticingCharactor[e].fsp}
+              </b>
+              <hr />
+              {DataPracticingCharactor[e].data.map((e1, i1) => (
+                <div style={{ padding: "0 5px" }}>
+                  {e1.qs} ==== {e1.aw}
+                </div>
+              ))}
+              <hr />
+            </div>
+          ))}
+        </div>
+      </>
+    );
+  }
+
   if (roomInfo === null) {
     return (
       <div className="container mt-3">
