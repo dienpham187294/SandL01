@@ -3,7 +3,9 @@ import { socket } from "../App";
 
 const ChatInput = () => {
   const [message, setMessage] = useState("");
-
+  const dinhDanh = localStorage.getItem("dinhDanh")
+    ? " " + localStorage.getItem("dinhDanh").slice(0, 4)
+    : "";
   const handleSendMessage = (event) => {
     event.preventDefault();
     if (message.trim()) {
@@ -11,7 +13,7 @@ const ChatInput = () => {
         hour: "2-digit",
         minute: "2-digit",
       });
-      socket.emit("message", { text: message, time: timestamp });
+      socket.emit("message", { text: message, time: timestamp + dinhDanh });
       setMessage("");
     }
   };

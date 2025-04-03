@@ -86,7 +86,7 @@ const ChatWidget = () => {
     bottom: "0",
     right: "0",
     width: isOpen ? "400px" : "100px",
-    height: isOpen ? "70vh" : "50px",
+    height: isOpen ? "55vh" : "50px",
     border: "1px solid #ccc",
     borderRadius: "5px",
     overflow: "hidden",
