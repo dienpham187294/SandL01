@@ -6,6 +6,9 @@ const ChatInput = () => {
   const dinhDanh = localStorage.getItem("dinhDanh")
     ? " " + localStorage.getItem("dinhDanh").slice(0, 4)
     : "";
+
+  const nameDinhDanh = localStorage.getItem("nameDinhDanh");
+
   const handleSendMessage = (event) => {
     event.preventDefault();
     if (message.trim()) {
@@ -13,7 +16,10 @@ const ChatInput = () => {
         hour: "2-digit",
         minute: "2-digit",
       });
-      socket.emit("message", { text: message, time: timestamp + dinhDanh });
+      socket.emit("message", {
+        text: message,
+        time: timestamp + nameDinhDanh ? nameDinhDanh : dinhDanh,
+      });
       setMessage("");
     }
   };

@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import Header from "./components/A1_Header";
 import Lobby from "./components/Lobby";
+import NameDiv from "./components/A1_Name";
 import RoomN from "./components/RoomN";
 import Room from "./components/Room";
 import RoomOffline from "./components/Roomoffline";
@@ -122,6 +123,7 @@ const App = () => {
               />
 
               <Route path="/setting" element={<Settings />} />
+              <Route path="/name" element={<NameDiv />} />
               <Route
                 path="*"
                 element={

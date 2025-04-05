@@ -17,7 +17,12 @@ const ChatWidget = () => {
       handle_cmd_f_admin(newMessage, navigate, setIsOpen, storeLinkToday);
 
       if (newMessage.type === "notify") {
-        setNotifyHistory((prevHistory) => [newMessage, ...prevHistory]);
+        setNotifyHistory((prevHistory) => {
+          const filteredHistory = prevHistory.filter(
+            (item) => item.id !== newMessage.id
+          );
+          return [newMessage, ...filteredHistory];
+        });
       } else {
         setChatHistory((prevHistory) => [...prevHistory, newMessage]);
       }

@@ -54,8 +54,12 @@ const Room = ({ setSttRoom }) => {
         const idDinhDanh = localStorage.getItem("dinhDanh");
         const nameDinhDanh = localStorage.getItem("nameDinhDanh") || "";
         socket.emit("messageReg", {
-          text: Score + " Điểm",
-          time: idDinhDanh ? idDinhDanh.slice(0, 4) : "" + " " + nameDinhDanh,
+          text: "[" + Score + "] Điểm | ",
+          time: nameDinhDanh
+            ? nameDinhDanh
+            : idDinhDanh
+            ? idDinhDanh.slice(0, 4)
+            : "",
           type: "notify",
           id: idDinhDanh,
         });

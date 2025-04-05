@@ -45,18 +45,26 @@ const prac_to_work = [
 const pracEnSets = [
   {
     root: "learninghub",
-    preName: "(D) ",
-    name: "Vỡ lòng",
+    preName: "(D) Vỡ lòng",
+    name: "Các câu cơ bản",
     link: "endp01",
     id: "socapI",
   },
+  // {
+  //   root: "learninghub",
+  //   preName: "(C) Phản xạ: ",
+  //   name: "Vỡ lòng",
+  //   link: "phanxa_lv1",
+  //   id: "socapI",
+  // },
   {
     root: "learninghub",
-    preName: "(C) Phản xạ: ",
-    name: "Vỡ lòng",
-    link: "phanxa_lv1",
-    id: "socapI",
+    preName: "(D) Trung cấp: ",
+    name: "Công việc tại nhà hàng",
+    link: "endp_res_inter_01",
+    id: "interI",
   },
+
   {
     root: "learninghub",
     preName: "TA01:",
