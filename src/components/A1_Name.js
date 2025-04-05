@@ -33,10 +33,10 @@ export default function LocalName() {
   return (
     <div
       style={{
-        marginTop: "200px",
         padding: "1rem",
         maxWidth: "400px",
-        margin: "0 auto",
+        marginTop: "200px",
+        marginLeft: "35%",
       }}
     >
       <h2>Xin chào {name ? name : "bạn chưa nhập tên"}</h2>
