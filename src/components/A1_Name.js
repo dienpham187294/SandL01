@@ -33,7 +33,7 @@ export default function LocalName() {
   return (
     <div
       style={{
-        marginTop: "30vh",
+        marginTop: "200px",
         padding: "1rem",
         maxWidth: "400px",
         margin: "0 auto",
