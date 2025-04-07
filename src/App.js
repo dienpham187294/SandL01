@@ -59,7 +59,6 @@ const App = () => {
     const handleSocketConnection = () => {
       localStorage.getItem("dinhDanh") ||
         localStorage.setItem("dinhDanh", socket.id);
-
       setSTTconnect02(socket.connected);
     };
 
