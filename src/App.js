@@ -155,6 +155,7 @@ export { socket };
 // custom={false}
 // />
 function cleanExpiredScoresAndOldItems() {
+  console.log("clear localstorage")
   const now = Date.now();
   const FOUR_HOURS = 4 * 60 * 60 * 1000;
   const TEN_HOURS = 10 * 60 * 60 * 1000;
