@@ -3,8 +3,8 @@ import { useEffect, useState } from "react";
 export default function LocalName() {
   const [name, setName] = useState("");
   const [input, setInput] = useState("");
+  const [status, setStatus] = useState(""); // Thông báo thành công
 
-  // Load name from localStorage on first render
   useEffect(() => {
     const savedName = localStorage.getItem("nameDinhDanh");
     if (savedName) {
@@ -25,9 +25,25 @@ export default function LocalName() {
       return;
     }
 
+    const oldName = localStorage.getItem("nameDinhDanh");
+
     localStorage.setItem("nameDinhDanh", input);
     setName(input);
     setInput("");
+
+    // Cập nhật thông báo
+    if (oldName && oldName !== input) {
+      setStatus("✅ Đổi tên thành công!");
+    } else if (!oldName) {
+      setStatus("✅ Nhập tên mới thành công!");
+    } else {
+      setStatus("✅ Tên không thay đổi.");
+    }
+
+    // Tự ẩn thông báo sau 3 giây
+    setTimeout(() => {
+      setStatus("");
+    }, 3000);
   };
 
   return (
@@ -54,6 +70,12 @@ export default function LocalName() {
           Lưu tên
         </button>
       </form>
+
+      {status && (
+        <p style={{ marginTop: "1rem", color: "green", fontWeight: "bold" }}>
+          {status}
+        </p>
+      )}
     </div>
   );
 }
