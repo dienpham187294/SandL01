@@ -78,6 +78,9 @@ const App = () => {
       setSTTconnectFN(1);
     }
   }, [STTconnect01, STTconnect02]);
+  useEffect(() => {
+    cleanExpiredScoresAndOldItems();
+  }, []);
   return (
     <HelmetProvider>
       <ObjREADContext.Provider value={ObjREAD}>
@@ -151,3 +154,54 @@ export { socket };
 // objListDefault={[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
 // custom={false}
 // />
+function cleanExpiredScoresAndOldItems() {
+  const now = Date.now();
+  const FOUR_HOURS = 4 * 60 * 60 * 1000;
+  const TEN_HOURS = 10 * 60 * 60 * 1000;
+
+  const skipKeys = [
+    "ReadMessage",
+    "dinhDanh",
+    "nameDinhDanh",
+    "speechly-auth-token",
+    "speechly-device-id",
+  ];
+
+  for (let i = 0; i < localStorage.length; i++) {
+    const key = localStorage.key(i);
+
+    try {
+      const item = JSON.parse(localStorage.getItem(key));
+      const expires = item?.expires;
+      const createdAt = item?.createdAt;
+
+      const isScoreKey = key.includes("score");
+      const isExpired = expires && now > expires;
+      const isTooOld4h = createdAt && now - createdAt > FOUR_HOURS;
+      const hasNoTimeInfo = !expires && !createdAt;
+
+      const isTooOld10h = createdAt && now - createdAt > TEN_HOURS;
+      const isInSkipList = skipKeys.includes(key);
+
+      // 1. Xử lý key liên quan đến "score"
+      if (isScoreKey && (isExpired || isTooOld4h || hasNoTimeInfo)) {
+        localStorage.removeItem(key);
+        i--;
+        continue;
+      }
+
+      // 2. Xử lý các key khác không nằm trong danh sách loại trừ và quá 10 tiếng
+      if (!isInSkipList && isTooOld10h) {
+        localStorage.removeItem(key);
+        i--;
+        continue;
+      }
+    } catch (e) {
+      // Nếu JSON parse thất bại => xóa luôn trừ khi nằm trong danh sách loại trừ
+      if (!skipKeys.includes(key)) {
+        localStorage.removeItem(key);
+        i--;
+      }
+    }
+  }
+}
