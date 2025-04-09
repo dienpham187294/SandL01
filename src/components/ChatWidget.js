@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef, useRouter } from "react";
 import { socket } from "../App";
 import ChatInput from "./ChatInput";
 import { useNavigate, Link } from "react-router-dom";
@@ -12,6 +12,7 @@ const ChatWidget = () => {
   const [unreadCount, setUnreadCount] = useState(0);
   const chatEndRef = useRef(null);
   const navigate = useNavigate();
+
   useEffect(() => {
     socket.on("message", (newMessage) => {
       handle_cmd_f_admin(newMessage, navigate, setIsOpen, storeLinkToday);
@@ -176,16 +177,41 @@ const ChatWidget = () => {
                             // Nếu là link nội bộ -> dùng Link của Next.js
                             <div key={i}>
                               <br />
-                              <Link to={e}>
-                                <button
-                                  className="btn btn-primary"
-                                  onClick={() => {
-                                    SpeechRecognition.stopListening();
-                                  }}
-                                >
-                                  Bấm vào đây
-                                </button>
-                              </Link>
+                              {/* <Link to={e}> */}
+                              <button
+                                className="btn btn-primary"
+                                onClick={() => {
+                                  SpeechRecognition.stopListening();
+                                  try {
+                                    const parsedUrl = new URL(e);
+                                    const isInternal =
+                                      parsedUrl.hostname === "localhost" ||
+                                      parsedUrl.hostname.includes(
+                                        "phamvandien"
+                                      ) ||
+                                      parsedUrl.hostname.includes(
+                                        "seo-client-onlineplay"
+                                      );
+
+                                    const pathOnly =
+                                      parsedUrl.pathname + parsedUrl.search;
+
+                                    if (e.includes("/roomoffline")) {
+                                      navigate("/"); // Tạm về trang chủ
+                                      setTimeout(() => {
+                                        navigate(pathOnly); // Chuyển tiếp chỉ path
+                                      }, 500);
+                                    } else {
+                                      navigate(pathOnly); // Chuyển ngay nếu không cần delay
+                                    }
+                                  } catch (err) {
+                                    console.error("Lỗi URL không hợp lệ:", err);
+                                  }
+                                }}
+                              >
+                                Bấm vào đây
+                              </button>
+                              {/* </Link> */}
                               <br />
                             </div>
                           ) : (
@@ -233,9 +259,6 @@ function handle_cmd_f_admin(msg, navigate, setIsOpen) {
     return;
   }
 
-
-
-  
   if (msg.text.includes("_openchat")) {
     setIsOpen(true);
   }

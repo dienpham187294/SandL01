@@ -14,7 +14,7 @@ const Room = ({ setSttRoom }) => {
   const locationSet = useLocation();
   const params = new URLSearchParams(locationSet.search);
   const [users, setUsers] = useState(null);
-  const [roomInfo, setRoomInfo] = useState({  
+  const [roomInfo, setRoomInfo] = useState({
     fileName: roomCode,
     objList: [0, 1, 2, 3, 4, 5, 6],
     reverse: 1,
@@ -137,7 +137,7 @@ const Room = ({ setSttRoom }) => {
 
       fetchTitle();
     }
-  }, [roomInfo, params]);
+  }, [roomInfo]);
 
   const handleUpdateNewElenment = (key, value, mode) => {
     socket.emit("updateOneELEMENT", roomCode, socket.id, key, value, mode);
