@@ -16,10 +16,14 @@ const ChatInput = () => {
         hour: "2-digit",
         minute: "2-digit",
       });
+
+      const sender = nameDinhDanh || (dinhDanh ? dinhDanh.slice(0, 4) : "");
+
       socket.emit("message", {
         text: message,
-        time: timestamp + nameDinhDanh ? nameDinhDanh : dinhDanh,
+        time: `${timestamp} ${sender}`,
       });
+
       setMessage("");
     }
   };

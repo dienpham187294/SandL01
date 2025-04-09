@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { socket } from "../App";
 import ChatInput from "./ChatInput";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import SpeechRecognition from "react-speech-recognition";
 
 const ChatWidget = () => {
@@ -170,23 +170,39 @@ const ChatWidget = () => {
                   {msg.text.includes("http://") || msg.text.includes("https://")
                     ? tachStringTheoHttp(msg.text).map((e, i) =>
                         e.includes("http://") || e.includes("https://") ? (
-                          <a
-                            key={i}
-                            href={e}
-                            target={
-                              e.includes("phamvandien") ||
-                              e.includes("seo-client-onlineplay")
-                                ? "_self"
-                                : "_blank"
-                            }
-                            rel="noopener noreferrer"
-                          >
-                            <br />
-                            <button className="btn btn-primary">
-                              Bấm vào đây
-                            </button>
-                            <br />
-                          </a>
+                          e.includes("phamvandien") ||
+                          e.includes("seo-client-onlineplay") ||
+                          e.includes("localhost:3000/") ? (
+                            // Nếu là link nội bộ -> dùng Link của Next.js
+                            <div key={i}>
+                              <br />
+                              <Link to={e}>
+                                <button
+                                  className="btn btn-primary"
+                                  onClick={() => {
+                                    SpeechRecognition.stopListening();
+                                  }}
+                                >
+                                  Bấm vào đây
+                                </button>
+                              </Link>
+                              <br />
+                            </div>
+                          ) : (
+                            // Link ngoài -> dùng <a>
+                            <a
+                              key={i}
+                              href={e}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <br />
+                              <button className="btn btn-primary">
+                                Bấm vào đây
+                              </button>
+                              <br />
+                            </a>
+                          )
                         ) : (
                           e
                         )
@@ -217,6 +233,9 @@ function handle_cmd_f_admin(msg, navigate, setIsOpen) {
     return;
   }
 
+
+
+  
   if (msg.text.includes("_openchat")) {
     setIsOpen(true);
   }
