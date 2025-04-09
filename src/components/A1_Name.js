@@ -55,13 +55,19 @@ export default function LocalName() {
         marginLeft: "35%",
       }}
     >
-      <h2>Xin chào {name ? name : "bạn chưa nhập tên"}</h2>
+      <h2 style={{ color: name ? "blue" : "black" }}>
+        Xin chào {name ? name : "bạn chưa nhập tên"}
+      </h2>
 
       <form onSubmit={handleSubmit}>
         <input
           type="text"
           value={input}
-          placeholder="Nhập tên (tối đa 10 ký tự)"
+          placeholder={
+            name
+              ? "Nhập tên khác (tối đa 10 ký tự)"
+              : "Nhập tên (tối đa 10 ký tự)"
+          }
           maxLength={10}
           onChange={(e) => setInput(e.target.value)}
           style={{ padding: "0.5rem", width: "100%", marginBottom: "0.5rem" }}
