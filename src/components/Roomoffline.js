@@ -14,7 +14,7 @@ const Room = ({ setSttRoom }) => {
   const locationSet = useLocation();
   const params = new URLSearchParams(locationSet.search);
   const [users, setUsers] = useState(null);
-  const [roomInfo, setRoomInfo] = useState({
+  const [roomInfo, setRoomInfo] = useState({  
     fileName: roomCode,
     objList: [0, 1, 2, 3, 4, 5, 6],
     reverse: 1,
@@ -36,18 +36,28 @@ const Room = ({ setSttRoom }) => {
   const [DataPracticingCharactor, setDataPracticingCharactor] = useState(null);
   const [DataPracticingOverRoll, setDataPracticingOverRoll] = useState(null);
   const [Score, setScore] = useState(
-    getNumberWithDailyExpiry("score" + (params.get("b") || "")) || 0
+    getNumberWithDailyExpiry(
+      "score" + (params.get("b") + params.get("a") || "")
+    ) || 0
   );
   const [NumberOneByOneHost, setNumberOneByOneHost] = useState(0);
 
   const [Message, setMessage] = useState(null);
+
   const navigate = useNavigate();
+
   useEffect(() => {
     try {
       if (Score < 0) {
-        saveNumberWithDailyExpiry("score" + (params.get("b") || ""), 0);
+        saveNumberWithDailyExpiry(
+          "score" + (params.get("b") + params.get("a") || ""),
+          0
+        );
       } else {
-        saveNumberWithDailyExpiry("score" + (params.get("b") || ""), Score);
+        saveNumberWithDailyExpiry(
+          "score" + (params.get("b") + params.get("a") || ""),
+          Score
+        );
       }
 
       if (Score) {
@@ -127,7 +137,7 @@ const Room = ({ setSttRoom }) => {
 
       fetchTitle();
     }
-  }, [roomInfo]);
+  }, [roomInfo, params]);
 
   const handleUpdateNewElenment = (key, value, mode) => {
     socket.emit("updateOneELEMENT", roomCode, socket.id, key, value, mode);
