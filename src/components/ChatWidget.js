@@ -174,7 +174,10 @@ const ChatWidget = () => {
                             key={i}
                             href={e}
                             target={
-                              e.includes("phamvandien") ? "_self" : "_blank"
+                              e.includes("phamvandien") ||
+                              e.includes("seo-client-onlineplay")
+                                ? "_self"
+                                : "_blank"
                             }
                             rel="noopener noreferrer"
                           >
