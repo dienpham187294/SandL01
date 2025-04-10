@@ -194,7 +194,12 @@ function cleanExpiredScoresAndOldItems() {
       // 2. Nếu key không nằm trong danh sách loại trừ:
       if (!isInSkipList) {
         // Xóa nếu quá 10 tiếng hoặc không có createdAt
-        if (isTooOld10h || !createdAt) {
+        // if (isTooOld10h || !createdAt) {
+        //   localStorage.removeItem(key);
+        //   i--;
+        //   continue;
+        // }
+        if (isTooOld10h) {
           localStorage.removeItem(key);
           i--;
           continue;
