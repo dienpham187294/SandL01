@@ -190,7 +190,7 @@ const ChatWidget = () => {
                                         "phamvandien"
                                       ) ||
                                       parsedUrl.hostname.includes(
-                                        "pvdien"
+                                        "dien"
                                       );
 
                                     const pathOnly =
