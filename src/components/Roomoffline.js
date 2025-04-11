@@ -20,6 +20,8 @@ const Room = ({ setSttRoom }) => {
     reverse: 1,
   });
 
+  const [StartToGetData, setStartToGetData] = useState(false);
+
   const [IndexSets, setIndexSets] = useState(null);
 
   const [userClient, setUserClient] = useState(null);
@@ -93,55 +95,105 @@ const Room = ({ setSttRoom }) => {
     }
   }, [SttCoundown]);
 
-  useEffect(() => {
-    if (roomInfo !== null) {
-      const fetchTitle = async () => {
-        try {
-          let response;
-          if (roomInfo.fileName.charAt(1) === "z") {
-            response = await fetch(
-              `/jsonData/forseo/${roomInfo.fileName}.json`
-            );
-          } else {
-            response = await fetch(`/jsonData/${roomInfo.fileName}.json`);
-          }
+  const fetchTitle = async () => {
+    try {
+      let response;
+      if (roomInfo.fileName.charAt(1) === "z") {
+        response = await fetch(`/jsonData/forseo/${roomInfo.fileName}.json`);
+      } else {
+        response = await fetch(`/jsonData/${roomInfo.fileName}.json`);
+      }
 
-          if (!response.ok) {
-            throw new Error("Network response was not ok");
-          }
-          const data = await response.json();
-          setDataPracticingOverRoll(data);
+      if (!response.ok) {
+        throw new Error("Network response was not ok");
+      }
+      const data = await response.json();
+      setDataPracticingOverRoll(data);
 
-          let firstList = [currentIndex || 0];
-          try {
-            let newList = parseStringToNumbers(params.get("a"));
-            if (newList) {
-              firstList = newList;
-            }
-          } catch (error) {}
-          setDataPracticingCharactor(
-            interleaveCharacters(
-              data,
-              firstList,
-              1,
-              setIndexSets,
-              params.get("b"),
-              params.get("up"),
-              params.get("random")
-            )
-          );
-        } catch (error) {
-          console.error("Error fetching data:", error);
+      let firstList = [currentIndex || 0];
+      try {
+        let newList = parseStringToNumbers(params.get("a"));
+        if (newList) {
+          firstList = newList;
         }
-      };
+      } catch (error) {}
+      setDataPracticingCharactor(
+        interleaveCharacters(
+          data,
+          firstList,
+          1,
+          setIndexSets,
+          params.get("b"),
+          params.get("up"),
+          params.get("random")
+        )
+      );
 
-      fetchTitle();
+      setStartToGetData(true);
+    } catch (error) {
+      console.error("Error fetching data:", error);
     }
-  }, [roomInfo]);
+  };
 
   const handleUpdateNewElenment = (key, value, mode) => {
     socket.emit("updateOneELEMENT", roomCode, socket.id, key, value, mode);
   };
+
+  if (!StartToGetData) {
+    return (
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          height: "100vh",
+          backgroundColor: "#f9f9f9",
+        }}
+      >
+        <img
+          src="https://i.postimg.cc/Bv9MGGy8/favicon-ico.png"
+          width={"160px"}
+          style={{
+            margin: "10px",
+            border: "1px solid blue",
+            borderRadius: "15px",
+            cursor: "pointer",
+          }}
+          onClick={() => {
+            navigate(
+              "/learninghub/" +
+                roomCode +
+                "?ls=" +
+                currentIndex +
+                "&&Fid=div_01_content_table_to_practice"
+            );
+          }}
+        />
+        <button
+          onClick={fetchTitle}
+          style={{
+            padding: "12px 24px",
+            fontSize: "16px",
+            backgroundColor: "#0070f3",
+            color: "white",
+            border: "none",
+            borderRadius: "8px",
+            cursor: "pointer",
+            boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
+            transition: "background-color 0.3s ease",
+          }}
+          onMouseOver={(e) =>
+            (e.currentTarget.style.backgroundColor = "#0059c1")
+          }
+          onMouseOut={(e) =>
+            (e.currentTarget.style.backgroundColor = "#0070f3")
+          }
+        >
+          Bấm để bắt đầu lấy dữ liệu thực hành
+        </button>
+      </div>
+    );
+  }
 
   if (params && IndexSets && params.get("qstable")) {
     return (
@@ -232,7 +284,9 @@ const Room = ({ setSttRoom }) => {
             navigate(
               "/learninghub/" +
                 roomCode +
-                "?id=div_01_content_table_to_practice"
+                "?ls=" +
+                currentIndex +
+                "&&Fid=div_01_content_table_to_practice"
             );
           }}
         />

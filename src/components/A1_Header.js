@@ -140,7 +140,7 @@ export default function Header({ sttRoom, STTconnectFN }) {
               }}
             >
               <img
-                src="https://i.postimg.cc/vB1qBy2X/logo-N.png"
+                src="https://i.postimg.cc/Bv9MGGy8/favicon-ico.png"
                 width={60}
                 style={{ marginRight: 10 }} // Khoảng cách bên phải cho hình ảnh logo
                 alt="Logo"
@@ -162,12 +162,12 @@ export default function Header({ sttRoom, STTconnectFN }) {
                 { name: "name", link: "link", preName: "preName" },
                 null
               )}
-              {returnDropdown(
+              {/* {returnDropdown(
                 "Sử dụng tiếng anh",
                 prac_to_work,
                 { name: "name", link: "link", preName: "preName" },
                 null
-              )}
+              )} */}
 
               {returnDropdown(
                 "Giáo án giao tiếp",
@@ -213,7 +213,7 @@ export default function Header({ sttRoom, STTconnectFN }) {
                 null
               )}
             </Nav>
-            <Move />
+            {/* <Move /> */}
           </Navbar.Collapse>
         </Navbar>
       </div>
