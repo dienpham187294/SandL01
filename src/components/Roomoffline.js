@@ -128,8 +128,6 @@ const Room = ({ setSttRoom }) => {
           params.get("random")
         )
       );
-
-      setStartToGetData(true);
     } catch (error) {
       console.error("Error fetching data:", error);
     }
@@ -170,7 +168,10 @@ const Room = ({ setSttRoom }) => {
           }}
         />
         <button
-          onClick={fetchTitle}
+          onClick={() => {
+            setStartToGetData(true);
+            fetchTitle();
+          }}
           style={{
             padding: "12px 24px",
             fontSize: "16px",
