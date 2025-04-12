@@ -17,10 +17,16 @@ import io from "socket.io-client";
 import initializeVoicesAndPlatform from "./ulti/initializeVoicesAndPlatform";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import HomeView from "./components/A1_Home";
-import LinkAPI from "./ulti/T0_linkApi";
+// import LinkAPI from "./ulti/T0_linkApi";
 import KnowGhepAm from "./components/A1_Know_Ghepam";
 // import PixiCanvas from "./components/PixiJS";
 // import RootPrac from "./components/prac_componets/B1_RootPrac";
+
+const LinkAPI =
+  window.location.hostname === "localhost"
+    ? "http://localhost:5000"
+    : "https://seo-onlineplay-new2024-server-428bb40ca879.herokuapp.com/";
+
 const socket = io(LinkAPI, {
   transports: ["websocket", "polling", "flashsocket"],
 });

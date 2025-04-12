@@ -184,14 +184,14 @@ const ChatWidget = () => {
                                   SpeechRecognition.stopListening();
                                   try {
                                     const parsedUrl = new URL(e);
-                                    const isInternal =
-                                      parsedUrl.hostname === "localhost" ||
-                                      parsedUrl.hostname.includes(
-                                        "phamvandien"
-                                      ) ||
-                                      parsedUrl.hostname.includes(
-                                        "dien"
-                                      );
+                                    // const isInternal =
+                                    //   parsedUrl.hostname === "localhost" ||
+                                    //   parsedUrl.hostname.includes(
+                                    //     "vercel"
+                                    //   ) ||
+                                    //   parsedUrl.hostname.includes(
+                                    //     "netlify"
+                                    //   );
 
                                     const pathOnly =
                                       parsedUrl.pathname + parsedUrl.search;
