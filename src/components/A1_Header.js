@@ -60,7 +60,7 @@ const pracEnSets = [
   {
     root: "learninghub",
     preName: "(D) Trung cấp: ",
-    name: "Công việc tại nhà hàng",
+    name: "Công việc tại nhà hàng (A)",
     link: "endp_res_inter_01",
     id: "interI",
   },
