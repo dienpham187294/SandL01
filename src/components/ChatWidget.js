@@ -1,7 +1,7 @@
-import React, { useState, useEffect, useRef, useRouter } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { socket } from "../App";
 import ChatInput from "./ChatInput";
-import { useNavigate, Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import SpeechRecognition from "react-speech-recognition";
 
 const ChatWidget = () => {
@@ -10,13 +10,17 @@ const ChatWidget = () => {
   const [onlineNumber, setOnlineNumber] = useState(0);
   const [isOpen, setIsOpen] = useState(false);
   const [unreadCount, setUnreadCount] = useState(0);
+  const [userName, setUserName] = useState(
+    localStorage.getItem("nameDinhDanh") || ""
+  );
+  const [isEditingName, setIsEditingName] = useState(
+    !localStorage.getItem("nameDinhDanh")
+  );
   const chatEndRef = useRef(null);
   const navigate = useNavigate();
 
   useEffect(() => {
     socket.on("message", (newMessage) => {
-      handle_cmd_f_admin(newMessage, navigate, setIsOpen, storeLinkToday);
-
       if (newMessage.type === "notify") {
         setNotifyHistory((prevHistory) => {
           const filteredHistory = prevHistory.filter(
@@ -32,27 +36,12 @@ const ChatWidget = () => {
         setUnreadCount((prevCount) => prevCount + 1);
       }
     });
+
     socket.on("onlineNumber", (newNumber) => {
       setOnlineNumber(newNumber);
     });
-    socket.on("messageHistory", (history) => {
-      console.log(history);
-      history.forEach((e) => {
-        try {
-          if (e.text.includes("http://")) {
-          }
-          if (
-            e.text.includes("##cmd_linkcode_") ||
-            e.text.includes("##cmd_removelinkcode")
-          ) {
-            handle_cmd_f_admin(e.text, navigate, setIsOpen);
-          }
 
-          if (e.text.startsWith("[{") && e.text.endsWith("}]")) {
-            storeLinkToday(e.text);
-          }
-        } catch (error) {}
-      });
+    socket.on("messageHistory", (history) => {
       let historyMesage = [];
       let historyNotify = [];
       history.forEach((e) => {
@@ -87,6 +76,15 @@ const ChatWidget = () => {
     }
   };
 
+  const handleNameChange = (e) => {
+    setUserName(e.target.value);
+  };
+
+  const saveUserName = () => {
+    localStorage.setItem("nameDinhDanh", userName);
+    setIsEditingName(false);
+  };
+
   const containerStyle = {
     position: "fixed",
     bottom: "0",
@@ -114,14 +112,18 @@ const ChatWidget = () => {
 
   const notifyStyle = {
     padding: isOpen ? "10px" : "0px",
-    // backgroundColor: "#f1f1f1",
-    height: isOpen ? "120px" : "0px",
+    height: isOpen ? "110px" : "0px",
     color: "black",
     cursor: "pointer",
-    // display: "flex",
     fontSize: "small",
-    // justifyContent: "space-between",
-    // overflow: "hidden",
+  };
+
+  const notifyNameStyle = {
+    padding: isOpen ? "10px" : "0px",
+    height: isOpen ? "50px" : "0px",
+    color: "black",
+    cursor: "pointer",
+    fontSize: "small",
   };
 
   const historyStyle = {
@@ -137,6 +139,7 @@ const ChatWidget = () => {
     padding: "10px",
     backgroundColor: "#f1f1f1",
     borderRadius: "5px",
+    fontSize: "14px",
   };
 
   const statusStyle = {
@@ -151,15 +154,37 @@ const ChatWidget = () => {
         {NotifyHistory.slice(0, 9).map((msg, index) => (
           <div
             key={index}
-            style={{ ...messageStyle, display: "inline-block", margin: "1px" }} // Apply both styles correctly
+            style={{ ...messageStyle, display: "inline-block", margin: "1px" }}
           >
             {msg.text} {msg.time}
           </div>
         ))}
       </div>
+
+      {isEditingName ? (
+        <div style={notifyNameStyle}>
+          {" "}
+          {isEditingName ? (
+            <>
+              <input
+                type="text"
+                value={userName}
+                onChange={handleNameChange}
+                placeholder="Enter your name"
+              />
+              <button onClick={saveUserName}>✔</button>
+            </>
+          ) : (
+            <>
+              <span>{userName || "Guest"}</span>
+            </>
+          )}
+        </div>
+      ) : null}
       <div style={headerStyle} onClick={toggleChat}>
         Chat {unreadCount > 0 && <span>({unreadCount})</span>}
-        <span>{isOpen ? "▼" : "▲"}</span>{" "}
+        <span>{isOpen ? userName : null}</span>
+        <span>{isOpen ? "▼" : "▲"}</span>
       </div>
 
       {isOpen && (
@@ -171,64 +196,33 @@ const ChatWidget = () => {
                   {msg.text.includes("http://") || msg.text.includes("https://")
                     ? tachStringTheoHttp(msg.text).map((e, i) =>
                         e.includes("http://") || e.includes("https://") ? (
-                          e.includes("phamvandien") ||
-                          e.includes("seo-client-onlineplay") ||
-                          e.includes("localhost:3000/") ? (
-                            // Nếu là link nội bộ -> dùng Link của Next.js
-                            <div key={i}>
-                              <br />
-                              {/* <Link to={e}> */}
-                              <button
-                                className="btn btn-primary"
-                                onClick={() => {
-                                  SpeechRecognition.stopListening();
-                                  try {
-                                    const parsedUrl = new URL(e);
-                                    // const isInternal =
-                                    //   parsedUrl.hostname === "localhost" ||
-                                    //   parsedUrl.hostname.includes(
-                                    //     "vercel"
-                                    //   ) ||
-                                    //   parsedUrl.hostname.includes(
-                                    //     "netlify"
-                                    //   );
-
-                                    const pathOnly =
-                                      parsedUrl.pathname + parsedUrl.search;
-
-                                    if (e.includes("/roomoffline")) {
-                                      navigate("/"); // Tạm về trang chủ
-                                      setTimeout(() => {
-                                        navigate(pathOnly); // Chuyển tiếp chỉ path
-                                      }, 500);
-                                    } else {
-                                      navigate(pathOnly); // Chuyển ngay nếu không cần delay
-                                    }
-                                  } catch (err) {
-                                    console.error("Lỗi URL không hợp lệ:", err);
+                          <div key={i}>
+                            <br />
+                            <button
+                              className="btn btn-primary"
+                              onClick={() => {
+                                SpeechRecognition.stopListening();
+                                try {
+                                  const parsedUrl = new URL(e);
+                                  const pathOnly =
+                                    parsedUrl.pathname + parsedUrl.search;
+                                  if (e.includes("/roomoffline")) {
+                                    navigate("/");
+                                    setTimeout(() => {
+                                      navigate(pathOnly);
+                                    }, 500);
+                                  } else {
+                                    navigate(pathOnly);
                                   }
-                                }}
-                              >
-                                Bấm vào đây
-                              </button>
-                              {/* </Link> */}
-                              <br />
-                            </div>
-                          ) : (
-                            // Link ngoài -> dùng <a>
-                            <a
-                              key={i}
-                              href={e}
-                              target="_blank"
-                              rel="noopener noreferrer"
+                                } catch (err) {
+                                  console.error("Lỗi URL không hợp lệ:", err);
+                                }
+                              }}
                             >
-                              <br />
-                              <button className="btn btn-primary">
-                                Bấm vào đây
-                              </button>
-                              <br />
-                            </a>
-                          )
+                              Bấm vào đây
+                            </button>
+                            <br />
+                          </div>
                         ) : (
                           e
                         )

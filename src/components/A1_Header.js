@@ -50,6 +50,13 @@ const pracEnSets = [
     link: "endp01",
     id: "socapI",
   },
+  {
+    root: "learninghub",
+    preName: "(D) Vỡ lòng",
+    name: "Các câu cơ bản ver.01",
+    link: "endp01_a",
+    id: "socapI",
+  },
   // {
   //   root: "learninghub",
   //   preName: "(C) Phản xạ: ",

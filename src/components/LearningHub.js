@@ -28,48 +28,48 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
 
   const navigate = useNavigate();
 
-  // useEffect(() => {
-  //   const fetchTitle = async () => {
-  //     try {
-  //       let response;
-  //       if (id.charAt(1) === "z") {
-  //         response = await fetch(`/jsonData/forseo/${id}.json`);
-  //       } else {
-  //         response = await fetch(`/jsonData/${id}.json`);
-  //       }
-  //       if (!response.ok) {
-  //         throw new Error("Network response was not ok");
-  //       }
-  //       const data = await response.json();
-  //       setDataLearning(data);
-  //     } catch (error) {
-  //       setError(error.message);
-  //     } finally {
-  //       setLoading(false);
-  //     }
-  //   };
+  useEffect(() => {
+    const fetchTitle = async () => {
+      try {
+        let response;
+        if (id.charAt(1) === "z") {
+          response = await fetch(`/jsonData/forseo/${id}.json`);
+        } else {
+          response = await fetch(`/jsonData/${id}.json`);
+        }
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+        const data = await response.json();
+        setDataLearning(data);
+      } catch (error) {
+        setError(error.message);
+      } finally {
+        setLoading(false);
+      }
+    };
 
-  //   fetchTitle();
-  // }, [id]);
-  const fetchTitle = async () => {
-    try {
-      let response;
-      if (id.charAt(1) === "z") {
-        response = await fetch(`/jsonData/forseo/${id}.json`);
-      } else {
-        response = await fetch(`/jsonData/${id}.json`);
-      }
-      if (!response.ok) {
-        throw new Error("Network response was not ok");
-      }
-      const data = await response.json();
-      setDataLearning(data);
-    } catch (error) {
-      setError(error.message);
-    } finally {
-      setLoading(false);
-    }
-  };
+    fetchTitle();
+  }, [id]);
+  // const fetchTitle = async () => {
+  //   try {
+  //     let response;
+  //     if (id.charAt(1) === "z") {
+  //       response = await fetch(`/jsonData/forseo/${id}.json`);
+  //     } else {
+  //       response = await fetch(`/jsonData/${id}.json`);
+  //     }
+  //     if (!response.ok) {
+  //       throw new Error("Network response was not ok");
+  //     }
+  //     const data = await response.json();
+  //     setDataLearning(data);
+  //   } catch (error) {
+  //     setError(error.message);
+  //   } finally {
+  //     setLoading(false);
+  //   }
+  // };
 
   useEffect(() => {
     // alert(params.id);
@@ -100,55 +100,63 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
     } catch (error) {}
   }, [choose_a_st]);
 
-  if (!StartToGetData) {
-    return (
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          height: "100vh",
-          backgroundColor: "#f9f9f9",
-        }}
-      >
-        <img
-          src="https://i.postimg.cc/Bv9MGGy8/favicon-ico.png"
-          width={"160px"}
-          style={{
-            margin: "10px",
-            border: "1px solid blue",
-            borderRadius: "15px",
-            cursor: "pointer",
-          }}
-        />
-        <button
-          onClick={() => {
-            setStartToGetData(true);
-            fetchTitle();
-          }}
-          style={{
-            padding: "12px 24px",
-            fontSize: "16px",
-            backgroundColor: "#0070f3",
-            color: "white",
-            border: "none",
-            borderRadius: "8px",
-            cursor: "pointer",
-            boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
-            transition: "background-color 0.3s ease",
-          }}
-          onMouseOver={(e) =>
-            (e.currentTarget.style.backgroundColor = "#0059c1")
-          }
-          onMouseOut={(e) =>
-            (e.currentTarget.style.backgroundColor = "#0070f3")
-          }
-        >
-          Bấm để lấy dữ liệu
-        </button>
-      </div>
-    );
-  }
+  // if (!StartToGetData) {
+  //   return (
+  //     <div
+  //       style={{
+  //         display: "flex",
+  //         flexDirection: "column",
+  //         justifyContent: "center",
+  //         alignItems: "center",
+  //         height: "100vh",
+  //         backgroundColor: "#f9f9f9",
+  //       }}
+  //     >
+  //       <h1 style={{ marginBottom: "20px" }}>Dữ liệu học tập</h1>
+
+  //       <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
+  //         <img
+  //           src="https://i.postimg.cc/Bv9MGGy8/favicon-ico.png"
+  //           width={"220px"}
+  //           style={{
+  //             border: "1px solid blue",
+  //             borderRadius: "15px",
+  //             cursor: "pointer",
+  //           }}
+  //           onClick={() => {
+  //             navigate("/");
+  //           }}
+  //         />
+
+  //         <button
+  //           onClick={() => {
+  //             setStartToGetData(true);
+  //             fetchTitle();
+  //           }}
+  //           style={{
+  //             padding: "12px 24px",
+  //             fontSize: "large",
+  //             backgroundColor: "#0070f3",
+  //             color: "white",
+  //             border: "none",
+  //             borderRadius: "8px",
+  //             cursor: "pointer",
+  //             boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
+  //             transition: "background-color 0.3s ease",
+  //           }}
+  //           onMouseOver={(e) =>
+  //             (e.currentTarget.style.backgroundColor = "#0059c1")
+  //           }
+  //           onMouseOut={(e) =>
+  //             (e.currentTarget.style.backgroundColor = "#0070f3")
+  //           }
+  //         >
+  //           Bấm để lấy dữ liệu
+  //         </button>
+  //       </div>
+  //     </div>
+  //   );
+  // }
   if (loading) {
     return <div>Loading...</div>;
   }

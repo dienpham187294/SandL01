@@ -125,7 +125,8 @@ const Room = ({ setSttRoom }) => {
           setIndexSets,
           params.get("b"),
           params.get("up"),
-          params.get("random")
+          params.get("random"),
+          params.get("fsp")
         )
       );
     } catch (error) {
@@ -142,56 +143,61 @@ const Room = ({ setSttRoom }) => {
       <div
         style={{
           display: "flex",
+          flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
           height: "100vh",
           backgroundColor: "#f9f9f9",
         }}
       >
-        <img
-          src="https://i.postimg.cc/Bv9MGGy8/favicon-ico.png"
-          width={"160px"}
-          style={{
-            margin: "10px",
-            border: "1px solid blue",
-            borderRadius: "15px",
-            cursor: "pointer",
-          }}
-          onClick={() => {
-            navigate(
-              "/learninghub/" +
-                roomCode +
-                "?ls=" +
-                currentIndex +
-                "&&Fid=div_01_content_table_to_practice"
-            );
-          }}
-        />
-        <button
-          onClick={() => {
-            setStartToGetData(true);
-            fetchTitle();
-          }}
-          style={{
-            padding: "12px 24px",
-            fontSize: "16px",
-            backgroundColor: "#0070f3",
-            color: "white",
-            border: "none",
-            borderRadius: "8px",
-            cursor: "pointer",
-            boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
-            transition: "background-color 0.3s ease",
-          }}
-          onMouseOver={(e) =>
-            (e.currentTarget.style.backgroundColor = "#0059c1")
-          }
-          onMouseOut={(e) =>
-            (e.currentTarget.style.backgroundColor = "#0070f3")
-          }
-        >
-          Bấm để bắt đầu lấy dữ liệu thực hành
-        </button>
+        <h1 style={{ marginBottom: "20px" }}>Dữ liệu thực hành</h1>
+
+        <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
+          <img
+            src="https://i.postimg.cc/Bv9MGGy8/favicon-ico.png"
+            width={"220px"}
+            style={{
+              border: "1px solid blue",
+              borderRadius: "15px",
+              cursor: "pointer",
+            }}
+            onClick={() => {
+              navigate(
+                "/learninghub/" +
+                  roomCode +
+                  "?ls=" +
+                  currentIndex +
+                  "&&Fid=div_01_content_table_to_practice"
+              );
+            }}
+          />
+
+          <button
+            onClick={() => {
+              setStartToGetData(true);
+              fetchTitle();
+            }}
+            style={{
+              padding: "12px 24px",
+              fontSize: "large",
+              backgroundColor: "#0070f3",
+              color: "white",
+              border: "none",
+              borderRadius: "8px",
+              cursor: "pointer",
+              boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
+              transition: "background-color 0.3s ease",
+            }}
+            onMouseOver={(e) =>
+              (e.currentTarget.style.backgroundColor = "#0059c1")
+            }
+            onMouseOut={(e) =>
+              (e.currentTarget.style.backgroundColor = "#0070f3")
+            }
+          >
+            Bấm để bắt đầu lấy dữ liệu thực hành
+          </button>
+        </div>
       </div>
     );
   }
@@ -471,7 +477,8 @@ function interleaveCharacters(
   setIndexSets,
   filerSets,
   upCode,
-  random
+  random,
+  fsp
 ) {
   const numberGetPerOne = Math.floor(200 / index_sets_t_get_pracData.length);
 
@@ -488,7 +495,7 @@ function interleaveCharacters(
       getUpCode = "charactor" + upCode;
     }
     let resTemp = getArrayElements(
-      filer_type_o_charactor(data_all[e][getUpCode], filerSets),
+      filer_type_o_charactor(data_all[e][getUpCode], filerSets, fsp),
       numberCut,
       numberGetPerOne
     );
@@ -515,26 +522,32 @@ function interleaveCharacters(
   return arrRes;
 }
 
-function filer_type_o_charactor(charactorSets, filerTypeSetsStringValue) {
+function filer_type_o_charactor(charactorSets, filerTypeSetsStringValue, fsp) {
   try {
-    if (filerTypeSetsStringValue === null) {
+    if (!filerTypeSetsStringValue || !Array.isArray(charactorSets)) {
       return charactorSets;
     }
 
     let filerTypeSetsArrayValue = filerTypeSetsStringValue.split("zz");
     console.log(filerTypeSetsArrayValue, "filerTypeSetsArrayValue");
+
     let res_after_filer = [];
-    charactorSets.forEach((e, i) => {
-      if (filerTypeSetsArrayValue.includes(e.type)) {
+
+    charactorSets.forEach((e) => {
+      const isTypeMatch = filerTypeSetsArrayValue.includes(e?.type);
+
+      const eFspStr = (e?.fsp || "").toLowerCase();
+      const fspStr = (fsp || "").toLowerCase();
+      const isFspMatch = fsp ? eFspStr.includes(fspStr) : true;
+
+      if (isTypeMatch && isFspMatch) {
         res_after_filer.push(e);
       }
     });
-    if (res_after_filer.length > 0) {
-      return res_after_filer;
-    } else {
-      return charactorSets;
-    }
+
+    return res_after_filer.length > 0 ? res_after_filer : [];
   } catch (error) {
+    console.error("Lỗi trong filer_type_o_charactor:", error);
     return charactorSets;
   }
 }
