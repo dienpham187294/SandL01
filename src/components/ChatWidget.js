@@ -170,7 +170,7 @@ const ChatWidget = () => {
                 type="text"
                 value={userName}
                 onChange={handleNameChange}
-                placeholder="Enter your name"
+                placeholder="Nhập tên vào đây"
               />
               <button onClick={saveUserName}>✔</button>
             </>
