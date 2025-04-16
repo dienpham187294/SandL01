@@ -116,6 +116,13 @@ const pracEnSets = [
     link: "a1_14_basic_subjects",
     id: "socapII",
   },
+  {
+    root: "learninghub",
+    preName: "Kiến thức",
+    name: "Khái niệm về mô hình doanh nghiệp (Canvas model).",
+    link: "t1-canvas-model",
+    id: "socapI",
+  },
 ];
 
 export default function Header({ sttRoom, STTconnectFN }) {
