@@ -546,7 +546,7 @@ function FINAL_PROJECT({
                     <div style={{ height: "300px" }}></div>
                   </div>
                 ) : null}
-                {tableView === "TV" ? (
+                {tableView.toLowerCase() === "tv" ? (
                   <div style={{ textAlign: "center" }}>
                     <button
                       style={{

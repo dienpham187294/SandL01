@@ -269,6 +269,11 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                   // setchoose_a_st(e);
                 }}
               />{" "}
+              <TableHD
+                data={dataLearning[currentIndex]?.HDTB?.TV}
+                data_TB={[]}
+                HINT={"HINT"}
+              />{" "}
               {/* {dataLearning !== null && (
                 <div>
                   {dataLearning[currentIndex]?.HDTB?.TB.map((e, i) => (
