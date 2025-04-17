@@ -546,6 +546,140 @@ function FINAL_PROJECT({
                     <div style={{ height: "300px" }}></div>
                   </div>
                 ) : null}
+                {tableView === "TV" ? (
+                  <div style={{ textAlign: "center" }}>
+                    <button
+                      style={{
+                        width: "15%",
+                        padding: "10px",
+                        marginTop: "20px",
+                        backgroundColor: "#4CAF50",
+                        color: "white",
+                        border: "none",
+                        borderRadius: "4px",
+                        cursor: "pointer",
+                        textAlign: "center",
+                        transition: "background-color 0.3s, transform 0.3s",
+                      }}
+                      onMouseEnter={(e) =>
+                        (e.target.style.transform = "scale(1.05)")
+                      }
+                      onMouseLeave={(e) =>
+                        (e.target.style.transform = "scale(1)")
+                      }
+                      onClick={() => {
+                        setOnTable(null);
+                      }}
+                    >
+                      All
+                    </button>
+                    {DataPracticingOverRoll.map((e, i) => {
+                      let start = Math.max(0, OnTable - 5);
+                      let end = Math.min(
+                        DataPracticingOverRoll.length,
+                        OnTable + 5
+                      );
+
+                      // Điều chỉnh để luôn có 10 phần tử hiển thị nếu có đủ phần tử
+                      if (end - start < 10) {
+                        if (start === 0) {
+                          end = Math.min(10, DataPracticingOverRoll.length);
+                        } else if (end === DataPracticingOverRoll.length) {
+                          start = Math.max(
+                            0,
+                            DataPracticingOverRoll.length - 10
+                          );
+                        }
+                      }
+
+                      if (i >= start && i < end) {
+                        return (
+                          <button
+                            onClick={() => {
+                              setOnTable(i);
+                            }}
+                            key={i}
+                            style={{
+                              minWidth: "50px",
+                              padding: "10px",
+                              marginTop: "20px",
+                              marginLeft: "10px",
+                              backgroundColor: OnTable === i ? "green" : "blue",
+                              color: "white",
+                              border: "none",
+                              borderRadius: "4px",
+                              cursor: "pointer",
+                              textAlign: "center",
+                            }}
+                          >
+                            {i + 1}
+                          </button>
+                        );
+                      } else {
+                        return null;
+                      }
+                    })}
+                    {OnTable !== null ? (
+                      <div>
+                        <TableHD
+                          data={DataPracticingOverRoll[OnTable]["HDTB"]["TV"]}
+                          data_TB={
+                            DataPracticingOverRoll[OnTable]["HDTB"]["TB"]
+                          }
+                          HINT={HINT}
+                          fnOnclick={(e, cmd) => {
+                            try {
+                              if (cmd && cmd === "submit") {
+                                addElementIfNotExist(e);
+                              }
+                            } catch (error) {}
+                          }}
+                        />
+                      </div>
+                    ) : (
+                      <div>
+                        <TableHD
+                          data={fn_f_allTable_t_tableOfContent(
+                            DataPracticingOverRoll
+                          )}
+                          data_TB={[]}
+                          HINT={null}
+                          fnOnclick={(e) => {
+                            const match = e.match(/\((\d+)\)/);
+                            if (match) {
+                              // Extract the number, convert to integer, subtract 1
+                              const number = parseInt(match[1], 10) - 1;
+                              setOnTable(number);
+                            }
+                          }}
+                        />
+                      </div>
+                    )}
+                    {/* {OnTable !== null ? (
+                      <div className="row">
+                        <div className="col-9">
+                          {DataPracticingOverRoll[OnTable]["HDTB"]["TB"].map(
+                            (e, i) => (
+                              <TableTB
+                                key={i}
+                                data={e}
+                                addElementIfNotExist={addElementIfNotExist}
+                                color={colors[i % 7]}
+                                PushAW={PushAW}
+                              />
+                            )
+                          )}
+                        </div>
+
+                        <div className="col-3">
+                          <TablePushAW data={PushAW} />
+                        </div>
+                      </div>
+                    ) : null} */}
+
+                    <div style={{ height: "300px" }}></div>
+                  </div>
+                ) : null}
               </div>
               <div
                 id="div_02"

@@ -1,0 +1,6176 @@
+[
+  {
+    "id": "at-the-restaurant",
+    "ListenList": [],
+    "typeSets": [
+      "I would like to eat grilled chicken.",
+      "I want to sit near the window.",
+      "I want to order right now.",
+      "My father will pay the bill.",
+      "The food here is always fresh.",
+      "I want a glass of orange juice.",
+      "I like the chocolate ice cream best.",
+      "The steak is fifteen dollars only.",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8"
+    ],
+    "SEO": {
+      "seo": {
+        "metaTitle": "At the restaurant",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "At the restaurant",
+        "IFdes": "At the restaurant",
+        "IF-audiocode": "SCA1_F1"
+      },
+      "HD": [
+        {
+          "HD-01": "X",
+          "HD-02": "At the restaurant",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "XX",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What would you like to eat?",
+          "HD-02": "I would like to eat grilled chicken.",
+          "HD-03": null,
+          "HD-04": "When do you want to order?",
+          "HD-05": "I want to order right now."
+        },
+        {
+          "HD-01": "Where do you want to sit?",
+          "HD-02": "I want to sit near the window.",
+          "HD-03": null,
+          "HD-04": "Who will pay the bill?",
+          "HD-05": "My father will pay the bill."
+        },
+        {
+          "HD-01": "X",
+          "HD-02": "X",
+          "HD-03": null,
+          "HD-04": "X",
+          "HD-05": "X"
+        },
+        {
+          "HD-01": "Why do you like this restaurant?",
+          "HD-02": "The food here is always fresh.",
+          "HD-03": null,
+          "HD-04": "Which dessert do you like best?",
+          "HD-05": "I like the chocolate ice cream best."
+        },
+        {
+          "HD-01": "What drink do you want?",
+          "HD-02": "I want a glass of orange juice.",
+          "HD-03": null,
+          "HD-04": "How much is the steak?",
+          "HD-05": "The steak is fifteen dollars only."
+        },
+        {
+          "HD-01": "X",
+          "HD-02": "X",
+          "HD-03": null,
+          "HD-04": "X",
+          "HD-05": "X"
+        },
+        {
+          "HD-01": "(A)",
+          "HD-02": "Questions and answers",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(B)",
+          "HD-02": "With the answer \"___\", what is the question?",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Tell me the topic.",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        }
+      ],
+      "TB": [],
+      "TV": [
+        {
+          "TV-01": "X",
+          "TV-02": "At the restaurant",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": "XX",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Bạn muốn ăn gì?",
+          "TV-02": "Tôi muốn ăn thịt gà nướng.",
+          "TV-03": null,
+          "TV-04": "Bạn muốn gọi món khi nào?",
+          "TV-05": "Tôi muốn gọi món ngay bây giờ."
+        },
+        {
+          "TV-01": "Bạn muốn ngồi ở đâu?",
+          "TV-02": "Tôi muốn ngồi gần cửa sổ.",
+          "TV-03": null,
+          "TV-04": "Ai sẽ thanh toán hóa đơn?",
+          "TV-05": "Bố tôi sẽ thanh toán hóa đơn."
+        },
+        {
+          "TV-01": "X",
+          "TV-02": "X",
+          "TV-03": "X",
+          "TV-04": "X",
+          "TV-05": "X"
+        },
+        {
+          "TV-01": "Tại sao bạn thích nhà hàng này?",
+          "TV-02": "Thức ăn ở đây luôn tươi ngon.",
+          "TV-03": null,
+          "TV-04": "Bạn thích món tráng miệng nào nhất?",
+          "TV-05": "Tôi thích kem socola nhất."
+        },
+        {
+          "TV-01": "Bạn muốn uống gì?",
+          "TV-02": "Tôi muốn một ly nước cam.",
+          "TV-03": null,
+          "TV-04": "Món bò bít tết giá bao nhiêu?",
+          "TV-05": "Món bò bít tết chỉ mười lăm đô la."
+        },
+        {
+          "TV-01": "X",
+          "TV-02": "X",
+          "TV-03": "X",
+          "TV-04": "X",
+          "TV-05": "X"
+        },
+        {
+          "TV-01": "(A)",
+          "TV-02": "Questions and answers",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(B)",
+          "TV-02": "With the answer \"___\", what is the question?",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Tell me the topic.",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        }
+      ]
+    },
+    "charactor": [
+      {
+        "type": "I want to sit near the window.",
+        "fsp": "Where do you want to sit?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["I want to sit near the window."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["At the restaurant"],
+            "aw01": [{ "st": "At the restaurant", "id": "SCA1_F1a5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Where do you want to sit?", "id": "SCA1_F1a3" }]
+      },
+      {
+        "type": "A5",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Why do you like this restaurant?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["At the restaurant"],
+            "aw01": [{ "st": "At the restaurant", "id": "SCA1_F1a2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a24"
+          }
+        ]
+      },
+      {
+        "type": "A3",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["When do you want to order?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["At the restaurant"],
+            "aw01": [{ "st": "At the restaurant", "id": "SCA1_F1a2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a24"
+          }
+        ]
+      },
+      {
+        "type": "I would like to eat grilled chicken.",
+        "fsp": "What would you like to eat?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["I would like to eat grilled chicken."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["At the restaurant"],
+            "aw01": [{ "st": "At the restaurant", "id": "SCA1_F1a2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What would you like to eat?", "id": "SCA1_F1a0" }]
+      },
+      {
+        "type": "I want a glass of orange juice.",
+        "fsp": "What drink do you want?",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["I want a glass of orange juice."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["At the restaurant"],
+            "aw01": [{ "st": "At the restaurant", "id": "SCA1_F1a5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What drink do you want?", "id": "SCA1_F1a15" }]
+      },
+      {
+        "type": "A7",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Which dessert do you like best?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["At the restaurant"],
+            "aw01": [{ "st": "At the restaurant", "id": "SCA1_F1a2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a24"
+          }
+        ]
+      },
+      {
+        "type": "The steak is fifteen dollars only.",
+        "fsp": "How much is the steak?",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["The steak is fifteen dollars only."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["At the restaurant"],
+            "aw01": [{ "st": "At the restaurant", "id": "SCA1_F1a5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How much is the steak?", "id": "SCA1_F1a21" }]
+      },
+      {
+        "type": "My father will pay the bill.",
+        "fsp": "Who will pay the bill?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["My father will pay the bill."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["At the restaurant"],
+            "aw01": [{ "st": "At the restaurant", "id": "SCA1_F1a5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Who will pay the bill?", "id": "SCA1_F1a9" }]
+      },
+      {
+        "type": "The food here is always fresh.",
+        "fsp": "Why do you like this restaurant?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["The food here is always fresh."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["At the restaurant"],
+            "aw01": [{ "st": "At the restaurant", "id": "SCA1_F1a2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Why do you like this restaurant?", "id": "SCA1_F1a12" }
+        ]
+      },
+      {
+        "type": "A6",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What drink do you want?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["At the restaurant"],
+            "aw01": [{ "st": "At the restaurant", "id": "SCA1_F1a5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a27"
+          }
+        ]
+      },
+      {
+        "type": "A8",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["How much is the steak?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["At the restaurant"],
+            "aw01": [{ "st": "At the restaurant", "id": "SCA1_F1a5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a27"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What would you like to eat?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["At the restaurant"],
+            "aw01": [{ "st": "At the restaurant", "id": "SCA1_F1a2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a24"
+          }
+        ]
+      },
+      {
+        "type": "I want to order right now.",
+        "fsp": "When do you want to order?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["I want to order right now."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["At the restaurant"],
+            "aw01": [{ "st": "At the restaurant", "id": "SCA1_F1a2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "When do you want to order?", "id": "SCA1_F1a6" }]
+      },
+      {
+        "type": "I like the chocolate ice cream best.",
+        "fsp": "Which dessert do you like best?",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["I like the chocolate ice cream best."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["At the restaurant"],
+            "aw01": [{ "st": "At the restaurant", "id": "SCA1_F1a2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Which dessert do you like best?", "id": "SCA1_F1a18" }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Where do you want to sit?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["At the restaurant"],
+            "aw01": [{ "st": "At the restaurant", "id": "SCA1_F1a5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a27"
+          }
+        ]
+      },
+      {
+        "type": "A4",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Who will pay the bill?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["At the restaurant"],
+            "aw01": [{ "st": "At the restaurant", "id": "SCA1_F1a5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a27"
+          }
+        ]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  },
+  {
+    "id": "order-food",
+    "ListenList": [],
+    "typeSets": [
+      "I want to order fried rice.",
+      "I prefer the chicken noodle soup.",
+      "I do not eat pork for religion.",
+      "I like green salad with tomatoes.",
+      "He is near the kitchen area.",
+      "It will come in ten minutes.",
+      "The main chef cooked this meal.",
+      "The curry is a little spicy.",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8"
+    ],
+    "SEO": {
+      "seo": {
+        "metaTitle": "Order food",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "Order food",
+        "IFdes": "Order food",
+        "IF-audiocode": "SCA1_F2"
+      },
+      "HD": [
+        {
+          "HD-01": "X",
+          "HD-02": "Order food",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "XX",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What do you want to order?",
+          "HD-02": "I want to order fried rice.",
+          "HD-03": null,
+          "HD-04": "Why do you not eat pork?",
+          "HD-05": "I do not eat pork for religion."
+        },
+        {
+          "HD-01": "Which soup do you prefer?",
+          "HD-02": "I prefer the chicken noodle soup.",
+          "HD-03": null,
+          "HD-04": "What kind of salad do you like?",
+          "HD-05": "I like green salad with tomatoes."
+        },
+        {
+          "HD-01": "X",
+          "HD-02": "X",
+          "HD-03": null,
+          "HD-04": "X",
+          "HD-05": "X"
+        },
+        {
+          "HD-01": "Where is the waiter now?",
+          "HD-02": "He is near the kitchen area.",
+          "HD-03": null,
+          "HD-04": "Who cooked this delicious meal?",
+          "HD-05": "The main chef cooked this meal."
+        },
+        {
+          "HD-01": "When will our food come?",
+          "HD-02": "It will come in ten minutes.",
+          "HD-03": null,
+          "HD-04": "How spicy is the curry?",
+          "HD-05": "The curry is a little spicy."
+        },
+        {
+          "HD-01": "X",
+          "HD-02": "X",
+          "HD-03": null,
+          "HD-04": "X",
+          "HD-05": "X"
+        },
+        {
+          "HD-01": "(A)",
+          "HD-02": "Questions and answers",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(B)",
+          "HD-02": "With the answer \"___\", what is the question?",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Tell me the topic.",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        }
+      ],
+      "TB": [],
+      "TV": [
+        {
+          "TV-01": "X",
+          "TV-02": "Order food",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": "XX",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Bạn muốn gọi món gì?",
+          "TV-02": "Tôi muốn gọi cơm chiên.",
+          "TV-03": null,
+          "TV-04": "Tại sao bạn không ăn thịt heo?",
+          "TV-05": "Tôi không ăn thịt heo vì lý do tôn giáo."
+        },
+        {
+          "TV-01": "Bạn thích loại súp nào hơn?",
+          "TV-02": "Tôi thích súp mì gà hơn.",
+          "TV-03": null,
+          "TV-04": "Bạn thích loại salad nào?",
+          "TV-05": "Tôi thích salad rau xanh với cà chua."
+        },
+        {
+          "TV-01": "X",
+          "TV-02": "X",
+          "TV-03": "X",
+          "TV-04": "X",
+          "TV-05": "X"
+        },
+        {
+          "TV-01": "Người phục vụ đang ở đâu?",
+          "TV-02": "Anh ấy đang ở gần khu vực bếp.",
+          "TV-03": null,
+          "TV-04": "Ai đã nấu bữa ăn ngon này?",
+          "TV-05": "Bếp trưởng đã nấu bữa ăn này."
+        },
+        {
+          "TV-01": "Khi nào món ăn của chúng ta sẽ được mang ra?",
+          "TV-02": "Sẽ được mang ra trong mười phút nữa.",
+          "TV-03": null,
+          "TV-04": "Món cà ri có cay không?",
+          "TV-05": "Món cà ri hơi cay một chút."
+        },
+        {
+          "TV-01": "X",
+          "TV-02": "X",
+          "TV-03": "X",
+          "TV-04": "X",
+          "TV-05": "X"
+        },
+        {
+          "TV-01": "(A)",
+          "TV-02": "Questions and answers",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(B)",
+          "TV-02": "With the answer \"___\", what is the question?",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Tell me the topic.",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        }
+      ]
+    },
+    "charactor": [
+      {
+        "type": "A1",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What do you want to order?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Order food"],
+            "aw01": [{ "st": "Order food", "id": "SCA1_F2a50" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a24"
+          }
+        ]
+      },
+      {
+        "type": "The main chef cooked this meal.",
+        "fsp": "Who cooked this delicious meal?",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["The main chef cooked this meal."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Order food"],
+            "aw01": [{ "st": "Order food", "id": "SCA1_F2a50" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Who cooked this delicious meal?", "id": "SCA1_F2a66" }
+        ]
+      },
+      {
+        "type": "It will come in ten minutes.",
+        "fsp": "When will our food come?",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["It will come in ten minutes."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Order food"],
+            "aw01": [{ "st": "Order food", "id": "SCA1_F2a53" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "When will our food come?", "id": "SCA1_F2a63" }]
+      },
+      {
+        "type": "I want to order fried rice.",
+        "fsp": "What do you want to order?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["I want to order fried rice."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Order food"],
+            "aw01": [{ "st": "Order food", "id": "SCA1_F2a50" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What do you want to order?", "id": "SCA1_F2a48" }]
+      },
+      {
+        "type": "A8",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["How spicy is the curry?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Order food"],
+            "aw01": [{ "st": "Order food", "id": "SCA1_F2a53" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a27"
+          }
+        ]
+      },
+      {
+        "type": "I prefer the chicken noodle soup.",
+        "fsp": "Which soup do you prefer?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["I prefer the chicken noodle soup."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Order food"],
+            "aw01": [{ "st": "Order food", "id": "SCA1_F2a53" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Which soup do you prefer?", "id": "SCA1_F2a51" }]
+      },
+      {
+        "type": "The curry is a little spicy.",
+        "fsp": "How spicy is the curry?",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["The curry is a little spicy."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Order food"],
+            "aw01": [{ "st": "Order food", "id": "SCA1_F2a53" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How spicy is the curry?", "id": "SCA1_F2a69" }]
+      },
+      {
+        "type": "A2",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Which soup do you prefer?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Order food"],
+            "aw01": [{ "st": "Order food", "id": "SCA1_F2a53" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a27"
+          }
+        ]
+      },
+      {
+        "type": "A3",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Why do you not eat pork?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Order food"],
+            "aw01": [{ "st": "Order food", "id": "SCA1_F2a50" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a24"
+          }
+        ]
+      },
+      {
+        "type": "A7",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Who cooked this delicious meal?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Order food"],
+            "aw01": [{ "st": "Order food", "id": "SCA1_F2a50" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a24"
+          }
+        ]
+      },
+      {
+        "type": "A6",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["When will our food come?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Order food"],
+            "aw01": [{ "st": "Order food", "id": "SCA1_F2a53" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a27"
+          }
+        ]
+      },
+      {
+        "type": "I do not eat pork for religion.",
+        "fsp": "Why do you not eat pork?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["I do not eat pork for religion."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Order food"],
+            "aw01": [{ "st": "Order food", "id": "SCA1_F2a50" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Why do you not eat pork?", "id": "SCA1_F2a54" }]
+      },
+      {
+        "type": "I like green salad with tomatoes.",
+        "fsp": "What kind of salad do you like?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["I like green salad with tomatoes."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Order food"],
+            "aw01": [{ "st": "Order food", "id": "SCA1_F2a53" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What kind of salad do you like?", "id": "SCA1_F2a57" }
+        ]
+      },
+      {
+        "type": "A5",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Where is the waiter now?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Order food"],
+            "aw01": [{ "st": "Order food", "id": "SCA1_F2a50" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a24"
+          }
+        ]
+      },
+      {
+        "type": "A4",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What kind of salad do you like?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Order food"],
+            "aw01": [{ "st": "Order food", "id": "SCA1_F2a53" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a27"
+          }
+        ]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": [
+      {
+        "type": "He is near the kitchen area.",
+        "fsp": "Where is the waiter now?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["He is near the kitchen area."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Order food"],
+            "aw01": [{ "st": "Order food", "id": "SCA1_F2a50" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Where is the waiter now?", "id": "SCA1_F2a60" }]
+      }
+    ]
+  },
+  {
+    "id": "drinks-and-desserts",
+    "ListenList": [],
+    "typeSets": [
+      "I want to drink apple juice.",
+      "It is on the second page.",
+      "I like the lemon cake best.",
+      "It is not good for health.",
+      "I want dessert after the meal.",
+      "The bartender made this smoothie.",
+      "It is very cold and sweet.",
+      "There are mangoes and bananas inside.",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8"
+    ],
+    "SEO": {
+      "seo": {
+        "metaTitle": "Drinks and desserts",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "Drinks and desserts",
+        "IFdes": "Drinks and desserts",
+        "IF-audiocode": "SCA1_F3"
+      },
+      "HD": [
+        {
+          "HD-01": "X",
+          "HD-02": "Drinks and desserts",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "XX",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What do you want to drink?",
+          "HD-02": "I want to drink apple juice.",
+          "HD-03": null,
+          "HD-04": "Which cake do you like best?",
+          "HD-05": "I like the lemon cake best."
+        },
+        {
+          "HD-01": "Where is the drinks menu?",
+          "HD-02": "It is on the second page.",
+          "HD-03": null,
+          "HD-04": "Why do you not drink soda?",
+          "HD-05": "It is not good for health."
+        },
+        {
+          "HD-01": "X",
+          "HD-02": "X",
+          "HD-03": null,
+          "HD-04": "X",
+          "HD-05": "X"
+        },
+        {
+          "HD-01": "When do you want the dessert?",
+          "HD-02": "I want dessert after the meal.",
+          "HD-03": null,
+          "HD-04": "How cold is the ice cream?",
+          "HD-05": "It is very cold and sweet."
+        },
+        {
+          "HD-01": "Who made this fruit smoothie?",
+          "HD-02": "The bartender made this smoothie.",
+          "HD-03": null,
+          "HD-04": "What fruit is in the smoothie?",
+          "HD-05": "There are mangoes and bananas inside."
+        },
+        {
+          "HD-01": "X",
+          "HD-02": "X",
+          "HD-03": null,
+          "HD-04": "X",
+          "HD-05": "X"
+        },
+        {
+          "HD-01": "(A)",
+          "HD-02": "Questions and answers",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(B)",
+          "HD-02": "With the answer \"___\", what is the question?",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Tell me the topic.",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        }
+      ],
+      "TB": [],
+      "TV": [
+        {
+          "TV-01": "X",
+          "TV-02": "Drinks and desserts",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": "XX",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Bạn muốn uống gì?",
+          "TV-02": "Tôi muốn uống nước táo.",
+          "TV-03": null,
+          "TV-04": "Bạn thích bánh nào nhất?",
+          "TV-05": "Tôi thích bánh chanh nhất."
+        },
+        {
+          "TV-01": "Thực đơn đồ uống ở đâu?",
+          "TV-02": "Nó ở trang thứ hai.",
+          "TV-03": null,
+          "TV-04": "Tại sao bạn không uống nước ngọt?",
+          "TV-05": "Nó không tốt cho sức khỏe."
+        },
+        {
+          "TV-01": "X",
+          "TV-02": "X",
+          "TV-03": "X",
+          "TV-04": "X",
+          "TV-05": "X"
+        },
+        {
+          "TV-01": "Bạn muốn món tráng miệng khi nào?",
+          "TV-02": "Tôi muốn ăn tráng miệng sau bữa ăn.",
+          "TV-03": null,
+          "TV-04": "Kem lạnh như thế nào?",
+          "TV-05": "Nó rất lạnh và ngọt."
+        },
+        {
+          "TV-01": "Ai đã làm ly sinh tố trái cây này?",
+          "TV-02": "Nhân viên pha chế đã làm ly sinh tố này.",
+          "TV-03": null,
+          "TV-04": "Trong ly sinh tố có trái cây gì?",
+          "TV-05": "Có xoài và chuối bên trong."
+        },
+        {
+          "TV-01": "X",
+          "TV-02": "X",
+          "TV-03": "X",
+          "TV-04": "X",
+          "TV-05": "X"
+        },
+        {
+          "TV-01": "(A)",
+          "TV-02": "Questions and answers",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(B)",
+          "TV-02": "With the answer \"___\", what is the question?",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Tell me the topic.",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        }
+      ]
+    },
+    "charactor": [
+      {
+        "type": "A1",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What do you want to drink?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Drinks and desserts"],
+            "aw01": [{ "st": "Drinks and desserts", "id": "SCA1_F3a98" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a24"
+          }
+        ]
+      },
+      {
+        "type": "I want to drink apple juice.",
+        "fsp": "What do you want to drink?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["I want to drink apple juice."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Drinks and desserts"],
+            "aw01": [{ "st": "Drinks and desserts", "id": "SCA1_F3a98" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What do you want to drink?", "id": "SCA1_F3a96" }]
+      },
+      {
+        "type": "I like the lemon cake best.",
+        "fsp": "Which cake do you like best?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["I like the lemon cake best."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Drinks and desserts"],
+            "aw01": [{ "st": "Drinks and desserts", "id": "SCA1_F3a98" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Which cake do you like best?", "id": "SCA1_F3a102" }
+        ]
+      },
+      {
+        "type": "A4",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Why do you not drink soda?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Drinks and desserts"],
+            "aw01": [{ "st": "Drinks and desserts", "id": "SCA1_F3a101" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a27"
+          }
+        ]
+      },
+      {
+        "type": "I want dessert after the meal.",
+        "fsp": "When do you want the dessert?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["I want dessert after the meal."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Drinks and desserts"],
+            "aw01": [{ "st": "Drinks and desserts", "id": "SCA1_F3a98" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "When do you want the dessert?", "id": "SCA1_F3a108" }
+        ]
+      },
+      {
+        "type": "It is on the second page.",
+        "fsp": "Where is the drinks menu?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["It is on the second page."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Drinks and desserts"],
+            "aw01": [{ "st": "Drinks and desserts", "id": "SCA1_F3a101" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Where is the drinks menu?", "id": "SCA1_F3a99" }]
+      },
+      {
+        "type": "A7",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["How cold is the ice cream?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Drinks and desserts"],
+            "aw01": [{ "st": "Drinks and desserts", "id": "SCA1_F3a98" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a24"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Where is the drinks menu?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Drinks and desserts"],
+            "aw01": [{ "st": "Drinks and desserts", "id": "SCA1_F3a101" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a27"
+          }
+        ]
+      },
+      {
+        "type": "A5",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["When do you want the dessert?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Drinks and desserts"],
+            "aw01": [{ "st": "Drinks and desserts", "id": "SCA1_F3a98" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a24"
+          }
+        ]
+      },
+      {
+        "type": "A6",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Who made this fruit smoothie?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Drinks and desserts"],
+            "aw01": [{ "st": "Drinks and desserts", "id": "SCA1_F3a101" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a27"
+          }
+        ]
+      },
+      {
+        "type": "It is very cold and sweet.",
+        "fsp": "How cold is the ice cream?",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["It is very cold and sweet."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Drinks and desserts"],
+            "aw01": [{ "st": "Drinks and desserts", "id": "SCA1_F3a98" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How cold is the ice cream?", "id": "SCA1_F3a114" }]
+      },
+      {
+        "type": "The bartender made this smoothie.",
+        "fsp": "Who made this fruit smoothie?",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["The bartender made this smoothie."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Drinks and desserts"],
+            "aw01": [{ "st": "Drinks and desserts", "id": "SCA1_F3a101" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Who made this fruit smoothie?", "id": "SCA1_F3a111" }
+        ]
+      },
+      {
+        "type": "There are mangoes and bananas inside.",
+        "fsp": "What fruit is in the smoothie?",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["There are mangoes and bananas inside."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Drinks and desserts"],
+            "aw01": [{ "st": "Drinks and desserts", "id": "SCA1_F3a101" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What fruit is in the smoothie?", "id": "SCA1_F3a117" }
+        ]
+      },
+      {
+        "type": "A3",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Which cake do you like best?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Drinks and desserts"],
+            "aw01": [{ "st": "Drinks and desserts", "id": "SCA1_F3a98" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a24"
+          }
+        ]
+      },
+      {
+        "type": "A8",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What fruit is in the smoothie?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Drinks and desserts"],
+            "aw01": [{ "st": "Drinks and desserts", "id": "SCA1_F3a101" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a27"
+          }
+        ]
+      },
+      {
+        "type": "It is not good for health.",
+        "fsp": "Why do you not drink soda?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["It is not good for health."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Drinks and desserts"],
+            "aw01": [{ "st": "Drinks and desserts", "id": "SCA1_F3a101" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Why do you not drink soda?", "id": "SCA1_F3a105" }]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  },
+  {
+    "id": "drinks-and-desserts",
+    "ListenList": [],
+    "typeSets": [
+      "I want to book a table inside.",
+      "It is at seven in the evening.",
+      "My wife and two children.",
+      "The booking is under my name.",
+      "Four people are coming tonight.",
+      "We have many people tonight.",
+      "I want to sit near the window.",
+      "I will arrive at 6:30 p.m.",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8"
+    ],
+    "SEO": {
+      "seo": {
+        "metaTitle": "Drinks and desserts",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "Drinks and desserts",
+        "IFdes": "Drinks and desserts",
+        "IF-audiocode": "SCA1_F4"
+      },
+      "HD": [
+        {
+          "HD-01": "X",
+          "HD-02": "Drinks and desserts",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "XX",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Where do you want to book?",
+          "HD-02": "I want to book a table inside.",
+          "HD-03": null,
+          "HD-04": "Who will come with you?",
+          "HD-05": "My wife and two children."
+        },
+        {
+          "HD-01": "When is your reservation?",
+          "HD-02": "It is at seven in the evening.",
+          "HD-03": null,
+          "HD-04": "What name is the booking under?",
+          "HD-05": "The booking is under my name."
+        },
+        {
+          "HD-01": "X",
+          "HD-02": "X",
+          "HD-03": null,
+          "HD-04": "X",
+          "HD-05": "X"
+        },
+        {
+          "HD-01": "How many people are coming?",
+          "HD-02": "Four people are coming tonight.",
+          "HD-03": null,
+          "HD-04": "Where do you want to sit?",
+          "HD-05": "I want to sit near the window."
+        },
+        {
+          "HD-01": "Why do you need a big table?",
+          "HD-02": "We have many people tonight.",
+          "HD-03": null,
+          "HD-04": "What time will you arrive?",
+          "HD-05": "I will arrive at 6:30 p.m."
+        },
+        {
+          "HD-01": "X",
+          "HD-02": "X",
+          "HD-03": null,
+          "HD-04": "X",
+          "HD-05": "X"
+        },
+        {
+          "HD-01": "(A)",
+          "HD-02": "Questions and answers",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(B)",
+          "HD-02": "With the answer \"___\", what is the question?",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Tell me the topic.",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        }
+      ],
+      "TB": [],
+      "TV": [
+        {
+          "TV-01": "X",
+          "TV-02": "Drinks and desserts",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": "XX",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Bạn muốn đặt bàn ở đâu?",
+          "TV-02": "Tôi muốn đặt bàn bên trong.",
+          "TV-03": null,
+          "TV-04": "Ai sẽ đi cùng bạn?",
+          "TV-05": "Vợ tôi và hai đứa con."
+        },
+        {
+          "TV-01": "Bạn đặt bàn vào lúc nào?",
+          "TV-02": "Vào lúc bảy giờ tối.",
+          "TV-03": null,
+          "TV-04": "Đặt bàn dưới tên gì?",
+          "TV-05": "Đặt bàn dưới tên tôi."
+        },
+        {
+          "TV-01": "X",
+          "TV-02": "X",
+          "TV-03": "X",
+          "TV-04": "X",
+          "TV-05": "X"
+        },
+        {
+          "TV-01": "Có bao nhiêu người sẽ đến?",
+          "TV-02": "Tối nay có bốn người đến.",
+          "TV-03": null,
+          "TV-04": "Bạn muốn ngồi ở đâu?",
+          "TV-05": "Tôi muốn ngồi gần cửa sổ."
+        },
+        {
+          "TV-01": "Tại sao bạn cần bàn lớn?",
+          "TV-02": "Tối nay chúng tôi có nhiều người.",
+          "TV-03": null,
+          "TV-04": "Bạn sẽ đến lúc mấy giờ?",
+          "TV-05": "Tôi sẽ đến lúc 6:30 tối."
+        },
+        {
+          "TV-01": "X",
+          "TV-02": "X",
+          "TV-03": "X",
+          "TV-04": "X",
+          "TV-05": "X"
+        },
+        {
+          "TV-01": "(A)",
+          "TV-02": "Questions and answers",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(B)",
+          "TV-02": "With the answer \"___\", what is the question?",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Tell me the topic.",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        }
+      ]
+    },
+    "charactor": [
+      {
+        "type": "A4",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What name is the booking under?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Drinks and desserts"],
+            "aw01": [{ "st": "Drinks and desserts", "id": "SCA1_F3a101" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a27"
+          }
+        ]
+      },
+      {
+        "type": "It is at seven in the evening.",
+        "fsp": "When is your reservation?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["It is at seven in the evening."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Drinks and desserts"],
+            "aw01": [{ "st": "Drinks and desserts", "id": "SCA1_F3a101" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "When is your reservation?", "id": "SCA1_F4a147" }]
+      },
+      {
+        "type": "A5",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["How many people are coming?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Drinks and desserts"],
+            "aw01": [{ "st": "Drinks and desserts", "id": "SCA1_F3a98" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a24"
+          }
+        ]
+      },
+      {
+        "type": "We have many people tonight.",
+        "fsp": "Why do you need a big table?",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["We have many people tonight."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Drinks and desserts"],
+            "aw01": [{ "st": "Drinks and desserts", "id": "SCA1_F3a101" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Why do you need a big table?", "id": "SCA1_F4a159" }
+        ]
+      },
+      {
+        "type": "Four people are coming tonight.",
+        "fsp": "How many people are coming?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Four people are coming tonight."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Drinks and desserts"],
+            "aw01": [{ "st": "Drinks and desserts", "id": "SCA1_F3a98" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "How many people are coming?", "id": "SCA1_F4a156" }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["When is your reservation?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Drinks and desserts"],
+            "aw01": [{ "st": "Drinks and desserts", "id": "SCA1_F3a101" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a27"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Where do you want to book?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Drinks and desserts"],
+            "aw01": [{ "st": "Drinks and desserts", "id": "SCA1_F3a98" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a24"
+          }
+        ]
+      },
+      {
+        "type": "My wife and two children.",
+        "fsp": "Who will come with you?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["My wife and two children."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Drinks and desserts"],
+            "aw01": [{ "st": "Drinks and desserts", "id": "SCA1_F3a98" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Who will come with you?", "id": "SCA1_F4a150" }]
+      },
+      {
+        "type": "I want to sit near the window.",
+        "fsp": "Where do you want to sit?",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["I want to sit near the window."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Drinks and desserts"],
+            "aw01": [{ "st": "Drinks and desserts", "id": "SCA1_F3a98" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Where do you want to sit?", "id": "SCA1_F4a162" }]
+      },
+      {
+        "type": "I will arrive at 6:30 p.m.",
+        "fsp": "What time will you arrive?",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["I will arrive at 6:30 p.m."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Drinks and desserts"],
+            "aw01": [{ "st": "Drinks and desserts", "id": "SCA1_F3a101" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What time will you arrive?", "id": "SCA1_F4a165" }]
+      },
+      {
+        "type": "A7",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Where do you want to sit?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Drinks and desserts"],
+            "aw01": [{ "st": "Drinks and desserts", "id": "SCA1_F3a98" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a24"
+          }
+        ]
+      },
+      {
+        "type": "I want to book a table inside.",
+        "fsp": "Where do you want to book?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["I want to book a table inside."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Drinks and desserts"],
+            "aw01": [{ "st": "Drinks and desserts", "id": "SCA1_F3a98" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Where do you want to book?", "id": "SCA1_F4a144" }]
+      },
+      {
+        "type": "A3",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Who will come with you?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Drinks and desserts"],
+            "aw01": [{ "st": "Drinks and desserts", "id": "SCA1_F3a98" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a24"
+          }
+        ]
+      },
+      {
+        "type": "A6",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Why do you need a big table?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Drinks and desserts"],
+            "aw01": [{ "st": "Drinks and desserts", "id": "SCA1_F3a101" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a27"
+          }
+        ]
+      },
+      {
+        "type": "The booking is under my name.",
+        "fsp": "What name is the booking under?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["The booking is under my name."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Drinks and desserts"],
+            "aw01": [{ "st": "Drinks and desserts", "id": "SCA1_F3a101" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What name is the booking under?", "id": "SCA1_F4a153" }
+        ]
+      },
+      {
+        "type": "A8",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What time will you arrive?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Drinks and desserts"],
+            "aw01": [{ "st": "Drinks and desserts", "id": "SCA1_F3a101" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a27"
+          }
+        ]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  },
+  {
+    "id": "favorite-food",
+    "ListenList": [],
+    "typeSets": [
+      "The host will welcome the guests.",
+      "The guests came early.",
+      "It can fit up to 10 people.",
+      "I want to celebrate my birthday.",
+      "It is on Saturday night.",
+      "I want soft background music.",
+      "You can decorate around the tables.",
+      "I will bring the cake myself.",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8"
+    ],
+    "SEO": {
+      "seo": {
+        "metaTitle": "Favorite Food",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "Favorite Food",
+        "IFdes": "Favorite Food",
+        "IF-audiocode": "SCA1_F5"
+      },
+      "HD": [
+        {
+          "HD-01": "X",
+          "HD-02": "Favorite Food",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "XX",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Who will welcome the guests?",
+          "HD-02": "The host will welcome the guests.",
+          "HD-03": null,
+          "HD-04": "How big is the private room?",
+          "HD-05": "It can fit up to 10 people."
+        },
+        {
+          "HD-01": "Why is the table not ready?",
+          "HD-02": "The guests came early.",
+          "HD-03": null,
+          "HD-04": "What do you want to celebrate?",
+          "HD-05": "I want to celebrate my birthday."
+        },
+        {
+          "HD-01": "X",
+          "HD-02": "X",
+          "HD-03": null,
+          "HD-04": "X",
+          "HD-05": "X"
+        },
+        {
+          "HD-01": "When is the special event?",
+          "HD-02": "It is on Saturday night.",
+          "HD-03": null,
+          "HD-04": "Where can we decorate the room?",
+          "HD-05": "You can decorate around the tables."
+        },
+        {
+          "HD-01": "What kind of music do you want?",
+          "HD-02": "I want soft background music.",
+          "HD-03": null,
+          "HD-04": "Who will bring the cake?",
+          "HD-05": "I will bring the cake myself."
+        },
+        {
+          "HD-01": "X",
+          "HD-02": "X",
+          "HD-03": null,
+          "HD-04": "X",
+          "HD-05": "X"
+        },
+        {
+          "HD-01": "(A)",
+          "HD-02": "Questions and answers",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(B)",
+          "HD-02": "With the answer \"___\", what is the question?",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Tell me the topic.",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        }
+      ],
+      "TB": [],
+      "TV": [
+        {
+          "TV-01": "X",
+          "TV-02": "Favorite Food",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": "XX",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Ai sẽ chào đón khách?",
+          "TV-02": "Người chủ sẽ chào đón khách.",
+          "TV-03": null,
+          "TV-04": "Phòng riêng rộng bao nhiêu?",
+          "TV-05": "Có thể chứa tối đa 10 người."
+        },
+        {
+          "TV-01": "Tại sao bàn chưa sẵn sàng?",
+          "TV-02": "Khách đến sớm.",
+          "TV-03": null,
+          "TV-04": "Bạn muốn tổ chức dịp gì?",
+          "TV-05": "Tôi muốn tổ chức sinh nhật."
+        },
+        {
+          "TV-01": "X",
+          "TV-02": "X",
+          "TV-03": "X",
+          "TV-04": "X",
+          "TV-05": "X"
+        },
+        {
+          "TV-01": "Sự kiện đặc biệt diễn ra khi nào?",
+          "TV-02": "Nó vào tối thứ Bảy.",
+          "TV-03": null,
+          "TV-04": "Chúng tôi có thể trang trí phòng ở đâu?",
+          "TV-05": "Bạn có thể trang trí xung quanh bàn."
+        },
+        {
+          "TV-01": "Bạn muốn loại nhạc gì?",
+          "TV-02": "Tôi muốn nhạc nhẹ nhàng làm nền.",
+          "TV-03": null,
+          "TV-04": "Ai sẽ mang bánh đến?",
+          "TV-05": "Tôi sẽ tự mang bánh đến."
+        },
+        {
+          "TV-01": "X",
+          "TV-02": "X",
+          "TV-03": "X",
+          "TV-04": "X",
+          "TV-05": "X"
+        },
+        {
+          "TV-01": "(A)",
+          "TV-02": "Questions and answers",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(B)",
+          "TV-02": "With the answer \"___\", what is the question?",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Tell me the topic.",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        }
+      ]
+    },
+    "charactor": [
+      {
+        "type": "It can fit up to 10 people.",
+        "fsp": "How big is the private room?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["It can fit up to 10 people."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Favorite Food"],
+            "aw01": [{ "st": "Favorite Food", "id": "SCA1_F5a194" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "How big is the private room?", "id": "SCA1_F5a198" }
+        ]
+      },
+      {
+        "type": "You can decorate around the tables.",
+        "fsp": "Where can we decorate the room?",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["You can decorate around the tables."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Favorite Food"],
+            "aw01": [{ "st": "Favorite Food", "id": "SCA1_F5a194" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Where can we decorate the room?", "id": "SCA1_F5a210" }
+        ]
+      },
+      {
+        "type": "A6",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What kind of music do you want?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Favorite Food"],
+            "aw01": [{ "st": "Favorite Food", "id": "SCA1_F5a197" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a27"
+          }
+        ]
+      },
+      {
+        "type": "The guests came early.",
+        "fsp": "Why is the table not ready?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["The guests came early."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Favorite Food"],
+            "aw01": [{ "st": "Favorite Food", "id": "SCA1_F5a197" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Why is the table not ready?", "id": "SCA1_F5a195" }
+        ]
+      },
+      {
+        "type": "I want soft background music.",
+        "fsp": "What kind of music do you want?",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["I want soft background music."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Favorite Food"],
+            "aw01": [{ "st": "Favorite Food", "id": "SCA1_F5a197" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What kind of music do you want?", "id": "SCA1_F5a207" }
+        ]
+      },
+      {
+        "type": "I will bring the cake myself.",
+        "fsp": "Who will bring the cake?",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["I will bring the cake myself."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Favorite Food"],
+            "aw01": [{ "st": "Favorite Food", "id": "SCA1_F5a197" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Who will bring the cake?", "id": "SCA1_F5a213" }]
+      },
+      {
+        "type": "A1",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Who will welcome the guests?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Favorite Food"],
+            "aw01": [{ "st": "Favorite Food", "id": "SCA1_F5a194" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a24"
+          }
+        ]
+      },
+      {
+        "type": "I want to celebrate my birthday.",
+        "fsp": "What do you want to celebrate?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["I want to celebrate my birthday."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Favorite Food"],
+            "aw01": [{ "st": "Favorite Food", "id": "SCA1_F5a197" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What do you want to celebrate?", "id": "SCA1_F5a201" }
+        ]
+      },
+      {
+        "type": "A5",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["When is the special event?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Favorite Food"],
+            "aw01": [{ "st": "Favorite Food", "id": "SCA1_F5a194" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a24"
+          }
+        ]
+      },
+      {
+        "type": "A7",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Where can we decorate the room?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Favorite Food"],
+            "aw01": [{ "st": "Favorite Food", "id": "SCA1_F5a194" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a24"
+          }
+        ]
+      },
+      {
+        "type": "A3",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["How big is the private room?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Favorite Food"],
+            "aw01": [{ "st": "Favorite Food", "id": "SCA1_F5a194" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a24"
+          }
+        ]
+      },
+      {
+        "type": "The host will welcome the guests.",
+        "fsp": "Who will welcome the guests?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["The host will welcome the guests."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Favorite Food"],
+            "aw01": [{ "st": "Favorite Food", "id": "SCA1_F5a194" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Who will welcome the guests?", "id": "SCA1_F5a192" }
+        ]
+      },
+      {
+        "type": "A8",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Who will bring the cake?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Favorite Food"],
+            "aw01": [{ "st": "Favorite Food", "id": "SCA1_F5a197" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a27"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Why is the table not ready?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Favorite Food"],
+            "aw01": [{ "st": "Favorite Food", "id": "SCA1_F5a197" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a27"
+          }
+        ]
+      },
+      {
+        "type": "It is on Saturday night.",
+        "fsp": "When is the special event?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["It is on Saturday night."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Favorite Food"],
+            "aw01": [{ "st": "Favorite Food", "id": "SCA1_F5a194" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "When is the special event?", "id": "SCA1_F5a204" }]
+      },
+      {
+        "type": "A4",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What do you want to celebrate?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Favorite Food"],
+            "aw01": [{ "st": "Favorite Food", "id": "SCA1_F5a197" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a27"
+          }
+        ]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  },
+  {
+    "id": "call-for-takeout",
+    "ListenList": [],
+    "typeSets": [
+      "It will last for three hours.",
+      "We want privacy and quiet.",
+      "I recommend the grilled salmon.",
+      "The restroom is near the stairs.",
+      "The mango smoothie is very popular.",
+      "The food is very tasty.",
+      "I am not hungry now.",
+      "The service is excellent.",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8"
+    ],
+    "SEO": {
+      "seo": {
+        "metaTitle": "Call for takeout",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "Call for takeout",
+        "IFdes": "Call for takeout",
+        "IF-audiocode": "SCA1_F6"
+      },
+      "HD": [
+        {
+          "HD-01": "X",
+          "HD-02": "Call for takeout",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "XX",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "How long is the celebration?",
+          "HD-02": "It will last for three hours.",
+          "HD-03": null,
+          "HD-04": "What dish do you recommend?",
+          "HD-05": "I recommend the grilled salmon."
+        },
+        {
+          "HD-01": "Why do you want a private room?",
+          "HD-02": "We want privacy and quiet.",
+          "HD-03": null,
+          "HD-04": "Where is the restroom?",
+          "HD-05": "The restroom is near the stairs."
+        },
+        {
+          "HD-01": "X",
+          "HD-02": "X",
+          "HD-03": null,
+          "HD-04": "X",
+          "HD-05": "X"
+        },
+        {
+          "HD-01": "What drink is popular here?",
+          "HD-02": "The mango smoothie is very popular.",
+          "HD-03": null,
+          "HD-04": "Why are you not eating?",
+          "HD-05": "I am not hungry now."
+        },
+        {
+          "HD-01": "How is the food today?",
+          "HD-02": "The food is very tasty.",
+          "HD-03": null,
+          "HD-04": "What do you think of the service?",
+          "HD-05": "The service is excellent."
+        },
+        {
+          "HD-01": "X",
+          "HD-02": "X",
+          "HD-03": null,
+          "HD-04": "X",
+          "HD-05": "X"
+        },
+        {
+          "HD-01": "(A)",
+          "HD-02": "Questions and answers",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(B)",
+          "HD-02": "With the answer \"___\", what is the question?",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Tell me the topic.",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        }
+      ],
+      "TB": [],
+      "TV": [
+        {
+          "TV-01": "X",
+          "TV-02": "Call for takeout",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": "XX",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Buổi tiệc kéo dài bao lâu?",
+          "TV-02": "Sẽ kéo dài trong ba tiếng.",
+          "TV-03": null,
+          "TV-04": "Bạn đề xuất món nào?",
+          "TV-05": "Tôi đề xuất cá hồi nướng."
+        },
+        {
+          "TV-01": "Tại sao bạn muốn phòng riêng?",
+          "TV-02": "Chúng tôi muốn sự riêng tư và yên tĩnh.",
+          "TV-03": null,
+          "TV-04": "Nhà vệ sinh ở đâu?",
+          "TV-05": "Nhà vệ sinh ở gần cầu thang."
+        },
+        {
+          "TV-01": "X",
+          "TV-02": "X",
+          "TV-03": "X",
+          "TV-04": "X",
+          "TV-05": "X"
+        },
+        {
+          "TV-01": "Thức uống nào phổ biến ở đây?",
+          "TV-02": "Sinh tố xoài rất phổ biến.",
+          "TV-03": null,
+          "TV-04": "Tại sao bạn không ăn?",
+          "TV-05": "Tôi chưa đói bây giờ."
+        },
+        {
+          "TV-01": "Hôm nay đồ ăn như thế nào?",
+          "TV-02": "Đồ ăn rất ngon.",
+          "TV-03": null,
+          "TV-04": "Bạn nghĩ gì về dịch vụ?",
+          "TV-05": "Dịch vụ rất tuyệt vời."
+        },
+        {
+          "TV-01": "X",
+          "TV-02": "X",
+          "TV-03": "X",
+          "TV-04": "X",
+          "TV-05": "X"
+        },
+        {
+          "TV-01": "(A)",
+          "TV-02": "Questions and answers",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(B)",
+          "TV-02": "With the answer \"___\", what is the question?",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Tell me the topic.",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        }
+      ]
+    },
+    "charactor": [
+      {
+        "type": "A1",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["How long is the celebration?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Call for takeout"],
+            "aw01": [{ "st": "Call for takeout", "id": "SCA1_F6a242" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a24"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Why do you want a private room?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Call for takeout"],
+            "aw01": [{ "st": "Call for takeout", "id": "SCA1_F6a245" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a27"
+          }
+        ]
+      },
+      {
+        "type": "A4",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Where is the restroom?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Call for takeout"],
+            "aw01": [{ "st": "Call for takeout", "id": "SCA1_F6a245" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a27"
+          }
+        ]
+      },
+      {
+        "type": "It will last for three hours.",
+        "fsp": "How long is the celebration?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["It will last for three hours."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Call for takeout"],
+            "aw01": [{ "st": "Call for takeout", "id": "SCA1_F6a242" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "How long is the celebration?", "id": "SCA1_F6a240" }
+        ]
+      },
+      {
+        "type": "A8",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What do you think of the service?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Call for takeout"],
+            "aw01": [{ "st": "Call for takeout", "id": "SCA1_F6a245" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a27"
+          }
+        ]
+      },
+      {
+        "type": "A3",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What dish do you recommend?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Call for takeout"],
+            "aw01": [{ "st": "Call for takeout", "id": "SCA1_F6a242" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a24"
+          }
+        ]
+      },
+      {
+        "type": "A7",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Why are you not eating?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Call for takeout"],
+            "aw01": [{ "st": "Call for takeout", "id": "SCA1_F6a242" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a24"
+          }
+        ]
+      },
+      {
+        "type": "The service is excellent.",
+        "fsp": "What do you think of the service?",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["The service is excellent."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Call for takeout"],
+            "aw01": [{ "st": "Call for takeout", "id": "SCA1_F6a245" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What do you think of the service?", "id": "SCA1_F6a261" }
+        ]
+      },
+      {
+        "type": "The mango smoothie is very popular.",
+        "fsp": "What drink is popular here?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["The mango smoothie is very popular."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Call for takeout"],
+            "aw01": [{ "st": "Call for takeout", "id": "SCA1_F6a242" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What drink is popular here?", "id": "SCA1_F6a252" }
+        ]
+      },
+      {
+        "type": "The food is very tasty.",
+        "fsp": "How is the food today?",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["The food is very tasty."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Call for takeout"],
+            "aw01": [{ "st": "Call for takeout", "id": "SCA1_F6a245" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How is the food today?", "id": "SCA1_F6a255" }]
+      },
+      {
+        "type": "A5",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What drink is popular here?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Call for takeout"],
+            "aw01": [{ "st": "Call for takeout", "id": "SCA1_F6a242" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a24"
+          }
+        ]
+      },
+      {
+        "type": "The restroom is near the stairs.",
+        "fsp": "Where is the restroom?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["The restroom is near the stairs."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Call for takeout"],
+            "aw01": [{ "st": "Call for takeout", "id": "SCA1_F6a245" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Where is the restroom?", "id": "SCA1_F6a249" }]
+      },
+      {
+        "type": "A6",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["How is the food today?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Call for takeout"],
+            "aw01": [{ "st": "Call for takeout", "id": "SCA1_F6a245" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a27"
+          }
+        ]
+      },
+      {
+        "type": "I am not hungry now.",
+        "fsp": "Why are you not eating?",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["I am not hungry now."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Call for takeout"],
+            "aw01": [{ "st": "Call for takeout", "id": "SCA1_F6a242" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Why are you not eating?", "id": "SCA1_F6a258" }]
+      },
+      {
+        "type": "I recommend the grilled salmon.",
+        "fsp": "What dish do you recommend?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["I recommend the grilled salmon."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Call for takeout"],
+            "aw01": [{ "st": "Call for takeout", "id": "SCA1_F6a242" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What dish do you recommend?", "id": "SCA1_F6a246" }
+        ]
+      },
+      {
+        "type": "We want privacy and quiet.",
+        "fsp": "Why do you want a private room?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["We want privacy and quiet."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Call for takeout"],
+            "aw01": [{ "st": "Call for takeout", "id": "SCA1_F6a245" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Why do you want a private room?", "id": "SCA1_F6a243" }
+        ]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  },
+  {
+    "id": "baby-food",
+    "ListenList": [],
+    "typeSets": [
+      "I have it with me.",
+      "I will pay for everyone.",
+      "The total is $45.",
+      "We close at 10 p.m.",
+      "You ordered many special dishes.",
+      "You can give feedback at the counter.",
+      "My number is 090-123-4567.",
+      "My email is john@email.com.",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8"
+    ],
+    "SEO": {
+      "seo": {
+        "metaTitle": "Baby food",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "Baby food",
+        "IFdes": "Baby food",
+        "IF-audiocode": "SCA1_F7"
+      },
+      "HD": [
+        {
+          "HD-01": "X",
+          "HD-02": "Baby food",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "XX",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Where is the bill?",
+          "HD-02": "I have it with me.",
+          "HD-03": null,
+          "HD-04": "How much is the total bill?",
+          "HD-05": "The total is $45."
+        },
+        {
+          "HD-01": "Who will pay the bill?",
+          "HD-02": "I will pay for everyone.",
+          "HD-03": null,
+          "HD-04": "What time do you close?",
+          "HD-05": "We close at 10 p.m."
+        },
+        {
+          "HD-01": "X",
+          "HD-02": "X",
+          "HD-03": null,
+          "HD-04": "X",
+          "HD-05": "X"
+        },
+        {
+          "HD-01": "Why is the bill so high?",
+          "HD-02": "You ordered many special dishes.",
+          "HD-03": null,
+          "HD-04": "What is your phone number?",
+          "HD-05": "My number is 090-123-4567."
+        },
+        {
+          "HD-01": "Where can I give feedback?",
+          "HD-02": "You can give feedback at the counter.",
+          "HD-03": null,
+          "HD-04": "What is your email address?",
+          "HD-05": "My email is john@email.com."
+        },
+        {
+          "HD-01": "X",
+          "HD-02": "X",
+          "HD-03": null,
+          "HD-04": "X",
+          "HD-05": "X"
+        },
+        {
+          "HD-01": "(A)",
+          "HD-02": "Questions and answers",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(B)",
+          "HD-02": "With the answer \"___\", what is the question?",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Tell me the topic.",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        }
+      ],
+      "TB": [],
+      "TV": [
+        {
+          "TV-01": "X",
+          "TV-02": "Baby food",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": "XX",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Hóa đơn đâu rồi?",
+          "TV-02": "Tôi có nó với tôi.",
+          "TV-03": null,
+          "TV-04": "Tổng hóa đơn là bao nhiêu?",
+          "TV-05": "Tổng cộng là 45 đô la."
+        },
+        {
+          "TV-01": "Ai sẽ trả tiền?",
+          "TV-02": "Tôi sẽ trả cho tất cả mọi người.",
+          "TV-03": null,
+          "TV-04": "Bạn đóng cửa lúc mấy giờ?",
+          "TV-05": "Chúng tôi đóng cửa lúc 10 giờ tối."
+        },
+        {
+          "TV-01": "X",
+          "TV-02": "X",
+          "TV-03": "X",
+          "TV-04": "X",
+          "TV-05": "X"
+        },
+        {
+          "TV-01": "Tại sao hóa đơn lại cao như vậy?",
+          "TV-02": "Bạn đã gọi nhiều món đặc biệt.",
+          "TV-03": null,
+          "TV-04": "Số điện thoại của bạn là gì?",
+          "TV-05": "Số của tôi là 090-123-4567."
+        },
+        {
+          "TV-01": "Tôi có thể góp ý ở đâu?",
+          "TV-02": "Bạn có thể góp ý tại quầy.",
+          "TV-03": null,
+          "TV-04": "Địa chỉ email của bạn là gì?",
+          "TV-05": "Email của tôi là john@email.com."
+        },
+        {
+          "TV-01": "X",
+          "TV-02": "X",
+          "TV-03": "X",
+          "TV-04": "X",
+          "TV-05": "X"
+        },
+        {
+          "TV-01": "(A)",
+          "TV-02": "Questions and answers",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(B)",
+          "TV-02": "With the answer \"___\", what is the question?",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Tell me the topic.",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        }
+      ]
+    },
+    "charactor": [
+      {
+        "type": "The total is $45.",
+        "fsp": "How much is the total bill?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["The total is $45."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Baby food"],
+            "aw01": [{ "st": "Baby food", "id": "SCA1_F7a290" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "How much is the total bill?", "id": "SCA1_F7a294" }
+        ]
+      },
+      {
+        "type": "You ordered many special dishes.",
+        "fsp": "Why is the bill so high?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["You ordered many special dishes."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Baby food"],
+            "aw01": [{ "st": "Baby food", "id": "SCA1_F7a290" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Why is the bill so high?", "id": "SCA1_F7a300" }]
+      },
+      {
+        "type": "A4",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What time do you close?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Baby food"],
+            "aw01": [{ "st": "Baby food", "id": "SCA1_F7a293" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a27"
+          }
+        ]
+      },
+      {
+        "type": "You can give feedback at the counter.",
+        "fsp": "Where can I give feedback?",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["You can give feedback at the counter."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Baby food"],
+            "aw01": [{ "st": "Baby food", "id": "SCA1_F7a293" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Where can I give feedback?", "id": "SCA1_F7a303" }]
+      },
+      {
+        "type": "A7",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What is your phone number?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Baby food"],
+            "aw01": [{ "st": "Baby food", "id": "SCA1_F7a290" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a24"
+          }
+        ]
+      },
+      {
+        "type": "I have it with me.",
+        "fsp": "Where is the bill?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["I have it with me."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Baby food"],
+            "aw01": [{ "st": "Baby food", "id": "SCA1_F7a290" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Where is the bill?", "id": "SCA1_F7a288" }]
+      },
+      {
+        "type": "A6",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Where can I give feedback?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Baby food"],
+            "aw01": [{ "st": "Baby food", "id": "SCA1_F7a293" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a27"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Where is the bill?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Baby food"],
+            "aw01": [{ "st": "Baby food", "id": "SCA1_F7a290" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a24"
+          }
+        ]
+      },
+      {
+        "type": "I will pay for everyone.",
+        "fsp": "Who will pay the bill?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["I will pay for everyone."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Baby food"],
+            "aw01": [{ "st": "Baby food", "id": "SCA1_F7a293" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Who will pay the bill?", "id": "SCA1_F1a9" }]
+      },
+      {
+        "type": "A3",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["How much is the total bill?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Baby food"],
+            "aw01": [{ "st": "Baby food", "id": "SCA1_F7a290" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a24"
+          }
+        ]
+      },
+      {
+        "type": "A5",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Why is the bill so high?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Baby food"],
+            "aw01": [{ "st": "Baby food", "id": "SCA1_F7a290" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a24"
+          }
+        ]
+      },
+      {
+        "type": "We close at 10 p.m.",
+        "fsp": "What time do you close?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["We close at 10 p.m."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Baby food"],
+            "aw01": [{ "st": "Baby food", "id": "SCA1_F7a293" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What time do you close?", "id": "SCA1_F7a297" }]
+      },
+      {
+        "type": "A8",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What is your email address?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Baby food"],
+            "aw01": [{ "st": "Baby food", "id": "SCA1_F7a293" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a27"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Who will pay the bill?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Baby food"],
+            "aw01": [{ "st": "Baby food", "id": "SCA1_F7a293" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a27"
+          }
+        ]
+      },
+      {
+        "type": "My email is john@email.com.",
+        "fsp": "What is your email address?",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["My email is john@email.com."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Baby food"],
+            "aw01": [{ "st": "Baby food", "id": "SCA1_F7a293" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What is your email address?", "id": "SCA1_F7a309" }
+        ]
+      },
+      {
+        "type": "My number is 090-123-4567.",
+        "fsp": "What is your phone number?",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["My number is 090-123-4567."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Baby food"],
+            "aw01": [{ "st": "Baby food", "id": "SCA1_F7a290" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What is your phone number?", "id": "SCA1_F7a306" }]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  },
+  {
+    "id": "complaints-at-the-restaurant",
+    "ListenList": [],
+    "typeSets": [
+      "Please leave it at the reception.",
+      "Today’s special is grilled chicken.",
+      "Happy hour is from 4 to 6 p.m.",
+      "One drink is free per person.",
+      "My favorite is beef noodles.",
+      "The kitchen is very busy now.",
+      "The waiter will help you.",
+      "You can park in front of the restaurant.",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8"
+    ],
+    "SEO": {
+      "seo": {
+        "metaTitle": "Complaints at the restaurant",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "Complaints at the restaurant",
+        "IFdes": "Complaints at the restaurant",
+        "IF-audiocode": "SCA1_F8"
+      },
+      "HD": [
+        {
+          "HD-01": "X",
+          "HD-02": "Complaints at the restaurant",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "XX",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Where can I leave my coat?",
+          "HD-02": "Please leave it at the reception.",
+          "HD-03": null,
+          "HD-04": "When is the happy hour?",
+          "HD-05": "Happy hour is from 4 to 6 p.m."
+        },
+        {
+          "HD-01": "What is today’s special dish?",
+          "HD-02": "Today’s special is grilled chicken.",
+          "HD-03": null,
+          "HD-04": "How many drinks are free?",
+          "HD-05": "One drink is free per person."
+        },
+        {
+          "HD-01": "X",
+          "HD-02": "X",
+          "HD-03": null,
+          "HD-04": "X",
+          "HD-05": "X"
+        },
+        {
+          "HD-01": "What is your favorite dish?",
+          "HD-02": "My favorite is beef noodles.",
+          "HD-03": null,
+          "HD-04": "Who can help me choose?",
+          "HD-05": "The waiter will help you."
+        },
+        {
+          "HD-01": "Why is the food late?",
+          "HD-02": "The kitchen is very busy now.",
+          "HD-03": null,
+          "HD-04": "Where can I park my car?",
+          "HD-05": "You can park in front of the restaurant."
+        },
+        {
+          "HD-01": "X",
+          "HD-02": "X",
+          "HD-03": null,
+          "HD-04": "X",
+          "HD-05": "X"
+        },
+        {
+          "HD-01": "(A)",
+          "HD-02": "Questions and answers",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(B)",
+          "HD-02": "With the answer \"___\", what is the question?",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Tell me the topic.",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        }
+      ],
+      "TB": [],
+      "TV": [
+        {
+          "TV-01": "X",
+          "TV-02": "Complaints at the restaurant",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": "XX",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Tôi có thể để áo khoác ở đâu?",
+          "TV-02": "Vui lòng để nó ở quầy tiếp tân.",
+          "TV-03": null,
+          "TV-04": "Giờ khuyến mãi là khi nào?",
+          "TV-05": "Giờ khuyến mãi từ 4 đến 6 giờ chiều."
+        },
+        {
+          "TV-01": "Món đặc biệt hôm nay là gì?",
+          "TV-02": "Món đặc biệt hôm nay là gà nướng.",
+          "TV-03": null,
+          "TV-04": "Có bao nhiêu đồ uống miễn phí?",
+          "TV-05": "Mỗi người được một đồ uống miễn phí."
+        },
+        {
+          "TV-01": "X",
+          "TV-02": "X",
+          "TV-03": "X",
+          "TV-04": "X",
+          "TV-05": "X"
+        },
+        {
+          "TV-01": "Món yêu thích của bạn là gì?",
+          "TV-02": "Món yêu thích của tôi là phở bò.",
+          "TV-03": null,
+          "TV-04": "Ai có thể giúp tôi chọn món?",
+          "TV-05": "Người phục vụ sẽ giúp bạn."
+        },
+        {
+          "TV-01": "Tại sao đồ ăn mang ra trễ?",
+          "TV-02": "Nhà bếp đang rất bận.",
+          "TV-03": null,
+          "TV-04": "Tôi có thể đậu xe ở đâu?",
+          "TV-05": "Bạn có thể đậu xe trước nhà hàng."
+        },
+        {
+          "TV-01": "X",
+          "TV-02": "X",
+          "TV-03": "X",
+          "TV-04": "X",
+          "TV-05": "X"
+        },
+        {
+          "TV-01": "(A)",
+          "TV-02": "Questions and answers",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(B)",
+          "TV-02": "With the answer \"___\", what is the question?",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Tell me the topic.",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        }
+      ]
+    },
+    "charactor": [
+      {
+        "type": "Today’s special is grilled chicken.",
+        "fsp": "What is today’s special dish?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Today’s special is grilled chicken."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Complaints at the restaurant"],
+            "aw01": [
+              { "st": "Complaints at the restaurant", "id": "SCA1_F8a341" }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What is today’s special dish?", "id": "SCA1_F8a339" }
+        ]
+      },
+      {
+        "type": "A7",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Who can help me choose?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Complaints at the restaurant"],
+            "aw01": [
+              { "st": "Complaints at the restaurant", "id": "SCA1_F8a338" }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a24"
+          }
+        ]
+      },
+      {
+        "type": "A3",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["When is the happy hour?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Complaints at the restaurant"],
+            "aw01": [
+              { "st": "Complaints at the restaurant", "id": "SCA1_F8a338" }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a24"
+          }
+        ]
+      },
+      {
+        "type": "A6",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Why is the food late?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Complaints at the restaurant"],
+            "aw01": [
+              { "st": "Complaints at the restaurant", "id": "SCA1_F8a341" }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a27"
+          }
+        ]
+      },
+      {
+        "type": "A5",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What is your favorite dish?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Complaints at the restaurant"],
+            "aw01": [
+              { "st": "Complaints at the restaurant", "id": "SCA1_F8a338" }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a24"
+          }
+        ]
+      },
+      {
+        "type": "The kitchen is very busy now.",
+        "fsp": "Why is the food late?",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["The kitchen is very busy now."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Complaints at the restaurant"],
+            "aw01": [
+              { "st": "Complaints at the restaurant", "id": "SCA1_F8a341" }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Why is the food late?", "id": "SCA1_F8a351" }]
+      },
+      {
+        "type": "The waiter will help you.",
+        "fsp": "Who can help me choose?",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["The waiter will help you."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Complaints at the restaurant"],
+            "aw01": [
+              { "st": "Complaints at the restaurant", "id": "SCA1_F8a338" }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Who can help me choose?", "id": "SCA1_F8a354" }]
+      },
+      {
+        "type": "A2",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What is today’s special dish?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Complaints at the restaurant"],
+            "aw01": [
+              { "st": "Complaints at the restaurant", "id": "SCA1_F8a341" }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a27"
+          }
+        ]
+      },
+      {
+        "type": "One drink is free per person.",
+        "fsp": "How many drinks are free?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["One drink is free per person."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Complaints at the restaurant"],
+            "aw01": [
+              { "st": "Complaints at the restaurant", "id": "SCA1_F8a341" }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How many drinks are free?", "id": "SCA1_F8a345" }]
+      },
+      {
+        "type": "A8",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Where can I park my car?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Complaints at the restaurant"],
+            "aw01": [
+              { "st": "Complaints at the restaurant", "id": "SCA1_F8a341" }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a27"
+          }
+        ]
+      },
+      {
+        "type": "You can park in front of the restaurant.",
+        "fsp": "Where can I park my car?",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["You can park in front of the restaurant."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Complaints at the restaurant"],
+            "aw01": [
+              { "st": "Complaints at the restaurant", "id": "SCA1_F8a341" }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Where can I park my car?", "id": "SCA1_F8a357" }]
+      },
+      {
+        "type": "My favorite is beef noodles.",
+        "fsp": "What is your favorite dish?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["My favorite is beef noodles."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Complaints at the restaurant"],
+            "aw01": [
+              { "st": "Complaints at the restaurant", "id": "SCA1_F8a338" }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What is your favorite dish?", "id": "SCA1_F8a348" }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Where can I leave my coat?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Complaints at the restaurant"],
+            "aw01": [
+              { "st": "Complaints at the restaurant", "id": "SCA1_F8a338" }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a24"
+          }
+        ]
+      },
+      {
+        "type": "A4",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["How many drinks are free?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Complaints at the restaurant"],
+            "aw01": [
+              { "st": "Complaints at the restaurant", "id": "SCA1_F8a341" }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a27"
+          }
+        ]
+      },
+      {
+        "type": "Please leave it at the reception.",
+        "fsp": "Where can I leave my coat?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Please leave it at the reception."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Complaints at the restaurant"],
+            "aw01": [
+              { "st": "Complaints at the restaurant", "id": "SCA1_F8a338" }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Where can I leave my coat?", "id": "SCA1_F8a336" }]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": [
+      {
+        "type": "Happy hour is from 4 to 6 p.m.",
+        "fsp": "When is the happy hour?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Happy hour is from 4 to 6 p.m."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Complaints at the restaurant"],
+            "aw01": [
+              { "st": "Complaints at the restaurant", "id": "SCA1_F8a338" }
+            ]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "When is the happy hour?", "id": "SCA1_F8a342" }]
+      }
+    ]
+  },
+  {
+    "id": "menu-and-diet",
+    "ListenList": [],
+    "typeSets": [
+      "I ordered five dishes.",
+      "It starts at 8 p.m.",
+      "It is on the last page.",
+      "We have milk and fruit juice.",
+      "We use fresh beef and chicken.",
+      "We grill it over charcoal.",
+      "It is made of vegetables and herbs.",
+      "The manager is in the office.",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8"
+    ],
+    "SEO": {
+      "seo": {
+        "metaTitle": "Menu and diet",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "Menu and diet",
+        "IFdes": "Menu and diet",
+        "IF-audiocode": "SCA1_F9"
+      },
+      "HD": [
+        {
+          "HD-01": "X",
+          "HD-02": "Menu and diet",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "XX",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "How many dishes did you order?",
+          "HD-02": "I ordered five dishes.",
+          "HD-03": null,
+          "HD-04": "Where is the kids’ menu?",
+          "HD-05": "It is on the last page."
+        },
+        {
+          "HD-01": "What time does the show start?",
+          "HD-02": "It starts at 8 p.m.",
+          "HD-03": null,
+          "HD-04": "What drinks are for kids?",
+          "HD-05": "We have milk and fruit juice."
+        },
+        {
+          "HD-01": "X",
+          "HD-02": "X",
+          "HD-03": null,
+          "HD-04": "X",
+          "HD-05": "X"
+        },
+        {
+          "HD-01": "What kind of meat do you use?",
+          "HD-02": "We use fresh beef and chicken.",
+          "HD-03": null,
+          "HD-04": "What is the soup made of?",
+          "HD-05": "It is made of vegetables and herbs."
+        },
+        {
+          "HD-01": "How do you cook this?",
+          "HD-02": "We grill it over charcoal.",
+          "HD-03": null,
+          "HD-04": "Where is your manager?",
+          "HD-05": "The manager is in the office."
+        },
+        {
+          "HD-01": "X",
+          "HD-02": "X",
+          "HD-03": null,
+          "HD-04": "X",
+          "HD-05": "X"
+        },
+        {
+          "HD-01": "(A)",
+          "HD-02": "Questions and answers",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(B)",
+          "HD-02": "With the answer \"___\", what is the question?",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Tell me the topic.",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        }
+      ],
+      "TB": [],
+      "TV": [
+        {
+          "TV-01": "X",
+          "TV-02": "Menu and diet",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": "XX",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Bạn đã gọi bao nhiêu món?",
+          "TV-02": "Tôi đã gọi năm món.",
+          "TV-03": null,
+          "TV-04": "Thực đơn cho trẻ em ở đâu?",
+          "TV-05": "Nó ở trang cuối cùng."
+        },
+        {
+          "TV-01": "Chương trình bắt đầu lúc mấy giờ?",
+          "TV-02": "Nó bắt đầu lúc 8 giờ tối.",
+          "TV-03": null,
+          "TV-04": "Có những đồ uống nào cho trẻ em?",
+          "TV-05": "Chúng tôi có sữa và nước trái cây."
+        },
+        {
+          "TV-01": "X",
+          "TV-02": "X",
+          "TV-03": "X",
+          "TV-04": "X",
+          "TV-05": "X"
+        },
+        {
+          "TV-01": "Bạn dùng loại thịt gì?",
+          "TV-02": "Chúng tôi dùng thịt bò và gà tươi.",
+          "TV-03": null,
+          "TV-04": "Súp được làm từ gì?",
+          "TV-05": "Nó được làm từ rau và thảo mộc."
+        },
+        {
+          "TV-01": "Bạn nấu món này như thế nào?",
+          "TV-02": "Chúng tôi nướng nó trên than.",
+          "TV-03": null,
+          "TV-04": "Quản lý của bạn ở đâu?",
+          "TV-05": "Quản lý đang ở trong văn phòng."
+        },
+        {
+          "TV-01": "X",
+          "TV-02": "X",
+          "TV-03": "X",
+          "TV-04": "X",
+          "TV-05": "X"
+        },
+        {
+          "TV-01": "(A)",
+          "TV-02": "Questions and answers",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(B)",
+          "TV-02": "With the answer \"___\", what is the question?",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Tell me the topic.",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        }
+      ]
+    },
+    "charactor": [
+      {
+        "type": "A6",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["How do you cook this?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Menu and diet"],
+            "aw01": [{ "st": "Menu and diet", "id": "SCA1_F9a389" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a27"
+          }
+        ]
+      },
+      {
+        "type": "It is made of vegetables and herbs.",
+        "fsp": "What is the soup made of?",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["It is made of vegetables and herbs."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Menu and diet"],
+            "aw01": [{ "st": "Menu and diet", "id": "SCA1_F9a386" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What is the soup made of?", "id": "SCA1_F9a402" }]
+      },
+      {
+        "type": "A7",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What is the soup made of?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Menu and diet"],
+            "aw01": [{ "st": "Menu and diet", "id": "SCA1_F9a386" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a24"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What time does the show start?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Menu and diet"],
+            "aw01": [{ "st": "Menu and diet", "id": "SCA1_F9a389" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a27"
+          }
+        ]
+      },
+      {
+        "type": "It is on the last page.",
+        "fsp": "Where is the kids’ menu?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["It is on the last page."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Menu and diet"],
+            "aw01": [{ "st": "Menu and diet", "id": "SCA1_F9a386" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Where is the kids’ menu?", "id": "SCA1_F9a390" }]
+      },
+      {
+        "type": "A5",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What kind of meat do you use?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Menu and diet"],
+            "aw01": [{ "st": "Menu and diet", "id": "SCA1_F9a386" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a24"
+          }
+        ]
+      },
+      {
+        "type": "A3",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Where is the kids’ menu?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Menu and diet"],
+            "aw01": [{ "st": "Menu and diet", "id": "SCA1_F9a386" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a24"
+          }
+        ]
+      },
+      {
+        "type": "We have milk and fruit juice.",
+        "fsp": "What drinks are for kids?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["We have milk and fruit juice."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Menu and diet"],
+            "aw01": [{ "st": "Menu and diet", "id": "SCA1_F9a389" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What drinks are for kids?", "id": "SCA1_F9a393" }]
+      },
+      {
+        "type": "A8",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Where is your manager?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Menu and diet"],
+            "aw01": [{ "st": "Menu and diet", "id": "SCA1_F9a389" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a27"
+          }
+        ]
+      },
+      {
+        "type": "We grill it over charcoal.",
+        "fsp": "How do you cook this?",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["We grill it over charcoal."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Menu and diet"],
+            "aw01": [{ "st": "Menu and diet", "id": "SCA1_F9a389" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How do you cook this?", "id": "SCA1_F9a399" }]
+      },
+      {
+        "type": "We use fresh beef and chicken.",
+        "fsp": "What kind of meat do you use?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["We use fresh beef and chicken."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Menu and diet"],
+            "aw01": [{ "st": "Menu and diet", "id": "SCA1_F9a386" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What kind of meat do you use?", "id": "SCA1_F9a396" }
+        ]
+      },
+      {
+        "type": "I ordered five dishes.",
+        "fsp": "How many dishes did you order?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["I ordered five dishes."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Menu and diet"],
+            "aw01": [{ "st": "Menu and diet", "id": "SCA1_F9a386" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "How many dishes did you order?", "id": "SCA1_F9a384" }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["How many dishes did you order?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Menu and diet"],
+            "aw01": [{ "st": "Menu and diet", "id": "SCA1_F9a386" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a24"
+          }
+        ]
+      },
+      {
+        "type": "The manager is in the office.",
+        "fsp": "Where is your manager?",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["The manager is in the office."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Menu and diet"],
+            "aw01": [{ "st": "Menu and diet", "id": "SCA1_F9a389" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Where is your manager?", "id": "SCA1_F9a405" }]
+      },
+      {
+        "type": "It starts at 8 p.m.",
+        "fsp": "What time does the show start?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["It starts at 8 p.m."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Menu and diet"],
+            "aw01": [{ "st": "Menu and diet", "id": "SCA1_F9a389" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What time does the show start?", "id": "SCA1_F9a387" }
+        ]
+      },
+      {
+        "type": "A4",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What drinks are for kids?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Menu and diet"],
+            "aw01": [{ "st": "Menu and diet", "id": "SCA1_F9a389" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a27"
+          }
+        ]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  },
+  {
+    "id": "eating-habits",
+    "ListenList": [],
+    "typeSets": [
+      "The password is on your receipt.",
+      "We open at 10 a.m.",
+      "Today is a special holiday menu.",
+      "We accept cash and credit cards.",
+      "Please talk to our event manager.",
+      "We serve Vietnamese and Western cuisine.",
+      "It is near the city center.",
+      "We have been open for three years.",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8"
+    ],
+    "SEO": {
+      "seo": {
+        "metaTitle": "Eating habits",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "Eating habits",
+        "IFdes": "Eating habits",
+        "IF-audiocode": "SCA1_F10"
+      },
+      "HD": [
+        {
+          "HD-01": "X",
+          "HD-02": "Eating habits",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "XX",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What is your Wi-Fi password?",
+          "HD-02": "The password is on your receipt.",
+          "HD-03": null,
+          "HD-04": "Why is the menu different today?",
+          "HD-05": "Today is a special holiday menu."
+        },
+        {
+          "HD-01": "What time do you open?",
+          "HD-02": "We open at 10 a.m.",
+          "HD-03": null,
+          "HD-04": "How do you take payments?",
+          "HD-05": "We accept cash and credit cards."
+        },
+        {
+          "HD-01": "X",
+          "HD-02": "X",
+          "HD-03": null,
+          "HD-04": "X",
+          "HD-05": "X"
+        },
+        {
+          "HD-01": "Who should I talk to about events?",
+          "HD-02": "Please talk to our event manager.",
+          "HD-03": null,
+          "HD-04": "Where is your restaurant located?",
+          "HD-05": "It is near the city center."
+        },
+        {
+          "HD-01": "What type of cuisine do you serve?",
+          "HD-02": "We serve Vietnamese and Western cuisine.",
+          "HD-03": null,
+          "HD-04": "How long have you been open?",
+          "HD-05": "We have been open for three years."
+        },
+        {
+          "HD-01": "X",
+          "HD-02": "X",
+          "HD-03": null,
+          "HD-04": "X",
+          "HD-05": "X"
+        },
+        {
+          "HD-01": "(A)",
+          "HD-02": "Questions and answers",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(B)",
+          "HD-02": "With the answer \"___\", what is the question?",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Tell me the topic.",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        }
+      ],
+      "TB": [],
+      "TV": [
+        {
+          "TV-01": "X",
+          "TV-02": "Eating habits",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": "XX",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Mật khẩu Wi-Fi của bạn là gì?",
+          "TV-02": "Mật khẩu có trên hóa đơn của bạn.",
+          "TV-03": null,
+          "TV-04": "Tại sao thực đơn hôm nay khác?",
+          "TV-05": "Hôm nay là thực đơn đặc biệt cho ngày lễ."
+        },
+        {
+          "TV-01": "Bạn mở cửa lúc mấy giờ?",
+          "TV-02": "Chúng tôi mở cửa lúc 10 giờ sáng.",
+          "TV-03": null,
+          "TV-04": "Bạn chấp nhận hình thức thanh toán nào?",
+          "TV-05": "Chúng tôi nhận tiền mặt và thẻ tín dụng."
+        },
+        {
+          "TV-01": "X",
+          "TV-02": "X",
+          "TV-03": "X",
+          "TV-04": "X",
+          "TV-05": "X"
+        },
+        {
+          "TV-01": "Tôi nên nói chuyện với ai về sự kiện?",
+          "TV-02": "Vui lòng nói chuyện với quản lý sự kiện của chúng tôi.",
+          "TV-03": null,
+          "TV-04": "Nhà hàng của bạn nằm ở đâu?",
+          "TV-05": "Nó nằm gần trung tâm thành phố."
+        },
+        {
+          "TV-01": "Bạn phục vụ loại ẩm thực nào?",
+          "TV-02": "Chúng tôi phục vụ ẩm thực Việt Nam và phương Tây.",
+          "TV-03": null,
+          "TV-04": "Bạn đã mở cửa được bao lâu rồi?",
+          "TV-05": "Chúng tôi đã mở cửa được ba năm."
+        },
+        {
+          "TV-01": "X",
+          "TV-02": "X",
+          "TV-03": "X",
+          "TV-04": "X",
+          "TV-05": "X"
+        },
+        {
+          "TV-01": "(A)",
+          "TV-02": "Questions and answers",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(B)",
+          "TV-02": "With the answer \"___\", what is the question?",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Tell me the topic.",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        }
+      ]
+    },
+    "charactor": [
+      {
+        "type": "A1",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What is your Wi-Fi password?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Eating habits"],
+            "aw01": [{ "st": "Eating habits", "id": "SCA1_F10a434" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a24"
+          }
+        ]
+      },
+      {
+        "type": "A8",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["How long have you been open?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Eating habits"],
+            "aw01": [{ "st": "Eating habits", "id": "SCA1_F10a437" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a27"
+          }
+        ]
+      },
+      {
+        "type": "The password is on your receipt.",
+        "fsp": "What is your Wi-Fi password?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["The password is on your receipt."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Eating habits"],
+            "aw01": [{ "st": "Eating habits", "id": "SCA1_F10a434" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What is your Wi-Fi password?", "id": "SCA1_F10a432" }
+        ]
+      },
+      {
+        "type": "Today is a special holiday menu.",
+        "fsp": "Why is the menu different today?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Today is a special holiday menu."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Eating habits"],
+            "aw01": [{ "st": "Eating habits", "id": "SCA1_F10a434" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Why is the menu different today?", "id": "SCA1_F10a438" }
+        ]
+      },
+      {
+        "type": "A3",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Why is the menu different today?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Eating habits"],
+            "aw01": [{ "st": "Eating habits", "id": "SCA1_F10a434" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a24"
+          }
+        ]
+      },
+      {
+        "type": "A5",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Who should I talk to about events?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Eating habits"],
+            "aw01": [{ "st": "Eating habits", "id": "SCA1_F10a434" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a24"
+          }
+        ]
+      },
+      {
+        "type": "A6",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What type of cuisine do you serve?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Eating habits"],
+            "aw01": [{ "st": "Eating habits", "id": "SCA1_F10a437" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a27"
+          }
+        ]
+      },
+      {
+        "type": "A7",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Where is your restaurant located?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Eating habits"],
+            "aw01": [{ "st": "Eating habits", "id": "SCA1_F10a434" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a24"
+          }
+        ]
+      },
+      {
+        "type": "It is near the city center.",
+        "fsp": "Where is your restaurant located?",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["It is near the city center."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Eating habits"],
+            "aw01": [{ "st": "Eating habits", "id": "SCA1_F10a434" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Where is your restaurant located?", "id": "SCA1_F10a450" }
+        ]
+      },
+      {
+        "type": "We serve Vietnamese and Western cuisine.",
+        "fsp": "What type of cuisine do you serve?",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["We serve Vietnamese and Western cuisine."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Eating habits"],
+            "aw01": [{ "st": "Eating habits", "id": "SCA1_F10a437" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What type of cuisine do you serve?", "id": "SCA1_F10a447" }
+        ]
+      },
+      {
+        "type": "We open at 10 a.m.",
+        "fsp": "What time do you open?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["We open at 10 a.m."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Eating habits"],
+            "aw01": [{ "st": "Eating habits", "id": "SCA1_F10a437" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What time do you open?", "id": "SCA1_F10a435" }]
+      },
+      {
+        "type": "A4",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["How do you take payments?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Eating habits"],
+            "aw01": [{ "st": "Eating habits", "id": "SCA1_F10a437" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a27"
+          }
+        ]
+      },
+      {
+        "type": "We have been open for three years.",
+        "fsp": "How long have you been open?",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["We have been open for three years."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Eating habits"],
+            "aw01": [{ "st": "Eating habits", "id": "SCA1_F10a437" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "How long have you been open?", "id": "SCA1_F10a453" }
+        ]
+      },
+      {
+        "type": "Please talk to our event manager.",
+        "fsp": "Who should I talk to about events?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Please talk to our event manager."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a1" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Eating habits"],
+            "aw01": [{ "st": "Eating habits", "id": "SCA1_F10a434" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Who should I talk to about events?", "id": "SCA1_F10a444" }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "With the anwer \"ERROR},\" what is the question?",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What time do you open?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Eating habits"],
+            "aw01": [{ "st": "Eating habits", "id": "SCA1_F10a437" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "With the anwer \"ERROR},\" what is the question?",
+            "id": "SCA1_F1a27"
+          }
+        ]
+      },
+      {
+        "type": "We accept cash and credit cards.",
+        "fsp": "How do you take payments?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["We accept cash and credit cards."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "SCA1_F1a4" }]
+          },
+          {
+            "qs": ["Tell me the topic."],
+            "aw": ["Eating habits"],
+            "aw01": [{ "st": "Eating habits", "id": "SCA1_F10a437" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How do you take payments?", "id": "SCA1_F10a441" }]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  }
+]

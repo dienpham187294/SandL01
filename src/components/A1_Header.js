@@ -57,6 +57,14 @@ const pracEnSets = [
     link: "endp01_a",
     id: "socapI",
   },
+  {
+    root: "learninghub",
+    preName: "(D) Sơ cấp A",
+    name: "Chủ đề ăn uống - nhà hàng",
+    link: "endpsc_nh_a",
+    id: "socapI",
+  },
+
   // {
   //   root: "learninghub",
   //   preName: "(C) Phản xạ: ",
