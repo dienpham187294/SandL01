@@ -131,6 +131,13 @@ const pracEnSets = [
     link: "t1-canvas-model",
     id: "socapI",
   },
+  {
+    root: "learninghub",
+    preName: "Rèn luyện tích cực",
+    name: "Food and eating",
+    link: "esl_food_and_eating",
+    id: "socapII",
+  },
 ];
 
 export default function Header({ sttRoom, STTconnectFN }) {

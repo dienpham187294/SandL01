@@ -313,7 +313,12 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                         Quay lại bảng
                       </button>
                     </div>
-                    <div className="col-6">
+                    <div className="col-9">
+                      {" "}
+                      <h5>Đoán - Tra - Tìm - Ghép</h5>
+                      <h4 style={{ color: "blue" }}>U - E - O - A - i - Ơ</h4>
+                    </div>
+                    {/* <div className="col-6">
                       {" "}
                       {generateBootstrapList(
                         dataLearning[currentIndex]?.ListenList,
@@ -343,13 +348,14 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                       >
                         Clear Table
                       </button>
-                    </div>
+                    </div> */}
                   </div>
                   <hr />
                   <div className="row">
-                    {" "}
-                    <h5>Đoán - Tra - Tìm - Ghép</h5>
-                    <h4 style={{ color: "blue" }}>U - E - O - A - i - Ơ</h4>
+                    {StringSimilarityMatcher(
+                      CMDlist,
+                      dataLearning[currentIndex]?.HDTB?.IPA
+                    )}
                   </div>
                   <hr />
                   <h1>{choose_a_st ? choose_a_st : CMDlist}</h1> <hr />
@@ -390,7 +396,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                   </div>
                 </div>
                 <div className="col-6">
-                  {CMDlist}
+                  {/* {CMDlist} */}
                   <Dictaphone CMDlist={CMDlist} />
                   <hr />
                   <button
@@ -1081,5 +1087,61 @@ function kiemtramic() {
       });
   } catch (error) {
     console.error("Lỗi khi kiểm tra micro:", error);
+  }
+}
+
+/**
+ * Finds the most similar phrase in the array and returns formatted HTML with translations
+ * @param {string} inputString - String to match against IPA-01 values
+ * @param {Object[]} phrasesArray - Array of phrase objects with IPA-01, IPA-02, IPA-03 keys
+ * @returns {string|null} HTML string with matched translations or null if no match above threshold
+ */
+function StringSimilarityMatcher(inputString, phrasesArray) {
+  // Check if array exists
+  if (
+    !phrasesArray ||
+    !Array.isArray(phrasesArray) ||
+    phrasesArray.length === 0
+  ) {
+    return null;
+  }
+
+  try {
+    // Import string-similarity (ensure it's installed: npm install string-similarity)
+    const stringSimilarity = require("string-similarity");
+
+    // Extract all IPA-01 phrases for comparison
+    const phrases = phrasesArray.map((item) => item["IPA-01"]);
+
+    // Calculate similarity scores between input and all phrases
+    const matches = stringSimilarity.findBestMatch(inputString, phrases);
+
+    // Get the best match and its score
+    const bestMatch = matches.bestMatch;
+    const bestMatchIndex = matches.bestMatchIndex;
+    const similarityScore = bestMatch.rating;
+
+    // If similarity is above 80%, return formatted result
+    if (similarityScore >= 0.9) {
+      const matchedPhrase = phrasesArray[bestMatchIndex];
+
+      // Format the result as HTML with <i> tags for IPA-02 and IPA-03
+      return (
+        <div>
+          <p>
+            Dịch thô: <b>{matchedPhrase["IPA-02"]}</b>{" "}
+          </p>
+          <p>
+            Phiên âm: <b>{matchedPhrase["IPA-03"]}</b>{" "}
+          </p>
+        </div>
+      );
+    }
+
+    // If similarity is below 80%, return null
+    return null;
+  } catch (error) {
+    console.error("Error in StringSimilarityMatcher:", error);
+    return null;
   }
 }

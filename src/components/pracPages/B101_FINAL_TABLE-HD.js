@@ -46,7 +46,12 @@ function TableHD({ data, data_TB, HINT, fnOnclick }) {
                           fontWeight: "bold",
                           color: "blue",
                         }
-                      : { fontWeight: "bold", fontSize: "large" }
+                      : {
+                          fontWeight: (row[header] + "").includes("?")
+                            ? "bold"
+                            : "initial",
+                          fontSize: "large",
+                        }
                   }
                   key={colIndex}
                   onClick={() => {

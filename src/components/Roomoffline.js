@@ -313,7 +313,7 @@ const Room = ({ setSttRoom }) => {
           <h3>Điểm: {Score} </h3>
           <h3>Lượt {numberBegin}</h3>
         </div>
-
+        {formatTime(new Date())}
         <hr />
         {SttCoundown === "01" || numberBegin === 0 ? (
           <button
@@ -338,6 +338,11 @@ const Room = ({ setSttRoom }) => {
             +
           </button>
         ) : null}
+        <br />
+        Mã bài tập:
+        <br />
+        <i style={{ fontSize: "small" }}>{params.get("a")}</i>
+        <i style={{ fontSize: "small" }}>{splitIntoChunks(params.get("b"))}</i>
       </div>
 
       <div style={{ flex: 8 }}>
@@ -658,3 +663,29 @@ function getArrayElements(arr, m, n) {
   // Nếu n < arr.length, trả về n phần tử đầu tiên của mảng đã xoay
   return rotatedArr.slice(0, n);
 }
+function splitIntoChunks(paramB) {
+  if (!paramB) {
+    return null;
+  }
+
+  // Remove all 'zz' from the string
+  paramB = paramB.split("zz").join("");
+
+  const chunks = [];
+  for (let i = 0; i < paramB.length; i += 6) {
+    chunks.push(paramB.substring(i, i + 6));
+  }
+
+  return JSON.stringify(chunks);
+}
+const formatTime = (date) => {
+  if (!date) return "";
+  const hours = date.getHours().toString().padStart(2, "0");
+  const minutes = date.getMinutes().toString().padStart(2, "0");
+  const seconds = date.getSeconds().toString().padStart(2, "0");
+  const day = date.getDate().toString().padStart(2, "0");
+  const month = (date.getMonth() + 1).toString().padStart(2, "0");
+  const year = date.getFullYear();
+
+  return `${hours}:${minutes}:${seconds} - ${day}/${month}/${year}`;
+};
