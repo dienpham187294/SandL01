@@ -792,7 +792,10 @@
         "gender": "male",
         "data": [
           {
-            "qs": ["The steak is fifteen dollars only."],
+            "qs": [
+              "The steak is fifteen dollars only.",
+              "The steak is $15 only."
+            ],
             "aw": ["Good"],
             "submit": ["FN01"],
             "action": ["FN01"],

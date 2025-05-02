@@ -313,7 +313,10 @@ const Room = ({ setSttRoom }) => {
           <h3>Điểm: {Score} </h3>
           <h3>Lượt {numberBegin}</h3>
         </div>
-        {formatTime(new Date())}
+        {formatTime(new Date())} <br /> Mã bài tập:
+        <br />
+        <i style={{ fontSize: "small" }}>{params.get("a")}</i>
+        <i style={{ fontSize: "small" }}>{splitIntoChunks(params.get("b"))}</i>
         <hr />
         {SttCoundown === "01" || numberBegin === 0 ? (
           <button
@@ -339,10 +342,6 @@ const Room = ({ setSttRoom }) => {
           </button>
         ) : null}
         <br />
-        Mã bài tập:
-        <br />
-        <i style={{ fontSize: "small" }}>{params.get("a")}</i>
-        <i style={{ fontSize: "small" }}>{splitIntoChunks(params.get("b"))}</i>
       </div>
 
       <div style={{ flex: 8 }}>
@@ -534,6 +533,7 @@ function filer_type_o_charactor(charactorSets, filerTypeSetsStringValue, fsp) {
     }
 
     let filerTypeSetsArrayValue = filerTypeSetsStringValue.split("zz");
+
     console.log(filerTypeSetsArrayValue, "filerTypeSetsArrayValue");
 
     let res_after_filer = [];
@@ -669,15 +669,16 @@ function splitIntoChunks(paramB) {
   }
 
   // Remove all 'zz' from the string
-  paramB = paramB.split("zz").join("");
+  paramB = paramB.replace(/zz/g, "");
 
-  const chunks = [];
+  let chunks = "";
   for (let i = 0; i < paramB.length; i += 6) {
-    chunks.push(paramB.substring(i, i + 6));
+    chunks += " " + paramB.substring(i, i + 6);
   }
 
-  return JSON.stringify(chunks);
+  return chunks.trim(); // Remove leading space
 }
+
 const formatTime = (date) => {
   if (!date) return "";
   const hours = date.getHours().toString().padStart(2, "0");
