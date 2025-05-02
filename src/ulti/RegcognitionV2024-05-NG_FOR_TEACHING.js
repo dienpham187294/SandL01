@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { socket } from "../App";
 import SpeechRecognition, {
   useSpeechRecognition,
 } from "react-speech-recognition";
@@ -7,7 +8,6 @@ let commands = [];
 const Dictaphone = ({ CMDlist }) => {
   const { interimTranscript, transcript, listening, resetTranscript } =
     useSpeechRecognition({ commands });
-
 
   useEffect(() => {
     commands = [
@@ -41,8 +41,6 @@ const Dictaphone = ({ CMDlist }) => {
     SpeechRecognition.stopListening();
   };
 
-
-
   return (
     <div className="container row mt-4" style={styles}>
       <div className="col-4">
@@ -72,6 +70,7 @@ const Dictaphone = ({ CMDlist }) => {
           Bắt đầu
         </button>
         <hr />
+        <hr />
         <h4>Rèn luyện câu:</h4>
         <h2>
           <b style={{ color: "blue" }}>{CMDlist}</b>
@@ -83,15 +82,37 @@ const Dictaphone = ({ CMDlist }) => {
         <h5 style={{ color: "blue" }}>
           {listening ? "Đang bật - Hãy nói . . ." : "Đang tắt."}
         </h5>
-        <h1 style={{}}>(1){transcript}</h1>{" "}
-        <h5 style={{ color: "blue" }}>
-          {" "}
-          (2)
-          <i>{interimTranscript}</i> <i id="interimRes"></i>
-        </h5>
-       
-        <hr />
-        <i> Chỉ cần (1) hoặc (2) đúng là đã đủ chuẩn thực hành.</i>
+        {listening ? (
+          <div>
+            {" "}
+            <h1 style={{}}>(1){transcript}</h1>{" "}
+            <h5 style={{ color: "blue" }}>
+              {" "}
+              (2)
+              <i>{interimTranscript}</i> <i id="interimRes"></i>
+            </h5>{" "}
+            <button
+              className="btn btn-danger"
+              onClick={() => {
+                stopListening();
+                const idDinhDanh = localStorage.getItem("dinhDanh");
+                const nameDinhDanh = localStorage.getItem("nameDinhDanh") || "";
+                socket.emit("message", {
+                  text: transcript,
+                  time:
+                    "KQTH:" + nameDinhDanh ||
+                    (idDinhDanh ? idDinhDanh.slice(0, 4) : ""),
+                  // type: "notify",
+                  // id: idDinhDanh,
+                });
+              }}
+            >
+              XONG GỬI KẾT QUẢ
+            </button>
+            <hr />
+            <i> Chỉ cần (1) hoặc (2) đúng là đã đủ chuẩn thực hành.</i>
+          </div>
+        ) : null}
         <br />
         ***
         <br />
@@ -119,3 +140,10 @@ const Dictaphone = ({ CMDlist }) => {
 };
 
 export default Dictaphone;
+
+// socket.emit("messageReg", {
+//   text: "[" + Score + "] Điểm | ",
+//   time: nameDinhDanh || (idDinhDanh ? idDinhDanh.slice(0, 4) : ""),
+//   type: "notify",
+//   id: idDinhDanh,
+// });
