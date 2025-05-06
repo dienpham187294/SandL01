@@ -350,14 +350,6 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                       </button>
                     </div> */}
                   </div>
-                  <hr />
-                  <div className="row">
-                    {StringSimilarityMatcher(
-                      CMDlist,
-                      dataLearning[currentIndex]?.HDTB?.IPA
-                    )}
-                  </div>
-                  <hr />
                   <h1>{choose_a_st ? choose_a_st : CMDlist}</h1> <hr />
                   <textarea
                     style={{
@@ -374,6 +366,14 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                     }}
                     id="clearClassForTable"
                   ></textarea>
+                  <hr />
+                  <div className="row">
+                    {StringSimilarityMatcher(
+                      CMDlist,
+                      dataLearning[currentIndex]?.HDTB?.IPA
+                    )}
+                  </div>
+                  <hr />
                   <div className="row">
                     <hr />
                     <div className="col-6">
@@ -1128,11 +1128,15 @@ function StringSimilarityMatcher(inputString, phrasesArray) {
       // Format the result as HTML with <i> tags for IPA-02 and IPA-03
       return (
         <div>
+          *Tham khảo:
           <p>
             Dịch thô: <b>{matchedPhrase["IPA-02"]}</b>{" "}
           </p>
           <p>
-            Phiên âm: <b>{matchedPhrase["IPA-03"]}</b>{" "}
+            Phiên âm UK: <b>{matchedPhrase["IPA-03"]}</b>{" "}
+          </p>{" "}
+          <p>
+            Phiên âm US: <b>{matchedPhrase["IPA-04"]}</b>{" "}
           </p>
         </div>
       );

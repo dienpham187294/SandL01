@@ -138,6 +138,13 @@ const pracEnSets = [
     link: "esl_food_and_eating",
     id: "socapII",
   },
+  {
+    root: "learninghub",
+    preName: "Rèn luyện tích cực",
+    name: "5 summer fruits",
+    link: "b1_summer_fruit_01",
+    id: "trungcapI",
+  },
 ];
 
 export default function Header({ sttRoom, STTconnectFN }) {

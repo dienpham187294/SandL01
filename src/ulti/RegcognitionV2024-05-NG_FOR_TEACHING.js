@@ -100,11 +100,12 @@ const Dictaphone = ({ CMDlist }) => {
                 socket.emit("message", {
                   text: transcript,
                   time:
-                    "KQTH:" + nameDinhDanh ||
+                    "KQTH_" + nameDinhDanh ||
                     (idDinhDanh ? idDinhDanh.slice(0, 4) : ""),
                   // type: "notify",
                   // id: idDinhDanh,
                 });
+                resetTranscript();
               }}
             >
               XONG GỬI KẾT QUẢ
