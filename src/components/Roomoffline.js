@@ -525,22 +525,75 @@ function interleaveCharacters(
   }
   return arrRes;
 }
-
 function filer_type_o_charactor(charactorSets, filerTypeSetsStringValue, fsp) {
   try {
+    // Check if inputs are valid
     if (!filerTypeSetsStringValue || !Array.isArray(charactorSets)) {
       return charactorSets;
     }
 
+    // Split the filter string into an array using "zz" as separator
     let filerTypeSetsArrayValue = filerTypeSetsStringValue.split("zz");
-
     console.log(filerTypeSetsArrayValue, "filerTypeSetsArrayValue");
 
     let res_after_filer = [];
+    let filerTypeSetsArrayValueAll = [];
+    let filerTypeSetsArrayValueSpecific = [];
+    let rangeFilters = [];
+
+    // Process each filter part
+    filerTypeSetsArrayValue.forEach((e) => {
+      if (e.includes("*")) {
+        // Store the prefix (string before the "*") for wildcard matching
+        filerTypeSetsArrayValueAll.push(e.replace("*", ""));
+      } else if (e.includes("-")) {
+        // Handle range filter like A1-5 or A9-10
+        rangeFilters.push(e);
+      } else {
+        filerTypeSetsArrayValueSpecific.push(e);
+      }
+    });
 
     charactorSets.forEach((e) => {
-      const isTypeMatch = filerTypeSetsArrayValue.includes(e?.type);
+      let isTypeMatch = false;
 
+      // Check if the type exactly matches any specific filter
+      if (filerTypeSetsArrayValueSpecific.includes(e?.type)) {
+        isTypeMatch = true;
+      } else {
+        // Check if the type starts with any wildcard filter prefix
+        for (let prefix of filerTypeSetsArrayValueAll) {
+          if (e?.type && e.type.startsWith(prefix)) {
+            isTypeMatch = true;
+            break;
+          }
+        }
+
+        // Check if the type falls within any range filter
+        if (!isTypeMatch && e?.type) {
+          for (let rangeFilter of rangeFilters) {
+            // Parse the range filter (e.g., "A1-5" → prefix="A", start=1, end=5)
+            const matches = rangeFilter.match(/([A-Za-z]*)(\d+)-(\d+)/);
+            if (matches) {
+              const prefix = matches[1];
+              const start = parseInt(matches[2]);
+              const end = parseInt(matches[3]);
+
+              // Check if the type has the same prefix and a number in the range
+              const typeMatches = e.type.match(new RegExp(`^${prefix}(\\d+)$`));
+              if (typeMatches) {
+                const typeNumber = parseInt(typeMatches[1]);
+                if (typeNumber >= start && typeNumber <= end) {
+                  isTypeMatch = true;
+                  break;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      // Check if FSP matches (if FSP filter is provided)
       const eFspStr = (e?.fsp || "").toLowerCase();
       const fspStr = (fsp || "").toLowerCase();
       const isFspMatch = fsp ? eFspStr.includes(fspStr) : true;

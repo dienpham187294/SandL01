@@ -9,6 +9,8 @@ import Dictaphone from "../ulti/RegcognitionV2024-05-NG_FOR_TEACHING";
 import NguyenTacghepam from "./A1_NguyentacGhepam";
 import ReadMessage from "../ulti/ReadMessage_2024";
 import LinkAPI from "../ulti/T0_linkApi";
+import Getlink from "./LearningHub_getlink";
+
 const colors = ["red", "orange", "black", "green", "blue", "indigo", "violet"];
 
 const LearningHub = ({ setSttRoom, STTconnectFN }) => {
@@ -282,6 +284,12 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                   ))}
                 </div>
               )} */}
+              {/* <Getlink
+                id="id"
+                index="0"
+                lessonSetLength="10"
+                typeSet={dataLearning[currentIndex]?.typeSets || ["A1"]}
+              /> */}
             </div>
             <div
               id="div_01_prac_ghep_am"
