@@ -928,8 +928,8 @@ function fn_f_allTable_t_tableOfContent(input) {
 }
 
 const imageStyle = {
-  maxWidth: "150px",
-  maxHeight: "150px",
+  maxWidth: "250px",
+  maxHeight: "250px",
   objectFit: "cover",
   borderRadius: "4px",
   border: "2px solid green",
