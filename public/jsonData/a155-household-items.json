@@ -1,0 +1,5182 @@
+[
+  {
+    "id": "a-study-desk",
+    "ListenList": [],
+    "typeSets": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "SEO": {
+      "seo": {
+        "metaTitle": "a study desk",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "a study desk",
+        "IFdes": "a study desk",
+        "IF-audiocode": "ESB1_F1"
+      },
+      "HD": [
+        {
+          "HD-01": "X",
+          "HD-02": "a study desk",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "https://i.postimg.cc/dVCn902Z/A1-a-study-desk.jpg",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What is this?",
+          "HD-02": "This is a study desk.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Where is the chair?",
+          "HD-02": "The chair is next to the desk.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What is on the desk?",
+          "HD-02": "There is a book and a lamp on the desk.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Is the desk big or small?",
+          "HD-02": "The desk is big.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What color is the desk?",
+          "HD-02": "The desk is brown.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(A1-A5)",
+          "HD-02": "Question and answers.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(B1-B5)",
+          "HD-02": "What is the question for ..",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(C1-5)",
+          "HD-02": "Yes",
+          "HD-03": "No",
+          "HD-04": "What is the correct answer?",
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": "What is the correct question?",
+          "HD-05": null
+        }
+      ],
+      "TB": [],
+      "TV": [
+        {
+          "TV-01": "X",
+          "TV-02": "một bàn học",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": "https://i.postimg.cc/dVCn902Z/A1-a-study-desk.jpg",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "X",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Đây là cái gì?",
+          "TV-02": "Đây là bàn học.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Cái ghế ở đâu?",
+          "TV-02": "Cái ghế ở cạnh bàn.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Cái gì trên bàn vậy?",
+          "TV-02": "Có một quyển sách và một cái đèn trên bàn.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Cái bàn này to hay nhỏ?",
+          "TV-02": "Cái bàn này to.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Cái bàn này màu gì?",
+          "TV-02": "Cái bàn này màu nâu.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(A1-A5)",
+          "TV-02": "Question and answers.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(B1-B5)",
+          "TV-02": "What is the question for ..",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(C1-5)",
+          "TV-02": "Yes",
+          "TV-03": "No",
+          "TV-04": "What is the correct answer?",
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": "What is the correct question?",
+          "TV-05": null
+        }
+      ],
+      "IPA": [
+        {
+          "IPA-01": "What is this?",
+          "IPA-02": "Đây là cái gì?",
+          "IPA-03": "wɒt ɪz ðɪs?",
+          "IPA-04": "wɑt ɪz ðɪs?"
+        },
+        {
+          "IPA-01": "This is a study desk.",
+          "IPA-02": "Đây là bàn học.",
+          "IPA-03": "ðɪs ɪz ə ˈstʌdi dɛsk.",
+          "IPA-04": "ðɪs ɪz ə ˈstʌdi dɛsk."
+        },
+        {
+          "IPA-01": "Where is the chair?",
+          "IPA-02": "Cái ghế ở đâu?",
+          "IPA-03": "weər ɪz ðə ʧeə?",
+          "IPA-04": "wɛr ɪz ðə ʧɛr?"
+        },
+        {
+          "IPA-01": "The chair is next to the desk.",
+          "IPA-02": "Cái ghế ở cạnh bàn.",
+          "IPA-03": "ðə ʧeər ɪz nɛkst tuː ðə dɛsk.",
+          "IPA-04": "ðə ʧɛr ɪz nɛkst tu ðə dɛsk."
+        },
+        {
+          "IPA-01": "What is on the desk?",
+          "IPA-02": "Cái gì trên bàn vậy?",
+          "IPA-03": "wɒt ɪz ɒn ðə dɛsk?",
+          "IPA-04": "wɑt ɪz ɑn ðə dɛsk?"
+        },
+        {
+          "IPA-01": "There is a book and a lamp on the desk.",
+          "IPA-02": "Có một quyển sách và một cái đèn trên bàn.",
+          "IPA-03": "ðeər ɪz ə bʊk ænd ə læmp ɒn ðə dɛsk.",
+          "IPA-04": "ðɛr ɪz ə bʊk ænd ə læmp ɑn ðə dɛsk."
+        },
+        {
+          "IPA-01": "Is the desk big or small?",
+          "IPA-02": "Cái bàn này to hay nhỏ?",
+          "IPA-03": "ɪz ðə dɛsk bɪɡ ɔː smɔːl?",
+          "IPA-04": "ɪz ðə dɛsk bɪɡ ɔr smɔl?"
+        },
+        {
+          "IPA-01": "The desk is big.",
+          "IPA-02": "Cái bàn này to.",
+          "IPA-03": "ðə dɛsk ɪz bɪɡ.",
+          "IPA-04": "ðə dɛsk ɪz bɪɡ."
+        },
+        {
+          "IPA-01": "What color is the desk?",
+          "IPA-02": "Cái bàn này màu gì?",
+          "IPA-03": "wɒt ˈkʌlər ɪz ðə dɛsk?",
+          "IPA-04": "wɑt ˈkʌlər ɪz ðə dɛsk?"
+        },
+        {
+          "IPA-01": "The desk is brown.",
+          "IPA-02": "Cái bàn này màu nâu.",
+          "IPA-03": "ðə dɛsk ɪz braʊn.",
+          "IPA-04": "ðə dɛsk ɪz braʊn."
+        }
+      ]
+    },
+    "charactor": [
+      {
+        "type": "B3",
+        "hint": "https://i.postimg.cc/dVCn902Z/A1-a-study-desk.jpg",
+        "fsp": "What is the question for There is a book and a lamp on the desk.",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What is on the desk?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for There is a book and a lamp on the desk.",
+            "id": "ESB1_F1a14"
+          }
+        ]
+      },
+      {
+        "type": "A5",
+        "hint": "https://i.postimg.cc/dVCn902Z/A1-a-study-desk.jpg",
+        "fsp": "What color is the desk?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["The desk is brown."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What color is the desk?", "id": "ESB1_F1a8" }]
+      },
+      {
+        "type": "B4",
+        "hint": "https://i.postimg.cc/dVCn902Z/A1-a-study-desk.jpg",
+        "fsp": "What is the question for The desk is big.",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Is the desk big or small?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for The desk is big.",
+            "id": "ESB1_F1a16"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/dVCn902Z/A1-a-study-desk.jpg",
+        "fsp": "Where is the chair? The chair is next to the desk. Yes or no?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a25" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Where is the chair? The chair is next to the desk. Yes or no?",
+            "id": "ESB1_F1a23"
+          }
+        ]
+      },
+      {
+        "type": "A3",
+        "hint": "https://i.postimg.cc/dVCn902Z/A1-a-study-desk.jpg",
+        "fsp": "What is on the desk?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["There is a book and a lamp on the desk."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What is on the desk?", "id": "ESB1_F1a4" }]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/dVCn902Z/A1-a-study-desk.jpg",
+        "fsp": "What color is the desk? The desk is brown. Yes or no?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F1a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a22" }]
+          },
+          {
+            "qs": ["What color is the desk?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What color is the desk? The desk is brown. Yes or no?",
+            "id": "ESB1_F1a32"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "hint": "https://i.postimg.cc/dVCn902Z/A1-a-study-desk.jpg",
+        "fsp": "What is this?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["This is a study desk."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What is this?", "id": "ESB1_F1a0" }]
+      },
+      {
+        "type": "B5",
+        "hint": "https://i.postimg.cc/dVCn902Z/A1-a-study-desk.jpg",
+        "fsp": "What is the question for The desk is brown.",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What color is the desk?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for The desk is brown.",
+            "id": "ESB1_F1a18"
+          }
+        ]
+      },
+      {
+        "type": "A4",
+        "hint": "https://i.postimg.cc/dVCn902Z/A1-a-study-desk.jpg",
+        "fsp": "Is the desk big or small?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["The desk is big."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Is the desk big or small?", "id": "ESB1_F1a6" }]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/dVCn902Z/A1-a-study-desk.jpg",
+        "fsp": "Is the desk big or small? The chair is next to the desk. Yes or no?",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F1a40" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a22" }]
+          },
+          {
+            "qs": ["The desk is big."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Is the desk big or small? The chair is next to the desk. Yes or no?",
+            "id": "ESB1_F1a47"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/dVCn902Z/A1-a-study-desk.jpg",
+        "fsp": "What is this? This is a study desk. Yes or no?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F1a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a22" }]
+          },
+          {
+            "qs": ["What is this?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What is this? This is a study desk. Yes or no?",
+            "id": "ESB1_F1a20"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "hint": "https://i.postimg.cc/dVCn902Z/A1-a-study-desk.jpg",
+        "fsp": "Where is the chair?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["The chair is next to the desk."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Where is the chair?", "id": "ESB1_F1a2" }]
+      },
+      {
+        "type": "B2",
+        "hint": "https://i.postimg.cc/dVCn902Z/A1-a-study-desk.jpg",
+        "fsp": "What is the question for The chair is next to the desk.",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Where is the chair?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for The chair is next to the desk.",
+            "id": "ESB1_F1a12"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/dVCn902Z/A1-a-study-desk.jpg",
+        "fsp": "What is on the desk? There is a book and a lamp on the desk. Yes or no?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is on the desk? There is a book and a lamp on the desk. Yes or no?",
+            "id": "ESB1_F1a26"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "hint": "https://i.postimg.cc/dVCn902Z/A1-a-study-desk.jpg",
+        "fsp": "What is the question for This is a study desk.",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What is this?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for This is a study desk.",
+            "id": "ESB1_F1a10"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/dVCn902Z/A1-a-study-desk.jpg",
+        "fsp": "What is on the desk? There is a book and a lamp on the desk. Yes or no?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F1a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a22" }]
+          },
+          {
+            "qs": ["What is on the desk?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What is on the desk? There is a book and a lamp on the desk. Yes or no?",
+            "id": "ESB1_F1a26"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/dVCn902Z/A1-a-study-desk.jpg",
+        "fsp": "What is this? This is a study desk. Yes or no?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is this? This is a study desk. Yes or no?",
+            "id": "ESB1_F1a20"
+          }
+        ]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/dVCn902Z/A1-a-study-desk.jpg",
+        "fsp": "Is the desk big or small? The desk is big. Yes or no?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F1a60" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a25" }]
+          },
+          {
+            "qs": ["Is the desk big or small?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Is the desk big or small? The desk is big. Yes or no?",
+            "id": "ESB1_F1a29"
+          }
+        ]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/dVCn902Z/A1-a-study-desk.jpg",
+        "fsp": "What color is the desk? The desk is brown. Yes or no?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What color is the desk? The desk is brown. Yes or no?",
+            "id": "ESB1_F1a32"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/dVCn902Z/A1-a-study-desk.jpg",
+        "fsp": "Where is the chair? The chair is next to the desk. Yes or no?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F1a60" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a25" }]
+          },
+          {
+            "qs": ["Where is the chair?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Where is the chair? The chair is next to the desk. Yes or no?",
+            "id": "ESB1_F1a23"
+          }
+        ]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/dVCn902Z/A1-a-study-desk.jpg",
+        "fsp": "Is the desk big or small? The desk is big. Yes or no?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a25" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is the desk big or small? The desk is big. Yes or no?",
+            "id": "ESB1_F1a29"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/dVCn902Z/A1-a-study-desk.jpg",
+        "fsp": "What is on the desk? This is a study desk. Yes or no?",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F1a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a25" }]
+          },
+          {
+            "qs": ["There is a book and a lamp on the desk."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What is on the desk? This is a study desk. Yes or no?",
+            "id": "ESB1_F1a43"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/dVCn902Z/A1-a-study-desk.jpg",
+        "fsp": "What is this? The desk is big. Yes or no?",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F1a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a25" }]
+          },
+          {
+            "qs": ["This is a study desk."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What is this? The desk is big. Yes or no?",
+            "id": "ESB1_F1a35"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/dVCn902Z/A1-a-study-desk.jpg",
+        "fsp": "Where is the chair? The desk is brown. Yes or no?",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F1a40" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a22" }]
+          },
+          {
+            "qs": ["The chair is next to the desk."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Where is the chair? The desk is brown. Yes or no?",
+            "id": "ESB1_F1a39"
+          }
+        ]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/dVCn902Z/A1-a-study-desk.jpg",
+        "fsp": "What color is the desk? There is a book and a lamp on the desk. Yes or no?",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F1a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a25" }]
+          },
+          {
+            "qs": ["The desk is brown."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What color is the desk? There is a book and a lamp on the desk. Yes or no?",
+            "id": "ESB1_F1a51"
+          }
+        ]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  },
+  {
+    "id": "a-sofa",
+    "ListenList": [],
+    "typeSets": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "SEO": {
+      "seo": {
+        "metaTitle": "a sofa",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "a sofa",
+        "IFdes": "a sofa",
+        "IF-audiocode": "ESB1_F2"
+      },
+      "HD": [
+        {
+          "HD-01": "X",
+          "HD-02": "a sofa",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "https://i.postimg.cc/SN3D89Mp/A2-sofa.jpg",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What is this?",
+          "HD-02": "This is a sofa.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Where is the sofa?",
+          "HD-02": "The sofa is in the living room.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What color is the sofa?",
+          "HD-02": "The sofa is gray.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Is the sofa big or small?",
+          "HD-02": "The sofa is big.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Can you sit on the sofa?",
+          "HD-02": "Yes, you can sit and relax on it.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(A1-A5)",
+          "HD-02": "Question and answers.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(B1-B5)",
+          "HD-02": "What is the question for ..",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(C1-5)",
+          "HD-02": "Yes",
+          "HD-03": "No",
+          "HD-04": "What is the correct answer?",
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": "What is the correct question?",
+          "HD-05": null
+        }
+      ],
+      "TB": [],
+      "TV": [
+        {
+          "TV-01": "X",
+          "TV-02": "một chiếc ghế sofa",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": "https://i.postimg.cc/SN3D89Mp/A2-sofa.jpg",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "X",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Đây là gì?",
+          "TV-02": "Đây là ghế sofa.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Ghế sofa ở đâu?",
+          "TV-02": "Ghế sofa ở trong phòng khách.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Ghế sofa màu gì?",
+          "TV-02": "Ghế sofa màu xám.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Ghế sofa lớn hay nhỏ?",
+          "TV-02": "Ghế sofa lớn.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Bạn có thể ngồi trên ghế sofa không?",
+          "TV-02": "Có, bạn có thể ngồi và thư giãn trên đó.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(A1-A5)",
+          "TV-02": "Question and answers.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(B1-B5)",
+          "TV-02": "What is the question for ..",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(C1-5)",
+          "TV-02": "Yes",
+          "TV-03": "No",
+          "TV-04": "What is the correct answer?",
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": "What is the correct question?",
+          "TV-05": null
+        }
+      ],
+      "IPA": [
+        {
+          "IPA-01": "What is this?",
+          "IPA-02": "Đây là gì?",
+          "IPA-03": "wɒt ɪz ðɪs?",
+          "IPA-04": "wɑt ɪz ðɪs?"
+        },
+        {
+          "IPA-01": "This is a sofa.",
+          "IPA-02": "Đây là ghế sofa.",
+          "IPA-03": "ðɪs ɪz ə ˈsəʊfə.",
+          "IPA-04": "ðɪs ɪz ə ˈsoʊfə."
+        },
+        {
+          "IPA-01": "Where is the sofa?",
+          "IPA-02": "Ghế sofa ở đâu?",
+          "IPA-03": "weər ɪz ðə ˈsəʊfə?",
+          "IPA-04": "wɛr ɪz ðə ˈsoʊfə?"
+        },
+        {
+          "IPA-01": "The sofa is in the living room.",
+          "IPA-02": "Ghế sofa ở trong phòng khách.",
+          "IPA-03": "ðə ˈsəʊfə ɪz ɪn ðə ˈlɪvɪŋ ruːm.",
+          "IPA-04": "ðə ˈsoʊfə ɪz ɪn ðə ˈlɪvɪŋ rum."
+        },
+        {
+          "IPA-01": "What color is the sofa?",
+          "IPA-02": "Ghế sofa màu gì?",
+          "IPA-03": "wɒt ˈkʌlər ɪz ðə ˈsəʊfə?",
+          "IPA-04": "wɑt ˈkʌlər ɪz ðə ˈsoʊfə?"
+        },
+        {
+          "IPA-01": "The sofa is gray.",
+          "IPA-02": "Ghế sofa màu xám.",
+          "IPA-03": "ðə ˈsəʊfə ɪz ɡreɪ.",
+          "IPA-04": "ðə ˈsoʊfə ɪz ɡreɪ."
+        },
+        {
+          "IPA-01": "Is the sofa big or small?",
+          "IPA-02": "Ghế sofa lớn hay nhỏ?",
+          "IPA-03": "ɪz ðə ˈsəʊfə bɪɡ ɔː smɔːl?",
+          "IPA-04": "ɪz ðə ˈsoʊfə bɪɡ ɔr smɔl?"
+        },
+        {
+          "IPA-01": "The sofa is big.",
+          "IPA-02": "Ghế sofa lớn.",
+          "IPA-03": "ðə ˈsəʊfə ɪz bɪɡ.",
+          "IPA-04": "ðə ˈsoʊfə ɪz bɪɡ."
+        },
+        {
+          "IPA-01": "Can you sit on the sofa?",
+          "IPA-02": "Bạn có thể ngồi trên ghế sofa không?",
+          "IPA-03": "kæn juː sɪt ɒn ðə ˈsəʊfə?",
+          "IPA-04": "kæn ju sɪt ɑn ðə ˈsoʊfə?"
+        },
+        {
+          "IPA-01": "Yes, you can sit and relax on it.",
+          "IPA-02": "Có, bạn có thể ngồi và thư giãn trên đó.",
+          "IPA-03": "jɛs, juː kæn sɪt ænd rɪˈlæks ɒn ɪt.",
+          "IPA-04": "jɛs, ju kæn sɪt ænd rɪˈlæks ɑn ɪt."
+        }
+      ]
+    },
+    "charactor": [
+      {
+        "type": "A3",
+        "hint": "https://i.postimg.cc/SN3D89Mp/A2-sofa.jpg",
+        "fsp": "What color is the sofa?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["The sofa is gray."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What color is the sofa?", "id": "ESB1_F2a79" }]
+      },
+      {
+        "type": "A4",
+        "hint": "https://i.postimg.cc/SN3D89Mp/A2-sofa.jpg",
+        "fsp": "Is the sofa big or small?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["The sofa is big."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Is the sofa big or small?", "id": "ESB1_F2a81" }]
+      },
+      {
+        "type": "B1",
+        "hint": "https://i.postimg.cc/SN3D89Mp/A2-sofa.jpg",
+        "fsp": "What is the question for This is a sofa.",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What is this?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for This is a sofa.",
+            "id": "ESB1_F2a85"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/SN3D89Mp/A2-sofa.jpg",
+        "fsp": "What is this? The sofa is big. Yes or no?",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F1a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a25" }]
+          },
+          {
+            "qs": ["This is a sofa."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What is this? The sofa is big. Yes or no?",
+            "id": "ESB1_F2a110"
+          }
+        ]
+      },
+      {
+        "type": "B3",
+        "hint": "https://i.postimg.cc/SN3D89Mp/A2-sofa.jpg",
+        "fsp": "What is the question for The sofa is gray.",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What color is the sofa?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for The sofa is gray.",
+            "id": "ESB1_F2a89"
+          }
+        ]
+      },
+      {
+        "type": "B5",
+        "hint": "https://i.postimg.cc/SN3D89Mp/A2-sofa.jpg",
+        "fsp": "What is the question for Yes, you can sit and relax on it.",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Can you sit on the sofa?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for Yes, you can sit and relax on it.",
+            "id": "ESB1_F2a93"
+          }
+        ]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/SN3D89Mp/A2-sofa.jpg",
+        "fsp": "Is the sofa big or small? The sofa is big. Yes or no?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a25" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is the sofa big or small? The sofa is big. Yes or no?",
+            "id": "ESB1_F2a104"
+          }
+        ]
+      },
+      {
+        "type": "B2",
+        "hint": "https://i.postimg.cc/SN3D89Mp/A2-sofa.jpg",
+        "fsp": "What is the question for The sofa is in the living room.",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Where is the sofa?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for The sofa is in the living room.",
+            "id": "ESB1_F2a87"
+          }
+        ]
+      },
+      {
+        "type": "A5",
+        "hint": "https://i.postimg.cc/SN3D89Mp/A2-sofa.jpg",
+        "fsp": "Can you sit on the sofa?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes, you can sit and relax on it."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Can you sit on the sofa?", "id": "ESB1_F2a83" }]
+      },
+      {
+        "type": "A2",
+        "hint": "https://i.postimg.cc/SN3D89Mp/A2-sofa.jpg",
+        "fsp": "Where is the sofa?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["The sofa is in the living room."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Where is the sofa?", "id": "ESB1_F2a77" }]
+      },
+      {
+        "type": "A1",
+        "hint": "https://i.postimg.cc/SN3D89Mp/A2-sofa.jpg",
+        "fsp": "What is this?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["This is a sofa."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What is this?", "id": "ESB1_F1a0" }]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/SN3D89Mp/A2-sofa.jpg",
+        "fsp": "Can you sit on the sofa? The sofa is gray. Yes or no?",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F1a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a25" }]
+          },
+          {
+            "qs": ["Yes, you can sit and relax on it."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Can you sit on the sofa? The sofa is gray. Yes or no?",
+            "id": "ESB1_F2a126"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/SN3D89Mp/A2-sofa.jpg",
+        "fsp": "Where is the sofa? Yes, you can sit and relax on it. Yes or no?",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F1a40" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a22" }]
+          },
+          {
+            "qs": ["The sofa is in the living room."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Where is the sofa? Yes, you can sit and relax on it. Yes or no?",
+            "id": "ESB1_F2a114"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/SN3D89Mp/A2-sofa.jpg",
+        "fsp": "What color is the sofa? This is a sofa. Yes or no?",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F1a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a25" }]
+          },
+          {
+            "qs": ["The sofa is gray."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What color is the sofa? This is a sofa. Yes or no?",
+            "id": "ESB1_F2a118"
+          }
+        ]
+      },
+      {
+        "type": "B4",
+        "hint": "https://i.postimg.cc/SN3D89Mp/A2-sofa.jpg",
+        "fsp": "What is the question for The sofa is big.",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Is the sofa big or small?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for The sofa is big.",
+            "id": "ESB1_F2a91"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/SN3D89Mp/A2-sofa.jpg",
+        "fsp": "What is this? This is a sofa. Yes or no?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F1a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a22" }]
+          },
+          {
+            "qs": ["What is this?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What is this? This is a sofa. Yes or no?",
+            "id": "ESB1_F2a95"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/SN3D89Mp/A2-sofa.jpg",
+        "fsp": "Where is the sofa? The sofa is in the living room. Yes or no?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F1a60" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a25" }]
+          },
+          {
+            "qs": ["Where is the sofa?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Where is the sofa? The sofa is in the living room. Yes or no?",
+            "id": "ESB1_F2a98"
+          }
+        ]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/SN3D89Mp/A2-sofa.jpg",
+        "fsp": "Is the sofa big or small? The sofa is big. Yes or no?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F1a60" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a25" }]
+          },
+          {
+            "qs": ["Is the sofa big or small?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Is the sofa big or small? The sofa is big. Yes or no?",
+            "id": "ESB1_F2a104"
+          }
+        ]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/SN3D89Mp/A2-sofa.jpg",
+        "fsp": "Can you sit on the sofa? Yes, you can sit and relax on it. Yes or no?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F1a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a22" }]
+          },
+          {
+            "qs": ["Can you sit on the sofa?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Can you sit on the sofa? Yes, you can sit and relax on it. Yes or no?",
+            "id": "ESB1_F2a107"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/SN3D89Mp/A2-sofa.jpg",
+        "fsp": "What color is the sofa? The sofa is gray. Yes or no?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F1a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a22" }]
+          },
+          {
+            "qs": ["What color is the sofa?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What color is the sofa? The sofa is gray. Yes or no?",
+            "id": "ESB1_F2a101"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/SN3D89Mp/A2-sofa.jpg",
+        "fsp": "Where is the sofa? The sofa is in the living room. Yes or no?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a25" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Where is the sofa? The sofa is in the living room. Yes or no?",
+            "id": "ESB1_F2a98"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/SN3D89Mp/A2-sofa.jpg",
+        "fsp": "What is this? This is a sofa. Yes or no?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is this? This is a sofa. Yes or no?",
+            "id": "ESB1_F2a95"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/SN3D89Mp/A2-sofa.jpg",
+        "fsp": "What color is the sofa? The sofa is gray. Yes or no?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What color is the sofa? The sofa is gray. Yes or no?",
+            "id": "ESB1_F2a101"
+          }
+        ]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/SN3D89Mp/A2-sofa.jpg",
+        "fsp": "Can you sit on the sofa? Yes, you can sit and relax on it. Yes or no?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Can you sit on the sofa? Yes, you can sit and relax on it. Yes or no?",
+            "id": "ESB1_F2a107"
+          }
+        ]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/SN3D89Mp/A2-sofa.jpg",
+        "fsp": "Is the sofa big or small? The sofa is in the living room. Yes or no?",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F1a40" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a22" }]
+          },
+          {
+            "qs": ["The sofa is big."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Is the sofa big or small? The sofa is in the living room. Yes or no?",
+            "id": "ESB1_F2a122"
+          }
+        ]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  },
+  {
+    "id": "a-ceiling-fan",
+    "ListenList": [],
+    "typeSets": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "SEO": {
+      "seo": {
+        "metaTitle": "a ceiling fan",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "a ceiling fan",
+        "IFdes": "a ceiling fan",
+        "IF-audiocode": "ESB1_F3"
+      },
+      "HD": [
+        {
+          "HD-01": "X",
+          "HD-02": "a ceiling fan",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "https://i.postimg.cc/dQWWspQ3/A3-a-ceiling-fan.jpg",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What is this?",
+          "HD-02": "This is a ceiling fan.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Where is the fan?",
+          "HD-02": "The fan is on the ceiling.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What color is the fan?",
+          "HD-02": "The fan is white.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Is the fan big or small?",
+          "HD-02": "The fan is big.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Can the fan spin?",
+          "HD-02": "Yes, the fan can spin and make air.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(A1-A5)",
+          "HD-02": "Question and answers.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(B1-B5)",
+          "HD-02": "What is the question for ..",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(C1-5)",
+          "HD-02": "Yes",
+          "HD-03": "No",
+          "HD-04": "What is the correct answer?",
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": "What is the correct question?",
+          "HD-05": null
+        }
+      ],
+      "TB": [],
+      "TV": [
+        {
+          "TV-01": "X",
+          "TV-02": "một chiếc quạt trần",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": "https://i.postimg.cc/dQWWspQ3/A3-a-ceiling-fan.jpg",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "X",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Đây là gì?",
+          "TV-02": "Đây là quạt trần.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Quạt ở đâu?",
+          "TV-02": "Quạt ở trên trần nhà.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Quạt có màu gì?",
+          "TV-02": "Quạt màu trắng.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Quạt to hay nhỏ?",
+          "TV-02": "Quạt to.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Quạt có thể quay không?",
+          "TV-02": "Có, quạt có thể quay và tạo ra không khí.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(A1-A5)",
+          "TV-02": "Question and answers.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(B1-B5)",
+          "TV-02": "What is the question for ..",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(C1-5)",
+          "TV-02": "Yes",
+          "TV-03": "No",
+          "TV-04": "What is the correct answer?",
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": "What is the correct question?",
+          "TV-05": null
+        }
+      ],
+      "IPA": [
+        {
+          "IPA-01": "What is this?",
+          "IPA-02": "Đây là gì?",
+          "IPA-03": "wɒt ɪz ðɪs?",
+          "IPA-04": "wɑt ɪz ðɪs?"
+        },
+        {
+          "IPA-01": "This is a ceiling fan.",
+          "IPA-02": "Đây là quạt trần.",
+          "IPA-03": "ðɪs ɪz ə ˈsiːlɪŋ fæn.",
+          "IPA-04": "ðɪs ɪz ə ˈsilɪŋ fæn."
+        },
+        {
+          "IPA-01": "Where is the fan?",
+          "IPA-02": "Quạt ở đâu?",
+          "IPA-03": "weər ɪz ðə fæn?",
+          "IPA-04": "wɛr ɪz ðə fæn?"
+        },
+        {
+          "IPA-01": "The fan is on the ceiling.",
+          "IPA-02": "Quạt ở trên trần nhà.",
+          "IPA-03": "ðə fæn ɪz ɒn ðə ˈsiːlɪŋ.",
+          "IPA-04": "ðə fæn ɪz ɑn ðə ˈsilɪŋ."
+        },
+        {
+          "IPA-01": "What color is the fan?",
+          "IPA-02": "Quạt có màu gì?",
+          "IPA-03": "wɒt ˈkʌlər ɪz ðə fæn?",
+          "IPA-04": "wɑt ˈkʌlər ɪz ðə fæn?"
+        },
+        {
+          "IPA-01": "The fan is white.",
+          "IPA-02": "Quạt màu trắng.",
+          "IPA-03": "ðə fæn ɪz waɪt.",
+          "IPA-04": "ðə fæn ɪz waɪt."
+        },
+        {
+          "IPA-01": "Is the fan big or small?",
+          "IPA-02": "Quạt to hay nhỏ?",
+          "IPA-03": "ɪz ðə fæn bɪɡ ɔː smɔːl?",
+          "IPA-04": "ɪz ðə fæn bɪɡ ɔr smɔl?"
+        },
+        {
+          "IPA-01": "The fan is big.",
+          "IPA-02": "Quạt to.",
+          "IPA-03": "ðə fæn ɪz bɪɡ.",
+          "IPA-04": "ðə fæn ɪz bɪɡ."
+        },
+        {
+          "IPA-01": "Can the fan spin?",
+          "IPA-02": "Quạt có thể quay không?",
+          "IPA-03": "kæn ðə fæn spɪn?",
+          "IPA-04": "kæn ðə fæn spɪn?"
+        },
+        {
+          "IPA-01": "Yes, the fan can spin and make air.",
+          "IPA-02": "Có, quạt có thể quay và tạo ra không khí.",
+          "IPA-03": "jɛs, ðə fæn kæn spɪn ænd meɪk eə.",
+          "IPA-04": "jɛs, ðə fæn kæn spɪn ænd meɪk ɛr."
+        }
+      ]
+    },
+    "charactor": [
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/dQWWspQ3/A3-a-ceiling-fan.jpg",
+        "fsp": "What color is the fan? The fan is white. Yes or no?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F1a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a22" }]
+          },
+          {
+            "qs": ["What color is the fan?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What color is the fan? The fan is white. Yes or no?",
+            "id": "ESB1_F3a176"
+          }
+        ]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/dQWWspQ3/A3-a-ceiling-fan.jpg",
+        "fsp": "Can the fan spin? The fan is white. Yes or no?",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F1a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a25" }]
+          },
+          {
+            "qs": ["Yes, the fan can spin and make air."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Can the fan spin? The fan is white. Yes or no?",
+            "id": "ESB1_F3a201"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/dQWWspQ3/A3-a-ceiling-fan.jpg",
+        "fsp": "What is this? This is a ceiling fan. Yes or no?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F1a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a22" }]
+          },
+          {
+            "qs": ["What is this?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What is this? This is a ceiling fan. Yes or no?",
+            "id": "ESB1_F3a170"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "hint": "https://i.postimg.cc/dQWWspQ3/A3-a-ceiling-fan.jpg",
+        "fsp": "What is the question for This is a ceiling fan.",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What is this?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for This is a ceiling fan.",
+            "id": "ESB1_F3a160"
+          }
+        ]
+      },
+      {
+        "type": "A4",
+        "hint": "https://i.postimg.cc/dQWWspQ3/A3-a-ceiling-fan.jpg",
+        "fsp": "Is the fan big or small?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["The fan is big."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Is the fan big or small?", "id": "ESB1_F3a156" }]
+      },
+      {
+        "type": "A1",
+        "hint": "https://i.postimg.cc/dQWWspQ3/A3-a-ceiling-fan.jpg",
+        "fsp": "What is this?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["This is a ceiling fan."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What is this?", "id": "ESB1_F1a0" }]
+      },
+      {
+        "type": "A5",
+        "hint": "https://i.postimg.cc/dQWWspQ3/A3-a-ceiling-fan.jpg",
+        "fsp": "Can the fan spin?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes, the fan can spin and make air."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Can the fan spin?", "id": "ESB1_F3a158" }]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/dQWWspQ3/A3-a-ceiling-fan.jpg",
+        "fsp": "Where is the fan? The fan is on the ceiling. Yes or no?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a25" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Where is the fan? The fan is on the ceiling. Yes or no?",
+            "id": "ESB1_F3a173"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "hint": "https://i.postimg.cc/dQWWspQ3/A3-a-ceiling-fan.jpg",
+        "fsp": "Where is the fan?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["The fan is on the ceiling."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Where is the fan?", "id": "ESB1_F3a152" }]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/dQWWspQ3/A3-a-ceiling-fan.jpg",
+        "fsp": "Is the fan big or small? The fan is big. Yes or no?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F1a60" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a25" }]
+          },
+          {
+            "qs": ["Is the fan big or small?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Is the fan big or small? The fan is big. Yes or no?",
+            "id": "ESB1_F3a179"
+          }
+        ]
+      },
+      {
+        "type": "B5",
+        "hint": "https://i.postimg.cc/dQWWspQ3/A3-a-ceiling-fan.jpg",
+        "fsp": "What is the question for Yes, the fan can spin and make air.",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Can the fan spin?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for Yes, the fan can spin and make air.",
+            "id": "ESB1_F3a168"
+          }
+        ]
+      },
+      {
+        "type": "B2",
+        "hint": "https://i.postimg.cc/dQWWspQ3/A3-a-ceiling-fan.jpg",
+        "fsp": "What is the question for The fan is on the ceiling.",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Where is the fan?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for The fan is on the ceiling.",
+            "id": "ESB1_F3a162"
+          }
+        ]
+      },
+      {
+        "type": "A3",
+        "hint": "https://i.postimg.cc/dQWWspQ3/A3-a-ceiling-fan.jpg",
+        "fsp": "What color is the fan?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["The fan is white."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What color is the fan?", "id": "ESB1_F3a154" }]
+      },
+      {
+        "type": "B4",
+        "hint": "https://i.postimg.cc/dQWWspQ3/A3-a-ceiling-fan.jpg",
+        "fsp": "What is the question for The fan is big.",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Is the fan big or small?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for The fan is big.",
+            "id": "ESB1_F3a166"
+          }
+        ]
+      },
+      {
+        "type": "B3",
+        "hint": "https://i.postimg.cc/dQWWspQ3/A3-a-ceiling-fan.jpg",
+        "fsp": "What is the question for The fan is white.",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What color is the fan?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for The fan is white.",
+            "id": "ESB1_F3a164"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/dQWWspQ3/A3-a-ceiling-fan.jpg",
+        "fsp": "What color is the fan? The fan is white. Yes or no?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What color is the fan? The fan is white. Yes or no?",
+            "id": "ESB1_F3a176"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/dQWWspQ3/A3-a-ceiling-fan.jpg",
+        "fsp": "Where is the fan? Yes, the fan can spin and make air. Yes or no?",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F1a40" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a22" }]
+          },
+          {
+            "qs": ["The fan is on the ceiling."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Where is the fan? Yes, the fan can spin and make air. Yes or no?",
+            "id": "ESB1_F3a189"
+          }
+        ]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/dQWWspQ3/A3-a-ceiling-fan.jpg",
+        "fsp": "Can the fan spin? Yes, the fan can spin and make air. Yes or no?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F1a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a22" }]
+          },
+          {
+            "qs": ["Can the fan spin?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Can the fan spin? Yes, the fan can spin and make air. Yes or no?",
+            "id": "ESB1_F3a182"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/dQWWspQ3/A3-a-ceiling-fan.jpg",
+        "fsp": "What is this? The fan is big. Yes or no?",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F1a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a25" }]
+          },
+          {
+            "qs": ["This is a ceiling fan."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What is this? The fan is big. Yes or no?",
+            "id": "ESB1_F3a185"
+          }
+        ]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/dQWWspQ3/A3-a-ceiling-fan.jpg",
+        "fsp": "Is the fan big or small? The fan is big. Yes or no?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a25" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is the fan big or small? The fan is big. Yes or no?",
+            "id": "ESB1_F3a179"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/dQWWspQ3/A3-a-ceiling-fan.jpg",
+        "fsp": "What is this? This is a ceiling fan. Yes or no?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is this? This is a ceiling fan. Yes or no?",
+            "id": "ESB1_F3a170"
+          }
+        ]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/dQWWspQ3/A3-a-ceiling-fan.jpg",
+        "fsp": "Is the fan big or small? The fan is on the ceiling. Yes or no?",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F1a40" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a22" }]
+          },
+          {
+            "qs": ["The fan is big."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Is the fan big or small? The fan is on the ceiling. Yes or no?",
+            "id": "ESB1_F3a197"
+          }
+        ]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/dQWWspQ3/A3-a-ceiling-fan.jpg",
+        "fsp": "Can the fan spin? Yes, the fan can spin and make air. Yes or no?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Can the fan spin? Yes, the fan can spin and make air. Yes or no?",
+            "id": "ESB1_F3a182"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/dQWWspQ3/A3-a-ceiling-fan.jpg",
+        "fsp": "What color is the fan? This is a ceiling fan. Yes or no?",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F1a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a25" }]
+          },
+          {
+            "qs": ["The fan is white."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What color is the fan? This is a ceiling fan. Yes or no?",
+            "id": "ESB1_F3a193"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/dQWWspQ3/A3-a-ceiling-fan.jpg",
+        "fsp": "Where is the fan? The fan is on the ceiling. Yes or no?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F1a60" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a25" }]
+          },
+          {
+            "qs": ["Where is the fan?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Where is the fan? The fan is on the ceiling. Yes or no?",
+            "id": "ESB1_F3a173"
+          }
+        ]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  },
+  {
+    "id": "a-tv",
+    "ListenList": [],
+    "typeSets": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "SEO": {
+      "seo": {
+        "metaTitle": "a TV",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": { "IFname": "a TV", "IFdes": "a TV", "IF-audiocode": "ESB1_F4" },
+      "HD": [
+        {
+          "HD-01": "X",
+          "HD-02": "a TV",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "https://i.postimg.cc/Wbh5h8tn/A3-a-TV.jpg",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What is this?",
+          "HD-02": "This is a TV.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Where is the TV?",
+          "HD-02": "The TV is in the living room.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What color is the TV?",
+          "HD-02": "The TV is black.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Is the TV big or small?",
+          "HD-02": "The TV is big.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Can the TV show pictures?",
+          "HD-02": "Yes, the TV can show pictures and videos.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(A1-A5)",
+          "HD-02": "Question and answers.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(B1-B5)",
+          "HD-02": "What is the question for ..",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(C1-5)",
+          "HD-02": "Yes",
+          "HD-03": "No",
+          "HD-04": "What is the correct answer?",
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": "What is the correct question?",
+          "HD-05": null
+        }
+      ],
+      "TB": [],
+      "TV": [
+        {
+          "TV-01": "X",
+          "TV-02": "một chiếc tivi",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": "https://i.postimg.cc/Wbh5h8tn/A3-a-TV.jpg",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "X",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Đây là cái gì?",
+          "TV-02": "Đây là TV.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "TV ở đâu?",
+          "TV-02": "TV ở trong phòng khách.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "TV màu gì?",
+          "TV-02": "TV màu đen.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "TV to hay nhỏ?",
+          "TV-02": "TV to.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "TV có thể hiển thị hình ảnh không?",
+          "TV-02": "Có, TV có thể hiển thị hình ảnh và video.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(A1-A5)",
+          "TV-02": "Question and answers.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(B1-B5)",
+          "TV-02": "What is the question for ..",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(C1-5)",
+          "TV-02": "Yes",
+          "TV-03": "No",
+          "TV-04": "What is the correct answer?",
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": "What is the correct question?",
+          "TV-05": null
+        }
+      ],
+      "IPA": [
+        {
+          "IPA-01": "What is this?",
+          "IPA-02": "Đây là cái gì?",
+          "IPA-03": "wɒt ɪz ðɪs?",
+          "IPA-04": "wɑt ɪz ðɪs?"
+        },
+        {
+          "IPA-01": "This is a TV.",
+          "IPA-02": "Đây là TV.",
+          "IPA-03": "ðɪs ɪz ə ˌtiːˈviː.",
+          "IPA-04": "ðɪs ɪz ə ˈtiˈvi."
+        },
+        {
+          "IPA-01": "Where is the TV?",
+          "IPA-02": "TV ở đâu?",
+          "IPA-03": "weər ɪz ðə ˌtiːˈviː?",
+          "IPA-04": "wɛr ɪz ðə ˈtiˈvi?"
+        },
+        {
+          "IPA-01": "The TV is in the living room.",
+          "IPA-02": "TV ở trong phòng khách.",
+          "IPA-03": "ðə ˌtiːˈviː ɪz ɪn ðə ˈlɪvɪŋ ruːm.",
+          "IPA-04": "ðə ˈtiˈvi ɪz ɪn ðə ˈlɪvɪŋ rum."
+        },
+        {
+          "IPA-01": "What color is the TV?",
+          "IPA-02": "TV màu gì?",
+          "IPA-03": "wɒt ˈkʌlər ɪz ðə ˌtiːˈviː?",
+          "IPA-04": "wɑt ˈkʌlər ɪz ðə ˈtiˈvi?"
+        },
+        {
+          "IPA-01": "The TV is black.",
+          "IPA-02": "TV màu đen.",
+          "IPA-03": "ðə ˌtiːˈviː ɪz blæk.",
+          "IPA-04": "ðə ˈtiˈvi ɪz blæk."
+        },
+        {
+          "IPA-01": "Is the TV big or small?",
+          "IPA-02": "TV to hay nhỏ?",
+          "IPA-03": "ɪz ðə ˌtiːˈviː bɪɡ ɔː smɔːl?",
+          "IPA-04": "ɪz ðə ˈtiˈvi bɪɡ ɔr smɔl?"
+        },
+        {
+          "IPA-01": "The TV is big.",
+          "IPA-02": "TV to.",
+          "IPA-03": "ðə ˌtiːˈviː ɪz bɪɡ.",
+          "IPA-04": "ðə ˈtiˈvi ɪz bɪɡ."
+        },
+        {
+          "IPA-01": "Can the TV show pictures?",
+          "IPA-02": "TV có thể hiển thị hình ảnh không?",
+          "IPA-03": "kæn ðə ˌtiːˈviː ʃəʊ ˈpɪkʧəz?",
+          "IPA-04": "kæn ðə ˈtiˈvi ʃoʊ ˈpɪkʧərz?"
+        },
+        {
+          "IPA-01": "Yes, the TV can show pictures and videos.",
+          "IPA-02": "Có, TV có thể hiển thị hình ảnh và video.",
+          "IPA-03": "jɛs, ðə ˌtiːˈviː kæn ʃəʊ ˈpɪkʧəz ænd ˈvɪdiəʊz.",
+          "IPA-04": "jɛs, ðə ˈtiˈvi kæn ʃoʊ ˈpɪkʧərz ænd ˈvɪdioʊz."
+        }
+      ]
+    },
+    "charactor": [
+      {
+        "type": "B2",
+        "hint": "https://i.postimg.cc/Wbh5h8tn/A3-a-TV.jpg",
+        "fsp": "What is the question for The TV is in the living room.",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Where is the TV?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for The TV is in the living room.",
+            "id": "ESB1_F4a237"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/Wbh5h8tn/A3-a-TV.jpg",
+        "fsp": "What color is the TV? This is a TV. Yes or no?",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F1a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a25" }]
+          },
+          {
+            "qs": ["The TV is black."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What color is the TV? This is a TV. Yes or no?",
+            "id": "ESB1_F4a268"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "hint": "https://i.postimg.cc/Wbh5h8tn/A3-a-TV.jpg",
+        "fsp": "What is the question for This is a TV.",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What is this?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for This is a TV.",
+            "id": "ESB1_F4a235"
+          }
+        ]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/Wbh5h8tn/A3-a-TV.jpg",
+        "fsp": "Is the TV big or small? The TV is big. Yes or no?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F1a60" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a25" }]
+          },
+          {
+            "qs": ["Is the TV big or small?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Is the TV big or small? The TV is big. Yes or no?",
+            "id": "ESB1_F4a254"
+          }
+        ]
+      },
+      {
+        "type": "B5",
+        "hint": "https://i.postimg.cc/Wbh5h8tn/A3-a-TV.jpg",
+        "fsp": "What is the question for Yes, the TV can show pictures and videos.",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Can the TV show pictures?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for Yes, the TV can show pictures and videos.",
+            "id": "ESB1_F4a243"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/Wbh5h8tn/A3-a-TV.jpg",
+        "fsp": "Where is the TV? The TV is in the living room. Yes or no?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a25" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Where is the TV? The TV is in the living room. Yes or no?",
+            "id": "ESB1_F4a248"
+          }
+        ]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/Wbh5h8tn/A3-a-TV.jpg",
+        "fsp": "Can the TV show pictures? Yes, the TV can show pictures and videos. Yes or no?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F1a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a22" }]
+          },
+          {
+            "qs": ["Can the TV show pictures?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Can the TV show pictures? Yes, the TV can show pictures and videos. Yes or no?",
+            "id": "ESB1_F4a257"
+          }
+        ]
+      },
+      {
+        "type": "A4",
+        "hint": "https://i.postimg.cc/Wbh5h8tn/A3-a-TV.jpg",
+        "fsp": "Is the TV big or small?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["The TV is big."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Is the TV big or small?", "id": "ESB1_F4a231" }]
+      },
+      {
+        "type": "A2",
+        "hint": "https://i.postimg.cc/Wbh5h8tn/A3-a-TV.jpg",
+        "fsp": "Where is the TV?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["The TV is in the living room."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Where is the TV?", "id": "ESB1_F4a227" }]
+      },
+      {
+        "type": "A1",
+        "hint": "https://i.postimg.cc/Wbh5h8tn/A3-a-TV.jpg",
+        "fsp": "What is this?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["This is a TV."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What is this?", "id": "ESB1_F1a0" }]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/Wbh5h8tn/A3-a-TV.jpg",
+        "fsp": "What is this? This is a TV. Yes or no?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F1a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a22" }]
+          },
+          {
+            "qs": ["What is this?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What is this? This is a TV. Yes or no?",
+            "id": "ESB1_F4a245"
+          }
+        ]
+      },
+      {
+        "type": "A3",
+        "hint": "https://i.postimg.cc/Wbh5h8tn/A3-a-TV.jpg",
+        "fsp": "What color is the TV?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["The TV is black."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What color is the TV?", "id": "ESB1_F4a229" }]
+      },
+      {
+        "type": "B3",
+        "hint": "https://i.postimg.cc/Wbh5h8tn/A3-a-TV.jpg",
+        "fsp": "What is the question for The TV is black.",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What color is the TV?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for The TV is black.",
+            "id": "ESB1_F4a239"
+          }
+        ]
+      },
+      {
+        "type": "A5",
+        "hint": "https://i.postimg.cc/Wbh5h8tn/A3-a-TV.jpg",
+        "fsp": "Can the TV show pictures?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes, the TV can show pictures and videos."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Can the TV show pictures?", "id": "ESB1_F4a233" }]
+      },
+      {
+        "type": "B4",
+        "hint": "https://i.postimg.cc/Wbh5h8tn/A3-a-TV.jpg",
+        "fsp": "What is the question for The TV is big.",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Is the TV big or small?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for The TV is big.",
+            "id": "ESB1_F4a241"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/Wbh5h8tn/A3-a-TV.jpg",
+        "fsp": "What is this? The TV is big. Yes or no?",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F1a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a25" }]
+          },
+          {
+            "qs": ["This is a TV."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What is this? The TV is big. Yes or no?",
+            "id": "ESB1_F4a260"
+          }
+        ]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/Wbh5h8tn/A3-a-TV.jpg",
+        "fsp": "Can the TV show pictures? Yes, the TV can show pictures and videos. Yes or no?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Can the TV show pictures? Yes, the TV can show pictures and videos. Yes or no?",
+            "id": "ESB1_F4a257"
+          }
+        ]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/Wbh5h8tn/A3-a-TV.jpg",
+        "fsp": "Is the TV big or small? The TV is in the living room. Yes or no?",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F1a40" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a22" }]
+          },
+          {
+            "qs": ["The TV is big."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Is the TV big or small? The TV is in the living room. Yes or no?",
+            "id": "ESB1_F4a272"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/Wbh5h8tn/A3-a-TV.jpg",
+        "fsp": "Where is the TV? The TV is in the living room. Yes or no?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F1a60" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a25" }]
+          },
+          {
+            "qs": ["Where is the TV?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Where is the TV? The TV is in the living room. Yes or no?",
+            "id": "ESB1_F4a248"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/Wbh5h8tn/A3-a-TV.jpg",
+        "fsp": "What color is the TV? The TV is black. Yes or no?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What color is the TV? The TV is black. Yes or no?",
+            "id": "ESB1_F4a251"
+          }
+        ]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/Wbh5h8tn/A3-a-TV.jpg",
+        "fsp": "Can the TV show pictures? The TV is black. Yes or no?",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F1a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a25" }]
+          },
+          {
+            "qs": ["Yes, the TV can show pictures and videos."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Can the TV show pictures? The TV is black. Yes or no?",
+            "id": "ESB1_F4a276"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/Wbh5h8tn/A3-a-TV.jpg",
+        "fsp": "What is this? This is a TV. Yes or no?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is this? This is a TV. Yes or no?",
+            "id": "ESB1_F4a245"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/Wbh5h8tn/A3-a-TV.jpg",
+        "fsp": "What color is the TV? The TV is black. Yes or no?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F1a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a22" }]
+          },
+          {
+            "qs": ["What color is the TV?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What color is the TV? The TV is black. Yes or no?",
+            "id": "ESB1_F4a251"
+          }
+        ]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/Wbh5h8tn/A3-a-TV.jpg",
+        "fsp": "Is the TV big or small? The TV is big. Yes or no?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a25" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is the TV big or small? The TV is big. Yes or no?",
+            "id": "ESB1_F4a254"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/Wbh5h8tn/A3-a-TV.jpg",
+        "fsp": "Where is the TV? Yes, the TV can show pictures and videos. Yes or no?",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F1a40" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a22" }]
+          },
+          {
+            "qs": ["The TV is in the living room."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Where is the TV? Yes, the TV can show pictures and videos. Yes or no?",
+            "id": "ESB1_F4a264"
+          }
+        ]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  },
+  {
+    "id": "a-tv-remote",
+    "ListenList": [],
+    "typeSets": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "SEO": {
+      "seo": {
+        "metaTitle": "a TV remote",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "a TV remote",
+        "IFdes": "a TV remote",
+        "IF-audiocode": "ESB1_F5"
+      },
+      "HD": [
+        {
+          "HD-01": "X",
+          "HD-02": "a TV remote",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "https://i.postimg.cc/3wCBPbbK/A5-remote.jpg",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What is this?",
+          "HD-02": "This is a TV remote.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Where is the remote?",
+          "HD-02": "The remote is on the table.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What color is the remote?",
+          "HD-02": "The remote is black.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Is the remote big or small?",
+          "HD-02": "The remote is small.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Can the remote change channels?",
+          "HD-02": "Yes, the remote can change TV channels.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(A1-A5)",
+          "HD-02": "Question and answers.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(B1-B5)",
+          "HD-02": "What is the question for ..",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(C1-5)",
+          "HD-02": "Yes",
+          "HD-03": "No",
+          "HD-04": "What is the correct answer?",
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": "What is the correct question?",
+          "HD-05": null
+        }
+      ],
+      "TB": [],
+      "TV": [
+        {
+          "TV-01": "X",
+          "TV-02": "một chiếc điều khiển tivi",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": "https://i.postimg.cc/3wCBPbbK/A5-remote.jpg",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "X",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Đây là gì?",
+          "TV-02": "Đây là điều khiển từ xa TV.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Điều khiển từ xa ở đâu?",
+          "TV-02": "Điều khiển từ xa ở trên bàn.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Điều khiển từ xa có màu gì?",
+          "TV-02": "Điều khiển từ xa màu đen.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Điều khiển từ xa lớn hay nhỏ?",
+          "TV-02": "Điều khiển từ xa nhỏ.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Điều khiển từ xa có thể đổi kênh không?",
+          "TV-02": "Có, điều khiển từ xa có thể đổi kênh TV.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(A1-A5)",
+          "TV-02": "Question and answers.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(B1-B5)",
+          "TV-02": "What is the question for ..",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(C1-5)",
+          "TV-02": "Yes",
+          "TV-03": "No",
+          "TV-04": "What is the correct answer?",
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": "What is the correct question?",
+          "TV-05": null
+        }
+      ],
+      "IPA": [
+        {
+          "IPA-01": "What is this?",
+          "IPA-02": "Đây là gì?",
+          "IPA-03": "wɒt ɪz ðɪs?",
+          "IPA-04": "wɑt ɪz ðɪs?"
+        },
+        {
+          "IPA-01": "This is a TV remote.",
+          "IPA-02": "Đây là điều khiển từ xa TV.",
+          "IPA-03": "ðɪs ɪz ə ˌtiːˈviː rɪˈməʊt.",
+          "IPA-04": "ðɪs ɪz ə ˈtiˈvi rɪˈmoʊt."
+        },
+        {
+          "IPA-01": "Where is the remote?",
+          "IPA-02": "Điều khiển từ xa ở đâu?",
+          "IPA-03": "weər ɪz ðə rɪˈməʊt?",
+          "IPA-04": "wɛr ɪz ðə rɪˈmoʊt?"
+        },
+        {
+          "IPA-01": "The remote is on the table.",
+          "IPA-02": "Điều khiển từ xa ở trên bàn.",
+          "IPA-03": "ðə rɪˈməʊt ɪz ɒn ðə ˈteɪbᵊl.",
+          "IPA-04": "ðə rɪˈmoʊt ɪz ɑn ðə ˈteɪbəl."
+        },
+        {
+          "IPA-01": "What color is the remote?",
+          "IPA-02": "Điều khiển từ xa có màu gì?",
+          "IPA-03": "wɒt ˈkʌlər ɪz ðə rɪˈməʊt?",
+          "IPA-04": "wɑt ˈkʌlər ɪz ðə rɪˈmoʊt?"
+        },
+        {
+          "IPA-01": "The remote is black.",
+          "IPA-02": "Điều khiển từ xa màu đen.",
+          "IPA-03": "ðə rɪˈməʊt ɪz blæk.",
+          "IPA-04": "ðə rɪˈmoʊt ɪz blæk."
+        },
+        {
+          "IPA-01": "Is the remote big or small?",
+          "IPA-02": "Điều khiển từ xa lớn hay nhỏ?",
+          "IPA-03": "ɪz ðə rɪˈməʊt bɪɡ ɔː smɔːl?",
+          "IPA-04": "ɪz ðə rɪˈmoʊt bɪɡ ɔr smɔl?"
+        },
+        {
+          "IPA-01": "The remote is small.",
+          "IPA-02": "Điều khiển từ xa nhỏ.",
+          "IPA-03": "ðə rɪˈməʊt ɪz smɔːl.",
+          "IPA-04": "ðə rɪˈmoʊt ɪz smɔl."
+        },
+        {
+          "IPA-01": "Can the remote change channels?",
+          "IPA-02": "Điều khiển từ xa có thể đổi kênh không?",
+          "IPA-03": "kæn ðə rɪˈməʊt ʧeɪnʤ ˈʧænᵊlz?",
+          "IPA-04": "kæn ðə rɪˈmoʊt ʧeɪnʤ ˈʧænəlz?"
+        },
+        {
+          "IPA-01": "Yes, the remote can change TV channels.",
+          "IPA-02": "Có, điều khiển từ xa có thể đổi kênh TV.",
+          "IPA-03": "jɛs, ðə rɪˈməʊt kæn ʧeɪnʤ ˌtiːˈviː ˈʧænᵊlz.",
+          "IPA-04": "jɛs, ðə rɪˈmoʊt kæn ʧeɪnʤ ˈtiˈvi ˈʧænəlz."
+        }
+      ]
+    },
+    "charactor": [
+      {
+        "type": "A5",
+        "hint": "https://i.postimg.cc/3wCBPbbK/A5-remote.jpg",
+        "fsp": "Can the remote change channels?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes, the remote can change TV channels."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Can the remote change channels?", "id": "ESB1_F5a308" }
+        ]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/3wCBPbbK/A5-remote.jpg",
+        "fsp": "Can the remote change channels? The remote is black. Yes or no?",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F1a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a25" }]
+          },
+          {
+            "qs": ["Yes, the remote can change TV channels."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Can the remote change channels? The remote is black. Yes or no?",
+            "id": "ESB1_F5a351"
+          }
+        ]
+      },
+      {
+        "type": "B2",
+        "hint": "https://i.postimg.cc/3wCBPbbK/A5-remote.jpg",
+        "fsp": "What is the question for The remote is on the table.",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Where is the remote?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for The remote is on the table.",
+            "id": "ESB1_F5a312"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "hint": "https://i.postimg.cc/3wCBPbbK/A5-remote.jpg",
+        "fsp": "What is the question for This is a TV remote.",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What is this?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for This is a TV remote.",
+            "id": "ESB1_F5a310"
+          }
+        ]
+      },
+      {
+        "type": "B3",
+        "hint": "https://i.postimg.cc/3wCBPbbK/A5-remote.jpg",
+        "fsp": "What is the question for The remote is black.",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What color is the remote?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for The remote is black.",
+            "id": "ESB1_F5a314"
+          }
+        ]
+      },
+      {
+        "type": "A4",
+        "hint": "https://i.postimg.cc/3wCBPbbK/A5-remote.jpg",
+        "fsp": "Is the remote big or small?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["The remote is small."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Is the remote big or small?", "id": "ESB1_F5a306" }
+        ]
+      },
+      {
+        "type": "A1",
+        "hint": "https://i.postimg.cc/3wCBPbbK/A5-remote.jpg",
+        "fsp": "What is this?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["This is a TV remote."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What is this?", "id": "ESB1_F1a0" }]
+      },
+      {
+        "type": "A2",
+        "hint": "https://i.postimg.cc/3wCBPbbK/A5-remote.jpg",
+        "fsp": "Where is the remote?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["The remote is on the table."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Where is the remote?", "id": "ESB1_F5a302" }]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/3wCBPbbK/A5-remote.jpg",
+        "fsp": "Is the remote big or small? The remote is small. Yes or no?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a25" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is the remote big or small? The remote is small. Yes or no?",
+            "id": "ESB1_F5a329"
+          }
+        ]
+      },
+      {
+        "type": "A3",
+        "hint": "https://i.postimg.cc/3wCBPbbK/A5-remote.jpg",
+        "fsp": "What color is the remote?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["The remote is black."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What color is the remote?", "id": "ESB1_F5a304" }]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/3wCBPbbK/A5-remote.jpg",
+        "fsp": "Where is the remote? Yes, the remote can change TV channels. Yes or no?",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F1a40" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a22" }]
+          },
+          {
+            "qs": ["The remote is on the table."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Where is the remote? Yes, the remote can change TV channels. Yes or no?",
+            "id": "ESB1_F5a339"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/3wCBPbbK/A5-remote.jpg",
+        "fsp": "What is this? This is a TV remote. Yes or no?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F1a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a22" }]
+          },
+          {
+            "qs": ["What is this?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What is this? This is a TV remote. Yes or no?",
+            "id": "ESB1_F5a320"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/3wCBPbbK/A5-remote.jpg",
+        "fsp": "What color is the remote? This is a TV remote. Yes or no?",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F1a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a25" }]
+          },
+          {
+            "qs": ["The remote is black."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What color is the remote? This is a TV remote. Yes or no?",
+            "id": "ESB1_F5a343"
+          }
+        ]
+      },
+      {
+        "type": "B4",
+        "hint": "https://i.postimg.cc/3wCBPbbK/A5-remote.jpg",
+        "fsp": "What is the question for The remote is small.",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Is the remote big or small?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for The remote is small.",
+            "id": "ESB1_F5a316"
+          }
+        ]
+      },
+      {
+        "type": "B5",
+        "hint": "https://i.postimg.cc/3wCBPbbK/A5-remote.jpg",
+        "fsp": "What is the question for Yes, the remote can change TV channels.",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Can the remote change channels?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for Yes, the remote can change TV channels.",
+            "id": "ESB1_F5a318"
+          }
+        ]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/3wCBPbbK/A5-remote.jpg",
+        "fsp": "Is the remote big or small? The remote is small. Yes or no?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F1a60" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a25" }]
+          },
+          {
+            "qs": ["Is the remote big or small?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Is the remote big or small? The remote is small. Yes or no?",
+            "id": "ESB1_F5a329"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/3wCBPbbK/A5-remote.jpg",
+        "fsp": "What color is the remote? The remote is black. Yes or no?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What color is the remote? The remote is black. Yes or no?",
+            "id": "ESB1_F5a326"
+          }
+        ]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/3wCBPbbK/A5-remote.jpg",
+        "fsp": "Can the remote change channels? Yes, the remote can change TV channels. Yes or no?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F1a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a22" }]
+          },
+          {
+            "qs": ["Can the remote change channels?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Can the remote change channels? Yes, the remote can change TV channels. Yes or no?",
+            "id": "ESB1_F5a332"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/3wCBPbbK/A5-remote.jpg",
+        "fsp": "What is this? The remote is small. Yes or no?",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F1a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a25" }]
+          },
+          {
+            "qs": ["This is a TV remote."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What is this? The remote is small. Yes or no?",
+            "id": "ESB1_F5a335"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/3wCBPbbK/A5-remote.jpg",
+        "fsp": "Where is the remote? The remote is on the table. Yes or no?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F1a60" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a25" }]
+          },
+          {
+            "qs": ["Where is the remote?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Where is the remote? The remote is on the table. Yes or no?",
+            "id": "ESB1_F5a323"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/3wCBPbbK/A5-remote.jpg",
+        "fsp": "What color is the remote? The remote is black. Yes or no?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F1a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a22" }]
+          },
+          {
+            "qs": ["What color is the remote?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What color is the remote? The remote is black. Yes or no?",
+            "id": "ESB1_F5a326"
+          }
+        ]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/3wCBPbbK/A5-remote.jpg",
+        "fsp": "Can the remote change channels? Yes, the remote can change TV channels. Yes or no?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Can the remote change channels? Yes, the remote can change TV channels. Yes or no?",
+            "id": "ESB1_F5a332"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/3wCBPbbK/A5-remote.jpg",
+        "fsp": "What is this? This is a TV remote. Yes or no?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is this? This is a TV remote. Yes or no?",
+            "id": "ESB1_F5a320"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/3wCBPbbK/A5-remote.jpg",
+        "fsp": "Where is the remote? The remote is on the table. Yes or no?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a3" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a25" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Where is the remote? The remote is on the table. Yes or no?",
+            "id": "ESB1_F5a323"
+          }
+        ]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/3wCBPbbK/A5-remote.jpg",
+        "fsp": "Is the remote big or small? The remote is on the table. Yes or no?",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F1a40" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F1a22" }]
+          },
+          {
+            "qs": ["The remote is small."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F1a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Is the remote big or small? The remote is on the table. Yes or no?",
+            "id": "ESB1_F5a347"
+          }
+        ]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  }
+]
