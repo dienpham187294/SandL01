@@ -12,6 +12,7 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
   const [r2Value, setR2Value] = useState(null); // r parameter (Tỷ lệ cho đúng 2)
   const [r1Value, setR1Value] = useState(null); // r01 parameter (Tỷ lệ cho đúng 1)
   const [isRandomEnabled, setIsRandomEnabled] = useState(false); // Trạng thái cho param random
+  const [Note, setNote] = useState(""); // Trạng thái cho param random
   const [generatedLink, setGeneratedLink] = useState("");
 
   // Giá trị khả dụng cho r và r01
@@ -47,7 +48,8 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
       tableType,
       r2Value,
       r1Value,
-      isRandomEnabled
+      isRandomEnabled,
+      Note
     );
     setGeneratedLink(link);
   }, [
@@ -59,6 +61,7 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
     isRandomEnabled,
     id,
     numIndex,
+    Note,
   ]);
 
   // Xử lý khi chọn/bỏ chọn một type
@@ -138,6 +141,18 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
   const handleRandomDefault = () => {
     setIsRandomEnabled(false);
   };
+  const handleChange = (e) => {
+    const raw = e.target.value;
+    const cleaned = cleanInput(raw.trimStart());
+    setNote(cleaned);
+  };
+  function cleanInput(str) {
+    return str
+      .normalize("NFD") // Tách dấu
+      .replace(/[\u0300-\u036f]/g, "") // Xoá dấu
+      .replace(/[^a-zA-Z0-9 ]/g, "") // Xoá ký tự đặc biệt (giữ chữ, số, khoảng trắng)
+      .replace(/\s+/g, " "); // Giảm nhiều khoảng trắng về 1
+  }
   // Hàm tạo link từ các tham số
   function generateFullLink(
     id,
@@ -147,7 +162,8 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
     tableType,
     r2Value,
     r1Value,
-    isRandomEnabled
+    isRandomEnabled,
+    Note
   ) {
     if (!id || isNaN(index)) return "";
 
@@ -166,7 +182,10 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
     if (selectedTypes.length > 0) {
       params.push(`b=${optimizeTypeList(selectedTypes)}`);
     }
-
+    // Tham số random (Trộn lẫn)
+    if (Note !== "") {
+      params.push("note=" + Note.trim().toLowerCase().split(" ").join("-"));
+    }
     // Tham số tb (loại bảng)
     if (tableType === "vietnamese") {
       params.push("tb=tv");
@@ -488,7 +507,13 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
           </button>
         </div>
       </div>
-
+      <input
+        type="text"
+        placeholder="Nhập ghi chú bài tập"
+        value={Note}
+        className="form-control"
+        onChange={handleChange}
+      />
       {/* Phần hiển thị kết quả */}
       <div className="mt-4 p-4 bg-gray-100 rounded">
         <h3 className="text-lg font-semibold mb-2">Link đã tạo:</h3>

@@ -315,6 +315,7 @@ const Room = ({ setSttRoom }) => {
         </div>
         {formatTime(new Date())} <br /> Mã bài tập:
         <br />
+        <b>{params.get("note")}</b>
         <i style={{ fontSize: "small" }}>{params.get("a")}</i>
         <i style={{ fontSize: "small" }}>{splitIntoChunks(params.get("b"))}</i>
         <hr />
