@@ -19,6 +19,8 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import HomeView from "./components/A1_Home";
 // import LinkAPI from "./ulti/T0_linkApi";
 import KnowGhepAm from "./components/A1_Know_Ghepam";
+
+import LearningHub_prac_st_only from "./components/LearningHub_prac_st_only";
 // import PixiCanvas from "./components/PixiJS";
 // import RootPrac from "./components/prac_componets/B1_RootPrac";
 
@@ -132,6 +134,8 @@ const App = () => {
 
               <Route path="/setting" element={<Settings />} />
               <Route path="/name" element={<NameDiv />} />
+
+              <Route path="/pracst" element={<LearningHub_prac_st_only />} />
               <Route
                 path="*"
                 element={

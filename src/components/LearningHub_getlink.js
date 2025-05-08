@@ -325,10 +325,15 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
   const copyToClipboard = () => {
     navigator.clipboard
       .writeText(generatedLink)
-      .then(() => alert("Đã sao chép link vào clipboard!"))
+      .then(() => {
+        const copyBtn = document.getElementById("copyid");
+        if (copyBtn) {
+          const time = new Date().toLocaleTimeString();
+          copyBtn.textContent = "Đã copy lúc " + time;
+        }
+      })
       .catch((err) => console.error("Lỗi khi sao chép: ", err));
   };
-
   return (
     <div className="p-4 max-w-4xl mx-auto border border-gray-300 rounded-lg">
       <h1 className="text-2xl font-bold mb-4">Custom link bài thực hành!</h1>
@@ -521,7 +526,11 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
           <div className="flex-grow p-2 bg-white border rounded overflow-x-auto">
             {generatedLink || "roomoffline/" + id + "/" + numIndex}
           </div>
-          <button onClick={copyToClipboard} className="btn btn-primary">
+          <button
+            id="copyid"
+            onClick={copyToClipboard}
+            className="btn btn-primary"
+          >
             Copy
           </button>
         </div>

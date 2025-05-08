@@ -10,7 +10,7 @@ import NguyenTacghepam from "./A1_NguyentacGhepam";
 import ReadMessage from "../ulti/ReadMessage_2024";
 import LinkAPI from "../ulti/T0_linkApi";
 import Getlink from "./LearningHub_getlink";
-
+import { socket } from "../App";
 const colors = ["red", "orange", "black", "green", "blue", "indigo", "violet"];
 
 const LearningHub = ({ setSttRoom, STTconnectFN }) => {
@@ -316,10 +316,52 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                         Quay lại bảng
                       </button>
                     </div>
-                    <div className="col-9">
+                    <div className="col-6">
                       {" "}
                       <h5>Đoán - Tra - Tìm - Ghép</h5>
                       <h4 style={{ color: "blue" }}>U - E - O - A - i - Ơ</h4>
+                    </div>
+                    <div className="col-3">
+                      {" "}
+                      <button
+                        onClick={() => {
+                          try {
+                            const idDinhDanh = localStorage.getItem("dinhDanh");
+                            const nameDinhDanh =
+                              localStorage.getItem("nameDinhDanh") || "";
+
+                            const decodeElement =
+                              document.getElementById("DeCode");
+                            const DeCodeText = decodeElement
+                              ? decodeElement.textContent
+                              : "";
+
+                            const params = new URLSearchParams(
+                              window.location.search
+                            );
+                            const stParam = params.get("st") || "";
+
+                            const fullURL =
+                              window.location.origin +
+                              "/pracst?st=" +
+                              stParam +
+                              "&&note=" +
+                              encodeURIComponent(DeCodeText);
+
+                            socket.emit("message", {
+                              text: fullURL,
+                              time:
+                                nameDinhDanh ||
+                                (idDinhDanh ? idDinhDanh.slice(0, 4) : ""),
+                            });
+                          } catch (error) {
+                            console.error("Lỗi khi gửi link thực hành:", error);
+                          }
+                        }}
+                        className="btn btn-warning"
+                      >
+                        Gửi link thực hành
+                      </button>
                     </div>
                     {/* <div className="col-6">
                       {" "}
@@ -422,6 +464,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                   >
                     XX
                   </button>
+                  <i id="DeCode"></i>
                 </div>
                 <div className="col-6">
                   {/* {CMDlist} */}
@@ -1102,6 +1145,16 @@ function StringSimilarityMatcher(inputString, phrasesArray) {
     if (similarityScore >= 0.9) {
       const matchedPhrase = phrasesArray[bestMatchIndex];
 
+      // Lấy giá trị, nếu null/undefined thì fallback về ""
+      const ipa02 = matchedPhrase["IPA-02"] || "";
+      const ipa03 = matchedPhrase["IPA-03"] || "";
+      const ipa04 = matchedPhrase["IPA-04"] || "";
+
+      // Cập nhật nội dung văn bản encodeURI
+      const decodeElement = document.getElementById("DeCode");
+      if (decodeElement) {
+        decodeElement.textContent = ipa02 + "zzz" + ipa03 + "zzz" + ipa04;
+      }
       // Format the result as HTML with <i> tags for IPA-02 and IPA-03
       return (
         <div>
