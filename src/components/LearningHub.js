@@ -212,7 +212,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
             <option value="div_01_prac_luyen_am">Nguyên tắc ghép âm</option>
             <option value="div_01_prac_hoc_thuoc">Học thuộc</option>{" "}
             <option value="div_01_prac_phuongphaphoc">Phương pháp học</option>
-            <option value="div_01_prac_bangnhap">Bảng nháp</option>
+            <option value="div_01_prac_bangnhap">Custom link thực hành</option>
             <option value="div_01_prac_vaothuchanh">Vào thực hành</option>
           </select>
           <div style={{ display: "flex" }}>
@@ -284,12 +284,6 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                   ))}
                 </div>
               )} */}
-              {/* <Getlink
-                id="id"
-                index="0"
-                lessonSetLength="10"
-                typeSet={dataLearning[currentIndex]?.typeSets || ["A1"]}
-              /> */}
             </div>
             <div
               id="div_01_prac_ghep_am"
@@ -625,63 +619,12 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                 padding: "0",
               }}
             >
-              <h1>Nháp!</h1>
-              <div className="row">
-                <div className="col-4">
-                  {" "}
-                  <textarea
-                    style={{
-                      width: "90%",
-                      height: "800px",
-                      fontSize: "36px",
-                      fontWeight: "700",
-                      color: "#ffffff",
-                      backgroundColor: "#1e90ff",
-                      cursor: "pointer",
-                      marginLeft: "60px",
-                      padding: "10px",
-                      zIndex: 100,
-                      textDecoration: "underline",
-                    }}
-                  ></textarea>
-                </div>{" "}
-                <div className="col-4">
-                  {" "}
-                  <textarea
-                    style={{
-                      width: "90%",
-                      height: "800px",
-                      fontSize: "36px",
-                      fontWeight: "700",
-                      color: "#ffffff",
-                      backgroundColor: "#1e90ff",
-                      cursor: "pointer",
-                      marginLeft: "60px",
-                      padding: "10px",
-                      zIndex: 100,
-                      textDecoration: "underline",
-                    }}
-                  ></textarea>
-                </div>{" "}
-                <div className="col-4">
-                  {" "}
-                  <textarea
-                    style={{
-                      width: "90%",
-                      height: "800px",
-                      fontSize: "36px",
-                      fontWeight: "700",
-                      color: "#ffffff",
-                      backgroundColor: "#1e90ff",
-                      cursor: "pointer",
-                      marginLeft: "60px",
-                      padding: "10px",
-                      zIndex: 100,
-                      textDecoration: "underline",
-                    }}
-                  ></textarea>
-                </div>
-              </div>
+              <Getlink
+                id={id}
+                index={currentIndex}
+                lessonSetLength={dataLearning.length}
+                typeSet={dataLearning[currentIndex]?.typeSets || ["A1"]}
+              />
             </div>
             <div
               id="div_01_prac_vaothuchanh"

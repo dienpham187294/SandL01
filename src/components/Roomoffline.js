@@ -664,39 +664,63 @@ function getNumberWithDailyExpiry(key) {
   return item.value; // Trả về số nếu chưa hết hạn
 }
 
+/**
+ * Parses a string to extract numbers, handling special separators
+ * zz or a: separates individual numbers
+ * - or b: defines a range between two numbers
+ *
+ * Examples:
+ * "0zz2-4" => [0, 2, 3, 4]
+ * "0a2b4" => [0, 2, 3, 4]
+ *
+ * @param {string} input - The string to parse
+ * @return {Array|null} - Array of numbers or null if invalid
+ */
 function parseStringToNumbers(input) {
   try {
-    const parts = input.split(/(a|b)/); // Tách chuỗi dựa trên 'a' và 'b'
+    // Replace the defined separators with standard markers for processing
+    const normalizedInput = input
+      .replace(/zz/g, "a") // Replace 'zz' with 'a'
+      .replace(/-/g, "b"); // Replace '-' with 'b'
+
+    // Split the string using regex to capture separators and numbers
+    const parts = normalizedInput.split(/([ab])/);
     let result = [];
-    let temp = [];
+    let currentNumber = null;
 
     for (let i = 0; i < parts.length; i++) {
-      if (!isNaN(parts[i]) && parts[i] !== "") {
-        temp.push(parseInt(parts[i])); // Chuyển số dạng chuỗi thành số nguyên
-      } else if (parts[i] === "b") {
-        if (temp.length > 0) {
-          const start = temp.pop(); // Lấy số trước 'b'
-          const end = parseInt(parts[i + 1]); // Số sau 'b'
-          if (!isNaN(end)) {
-            for (let j = start; j <= end; j++) {
-              result.push(j); // Thêm các số từ start đến end
+      const part = parts[i].trim();
+
+      // Skip empty parts
+      if (!part) continue;
+
+      if (part === "a") {
+        // 'a' is just a separator, we continue to the next part
+        continue;
+      } else if (part === "b") {
+        // 'b' indicates a range, we need the numbers before and after
+        if (currentNumber !== null && i + 1 < parts.length) {
+          const nextPart = parts[i + 1].trim();
+          if (nextPart && !isNaN(nextPart)) {
+            const end = parseInt(nextPart);
+            // Generate all numbers in the range (inclusive)
+            for (let j = currentNumber + 1; j <= end; j++) {
+              result.push(j);
             }
-            i++; // Bỏ qua số đã xử lý sau 'b'
+            i++; // Skip the next part as we've already processed it
           }
         }
-      } else if (parts[i] === "a") {
-        if (temp.length > 0) result.push(temp.pop()); // Giữ số cuối cùng trong bộ đệm
+      } else if (!isNaN(part)) {
+        // This is a number
+        currentNumber = parseInt(part);
+        result.push(currentNumber);
       }
     }
 
-    // Xử lý số cuối cùng còn lại
-    if (temp.length > 0) result.push(...temp);
-
-    // Kiểm tra nếu mảng kết quả rỗng thì trả về null
-    console.log(result, "AAAAAAAAAAAAaaa");
+    console.log("Parsed result:", result);
     return result.length > 0 ? result : null;
   } catch (error) {
-    // Trả về null nếu có lỗi
+    console.error("Error parsing string:", error);
     return null;
   }
 }

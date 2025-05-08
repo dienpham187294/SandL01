@@ -1,85 +1,21 @@
 import { useState, useEffect } from "react";
 
-// Hàm tạo link từ các tham số
-function getLink(id, index, selectedTypes, lessonSetLength) {
-  // Tạo lessonSet từ 0 đến lessonSetLength-1
-  const lessonSet = Array.from({ length: lessonSetLength }, (_, i) => i);
-
-  // Tối ưu hóa danh sách selectedTypes
-  const optimizedTypeString = optimizeTypeList(selectedTypes);
-
-  // Tạo tham số a từ lessonSet
-  const aParam = lessonSet.join("zz");
-
-  // Tạo link cuối cùng
-  return `roomoffline/${id}/${index}?a=${aParam}&&b=${optimizedTypeString}`;
-}
-
-// Hàm tối ưu hóa danh sách type đã chọn
-function optimizeTypeList(selectedTypes) {
-  if (!selectedTypes || selectedTypes.length === 0) {
-    return "";
-  }
-
-  // Nhóm các type theo chữ cái đầu tiên
-  const groupedTypes = {};
-  selectedTypes.forEach((type) => {
-    const prefix = type.charAt(0);
-    if (!groupedTypes[prefix]) {
-      groupedTypes[prefix] = [];
-    }
-    const num = parseInt(type.substring(1));
-    groupedTypes[prefix].push(num);
-  });
-
-  // Tối ưu hóa từng nhóm
-  const optimizedParts = [];
-
-  for (const prefix in groupedTypes) {
-    const numbers = groupedTypes[prefix].sort((a, b) => a - b);
-
-    // Kiểm tra xem có lấy tất cả các giá trị từ 1-25 không
-    if (numbers.length === 25 && numbers.every((val, idx) => val === idx + 1)) {
-      optimizedParts.push(`${prefix}*`);
-      continue;
-    }
-
-    // Tìm và tạo các dải số liên tục
-    let i = 0;
-    while (i < numbers.length) {
-      let start = numbers[i];
-      let end = start;
-
-      // Tìm dải số liên tục
-      while (i + 1 < numbers.length && numbers[i + 1] === end + 1) {
-        end = numbers[++i];
-      }
-
-      // Thêm vào kết quả theo định dạng phù hợp
-      if (start === end) {
-        optimizedParts.push(`${prefix}${start}`);
-      } else if (end - start >= 2) {
-        optimizedParts.push(`${prefix}${start}-${end}`);
-      } else {
-        optimizedParts.push(`${prefix}${start}`, `${prefix}${end}`);
-      }
-
-      i++;
-    }
-  }
-
-  return optimizedParts.join("zz");
-}
-
-// Component chính đổi tên thành GetLink
-export default function GetLink({ id, index, lessonSetLength, typeSet }) {
+export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
   // Chuyển đổi các prop thành số nếu cần
   const numIndex = parseInt(index) || 0;
   const numLessonSetLength = parseInt(lessonSetLength) || 10;
 
-  // Khởi tạo trạng thái
-  const [selectedTypes, setSelectedTypes] = useState(typeSet || []);
+  // Khởi tạo trạng thái - mặc định không chọn types và lessons nào
+  const [selectedTypes, setSelectedTypes] = useState([]);
+  const [selectedLessons, setSelectedLessons] = useState([]);
+  const [tableType, setTableType] = useState("normal"); // normal, vietnamese, empty
+  const [r2Value, setR2Value] = useState(null); // r parameter (Tỷ lệ cho đúng 2)
+  const [r1Value, setR1Value] = useState(null); // r01 parameter (Tỷ lệ cho đúng 1)
+  const [isRandomEnabled, setIsRandomEnabled] = useState(false); // Trạng thái cho param random
   const [generatedLink, setGeneratedLink] = useState("");
+
+  // Giá trị khả dụng cho r và r01
+  const rValues = [0.45, 0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85];
 
   // Nhóm typeSet thành các nhóm A, B, C để hiển thị
   const groupedTypes = {};
@@ -95,15 +31,35 @@ export default function GetLink({ id, index, lessonSetLength, typeSet }) {
     });
   }
 
+  // Tạo danh sách bài học từ 0 đến numLessonSetLength-1
+  const availableLessons = Array.from(
+    { length: numLessonSetLength },
+    (_, i) => i
+  );
+
   // Cập nhật link khi có thay đổi
   useEffect(() => {
-    if (selectedTypes.length > 0) {
-      const link = getLink(id, numIndex, selectedTypes, numLessonSetLength);
-      setGeneratedLink(link);
-    } else {
-      setGeneratedLink("");
-    }
-  }, [selectedTypes, id, numIndex, numLessonSetLength]);
+    const link = generateFullLink(
+      id,
+      numIndex,
+      selectedTypes,
+      selectedLessons,
+      tableType,
+      r2Value,
+      r1Value,
+      isRandomEnabled
+    );
+    setGeneratedLink(link);
+  }, [
+    selectedTypes,
+    selectedLessons,
+    tableType,
+    r2Value,
+    r1Value,
+    isRandomEnabled,
+    id,
+    numIndex,
+  ]);
 
   // Xử lý khi chọn/bỏ chọn một type
   const handleTypeToggle = (type) => {
@@ -111,6 +67,15 @@ export default function GetLink({ id, index, lessonSetLength, typeSet }) {
       setSelectedTypes(selectedTypes.filter((t) => t !== type));
     } else {
       setSelectedTypes([...selectedTypes, type]);
+    }
+  };
+
+  // Xử lý khi chọn/bỏ chọn một bài học
+  const handleLessonToggle = (lesson) => {
+    if (selectedLessons.includes(lesson)) {
+      setSelectedLessons(selectedLessons.filter((l) => l !== lesson));
+    } else {
+      setSelectedLessons([...selectedLessons, lesson].sort((a, b) => a - b));
     }
   };
 
@@ -136,6 +101,207 @@ export default function GetLink({ id, index, lessonSetLength, typeSet }) {
     }
   };
 
+  // Xử lý khi chọn tất cả hoặc bỏ chọn tất cả các bài học
+  const handleAllLessonToggle = () => {
+    if (selectedLessons.length === availableLessons.length) {
+      setSelectedLessons([]);
+    } else {
+      setSelectedLessons([...availableLessons]);
+    }
+  };
+
+  // Xử lý thay đổi giá trị r2 (Tỷ lệ cho đúng 2)
+  const handleR2Change = (value) => {
+    setR2Value(value === r2Value ? null : value);
+  };
+
+  // Xử lý thay đổi giá trị r1 (Tỷ lệ cho đúng 1)
+  const handleR1Change = (value) => {
+    setR1Value(value === r1Value ? null : value);
+  };
+
+  // Xử lý khi bấm nút mặc định (không có param)
+  const handleDefaultR2 = () => {
+    setR2Value(null);
+  };
+
+  // Xử lý khi bấm nút mặc định (không có param)
+  const handleDefaultR1 = () => {
+    setR1Value(null);
+  };
+
+  // Xử lý khi bật/tắt chế độ trộn lẫn (random)
+  const handleRandomToggle = () => {
+    setIsRandomEnabled(!isRandomEnabled);
+  };
+  // Xử lý khi bật/tắt chế độ trộn lẫn (random)
+  const handleRandomDefault = () => {
+    setIsRandomEnabled(false);
+  };
+  // Hàm tạo link từ các tham số
+  function generateFullLink(
+    id,
+    index,
+    selectedTypes,
+    selectedLessons,
+    tableType,
+    r2Value,
+    r1Value,
+    isRandomEnabled
+  ) {
+    if (!id || isNaN(index)) return "";
+
+    // Tạo base link
+    let link = `roomoffline/${id}/${index}`;
+
+    // Thêm các tham số nếu cần
+    const params = [];
+
+    // Tham số a (bài học)
+    if (selectedLessons.length > 0) {
+      params.push(`a=${optimizeLessonList(selectedLessons)}`);
+    }
+
+    // Tham số b (type)
+    if (selectedTypes.length > 0) {
+      params.push(`b=${optimizeTypeList(selectedTypes)}`);
+    }
+
+    // Tham số tb (loại bảng)
+    if (tableType === "vietnamese") {
+      params.push("tb=tv");
+    } else if (tableType === "empty") {
+      params.push("tb=null");
+    }
+
+    // Tham số r (Tỷ lệ cho đúng 2)
+    if (r2Value !== null) {
+      params.push(`r=${r2Value}`);
+    }
+
+    // Tham số r01 (Tỷ lệ cho đúng 1)
+    if (r1Value !== null) {
+      params.push(`r01=${r1Value}`);
+    }
+
+    // Tham số random (Trộn lẫn)
+    if (isRandomEnabled) {
+      params.push("random=true");
+    }
+
+    // Thêm các tham số vào link
+    if (params.length > 0) {
+      link += "?" + params.join("&&");
+    }
+    const linkLocation = window.location.origin;
+    return linkLocation + "/" + link;
+  }
+
+  // Hàm tối ưu hóa danh sách bài học đã chọn
+  function optimizeLessonList(selectedLessons) {
+    if (!selectedLessons || selectedLessons.length === 0) {
+      return "";
+    }
+
+    // Sắp xếp các số theo thứ tự tăng dần
+    const sortedLessons = [...selectedLessons].sort((a, b) => a - b);
+
+    // Nếu đã chọn tất cả các bài học, trả về "all"
+    if (
+      sortedLessons.length === numLessonSetLength &&
+      sortedLessons.every((val, idx) => val === idx)
+    ) {
+      return "all";
+    }
+
+    // Tìm và tạo các dải số liên tục
+    const ranges = [];
+    let rangeStart = sortedLessons[0];
+    let prev = rangeStart;
+
+    for (let i = 1; i <= sortedLessons.length; i++) {
+      const current = sortedLessons[i];
+      // Nếu không còn liên tục hoặc đã đến cuối mảng
+      if (current !== prev + 1 || i === sortedLessons.length) {
+        // Kết thúc dải hiện tại
+        if (rangeStart === prev) {
+          ranges.push(`${rangeStart}`);
+        } else if (prev - rangeStart === 1) {
+          ranges.push(`${rangeStart}`, `${prev}`);
+        } else {
+          ranges.push(`${rangeStart}-${prev}`);
+        }
+
+        // Bắt đầu dải mới nếu chưa đến cuối
+        if (i < sortedLessons.length) {
+          rangeStart = current;
+        }
+      }
+      prev = current;
+    }
+
+    return ranges.join("zz");
+  }
+
+  // Hàm tối ưu hóa danh sách type đã chọn
+  function optimizeTypeList(selectedTypes) {
+    if (!selectedTypes || selectedTypes.length === 0) {
+      return "";
+    }
+
+    // Nhóm các type theo chữ cái đầu tiên
+    const groupedTypes = {};
+    selectedTypes.forEach((type) => {
+      const prefix = type.charAt(0);
+      if (!groupedTypes[prefix]) {
+        groupedTypes[prefix] = [];
+      }
+      const num = parseInt(type.substring(1));
+      groupedTypes[prefix].push(num);
+    });
+
+    // Tối ưu hóa từng nhóm
+    const optimizedParts = [];
+
+    for (const prefix in groupedTypes) {
+      const numbers = groupedTypes[prefix].sort((a, b) => a - b);
+
+      // Kiểm tra xem có lấy tất cả các giá trị từ 1-25 không
+      if (
+        numbers.length === 25 &&
+        numbers.every((val, idx) => val === idx + 1)
+      ) {
+        optimizedParts.push(`${prefix}*`);
+        continue;
+      }
+
+      // Tìm và tạo các dải số liên tục
+      let i = 0;
+      while (i < numbers.length) {
+        let start = numbers[i];
+        let end = start;
+
+        // Tìm dải số liên tục
+        while (i + 1 < numbers.length && numbers[i + 1] === end + 1) {
+          end = numbers[++i];
+        }
+
+        // Thêm vào kết quả theo định dạng phù hợp
+        if (start === end) {
+          optimizedParts.push(`${prefix}${start}`);
+        } else if (end - start >= 2) {
+          optimizedParts.push(`${prefix}${start}-${end}`);
+        } else {
+          optimizedParts.push(`${prefix}${start}`, `${prefix}${end}`);
+        }
+
+        i++;
+      }
+    }
+
+    return optimizedParts.join("zz");
+  }
+
   // Hàm sao chép link vào clipboard
   const copyToClipboard = () => {
     navigator.clipboard
@@ -145,71 +311,228 @@ export default function GetLink({ id, index, lessonSetLength, typeSet }) {
   };
 
   return (
-    <div
-      style={{ border: "1px solid black", backgroundColor: "white" }}
-      className="p-4 max-w-4xl mx-auto"
-    >
-      <h1 className="text-2xl font-bold mb-4">Bảng chọn Type</h1>
+    <div className="p-4 max-w-4xl mx-auto border border-gray-300 rounded-lg">
+      <h1 className="text-2xl font-bold mb-4">Custom link bài thực hành!</h1>
 
-      <div className="mb-6">
-        {Object.keys(groupedTypes).map((prefix) => (
-          <div key={prefix} className="mb-4">
-            <div className="flex items-center mb-2">
-              <h2 className="text-lg font-semibold">Nhóm {prefix}</h2>
-              <button
-                onClick={() => handleGroupToggle(prefix)}
-                className="ml-4 bg-blue-500 text-white px-3 py-1 rounded text-sm"
-              >
-                {groupedTypes[prefix].every((t) => selectedTypes.includes(t))
-                  ? "Bỏ chọn tất cả"
-                  : "Chọn tất cả"}
-              </button>
-            </div>
+      {/* Phần chọn bài học */}
+      <div className="mb-6 p-4 bg-gray-50 rounded-lg">
+        <div className="flex items-center mb-2">
+          <h2 className="text-lg font-semibold">Chọn bài học (a=)</h2>
+          <button onClick={handleAllLessonToggle} className="btn btn-primary">
+            {selectedLessons.length === availableLessons.length
+              ? "Bỏ chọn tất cả"
+              : "Chọn tất cả"}
+          </button>
+        </div>
 
-            <div className="grid grid-cols-5 gap-2">
-              {groupedTypes[prefix].map((type) => (
-                <button
-                  key={type}
-                  onClick={() => handleTypeToggle(type)}
-                  className={`p-2 rounded border ${
-                    selectedTypes.includes(type)
-                      ? "bg-blue-500 text-white"
-                      : "bg-white text-gray-800"
-                  }`}
-                >
-                  {type}
-                </button>
-              ))}
-            </div>
-          </div>
-        ))}
+        <div className="grid grid-cols-5 gap-2 sm:grid-cols-10">
+          {availableLessons.map((lesson) => (
+            <button
+              key={`lesson-${lesson}`}
+              onClick={() => handleLessonToggle(lesson)}
+              className={`p-2 rounded border ${
+                selectedLessons.includes(lesson)
+                  ? "btn btn-primary"
+                  : "btn btn-light"
+              }`}
+            >
+              Bài {lesson + 1}
+            </button>
+          ))}
+        </div>
       </div>
 
-      {generatedLink && (
-        <div className="mt-4 p-4 bg-gray-100 rounded">
-          <h3 className="text-lg font-semibold mb-2">Generated Link:</h3>
-          <div className="flex items-center">
-            <div className="flex-grow p-2 bg-white border rounded overflow-x-auto">
-              {generatedLink}
+      {/* Phần chọn type */}
+      {Object.keys(groupedTypes).length > 0 && (
+        <div className="row mb-6">
+          <h2 className="text-xl font-bold mb-4">Bảng chọn Type (b=)</h2>
+
+          {Object.keys(groupedTypes).map((prefix) => (
+            <div key={prefix} className="col-4 mb-4 p-4 bg-gray-50 rounded-lg">
+              <div className="flex items-center mb-2">
+                <h3 className="text-lg font-semibold">Nhóm {prefix}</h3>
+                <button
+                  onClick={() => handleGroupToggle(prefix)}
+                  className="btn btn-primary"
+                >
+                  {groupedTypes[prefix].every((t) => selectedTypes.includes(t))
+                    ? "Bỏ chọn tất cả"
+                    : "Chọn tất cả"}
+                </button>
+              </div>
+
+              <div className="grid grid-cols-5 gap-2 sm:grid-cols-8">
+                {groupedTypes[prefix].map((type) => (
+                  <button
+                    key={type}
+                    onClick={() => handleTypeToggle(type)}
+                    className={`p-2 rounded border ${
+                      selectedTypes.includes(type) ? "btn btn-primary" : "btn"
+                    }`}
+                  >
+                    {type}
+                  </button>
+                ))}
+              </div>
             </div>
-            <button
-              onClick={copyToClipboard}
-              className="ml-2 bg-green-500 text-white px-4 py-2 rounded"
-            >
-              Copy
-            </button>
-          </div>
-          <div className="mt-4">
-            <p>
-              <strong>Selected Types:</strong> {selectedTypes.length}
-            </p>
-            <p>
-              <strong>Lesson Set:</strong> {numLessonSetLength} items (0 to{" "}
-              {numLessonSetLength - 1})
-            </p>
-          </div>
+          ))}
         </div>
       )}
+
+      {/* Phần chọn loại bảng */}
+      <div className="mb-6 p-4 bg-gray-50 rounded-lg">
+        <h2 className="text-lg font-semibold mb-2">Chọn loại bảng (tb=)</h2>
+        <div className="flex space-x-4">
+          <button
+            onClick={() => setTableType("normal")}
+            className={`px-4 py-2 rounded border ${
+              tableType === "normal" ? "btn btn-primary" : "btn"
+            }`}
+          >
+            Mặc định
+          </button>
+          <button
+            onClick={() => setTableType("vietnamese")}
+            className={`px-4 py-2 rounded border ${
+              tableType === "vietnamese" ? "btn btn-primary" : "btn"
+            }`}
+          >
+            Tiếng Việt (tb=tv)
+          </button>
+          <button
+            onClick={() => setTableType("empty")}
+            className={`px-4 py-2 rounded border ${
+              tableType === "empty" ? "btn btn-primary" : "btn"
+            }`}
+          >
+            Bảng trống (tb=null)
+          </button>
+        </div>
+      </div>
+
+      {/* Phần chọn tỷ lệ cho đúng (2) */}
+      <div className="mb-6 p-4 bg-gray-50 rounded-lg">
+        <h2 className="text-lg font-semibold mb-2">Tỷ lệ cho đúng (2) (r=)</h2>
+        <div className="flex flex-wrap space-x-2">
+          <button
+            onClick={handleDefaultR2}
+            className={`px-4 py-2 rounded border ${
+              r2Value === null ? "btn btn-primary" : "btn"
+            }`}
+          >
+            Mặc định
+          </button>
+          {rValues.map((value) => (
+            <button
+              key={`r2-${value}`}
+              onClick={() => handleR2Change(value)}
+              className={`px-4 py-2 rounded border ${
+                r2Value === value ? "btn btn-primary" : "btn"
+              }`}
+            >
+              {value}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {/* Phần chọn tỷ lệ cho đúng (1) */}
+      <div className="mb-6 p-4 bg-gray-50 rounded-lg">
+        <h2 className="text-lg font-semibold mb-2">
+          Tỷ lệ cho đúng (1) (r01=)
+        </h2>
+        <div className="flex flex-wrap space-x-2">
+          <button
+            onClick={handleDefaultR1}
+            className={`px-4 py-2 rounded border ${
+              r1Value === null ? "btn btn-primary" : "btn"
+            }`}
+          >
+            Mặc định
+          </button>
+          {rValues.map((value) => (
+            <button
+              key={`r1-${value}`}
+              onClick={() => handleR1Change(value)}
+              className={`px-4 py-2 rounded border ${
+                r1Value === value ? "btn btn-primary" : "btn"
+              }`}
+            >
+              {value}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {/* Phần chọn trộn lẫn */}
+      <div className="mb-6 p-4 bg-gray-50 rounded-lg">
+        <h2 className="text-lg font-semibold mb-2">Trộn lẫn (random=)</h2>
+
+        <div className="flex space-x-4">
+          {" "}
+          <button
+            onClick={handleRandomDefault}
+            className={`px-4 py-2 rounded border ${
+              isRandomEnabled ? "btn" : "btn btn-primary"
+            }`}
+          >
+            Mặc định
+          </button>
+          <button
+            onClick={handleRandomToggle}
+            className={`px-4 py-2 rounded border ${
+              isRandomEnabled ? "btn btn-primary" : "btn"
+            }`}
+          >
+            Trộn lẫn
+          </button>
+        </div>
+      </div>
+
+      {/* Phần hiển thị kết quả */}
+      <div className="mt-4 p-4 bg-gray-100 rounded">
+        <h3 className="text-lg font-semibold mb-2">Link đã tạo:</h3>
+        <div className="flex items-center">
+          <div className="flex-grow p-2 bg-white border rounded overflow-x-auto">
+            {generatedLink || "roomoffline/" + id + "/" + numIndex}
+          </div>
+          <button onClick={copyToClipboard} className="btn btn-primary">
+            Copy
+          </button>
+        </div>
+        <div className="mt-4">
+          <p className="mb-1">
+            <strong>Bài học đã chọn:</strong> {selectedLessons.length} /{" "}
+            {numLessonSetLength}
+          </p>
+          <p className="mb-1">
+            <strong>Type đã chọn:</strong> {selectedTypes.length}
+          </p>
+          <p className="mb-1">
+            <strong>Loại bảng:</strong>{" "}
+            {tableType === "normal"
+              ? "Bình thường"
+              : tableType === "vietnamese"
+              ? "Tiếng Việt"
+              : "Bảng trống"}
+          </p>
+          {r2Value !== null && (
+            <p className="mb-1">
+              <strong>Tỷ lệ cho đúng (2):</strong> {r2Value}
+            </p>
+          )}
+          {r1Value !== null && (
+            <p className="mb-1">
+              <strong>Tỷ lệ cho đúng (1):</strong> {r1Value}
+            </p>
+          )}
+          {isRandomEnabled && (
+            <p className="mb-1">
+              <strong>Trộn lẫn:</strong> Có
+            </p>
+          )}
+        </div>
+      </div>
     </div>
   );
 }
