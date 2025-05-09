@@ -353,7 +353,8 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                               time:
                                 nameDinhDanh ||
                                 (idDinhDanh ? idDinhDanh.slice(0, 4) : "") +
-                                  "_Luyện tập câu trên.",
+                                  "_Luyện tập câu:" +
+                                  stParam,
                             });
                           } catch (error) {
                             console.error("Lỗi khi gửi link thực hành:", error);

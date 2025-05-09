@@ -1,0 +1,5214 @@
+[
+  {
+    "id": "this-is-a-stove",
+    "ListenList": [],
+    "typeSets": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "SEO": {
+      "seo": {
+        "metaTitle": "This is a stove.",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "This is a stove.",
+        "IFdes": "This is a stove.",
+        "IF-audiocode": "ESB1_F16"
+      },
+      "HD": [
+        {
+          "HD-01": "X",
+          "HD-02": "This is a stove.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "https://i.postimg.cc/YqFdWVyR/A16.png",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What is this?",
+          "HD-02": "This is a stove.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Where do you put the stove?",
+          "HD-02": "I put the stove in the kitchen.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What do you use the stove for?",
+          "HD-02": "I use the stove to cook food.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What color is the stove?",
+          "HD-02": "The stove is black.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Do you have a stove at home?",
+          "HD-02": "Yes, I have a stove at home.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(A1-5)",
+          "HD-02": "Question and answers.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(B1-5)",
+          "HD-02": "What is the question for ..",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(C1-5)",
+          "HD-02": "Yes",
+          "HD-03": "No",
+          "HD-04": "What is the correct answer?",
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": "What is the correct question?",
+          "HD-05": null
+        }
+      ],
+      "TB": [],
+      "TV": [
+        {
+          "TV-01": "X",
+          "TV-02": "Đây là bếp.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": "https://i.postimg.cc/YqFdWVyR/A16.png",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "X",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Đây là gì?",
+          "TV-02": "Đây là bếp.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Bạn đặt bếp ở đâu?",
+          "TV-02": "Tôi đặt bếp trong bếp.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Bạn dùng bếp để làm gì?",
+          "TV-02": "Tôi dùng bếp để nấu thức ăn.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Bếp màu gì?",
+          "TV-02": "Bếp màu đen.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Nhà bạn có bếp không?",
+          "TV-02": "Có, nhà tôi có bếp.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(A1-5)",
+          "TV-02": "Question and answers.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(B1-5)",
+          "TV-02": "What is the question for ..",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(C1-5)",
+          "TV-02": "Yes",
+          "TV-03": "No",
+          "TV-04": "What is the correct answer?",
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": "What is the correct question?",
+          "TV-05": null
+        }
+      ],
+      "IPA": [
+        {
+          "IPA-01": "What is this?",
+          "IPA-02": "Đây là gì?",
+          "IPA-03": "wɒt ɪz ðɪs?",
+          "IPA-04": "wɑt ɪz ðɪs?"
+        },
+        {
+          "IPA-01": "This is a stove.",
+          "IPA-02": "Đây là bếp.",
+          "IPA-03": "ðɪs ɪz ə stəʊv.",
+          "IPA-04": "ðɪs ɪz ə stoʊv."
+        },
+        {
+          "IPA-01": "Where do you put the stove?",
+          "IPA-02": "Bạn đặt bếp ở đâu?",
+          "IPA-03": "weə duː juː pʊt ðə stəʊv?",
+          "IPA-04": "wɛr du ju pʊt ðə stoʊv?"
+        },
+        {
+          "IPA-01": "I put the stove in the kitchen.",
+          "IPA-02": "Tôi đặt bếp trong bếp.",
+          "IPA-03": "aɪ pʊt ðə stəʊv ɪn ðə ˈkɪʧᵊn.",
+          "IPA-04": "aɪ pʊt ðə stoʊv ɪn ðə ˈkɪʧən."
+        },
+        {
+          "IPA-01": "What do you use the stove for?",
+          "IPA-02": "Bạn dùng bếp để làm gì?",
+          "IPA-03": "wɒt duː juː juːz ðə stəʊv fɔː?",
+          "IPA-04": "wɑt du ju juz ðə stoʊv fɔr?"
+        },
+        {
+          "IPA-01": "I use the stove to cook food.",
+          "IPA-02": "Tôi dùng bếp để nấu thức ăn.",
+          "IPA-03": "aɪ juːz ðə stəʊv tuː kʊk fuːd.",
+          "IPA-04": "aɪ juz ðə stoʊv tu kʊk fud."
+        },
+        {
+          "IPA-01": "What color is the stove?",
+          "IPA-02": "Bếp màu gì?",
+          "IPA-03": "wɒt ˈkʌlər ɪz ðə stəʊv?",
+          "IPA-04": "wɑt ˈkʌlər ɪz ðə stoʊv?"
+        },
+        {
+          "IPA-01": "The stove is black.",
+          "IPA-02": "Bếp màu đen.",
+          "IPA-03": "ðə stəʊv ɪz blæk.",
+          "IPA-04": "ðə stoʊv ɪz blæk."
+        },
+        {
+          "IPA-01": "Do you have a stove at home?",
+          "IPA-02": "Nhà bạn có bếp không?",
+          "IPA-03": "duː juː hæv ə stəʊv æt həʊm?",
+          "IPA-04": "du ju hæv ə stoʊv æt hoʊm?"
+        },
+        {
+          "IPA-01": "Yes, I have a stove at home.",
+          "IPA-02": "Có, nhà tôi có bếp.",
+          "IPA-03": "jɛs, aɪ hæv ə stəʊv æt həʊm.",
+          "IPA-04": "jɛs, aɪ hæv ə stoʊv æt hoʊm."
+        }
+      ]
+    },
+    "charactor": [
+      {
+        "type": "B2",
+        "hint": "https://i.postimg.cc/YqFdWVyR/A16.png",
+        "fsp": "What is the question for I put the stove in the kitchen.",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Where do you put the stove?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for I put the stove in the kitchen.",
+            "id": "ESB1_F16a12"
+          }
+        ]
+      },
+      {
+        "type": "A3",
+        "hint": "https://i.postimg.cc/YqFdWVyR/A16.png",
+        "fsp": "What do you use the stove for?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["I use the stove to cook food."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What do you use the stove for?", "id": "ESB1_F16a4" }
+        ]
+      },
+      {
+        "type": "B1",
+        "hint": "https://i.postimg.cc/YqFdWVyR/A16.png",
+        "fsp": "What is the question for This is a stove.",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What is this?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for This is a stove.",
+            "id": "ESB1_F16a10"
+          }
+        ]
+      },
+      {
+        "type": "A5",
+        "hint": "https://i.postimg.cc/YqFdWVyR/A16.png",
+        "fsp": "Do you have a stove at home?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes, I have a stove at home."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Do you have a stove at home?", "id": "ESB1_F16a8" }
+        ]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/YqFdWVyR/A16.png",
+        "fsp": "Do you have a stove at home? Yes, I have a stove at home. Yes or no?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Do you have a stove at home? Yes, I have a stove at home. Yes or no?",
+            "id": "ESB1_F16a32"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "hint": "https://i.postimg.cc/YqFdWVyR/A16.png",
+        "fsp": "What is this?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["This is a stove."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What is this?", "id": "ESB1_F16a0" }]
+      },
+      {
+        "type": "A4",
+        "hint": "https://i.postimg.cc/YqFdWVyR/A16.png",
+        "fsp": "What color is the stove?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["The stove is black."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What color is the stove?", "id": "ESB1_F16a6" }]
+      },
+      {
+        "type": "B3",
+        "hint": "https://i.postimg.cc/YqFdWVyR/A16.png",
+        "fsp": "What is the question for I use the stove to cook food.",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What do you use the stove for?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for I use the stove to cook food.",
+            "id": "ESB1_F16a14"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "hint": "https://i.postimg.cc/YqFdWVyR/A16.png",
+        "fsp": "Where do you put the stove?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["I put the stove in the kitchen."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Where do you put the stove?", "id": "ESB1_F16a2" }]
+      },
+      {
+        "type": "B4",
+        "hint": "https://i.postimg.cc/YqFdWVyR/A16.png",
+        "fsp": "What is the question for The stove is black.",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What color is the stove?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for The stove is black.",
+            "id": "ESB1_F16a16"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/YqFdWVyR/A16.png",
+        "fsp": "Where do you put the stove? I put the stove in the kitchen. Yes or no?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a25" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Where do you put the stove? I put the stove in the kitchen. Yes or no?",
+            "id": "ESB1_F16a23"
+          }
+        ]
+      },
+      {
+        "type": "B5",
+        "hint": "https://i.postimg.cc/YqFdWVyR/A16.png",
+        "fsp": "What is the question for Yes, I have a stove at home.",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Do you have a stove at home?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for Yes, I have a stove at home.",
+            "id": "ESB1_F16a18"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/YqFdWVyR/A16.png",
+        "fsp": "What do you use the stove for? This is a stove. Yes or no?",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F16a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a25" }]
+          },
+          {
+            "qs": ["I use the stove to cook food."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What do you use the stove for? This is a stove. Yes or no?",
+            "id": "ESB1_F16a43"
+          }
+        ]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/YqFdWVyR/A16.png",
+        "fsp": "What color is the stove? I put the stove in the kitchen. Yes or no?",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F16a40" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a22" }]
+          },
+          {
+            "qs": ["The stove is black."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What color is the stove? I put the stove in the kitchen. Yes or no?",
+            "id": "ESB1_F16a47"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/YqFdWVyR/A16.png",
+        "fsp": "What is this? This is a stove. Yes or no?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F16a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a22" }]
+          },
+          {
+            "qs": ["What is this?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What is this? This is a stove. Yes or no?",
+            "id": "ESB1_F16a20"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/YqFdWVyR/A16.png",
+        "fsp": "What do you use the stove for? I use the stove to cook food. Yes or no?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F16a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a22" }]
+          },
+          {
+            "qs": ["What do you use the stove for?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What do you use the stove for? I use the stove to cook food. Yes or no?",
+            "id": "ESB1_F16a26"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/YqFdWVyR/A16.png",
+        "fsp": "Where do you put the stove? I put the stove in the kitchen. Yes or no?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F16a60" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a25" }]
+          },
+          {
+            "qs": ["Where do you put the stove?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Where do you put the stove? I put the stove in the kitchen. Yes or no?",
+            "id": "ESB1_F16a23"
+          }
+        ]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/YqFdWVyR/A16.png",
+        "fsp": "Do you have a stove at home? I use the stove to cook food. Yes or no?",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F16a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a25" }]
+          },
+          {
+            "qs": ["Yes, I have a stove at home."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Do you have a stove at home? I use the stove to cook food. Yes or no?",
+            "id": "ESB1_F16a51"
+          }
+        ]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/YqFdWVyR/A16.png",
+        "fsp": "What color is the stove? The stove is black. Yes or no?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F16a60" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a25" }]
+          },
+          {
+            "qs": ["What color is the stove?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What color is the stove? The stove is black. Yes or no?",
+            "id": "ESB1_F16a29"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/YqFdWVyR/A16.png",
+        "fsp": "What is this? The stove is black. Yes or no?",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F16a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a25" }]
+          },
+          {
+            "qs": ["This is a stove."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What is this? The stove is black. Yes or no?",
+            "id": "ESB1_F16a35"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/YqFdWVyR/A16.png",
+        "fsp": "Where do you put the stove? Yes, I have a stove at home. Yes or no?",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F16a40" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a22" }]
+          },
+          {
+            "qs": ["I put the stove in the kitchen."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Where do you put the stove? Yes, I have a stove at home. Yes or no?",
+            "id": "ESB1_F16a39"
+          }
+        ]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/YqFdWVyR/A16.png",
+        "fsp": "What color is the stove? The stove is black. Yes or no?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a25" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What color is the stove? The stove is black. Yes or no?",
+            "id": "ESB1_F16a29"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/YqFdWVyR/A16.png",
+        "fsp": "What do you use the stove for? I use the stove to cook food. Yes or no?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What do you use the stove for? I use the stove to cook food. Yes or no?",
+            "id": "ESB1_F16a26"
+          }
+        ]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/YqFdWVyR/A16.png",
+        "fsp": "Do you have a stove at home? Yes, I have a stove at home. Yes or no?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F16a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a22" }]
+          },
+          {
+            "qs": ["Do you have a stove at home?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Do you have a stove at home? Yes, I have a stove at home. Yes or no?",
+            "id": "ESB1_F16a32"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/YqFdWVyR/A16.png",
+        "fsp": "What is this? This is a stove. Yes or no?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is this? This is a stove. Yes or no?",
+            "id": "ESB1_F16a20"
+          }
+        ]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  },
+  {
+    "id": "this-is-a-rice-cooker",
+    "ListenList": [],
+    "typeSets": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "SEO": {
+      "seo": {
+        "metaTitle": "This is a rice cooker.",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "This is a rice cooker.",
+        "IFdes": "This is a rice cooker.",
+        "IF-audiocode": "ESB1_F17"
+      },
+      "HD": [
+        {
+          "HD-01": "X",
+          "HD-02": "This is a rice cooker.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "https://i.postimg.cc/kgdfFc0m/A17.png",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What is this?",
+          "HD-02": "This is a rice cooker.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Where do you put the rice cooker?",
+          "HD-02": "I put the rice cooker in the kitchen.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What do you use the rice cooker for?",
+          "HD-02": "I use the rice cooker to cook rice.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What color is the rice cooker?",
+          "HD-02": "The rice cooker is white.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Do you have a rice cooker at home?",
+          "HD-02": "Yes, I have a rice cooker at home.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(A1-5)",
+          "HD-02": "Question and answers.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(B1-5)",
+          "HD-02": "What is the question for ..",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(C1-5)",
+          "HD-02": "Yes",
+          "HD-03": "No",
+          "HD-04": "What is the correct answer?",
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": "What is the correct question?",
+          "HD-05": null
+        }
+      ],
+      "TB": [],
+      "TV": [
+        {
+          "TV-01": "X",
+          "TV-02": "Đây là nồi cơm điện.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": "https://i.postimg.cc/kgdfFc0m/A17.png",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "X",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Đây là gì?",
+          "TV-02": "Đây là nồi cơm điện.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Bạn đặt nồi cơm điện ở đâu?",
+          "TV-02": "Tôi đặt nồi cơm điện trong bếp.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Bạn dùng nồi cơm điện để làm gì?",
+          "TV-02": "Tôi dùng nồi cơm điện để nấu cơm.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Nồi cơm điện màu gì?",
+          "TV-02": "Nồi cơm điện màu trắng.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Nhà bạn có nồi cơm điện không?",
+          "TV-02": "Có, nhà tôi có nồi cơm điện.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(A1-5)",
+          "TV-02": "Question and answers.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(B1-5)",
+          "TV-02": "What is the question for ..",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(C1-5)",
+          "TV-02": "Yes",
+          "TV-03": "No",
+          "TV-04": "What is the correct answer?",
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": "What is the correct question?",
+          "TV-05": null
+        }
+      ],
+      "IPA": [
+        {
+          "IPA-01": "What is this?",
+          "IPA-02": "Đây là gì?",
+          "IPA-03": "wɒt ɪz ðɪs?",
+          "IPA-04": "wɑt ɪz ðɪs?"
+        },
+        {
+          "IPA-01": "This is a rice cooker.",
+          "IPA-02": "Đây là nồi cơm điện.",
+          "IPA-03": "ðɪs ɪz ə raɪs ˈkʊkə.",
+          "IPA-04": "ðɪs ɪz ə raɪs ˈkʊkər."
+        },
+        {
+          "IPA-01": "Where do you put the rice cooker?",
+          "IPA-02": "Bạn đặt nồi cơm điện ở đâu?",
+          "IPA-03": "weə duː juː pʊt ðə raɪs ˈkʊkə?",
+          "IPA-04": "wɛr du ju pʊt ðə raɪs ˈkʊkər?"
+        },
+        {
+          "IPA-01": "I put the rice cooker in the kitchen.",
+          "IPA-02": "Tôi đặt nồi cơm điện trong bếp.",
+          "IPA-03": "aɪ pʊt ðə raɪs ˈkʊkər ɪn ðə ˈkɪʧᵊn.",
+          "IPA-04": "aɪ pʊt ðə raɪs ˈkʊkər ɪn ðə ˈkɪʧən."
+        },
+        {
+          "IPA-01": "What do you use the rice cooker for?",
+          "IPA-02": "Bạn dùng nồi cơm điện để làm gì?",
+          "IPA-03": "wɒt duː juː juːz ðə raɪs ˈkʊkə fɔː?",
+          "IPA-04": "wɑt du ju juz ðə raɪs ˈkʊkər fɔr?"
+        },
+        {
+          "IPA-01": "I use the rice cooker to cook rice.",
+          "IPA-02": "Tôi dùng nồi cơm điện để nấu cơm.",
+          "IPA-03": "aɪ juːz ðə raɪs ˈkʊkə tuː kʊk raɪs.",
+          "IPA-04": "aɪ juz ðə raɪs ˈkʊkər tu kʊk raɪs."
+        },
+        {
+          "IPA-01": "What color is the rice cooker?",
+          "IPA-02": "Nồi cơm điện màu gì?",
+          "IPA-03": "wɒt ˈkʌlər ɪz ðə raɪs ˈkʊkə?",
+          "IPA-04": "wɑt ˈkʌlər ɪz ðə raɪs ˈkʊkər?"
+        },
+        {
+          "IPA-01": "The rice cooker is white.",
+          "IPA-02": "Nồi cơm điện màu trắng.",
+          "IPA-03": "ðə raɪs ˈkʊkər ɪz waɪt.",
+          "IPA-04": "ðə raɪs ˈkʊkər ɪz waɪt."
+        },
+        {
+          "IPA-01": "Do you have a rice cooker at home?",
+          "IPA-02": "Nhà bạn có nồi cơm điện không?",
+          "IPA-03": "duː juː hæv ə raɪs ˈkʊkər æt həʊm?",
+          "IPA-04": "du ju hæv ə raɪs ˈkʊkər æt hoʊm?"
+        },
+        {
+          "IPA-01": "Yes, I have a rice cooker at home.",
+          "IPA-02": "Có, nhà tôi có nồi cơm điện.",
+          "IPA-03": "jɛs, aɪ hæv ə raɪs ˈkʊkər æt həʊm.",
+          "IPA-04": "jɛs, aɪ hæv ə raɪs ˈkʊkər æt hoʊm."
+        }
+      ]
+    },
+    "charactor": [
+      {
+        "type": "A1",
+        "hint": "https://i.postimg.cc/kgdfFc0m/A17.png",
+        "fsp": "What is this?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["This is a rice cooker."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What is this?", "id": "ESB1_F16a0" }]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/kgdfFc0m/A17.png",
+        "fsp": "Do you have a rice cooker at home? I use the rice cooker to cook rice. Yes or no?",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F16a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a25" }]
+          },
+          {
+            "qs": ["Yes, I have a rice cooker at home."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Do you have a rice cooker at home? I use the rice cooker to cook rice. Yes or no?",
+            "id": "ESB1_F17a126"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/kgdfFc0m/A17.png",
+        "fsp": "What do you use the rice cooker for? I use the rice cooker to cook rice. Yes or no?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What do you use the rice cooker for? I use the rice cooker to cook rice. Yes or no?",
+            "id": "ESB1_F17a101"
+          }
+        ]
+      },
+      {
+        "type": "B4",
+        "hint": "https://i.postimg.cc/kgdfFc0m/A17.png",
+        "fsp": "What is the question for The rice cooker is white.",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What color is the rice cooker?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for The rice cooker is white.",
+            "id": "ESB1_F17a91"
+          }
+        ]
+      },
+      {
+        "type": "A5",
+        "hint": "https://i.postimg.cc/kgdfFc0m/A17.png",
+        "fsp": "Do you have a rice cooker at home?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes, I have a rice cooker at home."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Do you have a rice cooker at home?", "id": "ESB1_F17a83" }
+        ]
+      },
+      {
+        "type": "A4",
+        "hint": "https://i.postimg.cc/kgdfFc0m/A17.png",
+        "fsp": "What color is the rice cooker?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["The rice cooker is white."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What color is the rice cooker?", "id": "ESB1_F17a81" }
+        ]
+      },
+      {
+        "type": "B5",
+        "hint": "https://i.postimg.cc/kgdfFc0m/A17.png",
+        "fsp": "What is the question for Yes, I have a rice cooker at home.",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Do you have a rice cooker at home?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for Yes, I have a rice cooker at home.",
+            "id": "ESB1_F17a93"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/kgdfFc0m/A17.png",
+        "fsp": "Where do you put the rice cooker? I put the rice cooker in the kitchen. Yes or no?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a25" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Where do you put the rice cooker? I put the rice cooker in the kitchen. Yes or no?",
+            "id": "ESB1_F17a98"
+          }
+        ]
+      },
+      {
+        "type": "B3",
+        "hint": "https://i.postimg.cc/kgdfFc0m/A17.png",
+        "fsp": "What is the question for I use the rice cooker to cook rice.",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What do you use the rice cooker for?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for I use the rice cooker to cook rice.",
+            "id": "ESB1_F17a89"
+          }
+        ]
+      },
+      {
+        "type": "B2",
+        "hint": "https://i.postimg.cc/kgdfFc0m/A17.png",
+        "fsp": "What is the question for I put the rice cooker in the kitchen.",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Where do you put the rice cooker?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for I put the rice cooker in the kitchen.",
+            "id": "ESB1_F17a87"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/kgdfFc0m/A17.png",
+        "fsp": "What is this? The rice cooker is white. Yes or no?",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F16a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a25" }]
+          },
+          {
+            "qs": ["This is a rice cooker."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What is this? The rice cooker is white. Yes or no?",
+            "id": "ESB1_F17a110"
+          }
+        ]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/kgdfFc0m/A17.png",
+        "fsp": "What color is the rice cooker? The rice cooker is white. Yes or no?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a25" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What color is the rice cooker? The rice cooker is white. Yes or no?",
+            "id": "ESB1_F17a104"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "hint": "https://i.postimg.cc/kgdfFc0m/A17.png",
+        "fsp": "What is the question for This is a rice cooker.",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What is this?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for This is a rice cooker.",
+            "id": "ESB1_F17a85"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "hint": "https://i.postimg.cc/kgdfFc0m/A17.png",
+        "fsp": "Where do you put the rice cooker?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["I put the rice cooker in the kitchen."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Where do you put the rice cooker?", "id": "ESB1_F17a77" }
+        ]
+      },
+      {
+        "type": "A3",
+        "hint": "https://i.postimg.cc/kgdfFc0m/A17.png",
+        "fsp": "What do you use the rice cooker for?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["I use the rice cooker to cook rice."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What do you use the rice cooker for?", "id": "ESB1_F17a79" }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/kgdfFc0m/A17.png",
+        "fsp": "What is this? This is a rice cooker. Yes or no?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F16a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a22" }]
+          },
+          {
+            "qs": ["What is this?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What is this? This is a rice cooker. Yes or no?",
+            "id": "ESB1_F17a95"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/kgdfFc0m/A17.png",
+        "fsp": "Where do you put the rice cooker? Yes, I have a rice cooker at home. Yes or no?",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F16a40" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a22" }]
+          },
+          {
+            "qs": ["I put the rice cooker in the kitchen."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Where do you put the rice cooker? Yes, I have a rice cooker at home. Yes or no?",
+            "id": "ESB1_F17a114"
+          }
+        ]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/kgdfFc0m/A17.png",
+        "fsp": "Do you have a rice cooker at home? Yes, I have a rice cooker at home. Yes or no?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F16a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a22" }]
+          },
+          {
+            "qs": ["Do you have a rice cooker at home?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Do you have a rice cooker at home? Yes, I have a rice cooker at home. Yes or no?",
+            "id": "ESB1_F17a107"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/kgdfFc0m/A17.png",
+        "fsp": "What do you use the rice cooker for? This is a rice cooker. Yes or no?",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F16a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a25" }]
+          },
+          {
+            "qs": ["I use the rice cooker to cook rice."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What do you use the rice cooker for? This is a rice cooker. Yes or no?",
+            "id": "ESB1_F17a118"
+          }
+        ]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/kgdfFc0m/A17.png",
+        "fsp": "What color is the rice cooker? The rice cooker is white. Yes or no?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F16a60" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a25" }]
+          },
+          {
+            "qs": ["What color is the rice cooker?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What color is the rice cooker? The rice cooker is white. Yes or no?",
+            "id": "ESB1_F17a104"
+          }
+        ]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/kgdfFc0m/A17.png",
+        "fsp": "Do you have a rice cooker at home? Yes, I have a rice cooker at home. Yes or no?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Do you have a rice cooker at home? Yes, I have a rice cooker at home. Yes or no?",
+            "id": "ESB1_F17a107"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/kgdfFc0m/A17.png",
+        "fsp": "Where do you put the rice cooker? I put the rice cooker in the kitchen. Yes or no?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F16a60" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a25" }]
+          },
+          {
+            "qs": ["Where do you put the rice cooker?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Where do you put the rice cooker? I put the rice cooker in the kitchen. Yes or no?",
+            "id": "ESB1_F17a98"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/kgdfFc0m/A17.png",
+        "fsp": "What is this? This is a rice cooker. Yes or no?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is this? This is a rice cooker. Yes or no?",
+            "id": "ESB1_F17a95"
+          }
+        ]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/kgdfFc0m/A17.png",
+        "fsp": "What color is the rice cooker? I put the rice cooker in the kitchen. Yes or no?",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F16a40" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a22" }]
+          },
+          {
+            "qs": ["The rice cooker is white."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What color is the rice cooker? I put the rice cooker in the kitchen. Yes or no?",
+            "id": "ESB1_F17a122"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/kgdfFc0m/A17.png",
+        "fsp": "What do you use the rice cooker for? I use the rice cooker to cook rice. Yes or no?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F16a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a22" }]
+          },
+          {
+            "qs": ["What do you use the rice cooker for?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What do you use the rice cooker for? I use the rice cooker to cook rice. Yes or no?",
+            "id": "ESB1_F17a101"
+          }
+        ]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  },
+  {
+    "id": "this-is-a-pot",
+    "ListenList": [],
+    "typeSets": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "SEO": {
+      "seo": {
+        "metaTitle": "This is a pot.",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "This is a pot.",
+        "IFdes": "This is a pot.",
+        "IF-audiocode": "ESB1_F18"
+      },
+      "HD": [
+        {
+          "HD-01": "X",
+          "HD-02": "This is a pot.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "https://i.postimg.cc/cLMTD3W8/A18.png",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What is this?",
+          "HD-02": "This is a pot.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Where do you put the pot?",
+          "HD-02": "I put the pot on the stove.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What do you use the pot for?",
+          "HD-02": "I use the pot to cook food.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What color is the pot?",
+          "HD-02": "The pot is silver.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Do you have a pot at home?",
+          "HD-02": "Yes, I have a pot at home.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(A1-5)",
+          "HD-02": "Question and answers.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(B1-5)",
+          "HD-02": "What is the question for ..",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(C1-5)",
+          "HD-02": "Yes",
+          "HD-03": "No",
+          "HD-04": "What is the correct answer?",
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": "What is the correct question?",
+          "HD-05": null
+        }
+      ],
+      "TB": [],
+      "TV": [
+        {
+          "TV-01": "X",
+          "TV-02": "Đây là nồi.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": "https://i.postimg.cc/cLMTD3W8/A18.png",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "X",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Đây là gì?",
+          "TV-02": "Đây là nồi.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Bạn đặt nồi ở đâu?",
+          "TV-02": "Tôi đặt nồi lên bếp.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Bạn dùng nồi để làm gì?",
+          "TV-02": "Tôi dùng nồi để nấu thức ăn.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Nồi màu gì?",
+          "TV-02": "Nồi màu bạc.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Nhà bạn có nồi không?",
+          "TV-02": "Có, nhà tôi có nồi.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(A1-5)",
+          "TV-02": "Question and answers.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(B1-5)",
+          "TV-02": "What is the question for ..",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(C1-5)",
+          "TV-02": "Yes",
+          "TV-03": "No",
+          "TV-04": "What is the correct answer?",
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": "What is the correct question?",
+          "TV-05": null
+        }
+      ],
+      "IPA": [
+        {
+          "IPA-01": "What is this?",
+          "IPA-02": "Đây là gì?",
+          "IPA-03": "wɒt ɪz ðɪs?",
+          "IPA-04": "wɑt ɪz ðɪs?"
+        },
+        {
+          "IPA-01": "This is a pot.",
+          "IPA-02": "Đây là nồi.",
+          "IPA-03": "ðɪs ɪz ə pɒt.",
+          "IPA-04": "ðɪs ɪz ə pɑt."
+        },
+        {
+          "IPA-01": "Where do you put the pot?",
+          "IPA-02": "Bạn đặt nồi ở đâu?",
+          "IPA-03": "weə duː juː pʊt ðə pɒt?",
+          "IPA-04": "wɛr du ju pʊt ðə pɑt?"
+        },
+        {
+          "IPA-01": "I put the pot on the stove.",
+          "IPA-02": "Tôi đặt nồi lên bếp.",
+          "IPA-03": "aɪ pʊt ðə pɒt ɒn ðə stəʊv.",
+          "IPA-04": "aɪ pʊt ðə pɑt ɑn ðə stoʊv."
+        },
+        {
+          "IPA-01": "What do you use the pot for?",
+          "IPA-02": "Bạn dùng nồi để làm gì?",
+          "IPA-03": "wɒt duː juː juːz ðə pɒt fɔː?",
+          "IPA-04": "wɑt du ju juz ðə pɑt fɔr?"
+        },
+        {
+          "IPA-01": "I use the pot to cook food.",
+          "IPA-02": "Tôi dùng nồi để nấu thức ăn.",
+          "IPA-03": "aɪ juːz ðə pɒt tuː kʊk fuːd.",
+          "IPA-04": "aɪ juz ðə pɑt tu kʊk fud."
+        },
+        {
+          "IPA-01": "What color is the pot?",
+          "IPA-02": "Nồi màu gì?",
+          "IPA-03": "wɒt ˈkʌlər ɪz ðə pɒt?",
+          "IPA-04": "wɑt ˈkʌlər ɪz ðə pɑt?"
+        },
+        {
+          "IPA-01": "The pot is silver.",
+          "IPA-02": "Nồi màu bạc.",
+          "IPA-03": "ðə pɒt ɪz ˈsɪlvə.",
+          "IPA-04": "ðə pɑt ɪz ˈsɪlvər."
+        },
+        {
+          "IPA-01": "Do you have a pot at home?",
+          "IPA-02": "Nhà bạn có nồi không?",
+          "IPA-03": "duː juː hæv ə pɒt æt həʊm?",
+          "IPA-04": "du ju hæv ə pɑt æt hoʊm?"
+        },
+        {
+          "IPA-01": "Yes, I have a pot at home.",
+          "IPA-02": "Có, nhà tôi có nồi.",
+          "IPA-03": "jɛs, aɪ hæv ə pɒt æt həʊm.",
+          "IPA-04": "jɛs, aɪ hæv ə pɑt æt hoʊm."
+        }
+      ]
+    },
+    "charactor": [
+      {
+        "type": "B1",
+        "hint": "https://i.postimg.cc/cLMTD3W8/A18.png",
+        "fsp": "What is the question for This is a pot.",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What is this?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for This is a pot.",
+            "id": "ESB1_F18a160"
+          }
+        ]
+      },
+      {
+        "type": "B4",
+        "hint": "https://i.postimg.cc/cLMTD3W8/A18.png",
+        "fsp": "What is the question for The pot is silver.",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What color is the pot?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for The pot is silver.",
+            "id": "ESB1_F18a166"
+          }
+        ]
+      },
+      {
+        "type": "B3",
+        "hint": "https://i.postimg.cc/cLMTD3W8/A18.png",
+        "fsp": "What is the question for I use the pot to cook food.",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What do you use the pot for?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for I use the pot to cook food.",
+            "id": "ESB1_F18a164"
+          }
+        ]
+      },
+      {
+        "type": "B5",
+        "hint": "https://i.postimg.cc/cLMTD3W8/A18.png",
+        "fsp": "What is the question for Yes, I have a pot at home.",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Do you have a pot at home?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for Yes, I have a pot at home.",
+            "id": "ESB1_F18a168"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/cLMTD3W8/A18.png",
+        "fsp": "Where do you put the pot? I put the pot on the stove. Yes or no?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F16a60" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a25" }]
+          },
+          {
+            "qs": ["Where do you put the pot?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Where do you put the pot? I put the pot on the stove. Yes or no?",
+            "id": "ESB1_F18a173"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/cLMTD3W8/A18.png",
+        "fsp": "What do you use the pot for? This is a pot. Yes or no?",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F16a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a25" }]
+          },
+          {
+            "qs": ["I use the pot to cook food."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What do you use the pot for? This is a pot. Yes or no?",
+            "id": "ESB1_F18a193"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/cLMTD3W8/A18.png",
+        "fsp": "What is this? The pot is silver. Yes or no?",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F16a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a25" }]
+          },
+          {
+            "qs": ["This is a pot."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What is this? The pot is silver. Yes or no?",
+            "id": "ESB1_F18a185"
+          }
+        ]
+      },
+      {
+        "type": "A3",
+        "hint": "https://i.postimg.cc/cLMTD3W8/A18.png",
+        "fsp": "What do you use the pot for?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["I use the pot to cook food."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What do you use the pot for?", "id": "ESB1_F18a154" }
+        ]
+      },
+      {
+        "type": "A2",
+        "hint": "https://i.postimg.cc/cLMTD3W8/A18.png",
+        "fsp": "Where do you put the pot?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["I put the pot on the stove."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Where do you put the pot?", "id": "ESB1_F18a152" }]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/cLMTD3W8/A18.png",
+        "fsp": "What color is the pot? I put the pot on the stove. Yes or no?",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F16a40" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a22" }]
+          },
+          {
+            "qs": ["The pot is silver."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What color is the pot? I put the pot on the stove. Yes or no?",
+            "id": "ESB1_F18a197"
+          }
+        ]
+      },
+      {
+        "type": "A5",
+        "hint": "https://i.postimg.cc/cLMTD3W8/A18.png",
+        "fsp": "Do you have a pot at home?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes, I have a pot at home."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Do you have a pot at home?", "id": "ESB1_F18a158" }
+        ]
+      },
+      {
+        "type": "A4",
+        "hint": "https://i.postimg.cc/cLMTD3W8/A18.png",
+        "fsp": "What color is the pot?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["The pot is silver."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What color is the pot?", "id": "ESB1_F18a156" }]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/cLMTD3W8/A18.png",
+        "fsp": "Do you have a pot at home? I use the pot to cook food. Yes or no?",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F16a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a25" }]
+          },
+          {
+            "qs": ["Yes, I have a pot at home."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Do you have a pot at home? I use the pot to cook food. Yes or no?",
+            "id": "ESB1_F18a201"
+          }
+        ]
+      },
+      {
+        "type": "B2",
+        "hint": "https://i.postimg.cc/cLMTD3W8/A18.png",
+        "fsp": "What is the question for I put the pot on the stove.",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Where do you put the pot?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for I put the pot on the stove.",
+            "id": "ESB1_F18a162"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "hint": "https://i.postimg.cc/cLMTD3W8/A18.png",
+        "fsp": "What is this?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["This is a pot."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What is this?", "id": "ESB1_F16a0" }]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/cLMTD3W8/A18.png",
+        "fsp": "Where do you put the pot? Yes, I have a pot at home. Yes or no?",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F16a40" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a22" }]
+          },
+          {
+            "qs": ["I put the pot on the stove."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Where do you put the pot? Yes, I have a pot at home. Yes or no?",
+            "id": "ESB1_F18a189"
+          }
+        ]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/cLMTD3W8/A18.png",
+        "fsp": "What color is the pot? The pot is silver. Yes or no?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a25" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What color is the pot? The pot is silver. Yes or no?",
+            "id": "ESB1_F18a179"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/cLMTD3W8/A18.png",
+        "fsp": "What is this? This is a pot. Yes or no?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F16a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a22" }]
+          },
+          {
+            "qs": ["What is this?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What is this? This is a pot. Yes or no?",
+            "id": "ESB1_F18a170"
+          }
+        ]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/cLMTD3W8/A18.png",
+        "fsp": "Do you have a pot at home? Yes, I have a pot at home. Yes or no?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F16a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a22" }]
+          },
+          {
+            "qs": ["Do you have a pot at home?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Do you have a pot at home? Yes, I have a pot at home. Yes or no?",
+            "id": "ESB1_F18a182"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/cLMTD3W8/A18.png",
+        "fsp": "What do you use the pot for? I use the pot to cook food. Yes or no?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F16a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a22" }]
+          },
+          {
+            "qs": ["What do you use the pot for?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What do you use the pot for? I use the pot to cook food. Yes or no?",
+            "id": "ESB1_F18a176"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/cLMTD3W8/A18.png",
+        "fsp": "What is this? This is a pot. Yes or no?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is this? This is a pot. Yes or no?",
+            "id": "ESB1_F18a170"
+          }
+        ]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/cLMTD3W8/A18.png",
+        "fsp": "Do you have a pot at home? Yes, I have a pot at home. Yes or no?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Do you have a pot at home? Yes, I have a pot at home. Yes or no?",
+            "id": "ESB1_F18a182"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/cLMTD3W8/A18.png",
+        "fsp": "Where do you put the pot? I put the pot on the stove. Yes or no?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a25" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Where do you put the pot? I put the pot on the stove. Yes or no?",
+            "id": "ESB1_F18a173"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/cLMTD3W8/A18.png",
+        "fsp": "What do you use the pot for? I use the pot to cook food. Yes or no?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What do you use the pot for? I use the pot to cook food. Yes or no?",
+            "id": "ESB1_F18a176"
+          }
+        ]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/cLMTD3W8/A18.png",
+        "fsp": "What color is the pot? The pot is silver. Yes or no?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F16a60" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a25" }]
+          },
+          {
+            "qs": ["What color is the pot?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What color is the pot? The pot is silver. Yes or no?",
+            "id": "ESB1_F18a179"
+          }
+        ]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  },
+  {
+    "id": "this-is-a-frying-pan",
+    "ListenList": [],
+    "typeSets": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "SEO": {
+      "seo": {
+        "metaTitle": "This is a frying pan.",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "This is a frying pan.",
+        "IFdes": "This is a frying pan.",
+        "IF-audiocode": "ESB1_F19"
+      },
+      "HD": [
+        {
+          "HD-01": "X",
+          "HD-02": "This is a frying pan.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "https://i.postimg.cc/hGDsNG4Z/A19.png",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What is this?",
+          "HD-02": "This is a frying pan.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Where do you put the frying pan?",
+          "HD-02": "I put the frying pan on the stove.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What do you use the frying pan for?",
+          "HD-02": "I use the frying pan to cook food.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What color is the frying pan?",
+          "HD-02": "The frying pan is black.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Do you have a frying pan at home?",
+          "HD-02": "Yes, I have a frying pan at home.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(A1-5)",
+          "HD-02": "Question and answers.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(B1-5)",
+          "HD-02": "What is the question for ..",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(C1-5)",
+          "HD-02": "Yes",
+          "HD-03": "No",
+          "HD-04": "What is the correct answer?",
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": "What is the correct question?",
+          "HD-05": null
+        }
+      ],
+      "TB": [],
+      "TV": [
+        {
+          "TV-01": "X",
+          "TV-02": "Đây là chảo rán.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": "https://i.postimg.cc/hGDsNG4Z/A19.png",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "X",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Đây là gì?",
+          "TV-02": "Đây là chảo rán.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Bạn đặt chảo rán ở đâu?",
+          "TV-02": "Tôi đặt chảo rán lên bếp.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Bạn dùng chảo rán để làm gì?",
+          "TV-02": "Tôi dùng chảo rán để nấu thức ăn.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Chảo rán màu gì?",
+          "TV-02": "Chảo rán màu đen.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Nhà bạn có chảo rán không?",
+          "TV-02": "Có, nhà tôi có chảo rán.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(A1-5)",
+          "TV-02": "Question and answers.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(B1-5)",
+          "TV-02": "What is the question for ..",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(C1-5)",
+          "TV-02": "Yes",
+          "TV-03": "No",
+          "TV-04": "What is the correct answer?",
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": "What is the correct question?",
+          "TV-05": null
+        }
+      ],
+      "IPA": [
+        {
+          "IPA-01": "What is this?",
+          "IPA-02": "Đây là gì?",
+          "IPA-03": "wɒt ɪz ðɪs?",
+          "IPA-04": "wɑt ɪz ðɪs?"
+        },
+        {
+          "IPA-01": "This is a frying pan.",
+          "IPA-02": "Đây là chảo rán.",
+          "IPA-03": "ðɪs ɪz ə ˈfraɪɪŋ pæn.",
+          "IPA-04": "ðɪs ɪz ə ˈfraɪɪŋ pæn."
+        },
+        {
+          "IPA-01": "Where do you put the frying pan?",
+          "IPA-02": "Bạn đặt chảo rán ở đâu?",
+          "IPA-03": "weə duː juː pʊt ðə ˈfraɪɪŋ pæn?",
+          "IPA-04": "wɛr du ju pʊt ðə ˈfraɪɪŋ pæn?"
+        },
+        {
+          "IPA-01": "I put the frying pan on the stove.",
+          "IPA-02": "Tôi đặt chảo rán lên bếp.",
+          "IPA-03": "aɪ pʊt ðə ˈfraɪɪŋ pæn ɒn ðə stəʊv.",
+          "IPA-04": "aɪ pʊt ðə ˈfraɪɪŋ pæn ɑn ðə stoʊv."
+        },
+        {
+          "IPA-01": "What do you use the frying pan for?",
+          "IPA-02": "Bạn dùng chảo rán để làm gì?",
+          "IPA-03": "wɒt duː juː juːz ðə ˈfraɪɪŋ pæn fɔː?",
+          "IPA-04": "wɑt du ju juz ðə ˈfraɪɪŋ pæn fɔr?"
+        },
+        {
+          "IPA-01": "I use the frying pan to cook food.",
+          "IPA-02": "Tôi dùng chảo rán để nấu thức ăn.",
+          "IPA-03": "aɪ juːz ðə ˈfraɪɪŋ pæn tuː kʊk fuːd.",
+          "IPA-04": "aɪ juz ðə ˈfraɪɪŋ pæn tu kʊk fud."
+        },
+        {
+          "IPA-01": "What color is the frying pan?",
+          "IPA-02": "Chảo rán màu gì?",
+          "IPA-03": "wɒt ˈkʌlər ɪz ðə ˈfraɪɪŋ pæn?",
+          "IPA-04": "wɑt ˈkʌlər ɪz ðə ˈfraɪɪŋ pæn?"
+        },
+        {
+          "IPA-01": "The frying pan is black.",
+          "IPA-02": "Chảo rán màu đen.",
+          "IPA-03": "ðə ˈfraɪɪŋ pæn ɪz blæk.",
+          "IPA-04": "ðə ˈfraɪɪŋ pæn ɪz blæk."
+        },
+        {
+          "IPA-01": "Do you have a frying pan at home?",
+          "IPA-02": "Nhà bạn có chảo rán không?",
+          "IPA-03": "duː juː hæv ə ˈfraɪɪŋ pæn æt həʊm?",
+          "IPA-04": "du ju hæv ə ˈfraɪɪŋ pæn æt hoʊm?"
+        },
+        {
+          "IPA-01": "Yes, I have a frying pan at home.",
+          "IPA-02": "Có, nhà tôi có chảo rán.",
+          "IPA-03": "jɛs, aɪ hæv ə ˈfraɪɪŋ pæn æt həʊm.",
+          "IPA-04": "jɛs, aɪ hæv ə ˈfraɪɪŋ pæn æt hoʊm."
+        }
+      ]
+    },
+    "charactor": [
+      {
+        "type": "B2",
+        "hint": "https://i.postimg.cc/hGDsNG4Z/A19.png",
+        "fsp": "What is the question for I put the frying pan on the stove.",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Where do you put the frying pan?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for I put the frying pan on the stove.",
+            "id": "ESB1_F19a237"
+          }
+        ]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/hGDsNG4Z/A19.png",
+        "fsp": "Do you have a frying pan at home? Yes, I have a frying pan at home. Yes or no?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F16a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a22" }]
+          },
+          {
+            "qs": ["Do you have a frying pan at home?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Do you have a frying pan at home? Yes, I have a frying pan at home. Yes or no?",
+            "id": "ESB1_F19a257"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/hGDsNG4Z/A19.png",
+        "fsp": "Where do you put the frying pan? I put the frying pan on the stove. Yes or no?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F16a60" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a25" }]
+          },
+          {
+            "qs": ["Where do you put the frying pan?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Where do you put the frying pan? I put the frying pan on the stove. Yes or no?",
+            "id": "ESB1_F19a248"
+          }
+        ]
+      },
+      {
+        "type": "B5",
+        "hint": "https://i.postimg.cc/hGDsNG4Z/A19.png",
+        "fsp": "What is the question for Yes, I have a frying pan at home.",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Do you have a frying pan at home?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for Yes, I have a frying pan at home.",
+            "id": "ESB1_F19a243"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/hGDsNG4Z/A19.png",
+        "fsp": "What do you use the frying pan for? I use the frying pan to cook food. Yes or no?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F16a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a22" }]
+          },
+          {
+            "qs": ["What do you use the frying pan for?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What do you use the frying pan for? I use the frying pan to cook food. Yes or no?",
+            "id": "ESB1_F19a251"
+          }
+        ]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/hGDsNG4Z/A19.png",
+        "fsp": "What color is the frying pan? The frying pan is black. Yes or no?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a25" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What color is the frying pan? The frying pan is black. Yes or no?",
+            "id": "ESB1_F19a254"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/hGDsNG4Z/A19.png",
+        "fsp": "What is this? This is a frying pan. Yes or no?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F16a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a22" }]
+          },
+          {
+            "qs": ["What is this?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What is this? This is a frying pan. Yes or no?",
+            "id": "ESB1_F19a245"
+          }
+        ]
+      },
+      {
+        "type": "B4",
+        "hint": "https://i.postimg.cc/hGDsNG4Z/A19.png",
+        "fsp": "What is the question for The frying pan is black.",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What color is the frying pan?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for The frying pan is black.",
+            "id": "ESB1_F19a241"
+          }
+        ]
+      },
+      {
+        "type": "A5",
+        "hint": "https://i.postimg.cc/hGDsNG4Z/A19.png",
+        "fsp": "Do you have a frying pan at home?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes, I have a frying pan at home."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Do you have a frying pan at home?", "id": "ESB1_F19a233" }
+        ]
+      },
+      {
+        "type": "B1",
+        "hint": "https://i.postimg.cc/hGDsNG4Z/A19.png",
+        "fsp": "What is the question for This is a frying pan.",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What is this?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for This is a frying pan.",
+            "id": "ESB1_F19a235"
+          }
+        ]
+      },
+      {
+        "type": "B3",
+        "hint": "https://i.postimg.cc/hGDsNG4Z/A19.png",
+        "fsp": "What is the question for I use the frying pan to cook food.",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What do you use the frying pan for?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for I use the frying pan to cook food.",
+            "id": "ESB1_F19a239"
+          }
+        ]
+      },
+      {
+        "type": "A4",
+        "hint": "https://i.postimg.cc/hGDsNG4Z/A19.png",
+        "fsp": "What color is the frying pan?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["The frying pan is black."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What color is the frying pan?", "id": "ESB1_F19a231" }
+        ]
+      },
+      {
+        "type": "A2",
+        "hint": "https://i.postimg.cc/hGDsNG4Z/A19.png",
+        "fsp": "Where do you put the frying pan?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["I put the frying pan on the stove."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Where do you put the frying pan?", "id": "ESB1_F19a227" }
+        ]
+      },
+      {
+        "type": "A1",
+        "hint": "https://i.postimg.cc/hGDsNG4Z/A19.png",
+        "fsp": "What is this?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["This is a frying pan."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What is this?", "id": "ESB1_F16a0" }]
+      },
+      {
+        "type": "A3",
+        "hint": "https://i.postimg.cc/hGDsNG4Z/A19.png",
+        "fsp": "What do you use the frying pan for?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["I use the frying pan to cook food."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What do you use the frying pan for?", "id": "ESB1_F19a229" }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/hGDsNG4Z/A19.png",
+        "fsp": "What do you use the frying pan for? I use the frying pan to cook food. Yes or no?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What do you use the frying pan for? I use the frying pan to cook food. Yes or no?",
+            "id": "ESB1_F19a251"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/hGDsNG4Z/A19.png",
+        "fsp": "Where do you put the frying pan? I put the frying pan on the stove. Yes or no?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a25" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Where do you put the frying pan? I put the frying pan on the stove. Yes or no?",
+            "id": "ESB1_F19a248"
+          }
+        ]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/hGDsNG4Z/A19.png",
+        "fsp": "Do you have a frying pan at home? Yes, I have a frying pan at home. Yes or no?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Do you have a frying pan at home? Yes, I have a frying pan at home. Yes or no?",
+            "id": "ESB1_F19a257"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/hGDsNG4Z/A19.png",
+        "fsp": "What is this? This is a frying pan. Yes or no?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is this? This is a frying pan. Yes or no?",
+            "id": "ESB1_F19a245"
+          }
+        ]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/hGDsNG4Z/A19.png",
+        "fsp": "What color is the frying pan? The frying pan is black. Yes or no?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F16a60" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a25" }]
+          },
+          {
+            "qs": ["What color is the frying pan?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What color is the frying pan? The frying pan is black. Yes or no?",
+            "id": "ESB1_F19a254"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/hGDsNG4Z/A19.png",
+        "fsp": "Where do you put the frying pan? Yes, I have a frying pan at home. Yes or no?",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F16a40" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a22" }]
+          },
+          {
+            "qs": ["I put the frying pan on the stove."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Where do you put the frying pan? Yes, I have a frying pan at home. Yes or no?",
+            "id": "ESB1_F19a264"
+          }
+        ]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/hGDsNG4Z/A19.png",
+        "fsp": "What color is the frying pan? I put the frying pan on the stove. Yes or no?",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F16a40" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a22" }]
+          },
+          {
+            "qs": ["The frying pan is black."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What color is the frying pan? I put the frying pan on the stove. Yes or no?",
+            "id": "ESB1_F19a272"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/hGDsNG4Z/A19.png",
+        "fsp": "What do you use the frying pan for? This is a frying pan. Yes or no?",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F16a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a25" }]
+          },
+          {
+            "qs": ["I use the frying pan to cook food."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What do you use the frying pan for? This is a frying pan. Yes or no?",
+            "id": "ESB1_F19a268"
+          }
+        ]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/hGDsNG4Z/A19.png",
+        "fsp": "Do you have a frying pan at home? I use the frying pan to cook food. Yes or no?",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F16a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a25" }]
+          },
+          {
+            "qs": ["Yes, I have a frying pan at home."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Do you have a frying pan at home? I use the frying pan to cook food. Yes or no?",
+            "id": "ESB1_F19a276"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/hGDsNG4Z/A19.png",
+        "fsp": "What is this? The frying pan is black. Yes or no?",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F16a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a25" }]
+          },
+          {
+            "qs": ["This is a frying pan."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What is this? The frying pan is black. Yes or no?",
+            "id": "ESB1_F19a260"
+          }
+        ]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  },
+  {
+    "id": "this-is-a-knife",
+    "ListenList": [],
+    "typeSets": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "SEO": {
+      "seo": {
+        "metaTitle": "This is a knife.",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "This is a knife.",
+        "IFdes": "This is a knife.",
+        "IF-audiocode": "ESB1_F20"
+      },
+      "HD": [
+        {
+          "HD-01": "X",
+          "HD-02": "This is a knife.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "https://i.postimg.cc/hG2snqfD/A20.png",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What is this?",
+          "HD-02": "This is a knife.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Where do you use the knife?",
+          "HD-02": "I use the knife in the kitchen.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What do you use the knife for?",
+          "HD-02": "I use the knife to cut food.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Is the knife sharp or blunt?",
+          "HD-02": "The knife is sharp.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Do you have a knife at home?",
+          "HD-02": "Yes, I have a knife at home.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(A1-5)",
+          "HD-02": "Question and answers.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(B1-5)",
+          "HD-02": "What is the question for ..",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(C1-5)",
+          "HD-02": "Yes",
+          "HD-03": "No",
+          "HD-04": "What is the correct answer?",
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": "What is the correct question?",
+          "HD-05": null
+        }
+      ],
+      "TB": [],
+      "TV": [
+        {
+          "TV-01": "X",
+          "TV-02": "Đây là dao.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": "https://i.postimg.cc/hG2snqfD/A20.png",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "X",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Đây là gì?",
+          "TV-02": "Đây là dao.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Bạn sử dụng dao ở đâu?",
+          "TV-02": "Tôi sử dụng dao trong bếp.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Bạn dùng dao để làm gì?",
+          "TV-02": "Tôi dùng dao để cắt thức ăn.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Dao sắc hay cùn?",
+          "TV-02": "Dao sắc.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Nhà bạn có dao không?",
+          "TV-02": "Có, nhà tôi có dao.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(A1-5)",
+          "TV-02": "Question and answers.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(B1-5)",
+          "TV-02": "What is the question for ..",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(C1-5)",
+          "TV-02": "Yes",
+          "TV-03": "No",
+          "TV-04": "What is the correct answer?",
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": "What is the correct question?",
+          "TV-05": null
+        }
+      ],
+      "IPA": [
+        {
+          "IPA-01": "What is this?",
+          "IPA-02": "Đây là gì?",
+          "IPA-03": "wɒt ɪz ðɪs?",
+          "IPA-04": "wɑt ɪz ðɪs?"
+        },
+        {
+          "IPA-01": "This is a knife.",
+          "IPA-02": "Đây là dao.",
+          "IPA-03": "ðɪs ɪz ə naɪf.",
+          "IPA-04": "ðɪs ɪz ə naɪf."
+        },
+        {
+          "IPA-01": "Where do you use the knife?",
+          "IPA-02": "Bạn sử dụng dao ở đâu?",
+          "IPA-03": "weə duː juː juːz ðə naɪf?",
+          "IPA-04": "wɛr du ju juz ðə naɪf?"
+        },
+        {
+          "IPA-01": "I use the knife in the kitchen.",
+          "IPA-02": "Tôi sử dụng dao trong bếp.",
+          "IPA-03": "aɪ juːz ðə naɪf ɪn ðə ˈkɪʧᵊn.",
+          "IPA-04": "aɪ juz ðə naɪf ɪn ðə ˈkɪʧən."
+        },
+        {
+          "IPA-01": "What do you use the knife for?",
+          "IPA-02": "Bạn dùng dao để làm gì?",
+          "IPA-03": "wɒt duː juː juːz ðə naɪf fɔː?",
+          "IPA-04": "wɑt du ju juz ðə naɪf fɔr?"
+        },
+        {
+          "IPA-01": "I use the knife to cut food.",
+          "IPA-02": "Tôi dùng dao để cắt thức ăn.",
+          "IPA-03": "aɪ juːz ðə naɪf tuː kʌt fuːd.",
+          "IPA-04": "aɪ juz ðə naɪf tu kʌt fud."
+        },
+        {
+          "IPA-01": "Is the knife sharp or blunt?",
+          "IPA-02": "Dao sắc hay cùn?",
+          "IPA-03": "ɪz ðə naɪf ʃɑːp ɔː blʌnt?",
+          "IPA-04": "ɪz ðə naɪf ʃɑrp ɔr blʌnt?"
+        },
+        {
+          "IPA-01": "The knife is sharp.",
+          "IPA-02": "Dao sắc.",
+          "IPA-03": "ðə naɪf ɪz ʃɑːp.",
+          "IPA-04": "ðə naɪf ɪz ʃɑrp."
+        },
+        {
+          "IPA-01": "Do you have a knife at home?",
+          "IPA-02": "Nhà bạn có dao không?",
+          "IPA-03": "duː juː hæv ə naɪf æt həʊm?",
+          "IPA-04": "du ju hæv ə naɪf æt hoʊm?"
+        },
+        {
+          "IPA-01": "Yes, I have a knife at home.",
+          "IPA-02": "Có, nhà tôi có dao.",
+          "IPA-03": "jɛs, aɪ hæv ə naɪf æt həʊm.",
+          "IPA-04": "jɛs, aɪ hæv ə naɪf æt hoʊm."
+        }
+      ]
+    },
+    "charactor": [
+      {
+        "type": "A1",
+        "hint": "https://i.postimg.cc/hG2snqfD/A20.png",
+        "fsp": "What is this?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["This is a knife."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What is this?", "id": "ESB1_F16a0" }]
+      },
+      {
+        "type": "B3",
+        "hint": "https://i.postimg.cc/hG2snqfD/A20.png",
+        "fsp": "What is the question for I use the knife to cut food.",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What do you use the knife for?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for I use the knife to cut food.",
+            "id": "ESB1_F20a314"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "hint": "https://i.postimg.cc/hG2snqfD/A20.png",
+        "fsp": "Where do you use the knife?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["I use the knife in the kitchen."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Where do you use the knife?", "id": "ESB1_F20a302" }
+        ]
+      },
+      {
+        "type": "A3",
+        "hint": "https://i.postimg.cc/hG2snqfD/A20.png",
+        "fsp": "What do you use the knife for?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["I use the knife to cut food."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What do you use the knife for?", "id": "ESB1_F20a304" }
+        ]
+      },
+      {
+        "type": "B4",
+        "hint": "https://i.postimg.cc/hG2snqfD/A20.png",
+        "fsp": "What is the question for The knife is sharp.",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Is the knife sharp or blunt?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for The knife is sharp.",
+            "id": "ESB1_F20a316"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/hG2snqfD/A20.png",
+        "fsp": "What is this? This is a knife. Yes or no?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F16a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a22" }]
+          },
+          {
+            "qs": ["What is this?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What is this? This is a knife. Yes or no?",
+            "id": "ESB1_F20a320"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/hG2snqfD/A20.png",
+        "fsp": "Where do you use the knife? I use the knife in the kitchen. Yes or no?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F16a60" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a25" }]
+          },
+          {
+            "qs": ["Where do you use the knife?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Where do you use the knife? I use the knife in the kitchen. Yes or no?",
+            "id": "ESB1_F20a323"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/hG2snqfD/A20.png",
+        "fsp": "What do you use the knife for? I use the knife to cut food. Yes or no?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What do you use the knife for? I use the knife to cut food. Yes or no?",
+            "id": "ESB1_F20a326"
+          }
+        ]
+      },
+      {
+        "type": "B2",
+        "hint": "https://i.postimg.cc/hG2snqfD/A20.png",
+        "fsp": "What is the question for I use the knife in the kitchen.",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Where do you use the knife?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for I use the knife in the kitchen.",
+            "id": "ESB1_F20a312"
+          }
+        ]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/hG2snqfD/A20.png",
+        "fsp": "Is the knife sharp or blunt? The knife is sharp. Yes or no?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a25" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is the knife sharp or blunt? The knife is sharp. Yes or no?",
+            "id": "ESB1_F20a329"
+          }
+        ]
+      },
+      {
+        "type": "A5",
+        "hint": "https://i.postimg.cc/hG2snqfD/A20.png",
+        "fsp": "Do you have a knife at home?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes, I have a knife at home."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Do you have a knife at home?", "id": "ESB1_F20a308" }
+        ]
+      },
+      {
+        "type": "B5",
+        "hint": "https://i.postimg.cc/hG2snqfD/A20.png",
+        "fsp": "What is the question for Yes, I have a knife at home.",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Do you have a knife at home?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for Yes, I have a knife at home.",
+            "id": "ESB1_F20a318"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "hint": "https://i.postimg.cc/hG2snqfD/A20.png",
+        "fsp": "What is the question for This is a knife.",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What is this?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for This is a knife.",
+            "id": "ESB1_F20a310"
+          }
+        ]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/hG2snqfD/A20.png",
+        "fsp": "Do you have a knife at home? I use the knife to cut food. Yes or no?",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F16a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a25" }]
+          },
+          {
+            "qs": ["Yes, I have a knife at home."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Do you have a knife at home? I use the knife to cut food. Yes or no?",
+            "id": "ESB1_F20a351"
+          }
+        ]
+      },
+      {
+        "type": "A4",
+        "hint": "https://i.postimg.cc/hG2snqfD/A20.png",
+        "fsp": "Is the knife sharp or blunt?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["The knife is sharp."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Is the knife sharp or blunt?", "id": "ESB1_F20a306" }
+        ]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/hG2snqfD/A20.png",
+        "fsp": "Is the knife sharp or blunt? The knife is sharp. Yes or no?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F16a60" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a25" }]
+          },
+          {
+            "qs": ["Is the knife sharp or blunt?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Is the knife sharp or blunt? The knife is sharp. Yes or no?",
+            "id": "ESB1_F20a329"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/hG2snqfD/A20.png",
+        "fsp": "What do you use the knife for? This is a knife. Yes or no?",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F16a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a25" }]
+          },
+          {
+            "qs": ["I use the knife to cut food."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What do you use the knife for? This is a knife. Yes or no?",
+            "id": "ESB1_F20a343"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/hG2snqfD/A20.png",
+        "fsp": "What is this? This is a knife. Yes or no?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is this? This is a knife. Yes or no?",
+            "id": "ESB1_F20a320"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/hG2snqfD/A20.png",
+        "fsp": "Where do you use the knife? I use the knife in the kitchen. Yes or no?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a25" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Where do you use the knife? I use the knife in the kitchen. Yes or no?",
+            "id": "ESB1_F20a323"
+          }
+        ]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/hG2snqfD/A20.png",
+        "fsp": "Do you have a knife at home? Yes, I have a knife at home. Yes or no?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Do you have a knife at home? Yes, I have a knife at home. Yes or no?",
+            "id": "ESB1_F20a332"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/hG2snqfD/A20.png",
+        "fsp": "What do you use the knife for? I use the knife to cut food. Yes or no?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F16a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a22" }]
+          },
+          {
+            "qs": ["What do you use the knife for?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What do you use the knife for? I use the knife to cut food. Yes or no?",
+            "id": "ESB1_F20a326"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/hG2snqfD/A20.png",
+        "fsp": "Where do you use the knife? Yes, I have a knife at home. Yes or no?",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F16a40" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a22" }]
+          },
+          {
+            "qs": ["I use the knife in the kitchen."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Where do you use the knife? Yes, I have a knife at home. Yes or no?",
+            "id": "ESB1_F20a339"
+          }
+        ]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/hG2snqfD/A20.png",
+        "fsp": "Do you have a knife at home? Yes, I have a knife at home. Yes or no?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F16a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a22" }]
+          },
+          {
+            "qs": ["Do you have a knife at home?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Do you have a knife at home? Yes, I have a knife at home. Yes or no?",
+            "id": "ESB1_F20a332"
+          }
+        ]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/hG2snqfD/A20.png",
+        "fsp": "Is the knife sharp or blunt? I use the knife in the kitchen. Yes or no?",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F16a40" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a22" }]
+          },
+          {
+            "qs": ["The knife is sharp."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Is the knife sharp or blunt? I use the knife in the kitchen. Yes or no?",
+            "id": "ESB1_F20a347"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/hG2snqfD/A20.png",
+        "fsp": "What is this? The knife is sharp. Yes or no?",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F16a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F16a25" }]
+          },
+          {
+            "qs": ["This is a knife."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F16a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What is this? The knife is sharp. Yes or no?",
+            "id": "ESB1_F20a335"
+          }
+        ]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  }
+]

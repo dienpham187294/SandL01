@@ -7,6 +7,9 @@ import NewListHref from "./A1_Header_href_EslConversation.json";
 import HrefImages from "./A1_Header_href_WithImages.json";
 import HrefLearnonyoutube from "./A1_Header_href_Learnonyoutube.json";
 import Move from "./A0_move";
+
+import levele_img_barlist from "./header_data/hinhanh-lv1-5-5.json";
+
 const coreKnowledgeSets = [
   {
     root: "coreknowledge",
@@ -211,10 +214,15 @@ export default function Header({ sttRoom, STTconnectFN }) {
                 { name: "name", link: "link", preName: "preName" },
                 null
               )} */}
-
               {returnDropdown(
                 "Giáo án giao tiếp",
                 pracEnSets,
+                { name: "name", link: "link", preName: "preName" },
+                null
+              )}{" "}
+              {returnDropdown(
+                "Hình ảnh",
+                levele_img_barlist,
                 { name: "name", link: "link", preName: "preName" },
                 null
               )}
@@ -236,7 +244,7 @@ export default function Header({ sttRoom, STTconnectFN }) {
                 { name: "name", link: "link", preName: "preName" },
                 null
               )} */}
-              {returnDropdown(
+              {/* {returnDropdown(
                 "Khác",
                 [
                   {
@@ -254,7 +262,7 @@ export default function Header({ sttRoom, STTconnectFN }) {
                 ],
                 { name: "name", link: "link" },
                 null
-              )}
+              )} */}
             </Nav>
             {/* <Move /> */}
           </Navbar.Collapse>

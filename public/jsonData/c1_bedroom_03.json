@@ -1,0 +1,5212 @@
+[
+  {
+    "id": "this-is-an-alarm-clock",
+    "ListenList": [],
+    "typeSets": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "SEO": {
+      "seo": {
+        "metaTitle": "This is an alarm clock.",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "This is an alarm clock.",
+        "IFdes": "This is an alarm clock.",
+        "IF-audiocode": "ESB1_F11"
+      },
+      "HD": [
+        {
+          "HD-01": "X",
+          "HD-02": "This is an alarm clock.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "https://i.postimg.cc/HxKVdJpY/A11.png",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What is this?",
+          "HD-02": "This is an alarm clock.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Where do you put the alarm clock?",
+          "HD-02": "I put the alarm clock on the bedside table.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What does the alarm clock do?",
+          "HD-02": "The alarm clock wakes me up in the morning.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What color is the alarm clock?",
+          "HD-02": "The alarm clock is red.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Do you use an alarm clock?",
+          "HD-02": "Yes, I use an alarm clock.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(A1-5)",
+          "HD-02": "Question and answers.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(B1-5)",
+          "HD-02": "What is the question for ..",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(C1-5)",
+          "HD-02": "Yes",
+          "HD-03": "No",
+          "HD-04": "What is the correct answer?",
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": "What is the correct question?",
+          "HD-05": null
+        }
+      ],
+      "TB": [],
+      "TV": [
+        {
+          "TV-01": "X",
+          "TV-02": "Đây là đồng hồ báo thức.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": "https://i.postimg.cc/HxKVdJpY/A11.png",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "X",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Đây là gì?",
+          "TV-02": "Đây là đồng hồ báo thức.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Bạn đặt đồng hồ báo thức ở đâu?",
+          "TV-02": "Tôi đặt đồng hồ báo thức lên tủ đầu giường.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Đồng hồ báo thức để làm gì?",
+          "TV-02": "Đồng hồ báo thức đánh thức tôi vào buổi sáng.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Đồng hồ báo thức màu gì?",
+          "TV-02": "Đồng hồ báo thức màu đỏ.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Bạn có dùng đồng hồ báo thức không?",
+          "TV-02": "Có, tôi dùng đồng hồ báo thức.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(A1-5)",
+          "TV-02": "Question and answers.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(B1-5)",
+          "TV-02": "What is the question for ..",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(C1-5)",
+          "TV-02": "Yes",
+          "TV-03": "No",
+          "TV-04": "What is the correct answer?",
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": "What is the correct question?",
+          "TV-05": null
+        }
+      ],
+      "IPA": [
+        {
+          "IPA-01": "What is this?",
+          "IPA-02": "Đây là gì?",
+          "IPA-03": "wɒt ɪz ðɪs?",
+          "IPA-04": "wɑt ɪz ðɪs?"
+        },
+        {
+          "IPA-01": "This is an alarm clock.",
+          "IPA-02": "Đây là đồng hồ báo thức.",
+          "IPA-03": "ðɪs ɪz ən əˈlɑːm klɒk.",
+          "IPA-04": "ðɪs ɪz ən əˈlɑrm klɑk."
+        },
+        {
+          "IPA-01": "Where do you put the alarm clock?",
+          "IPA-02": "Bạn đặt đồng hồ báo thức ở đâu?",
+          "IPA-03": "weə duː juː pʊt ði əˈlɑːm klɒk?",
+          "IPA-04": "wɛr du ju pʊt ði əˈlɑrm klɑk?"
+        },
+        {
+          "IPA-01": "I put the alarm clock on the bedside table.",
+          "IPA-02": "Tôi đặt đồng hồ báo thức lên tủ đầu giường.",
+          "IPA-03": "aɪ pʊt ði əˈlɑːm klɒk ɒn ðə ˈbɛdsaɪd ˈteɪbᵊl.",
+          "IPA-04": "aɪ pʊt ði əˈlɑrm klɑk ɑn ðə ˈbɛdˌsaɪd ˈteɪbəl."
+        },
+        {
+          "IPA-01": "What does the alarm clock do?",
+          "IPA-02": "Đồng hồ báo thức để làm gì?",
+          "IPA-03": "wɒt dʌz ði əˈlɑːm klɒk duː?",
+          "IPA-04": "wɑt dʌz ði əˈlɑrm klɑk du?"
+        },
+        {
+          "IPA-01": "The alarm clock wakes me up in the morning.",
+          "IPA-02": "Đồng hồ báo thức đánh thức tôi vào buổi sáng.",
+          "IPA-03": "ði əˈlɑːm klɒk weɪks miː ʌp ɪn ðə ˈmɔːnɪŋ.",
+          "IPA-04": "ði əˈlɑrm klɑk weɪks mi ʌp ɪn ðə ˈmɔrnɪŋ."
+        },
+        {
+          "IPA-01": "What color is the alarm clock?",
+          "IPA-02": "Đồng hồ báo thức màu gì?",
+          "IPA-03": "wɒt ˈkʌlər ɪz ði əˈlɑːm klɒk?",
+          "IPA-04": "wɑt ˈkʌlər ɪz ði əˈlɑrm klɑk?"
+        },
+        {
+          "IPA-01": "The alarm clock is red.",
+          "IPA-02": "Đồng hồ báo thức màu đỏ.",
+          "IPA-03": "ði əˈlɑːm klɒk ɪz rɛd.",
+          "IPA-04": "ði əˈlɑrm klɑk ɪz rɛd."
+        },
+        {
+          "IPA-01": "Do you use an alarm clock?",
+          "IPA-02": "Bạn có dùng đồng hồ báo thức không?",
+          "IPA-03": "duː juː juːz ən əˈlɑːm klɒk?",
+          "IPA-04": "du ju juz ən əˈlɑrm klɑk?"
+        },
+        {
+          "IPA-01": "Yes, I use an alarm clock.",
+          "IPA-02": "Có, tôi dùng đồng hồ báo thức.",
+          "IPA-03": "jɛs, aɪ juːz ən əˈlɑːm klɒk.",
+          "IPA-04": "jɛs, aɪ juz ən əˈlɑrm klɑk."
+        }
+      ]
+    },
+    "charactor": [
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/HxKVdJpY/A11.png",
+        "fsp": "What is this? This is an alarm clock. Yes or no?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is this? This is an alarm clock. Yes or no?",
+            "id": "ESB1_F11a20"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "hint": "https://i.postimg.cc/HxKVdJpY/A11.png",
+        "fsp": "What is the question for This is an alarm clock.",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What is this?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for This is an alarm clock.",
+            "id": "ESB1_F11a10"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/HxKVdJpY/A11.png",
+        "fsp": "What does the alarm clock do? The alarm clock wakes me up in the morning. Yes or no?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What does the alarm clock do? The alarm clock wakes me up in the morning. Yes or no?",
+            "id": "ESB1_F11a26"
+          }
+        ]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/HxKVdJpY/A11.png",
+        "fsp": "What color is the alarm clock? I put the alarm clock on the bedside table. Yes or no?",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F11a40" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a22" }]
+          },
+          {
+            "qs": ["The alarm clock is red."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What color is the alarm clock? I put the alarm clock on the bedside table. Yes or no?",
+            "id": "ESB1_F11a47"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/HxKVdJpY/A11.png",
+        "fsp": "Where do you put the alarm clock? Yes, I use an alarm clock. Yes or no?",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F11a40" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a22" }]
+          },
+          {
+            "qs": ["I put the alarm clock on the bedside table."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Where do you put the alarm clock? Yes, I use an alarm clock. Yes or no?",
+            "id": "ESB1_F11a39"
+          }
+        ]
+      },
+      {
+        "type": "A5",
+        "hint": "https://i.postimg.cc/HxKVdJpY/A11.png",
+        "fsp": "Do you use an alarm clock?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes, I use an alarm clock."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Do you use an alarm clock?", "id": "ESB1_F11a8" }]
+      },
+      {
+        "type": "B2",
+        "hint": "https://i.postimg.cc/HxKVdJpY/A11.png",
+        "fsp": "What is the question for I put the alarm clock on the bedside table.",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Where do you put the alarm clock?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for I put the alarm clock on the bedside table.",
+            "id": "ESB1_F11a12"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "hint": "https://i.postimg.cc/HxKVdJpY/A11.png",
+        "fsp": "Where do you put the alarm clock?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["I put the alarm clock on the bedside table."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Where do you put the alarm clock?", "id": "ESB1_F11a2" }
+        ]
+      },
+      {
+        "type": "A4",
+        "hint": "https://i.postimg.cc/HxKVdJpY/A11.png",
+        "fsp": "What color is the alarm clock?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["The alarm clock is red."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What color is the alarm clock?", "id": "ESB1_F11a6" }
+        ]
+      },
+      {
+        "type": "B3",
+        "hint": "https://i.postimg.cc/HxKVdJpY/A11.png",
+        "fsp": "What is the question for The alarm clock wakes me up in the morning.",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What does the alarm clock do?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for The alarm clock wakes me up in the morning.",
+            "id": "ESB1_F11a14"
+          }
+        ]
+      },
+      {
+        "type": "A3",
+        "hint": "https://i.postimg.cc/HxKVdJpY/A11.png",
+        "fsp": "What does the alarm clock do?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["The alarm clock wakes me up in the morning."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What does the alarm clock do?", "id": "ESB1_F11a4" }
+        ]
+      },
+      {
+        "type": "A1",
+        "hint": "https://i.postimg.cc/HxKVdJpY/A11.png",
+        "fsp": "What is this?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["This is an alarm clock."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What is this?", "id": "ESB1_F11a0" }]
+      },
+      {
+        "type": "B4",
+        "hint": "https://i.postimg.cc/HxKVdJpY/A11.png",
+        "fsp": "What is the question for The alarm clock is red.",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What color is the alarm clock?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for The alarm clock is red.",
+            "id": "ESB1_F11a16"
+          }
+        ]
+      },
+      {
+        "type": "B5",
+        "hint": "https://i.postimg.cc/HxKVdJpY/A11.png",
+        "fsp": "What is the question for Yes, I use an alarm clock.",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Do you use an alarm clock?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for Yes, I use an alarm clock.",
+            "id": "ESB1_F11a18"
+          }
+        ]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/HxKVdJpY/A11.png",
+        "fsp": "Do you use an alarm clock? The alarm clock wakes me up in the morning. Yes or no?",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F11a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a25" }]
+          },
+          {
+            "qs": ["Yes, I use an alarm clock."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Do you use an alarm clock? The alarm clock wakes me up in the morning. Yes or no?",
+            "id": "ESB1_F11a51"
+          }
+        ]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/HxKVdJpY/A11.png",
+        "fsp": "Do you use an alarm clock? Yes, I use an alarm clock. Yes or no?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F11a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a22" }]
+          },
+          {
+            "qs": ["Do you use an alarm clock?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Do you use an alarm clock? Yes, I use an alarm clock. Yes or no?",
+            "id": "ESB1_F11a32"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/HxKVdJpY/A11.png",
+        "fsp": "Where do you put the alarm clock? I put the alarm clock on the bedside table. Yes or no?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F11a60" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a25" }]
+          },
+          {
+            "qs": ["Where do you put the alarm clock?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Where do you put the alarm clock? I put the alarm clock on the bedside table. Yes or no?",
+            "id": "ESB1_F11a23"
+          }
+        ]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/HxKVdJpY/A11.png",
+        "fsp": "What color is the alarm clock? The alarm clock is red. Yes or no?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F11a60" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a25" }]
+          },
+          {
+            "qs": ["What color is the alarm clock?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What color is the alarm clock? The alarm clock is red. Yes or no?",
+            "id": "ESB1_F11a29"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/HxKVdJpY/A11.png",
+        "fsp": "What is this? The alarm clock is red. Yes or no?",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F11a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a25" }]
+          },
+          {
+            "qs": ["This is an alarm clock."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What is this? The alarm clock is red. Yes or no?",
+            "id": "ESB1_F11a35"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/HxKVdJpY/A11.png",
+        "fsp": "What does the alarm clock do? The alarm clock wakes me up in the morning. Yes or no?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F11a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a22" }]
+          },
+          {
+            "qs": ["What does the alarm clock do?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What does the alarm clock do? The alarm clock wakes me up in the morning. Yes or no?",
+            "id": "ESB1_F11a26"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/HxKVdJpY/A11.png",
+        "fsp": "Where do you put the alarm clock? I put the alarm clock on the bedside table. Yes or no?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a25" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Where do you put the alarm clock? I put the alarm clock on the bedside table. Yes or no?",
+            "id": "ESB1_F11a23"
+          }
+        ]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/HxKVdJpY/A11.png",
+        "fsp": "Do you use an alarm clock? Yes, I use an alarm clock. Yes or no?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Do you use an alarm clock? Yes, I use an alarm clock. Yes or no?",
+            "id": "ESB1_F11a32"
+          }
+        ]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/HxKVdJpY/A11.png",
+        "fsp": "What color is the alarm clock? The alarm clock is red. Yes or no?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a25" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What color is the alarm clock? The alarm clock is red. Yes or no?",
+            "id": "ESB1_F11a29"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/HxKVdJpY/A11.png",
+        "fsp": "What is this? This is an alarm clock. Yes or no?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F11a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a22" }]
+          },
+          {
+            "qs": ["What is this?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What is this? This is an alarm clock. Yes or no?",
+            "id": "ESB1_F11a20"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/HxKVdJpY/A11.png",
+        "fsp": "What does the alarm clock do? This is an alarm clock. Yes or no?",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F11a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a25" }]
+          },
+          {
+            "qs": ["The alarm clock wakes me up in the morning."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What does the alarm clock do? This is an alarm clock. Yes or no?",
+            "id": "ESB1_F11a43"
+          }
+        ]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  },
+  {
+    "id": "this-is-a-curtain",
+    "ListenList": [],
+    "typeSets": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "SEO": {
+      "seo": {
+        "metaTitle": "This is a curtain.",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "This is a curtain.",
+        "IFdes": "This is a curtain.",
+        "IF-audiocode": "ESB1_F12"
+      },
+      "HD": [
+        {
+          "HD-01": "X",
+          "HD-02": "This is a curtain.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "https://i.postimg.cc/BbKt6q6x/A12.png",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What is this?",
+          "HD-02": "This is a curtain.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Where do you put the curtain?",
+          "HD-02": "I put the curtain on the window.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What does the curtain do?",
+          "HD-02": "The curtain blocks sunlight.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What color is the curtain?",
+          "HD-02": "The curtain is yellow.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Do you have curtains at home?",
+          "HD-02": "Yes, I have curtains at home.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(A1-5)",
+          "HD-02": "Question and answers.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(B1-5)",
+          "HD-02": "What is the question for ..",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(C1-5)",
+          "HD-02": "Yes",
+          "HD-03": "No",
+          "HD-04": "What is the correct answer?",
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": "What is the correct question?",
+          "HD-05": null
+        }
+      ],
+      "TB": [],
+      "TV": [
+        {
+          "TV-01": "X",
+          "TV-02": "Đây là rèm cửa.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": "https://i.postimg.cc/BbKt6q6x/A12.png",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "X",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Đây là gì?",
+          "TV-02": "Đây là rèm cửa.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Bạn đặt rèm ở đâu?",
+          "TV-02": "Tôi đặt rèm cửa sổ.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Rèm cửa để làm gì?",
+          "TV-02": "Rèm che nắng.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Rèm cửa màu gì?",
+          "TV-02": "Rèm cửa màu vàng.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Nhà bạn có rèm cửa không?",
+          "TV-02": "Có, tôi có rèm ở nhà.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(A1-5)",
+          "TV-02": "Question and answers.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(B1-5)",
+          "TV-02": "What is the question for ..",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(C1-5)",
+          "TV-02": "Yes",
+          "TV-03": "No",
+          "TV-04": "What is the correct answer?",
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": "What is the correct question?",
+          "TV-05": null
+        }
+      ],
+      "IPA": [
+        {
+          "IPA-01": "What is this?",
+          "IPA-02": "Đây là gì?",
+          "IPA-03": "wɒt ɪz ðɪs?",
+          "IPA-04": "wɑt ɪz ðɪs?"
+        },
+        {
+          "IPA-01": "This is a curtain.",
+          "IPA-02": "Đây là rèm cửa.",
+          "IPA-03": "ðɪs ɪz ə ˈkɜːtᵊn.",
+          "IPA-04": "ðɪs ɪz ə ˈkɜrtən."
+        },
+        {
+          "IPA-01": "Where do you put the curtain?",
+          "IPA-02": "Bạn đặt rèm ở đâu?",
+          "IPA-03": "weə duː juː pʊt ðə ˈkɜːtᵊn?",
+          "IPA-04": "wɛr du ju pʊt ðə ˈkɜrtən?"
+        },
+        {
+          "IPA-01": "I put the curtain on the window.",
+          "IPA-02": "Tôi đặt rèm cửa sổ.",
+          "IPA-03": "aɪ pʊt ðə ˈkɜːtᵊn ɒn ðə ˈwɪndəʊ.",
+          "IPA-04": "aɪ pʊt ðə ˈkɜrtən ɑn ðə ˈwɪndoʊ."
+        },
+        {
+          "IPA-01": "What does the curtain do?",
+          "IPA-02": "Rèm cửa để làm gì?",
+          "IPA-03": "wɒt dʌz ðə ˈkɜːtᵊn duː?",
+          "IPA-04": "wɑt dʌz ðə ˈkɜrtən du?"
+        },
+        {
+          "IPA-01": "The curtain blocks sunlight.",
+          "IPA-02": "Rèm che nắng.",
+          "IPA-03": "ðə ˈkɜːtᵊn blɒks ˈsʌnlaɪt.",
+          "IPA-04": "ðə ˈkɜrtən blɑks ˈsʌnˌlaɪt."
+        },
+        {
+          "IPA-01": "What color is the curtain?",
+          "IPA-02": "Rèm cửa màu gì?",
+          "IPA-03": "wɒt ˈkʌlər ɪz ðə ˈkɜːtᵊn?",
+          "IPA-04": "wɑt ˈkʌlər ɪz ðə ˈkɜrtən?"
+        },
+        {
+          "IPA-01": "The curtain is yellow.",
+          "IPA-02": "Rèm cửa màu vàng.",
+          "IPA-03": "ðə ˈkɜːtᵊn ɪz ˈjɛləʊ.",
+          "IPA-04": "ðə ˈkɜrtən ɪz ˈjɛloʊ."
+        },
+        {
+          "IPA-01": "Do you have curtains at home?",
+          "IPA-02": "Nhà bạn có rèm cửa không?",
+          "IPA-03": "duː juː hæv ˈkɜːtᵊnz æt həʊm?",
+          "IPA-04": "du ju hæv ˈkɜrtənz æt hoʊm?"
+        },
+        {
+          "IPA-01": "Yes, I have curtains at home.",
+          "IPA-02": "Có, tôi có rèm ở nhà.",
+          "IPA-03": "jɛs, aɪ hæv ˈkɜːtᵊnz æt həʊm.",
+          "IPA-04": "jɛs, aɪ hæv ˈkɜrtənz æt hoʊm."
+        }
+      ]
+    },
+    "charactor": [
+      {
+        "type": "A2",
+        "hint": "https://i.postimg.cc/BbKt6q6x/A12.png",
+        "fsp": "Where do you put the curtain?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["I put the curtain on the window."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Where do you put the curtain?", "id": "ESB1_F12a77" }
+        ]
+      },
+      {
+        "type": "B5",
+        "hint": "https://i.postimg.cc/BbKt6q6x/A12.png",
+        "fsp": "What is the question for Yes, I have curtains at home.",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Do you have curtains at home?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for Yes, I have curtains at home.",
+            "id": "ESB1_F12a93"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "hint": "https://i.postimg.cc/BbKt6q6x/A12.png",
+        "fsp": "What is the question for This is a curtain.",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What is this?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for This is a curtain.",
+            "id": "ESB1_F12a85"
+          }
+        ]
+      },
+      {
+        "type": "B2",
+        "hint": "https://i.postimg.cc/BbKt6q6x/A12.png",
+        "fsp": "What is the question for I put the curtain on the window.",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Where do you put the curtain?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for I put the curtain on the window.",
+            "id": "ESB1_F12a87"
+          }
+        ]
+      },
+      {
+        "type": "B3",
+        "hint": "https://i.postimg.cc/BbKt6q6x/A12.png",
+        "fsp": "What is the question for The curtain blocks sunlight.",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What does the curtain do?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for The curtain blocks sunlight.",
+            "id": "ESB1_F12a89"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/BbKt6q6x/A12.png",
+        "fsp": "What is this? This is a curtain. Yes or no?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F11a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a22" }]
+          },
+          {
+            "qs": ["What is this?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What is this? This is a curtain. Yes or no?",
+            "id": "ESB1_F12a95"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/BbKt6q6x/A12.png",
+        "fsp": "Where do you put the curtain? Yes, I have curtains at home. Yes or no?",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F11a40" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a22" }]
+          },
+          {
+            "qs": ["I put the curtain on the window."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Where do you put the curtain? Yes, I have curtains at home. Yes or no?",
+            "id": "ESB1_F12a114"
+          }
+        ]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/BbKt6q6x/A12.png",
+        "fsp": "Do you have curtains at home? Yes, I have curtains at home. Yes or no?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F11a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a22" }]
+          },
+          {
+            "qs": ["Do you have curtains at home?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Do you have curtains at home? Yes, I have curtains at home. Yes or no?",
+            "id": "ESB1_F12a107"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/BbKt6q6x/A12.png",
+        "fsp": "What does the curtain do? This is a curtain. Yes or no?",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F11a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a25" }]
+          },
+          {
+            "qs": ["The curtain blocks sunlight."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What does the curtain do? This is a curtain. Yes or no?",
+            "id": "ESB1_F12a118"
+          }
+        ]
+      },
+      {
+        "type": "A4",
+        "hint": "https://i.postimg.cc/BbKt6q6x/A12.png",
+        "fsp": "What color is the curtain?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["The curtain is yellow."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What color is the curtain?", "id": "ESB1_F12a81" }]
+      },
+      {
+        "type": "B4",
+        "hint": "https://i.postimg.cc/BbKt6q6x/A12.png",
+        "fsp": "What is the question for The curtain is yellow.",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What color is the curtain?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for The curtain is yellow.",
+            "id": "ESB1_F12a91"
+          }
+        ]
+      },
+      {
+        "type": "A3",
+        "hint": "https://i.postimg.cc/BbKt6q6x/A12.png",
+        "fsp": "What does the curtain do?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["The curtain blocks sunlight."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What does the curtain do?", "id": "ESB1_F12a79" }]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/BbKt6q6x/A12.png",
+        "fsp": "What color is the curtain? I put the curtain on the window. Yes or no?",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F11a40" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a22" }]
+          },
+          {
+            "qs": ["The curtain is yellow."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What color is the curtain? I put the curtain on the window. Yes or no?",
+            "id": "ESB1_F12a122"
+          }
+        ]
+      },
+      {
+        "type": "A5",
+        "hint": "https://i.postimg.cc/BbKt6q6x/A12.png",
+        "fsp": "Do you have curtains at home?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes, I have curtains at home."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Do you have curtains at home?", "id": "ESB1_F12a83" }
+        ]
+      },
+      {
+        "type": "A1",
+        "hint": "https://i.postimg.cc/BbKt6q6x/A12.png",
+        "fsp": "What is this?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["This is a curtain."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What is this?", "id": "ESB1_F11a0" }]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/BbKt6q6x/A12.png",
+        "fsp": "What color is the curtain? The curtain is yellow. Yes or no?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F11a60" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a25" }]
+          },
+          {
+            "qs": ["What color is the curtain?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What color is the curtain? The curtain is yellow. Yes or no?",
+            "id": "ESB1_F12a104"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/BbKt6q6x/A12.png",
+        "fsp": "What does the curtain do? The curtain blocks sunlight. Yes or no?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What does the curtain do? The curtain blocks sunlight. Yes or no?",
+            "id": "ESB1_F12a101"
+          }
+        ]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/BbKt6q6x/A12.png",
+        "fsp": "Do you have curtains at home? The curtain blocks sunlight. Yes or no?",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F11a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a25" }]
+          },
+          {
+            "qs": ["Yes, I have curtains at home."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Do you have curtains at home? The curtain blocks sunlight. Yes or no?",
+            "id": "ESB1_F12a126"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/BbKt6q6x/A12.png",
+        "fsp": "Where do you put the curtain? I put the curtain on the window. Yes or no?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a25" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Where do you put the curtain? I put the curtain on the window. Yes or no?",
+            "id": "ESB1_F12a98"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/BbKt6q6x/A12.png",
+        "fsp": "What is this? This is a curtain. Yes or no?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is this? This is a curtain. Yes or no?",
+            "id": "ESB1_F12a95"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/BbKt6q6x/A12.png",
+        "fsp": "What is this? The curtain is yellow. Yes or no?",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F11a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a25" }]
+          },
+          {
+            "qs": ["This is a curtain."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What is this? The curtain is yellow. Yes or no?",
+            "id": "ESB1_F12a110"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/BbKt6q6x/A12.png",
+        "fsp": "What does the curtain do? The curtain blocks sunlight. Yes or no?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F11a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a22" }]
+          },
+          {
+            "qs": ["What does the curtain do?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What does the curtain do? The curtain blocks sunlight. Yes or no?",
+            "id": "ESB1_F12a101"
+          }
+        ]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/BbKt6q6x/A12.png",
+        "fsp": "What color is the curtain? The curtain is yellow. Yes or no?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a25" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What color is the curtain? The curtain is yellow. Yes or no?",
+            "id": "ESB1_F12a104"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/BbKt6q6x/A12.png",
+        "fsp": "Where do you put the curtain? I put the curtain on the window. Yes or no?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F11a60" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a25" }]
+          },
+          {
+            "qs": ["Where do you put the curtain?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Where do you put the curtain? I put the curtain on the window. Yes or no?",
+            "id": "ESB1_F12a98"
+          }
+        ]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/BbKt6q6x/A12.png",
+        "fsp": "Do you have curtains at home? Yes, I have curtains at home. Yes or no?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Do you have curtains at home? Yes, I have curtains at home. Yes or no?",
+            "id": "ESB1_F12a107"
+          }
+        ]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  },
+  {
+    "id": "this-is-a-carpet",
+    "ListenList": [],
+    "typeSets": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "SEO": {
+      "seo": {
+        "metaTitle": "This is a carpet.",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "This is a carpet.",
+        "IFdes": "This is a carpet.",
+        "IF-audiocode": "ESB1_F13"
+      },
+      "HD": [
+        {
+          "HD-01": "X",
+          "HD-02": "This is a carpet.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "https://i.postimg.cc/yWCx3wg2/A13.png",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What is this?",
+          "HD-02": "This is a carpet.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Where do you put the carpet?",
+          "HD-02": "I put the carpet on the floor.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Is the carpet soft or rough?",
+          "HD-02": "The carpet is soft.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What color is the carpet?",
+          "HD-02": "The carpet is beige.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Do you have a carpet at home?",
+          "HD-02": "Yes, I have a carpet at home.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(A1-5)",
+          "HD-02": "Question and answers.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(B1-5)",
+          "HD-02": "What is the question for ..",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(C1-5)",
+          "HD-02": "Yes",
+          "HD-03": "No",
+          "HD-04": "What is the correct answer?",
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": "What is the correct question?",
+          "HD-05": null
+        }
+      ],
+      "TB": [],
+      "TV": [
+        {
+          "TV-01": "X",
+          "TV-02": "Đây là thảm.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": "https://i.postimg.cc/yWCx3wg2/A13.png",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "X",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Đây là gì?",
+          "TV-02": "Đây là thảm.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Bạn đặt thảm ở đâu?",
+          "TV-02": "Tôi đặt thảm trên sàn.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Thảm mềm hay thô?",
+          "TV-02": "Thảm mềm.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Thảm màu gì?",
+          "TV-02": "Thảm màu be.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Nhà bạn có thảm không?",
+          "TV-02": "Có, nhà tôi có thảm.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(A1-5)",
+          "TV-02": "Question and answers.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(B1-5)",
+          "TV-02": "What is the question for ..",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(C1-5)",
+          "TV-02": "Yes",
+          "TV-03": "No",
+          "TV-04": "What is the correct answer?",
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": "What is the correct question?",
+          "TV-05": null
+        }
+      ],
+      "IPA": [
+        {
+          "IPA-01": "What is this?",
+          "IPA-02": "Đây là gì?",
+          "IPA-03": "wɒt ɪz ðɪs?",
+          "IPA-04": "wɑt ɪz ðɪs?"
+        },
+        {
+          "IPA-01": "This is a carpet.",
+          "IPA-02": "Đây là thảm.",
+          "IPA-03": "ðɪs ɪz ə ˈkɑːpɪt.",
+          "IPA-04": "ðɪs ɪz ə ˈkɑrpət."
+        },
+        {
+          "IPA-01": "Where do you put the carpet?",
+          "IPA-02": "Bạn đặt thảm ở đâu?",
+          "IPA-03": "weə duː juː pʊt ðə ˈkɑːpɪt?",
+          "IPA-04": "wɛr du ju pʊt ðə ˈkɑrpət?"
+        },
+        {
+          "IPA-01": "I put the carpet on the floor.",
+          "IPA-02": "Tôi đặt thảm trên sàn.",
+          "IPA-03": "aɪ pʊt ðə ˈkɑːpɪt ɒn ðə flɔː.",
+          "IPA-04": "aɪ pʊt ðə ˈkɑrpət ɑn ðə flɔr."
+        },
+        {
+          "IPA-01": "Is the carpet soft or rough?",
+          "IPA-02": "Thảm mềm hay thô?",
+          "IPA-03": "ɪz ðə ˈkɑːpɪt sɒft ɔː rʌf?",
+          "IPA-04": "ɪz ðə ˈkɑrpət sɑft ɔr rʌf?"
+        },
+        {
+          "IPA-01": "The carpet is soft.",
+          "IPA-02": "Thảm mềm.",
+          "IPA-03": "ðə ˈkɑːpɪt ɪz sɒft.",
+          "IPA-04": "ðə ˈkɑrpət ɪz sɑft."
+        },
+        {
+          "IPA-01": "What color is the carpet?",
+          "IPA-02": "Thảm màu gì?",
+          "IPA-03": "wɒt ˈkʌlər ɪz ðə ˈkɑːpɪt?",
+          "IPA-04": "wɑt ˈkʌlər ɪz ðə ˈkɑrpət?"
+        },
+        {
+          "IPA-01": "The carpet is beige.",
+          "IPA-02": "Thảm màu be.",
+          "IPA-03": "ðə ˈkɑːpɪt ɪz beɪʒ.",
+          "IPA-04": "ðə ˈkɑrpət ɪz beɪʒ."
+        },
+        {
+          "IPA-01": "Do you have a carpet at home?",
+          "IPA-02": "Nhà bạn có thảm không?",
+          "IPA-03": "duː juː hæv ə ˈkɑːpɪt æt həʊm?",
+          "IPA-04": "du ju hæv ə ˈkɑrpət æt hoʊm?"
+        },
+        {
+          "IPA-01": "Yes, I have a carpet at home.",
+          "IPA-02": "Có, nhà tôi có thảm.",
+          "IPA-03": "jɛs, aɪ hæv ə ˈkɑːpɪt æt həʊm.",
+          "IPA-04": "jɛs, aɪ hæv ə ˈkɑrpət æt hoʊm."
+        }
+      ]
+    },
+    "charactor": [
+      {
+        "type": "B3",
+        "hint": "https://i.postimg.cc/yWCx3wg2/A13.png",
+        "fsp": "What is the question for The carpet is soft.",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Is the carpet soft or rough?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for The carpet is soft.",
+            "id": "ESB1_F13a164"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "hint": "https://i.postimg.cc/yWCx3wg2/A13.png",
+        "fsp": "What is this?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["This is a carpet."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What is this?", "id": "ESB1_F11a0" }]
+      },
+      {
+        "type": "B5",
+        "hint": "https://i.postimg.cc/yWCx3wg2/A13.png",
+        "fsp": "What is the question for Yes, I have a carpet at home.",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Do you have a carpet at home?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for Yes, I have a carpet at home.",
+            "id": "ESB1_F13a168"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/yWCx3wg2/A13.png",
+        "fsp": "Where do you put the carpet? I put the carpet on the floor. Yes or no?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a25" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Where do you put the carpet? I put the carpet on the floor. Yes or no?",
+            "id": "ESB1_F13a173"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "hint": "https://i.postimg.cc/yWCx3wg2/A13.png",
+        "fsp": "Where do you put the carpet?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["I put the carpet on the floor."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Where do you put the carpet?", "id": "ESB1_F13a152" }
+        ]
+      },
+      {
+        "type": "B2",
+        "hint": "https://i.postimg.cc/yWCx3wg2/A13.png",
+        "fsp": "What is the question for I put the carpet on the floor.",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Where do you put the carpet?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for I put the carpet on the floor.",
+            "id": "ESB1_F13a162"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "hint": "https://i.postimg.cc/yWCx3wg2/A13.png",
+        "fsp": "What is the question for This is a carpet.",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What is this?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for This is a carpet.",
+            "id": "ESB1_F13a160"
+          }
+        ]
+      },
+      {
+        "type": "A4",
+        "hint": "https://i.postimg.cc/yWCx3wg2/A13.png",
+        "fsp": "What color is the carpet?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["The carpet is beige."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What color is the carpet?", "id": "ESB1_F13a156" }]
+      },
+      {
+        "type": "A3",
+        "hint": "https://i.postimg.cc/yWCx3wg2/A13.png",
+        "fsp": "Is the carpet soft or rough?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["The carpet is soft."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Is the carpet soft or rough?", "id": "ESB1_F13a154" }
+        ]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/yWCx3wg2/A13.png",
+        "fsp": "What color is the carpet? I put the carpet on the floor. Yes or no?",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F11a40" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a22" }]
+          },
+          {
+            "qs": ["The carpet is beige."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What color is the carpet? I put the carpet on the floor. Yes or no?",
+            "id": "ESB1_F13a197"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/yWCx3wg2/A13.png",
+        "fsp": "What is this? This is a carpet. Yes or no?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F11a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a22" }]
+          },
+          {
+            "qs": ["What is this?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What is this? This is a carpet. Yes or no?",
+            "id": "ESB1_F13a170"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/yWCx3wg2/A13.png",
+        "fsp": "Is the carpet soft or rough? The carpet is soft. Yes or no?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is the carpet soft or rough? The carpet is soft. Yes or no?",
+            "id": "ESB1_F13a176"
+          }
+        ]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/yWCx3wg2/A13.png",
+        "fsp": "Do you have a carpet at home? Yes, I have a carpet at home. Yes or no?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F11a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a22" }]
+          },
+          {
+            "qs": ["Do you have a carpet at home?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Do you have a carpet at home? Yes, I have a carpet at home. Yes or no?",
+            "id": "ESB1_F13a182"
+          }
+        ]
+      },
+      {
+        "type": "A5",
+        "hint": "https://i.postimg.cc/yWCx3wg2/A13.png",
+        "fsp": "Do you have a carpet at home?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes, I have a carpet at home."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Do you have a carpet at home?", "id": "ESB1_F13a158" }
+        ]
+      },
+      {
+        "type": "B4",
+        "hint": "https://i.postimg.cc/yWCx3wg2/A13.png",
+        "fsp": "What is the question for The carpet is beige.",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What color is the carpet?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for The carpet is beige.",
+            "id": "ESB1_F13a166"
+          }
+        ]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/yWCx3wg2/A13.png",
+        "fsp": "What color is the carpet? The carpet is beige. Yes or no?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a25" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What color is the carpet? The carpet is beige. Yes or no?",
+            "id": "ESB1_F13a179"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/yWCx3wg2/A13.png",
+        "fsp": "Where do you put the carpet? I put the carpet on the floor. Yes or no?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F11a60" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a25" }]
+          },
+          {
+            "qs": ["Where do you put the carpet?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Where do you put the carpet? I put the carpet on the floor. Yes or no?",
+            "id": "ESB1_F13a173"
+          }
+        ]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/yWCx3wg2/A13.png",
+        "fsp": "Do you have a carpet at home? Yes, I have a carpet at home. Yes or no?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Do you have a carpet at home? Yes, I have a carpet at home. Yes or no?",
+            "id": "ESB1_F13a182"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/yWCx3wg2/A13.png",
+        "fsp": "Is the carpet soft or rough? The carpet is soft. Yes or no?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F11a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a22" }]
+          },
+          {
+            "qs": ["Is the carpet soft or rough?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Is the carpet soft or rough? The carpet is soft. Yes or no?",
+            "id": "ESB1_F13a176"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/yWCx3wg2/A13.png",
+        "fsp": "What is this? The carpet is beige. Yes or no?",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F11a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a25" }]
+          },
+          {
+            "qs": ["This is a carpet."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What is this? The carpet is beige. Yes or no?",
+            "id": "ESB1_F13a185"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/yWCx3wg2/A13.png",
+        "fsp": "Is the carpet soft or rough? This is a carpet. Yes or no?",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F11a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a25" }]
+          },
+          {
+            "qs": ["The carpet is soft."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Is the carpet soft or rough? This is a carpet. Yes or no?",
+            "id": "ESB1_F13a193"
+          }
+        ]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/yWCx3wg2/A13.png",
+        "fsp": "What color is the carpet? The carpet is beige. Yes or no?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F11a60" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a25" }]
+          },
+          {
+            "qs": ["What color is the carpet?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What color is the carpet? The carpet is beige. Yes or no?",
+            "id": "ESB1_F13a179"
+          }
+        ]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/yWCx3wg2/A13.png",
+        "fsp": "Do you have a carpet at home? The carpet is soft. Yes or no?",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F11a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a25" }]
+          },
+          {
+            "qs": ["Yes, I have a carpet at home."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Do you have a carpet at home? The carpet is soft. Yes or no?",
+            "id": "ESB1_F13a201"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/yWCx3wg2/A13.png",
+        "fsp": "What is this? This is a carpet. Yes or no?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is this? This is a carpet. Yes or no?",
+            "id": "ESB1_F13a170"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/yWCx3wg2/A13.png",
+        "fsp": "Where do you put the carpet? Yes, I have a carpet at home. Yes or no?",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F11a40" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a22" }]
+          },
+          {
+            "qs": ["I put the carpet on the floor."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Where do you put the carpet? Yes, I have a carpet at home. Yes or no?",
+            "id": "ESB1_F13a189"
+          }
+        ]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  },
+  {
+    "id": "this-is-a-fan",
+    "ListenList": [],
+    "typeSets": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "SEO": {
+      "seo": {
+        "metaTitle": "This is a fan.",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "This is a fan.",
+        "IFdes": "This is a fan.",
+        "IF-audiocode": "ESB1_F14"
+      },
+      "HD": [
+        {
+          "HD-01": "X",
+          "HD-02": "This is a fan.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "https://i.postimg.cc/2jVcz3QP/A14.png",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What is this?",
+          "HD-02": "This is a fan.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Where do you put the fan?",
+          "HD-02": "I put the fan on the table.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What does the fan do?",
+          "HD-02": "The fan blows air to keep me cool.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What color is the fan?",
+          "HD-02": "The fan is white.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Do you use a fan at home?",
+          "HD-02": "Yes, I use a fan at home.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(A1-5)",
+          "HD-02": "Question and answers.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(B1-5)",
+          "HD-02": "What is the question for ..",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(C1-5)",
+          "HD-02": "Yes",
+          "HD-03": "No",
+          "HD-04": "What is the correct answer?",
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": "What is the correct question?",
+          "HD-05": null
+        }
+      ],
+      "TB": [],
+      "TV": [
+        {
+          "TV-01": "X",
+          "TV-02": "Đây là quạt.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": "https://i.postimg.cc/2jVcz3QP/A14.png",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "X",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Đây là gì?",
+          "TV-02": "Đây là quạt.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Bạn đặt quạt ở đâu?",
+          "TV-02": "Tôi đặt quạt lên bàn.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Quạt để làm gì?",
+          "TV-02": "Quạt thổi gió giúp tôi mát mẻ.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Quạt màu gì?",
+          "TV-02": "Quạt màu trắng.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Nhà bạn có sử dụng quạt không?",
+          "TV-02": "Có, nhà tôi dùng quạt.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(A1-5)",
+          "TV-02": "Question and answers.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(B1-5)",
+          "TV-02": "What is the question for ..",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(C1-5)",
+          "TV-02": "Yes",
+          "TV-03": "No",
+          "TV-04": "What is the correct answer?",
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": "What is the correct question?",
+          "TV-05": null
+        }
+      ],
+      "IPA": [
+        {
+          "IPA-01": "What is this?",
+          "IPA-02": "Đây là gì?",
+          "IPA-03": "wɒt ɪz ðɪs?",
+          "IPA-04": "wɑt ɪz ðɪs?"
+        },
+        {
+          "IPA-01": "This is a fan.",
+          "IPA-02": "Đây là quạt.",
+          "IPA-03": "ðɪs ɪz ə fæn.",
+          "IPA-04": "ðɪs ɪz ə fæn."
+        },
+        {
+          "IPA-01": "Where do you put the fan?",
+          "IPA-02": "Bạn đặt quạt ở đâu?",
+          "IPA-03": "weə duː juː pʊt ðə fæn?",
+          "IPA-04": "wɛr du ju pʊt ðə fæn?"
+        },
+        {
+          "IPA-01": "I put the fan on the table.",
+          "IPA-02": "Tôi đặt quạt lên bàn.",
+          "IPA-03": "aɪ pʊt ðə fæn ɒn ðə ˈteɪbᵊl.",
+          "IPA-04": "aɪ pʊt ðə fæn ɑn ðə ˈteɪbəl."
+        },
+        {
+          "IPA-01": "What does the fan do?",
+          "IPA-02": "Quạt để làm gì?",
+          "IPA-03": "wɒt dʌz ðə fæn duː?",
+          "IPA-04": "wɑt dʌz ðə fæn du?"
+        },
+        {
+          "IPA-01": "The fan blows air to keep me cool.",
+          "IPA-02": "Quạt thổi gió giúp tôi mát mẻ.",
+          "IPA-03": "ðə fæn bləʊz eə tuː kiːp miː kuːl.",
+          "IPA-04": "ðə fæn bloʊz ɛr tu kip mi kul."
+        },
+        {
+          "IPA-01": "What color is the fan?",
+          "IPA-02": "Quạt màu gì?",
+          "IPA-03": "wɒt ˈkʌlər ɪz ðə fæn?",
+          "IPA-04": "wɑt ˈkʌlər ɪz ðə fæn?"
+        },
+        {
+          "IPA-01": "The fan is white.",
+          "IPA-02": "Quạt màu trắng.",
+          "IPA-03": "ðə fæn ɪz waɪt.",
+          "IPA-04": "ðə fæn ɪz waɪt."
+        },
+        {
+          "IPA-01": "Do you use a fan at home?",
+          "IPA-02": "Nhà bạn có sử dụng quạt không?",
+          "IPA-03": "duː juː juːz ə fæn æt həʊm?",
+          "IPA-04": "du ju juz ə fæn æt hoʊm?"
+        },
+        {
+          "IPA-01": "Yes, I use a fan at home.",
+          "IPA-02": "Có, nhà tôi dùng quạt.",
+          "IPA-03": "jɛs, aɪ juːz ə fæn æt həʊm.",
+          "IPA-04": "jɛs, aɪ juz ə fæn æt hoʊm."
+        }
+      ]
+    },
+    "charactor": [
+      {
+        "type": "A1",
+        "hint": "https://i.postimg.cc/2jVcz3QP/A14.png",
+        "fsp": "What is this?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["This is a fan."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What is this?", "id": "ESB1_F11a0" }]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/2jVcz3QP/A14.png",
+        "fsp": "Do you use a fan at home? Yes, I use a fan at home. Yes or no?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F11a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a22" }]
+          },
+          {
+            "qs": ["Do you use a fan at home?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Do you use a fan at home? Yes, I use a fan at home. Yes or no?",
+            "id": "ESB1_F14a257"
+          }
+        ]
+      },
+      {
+        "type": "A4",
+        "hint": "https://i.postimg.cc/2jVcz3QP/A14.png",
+        "fsp": "What color is the fan?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["The fan is white."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What color is the fan?", "id": "ESB1_F14a231" }]
+      },
+      {
+        "type": "B4",
+        "hint": "https://i.postimg.cc/2jVcz3QP/A14.png",
+        "fsp": "What is the question for The fan is white.",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What color is the fan?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for The fan is white.",
+            "id": "ESB1_F14a241"
+          }
+        ]
+      },
+      {
+        "type": "A5",
+        "hint": "https://i.postimg.cc/2jVcz3QP/A14.png",
+        "fsp": "Do you use a fan at home?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes, I use a fan at home."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Do you use a fan at home?", "id": "ESB1_F14a233" }]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/2jVcz3QP/A14.png",
+        "fsp": "What does the fan do? The fan blows air to keep me cool. Yes or no?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What does the fan do? The fan blows air to keep me cool. Yes or no?",
+            "id": "ESB1_F14a251"
+          }
+        ]
+      },
+      {
+        "type": "B5",
+        "hint": "https://i.postimg.cc/2jVcz3QP/A14.png",
+        "fsp": "What is the question for Yes, I use a fan at home.",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Do you use a fan at home?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for Yes, I use a fan at home.",
+            "id": "ESB1_F14a243"
+          }
+        ]
+      },
+      {
+        "type": "B3",
+        "hint": "https://i.postimg.cc/2jVcz3QP/A14.png",
+        "fsp": "What is the question for The fan blows air to keep me cool.",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What does the fan do?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for The fan blows air to keep me cool.",
+            "id": "ESB1_F14a239"
+          }
+        ]
+      },
+      {
+        "type": "B2",
+        "hint": "https://i.postimg.cc/2jVcz3QP/A14.png",
+        "fsp": "What is the question for I put the fan on the table.",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Where do you put the fan?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for I put the fan on the table.",
+            "id": "ESB1_F14a237"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/2jVcz3QP/A14.png",
+        "fsp": "What is this? This is a fan. Yes or no?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F11a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a22" }]
+          },
+          {
+            "qs": ["What is this?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What is this? This is a fan. Yes or no?",
+            "id": "ESB1_F14a245"
+          }
+        ]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/2jVcz3QP/A14.png",
+        "fsp": "What color is the fan? The fan is white. Yes or no?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F11a60" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a25" }]
+          },
+          {
+            "qs": ["What color is the fan?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What color is the fan? The fan is white. Yes or no?",
+            "id": "ESB1_F14a254"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "hint": "https://i.postimg.cc/2jVcz3QP/A14.png",
+        "fsp": "Where do you put the fan?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["I put the fan on the table."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Where do you put the fan?", "id": "ESB1_F14a227" }]
+      },
+      {
+        "type": "B1",
+        "hint": "https://i.postimg.cc/2jVcz3QP/A14.png",
+        "fsp": "What is the question for This is a fan.",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What is this?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for This is a fan.",
+            "id": "ESB1_F14a235"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/2jVcz3QP/A14.png",
+        "fsp": "Where do you put the fan? I put the fan on the table. Yes or no?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a25" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Where do you put the fan? I put the fan on the table. Yes or no?",
+            "id": "ESB1_F14a248"
+          }
+        ]
+      },
+      {
+        "type": "A3",
+        "hint": "https://i.postimg.cc/2jVcz3QP/A14.png",
+        "fsp": "What does the fan do?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["The fan blows air to keep me cool."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What does the fan do?", "id": "ESB1_F14a229" }]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/2jVcz3QP/A14.png",
+        "fsp": "What is this? The fan is white. Yes or no?",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F11a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a25" }]
+          },
+          {
+            "qs": ["This is a fan."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What is this? The fan is white. Yes or no?",
+            "id": "ESB1_F14a260"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/2jVcz3QP/A14.png",
+        "fsp": "Where do you put the fan? I put the fan on the table. Yes or no?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F11a60" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a25" }]
+          },
+          {
+            "qs": ["Where do you put the fan?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Where do you put the fan? I put the fan on the table. Yes or no?",
+            "id": "ESB1_F14a248"
+          }
+        ]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/2jVcz3QP/A14.png",
+        "fsp": "What color is the fan? I put the fan on the table. Yes or no?",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F11a40" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a22" }]
+          },
+          {
+            "qs": ["The fan is white."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What color is the fan? I put the fan on the table. Yes or no?",
+            "id": "ESB1_F14a272"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/2jVcz3QP/A14.png",
+        "fsp": "What does the fan do? The fan blows air to keep me cool. Yes or no?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F11a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a22" }]
+          },
+          {
+            "qs": ["What does the fan do?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What does the fan do? The fan blows air to keep me cool. Yes or no?",
+            "id": "ESB1_F14a251"
+          }
+        ]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/2jVcz3QP/A14.png",
+        "fsp": "Do you use a fan at home? The fan blows air to keep me cool. Yes or no?",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F11a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a25" }]
+          },
+          {
+            "qs": ["Yes, I use a fan at home."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Do you use a fan at home? The fan blows air to keep me cool. Yes or no?",
+            "id": "ESB1_F14a276"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/2jVcz3QP/A14.png",
+        "fsp": "What is this? This is a fan. Yes or no?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is this? This is a fan. Yes or no?",
+            "id": "ESB1_F14a245"
+          }
+        ]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/2jVcz3QP/A14.png",
+        "fsp": "What color is the fan? The fan is white. Yes or no?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a25" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What color is the fan? The fan is white. Yes or no?",
+            "id": "ESB1_F14a254"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/2jVcz3QP/A14.png",
+        "fsp": "What does the fan do? This is a fan. Yes or no?",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F11a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a25" }]
+          },
+          {
+            "qs": ["The fan blows air to keep me cool."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What does the fan do? This is a fan. Yes or no?",
+            "id": "ESB1_F14a268"
+          }
+        ]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/2jVcz3QP/A14.png",
+        "fsp": "Do you use a fan at home? Yes, I use a fan at home. Yes or no?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Do you use a fan at home? Yes, I use a fan at home. Yes or no?",
+            "id": "ESB1_F14a257"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/2jVcz3QP/A14.png",
+        "fsp": "Where do you put the fan? Yes, I use a fan at home. Yes or no?",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F11a40" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a22" }]
+          },
+          {
+            "qs": ["I put the fan on the table."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Where do you put the fan? Yes, I use a fan at home. Yes or no?",
+            "id": "ESB1_F14a264"
+          }
+        ]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  },
+  {
+    "id": "this-is-an-air-conditioner",
+    "ListenList": [],
+    "typeSets": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "SEO": {
+      "seo": {
+        "metaTitle": "This is an air conditioner.",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "This is an air conditioner.",
+        "IFdes": "This is an air conditioner.",
+        "IF-audiocode": "ESB1_F15"
+      },
+      "HD": [
+        {
+          "HD-01": "X",
+          "HD-02": "This is an air conditioner.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "https://i.postimg.cc/sfqn1yK1/A15.png",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What is this?",
+          "HD-02": "This is an air conditioner.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Where do you put the air conditioner?",
+          "HD-02": "I put the air conditioner on the wall.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What does the air conditioner do?",
+          "HD-02": "The air conditioner cools the room.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "What color is the air conditioner?",
+          "HD-02": "The air conditioner is white.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Do you use an air conditioner at home?",
+          "HD-02": "Yes, I use an air conditioner at home.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(A1-5)",
+          "HD-02": "Question and answers.",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(B1-5)",
+          "HD-02": "What is the question for ..",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "(C1-5)",
+          "HD-02": "Yes",
+          "HD-03": "No",
+          "HD-04": "What is the correct answer?",
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": "What is the correct question?",
+          "HD-05": null
+        }
+      ],
+      "TB": [],
+      "TV": [
+        {
+          "TV-01": "X",
+          "TV-02": "Đây là máy điều hòa.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": "https://i.postimg.cc/sfqn1yK1/A15.png",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "X",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Đây là gì?",
+          "TV-02": "Đây là máy điều hòa.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Bạn đặt máy lạnh ở đâu?",
+          "TV-02": "Tôi đặt máy điều hòa lên tường.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Máy điều hòa để làm gì?",
+          "TV-02": "Máy điều hòa làm mát căn phòng.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Máy lạnh màu gì?",
+          "TV-02": "Máy điều hòa màu trắng.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "Nhà bạn có sử dụng máy điều hòa không?",
+          "TV-02": "Có, nhà tôi dùng máy điều hòa.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(A1-5)",
+          "TV-02": "Question and answers.",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(B1-5)",
+          "TV-02": "What is the question for ..",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "(C1-5)",
+          "TV-02": "Yes",
+          "TV-03": "No",
+          "TV-04": "What is the correct answer?",
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": "What is the correct question?",
+          "TV-05": null
+        }
+      ],
+      "IPA": [
+        {
+          "IPA-01": "What is this?",
+          "IPA-02": "Đây là gì?",
+          "IPA-03": "wɒt ɪz ðɪs?",
+          "IPA-04": "wɑt ɪz ðɪs?"
+        },
+        {
+          "IPA-01": "This is an air conditioner.",
+          "IPA-02": "Đây là máy điều hòa.",
+          "IPA-03": "ðɪs ɪz ən eə kənˈdɪʃᵊnə.",
+          "IPA-04": "ðɪs ɪz ən ɛr kənˈdɪʃənər."
+        },
+        {
+          "IPA-01": "Where do you put the air conditioner?",
+          "IPA-02": "Bạn đặt máy lạnh ở đâu?",
+          "IPA-03": "weə duː juː pʊt ði eə kənˈdɪʃᵊnə?",
+          "IPA-04": "wɛr du ju pʊt ði ɛr kənˈdɪʃənər?"
+        },
+        {
+          "IPA-01": "I put the air conditioner on the wall.",
+          "IPA-02": "Tôi đặt máy điều hòa lên tường.",
+          "IPA-03": "aɪ pʊt ði eə kənˈdɪʃᵊnər ɒn ðə wɔːl.",
+          "IPA-04": "aɪ pʊt ði ɛr kənˈdɪʃənər ɑn ðə wɔl."
+        },
+        {
+          "IPA-01": "What does the air conditioner do?",
+          "IPA-02": "Máy điều hòa để làm gì?",
+          "IPA-03": "wɒt dʌz ði eə kənˈdɪʃᵊnə duː?",
+          "IPA-04": "wɑt dʌz ði ɛr kənˈdɪʃənər du?"
+        },
+        {
+          "IPA-01": "The air conditioner cools the room.",
+          "IPA-02": "Máy điều hòa làm mát căn phòng.",
+          "IPA-03": "ði eə kənˈdɪʃᵊnə kuːlz ðə ruːm.",
+          "IPA-04": "ði ɛr kənˈdɪʃənər kulz ðə rum."
+        },
+        {
+          "IPA-01": "What color is the air conditioner?",
+          "IPA-02": "Máy lạnh màu gì?",
+          "IPA-03": "wɒt ˈkʌlər ɪz ði eə kənˈdɪʃᵊnə?",
+          "IPA-04": "wɑt ˈkʌlər ɪz ði ɛr kənˈdɪʃənər?"
+        },
+        {
+          "IPA-01": "The air conditioner is white.",
+          "IPA-02": "Máy điều hòa màu trắng.",
+          "IPA-03": "ði eə kənˈdɪʃᵊnər ɪz waɪt.",
+          "IPA-04": "ði ɛr kənˈdɪʃənər ɪz waɪt."
+        },
+        {
+          "IPA-01": "Do you use an air conditioner at home?",
+          "IPA-02": "Nhà bạn có sử dụng máy điều hòa không?",
+          "IPA-03": "duː juː juːz ən eə kənˈdɪʃᵊnər æt həʊm?",
+          "IPA-04": "du ju juz ən ɛr kənˈdɪʃənər æt hoʊm?"
+        },
+        {
+          "IPA-01": "Yes, I use an air conditioner at home.",
+          "IPA-02": "Có, nhà tôi dùng máy điều hòa.",
+          "IPA-03": "jɛs, aɪ juːz ən eə kənˈdɪʃᵊnər æt həʊm.",
+          "IPA-04": "jɛs, aɪ juz ən ɛr kənˈdɪʃənər æt hoʊm."
+        }
+      ]
+    },
+    "charactor": [
+      {
+        "type": "B5",
+        "hint": "https://i.postimg.cc/sfqn1yK1/A15.png",
+        "fsp": "What is the question for Yes, I use an air conditioner at home.",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Do you use an air conditioner at home?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for Yes, I use an air conditioner at home.",
+            "id": "ESB1_F15a318"
+          }
+        ]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/sfqn1yK1/A15.png",
+        "fsp": "Do you use an air conditioner at home? The air conditioner cools the room. Yes or no?",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F11a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a25" }]
+          },
+          {
+            "qs": ["Yes, I use an air conditioner at home."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Do you use an air conditioner at home? The air conditioner cools the room. Yes or no?",
+            "id": "ESB1_F15a351"
+          }
+        ]
+      },
+      {
+        "type": "B4",
+        "hint": "https://i.postimg.cc/sfqn1yK1/A15.png",
+        "fsp": "What is the question for The air conditioner is white.",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What color is the air conditioner?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for The air conditioner is white.",
+            "id": "ESB1_F15a316"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/sfqn1yK1/A15.png",
+        "fsp": "Where do you put the air conditioner? I put the air conditioner on the wall. Yes or no?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F11a60" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a25" }]
+          },
+          {
+            "qs": ["Where do you put the air conditioner?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Where do you put the air conditioner? I put the air conditioner on the wall. Yes or no?",
+            "id": "ESB1_F15a323"
+          }
+        ]
+      },
+      {
+        "type": "A3",
+        "hint": "https://i.postimg.cc/sfqn1yK1/A15.png",
+        "fsp": "What does the air conditioner do?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["The air conditioner cools the room."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What does the air conditioner do?", "id": "ESB1_F15a304" }
+        ]
+      },
+      {
+        "type": "B1",
+        "hint": "https://i.postimg.cc/sfqn1yK1/A15.png",
+        "fsp": "What is the question for This is an air conditioner.",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What is this?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for This is an air conditioner.",
+            "id": "ESB1_F15a310"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "hint": "https://i.postimg.cc/sfqn1yK1/A15.png",
+        "fsp": "What is this?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["This is an air conditioner."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What is this?", "id": "ESB1_F11a0" }]
+      },
+      {
+        "type": "B3",
+        "hint": "https://i.postimg.cc/sfqn1yK1/A15.png",
+        "fsp": "What is the question for The air conditioner cools the room.",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What does the air conditioner do?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for The air conditioner cools the room.",
+            "id": "ESB1_F15a314"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/sfqn1yK1/A15.png",
+        "fsp": "What is this? This is an air conditioner. Yes or no?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is this? This is an air conditioner. Yes or no?",
+            "id": "ESB1_F15a320"
+          }
+        ]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/sfqn1yK1/A15.png",
+        "fsp": "What color is the air conditioner? The air conditioner is white. Yes or no?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a25" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What color is the air conditioner? The air conditioner is white. Yes or no?",
+            "id": "ESB1_F15a329"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/sfqn1yK1/A15.png",
+        "fsp": "What does the air conditioner do? The air conditioner cools the room. Yes or no?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What does the air conditioner do? The air conditioner cools the room. Yes or no?",
+            "id": "ESB1_F15a326"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "hint": "https://i.postimg.cc/sfqn1yK1/A15.png",
+        "fsp": "Where do you put the air conditioner?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["I put the air conditioner on the wall."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Where do you put the air conditioner?",
+            "id": "ESB1_F15a302"
+          }
+        ]
+      },
+      {
+        "type": "A4",
+        "hint": "https://i.postimg.cc/sfqn1yK1/A15.png",
+        "fsp": "What color is the air conditioner?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["The air conditioner is white."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What color is the air conditioner?", "id": "ESB1_F15a306" }
+        ]
+      },
+      {
+        "type": "B2",
+        "hint": "https://i.postimg.cc/sfqn1yK1/A15.png",
+        "fsp": "What is the question for I put the air conditioner on the wall.",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Where do you put the air conditioner?"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What is the question for I put the air conditioner on the wall.",
+            "id": "ESB1_F15a312"
+          }
+        ]
+      },
+      {
+        "type": "A5",
+        "hint": "https://i.postimg.cc/sfqn1yK1/A15.png",
+        "fsp": "Do you use an air conditioner at home?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes, I use an air conditioner at home."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Do you use an air conditioner at home?",
+            "id": "ESB1_F15a308"
+          }
+        ]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/sfqn1yK1/A15.png",
+        "fsp": "Do you use an air conditioner at home? Yes, I use an air conditioner at home. Yes or no?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a22" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Do you use an air conditioner at home? Yes, I use an air conditioner at home. Yes or no?",
+            "id": "ESB1_F15a332"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/sfqn1yK1/A15.png",
+        "fsp": "Where do you put the air conditioner? Yes, I use an air conditioner at home. Yes or no?",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F11a40" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a22" }]
+          },
+          {
+            "qs": ["I put the air conditioner on the wall."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Where do you put the air conditioner? Yes, I use an air conditioner at home. Yes or no?",
+            "id": "ESB1_F15a339"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/sfqn1yK1/A15.png",
+        "fsp": "What does the air conditioner do? The air conditioner cools the room. Yes or no?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F11a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a22" }]
+          },
+          {
+            "qs": ["What does the air conditioner do?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What does the air conditioner do? The air conditioner cools the room. Yes or no?",
+            "id": "ESB1_F15a326"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/sfqn1yK1/A15.png",
+        "fsp": "What is this? The air conditioner is white. Yes or no?",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F11a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a25" }]
+          },
+          {
+            "qs": ["This is an air conditioner."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What is this? The air conditioner is white. Yes or no?",
+            "id": "ESB1_F15a335"
+          }
+        ]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/sfqn1yK1/A15.png",
+        "fsp": "What color is the air conditioner? The air conditioner is white. Yes or no?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F11a60" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a25" }]
+          },
+          {
+            "qs": ["What color is the air conditioner?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What color is the air conditioner? The air conditioner is white. Yes or no?",
+            "id": "ESB1_F15a329"
+          }
+        ]
+      },
+      {
+        "type": "C3",
+        "hint": "https://i.postimg.cc/sfqn1yK1/A15.png",
+        "fsp": "What does the air conditioner do? This is an air conditioner. Yes or no?",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F11a36" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a25" }]
+          },
+          {
+            "qs": ["The air conditioner cools the room."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What does the air conditioner do? This is an air conditioner. Yes or no?",
+            "id": "ESB1_F15a343"
+          }
+        ]
+      },
+      {
+        "type": "C4",
+        "hint": "https://i.postimg.cc/sfqn1yK1/A15.png",
+        "fsp": "What color is the air conditioner? I put the air conditioner on the wall. Yes or no?",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct answer?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct answer?", "id": "ESB1_F11a40" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a22" }]
+          },
+          {
+            "qs": ["The air conditioner is white."],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What color is the air conditioner? I put the air conditioner on the wall. Yes or no?",
+            "id": "ESB1_F15a347"
+          }
+        ]
+      },
+      {
+        "type": "C1",
+        "hint": "https://i.postimg.cc/sfqn1yK1/A15.png",
+        "fsp": "What is this? This is an air conditioner. Yes or no?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F11a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a22" }]
+          },
+          {
+            "qs": ["What is this?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "What is this? This is an air conditioner. Yes or no?",
+            "id": "ESB1_F15a320"
+          }
+        ]
+      },
+      {
+        "type": "C2",
+        "hint": "https://i.postimg.cc/sfqn1yK1/A15.png",
+        "fsp": "Where do you put the air conditioner? I put the air conditioner on the wall. Yes or no?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Yes"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a3" }]
+          },
+          {
+            "qs": ["No"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a25" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Where do you put the air conditioner? I put the air conditioner on the wall. Yes or no?",
+            "id": "ESB1_F15a323"
+          }
+        ]
+      },
+      {
+        "type": "C5",
+        "hint": "https://i.postimg.cc/sfqn1yK1/A15.png",
+        "fsp": "Do you use an air conditioner at home? Yes, I use an air conditioner at home. Yes or no?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["No"],
+            "aw": ["What is the correct question?"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "What is the correct question?", "id": "ESB1_F11a56" }
+            ]
+          },
+          {
+            "qs": ["Yes"],
+            "aw": ["Incorrect."],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "Incorrect.", "id": "ESB1_F11a22" }]
+          },
+          {
+            "qs": ["Do you use an air conditioner at home?"],
+            "aw": ["Good"],
+            "action": ["FN02"],
+            "submit": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "ESB1_F11a1" }]
+          }
+        ],
+        "submit": ["FN01", "FN02"],
+        "fspSets": [
+          {
+            "st": "Do you use an air conditioner at home? Yes, I use an air conditioner at home. Yes or no?",
+            "id": "ESB1_F15a332"
+          }
+        ]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  }
+]

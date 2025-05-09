@@ -1,0 +1,37 @@
+[
+  {
+    "root": "learninghub",
+    "preName": "Hình ảnh x 5",
+    "name": "Phòng ngủ (1)",
+    "link": "c1_bedroom_01",
+    "id": "socapII"
+  },
+  {
+    "root": "learninghub",
+    "preName": "Hình ảnh x 5",
+    "name": "Phòng ngủ (2)",
+    "link": "c1_bedroom_02",
+    "id": "socapII"
+  },
+  {
+    "root": "learninghub",
+    "preName": "Hình ảnh x 5",
+    "name": "Phòng ngủ (3)",
+    "link": "c1_bedroom_03",
+    "id": "socapII"
+  },
+  {
+    "root": "learninghub",
+    "preName": "Hình ảnh x 5",
+    "name": "Phòng bếp (1)",
+    "link": "c1_kitchen_01",
+    "id": "socapII"
+  },
+  {
+    "root": "learninghub",
+    "preName": "Hình ảnh x 5",
+    "name": "Phòng bếp (2)",
+    "link": "c1_kitchen_02",
+    "id": "socapII"
+  }
+]
