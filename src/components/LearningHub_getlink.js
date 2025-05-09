@@ -407,7 +407,7 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
       </div>
       {/* Phần chọn thời gian */}
       <div className="mb-6 p-4 bg-gray-50 rounded-lg">
-        <h2 className="text-lg font-semibold mb-2">Thời gian (t=) (giây)</h2>
+        <h2 className="text-lg font-semibold mb-2">Thời gian (t=)</h2>
         <div className="flex flex-wrap gap-2">
           <button
             onClick={handleDefaultTime}
@@ -522,7 +522,16 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
       </div>
       {/* Phần hiển thị kết quả */}
       <div className="mt-4 p-4 bg-gray-100 rounded">
-        <h3 className="text-lg font-semibold mb-2">Link đã tạo:</h3>
+        <h3 className="text-lg font-semibold mb-2">
+          Link đã tạo:{" "}
+          {Note ? (
+            <span className="text-green-600 font-medium">(Đã có ghi chú)</span>
+          ) : (
+            <span className="text-red-500 font-medium" style={{ color: "red" }}>
+              (Chưa có ghi chú)
+            </span>
+          )}
+        </h3>
         <div className="flex items-center">
           <div className="flex-grow p-2 bg-white border rounded overflow-x-auto">
             {generatedLink || "roomoffline/" + id + "/" + numIndex}

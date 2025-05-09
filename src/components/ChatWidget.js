@@ -229,8 +229,13 @@ const ChatWidget = () => {
                       )
                     : msg.text}
                 </div>
+
                 <div style={{ fontSize: "0.8em", color: "gray" }}>
-                  {msg.time}
+                  {msg.time}{" "}
+                  {msg.text.includes("roomoffline")
+                    ? "_Làm bài thực hành trên_" +
+                      new Date().toLocaleTimeString()
+                    : null}
                 </div>
               </li>
             ))}
