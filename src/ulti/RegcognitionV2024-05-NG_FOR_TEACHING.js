@@ -52,6 +52,9 @@ const Dictaphone = ({ CMDlist }) => {
         >
           Xóa nội dung (1)
         </button>{" "}
+
+
+        
         <button
           id="stopListenBTN"
           className="btn btn-danger m-1"

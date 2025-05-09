@@ -351,10 +351,10 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                             socket.emit("message", {
                               text: fullURL,
                               time:
-                                nameDinhDanh ||
-                                (idDinhDanh ? idDinhDanh.slice(0, 4) : "") +
-                                  "_Luyện tập câu:" +
-                                  stParam,
+                                (nameDinhDanh ||
+                                  (idDinhDanh ? idDinhDanh.slice(0, 4) : "")) +
+                                "_Luyện tập câu:" +
+                                stParam,
                             });
                           } catch (error) {
                             console.error("Lỗi khi gửi link thực hành:", error);

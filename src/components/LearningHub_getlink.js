@@ -512,13 +512,19 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
           </button>
         </div>
       </div>
-      <input
-        type="text"
-        placeholder="Nhập ghi chú bài tập"
-        value={Note}
-        className="form-control"
-        onChange={handleChange}
-      />
+
+      <div className="mb-6 p-4 bg-gray-50 rounded-lg">
+        <h2 className="text-lg font-semibold mb-2">GHI CHÚ BÀI TẬP</h2>
+
+        <input
+          type="text"
+          placeholder="Nhập ghi chú bài tập"
+          value={Note}
+          className="form-control"
+          onChange={handleChange}
+        />
+      </div>
+
       {/* Phần hiển thị kết quả */}
       <div className="mt-4 p-4 bg-gray-100 rounded">
         <h3 className="text-lg font-semibold mb-2">Link đã tạo:</h3>
