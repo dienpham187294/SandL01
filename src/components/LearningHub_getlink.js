@@ -1,10 +1,8 @@
 import { useState, useEffect } from "react";
-
 export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
   // Chuyển đổi các prop thành số nếu cần
   const numIndex = parseInt(index) || 0;
   const numLessonSetLength = parseInt(lessonSetLength) || 10;
-
   // Khởi tạo trạng thái - mặc định không chọn types và lessons nào
   const [selectedTypes, setSelectedTypes] = useState([]);
   const [selectedLessons, setSelectedLessons] = useState([]);
@@ -13,11 +11,12 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
   const [r1Value, setR1Value] = useState(null); // r01 parameter (Tỷ lệ cho đúng 1)
   const [isRandomEnabled, setIsRandomEnabled] = useState(false); // Trạng thái cho param random
   const [Note, setNote] = useState(""); // Trạng thái cho param random
+  const [timeValue, setTimeValue] = useState(null); // t parameter (Thời gian)
   const [generatedLink, setGeneratedLink] = useState("");
-
   // Giá trị khả dụng cho r và r01
   const rValues = [0.45, 0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85];
-
+  // Giá trị khả dụng cho time (từ 30 đến 600, bội số của 10)
+  const timeValues = Array.from({ length: 58 }, (_, i) => (i + 3) * 10);
   // Nhóm typeSet thành các nhóm A, B, C để hiển thị
   const groupedTypes = {};
   if (Array.isArray(typeSet)) {
@@ -31,13 +30,11 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
       }
     });
   }
-
   // Tạo danh sách bài học từ 0 đến numLessonSetLength-1
   const availableLessons = Array.from(
     { length: numLessonSetLength },
     (_, i) => i
   );
-
   // Cập nhật link khi có thay đổi
   useEffect(() => {
     const link = generateFullLink(
@@ -49,7 +46,8 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
       r2Value,
       r1Value,
       isRandomEnabled,
-      Note
+      Note,
+      timeValue
     );
     setGeneratedLink(link);
   }, [
@@ -62,8 +60,8 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
     id,
     numIndex,
     Note,
+    timeValue,
   ]);
-
   // Xử lý khi chọn/bỏ chọn một type
   const handleTypeToggle = (type) => {
     if (selectedTypes.includes(type)) {
@@ -72,7 +70,6 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
       setSelectedTypes([...selectedTypes, type]);
     }
   };
-
   // Xử lý khi chọn/bỏ chọn một bài học
   const handleLessonToggle = (lesson) => {
     if (selectedLessons.includes(lesson)) {
@@ -81,14 +78,11 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
       setSelectedLessons([...selectedLessons, lesson].sort((a, b) => a - b));
     }
   };
-
   // Xử lý khi chọn/bỏ chọn tất cả các type có cùng prefix
   const handleGroupToggle = (prefix) => {
     if (!Array.isArray(typeSet)) return;
-
     const groupTypes = typeSet.filter((t) => t && t.startsWith(prefix));
     const allSelected = groupTypes.every((t) => selectedTypes.includes(t));
-
     if (allSelected) {
       // Bỏ chọn tất cả các type trong nhóm
       setSelectedTypes(selectedTypes.filter((t) => !t.startsWith(prefix)));
@@ -103,7 +97,6 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
       setSelectedTypes(newSelected);
     }
   };
-
   // Xử lý khi chọn tất cả hoặc bỏ chọn tất cả các bài học
   const handleAllLessonToggle = () => {
     if (selectedLessons.length === availableLessons.length) {
@@ -112,27 +105,30 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
       setSelectedLessons([...availableLessons]);
     }
   };
-
   // Xử lý thay đổi giá trị r2 (Tỷ lệ cho đúng 2)
   const handleR2Change = (value) => {
     setR2Value(value === r2Value ? null : value);
   };
-
   // Xử lý thay đổi giá trị r1 (Tỷ lệ cho đúng 1)
   const handleR1Change = (value) => {
     setR1Value(value === r1Value ? null : value);
   };
-
+  // Xử lý thay đổi giá trị thời gian
+  const handleTimeChange = (value) => {
+    setTimeValue(value === timeValue ? null : value);
+  };
   // Xử lý khi bấm nút mặc định (không có param)
   const handleDefaultR2 = () => {
     setR2Value(null);
   };
-
   // Xử lý khi bấm nút mặc định (không có param)
   const handleDefaultR1 = () => {
     setR1Value(null);
   };
-
+  // Xử lý khi bấm nút mặc định cho thời gian
+  const handleDefaultTime = () => {
+    setTimeValue(null);
+  };
   // Xử lý khi bật/tắt chế độ trộn lẫn (random)
   const handleRandomToggle = () => {
     setIsRandomEnabled(!isRandomEnabled);
@@ -163,26 +159,23 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
     r2Value,
     r1Value,
     isRandomEnabled,
-    Note
+    Note,
+    timeValue
   ) {
     if (!id || isNaN(index)) return "";
-
     // Tạo base link
     let link = `roomoffline/${id}/${index}`;
-
     // Thêm các tham số nếu cần
     const params = [];
-
     // Tham số a (bài học)
     if (selectedLessons.length > 0) {
       params.push(`a=${optimizeLessonList(selectedLessons)}`);
     }
-
     // Tham số b (type)
     if (selectedTypes.length > 0) {
       params.push(`b=${optimizeTypeList(selectedTypes)}`);
     }
-    // Tham số random (Trộn lẫn)
+    // Tham số note
     if (Note !== "") {
       params.push("note=" + Note.trim().toLowerCase().split(" ").join("-"));
     }
@@ -192,22 +185,22 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
     } else if (tableType === "empty") {
       params.push("tb=null");
     }
-
     // Tham số r (Tỷ lệ cho đúng 2)
     if (r2Value !== null) {
       params.push(`r=${r2Value}`);
     }
-
     // Tham số r01 (Tỷ lệ cho đúng 1)
     if (r1Value !== null) {
       params.push(`r01=${r1Value}`);
     }
-
+    // Tham số t (Thời gian)
+    if (timeValue !== null) {
+      params.push(`t=${timeValue}`);
+    }
     // Tham số random (Trộn lẫn)
     if (isRandomEnabled) {
       params.push("random=true");
     }
-
     // Thêm các tham số vào link
     if (params.length > 0) {
       link += "?" + params.join("&&");
@@ -215,16 +208,13 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
     const linkLocation = window.location.origin;
     return linkLocation + "/" + link;
   }
-
   // Hàm tối ưu hóa danh sách bài học đã chọn
   function optimizeLessonList(selectedLessons) {
     if (!selectedLessons || selectedLessons.length === 0) {
       return "";
     }
-
     // Sắp xếp các số theo thứ tự tăng dần
     const sortedLessons = [...selectedLessons].sort((a, b) => a - b);
-
     // Nếu đã chọn tất cả các bài học, trả về "all"
     if (
       sortedLessons.length === numLessonSetLength &&
@@ -232,12 +222,10 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
     ) {
       return "all";
     }
-
     // Tìm và tạo các dải số liên tục
     const ranges = [];
     let rangeStart = sortedLessons[0];
     let prev = rangeStart;
-
     for (let i = 1; i <= sortedLessons.length; i++) {
       const current = sortedLessons[i];
       // Nếu không còn liên tục hoặc đã đến cuối mảng
@@ -250,7 +238,6 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
         } else {
           ranges.push(`${rangeStart}-${prev}`);
         }
-
         // Bắt đầu dải mới nếu chưa đến cuối
         if (i < sortedLessons.length) {
           rangeStart = current;
@@ -258,16 +245,13 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
       }
       prev = current;
     }
-
     return ranges.join("zz");
   }
-
   // Hàm tối ưu hóa danh sách type đã chọn
   function optimizeTypeList(selectedTypes) {
     if (!selectedTypes || selectedTypes.length === 0) {
       return "";
     }
-
     // Nhóm các type theo chữ cái đầu tiên
     const groupedTypes = {};
     selectedTypes.forEach((type) => {
@@ -278,13 +262,10 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
       const num = parseInt(type.substring(1));
       groupedTypes[prefix].push(num);
     });
-
     // Tối ưu hóa từng nhóm
     const optimizedParts = [];
-
     for (const prefix in groupedTypes) {
       const numbers = groupedTypes[prefix].sort((a, b) => a - b);
-
       // Kiểm tra xem có lấy tất cả các giá trị từ 1-25 không
       if (
         numbers.length === 25 &&
@@ -293,18 +274,15 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
         optimizedParts.push(`${prefix}*`);
         continue;
       }
-
       // Tìm và tạo các dải số liên tục
       let i = 0;
       while (i < numbers.length) {
         let start = numbers[i];
         let end = start;
-
         // Tìm dải số liên tục
         while (i + 1 < numbers.length && numbers[i + 1] === end + 1) {
           end = numbers[++i];
         }
-
         // Thêm vào kết quả theo định dạng phù hợp
         if (start === end) {
           optimizedParts.push(`${prefix}${start}`);
@@ -313,14 +291,11 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
         } else {
           optimizedParts.push(`${prefix}${start}`, `${prefix}${end}`);
         }
-
         i++;
       }
     }
-
     return optimizedParts.join("zz");
   }
-
   // Hàm sao chép link vào clipboard
   const copyToClipboard = () => {
     navigator.clipboard
@@ -337,18 +312,19 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
   return (
     <div className="p-4 max-w-4xl mx-auto border border-gray-300 rounded-lg">
       <h1 className="text-2xl font-bold mb-4">Custom link bài thực hành!</h1>
-
       {/* Phần chọn bài học */}
       <div className="mb-6 p-4 bg-gray-50 rounded-lg">
         <div className="flex items-center mb-2">
           <h2 className="text-lg font-semibold">Chọn bài học (a=)</h2>
-          <button onClick={handleAllLessonToggle} className="btn btn-primary">
+          <button
+            onClick={handleAllLessonToggle}
+            className="btn btn-primary ml-2"
+          >
             {selectedLessons.length === availableLessons.length
               ? "Bỏ chọn tất cả"
               : "Chọn tất cả"}
           </button>
         </div>
-
         <div className="grid grid-cols-5 gap-2 sm:grid-cols-10">
           {availableLessons.map((lesson) => (
             <button
@@ -365,26 +341,23 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
           ))}
         </div>
       </div>
-
       {/* Phần chọn type */}
       {Object.keys(groupedTypes).length > 0 && (
         <div className="row mb-6">
           <h2 className="text-xl font-bold mb-4">Bảng chọn Type (b=)</h2>
-
           {Object.keys(groupedTypes).map((prefix) => (
             <div key={prefix} className="col-4 mb-4 p-4 bg-gray-50 rounded-lg">
               <div className="flex items-center mb-2">
                 <h3 className="text-lg font-semibold">Nhóm {prefix}</h3>
                 <button
                   onClick={() => handleGroupToggle(prefix)}
-                  className="btn btn-primary"
+                  className="btn btn-primary ml-2"
                 >
                   {groupedTypes[prefix].every((t) => selectedTypes.includes(t))
                     ? "Bỏ chọn tất cả"
                     : "Chọn tất cả"}
                 </button>
               </div>
-
               <div className="grid grid-cols-5 gap-2 sm:grid-cols-8">
                 {groupedTypes[prefix].map((type) => (
                   <button
@@ -402,7 +375,6 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
           ))}
         </div>
       )}
-
       {/* Phần chọn loại bảng */}
       <div className="mb-6 p-4 bg-gray-50 rounded-lg">
         <h2 className="text-lg font-semibold mb-2">Chọn loại bảng (tb=)</h2>
@@ -433,7 +405,36 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
           </button>
         </div>
       </div>
-
+      {/* Phần chọn thời gian */}
+      <div className="mb-6 p-4 bg-gray-50 rounded-lg">
+        <h2 className="text-lg font-semibold mb-2">Thời gian (t=) (giây)</h2>
+        <div className="flex flex-wrap gap-2">
+          <button
+            onClick={handleDefaultTime}
+            className={`px-4 py-2 rounded border ${
+              timeValue === null ? "btn btn-primary" : "btn"
+            }`}
+          >
+            Mặc định
+          </button>
+          {timeValues.map((value) => (
+            <button
+              key={`time-${value}`}
+              onClick={() => handleTimeChange(value)}
+              className={`px-4 py-2 rounded border ${
+                timeValue === value ? "btn btn-primary" : "btn"
+              }`}
+            >
+              {value}
+            </button>
+          ))}
+        </div>
+        <div className="mt-2">
+          <p className="text-red-600 font-bold bg-yellow-100 p-2 border-l-4 border-red-600">
+            LƯU Ý: Thời gian được tính bằng giây.
+          </p>
+        </div>
+      </div>
       {/* Phần chọn tỷ lệ cho đúng (2) */}
       <div className="mb-6 p-4 bg-gray-50 rounded-lg">
         <h2 className="text-lg font-semibold mb-2">Tỷ lệ cho đúng (2) (r=)</h2>
@@ -459,7 +460,6 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
           ))}
         </div>
       </div>
-
       {/* Phần chọn tỷ lệ cho đúng (1) */}
       <div className="mb-6 p-4 bg-gray-50 rounded-lg">
         <h2 className="text-lg font-semibold mb-2">
@@ -487,11 +487,9 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
           ))}
         </div>
       </div>
-
       {/* Phần chọn trộn lẫn */}
       <div className="mb-6 p-4 bg-gray-50 rounded-lg">
         <h2 className="text-lg font-semibold mb-2">Trộn lẫn (random=)</h2>
-
         <div className="flex space-x-4">
           {" "}
           <button
@@ -512,10 +510,8 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
           </button>
         </div>
       </div>
-
       <div className="mb-6 p-4 bg-gray-50 rounded-lg">
         <h2 className="text-lg font-semibold mb-2">GHI CHÚ BÀI TẬP</h2>
-
         <input
           type="text"
           placeholder="Nhập ghi chú bài tập"
@@ -524,7 +520,6 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
           onChange={handleChange}
         />
       </div>
-
       {/* Phần hiển thị kết quả */}
       <div className="mt-4 p-4 bg-gray-100 rounded">
         <h3 className="text-lg font-semibold mb-2">Link đã tạo:</h3>
@@ -556,6 +551,11 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
               ? "Tiếng Việt"
               : "Bảng trống"}
           </p>
+          {timeValue !== null && (
+            <p className="mb-1">
+              <strong>Thời gian:</strong> {timeValue} giây
+            </p>
+          )}
           {r2Value !== null && (
             <p className="mb-1">
               <strong>Tỷ lệ cho đúng (2):</strong> {r2Value}

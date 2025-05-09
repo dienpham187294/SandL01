@@ -315,8 +315,8 @@ const Room = ({ setSttRoom }) => {
         </div>
         {formatTime(new Date())} <br /> Mã bài tập:
         <br />
-        <b>{params.get("note")}</b>
-        <i style={{ fontSize: "small" }}>{params.get("a")}</i>
+        <b>{params.get("note")}</b> <i>{currentIndex}</i>
+        <b style={{ fontSize: "small" }}>{params.get("a")}</b>
         <i style={{ fontSize: "small" }}>{splitIntoChunks(params.get("b"))}</i>
         <hr />
         {SttCoundown === "01" || numberBegin === 0 ? (

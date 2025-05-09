@@ -52,9 +52,6 @@ const Dictaphone = ({ CMDlist }) => {
         >
           Xóa nội dung (1)
         </button>{" "}
-
-
-        
         <button
           id="stopListenBTN"
           className="btn btn-danger m-1"
@@ -116,7 +113,30 @@ const Dictaphone = ({ CMDlist }) => {
             <hr />
             <i> Chỉ cần (1) hoặc (2) đúng là đã đủ chuẩn thực hành.</i>
           </div>
-        ) : null}
+        ) : (
+          <div
+            style={{
+              borderRadius: "10px",
+              opacity: 0.5,
+              backgroundColor: "gray",
+              pointerEvents: "none",
+              cursor: "not-allowed",
+            }}
+          >
+            {" "}
+            <h1 style={{}}>(1){transcript}</h1>{" "}
+            <h5 style={{ color: "blue" }}>
+              {" "}
+              (2)
+              <i>{interimTranscript}</i> <i id="interimRes"></i>
+            </h5>{" "}
+            <button className="btn btn-danger" disabled>
+              XONG GỬI KẾT QUẢ
+            </button>
+            <hr />
+            <i> Chỉ cần (1) hoặc (2) đúng là đã đủ chuẩn thực hành.</i>
+          </div>
+        )}
         <br />
         ***
         <br />
