@@ -1,6 +1,23 @@
-// import { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 function TableHD({ data, data_TB, HINT, fnOnclick }) {
+  // Add global style to prevent text selection in this component
+  useEffect(() => {
+    const style = document.createElement("style");
+    style.innerHTML = `
+      .no-copy-table * {
+        -webkit-user-select: none !important;
+        -moz-user-select: none !important;
+        -ms-user-select: none !important;
+        user-select: none !important;
+      }
+    `;
+    document.head.appendChild(style);
+
+    return () => {
+      document.head.removeChild(style);
+    };
+  }, []);
   try {
     const colorMapping = {
       X: "green",
@@ -12,18 +29,15 @@ function TableHD({ data, data_TB, HINT, fnOnclick }) {
 
     // Extract headers from the keys of the first object
     const headers = data.length > 0 ? Object.keys(data[0]) : [];
-    console.log(JSON.stringify(data_TB));
 
-    let data_TB_newformat = [];
-    data_TB.forEach((e) => {
-      e.forEach((e1) => {
-        data_TB_newformat.push(e1 + "");
-      });
-    });
+    // Format data_TB into a flat array of strings
+    const data_TB_newformat = data_TB.flatMap((row) =>
+      row.map((item) => String(item))
+    );
 
     return (
       <table
-        className="table table-striped"
+        className="table table-striped no-copy-table"
         style={{
           textAlign: "left",
           whiteSpace: "pre-line",
@@ -32,95 +46,102 @@ function TableHD({ data, data_TB, HINT, fnOnclick }) {
           cursor: "pointer",
           border: "1px solid black",
           borderRadius: "5px",
+          WebkitUserSelect: "none",
+          MozUserSelect: "none",
+          msUserSelect: "none",
+          userSelect: "none",
         }}
+        onCopy={(e) => e.preventDefault()}
       >
         <tbody>
           {data.map((row, rowIndex) => (
             <tr key={rowIndex}>
-              {headers.map((header, colIndex) => (
-                <td
-                  style={
-                    row[header] && (row[header] + "").includes("(*)")
-                      ? {
-                          fontSize: "larger",
-                          fontWeight: "bold",
-                          color: "blue",
-                        }
-                      : {
-                          fontWeight: (row[header] + "").includes("?")
-                            ? "bold"
-                            : "initial",
-                          fontSize: "large",
-                        }
-                  }
-                  key={colIndex}
-                  onClick={() => {
-                    if (data_TB_newformat.includes(row[header] + "")) {
-                      fnOnclick(row[header] + "", "submit");
-                    } else {
-                      fnOnclick(row[header], "none");
-                    }
-                  }}
-                >
-                  {colorMapping[row[header]] ? (
-                    <span
-                      style={{
-                        padding: "0 25px",
-                        backgroundColor: colorMapping[row[header]],
-                        borderRadius: "5px",
-                      }}
-                    ></span>
-                  ) : isImageUrl(row[header]) ? (
-                    <img
-                      src={row[header]}
-                      alt={`element-${rowIndex}`}
-                      style={imageStyle}
-                    />
-                  ) : (
-                    <div
-                      style={
-                        data_TB_newformat.includes(row[header] + "")
-                          ? {
-                              borderBottom: "4px solid blue", // Viền dưới màu xanh dương
-                              borderLeft: "1px solid blue", // Viền trái màu xanh dương
-                              // height: "80px", // Chiều cao của hình khối
-                              padding: "15px", // Khoảng cách nội dung và viền
-                              borderRadius: "8px", // Bo góc nhẹ để hình khối trông mềm mại hơn
-                              backgroundColor: "#f0f8ff", // Màu nền nhẹ để tạo sự nổi bật
-                              boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)", // Tạo bóng đổ nhẹ cho hình khối
-                            }
-                          : {}
+              {headers.map((header, colIndex) => {
+                const cellValue = String(row[header] || "");
+                const isHighlighted = data_TB_newformat.includes(cellValue);
+                const hasAsterisk = cellValue.includes("(*)");
+                const hasQuestion = cellValue.includes("?");
+
+                return (
+                  <td
+                    style={{
+                      fontWeight: hasQuestion ? "bold" : "initial",
+                      fontSize: hasAsterisk ? "larger" : "large",
+                      color: hasAsterisk ? "blue" : "inherit",
+                      WebkitUserSelect: "none",
+                      MozUserSelect: "none",
+                      msUserSelect: "none",
+                      userSelect: "none",
+                    }}
+                    key={colIndex}
+                    onClick={() => {
+                      if (isHighlighted) {
+                        fnOnclick(cellValue, "submit");
+                      } else {
+                        fnOnclick(row[header], "none");
                       }
-                    >
-                      {data_TB_newformat.includes(row[header] + "") ? (
-                        <i
-                          style={{ color: "green" }}
-                          className="bi bi-hand-index-thumb"
-                        >
-                          {" "}
-                        </i>
-                      ) : (
-                        ""
-                      )}{" "}
-                      {row[header]}{" "}
-                    </div>
-                  )}
-                </td>
-              ))}
+                    }}
+                  >
+                    {colorMapping[row[header]] ? (
+                      <span
+                        style={{
+                          padding: "0 25px",
+                          backgroundColor: colorMapping[row[header]],
+                          borderRadius: "5px",
+                        }}
+                      ></span>
+                    ) : isImageUrl(row[header]) ? (
+                      <img
+                        src={row[header]}
+                        alt={`element-${rowIndex}`}
+                        style={imageStyle}
+                      />
+                    ) : (
+                      <div
+                        style={
+                          isHighlighted
+                            ? {
+                                borderBottom: "4px solid blue",
+                                borderLeft: "1px solid blue",
+                                padding: "15px",
+                                borderRadius: "8px",
+                                backgroundColor: "#f0f8ff",
+                                boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
+                              }
+                            : {}
+                        }
+                      >
+                        {isHighlighted && (
+                          <i
+                            style={{ color: "green" }}
+                            className="bi bi-hand-index-thumb"
+                          >
+                            {" "}
+                          </i>
+                        )}{" "}
+                        {row[header]}{" "}
+                      </div>
+                    )}
+                  </td>
+                );
+              })}
             </tr>
           ))}
         </tbody>
       </table>
     );
   } catch (error) {
+    console.error("Error rendering TableHD:", error);
     return null;
   }
 }
 
 export default TableHD;
 
+// Helper functions
 const isImageUrl = (url) => {
-  return /\.(jpeg|jpg|gif|png|webp|svg)$/.test(url);
+  if (typeof url !== "string") return false;
+  return /\.(jpeg|jpg|gif|png|webp|svg)$/i.test(url);
 };
 
 const imageStyle = {

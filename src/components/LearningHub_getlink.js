@@ -166,7 +166,16 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
     // Tạo base link
     let link = `roomoffline/${id}/${index}`;
     // Thêm các tham số nếu cần
-    const params = [];
+    const timeString = new Date().toLocaleString([], {
+      day: "2-digit",
+      month: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+      hour12: false,
+    });
+    const encodedTime = encodeURIComponent(timeString);
+    const params = ["time=" + encodedTime];
+
     // Tham số a (bài học)
     if (selectedLessons.length > 0) {
       params.push(`a=${optimizeLessonList(selectedLessons)}`);

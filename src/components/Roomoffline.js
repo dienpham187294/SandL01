@@ -313,8 +313,10 @@ const Room = ({ setSttRoom }) => {
           <h3>Điểm: {Score} </h3>
           <h3>Lượt {numberBegin}</h3>
         </div>
-        {formatTime(new Date())} <br /> Mã bài tập:
+        {formatTime(new Date())} <br />
+        Ngày giao: <b>{decodeURIComponent(params.get("time"))}</b>
         <br />
+        Mã bài tập:
         <b>{params.get("note")}</b> <i>{currentIndex}</i>
         <b style={{ fontSize: "small" }}>{params.get("a")}</b>
         <i style={{ fontSize: "small" }}>{splitIntoChunks(params.get("b"))}</i>
