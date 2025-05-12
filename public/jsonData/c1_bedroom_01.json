@@ -105,7 +105,7 @@
         },
         {
           "HD-01": "(B1-5)",
-          "HD-02": "What is the question for ..",
+          "HD-02": "What is the question for. ..",
           "HD-03": null,
           "HD-04": null,
           "HD-05": null
@@ -192,7 +192,7 @@
         },
         {
           "TV-01": "(B1-5)",
-          "TV-02": "What is the question for ..",
+          "TV-02": "What is the question for. ..",
           "TV-03": null,
           "TV-04": null,
           "TV-05": null
@@ -387,7 +387,7 @@
       {
         "type": "B5",
         "hint": "https://i.postimg.cc/wvbsMfkd/A1.png",
-        "fsp": "What is the question for Yes, I like this bed.",
+        "fsp": "What is the question for. Yes, I like this bed.",
         "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
         "name": "Joshua",
         "gender": "male",
@@ -403,7 +403,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for Yes, I like this bed.",
+            "st": "What is the question for. Yes, I like this bed.",
             "id": "ESB1_F1a18"
           }
         ]
@@ -411,7 +411,7 @@
       {
         "type": "B3",
         "hint": "https://i.postimg.cc/wvbsMfkd/A1.png",
-        "fsp": "What is the question for The bed is big.",
+        "fsp": "What is the question for. The bed is big.",
         "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
         "name": "Christopher",
         "gender": "male",
@@ -427,7 +427,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for The bed is big.",
+            "st": "What is the question for. The bed is big.",
             "id": "ESB1_F1a14"
           }
         ]
@@ -493,7 +493,7 @@
       {
         "type": "B2",
         "hint": "https://i.postimg.cc/wvbsMfkd/A1.png",
-        "fsp": "What is the question for I sleep on the bed.",
+        "fsp": "What is the question for. I sleep on the bed.",
         "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
         "name": "Ashley",
         "gender": "female",
@@ -509,7 +509,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for I sleep on the bed.",
+            "st": "What is the question for. I sleep on the bed.",
             "id": "ESB1_F1a12"
           }
         ]
@@ -517,7 +517,7 @@
       {
         "type": "B4",
         "hint": "https://i.postimg.cc/wvbsMfkd/A1.png",
-        "fsp": "What is the question for The bed is brown.",
+        "fsp": "What is the question for. The bed is brown.",
         "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
         "name": "Jennifer",
         "gender": "female",
@@ -533,7 +533,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for The bed is brown.",
+            "st": "What is the question for. The bed is brown.",
             "id": "ESB1_F1a16"
           }
         ]
@@ -541,7 +541,7 @@
       {
         "type": "B1",
         "hint": "https://i.postimg.cc/wvbsMfkd/A1.png",
-        "fsp": "What is the question for This is a bed.",
+        "fsp": "What is the question for. This is a bed.",
         "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
         "name": "Andrew",
         "gender": "male",
@@ -557,7 +557,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for This is a bed.",
+            "st": "What is the question for. This is a bed.",
             "id": "ESB1_F1a10"
           }
         ]
@@ -1141,7 +1141,7 @@
         },
         {
           "HD-01": "(B1-5)",
-          "HD-02": "What is the question for ..",
+          "HD-02": "What is the question for. ..",
           "HD-03": null,
           "HD-04": null,
           "HD-05": null
@@ -1228,7 +1228,7 @@
         },
         {
           "TV-01": "(B1-5)",
-          "TV-02": "What is the question for ..",
+          "TV-02": "What is the question for. ..",
           "TV-03": null,
           "TV-04": null,
           "TV-05": null
@@ -1315,7 +1315,7 @@
       {
         "type": "B5",
         "hint": "https://i.postimg.cc/g0shFkXj/A2.png",
-        "fsp": "What is the question for Yes, I sleep on a mattress.",
+        "fsp": "What is the question for. Yes, I sleep on a mattress.",
         "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
         "name": "Joshua",
         "gender": "male",
@@ -1331,7 +1331,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for Yes, I sleep on a mattress.",
+            "st": "What is the question for. Yes, I sleep on a mattress.",
             "id": "ESB1_F2a93"
           }
         ]
@@ -1507,7 +1507,7 @@
       {
         "type": "B2",
         "hint": "https://i.postimg.cc/g0shFkXj/A2.png",
-        "fsp": "What is the question for I put the mattress on the bed.",
+        "fsp": "What is the question for. I put the mattress on the bed.",
         "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
         "name": "Ashley",
         "gender": "female",
@@ -1523,7 +1523,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for I put the mattress on the bed.",
+            "st": "What is the question for. I put the mattress on the bed.",
             "id": "ESB1_F2a87"
           }
         ]
@@ -1531,7 +1531,7 @@
       {
         "type": "B4",
         "hint": "https://i.postimg.cc/g0shFkXj/A2.png",
-        "fsp": "What is the question for The mattress is white.",
+        "fsp": "What is the question for. The mattress is white.",
         "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
         "name": "Jennifer",
         "gender": "female",
@@ -1547,7 +1547,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for The mattress is white.",
+            "st": "What is the question for. The mattress is white.",
             "id": "ESB1_F2a91"
           }
         ]
@@ -1633,7 +1633,7 @@
       {
         "type": "B1",
         "hint": "https://i.postimg.cc/g0shFkXj/A2.png",
-        "fsp": "What is the question for This is a mattress.",
+        "fsp": "What is the question for. This is a mattress.",
         "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
         "name": "Andrew",
         "gender": "male",
@@ -1649,7 +1649,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for This is a mattress.",
+            "st": "What is the question for. This is a mattress.",
             "id": "ESB1_F2a85"
           }
         ]
@@ -1657,7 +1657,7 @@
       {
         "type": "B3",
         "hint": "https://i.postimg.cc/g0shFkXj/A2.png",
-        "fsp": "What is the question for The mattress is soft.",
+        "fsp": "What is the question for. The mattress is soft.",
         "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
         "name": "Christopher",
         "gender": "male",
@@ -1673,7 +1673,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for The mattress is soft.",
+            "st": "What is the question for. The mattress is soft.",
             "id": "ESB1_F2a89"
           }
         ]
@@ -2181,7 +2181,7 @@
         },
         {
           "HD-01": "(B1-5)",
-          "HD-02": "What is the question for ..",
+          "HD-02": "What is the question for. ..",
           "HD-03": null,
           "HD-04": null,
           "HD-05": null
@@ -2268,7 +2268,7 @@
         },
         {
           "TV-01": "(B1-5)",
-          "TV-02": "What is the question for ..",
+          "TV-02": "What is the question for. ..",
           "TV-03": null,
           "TV-04": null,
           "TV-05": null
@@ -2355,7 +2355,7 @@
       {
         "type": "B2",
         "hint": "https://i.postimg.cc/yxg3Zmf3/A3.png",
-        "fsp": "What is the question for I put the pillow on the bed.",
+        "fsp": "What is the question for. I put the pillow on the bed.",
         "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
         "name": "Ashley",
         "gender": "female",
@@ -2371,7 +2371,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for I put the pillow on the bed.",
+            "st": "What is the question for. I put the pillow on the bed.",
             "id": "ESB1_F3a162"
           }
         ]
@@ -2379,7 +2379,7 @@
       {
         "type": "B4",
         "hint": "https://i.postimg.cc/yxg3Zmf3/A3.png",
-        "fsp": "What is the question for The pillow is white.",
+        "fsp": "What is the question for. The pillow is white.",
         "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
         "name": "Jennifer",
         "gender": "female",
@@ -2395,7 +2395,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for The pillow is white.",
+            "st": "What is the question for. The pillow is white.",
             "id": "ESB1_F3a166"
           }
         ]
@@ -2542,7 +2542,7 @@
       {
         "type": "B5",
         "hint": "https://i.postimg.cc/yxg3Zmf3/A3.png",
-        "fsp": "What is the question for Yes, I sleep with a pillow.",
+        "fsp": "What is the question for. Yes, I sleep with a pillow.",
         "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
         "name": "Joshua",
         "gender": "male",
@@ -2558,7 +2558,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for Yes, I sleep with a pillow.",
+            "st": "What is the question for. Yes, I sleep with a pillow.",
             "id": "ESB1_F3a168"
           }
         ]
@@ -2566,7 +2566,7 @@
       {
         "type": "B3",
         "hint": "https://i.postimg.cc/yxg3Zmf3/A3.png",
-        "fsp": "What is the question for The pillow is soft.",
+        "fsp": "What is the question for. The pillow is soft.",
         "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
         "name": "Christopher",
         "gender": "male",
@@ -2582,7 +2582,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for The pillow is soft.",
+            "st": "What is the question for. The pillow is soft.",
             "id": "ESB1_F3a164"
           }
         ]
@@ -2747,7 +2747,7 @@
       {
         "type": "B1",
         "hint": "https://i.postimg.cc/yxg3Zmf3/A3.png",
-        "fsp": "What is the question for This is a pillow.",
+        "fsp": "What is the question for. This is a pillow.",
         "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
         "name": "Andrew",
         "gender": "male",
@@ -2763,7 +2763,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for This is a pillow.",
+            "st": "What is the question for. This is a pillow.",
             "id": "ESB1_F3a160"
           }
         ]
@@ -3223,7 +3223,7 @@
         },
         {
           "HD-01": "(B1-5)",
-          "HD-02": "What is the question for ..",
+          "HD-02": "What is the question for. ..",
           "HD-03": null,
           "HD-04": null,
           "HD-05": null
@@ -3310,7 +3310,7 @@
         },
         {
           "TV-01": "(B1-5)",
-          "TV-02": "What is the question for ..",
+          "TV-02": "What is the question for. ..",
           "TV-03": null,
           "TV-04": null,
           "TV-05": null
@@ -3475,7 +3475,7 @@
       {
         "type": "B2",
         "hint": "https://i.postimg.cc/SQ3MpPs6/A5.png",
-        "fsp": "What is the question for I put the bedsheet on the mattress.",
+        "fsp": "What is the question for. I put the bedsheet on the mattress.",
         "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
         "name": "Ashley",
         "gender": "female",
@@ -3491,7 +3491,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for I put the bedsheet on the mattress.",
+            "st": "What is the question for. I put the bedsheet on the mattress.",
             "id": "ESB1_F4a237"
           }
         ]
@@ -3539,7 +3539,7 @@
       {
         "type": "B5",
         "hint": "https://i.postimg.cc/SQ3MpPs6/A5.png",
-        "fsp": "What is the question for Yes, I like this bedsheet.",
+        "fsp": "What is the question for. Yes, I like this bedsheet.",
         "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
         "name": "Joshua",
         "gender": "male",
@@ -3555,7 +3555,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for Yes, I like this bedsheet.",
+            "st": "What is the question for. Yes, I like this bedsheet.",
             "id": "ESB1_F4a243"
           }
         ]
@@ -3563,7 +3563,7 @@
       {
         "type": "B1",
         "hint": "https://i.postimg.cc/SQ3MpPs6/A5.png",
-        "fsp": "What is the question for This is a bedsheet.",
+        "fsp": "What is the question for. This is a bedsheet.",
         "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
         "name": "Andrew",
         "gender": "male",
@@ -3579,7 +3579,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for This is a bedsheet.",
+            "st": "What is the question for. This is a bedsheet.",
             "id": "ESB1_F4a235"
           }
         ]
@@ -3698,7 +3698,7 @@
       {
         "type": "B3",
         "hint": "https://i.postimg.cc/SQ3MpPs6/A5.png",
-        "fsp": "What is the question for The bedsheet is soft.",
+        "fsp": "What is the question for. The bedsheet is soft.",
         "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
         "name": "Christopher",
         "gender": "male",
@@ -3714,7 +3714,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for The bedsheet is soft.",
+            "st": "What is the question for. The bedsheet is soft.",
             "id": "ESB1_F4a239"
           }
         ]
@@ -3722,7 +3722,7 @@
       {
         "type": "B4",
         "hint": "https://i.postimg.cc/SQ3MpPs6/A5.png",
-        "fsp": "What is the question for The bedsheet is white.",
+        "fsp": "What is the question for. The bedsheet is white.",
         "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
         "name": "Jennifer",
         "gender": "female",
@@ -3738,7 +3738,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for The bedsheet is white.",
+            "st": "What is the question for. The bedsheet is white.",
             "id": "ESB1_F4a241"
           }
         ]
@@ -4265,7 +4265,7 @@
         },
         {
           "HD-01": "(B1-5)",
-          "HD-02": "What is the question for ..",
+          "HD-02": "What is the question for. ..",
           "HD-03": null,
           "HD-04": null,
           "HD-05": null
@@ -4352,7 +4352,7 @@
         },
         {
           "TV-01": "(B1-5)",
-          "TV-02": "What is the question for ..",
+          "TV-02": "What is the question for. ..",
           "TV-03": null,
           "TV-04": null,
           "TV-05": null
@@ -4439,7 +4439,7 @@
       {
         "type": "B5",
         "hint": "https://i.postimg.cc/2S7tJMYG/Ab1.png",
-        "fsp": "What is the question for Yes, I use a blanket when I sleep.",
+        "fsp": "What is the question for. Yes, I use a blanket when I sleep.",
         "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
         "name": "Joshua",
         "gender": "male",
@@ -4455,7 +4455,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for Yes, I use a blanket when I sleep.",
+            "st": "What is the question for. Yes, I use a blanket when I sleep.",
             "id": "ESB1_F5a318"
           }
         ]
@@ -4512,7 +4512,7 @@
       {
         "type": "B3",
         "hint": "https://i.postimg.cc/2S7tJMYG/Ab1.png",
-        "fsp": "What is the question for The blanket is thick.",
+        "fsp": "What is the question for. The blanket is thick.",
         "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
         "name": "Christopher",
         "gender": "male",
@@ -4528,7 +4528,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for The blanket is thick.",
+            "st": "What is the question for. The blanket is thick.",
             "id": "ESB1_F5a314"
           }
         ]
@@ -4596,7 +4596,7 @@
       {
         "type": "B4",
         "hint": "https://i.postimg.cc/2S7tJMYG/Ab1.png",
-        "fsp": "What is the question for The blanket is yellow.",
+        "fsp": "What is the question for. The blanket is yellow.",
         "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
         "name": "Jennifer",
         "gender": "female",
@@ -4612,7 +4612,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for The blanket is yellow.",
+            "st": "What is the question for. The blanket is yellow.",
             "id": "ESB1_F5a316"
           }
         ]
@@ -4641,7 +4641,7 @@
       {
         "type": "B2",
         "hint": "https://i.postimg.cc/2S7tJMYG/Ab1.png",
-        "fsp": "What is the question for I put the blanket on the bed.",
+        "fsp": "What is the question for. I put the blanket on the bed.",
         "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
         "name": "Ashley",
         "gender": "female",
@@ -4657,7 +4657,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for I put the blanket on the bed.",
+            "st": "What is the question for. I put the blanket on the bed.",
             "id": "ESB1_F5a312"
           }
         ]
@@ -4804,7 +4804,7 @@
       {
         "type": "B1",
         "hint": "https://i.postimg.cc/2S7tJMYG/Ab1.png",
-        "fsp": "What is the question for This is a blanket.",
+        "fsp": "What is the question for. This is a blanket.",
         "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
         "name": "Andrew",
         "gender": "male",
@@ -4820,7 +4820,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for This is a blanket.",
+            "st": "What is the question for. This is a blanket.",
             "id": "ESB1_F5a310"
           }
         ]

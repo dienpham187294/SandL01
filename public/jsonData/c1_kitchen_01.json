@@ -105,7 +105,7 @@
         },
         {
           "HD-01": "(B1-5)",
-          "HD-02": "What is the question for ..",
+          "HD-02": "What is the question for. ..",
           "HD-03": null,
           "HD-04": null,
           "HD-05": null
@@ -192,7 +192,7 @@
         },
         {
           "TV-01": "(B1-5)",
-          "TV-02": "What is the question for ..",
+          "TV-02": "What is the question for. ..",
           "TV-03": null,
           "TV-04": null,
           "TV-05": null
@@ -279,7 +279,7 @@
       {
         "type": "B2",
         "hint": "https://i.postimg.cc/YqFdWVyR/A16.png",
-        "fsp": "What is the question for I put the stove in the kitchen.",
+        "fsp": "What is the question for. I put the stove in the kitchen.",
         "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
         "name": "Ashley",
         "gender": "female",
@@ -295,7 +295,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for I put the stove in the kitchen.",
+            "st": "What is the question for. I put the stove in the kitchen.",
             "id": "ESB1_F16a12"
           }
         ]
@@ -324,7 +324,7 @@
       {
         "type": "B1",
         "hint": "https://i.postimg.cc/YqFdWVyR/A16.png",
-        "fsp": "What is the question for This is a stove.",
+        "fsp": "What is the question for. This is a stove.",
         "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
         "name": "Andrew",
         "gender": "male",
@@ -340,7 +340,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for This is a stove.",
+            "st": "What is the question for. This is a stove.",
             "id": "ESB1_F16a10"
           }
         ]
@@ -437,7 +437,7 @@
       {
         "type": "B3",
         "hint": "https://i.postimg.cc/YqFdWVyR/A16.png",
-        "fsp": "What is the question for I use the stove to cook food.",
+        "fsp": "What is the question for. I use the stove to cook food.",
         "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
         "name": "Christopher",
         "gender": "male",
@@ -453,7 +453,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for I use the stove to cook food.",
+            "st": "What is the question for. I use the stove to cook food.",
             "id": "ESB1_F16a14"
           }
         ]
@@ -480,7 +480,7 @@
       {
         "type": "B4",
         "hint": "https://i.postimg.cc/YqFdWVyR/A16.png",
-        "fsp": "What is the question for The stove is black.",
+        "fsp": "What is the question for. The stove is black.",
         "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
         "name": "Jennifer",
         "gender": "female",
@@ -496,7 +496,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for The stove is black.",
+            "st": "What is the question for. The stove is black.",
             "id": "ESB1_F16a16"
           }
         ]
@@ -534,7 +534,7 @@
       {
         "type": "B5",
         "hint": "https://i.postimg.cc/YqFdWVyR/A16.png",
-        "fsp": "What is the question for Yes, I have a stove at home.",
+        "fsp": "What is the question for. Yes, I have a stove at home.",
         "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
         "name": "Joshua",
         "gender": "male",
@@ -550,7 +550,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for Yes, I have a stove at home.",
+            "st": "What is the question for. Yes, I have a stove at home.",
             "id": "ESB1_F16a18"
           }
         ]
@@ -1145,7 +1145,7 @@
         },
         {
           "HD-01": "(B1-5)",
-          "HD-02": "What is the question for ..",
+          "HD-02": "What is the question for. ..",
           "HD-03": null,
           "HD-04": null,
           "HD-05": null
@@ -1232,7 +1232,7 @@
         },
         {
           "TV-01": "(B1-5)",
-          "TV-02": "What is the question for ..",
+          "TV-02": "What is the question for. ..",
           "TV-03": null,
           "TV-04": null,
           "TV-05": null
@@ -1407,7 +1407,7 @@
       {
         "type": "B4",
         "hint": "https://i.postimg.cc/kgdfFc0m/A17.png",
-        "fsp": "What is the question for The rice cooker is white.",
+        "fsp": "What is the question for. The rice cooker is white.",
         "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
         "name": "Jennifer",
         "gender": "female",
@@ -1423,7 +1423,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for The rice cooker is white.",
+            "st": "What is the question for. The rice cooker is white.",
             "id": "ESB1_F17a91"
           }
         ]
@@ -1473,7 +1473,7 @@
       {
         "type": "B5",
         "hint": "https://i.postimg.cc/kgdfFc0m/A17.png",
-        "fsp": "What is the question for Yes, I have a rice cooker at home.",
+        "fsp": "What is the question for. Yes, I have a rice cooker at home.",
         "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
         "name": "Joshua",
         "gender": "male",
@@ -1489,7 +1489,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for Yes, I have a rice cooker at home.",
+            "st": "What is the question for. Yes, I have a rice cooker at home.",
             "id": "ESB1_F17a93"
           }
         ]
@@ -1527,7 +1527,7 @@
       {
         "type": "B3",
         "hint": "https://i.postimg.cc/kgdfFc0m/A17.png",
-        "fsp": "What is the question for I use the rice cooker to cook rice.",
+        "fsp": "What is the question for. I use the rice cooker to cook rice.",
         "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
         "name": "Christopher",
         "gender": "male",
@@ -1543,7 +1543,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for I use the rice cooker to cook rice.",
+            "st": "What is the question for. I use the rice cooker to cook rice.",
             "id": "ESB1_F17a89"
           }
         ]
@@ -1551,7 +1551,7 @@
       {
         "type": "B2",
         "hint": "https://i.postimg.cc/kgdfFc0m/A17.png",
-        "fsp": "What is the question for I put the rice cooker in the kitchen.",
+        "fsp": "What is the question for. I put the rice cooker in the kitchen.",
         "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
         "name": "Ashley",
         "gender": "female",
@@ -1567,7 +1567,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for I put the rice cooker in the kitchen.",
+            "st": "What is the question for. I put the rice cooker in the kitchen.",
             "id": "ESB1_F17a87"
           }
         ]
@@ -1644,7 +1644,7 @@
       {
         "type": "B1",
         "hint": "https://i.postimg.cc/kgdfFc0m/A17.png",
-        "fsp": "What is the question for This is a rice cooker.",
+        "fsp": "What is the question for. This is a rice cooker.",
         "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
         "name": "Andrew",
         "gender": "male",
@@ -1660,7 +1660,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for This is a rice cooker.",
+            "st": "What is the question for. This is a rice cooker.",
             "id": "ESB1_F17a85"
           }
         ]
@@ -2189,7 +2189,7 @@
         },
         {
           "HD-01": "(B1-5)",
-          "HD-02": "What is the question for ..",
+          "HD-02": "What is the question for. ..",
           "HD-03": null,
           "HD-04": null,
           "HD-05": null
@@ -2276,7 +2276,7 @@
         },
         {
           "TV-01": "(B1-5)",
-          "TV-02": "What is the question for ..",
+          "TV-02": "What is the question for. ..",
           "TV-03": null,
           "TV-04": null,
           "TV-05": null
@@ -2363,7 +2363,7 @@
       {
         "type": "B1",
         "hint": "https://i.postimg.cc/cLMTD3W8/A18.png",
-        "fsp": "What is the question for This is a pot.",
+        "fsp": "What is the question for. This is a pot.",
         "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
         "name": "Andrew",
         "gender": "male",
@@ -2379,7 +2379,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for This is a pot.",
+            "st": "What is the question for. This is a pot.",
             "id": "ESB1_F18a160"
           }
         ]
@@ -2387,7 +2387,7 @@
       {
         "type": "B4",
         "hint": "https://i.postimg.cc/cLMTD3W8/A18.png",
-        "fsp": "What is the question for The pot is silver.",
+        "fsp": "What is the question for. The pot is silver.",
         "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
         "name": "Jennifer",
         "gender": "female",
@@ -2403,7 +2403,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for The pot is silver.",
+            "st": "What is the question for. The pot is silver.",
             "id": "ESB1_F18a166"
           }
         ]
@@ -2411,7 +2411,7 @@
       {
         "type": "B3",
         "hint": "https://i.postimg.cc/cLMTD3W8/A18.png",
-        "fsp": "What is the question for I use the pot to cook food.",
+        "fsp": "What is the question for. I use the pot to cook food.",
         "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
         "name": "Christopher",
         "gender": "male",
@@ -2427,7 +2427,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for I use the pot to cook food.",
+            "st": "What is the question for. I use the pot to cook food.",
             "id": "ESB1_F18a164"
           }
         ]
@@ -2435,7 +2435,7 @@
       {
         "type": "B5",
         "hint": "https://i.postimg.cc/cLMTD3W8/A18.png",
-        "fsp": "What is the question for Yes, I have a pot at home.",
+        "fsp": "What is the question for. Yes, I have a pot at home.",
         "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
         "name": "Joshua",
         "gender": "male",
@@ -2451,7 +2451,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for Yes, I have a pot at home.",
+            "st": "What is the question for. Yes, I have a pot at home.",
             "id": "ESB1_F18a168"
           }
         ]
@@ -2734,7 +2734,7 @@
       {
         "type": "B2",
         "hint": "https://i.postimg.cc/cLMTD3W8/A18.png",
-        "fsp": "What is the question for I put the pot on the stove.",
+        "fsp": "What is the question for. I put the pot on the stove.",
         "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
         "name": "Ashley",
         "gender": "female",
@@ -2750,7 +2750,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for I put the pot on the stove.",
+            "st": "What is the question for. I put the pot on the stove.",
             "id": "ESB1_F18a162"
           }
         ]
@@ -3229,7 +3229,7 @@
         },
         {
           "HD-01": "(B1-5)",
-          "HD-02": "What is the question for ..",
+          "HD-02": "What is the question for. ..",
           "HD-03": null,
           "HD-04": null,
           "HD-05": null
@@ -3316,7 +3316,7 @@
         },
         {
           "TV-01": "(B1-5)",
-          "TV-02": "What is the question for ..",
+          "TV-02": "What is the question for. ..",
           "TV-03": null,
           "TV-04": null,
           "TV-05": null
@@ -3403,7 +3403,7 @@
       {
         "type": "B2",
         "hint": "https://i.postimg.cc/hGDsNG4Z/A19.png",
-        "fsp": "What is the question for I put the frying pan on the stove.",
+        "fsp": "What is the question for. I put the frying pan on the stove.",
         "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
         "name": "Ashley",
         "gender": "female",
@@ -3419,7 +3419,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for I put the frying pan on the stove.",
+            "st": "What is the question for. I put the frying pan on the stove.",
             "id": "ESB1_F19a237"
           }
         ]
@@ -3505,7 +3505,7 @@
       {
         "type": "B5",
         "hint": "https://i.postimg.cc/hGDsNG4Z/A19.png",
-        "fsp": "What is the question for Yes, I have a frying pan at home.",
+        "fsp": "What is the question for. Yes, I have a frying pan at home.",
         "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
         "name": "Joshua",
         "gender": "male",
@@ -3521,7 +3521,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for Yes, I have a frying pan at home.",
+            "st": "What is the question for. Yes, I have a frying pan at home.",
             "id": "ESB1_F19a243"
           }
         ]
@@ -3637,7 +3637,7 @@
       {
         "type": "B4",
         "hint": "https://i.postimg.cc/hGDsNG4Z/A19.png",
-        "fsp": "What is the question for The frying pan is black.",
+        "fsp": "What is the question for. The frying pan is black.",
         "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
         "name": "Jennifer",
         "gender": "female",
@@ -3653,7 +3653,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for The frying pan is black.",
+            "st": "What is the question for. The frying pan is black.",
             "id": "ESB1_F19a241"
           }
         ]
@@ -3682,7 +3682,7 @@
       {
         "type": "B1",
         "hint": "https://i.postimg.cc/hGDsNG4Z/A19.png",
-        "fsp": "What is the question for This is a frying pan.",
+        "fsp": "What is the question for. This is a frying pan.",
         "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
         "name": "Andrew",
         "gender": "male",
@@ -3698,7 +3698,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for This is a frying pan.",
+            "st": "What is the question for. This is a frying pan.",
             "id": "ESB1_F19a235"
           }
         ]
@@ -3706,7 +3706,7 @@
       {
         "type": "B3",
         "hint": "https://i.postimg.cc/hGDsNG4Z/A19.png",
-        "fsp": "What is the question for I use the frying pan to cook food.",
+        "fsp": "What is the question for. I use the frying pan to cook food.",
         "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
         "name": "Christopher",
         "gender": "male",
@@ -3722,7 +3722,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for I use the frying pan to cook food.",
+            "st": "What is the question for. I use the frying pan to cook food.",
             "id": "ESB1_F19a239"
           }
         ]
@@ -4273,7 +4273,7 @@
         },
         {
           "HD-01": "(B1-5)",
-          "HD-02": "What is the question for ..",
+          "HD-02": "What is the question for. ..",
           "HD-03": null,
           "HD-04": null,
           "HD-05": null
@@ -4360,7 +4360,7 @@
         },
         {
           "TV-01": "(B1-5)",
-          "TV-02": "What is the question for ..",
+          "TV-02": "What is the question for. ..",
           "TV-03": null,
           "TV-04": null,
           "TV-05": null
@@ -4466,7 +4466,7 @@
       {
         "type": "B3",
         "hint": "https://i.postimg.cc/hG2snqfD/A20.png",
-        "fsp": "What is the question for I use the knife to cut food.",
+        "fsp": "What is the question for. I use the knife to cut food.",
         "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
         "name": "Christopher",
         "gender": "male",
@@ -4482,7 +4482,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for I use the knife to cut food.",
+            "st": "What is the question for. I use the knife to cut food.",
             "id": "ESB1_F20a314"
           }
         ]
@@ -4532,7 +4532,7 @@
       {
         "type": "B4",
         "hint": "https://i.postimg.cc/hG2snqfD/A20.png",
-        "fsp": "What is the question for The knife is sharp.",
+        "fsp": "What is the question for. The knife is sharp.",
         "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
         "name": "Jennifer",
         "gender": "female",
@@ -4548,7 +4548,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for The knife is sharp.",
+            "st": "What is the question for. The knife is sharp.",
             "id": "ESB1_F20a316"
           }
         ]
@@ -4664,7 +4664,7 @@
       {
         "type": "B2",
         "hint": "https://i.postimg.cc/hG2snqfD/A20.png",
-        "fsp": "What is the question for I use the knife in the kitchen.",
+        "fsp": "What is the question for. I use the knife in the kitchen.",
         "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
         "name": "Ashley",
         "gender": "female",
@@ -4680,7 +4680,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for I use the knife in the kitchen.",
+            "st": "What is the question for. I use the knife in the kitchen.",
             "id": "ESB1_F20a312"
           }
         ]
@@ -4739,7 +4739,7 @@
       {
         "type": "B5",
         "hint": "https://i.postimg.cc/hG2snqfD/A20.png",
-        "fsp": "What is the question for Yes, I have a knife at home.",
+        "fsp": "What is the question for. Yes, I have a knife at home.",
         "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
         "name": "Joshua",
         "gender": "male",
@@ -4755,7 +4755,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for Yes, I have a knife at home.",
+            "st": "What is the question for. Yes, I have a knife at home.",
             "id": "ESB1_F20a318"
           }
         ]
@@ -4763,7 +4763,7 @@
       {
         "type": "B1",
         "hint": "https://i.postimg.cc/hG2snqfD/A20.png",
-        "fsp": "What is the question for This is a knife.",
+        "fsp": "What is the question for. This is a knife.",
         "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
         "name": "Andrew",
         "gender": "male",
@@ -4779,7 +4779,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for This is a knife.",
+            "st": "What is the question for. This is a knife.",
             "id": "ESB1_F20a310"
           }
         ]

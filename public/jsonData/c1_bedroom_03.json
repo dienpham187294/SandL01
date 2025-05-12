@@ -105,7 +105,7 @@
         },
         {
           "HD-01": "(B1-5)",
-          "HD-02": "What is the question for ..",
+          "HD-02": "What is the question for. ..",
           "HD-03": null,
           "HD-04": null,
           "HD-05": null
@@ -192,7 +192,7 @@
         },
         {
           "TV-01": "(B1-5)",
-          "TV-02": "What is the question for ..",
+          "TV-02": "What is the question for. ..",
           "TV-03": null,
           "TV-04": null,
           "TV-05": null
@@ -309,7 +309,7 @@
       {
         "type": "B1",
         "hint": "https://i.postimg.cc/HxKVdJpY/A11.png",
-        "fsp": "What is the question for This is an alarm clock.",
+        "fsp": "What is the question for. This is an alarm clock.",
         "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
         "name": "Andrew",
         "gender": "male",
@@ -325,7 +325,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for This is an alarm clock.",
+            "st": "What is the question for. This is an alarm clock.",
             "id": "ESB1_F11a10"
           }
         ]
@@ -460,7 +460,7 @@
       {
         "type": "B2",
         "hint": "https://i.postimg.cc/HxKVdJpY/A11.png",
-        "fsp": "What is the question for I put the alarm clock on the bedside table.",
+        "fsp": "What is the question for. I put the alarm clock on the bedside table.",
         "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
         "name": "Ashley",
         "gender": "female",
@@ -476,7 +476,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for I put the alarm clock on the bedside table.",
+            "st": "What is the question for. I put the alarm clock on the bedside table.",
             "id": "ESB1_F11a12"
           }
         ]
@@ -526,7 +526,7 @@
       {
         "type": "B3",
         "hint": "https://i.postimg.cc/HxKVdJpY/A11.png",
-        "fsp": "What is the question for The alarm clock wakes me up in the morning.",
+        "fsp": "What is the question for. The alarm clock wakes me up in the morning.",
         "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
         "name": "Christopher",
         "gender": "male",
@@ -542,7 +542,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for The alarm clock wakes me up in the morning.",
+            "st": "What is the question for. The alarm clock wakes me up in the morning.",
             "id": "ESB1_F11a14"
           }
         ]
@@ -590,7 +590,7 @@
       {
         "type": "B4",
         "hint": "https://i.postimg.cc/HxKVdJpY/A11.png",
-        "fsp": "What is the question for The alarm clock is red.",
+        "fsp": "What is the question for. The alarm clock is red.",
         "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
         "name": "Jennifer",
         "gender": "female",
@@ -606,7 +606,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for The alarm clock is red.",
+            "st": "What is the question for. The alarm clock is red.",
             "id": "ESB1_F11a16"
           }
         ]
@@ -614,7 +614,7 @@
       {
         "type": "B5",
         "hint": "https://i.postimg.cc/HxKVdJpY/A11.png",
-        "fsp": "What is the question for Yes, I use an alarm clock.",
+        "fsp": "What is the question for. Yes, I use an alarm clock.",
         "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
         "name": "Joshua",
         "gender": "male",
@@ -630,7 +630,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for Yes, I use an alarm clock.",
+            "st": "What is the question for. Yes, I use an alarm clock.",
             "id": "ESB1_F11a18"
           }
         ]
@@ -1147,7 +1147,7 @@
         },
         {
           "HD-01": "(B1-5)",
-          "HD-02": "What is the question for ..",
+          "HD-02": "What is the question for. ..",
           "HD-03": null,
           "HD-04": null,
           "HD-05": null
@@ -1234,7 +1234,7 @@
         },
         {
           "TV-01": "(B1-5)",
-          "TV-02": "What is the question for ..",
+          "TV-02": "What is the question for. ..",
           "TV-03": null,
           "TV-04": null,
           "TV-05": null
@@ -1342,7 +1342,7 @@
       {
         "type": "B5",
         "hint": "https://i.postimg.cc/BbKt6q6x/A12.png",
-        "fsp": "What is the question for Yes, I have curtains at home.",
+        "fsp": "What is the question for. Yes, I have curtains at home.",
         "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
         "name": "Joshua",
         "gender": "male",
@@ -1358,7 +1358,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for Yes, I have curtains at home.",
+            "st": "What is the question for. Yes, I have curtains at home.",
             "id": "ESB1_F12a93"
           }
         ]
@@ -1366,7 +1366,7 @@
       {
         "type": "B1",
         "hint": "https://i.postimg.cc/BbKt6q6x/A12.png",
-        "fsp": "What is the question for This is a curtain.",
+        "fsp": "What is the question for. This is a curtain.",
         "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
         "name": "Andrew",
         "gender": "male",
@@ -1382,7 +1382,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for This is a curtain.",
+            "st": "What is the question for. This is a curtain.",
             "id": "ESB1_F12a85"
           }
         ]
@@ -1390,7 +1390,7 @@
       {
         "type": "B2",
         "hint": "https://i.postimg.cc/BbKt6q6x/A12.png",
-        "fsp": "What is the question for I put the curtain on the window.",
+        "fsp": "What is the question for. I put the curtain on the window.",
         "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
         "name": "Ashley",
         "gender": "female",
@@ -1406,7 +1406,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for I put the curtain on the window.",
+            "st": "What is the question for. I put the curtain on the window.",
             "id": "ESB1_F12a87"
           }
         ]
@@ -1414,7 +1414,7 @@
       {
         "type": "B3",
         "hint": "https://i.postimg.cc/BbKt6q6x/A12.png",
-        "fsp": "What is the question for The curtain blocks sunlight.",
+        "fsp": "What is the question for. The curtain blocks sunlight.",
         "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
         "name": "Christopher",
         "gender": "male",
@@ -1430,7 +1430,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for The curtain blocks sunlight.",
+            "st": "What is the question for. The curtain blocks sunlight.",
             "id": "ESB1_F12a89"
           }
         ]
@@ -1613,7 +1613,7 @@
       {
         "type": "B4",
         "hint": "https://i.postimg.cc/BbKt6q6x/A12.png",
-        "fsp": "What is the question for The curtain is yellow.",
+        "fsp": "What is the question for. The curtain is yellow.",
         "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
         "name": "Jennifer",
         "gender": "female",
@@ -1629,7 +1629,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for The curtain is yellow.",
+            "st": "What is the question for. The curtain is yellow.",
             "id": "ESB1_F12a91"
           }
         ]
@@ -2187,7 +2187,7 @@
         },
         {
           "HD-01": "(B1-5)",
-          "HD-02": "What is the question for ..",
+          "HD-02": "What is the question for. ..",
           "HD-03": null,
           "HD-04": null,
           "HD-05": null
@@ -2274,7 +2274,7 @@
         },
         {
           "TV-01": "(B1-5)",
-          "TV-02": "What is the question for ..",
+          "TV-02": "What is the question for. ..",
           "TV-03": null,
           "TV-04": null,
           "TV-05": null
@@ -2361,7 +2361,7 @@
       {
         "type": "B3",
         "hint": "https://i.postimg.cc/yWCx3wg2/A13.png",
-        "fsp": "What is the question for The carpet is soft.",
+        "fsp": "What is the question for. The carpet is soft.",
         "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
         "name": "Christopher",
         "gender": "male",
@@ -2377,7 +2377,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for The carpet is soft.",
+            "st": "What is the question for. The carpet is soft.",
             "id": "ESB1_F13a164"
           }
         ]
@@ -2404,7 +2404,7 @@
       {
         "type": "B5",
         "hint": "https://i.postimg.cc/yWCx3wg2/A13.png",
-        "fsp": "What is the question for Yes, I have a carpet at home.",
+        "fsp": "What is the question for. Yes, I have a carpet at home.",
         "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
         "name": "Joshua",
         "gender": "male",
@@ -2420,7 +2420,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for Yes, I have a carpet at home.",
+            "st": "What is the question for. Yes, I have a carpet at home.",
             "id": "ESB1_F13a168"
           }
         ]
@@ -2479,7 +2479,7 @@
       {
         "type": "B2",
         "hint": "https://i.postimg.cc/yWCx3wg2/A13.png",
-        "fsp": "What is the question for I put the carpet on the floor.",
+        "fsp": "What is the question for. I put the carpet on the floor.",
         "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
         "name": "Ashley",
         "gender": "female",
@@ -2495,7 +2495,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for I put the carpet on the floor.",
+            "st": "What is the question for. I put the carpet on the floor.",
             "id": "ESB1_F13a162"
           }
         ]
@@ -2503,7 +2503,7 @@
       {
         "type": "B1",
         "hint": "https://i.postimg.cc/yWCx3wg2/A13.png",
-        "fsp": "What is the question for This is a carpet.",
+        "fsp": "What is the question for. This is a carpet.",
         "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
         "name": "Andrew",
         "gender": "male",
@@ -2519,7 +2519,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for This is a carpet.",
+            "st": "What is the question for. This is a carpet.",
             "id": "ESB1_F13a160"
           }
         ]
@@ -2735,7 +2735,7 @@
       {
         "type": "B4",
         "hint": "https://i.postimg.cc/yWCx3wg2/A13.png",
-        "fsp": "What is the question for The carpet is beige.",
+        "fsp": "What is the question for. The carpet is beige.",
         "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
         "name": "Jennifer",
         "gender": "female",
@@ -2751,7 +2751,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for The carpet is beige.",
+            "st": "What is the question for. The carpet is beige.",
             "id": "ESB1_F13a166"
           }
         ]
@@ -3229,7 +3229,7 @@
         },
         {
           "HD-01": "(B1-5)",
-          "HD-02": "What is the question for ..",
+          "HD-02": "What is the question for. ..",
           "HD-03": null,
           "HD-04": null,
           "HD-05": null
@@ -3316,7 +3316,7 @@
         },
         {
           "TV-01": "(B1-5)",
-          "TV-02": "What is the question for ..",
+          "TV-02": "What is the question for. ..",
           "TV-03": null,
           "TV-04": null,
           "TV-05": null
@@ -3480,7 +3480,7 @@
       {
         "type": "B4",
         "hint": "https://i.postimg.cc/2jVcz3QP/A14.png",
-        "fsp": "What is the question for The fan is white.",
+        "fsp": "What is the question for. The fan is white.",
         "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
         "name": "Jennifer",
         "gender": "female",
@@ -3496,7 +3496,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for The fan is white.",
+            "st": "What is the question for. The fan is white.",
             "id": "ESB1_F14a241"
           }
         ]
@@ -3553,7 +3553,7 @@
       {
         "type": "B5",
         "hint": "https://i.postimg.cc/2jVcz3QP/A14.png",
-        "fsp": "What is the question for Yes, I use a fan at home.",
+        "fsp": "What is the question for. Yes, I use a fan at home.",
         "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
         "name": "Joshua",
         "gender": "male",
@@ -3569,7 +3569,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for Yes, I use a fan at home.",
+            "st": "What is the question for. Yes, I use a fan at home.",
             "id": "ESB1_F14a243"
           }
         ]
@@ -3577,7 +3577,7 @@
       {
         "type": "B3",
         "hint": "https://i.postimg.cc/2jVcz3QP/A14.png",
-        "fsp": "What is the question for The fan blows air to keep me cool.",
+        "fsp": "What is the question for. The fan blows air to keep me cool.",
         "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
         "name": "Christopher",
         "gender": "male",
@@ -3593,7 +3593,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for The fan blows air to keep me cool.",
+            "st": "What is the question for. The fan blows air to keep me cool.",
             "id": "ESB1_F14a239"
           }
         ]
@@ -3601,7 +3601,7 @@
       {
         "type": "B2",
         "hint": "https://i.postimg.cc/2jVcz3QP/A14.png",
-        "fsp": "What is the question for I put the fan on the table.",
+        "fsp": "What is the question for. I put the fan on the table.",
         "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
         "name": "Ashley",
         "gender": "female",
@@ -3617,7 +3617,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for I put the fan on the table.",
+            "st": "What is the question for. I put the fan on the table.",
             "id": "ESB1_F14a237"
           }
         ]
@@ -3722,7 +3722,7 @@
       {
         "type": "B1",
         "hint": "https://i.postimg.cc/2jVcz3QP/A14.png",
-        "fsp": "What is the question for This is a fan.",
+        "fsp": "What is the question for. This is a fan.",
         "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
         "name": "Andrew",
         "gender": "male",
@@ -3738,7 +3738,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for This is a fan.",
+            "st": "What is the question for. This is a fan.",
             "id": "ESB1_F14a235"
           }
         ]
@@ -4265,7 +4265,7 @@
         },
         {
           "HD-01": "(B1-5)",
-          "HD-02": "What is the question for ..",
+          "HD-02": "What is the question for. ..",
           "HD-03": null,
           "HD-04": null,
           "HD-05": null
@@ -4352,7 +4352,7 @@
         },
         {
           "TV-01": "(B1-5)",
-          "TV-02": "What is the question for ..",
+          "TV-02": "What is the question for. ..",
           "TV-03": null,
           "TV-04": null,
           "TV-05": null
@@ -4439,7 +4439,7 @@
       {
         "type": "B5",
         "hint": "https://i.postimg.cc/sfqn1yK1/A15.png",
-        "fsp": "What is the question for Yes, I use an air conditioner at home.",
+        "fsp": "What is the question for. Yes, I use an air conditioner at home.",
         "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
         "name": "Joshua",
         "gender": "male",
@@ -4455,7 +4455,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for Yes, I use an air conditioner at home.",
+            "st": "What is the question for. Yes, I use an air conditioner at home.",
             "id": "ESB1_F15a318"
           }
         ]
@@ -4502,7 +4502,7 @@
       {
         "type": "B4",
         "hint": "https://i.postimg.cc/sfqn1yK1/A15.png",
-        "fsp": "What is the question for The air conditioner is white.",
+        "fsp": "What is the question for. The air conditioner is white.",
         "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
         "name": "Jennifer",
         "gender": "female",
@@ -4518,7 +4518,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for The air conditioner is white.",
+            "st": "What is the question for. The air conditioner is white.",
             "id": "ESB1_F15a316"
           }
         ]
@@ -4586,7 +4586,7 @@
       {
         "type": "B1",
         "hint": "https://i.postimg.cc/sfqn1yK1/A15.png",
-        "fsp": "What is the question for This is an air conditioner.",
+        "fsp": "What is the question for. This is an air conditioner.",
         "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
         "name": "Andrew",
         "gender": "male",
@@ -4602,7 +4602,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for This is an air conditioner.",
+            "st": "What is the question for. This is an air conditioner.",
             "id": "ESB1_F15a310"
           }
         ]
@@ -4629,7 +4629,7 @@
       {
         "type": "B3",
         "hint": "https://i.postimg.cc/sfqn1yK1/A15.png",
-        "fsp": "What is the question for The air conditioner cools the room.",
+        "fsp": "What is the question for. The air conditioner cools the room.",
         "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
         "name": "Christopher",
         "gender": "male",
@@ -4645,7 +4645,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for The air conditioner cools the room.",
+            "st": "What is the question for. The air conditioner cools the room.",
             "id": "ESB1_F15a314"
           }
         ]
@@ -4788,7 +4788,7 @@
       {
         "type": "B2",
         "hint": "https://i.postimg.cc/sfqn1yK1/A15.png",
-        "fsp": "What is the question for I put the air conditioner on the wall.",
+        "fsp": "What is the question for. I put the air conditioner on the wall.",
         "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
         "name": "Ashley",
         "gender": "female",
@@ -4804,7 +4804,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "What is the question for I put the air conditioner on the wall.",
+            "st": "What is the question for. I put the air conditioner on the wall.",
             "id": "ESB1_F15a312"
           }
         ]
