@@ -1,13 +1,29 @@
 import React, { useEffect, useState } from "react";
 import { socket } from "../App";
+import stringSimilarity from "string-similarity";
 import SpeechRecognition, {
   useSpeechRecognition,
 } from "react-speech-recognition";
 let commands = [];
+let fnSet = [];
 
 const Dictaphone = ({ CMDlist }) => {
   const { interimTranscript, transcript, listening, resetTranscript } =
     useSpeechRecognition({ commands });
+  const [numberTry, setNumbertry] = useState(0);
+  const [CmdApart, setCmdApart] = useState(null);
+  const [Cmd_all_stt, setCmd_all_stt] = useState(false);
+
+  useEffect(() => {
+    console.log(numberTry);
+    setCmdApart(null);
+    setCmd_all_stt(false);
+  }, [numberTry]);
+
+  useEffect(() => {
+    setNumbertry(0);
+    fnSet = [];
+  }, [CMDlist]);
 
   useEffect(() => {
     commands = [
@@ -17,10 +33,22 @@ const Dictaphone = ({ CMDlist }) => {
           try {
             const interimRes = document.getElementById("interimRes");
             interimRes.innerText = command;
+            setCmd_all_stt(true);
           } catch (error) {}
         },
         isFuzzyMatch: true,
         fuzzyMatchingThreshold: 0.5,
+        bestMatchOnly: true,
+      },
+      {
+        command: CMDlist.split(" "),
+        callback: (command, n, i) => {
+          try {
+            setCmdApart(command);
+          } catch (error) {}
+        },
+        isFuzzyMatch: true,
+        fuzzyMatchingThreshold: 0.2,
         bestMatchOnly: true,
       },
     ];
@@ -48,6 +76,7 @@ const Dictaphone = ({ CMDlist }) => {
           className="btn btn-info"
           onClick={() => {
             resetTranscript();
+            setNumbertry((D) => D + 1);
           }}
         >
           Xóa nội dung (1)
@@ -85,7 +114,10 @@ const Dictaphone = ({ CMDlist }) => {
         {listening ? (
           <div>
             {" "}
-            <h1 style={{}}>(1){transcript}</h1>{" "}
+            <h2 style={{}}>
+              (1)
+              {transcript} <i>{!Cmd_all_stt ? CmdApart : null}</i>
+            </h2>
             <h5 style={{ color: "blue" }}>
               {" "}
               (2)
@@ -98,7 +130,7 @@ const Dictaphone = ({ CMDlist }) => {
                 const idDinhDanh = localStorage.getItem("dinhDanh");
                 const nameDinhDanh = localStorage.getItem("nameDinhDanh") || "";
                 socket.emit("message", {
-                  text: transcript,
+                  text: transcript + " " + CmdApart,
                   time:
                     "KQTH_" + nameDinhDanh ||
                     (idDinhDanh ? idDinhDanh.slice(0, 4) : ""),
