@@ -4,6 +4,7 @@ import SpeechRecognition, {
   useSpeechRecognition,
 } from "react-speech-recognition";
 let fnSet = [];
+let fnSetRate = {};
 const Dictaphone = ({ CMDlist }) => {
   // State management
   const [numberTry, setNumberTry] = useState(0);
@@ -60,6 +61,7 @@ const Dictaphone = ({ CMDlist }) => {
     setCmdApart(null);
     fnSet = [];
     setresultSt("");
+    fnSetRate = {};
   }, [numberTry]);
 
   // Reset number of tries and function set when command list changes
@@ -79,10 +81,12 @@ const Dictaphone = ({ CMDlist }) => {
           updatedResult = updatedResult
             .split(origin)
             .join("(" + origin + "~" + command + ")");
-          setCmdApartChat(Math.floor(i * 100) + "%");
+          // setCmdApartChat(Math.floor(i * 100) + "%");
+          fnSetRate[command] =
+            command + " ~ " + origin + " ~ " + Math.floor(i * 100) + "%";
         }
       });
-
+      setCmdApartChat(JSON.stringify(fnSetRate));
       setresultSt(updatedResult);
     } catch (error) {
       console.error("Error processing commands in transcript:", error);
@@ -113,6 +117,7 @@ const Dictaphone = ({ CMDlist }) => {
   }, [
     transcript,
     cmdApart,
+    resultSt,
     nameDinhDanh,
     idDinhDanh,
     stopListening,
