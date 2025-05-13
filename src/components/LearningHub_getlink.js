@@ -171,9 +171,13 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
       month: "2-digit",
       hour: "2-digit",
       minute: "2-digit",
+      second: "2-digit",
       hour12: false,
     });
+
+    // Mã hóa thời gian
     const encodedTime = encodeURIComponent(timeString);
+    // Tạo các tham số
     const params = ["time=" + encodedTime];
 
     // Tham số a (bài học)

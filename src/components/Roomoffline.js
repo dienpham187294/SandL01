@@ -310,12 +310,18 @@ const Room = ({ setSttRoom }) => {
             padding: "15px",
           }}
         >
+          <i>
+            {" "}
+            {params.get("time")
+              ? decodeURIComponent(params.get("time")).slice(0, 9)
+              : null}
+          </i>
           <h3>Điểm: {Score} </h3>
           <h3>Lượt {numberBegin}</h3>
         </div>
         {formatTime(new Date())} <br />
-        Ngày giao: <b>{decodeURIComponent(params.get("time"))}</b>
-        <br />
+        {/* Ngày giao: <b>{decodeURIComponent(params.get("time"))}</b>
+        <br /> */}
         Mã bài tập:
         <b>{params.get("note")}</b> <i>{currentIndex}</i>
         <b style={{ fontSize: "small" }}>{params.get("a")}</b>
