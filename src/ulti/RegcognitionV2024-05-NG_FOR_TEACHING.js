@@ -77,7 +77,7 @@ const Dictaphone = ({ CMDlist }) => {
     if (!transcript) return;
 
     try {
-      let updatedResult = transcript;
+      let updatedResult = transcript.toLocaleLowerCase();
       fnSet.forEach(({ command, origin, i }) => {
         const cmdLower = command.toLowerCase();
         const transcriptLower = transcript.toLowerCase();
@@ -86,8 +86,7 @@ const Dictaphone = ({ CMDlist }) => {
             .split(origin)
             .join("(" + origin + "~" + command + ")");
           // setCmdApartChat(Math.floor(i * 100) + "%");
-          fnSetRate[command] =
-            command + " ~ " + origin + " ~ " + Math.floor(i * 100) + "%";
+          fnSetRate[command] = origin + " ~ " + Math.floor(i * 100) + "%";
         }
       });
       setCmdApartChat(JSON.stringify(fnSetRate));
