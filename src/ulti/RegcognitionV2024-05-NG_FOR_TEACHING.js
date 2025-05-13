@@ -67,6 +67,10 @@ const Dictaphone = ({ CMDlist }) => {
   // Reset number of tries and function set when command list changes
   useEffect(() => {
     setNumberTry(0);
+    setCmdApart(null);
+    fnSet = [];
+    setresultSt("");
+    fnSetRate = {};
   }, [CMDlist]);
 
   useEffect(() => {

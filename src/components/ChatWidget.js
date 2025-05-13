@@ -31,7 +31,6 @@ const ChatWidget = () => {
       } else {
         setChatHistory((prevHistory) => [...prevHistory, newMessage]);
       }
-
       if (!isOpen) {
         setUnreadCount((prevCount) => prevCount + 1);
       }
@@ -51,7 +50,6 @@ const ChatWidget = () => {
           historyMesage.push(e);
         }
       });
-
       setChatHistory(historyMesage);
       setNotifyHistory(historyNotify);
     });
@@ -77,12 +75,22 @@ const ChatWidget = () => {
   };
 
   const handleNameChange = (e) => {
-    setUserName(e.target.value);
+    // Limit input to 8 characters
+    if (e.target.value.length <= 8) {
+      setUserName(e.target.value);
+    }
   };
 
   const saveUserName = () => {
-    localStorage.setItem("nameDinhDanh", userName);
-    setIsEditingName(false);
+    if (userName.trim()) {
+      localStorage.setItem("nameDinhDanh", userName);
+      setIsEditingName(false);
+    }
+  };
+
+  const handleEditName = () => {
+    setUserName(""); // Reset name field
+    setIsEditingName(true);
   };
 
   const containerStyle = {
@@ -163,24 +171,30 @@ const ChatWidget = () => {
 
       {isEditingName ? (
         <div style={notifyNameStyle}>
-          {" "}
-          {isEditingName ? (
-            <>
-              <input
-                type="text"
-                value={userName}
-                onChange={handleNameChange}
-                placeholder="Nhập tên vào đây"
-              />
-              <button onClick={saveUserName}>✔</button>
-            </>
-          ) : (
-            <>
-              <span>{userName || "Guest"}</span>
-            </>
-          )}
+          <input
+            type="text"
+            value={userName}
+            onChange={handleNameChange}
+            placeholder="Nhập tên (tối đa 8 ký tự)"
+            maxLength={8}
+          />
+          <button style={{ borderRadius: "5px" }} onClick={saveUserName}>
+            Nhập tên
+          </button>
+        </div>
+      ) : isOpen ? (
+        <div style={notifyNameStyle}>
+          <span>{userName || "Guest"}</span>
+          <button
+            // className="btn btn-small btn-outline-primary"
+            style={{ borderRadius: "5px" }}
+            onClick={handleEditName}
+          >
+            Đổi tên
+          </button>
         </div>
       ) : null}
+
       <div style={headerStyle} onClick={toggleChat}>
         Chat {unreadCount > 0 && <span>({unreadCount})</span>}
         <span>{isOpen ? userName : null}</span>
@@ -229,7 +243,6 @@ const ChatWidget = () => {
                       )
                     : msg.text}
                 </div>
-
                 <div style={{ fontSize: "0.8em", color: "gray" }}>
                   {msg.time}{" "}
                   {msg.text.includes("roomoffline")
@@ -257,7 +270,6 @@ function handle_cmd_f_admin(msg, navigate, setIsOpen) {
   if (!msg.text.includes("##cmd")) {
     return;
   }
-
   if (msg.text.includes("_openchat")) {
     setIsOpen(true);
   }
@@ -286,7 +298,6 @@ function handle_cmd_f_admin(msg, navigate, setIsOpen) {
       console.log(error);
     }
   }
-
   if (msg.text.includes("##cmd_linkcode_")) {
     try {
       let input = msg.text.split("##cmd_linkcode_");
@@ -307,15 +318,12 @@ function handle_cmd_f_admin(msg, navigate, setIsOpen) {
 function storeLink(data) {
   // Lấy dữ liệu hiện có từ LocalStorage
   let storedData = JSON.parse(localStorage.getItem("links"));
-
   if (!storedData) {
     storedData = [];
   }
-
   // Thêm thời gian hết hạn (5 giờ từ lúc cập nhật)
   const expirationTime = new Date().getTime() + 5 * 60 * 60 * 1000; // 5 giờ tính bằng mili giây
   data.expirationTime = expirationTime;
-
   // Tìm đối tượng có linkCode trùng và thay thế
   const existingIndex = storedData.findIndex(
     (item) => item.linkCode === data.linkCode
@@ -327,10 +335,10 @@ function storeLink(data) {
     // Thêm mới đối tượng
     storedData.push(data);
   }
-
   // Lưu lại dữ liệu vào LocalStorage
   localStorage.setItem("links", JSON.stringify(storedData));
 }
+
 function storeLinkToday(data) {
   try {
     // Ghi đè lên dữ liệu hiện có trong LocalStorage với key "linktoday"
@@ -343,12 +351,14 @@ function storeLinkToday(data) {
 function tachStringTheoHttp(str) {
   // Sử dụng regex để tìm tất cả các URL và tách chuỗi
   const regex = /https?:\/\/[^\s]+/g;
+  const matches = str.match(regex);
+  if (!matches) return [str];
 
   // Tách chuỗi thành một mảng với phần không phải URL và URL
   const result = str.split(regex).reduce((arr, part, index) => {
     arr.push(part.trim()); // Thêm phần không phải URL vào mảng
-    if (index < str.match(regex).length) {
-      arr.push(str.match(regex)[index]); // Thêm URL vào mảng
+    if (index < matches.length) {
+      arr.push(matches[index]); // Thêm URL vào mảng
     }
     return arr;
   }, []);
