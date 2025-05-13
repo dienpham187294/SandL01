@@ -38,7 +38,11 @@ const Dictaphone = ({ CMDlist }) => {
           try {
             // setCmdApart((prev) => [...prev, { command, origin: n }]);
             setCmdApart(command + "~" + n);
-            fnSet.push({ command, origin: n, i });
+            fnSet.push({
+              command: command.toLocaleLowerCase(),
+              origin: n.toLocaleLowerCase(),
+              i,
+            });
             console.log(command, n);
           } catch (error) {
             console.error("Error setting command apart:", error);
