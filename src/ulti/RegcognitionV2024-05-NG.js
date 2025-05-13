@@ -30,6 +30,7 @@ const Dictaphone = ({
       fuzzyMatchingThreshold: regRate,
       bestMatchOnly: true,
     },
+    
   ];
 
   // Speech recognition hook
