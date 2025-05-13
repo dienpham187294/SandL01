@@ -12,7 +12,7 @@ const LearningHub_prac_st_only = () => {
 
   return (
     <div style={{ marginTop: "50px", padding: "5%" }}>
-      <h2>{readableSt}</h2>
+      {/* <h2>{readableSt}</h2> */}
       <Dictaphone CMDlist={readableSt} />
       <div style={{ fontSize: "large" }}>
         {readNote && readNote.split("zzz").map((e, i) => <p key={i}>{e}</p>)}

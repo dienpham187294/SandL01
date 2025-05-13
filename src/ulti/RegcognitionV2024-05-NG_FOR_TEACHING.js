@@ -174,7 +174,14 @@ const Dictaphone = ({ CMDlist }) => {
         <hr />
         <hr />
         <h4>Rèn luyện câu:</h4>
-        <h2>
+        <h2
+          style={{
+            userSelect: "none",
+            WebkitUserSelect: "none",
+            MozUserSelect: "none",
+          }}
+          onCopy={(e) => e.preventDefault()}
+        >
           <b style={{ color: "blue" }}>{CMDlist}</b>
         </h2>
         <b>Bấm bắt đầu và đọc câu này lên để rèn luyện khả năng ghép âm.</b>
