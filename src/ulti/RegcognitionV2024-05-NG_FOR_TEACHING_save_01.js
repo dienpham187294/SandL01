@@ -1,93 +1,65 @@
 import React, { useEffect, useState, useCallback, useMemo } from "react";
 import { socket } from "../App";
-import SpeechRecognition, {
-  useSpeechRecognition,
-} from "react-speech-recognition";
-let fnSet = [];
+import SpeechRecognition, { useSpeechRecognition } from "react-speech-recognition";
+
 const Dictaphone = ({ CMDlist }) => {
   // State management
   const [numberTry, setNumberTry] = useState(0);
-  const [cmdApart, setCmdApart] = useState([]);
-  const [cmdApartChat, setCmdApartChat] = useState("");
+  const [cmdApart, setCmdApart] = useState(null);
+  const [cmdAllStatus, setCmdAllStatus] = useState(false);
   const [idDinhDanh] = useState(() => localStorage.getItem("dinhDanh"));
-  const [nameDinhDanh] = useState(
-    () => localStorage.getItem("nameDinhDanh") || ""
-  );
-  const [resultSt, setresultSt] = useState("");
+  const [nameDinhDanh] = useState(() => localStorage.getItem("nameDinhDanh") || "");
+
   // Memoize commands to prevent unnecessary re-creation
-  const commands = useMemo(
-    () => [
-      {
-        command: [CMDlist],
-        callback: (command) => {
-          try {
-            const interimRes = document.getElementById("interimRes");
-            if (interimRes) interimRes.innerText = command;
-          } catch (error) {
-            console.error("Error updating interim result:", error);
-          }
-        },
-        isFuzzyMatch: true,
-        fuzzyMatchingThreshold: 0.5,
-        bestMatchOnly: true,
+  const commands = useMemo(() => [
+    {
+      command: [CMDlist],
+      callback: (command) => {
+        try {
+          const interimRes = document.getElementById("interimRes");
+          if (interimRes) interimRes.innerText = command;
+          setCmdAllStatus(true);
+        } catch (error) {
+          console.error("Error updating interim result:", error);
+        }
       },
-      {
-        command: CMDlist.split(" "),
-        callback: (command, n, i) => {
-          try {
-            // setCmdApart((prev) => [...prev, { command, origin: n }]);
-            setCmdApart(command + "~" + n);
-            fnSet.push({ command, origin: n, i });
-            console.log(command, n);
-          } catch (error) {
-            console.error("Error setting command apart:", error);
-          }
-        },
-        isFuzzyMatch: true,
-        fuzzyMatchingThreshold: 0.2,
-        bestMatchOnly: true,
+      isFuzzyMatch: true,
+      fuzzyMatchingThreshold: 0.5,
+      bestMatchOnly: true,
+    },
+    {
+      command: CMDlist.split(" "),
+      callback: (command) => {
+        try {
+          setCmdApart(command);
+        } catch (error) {
+          console.error("Error setting command apart:", error);
+        }
       },
-    ],
-    [CMDlist]
-  );
+      isFuzzyMatch: true,
+      fuzzyMatchingThreshold: 0.2,
+      bestMatchOnly: true,
+    },
+  ], [CMDlist]);
 
   // Speech recognition hook with memoized commands
-  const { interimTranscript, transcript, listening, resetTranscript } =
-    useSpeechRecognition({ commands });
+  const {
+    interimTranscript,
+    transcript,
+    listening,
+    resetTranscript
+  } = useSpeechRecognition({ commands });
 
   // Reset states when number of tries changes
   useEffect(() => {
     setCmdApart(null);
-    fnSet = [];
-    setresultSt("");
+    setCmdAllStatus(false);
   }, [numberTry]);
 
   // Reset number of tries and function set when command list changes
   useEffect(() => {
     setNumberTry(0);
   }, [CMDlist]);
-
-  useEffect(() => {
-    if (!transcript) return;
-
-    try {
-      let updatedResult = transcript;
-      fnSet.forEach(({ command, origin, i }) => {
-        const cmdLower = command.toLowerCase();
-        const transcriptLower = transcript.toLowerCase();
-        if (!transcriptLower.includes(cmdLower)) {
-          updatedResult = updatedResult
-            .split(origin)
-            .join("(" + origin + "~" + command + ")");
-          setCmdApartChat(Math.floor(i * 100) + "%");
-        }
-      });
-
-      setresultSt(updatedResult);
-    } catch (error) {
-      console.error("Error processing commands in transcript:", error);
-    }
-  }, [transcript, cmdApart]);
 
   // Speech recognition control functions
   const startListening = useCallback(() => {
@@ -105,24 +77,16 @@ const Dictaphone = ({ CMDlist }) => {
   const handleSendResults = useCallback(() => {
     stopListening();
     socket.emit("message", {
-      text: resultSt + " | " + (cmdApartChat || ""),
-      time:
-        "KQTH_" + (nameDinhDanh || (idDinhDanh ? idDinhDanh.slice(0, 4) : "")),
+      text: transcript + " " + (cmdApart || ""),
+      time: "KQTH_" + (nameDinhDanh || (idDinhDanh ? idDinhDanh.slice(0, 4) : "")),
     });
     resetTranscript();
-  }, [
-    transcript,
-    cmdApart,
-    nameDinhDanh,
-    idDinhDanh,
-    stopListening,
-    resetTranscript,
-  ]);
+  }, [transcript, cmdApart, nameDinhDanh, idDinhDanh, stopListening, resetTranscript]);
 
   // Reset handler
   const handleReset = useCallback(() => {
     resetTranscript();
-    setNumberTry((prev) => prev + 1);
+    setNumberTry(prev => prev + 1);
   }, [resetTranscript]);
 
   // UI styles
@@ -165,17 +129,18 @@ const Dictaphone = ({ CMDlist }) => {
         </h2>
         <b>Bấm bắt đầu và đọc câu này lên để rèn luyện khả năng ghép âm.</b>
       </div>
-
+      
       {/* Right column - Results display */}
       <div className="col-8">
         <h5 style={{ color: "blue" }}>
           {listening ? "Đang bật - Hãy nói . . ." : "Đang tắt."}
         </h5>
+        
         {listening ? (
           <div>
             <h2>
               (1)
-              {resultSt !== "" ? resultSt : transcript}
+              {transcript} <i>{!cmdAllStatus && cmdApart}</i>
             </h2>
             <h5 style={{ color: "blue" }}>
               (2)
@@ -189,7 +154,7 @@ const Dictaphone = ({ CMDlist }) => {
           </div>
         ) : (
           <div style={disabledAreaStyles}>
-            <h1>(1) {resultSt !== "" ? resultSt : transcript}</h1>
+            <h1>(1){transcript}</h1>
             <h5 style={{ color: "blue" }}>
               (2)
               <i>{interimTranscript}</i> <i id="interimRes"></i>
@@ -201,6 +166,7 @@ const Dictaphone = ({ CMDlist }) => {
             <i>Chỉ cần (1) hoặc (2) đúng là đã đủ chuẩn thực hành.</i>
           </div>
         )}
+        
         <br />
         ***
         <br />
