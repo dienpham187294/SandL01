@@ -96,7 +96,10 @@ const Dictaphone = ({ CMDlist }) => {
 
           if (sim > 0.3 || per > 0.2) {
             item.stt = "check";
-            item.textuse = `${item.text} ~${cmd.text} ~${percent}`;
+            item.textuse =
+              numberTry > 2 && numberTry % 2 === 0
+                ? `~${cmd.text}`
+                : `${item.text} ~${cmd.text} ~${percent}`;
             cmd.stt = true;
           }
         });
@@ -107,7 +110,7 @@ const Dictaphone = ({ CMDlist }) => {
     } catch (err) {
       console.error("Error processing commands in transcript:", err);
     }
-  }, [transcript, CMDlist]);
+  }, [transcript, CMDlist, numberTry]);
 
   // Speech recognition control functions
   const startListening = useCallback(() => {
