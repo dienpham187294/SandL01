@@ -3,12 +3,13 @@ import { socket } from "../App";
 import SpeechRecognition, {
   useSpeechRecognition,
 } from "react-speech-recognition";
-let fnSet = [];
-let fnSetRate = {};
+import stringSimilarity from "string-similarity";
+import levenshtein from "js-levenshtein";
+
 const Dictaphone = ({ CMDlist }) => {
   // State management
   const [numberTry, setNumberTry] = useState(0);
-  const [cmdApart, setCmdApart] = useState([]);
+
   const [cmdApartChat, setCmdApartChat] = useState("");
   const [idDinhDanh] = useState(() => localStorage.getItem("dinhDanh"));
   const [nameDinhDanh] = useState(
@@ -32,28 +33,6 @@ const Dictaphone = ({ CMDlist }) => {
         fuzzyMatchingThreshold: 0.5,
         bestMatchOnly: true,
       },
-      {
-        command: CMDlist.split(" "),
-        callback: (command, n, i) => {
-          try {
-            // setCmdApart((prev) => [...prev, { command, origin: n }]);
-            setCmdApart(command);
-            fnSet.push({
-              command: command.toLocaleLowerCase(),
-              origin: n.toLocaleLowerCase(),
-              i,
-            });
-            console.log(
-              command.toLocaleLowerCase() + "~" + n.toLocaleLowerCase()
-            );
-          } catch (error) {
-            console.error("Error setting command apart:", error);
-          }
-        },
-        isFuzzyMatch: true,
-        fuzzyMatchingThreshold: 0.2,
-        bestMatchOnly: true,
-      },
     ],
     [CMDlist]
   );
@@ -64,43 +43,71 @@ const Dictaphone = ({ CMDlist }) => {
 
   // Reset states when number of tries changes
   useEffect(() => {
-    setCmdApart(null);
-    fnSet = [];
     setresultSt("");
-    fnSetRate = {};
   }, [numberTry]);
 
   // Reset number of tries and function set when command list changes
   useEffect(() => {
     setNumberTry(0);
-    setCmdApart(null);
-    fnSet = [];
     setresultSt("");
-    fnSetRate = {};
   }, [CMDlist]);
 
   useEffect(() => {
-    if (!transcript) return;
+    if (!transcript || !CMDlist?.trim()) return;
 
     try {
-      let updatedResult = transcript.toLocaleLowerCase();
-      fnSet.forEach(({ command, origin, i }) => {
-        const cmdLower = command.toLowerCase();
-        const transcriptLower = transcript.toLowerCase();
-        if (!transcriptLower.includes(cmdLower)) {
-          updatedResult = updatedResult
-            .split(origin)
-            .join("(" + origin + "~" + command + ")");
-          // setCmdApartChat(Math.floor(i * 100) + "%");
-          fnSetRate[command] = origin + " ~ " + Math.floor(i * 100) + "%";
+      const updatedResultSetsObj = transcript
+        .toLowerCase()
+        .split(" ")
+        .map((text) => ({ stt: false, mark: 0, text }));
+
+      const CMDlistSetObj = CMDlist.toLowerCase()
+        .split(" ")
+        .map((text) => ({ stt: false, text }));
+
+      // So khớp từ đơn lẻ
+      updatedResultSetsObj.forEach((word) => {
+        for (const cmd of CMDlistSetObj) {
+          if (
+            !cmd.stt &&
+            stringSimilarity.compareTwoStrings(word.text, cmd.text) > 0.7
+          ) {
+            word.stt = cmd.stt = true;
+            break;
+          }
         }
       });
-      setCmdApartChat(JSON.stringify(fnSetRate));
-      setresultSt(updatedResult);
-    } catch (error) {
-      console.error("Error processing commands in transcript:", error);
+
+      const str1Set = groupByStt(updatedResultSetsObj);
+      const str2set = groupBySttFalseOnly(CMDlistSetObj).map((text) => ({
+        stt: false,
+        text,
+      }));
+
+      // So khớp cụm từ
+      str1Set.forEach((item) => {
+        str2set.forEach((cmd) => {
+          if (cmd.stt) return;
+
+          const sim = stringSimilarity.compareTwoStrings(item.text, cmd.text);
+          const diff = levenshtein(item.text, cmd.text);
+          const per = (item.text.length - diff) / item.text.length;
+          const percent = Math.floor(Math.max(sim, per) * 100) + "%";
+
+          if (sim > 0.3 || per > 0.2) {
+            item.stt = "check";
+            item.textuse = `${item.text} ~${cmd.text} ~${percent}`;
+            cmd.stt = true;
+          }
+        });
+      });
+
+      setresultSt(str1Set);
+      setCmdApartChat(str1Set.map((e) => e.textuse || e.text).join(" "));
+    } catch (err) {
+      console.error("Error processing commands in transcript:", err);
     }
-  }, [transcript, cmdApart]);
+  }, [transcript, CMDlist]);
 
   // Speech recognition control functions
   const startListening = useCallback(() => {
@@ -118,14 +125,13 @@ const Dictaphone = ({ CMDlist }) => {
   const handleSendResults = useCallback(() => {
     stopListening();
     socket.emit("message", {
-      text: resultSt + " | " + (cmdApartChat || ""),
+      text: cmdApartChat,
       time:
         "KQTH_" + (nameDinhDanh || (idDinhDanh ? idDinhDanh.slice(0, 4) : "")),
     });
     resetTranscript();
   }, [
     transcript,
-    cmdApart,
     resultSt,
     nameDinhDanh,
     idDinhDanh,
@@ -194,10 +200,8 @@ const Dictaphone = ({ CMDlist }) => {
         </h5>
         {listening ? (
           <div>
-            <h2>
-              (1)
-              {resultSt !== "" ? resultSt : transcript}
-            </h2>
+            (1)
+            {resultSt !== "" ? ViewRes(resultSt) : transcript}
             <h5 style={{ color: "blue" }}>
               (2)
               <i>{interimTranscript}</i> <i id="interimRes"></i>
@@ -210,7 +214,8 @@ const Dictaphone = ({ CMDlist }) => {
           </div>
         ) : (
           <div style={disabledAreaStyles}>
-            <h1>(1) {resultSt !== "" ? resultSt : transcript}</h1>
+            (1)
+            {resultSt !== "" ? ViewRes(resultSt) : transcript}
             <h5 style={{ color: "blue" }}>
               (2)
               <i>{interimTranscript}</i> <i id="interimRes"></i>
@@ -249,3 +254,170 @@ const Dictaphone = ({ CMDlist }) => {
 };
 
 export default Dictaphone;
+
+function groupByStt(array) {
+  if (!array || array.length === 0) return [];
+
+  const result = [];
+
+  let currentGroup = [];
+  let currentStt = array[0].stt;
+
+  for (const item of array) {
+    if (item.stt === currentStt) {
+      currentGroup.push(item.text);
+    } else {
+      result.push({
+        stt: currentStt,
+        text: currentGroup.join(" "),
+        textuse: currentGroup.join(" "),
+      });
+      currentGroup = [item.text];
+      currentStt = item.stt;
+    }
+  }
+
+  // Thêm nhóm cuối cùng
+  if (currentGroup.length > 0) {
+    result.push({
+      stt: currentStt,
+      text: currentGroup.join(" "),
+      textuse: currentGroup.join(" "),
+    });
+  }
+
+  return result;
+}
+
+function groupBySttFalseOnly(array) {
+  if (!array || array.length === 0) return [];
+
+  const result = [];
+
+  let currentGroup = [];
+  let currentStt = array[0].stt;
+
+  for (const item of array) {
+    if (item.stt === currentStt) {
+      currentGroup.push(item.text);
+    } else {
+      if (currentStt === false && currentGroup.length > 0) {
+        result.push(currentGroup.join(" "));
+      }
+      currentGroup = [item.text];
+      currentStt = item.stt;
+    }
+  }
+
+  // Xử lý nhóm cuối cùng nếu là false
+  if (currentStt === false && currentGroup.length > 0) {
+    result.push(currentGroup.join(" "));
+  }
+
+  return result;
+}
+
+function ViewRes(resultSt) {
+  try {
+    return (
+      <div
+        style={{
+          fontFamily: "'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
+          lineHeight: 1.6,
+          fontSize: "30px",
+          padding: "12px",
+          background: "#fafafa",
+          borderRadius: "8px",
+          boxShadow: "0 1px 3px rgba(0,0,0,0.05)",
+        }}
+      >
+        {resultSt.map((item, index) => {
+          const key = `res-${index}`;
+
+          if (item.stt === false) {
+            // Unmatched items - gray italic
+            return (
+              <i
+                key={key}
+                style={{
+                  color: "#9e9e9e",
+                  marginRight: "4px",
+                  padding: "0 2px",
+                  borderBottom: "1px dotted #d0d0d0",
+                  // fontSize: "0.95rem",
+                  display: "inline-block",
+                }}
+              >
+                {item.textuse}
+              </i>
+            );
+          } else if (item.stt === true) {
+            // Matched items - bold blue
+            return (
+              <span
+                key={key}
+                style={{
+                  color: "#1565c0",
+                  fontWeight: "500",
+                  marginRight: "4px",
+                  padding: "0 2px",
+                  display: "inline-block",
+                }}
+              >
+                {item.textuse}
+              </span>
+            );
+          } else if (item.stt === "check") {
+            // Checked items - underlined teal
+            return (
+              <span
+                key={key}
+                style={{
+                  // fontSize: "1.15rem",
+                  fontStyle: "italic",
+                  color: "#00796b",
+                  textDecoration: "underline",
+                  textDecorationStyle: "dotted",
+                  textDecorationColor: "#80cbc4",
+                  marginRight: "4px",
+                  padding: "0 2px",
+                  display: "inline-block",
+                }}
+              >
+                {item.textuse}
+              </span>
+            );
+          } else {
+            // Default - normal dark text
+            return (
+              <span
+                key={key}
+                style={{
+                  color: "#424242",
+                  marginRight: "4px",
+                  padding: "0 2px",
+                  display: "inline-block",
+                }}
+              >
+                {item.textuse}
+              </span>
+            );
+          }
+        })}
+      </div>
+    );
+  } catch (error) {
+    return (
+      <div
+        style={{
+          color: "#d32f2f",
+          padding: "8px",
+          borderLeft: "3px solid #d32f2f",
+          backgroundColor: "#ffebee",
+        }}
+      >
+        Error rendering results
+      </div>
+    );
+  }
+}
