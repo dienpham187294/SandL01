@@ -1,37 +1,237 @@
 [
   {
     "root": "learninghub",
-    "preName": "Hình ảnh x 5",
+    "preName": "Hình ảnh.5",
     "name": "Phòng ngủ (1)",
     "link": "c1_bedroom_01",
     "id": "socapII"
   },
   {
     "root": "learninghub",
-    "preName": "Hình ảnh x 5",
+    "preName": "Hình ảnh.5",
     "name": "Phòng ngủ (2)",
     "link": "c1_bedroom_02",
     "id": "socapII"
   },
   {
     "root": "learninghub",
-    "preName": "Hình ảnh x 5",
+    "preName": "Hình ảnh.5",
     "name": "Phòng ngủ (3)",
     "link": "c1_bedroom_03",
     "id": "socapII"
   },
   {
     "root": "learninghub",
-    "preName": "Hình ảnh x 5",
+    "preName": "Hình ảnh.5",
     "name": "Phòng bếp (1)",
     "link": "c1_kitchen_01",
     "id": "socapII"
   },
   {
     "root": "learninghub",
-    "preName": "Hình ảnh x 5",
+    "preName": "Hình ảnh.5",
     "name": "Phòng bếp (2)",
     "link": "c1_kitchen_02",
     "id": "socapII"
+  },
+  {
+    "STT": 1,
+    "name": "Bedroom sleeping items",
+    "des": "Bedroom essentials for sleeping and comfort",
+    "preName": "Hình ảnh.5",
+    "link": "aa_bed-room-01",
+    "folder": "basicAA1",
+    "root": "learninghub",
+    "img": "https://i.postimg.cc/c4pvFybx/A1-Bed.png"
+  },
+  {
+    "STT": 2,
+    "name": "Bedroom furniture & accessories",
+    "des": "Furniture and accessories in the bedroom",
+    "preName": "Hình ảnh.5",
+    "link": "aa_bed-room-02",
+    "folder": "basicAA1",
+    "root": "learninghub",
+    "img": "https://i.postimg.cc/J0yhQP3H/A6-Bolster.png"
+  },
+  {
+    "STT": 3,
+    "name": "Bedroom daily use items",
+    "des": "Items for light, air, and daily use in bedroom",
+    "preName": "Hình ảnh.5",
+    "link": "aa_bed-room-03",
+    "folder": "basicAA1",
+    "root": "learninghub",
+    "img": "https://i.postimg.cc/j2CDFsT5/A11-Alarm-Clock.png"
+  },
+  {
+    "STT": 4,
+    "name": "Kitchen cooking tools",
+    "des": "Cooking tools in the kitchen",
+    "preName": "Hình ảnh.5",
+    "link": "aa_kitchen-01",
+    "folder": "basicAA1",
+    "root": "learninghub",
+    "img": "https://i.postimg.cc/Y902pbsD/A16-Gas-stove.png"
+  },
+  {
+    "STT": 5,
+    "name": "Kitchen utensils",
+    "des": "Utensils for preparing and serving food",
+    "preName": "Hình ảnh.5",
+    "link": "aa_kitchen-02",
+    "folder": "basicAA1",
+    "root": "learninghub",
+    "img": "https://i.postimg.cc/kXKS3g86/A21-Cutting-board.png"
+  },
+  {
+    "STT": 6,
+    "name": "Kitchen appliances & tools",
+    "des": "Kitchen appliances and eating utensils",
+    "preName": "Hình ảnh.5",
+    "link": "aa_kitchen-03",
+    "folder": "basicAA1",
+    "root": "learninghub",
+    "img": "https://i.postimg.cc/cJ9gMgqj/A26-Spoon.png"
+  },
+  {
+    "STT": 7,
+    "name": "Kitchen storage items",
+    "des": "Storage and supporting kitchen items",
+    "preName": "Hình ảnh.5",
+    "link": "aa_kitchen-04",
+    "folder": "basicAA1",
+    "root": "learninghub",
+    "img": "https://i.postimg.cc/gkVxtBF3/A31-Kitchen-shelf.png"
+  },
+  {
+    "STT": 8,
+    "name": "Living room essentials",
+    "des": "Furniture and entertainment in the living room",
+    "preName": "Hình ảnh.5",
+    "link": "aa_living-room-01",
+    "folder": "basicAA1",
+    "root": "learninghub",
+    "img": "https://i.postimg.cc/HnGLBb6S/A36-Sofa.png"
+  },
+  {
+    "STT": 9,
+    "name": "Living room decor & utilities",
+    "des": "Decor and utilities in the living room",
+    "preName": "Hình ảnh.5",
+    "link": "aa_living-room-02",
+    "folder": "basicAA1",
+    "root": "learninghub",
+    "img": "https://i.postimg.cc/65fQf2n0/A41-Lamp.png"
+  },
+  {
+    "STT": 10,
+    "name": "Bathroom hygiene tools",
+    "des": "Basic hygiene tools in the bathroom",
+    "preName": "Hình ảnh.5",
+    "link": "aa_bathroom-01",
+    "folder": "basicAA1",
+    "root": "learninghub",
+    "img": "https://i.postimg.cc/qRKJhzp2/A46-Bathtub.png"
+  },
+  {
+    "STT": 11,
+    "name": "Bathroom cleaning items",
+    "des": "Cleaning and toiletry items",
+    "preName": "Hình ảnh.5",
+    "link": "aa_bathroom-02",
+    "folder": "basicAA1",
+    "root": "learninghub",
+    "img": "https://i.postimg.cc/ZK4bnb2y/A51-Toothpaste.png"
+  },
+  {
+    "STT": 12,
+    "name": "Bathroom & laundry items",
+    "des": "Bathroom and laundry essentials",
+    "preName": "Hình ảnh.5",
+    "link": "aa_bathroom-laundry-01",
+    "folder": "basicAA1",
+    "root": "learninghub",
+    "img": "https://i.postimg.cc/GpWrCdvt/A56-Soap.png"
+  },
+  {
+    "STT": 13,
+    "name": "Laundry tools & care items",
+    "des": "Laundry care and organization",
+    "preName": "Hình ảnh.5",
+    "link": "aa_laundry-room-02",
+    "folder": "basicAA1",
+    "root": "learninghub",
+    "img": "https://i.postimg.cc/SNS4qZY6/A61-Iron.png"
+  },
+  {
+    "STT": 14,
+    "name": "Common electronic devices",
+    "des": "Common personal electronic devices",
+    "preName": "Hình ảnh.5",
+    "link": "aa_electronics-01",
+    "folder": "basicAA1",
+    "root": "learninghub",
+    "img": "https://i.postimg.cc/jj70vmBb/A66-Smartphone.png"
+  },
+  {
+    "STT": 15,
+    "name": "Media & computer electronics",
+    "des": "Electronics for media and computer use",
+    "preName": "Hình ảnh.5",
+    "link": "aa_electronics-02",
+    "folder": "basicAA1",
+    "root": "learninghub",
+    "img": "https://i.postimg.cc/gcD9Mvtn/A71-Speaker.png"
+  },
+  {
+    "STT": 16,
+    "name": "Useful everyday items",
+    "des": "Everyday useful items",
+    "preName": "Hình ảnh.5",
+    "link": "aa_general-01",
+    "folder": "basicAA1",
+    "root": "learninghub",
+    "img": "https://i.postimg.cc/25vMnvBj/A76-Clock.png"
+  },
+  {
+    "STT": 17,
+    "name": "General daily use items",
+    "des": "Mixed items for daily use",
+    "preName": "Hình ảnh.5",
+    "link": "aa_general-02",
+    "folder": "basicAA1",
+    "root": "learninghub",
+    "img": "https://i.postimg.cc/2jTJdC3W/A81-Umbrella.png"
+  },
+  {
+    "STT": 18,
+    "name": "School & office supplies",
+    "des": "Stationery for school or office",
+    "preName": "Hình ảnh.5",
+    "link": "aa_general-03",
+    "folder": "basicAA1",
+    "root": "learninghub",
+    "img": "https://i.postimg.cc/wBh41pS7/A86-Pencil.png"
+  },
+  {
+    "STT": 19,
+    "name": "Miscellaneous household items",
+    "des": "Miscellaneous items at home or work",
+    "preName": "Hình ảnh.5",
+    "link": "aa_general-04",
+    "folder": "basicAA1",
+    "root": "learninghub",
+    "img": "https://i.postimg.cc/bY6CDLFH/A91-Tape.png"
+  },
+  {
+    "STT": 20,
+    "name": "Home tools & small devices",
+    "des": "Small home tools and devices",
+    "preName": "Hình ảnh.5",
+    "link": "aa_general-05",
+    "folder": "basicAA1",
+    "root": "learninghub",
+    "img": "https://i.postimg.cc/fbj5wv9d/A96-Mirror.png"
   }
 ]

@@ -280,30 +280,39 @@ function returnDropdown(name, inputSets, keysSets, link) {
       id="basic-nav-dropdown"
       // className="dropup" // Thêm lớp "dropup" để tạo drop-up
     >
-      {inputSets.map((e, i) =>
-        (() => {
-          const urlPath =
-            e.root !== null
-              ? `/${e.root}/` + e[keysSets.link] + `?ls=0`
-              : `/${e[keysSets.link]}?ls=0`;
-          return (
-            <NavDropdown.Item key={i} as={Link} to={urlPath}>
-              {e[keysSets.preName] ? (
-                <span
-                  style={{
-                    width: "150px",
-                    borderBottom: "1px solid black",
-                    display: "inline-block",
-                  }}
-                >
-                  <i>{e[keysSets.preName]}</i>
-                </span>
-              ) : null}
-              {"  "} {e[keysSets.name]}
-            </NavDropdown.Item>
-          );
-        })()
-      )}
+      <div
+        style={{
+          maxHeight: "60vh",
+          overflowY: "auto",
+          overflowX: "hidden",
+          width: "100%",
+        }}
+      >
+        {inputSets.map((e, i) =>
+          (() => {
+            const urlPath =
+              e.root !== null
+                ? `/${e.root}/` + e[keysSets.link] + `?ls=0`
+                : `/${e[keysSets.link]}?ls=0`;
+            return (
+              <NavDropdown.Item key={i} as={Link} to={urlPath}>
+                {e[keysSets.preName] ? (
+                  <span
+                    style={{
+                      width: "150px",
+                      borderBottom: "1px solid black",
+                      display: "inline-block",
+                    }}
+                  >
+                    <i>{e[keysSets.preName]}</i>
+                  </span>
+                ) : null}
+                {"  "} {e[keysSets.name]}
+              </NavDropdown.Item>
+            );
+          })()
+        )}
+      </div>
     </NavDropdown>
   );
 }
