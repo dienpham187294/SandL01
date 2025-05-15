@@ -57,7 +57,6 @@ const Dictaphone = ({ CMDlist }) => {
       let obj1 = {
         transcript: transcript,
         CMDlist: CMDlist,
-        numberTry: numberTry,
       };
       let requestOptions = {
         method: "POST",
@@ -75,7 +74,7 @@ const Dictaphone = ({ CMDlist }) => {
     } catch (error) {
       console.log(error);
     }
-  }, [interimTranscript, transcript, CMDlist, numberTry]);
+  }, [interimTranscript, transcript, CMDlist]);
 
   // Speech recognition control functions
   const startListening = useCallback(() => {

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useParams, useLocation, useNavigate } from "react-router-dom";
+import { useParams, useLocation, useNavigate, json } from "react-router-dom";
 import { socket } from "../App";
 import "bootstrap/dist/css/bootstrap.min.css";
 import PracticeDIV from "./pracPages/B101_FINAL_PROJECTS";
@@ -108,6 +108,7 @@ const Room = ({ setSttRoom }) => {
         throw new Error("Network response was not ok");
       }
       const data = await response.json();
+
       setDataPracticingOverRoll(data);
 
       let firstList = [currentIndex || 0];
@@ -117,18 +118,20 @@ const Room = ({ setSttRoom }) => {
           firstList = newList;
         }
       } catch (error) {}
-      setDataPracticingCharactor(
-        interleaveCharacters(
-          data,
-          firstList,
-          1,
-          setIndexSets,
-          params.get("b"),
-          params.get("up"),
-          params.get("random"),
-          params.get("fsp")
-        )
+
+      const get_data_interleaveCharacters = interleaveCharacters(
+        data,
+        firstList,
+        params.get("b"),
+        params.get("up"),
+        params.get("random"),
+        params.get("fsp")
       );
+
+      setDataPracticingCharactor(
+        get_data_interleaveCharacters.interleaveCharacters_DATA
+      );
+      setIndexSets(get_data_interleaveCharacters.IndexSets);
     } catch (error) {
       console.error("Error fetching data:", error);
     }
@@ -351,6 +354,106 @@ const Room = ({ setSttRoom }) => {
           </button>
         ) : null}
         <br />
+        <hr />
+        <div>
+          <input
+            className="form-control"
+            id="nameInput"
+            placeholder="Nhập tên (bắt buộc, tối đa 10 ký tự)"
+            maxLength={10}
+            onChange={(e) => {
+              if (e.target.value.length > 10) {
+                e.target.value = e.target.value.slice(0, 10);
+              }
+            }}
+          />
+          <input
+            className="form-control"
+            id="emailInput"
+            placeholder="Nhập email nếu muốn nhận thông báo"
+          />
+          <button
+            onClick={() => {
+              // Get input values
+              const nameValue = document.getElementById("nameInput").value;
+              const emailValue = document.getElementById("emailInput").value;
+
+              // Check if name is provided and not too long
+              if (!nameValue.trim()) {
+                alert("Vui lòng nhập tên để nộp bài");
+                return;
+              }
+
+              if (nameValue.trim().length > 10) {
+                alert("Tên không được vượt quá 10 ký tự");
+                return;
+              }
+
+              // Check email format if provided
+              if (emailValue.trim() && !emailValue.includes("@")) {
+                alert("Vui lòng nhập email đúng định dạng (phải có @)");
+                return;
+              }
+
+              // Disable button during submission
+              const submitButton = document.activeElement;
+              submitButton.disabled = true;
+              submitButton.innerHTML = "ĐANG NỘP BÀI...";
+
+              try {
+                const requestBody = {
+                  subjectText:
+                    "Nộp bài tập: " +
+                    decodeURIComponent(params.get("time")) +
+                    " | Điểm: " +
+                    Score +
+                    " | " +
+                    formatTime(new Date()) +
+                    " | Link: " +
+                    window.location.href,
+                  contentText: window.location.href,
+                  toEmail: emailValue.trim() ? emailValue : null,
+                };
+
+                fetch(LinkAPI + "mail-homework", {
+                  method: "POST",
+                  headers: { "Content-Type": "application/json" },
+                  body: JSON.stringify(requestBody),
+                })
+                  .then((response) => response.json())
+                  .then((json) => {
+                    if (json.success) {
+                      alert("Đã nộp bài thành công");
+                      setScore(0);
+                    } else {
+                      alert("Nộp bài không thành công, vui lòng thử lại");
+                    }
+                    // Re-enable button after response received
+                    submitButton.disabled = false;
+                    submitButton.innerHTML = "NỘP BÀI TẬP VỀ NHÀ";
+                  })
+                  .catch((error) => {
+                    console.error("Lỗi khi nộp bài:", error);
+                    alert("Có lỗi xảy ra, vui lòng thử lại sau");
+                    // Re-enable button after error
+                    submitButton.disabled = false;
+                    submitButton.innerHTML = "NỘP BÀI TẬP VỀ NHÀ";
+                  });
+              } catch (error) {
+                console.error("Lỗi:", error);
+                alert("Có lỗi xảy ra, vui lòng thử lại sau");
+                // Re-enable button after error
+                submitButton.disabled = false;
+                submitButton.innerHTML = "NỘP BÀI TẬP VỀ NHÀ";
+              }
+            }}
+            className={`btn ${Score > 20 ? "btn-danger" : "btn-secondary"}`}
+            disabled={Score <= 20}
+            style={Score <= 20 ? { opacity: 0.6, cursor: "not-allowed" } : {}}
+          >
+            NỘP BÀI TẬP VỀ NHÀ
+          </button>
+        </div>
       </div>
 
       <div style={{ flex: 8 }}>
@@ -486,8 +589,6 @@ export default Room;
 function interleaveCharacters(
   data_all,
   index_sets_t_get_pracData,
-  reverse,
-  setIndexSets,
   filerSets,
   upCode,
   random,
@@ -526,13 +627,13 @@ function interleaveCharacters(
     });
   }
   console.log(arrRes.length, "Số phần tử bài học");
-
+  let getdata_indexSet = [];
   if (random === "true") {
-    setIndexSets(generateRandomArray(arrRes.length, true));
+    getdata_indexSet = generateRandomArray(arrRes.length, true);
   } else {
-    setIndexSets(generateRandomArray(arrRes.length, false));
+    getdata_indexSet = generateRandomArray(arrRes.length, false);
   }
-  return arrRes;
+  return { interleaveCharacters_DATA: arrRes, indexSet_DATA: getdata_indexSet };
 }
 function filer_type_o_charactor(charactorSets, filerTypeSetsStringValue, fsp) {
   try {

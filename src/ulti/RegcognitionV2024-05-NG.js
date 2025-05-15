@@ -4,7 +4,7 @@ import SpeechRecognition, {
 } from "react-speech-recognition";
 import stringSimilarity from "string-similarity";
 import ReadMessage from "./ReadMessage_2024";
-
+import LinkAPI from "./T0_linkApi";
 // import { socket } from "../App";
 
 let commands = [];
@@ -159,26 +159,30 @@ const Dictaphone = ({
   //   }
   // }, [interimTranscript]);
 
-  function check(RegInput) {
-    if (RegInput !== null) {
-      setMessage(RegInput);
-      const processedInput = removeDuplicates(RegInput);
-      const objTR_00 = findMostSimilarQuestion(RegInput, CMDlist, regRate_01);
-      const objTR_01 = findMostSimilarQuestion(
-        otherGetInterim,
-        CMDlist,
-        regRate_01
-      );
-      const objTR_02 = findMostSimilarQuestion(
-        processedInput,
-        CMDlist,
-        regRate_01
-      );
+  async function check(RegInput) {
+    if (!RegInput) return;
 
-      let objTR = objTR_00 || objTR_02 || objTR_01;
+    setMessage(RegInput);
 
-      if (objTR === null) {
-        // Nếu không tìm thấy câu trả lời, đọc thông điệp yêu cầu làm rõ
+    try {
+      const requestBody = {
+        RegInput,
+        CMDlist,
+        regRate_01,
+      };
+
+      const response = await fetch(LinkAPI + "reg-Analyze-in-prac", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(requestBody),
+      });
+
+      const json = await response.json();
+
+      let objTR = json.success ? json.data : null;
+
+      if (!objTR) {
+        // If no result, respond with clarification prompt
         ReadMessage(
           ObjVoices,
           "Sorry, what did you say?",
@@ -186,7 +190,7 @@ const Dictaphone = ({
           GENDER === 1 ? [{ id: "sorryFemale" }] : [{ id: "sorryMale" }]
         );
       } else {
-        // Xử lý đối tượng câu trả lời nếu tồn tại
+        // Respond with the answer
         const answer = objTR.aw ? getRandomElementFromArray(objTR.aw) : null;
         const voice = objTR.aw01 || undefined;
 
@@ -199,13 +203,16 @@ const Dictaphone = ({
           );
         }
 
-        // Xử lý hành động nếu có
-        if (objTR.action && objTR.action[0] === "WRONG") {
-          setScore((S) => S - 1.5);
-        } else if (objTR.action && objTR.action[0] !== "WRONG") {
+        // Handle actions
+        if (objTR.action?.[0] === "WRONG") {
+          setScore((prev) => prev - 1.5);
+        } else if (objTR.action?.[0]) {
           addElementIfNotExist(objTR.action[0]);
         }
       }
+    } catch (error) {
+      console.error("Error during check():", error);
+    } finally {
       setGetSTTDictaphone(false);
     }
   }
@@ -308,44 +315,6 @@ function removeAccentsAndLowercase(str) {
     .toLowerCase();
 }
 
-// Function to find the most similar question object
-function findMostSimilarQuestion(statement, questions, regRate_01) {
-  let maxSimilarity = -1;
-  let mostSimilarQuestion = null;
-
-  // Normalize the statement
-  const normalizedStatement = removeAccentsAndLowercase(statement);
-
-  // Function to check if the string contains a number
-  function containsNumber(str) {
-    // return /\d/.test(str);
-    return str.includes(":");
-  }
-
-  // Set the similarity threshold based on whether the statement contains a number
-  const similarityThreshold = regRate_01;
-
-  questions.forEach((questionObj) => {
-    // Loop through each question in the array "qs"
-    questionObj.qs.forEach((qs) => {
-      const normalizedQuestion = removeAccentsAndLowercase(qs);
-
-      const similarity = stringSimilarity.compareTwoStrings(
-        normalizedStatement,
-        normalizedQuestion
-      );
-
-      // Check similarity and update if greater than maxSimilarity
-      if (similarity >= similarityThreshold && similarity > maxSimilarity) {
-        maxSimilarity = similarity;
-        mostSimilarQuestion = questionObj;
-      }
-    });
-  });
-
-  return mostSimilarQuestion; // Return null if no suitable match is found
-}
-
 // Function to get a random element from an array
 function getRandomElementFromArray(array) {
   if (array.length === 0) {
@@ -353,19 +322,4 @@ function getRandomElementFromArray(array) {
   }
   const randomIndex = Math.floor(Math.random() * array.length);
   return array[randomIndex];
-}
-
-function removeDuplicates(sentence) {
-  const words = sentence.split(" "); // Tách câu thành mảng các từ
-  const seen = new Set(); // Tạo một Set để lưu các từ đã gặp
-  const result = [];
-
-  for (const word of words) {
-    if (!seen.has(word)) {
-      result.push(word);
-      seen.add(word); // Thêm từ vào Set nếu chưa gặp
-    }
-  }
-
-  return result.join(" "); // Ghép lại các từ thành câu mới
 }
