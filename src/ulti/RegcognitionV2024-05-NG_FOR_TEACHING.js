@@ -3,13 +3,12 @@ import { socket } from "../App";
 import SpeechRecognition, {
   useSpeechRecognition,
 } from "react-speech-recognition";
-import stringSimilarity from "string-similarity";
-import levenshtein from "js-levenshtein";
 
+import LinkAPI from "./T0_linkApi";
 const Dictaphone = ({ CMDlist }) => {
   // State management
   const [numberTry, setNumberTry] = useState(0);
-
+  const [SimilarCheckSet, setSimilarCheckSet] = useState("");
   const [cmdApartChat, setCmdApartChat] = useState("");
   const [idDinhDanh] = useState(() => localStorage.getItem("dinhDanh"));
   const [nameDinhDanh] = useState(
@@ -53,64 +52,30 @@ const Dictaphone = ({ CMDlist }) => {
   }, [CMDlist]);
 
   useEffect(() => {
-    if (!transcript || !CMDlist?.trim()) return;
-
+    if (interimTranscript !== "" || !transcript || !CMDlist?.trim()) return;
     try {
-      const updatedResultSetsObj = transcript
-        .toLowerCase()
-        .split(" ")
-        .map((text) => ({ stt: false, mark: 0, text }));
-
-      const CMDlistSetObj = CMDlist.toLowerCase()
-        .split(" ")
-        .map((text) => ({ stt: false, text }));
-
-      // So khớp từ đơn lẻ
-      updatedResultSetsObj.forEach((word) => {
-        for (const cmd of CMDlistSetObj) {
-          if (
-            !cmd.stt &&
-            stringSimilarity.compareTwoStrings(word.text, cmd.text) > 0.7
-          ) {
-            word.stt = cmd.stt = true;
-            break;
-          }
-        }
-      });
-
-      const str1Set = groupByStt(updatedResultSetsObj);
-      const str2set = groupBySttFalseOnly(CMDlistSetObj).map((text) => ({
-        stt: false,
-        text,
-      }));
-
-      // So khớp cụm từ
-      str1Set.forEach((item) => {
-        str2set.forEach((cmd) => {
-          if (cmd.stt) return;
-
-          const sim = stringSimilarity.compareTwoStrings(item.text, cmd.text);
-          const diff = levenshtein(item.text, cmd.text);
-          const per = (item.text.length - diff) / item.text.length;
-          const percent = Math.floor(Math.max(sim, per) * 100) + "%";
-
-          if (sim > 0.3 || per > 0.2) {
-            item.stt = "check";
-            item.textuse =
-              numberTry > 2 && numberTry % 2 === 0
-                ? `~${cmd.text}`
-                : `${item.text} ~${cmd.text} ~${percent}`;
-            cmd.stt = true;
-          }
+      let obj1 = {
+        transcript: transcript,
+        CMDlist: CMDlist,
+        numberTry: numberTry,
+      };
+      let requestOptions = {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(obj1),
+      };
+      // console.log(LinkAPI + "test", requestOptions);
+      fetch(LinkAPI + "reg-Analyze", requestOptions)
+        .then((res) => res.json())
+        .then((json) => {
+          setresultSt(json.data.resultSt);
+          setCmdApartChat(json.data.CmdApartChat);
+          setSimilarCheckSet(json.data.similaritySetCheckRs.join(" | "));
         });
-      });
-
-      setresultSt(str1Set);
-      setCmdApartChat(str1Set.map((e) => e.textuse || e.text).join(" "));
-    } catch (err) {
-      console.error("Error processing commands in transcript:", err);
+    } catch (error) {
+      console.log(error);
     }
-  }, [transcript, CMDlist, numberTry]);
+  }, [interimTranscript, transcript, CMDlist, numberTry]);
 
   // Speech recognition control functions
   const startListening = useCallback(() => {
@@ -128,7 +93,7 @@ const Dictaphone = ({ CMDlist }) => {
   const handleSendResults = useCallback(() => {
     stopListening();
     socket.emit("message", {
-      text: cmdApartChat,
+      text: cmdApartChat + " | " + SimilarCheckSet,
       time:
         "KQTH_" + (nameDinhDanh || (idDinhDanh ? idDinhDanh.slice(0, 4) : "")),
     });
@@ -203,29 +168,24 @@ const Dictaphone = ({ CMDlist }) => {
         </h5>
         {listening ? (
           <div>
-            (1)
-            {resultSt !== "" ? ViewRes(resultSt) : transcript}
+            {ViewRes(resultSt, interimTranscript)}
             <h5 style={{ color: "blue" }}>
               (2)
-              <i>{interimTranscript}</i> <i id="interimRes"></i>
+              <i id="interimRes"></i>
             </h5>
             <button className="btn btn-danger" onClick={handleSendResults}>
               XONG GỬI KẾT QUẢ
             </button>
             <hr />
+            <div style={{ color: "purple" }}> {SimilarCheckSet}</div> <hr />
             <i>Chỉ cần (1) hoặc (2) đúng là đã đủ chuẩn thực hành.</i>
           </div>
         ) : (
           <div style={disabledAreaStyles}>
             (1)
-            {resultSt !== "" ? ViewRes(resultSt) : transcript}
-            <h5 style={{ color: "blue" }}>
-              (2)
-              <i>{interimTranscript}</i> <i id="interimRes"></i>
-            </h5>
-            <button className="btn btn-danger" disabled>
-              XONG GỬI KẾT QUẢ
-            </button>
+            {ViewRes(resultSt, transcript)}
+            <hr />
+            <div style={{ color: "purple" }}> {SimilarCheckSet}</div>
             <hr />
             <i>Chỉ cần (1) hoặc (2) đúng là đã đủ chuẩn thực hành.</i>
           </div>
@@ -258,155 +218,168 @@ const Dictaphone = ({ CMDlist }) => {
 
 export default Dictaphone;
 
-function groupByStt(array) {
-  if (!array || array.length === 0) return [];
+function ViewRes(resultSt = [], interimTranscript = "") {
+  // Use React hooks for animation effect
+  const [prevInterim, setPrevInterim] = React.useState("");
+  const [isTransitioning, setIsTransitioning] = React.useState(false);
+  const [prevResultLength, setPrevResultLength] = React.useState(0);
 
-  const result = [];
-
-  let currentGroup = [];
-  let currentStt = array[0].stt;
-
-  for (const item of array) {
-    if (item.stt === currentStt) {
-      currentGroup.push(item.text);
-    } else {
-      result.push({
-        stt: currentStt,
-        text: currentGroup.join(" "),
-        textuse: currentGroup.join(" "),
-      });
-      currentGroup = [item.text];
-      currentStt = item.stt;
+  // Effect to handle smooth transitions when interim disappears
+  React.useEffect(() => {
+    // When interim changes from something to empty
+    if (prevInterim && !interimTranscript) {
+      setIsTransitioning(true);
+      setTimeout(() => setIsTransitioning(false), 300); // Match transition duration
     }
-  }
 
-  // Thêm nhóm cuối cùng
-  if (currentGroup.length > 0) {
-    result.push({
-      stt: currentStt,
-      text: currentGroup.join(" "),
-      textuse: currentGroup.join(" "),
-    });
-  }
+    // Track previous interim value
+    setPrevInterim(interimTranscript);
 
-  return result;
-}
-
-function groupBySttFalseOnly(array) {
-  if (!array || array.length === 0) return [];
-
-  const result = [];
-
-  let currentGroup = [];
-  let currentStt = array[0].stt;
-
-  for (const item of array) {
-    if (item.stt === currentStt) {
-      currentGroup.push(item.text);
-    } else {
-      if (currentStt === false && currentGroup.length > 0) {
-        result.push(currentGroup.join(" "));
-      }
-      currentGroup = [item.text];
-      currentStt = item.stt;
+    // Track result length changes
+    if (resultSt && resultSt.length !== prevResultLength) {
+      setPrevResultLength(resultSt?.length || 0);
     }
-  }
+  }, [interimTranscript, resultSt, prevInterim, prevResultLength]);
 
-  // Xử lý nhóm cuối cùng nếu là false
-  if (currentStt === false && currentGroup.length > 0) {
-    result.push(currentGroup.join(" "));
-  }
-
-  return result;
-}
-
-function ViewRes(resultSt) {
   try {
-    return (
-      <div
-        style={{
-          fontFamily: "'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
-          lineHeight: 1.6,
-          fontSize: "30px",
-          padding: "12px",
-          background: "#fafafa",
-          borderRadius: "8px",
-          boxShadow: "0 1px 3px rgba(0,0,0,0.05)",
-        }}
-      >
-        {resultSt.map((item, index) => {
-          const key = `res-${index}`;
+    // Define transition styles for smoother updates
+    const containerStyle = {
+      fontFamily: "'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
+      lineHeight: 1.6,
+      fontSize: "30px",
+      padding: "12px",
+      background: "#fafafa",
+      borderRadius: "8px",
+      boxShadow: "0 1px 3px rgba(0,0,0,0.05)",
+      transition: "all 0.3s ease-in-out",
+    };
 
-          if (item.stt === false) {
-            // Unmatched items - gray italic
-            return (
-              <i
-                key={key}
-                style={{
-                  color: "#9e9e9e",
-                  marginRight: "4px",
-                  padding: "0 2px",
-                  borderBottom: "1px dotted #d0d0d0",
-                  // fontSize: "0.95rem",
-                  display: "inline-block",
-                }}
-              >
-                {item.textuse}
-              </i>
-            );
-          } else if (item.stt === true) {
-            // Matched items - bold blue
-            return (
-              <span
-                key={key}
-                style={{
-                  color: "#1565c0",
-                  fontWeight: "500",
-                  marginRight: "4px",
-                  padding: "0 2px",
-                  display: "inline-block",
-                }}
-              >
-                {item.textuse}
-              </span>
-            );
-          } else if (item.stt === "check") {
-            // Checked items - underlined teal
-            return (
-              <span
-                key={key}
-                style={{
-                  // fontSize: "1.15rem",
-                  fontStyle: "italic",
-                  color: "#00796b",
-                  textDecoration: "underline",
-                  textDecorationStyle: "dotted",
-                  textDecorationColor: "#80cbc4",
-                  marginRight: "4px",
-                  padding: "0 2px",
-                  display: "inline-block",
-                }}
-              >
-                {item.textuse}
-              </span>
-            );
-          } else {
-            // Default - normal dark text
-            return (
-              <span
-                key={key}
-                style={{
-                  color: "#424242",
-                  marginRight: "4px",
-                  padding: "0 2px",
-                  display: "inline-block",
-                }}
-              >
-                {item.textuse}
-              </span>
-            );
-          }
-        })}
+    // Style for interim text with smooth fade effect
+    const interimStyle = {
+      fontStyle: "italic",
+      color: "#9e9e9e",
+      marginLeft: "8px",
+      opacity: interimTranscript ? 0.8 : isTransitioning ? 0.4 : 0,
+      transition: "opacity 0.3s ease-in-out, transform 0.25s ease-out",
+      position: "relative",
+      display: "inline-block",
+      minWidth: interimTranscript || isTransitioning ? "8px" : "0",
+      minHeight: interimTranscript || isTransitioning ? "1em" : "0",
+      transform: interimTranscript ? "translateY(0)" : "translateY(5px)",
+      maxWidth: "100%",
+      whiteSpace: "pre-wrap",
+      overflow: "hidden",
+    };
+
+    // Common styles for result items with transitions
+    const itemBaseStyle = {
+      marginRight: "4px",
+      padding: "0 2px",
+      display: "inline-block",
+      transition:
+        "color 0.3s ease, transform 0.2s ease, opacity 0.3s ease, background-color 0.3s ease",
+      animation: "fadeIn 0.3s ease-in-out",
+    };
+
+    // Add keyframe animation for new items
+    const keyframes = `
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(8px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      
+      @keyframes highlightNew {
+        0% { background-color: rgba(3, 169, 244, 0.15); }
+        100% { background-color: transparent; }
+      }
+    `;
+
+    return (
+      <div style={containerStyle}>
+        <style>{keyframes}</style>
+        (1)
+        {resultSt &&
+          resultSt.map((item, index) => {
+            const key = `res-${index}`;
+            // Determine if this is a new item
+            const isNew = index >= prevResultLength && prevResultLength > 0;
+            const animationStyle = isNew
+              ? {
+                  animation: "fadeIn 0.4s ease-out, highlightNew 1.2s ease-out",
+                  animationFillMode: "both",
+                }
+              : {};
+
+            if (item.stt === false) {
+              // Unmatched items - gray italic
+              return (
+                <i
+                  key={key}
+                  style={{
+                    ...itemBaseStyle,
+                    ...animationStyle,
+                    color: "#9e9e9e",
+                    borderBottom: "1px dotted #d0d0d0",
+                    opacity: 0.9,
+                  }}
+                >
+                  {item.textuse}
+                </i>
+              );
+            } else if (item.stt === true) {
+              // Matched items - bold blue
+              return (
+                <span
+                  key={key}
+                  style={{
+                    ...itemBaseStyle,
+                    ...animationStyle,
+                    color: "#1565c0",
+                    fontWeight: "500",
+                    opacity: 1,
+                  }}
+                >
+                  {item.textuse}
+                </span>
+              );
+            } else if (item.stt === "check") {
+              // Checked items - underlined teal
+              return (
+                <span
+                  key={key}
+                  style={{
+                    ...itemBaseStyle,
+                    ...animationStyle,
+                    fontStyle: "italic",
+                    color: "#00796b",
+                    textDecoration: "underline",
+                    textDecorationStyle: "line",
+                    textDecorationColor: "#80cbc4",
+                  }}
+                >
+                  {item.textuse}
+                </span>
+              );
+            } else {
+              // Default - normal dark text
+              return (
+                <span
+                  key={key}
+                  style={{
+                    ...itemBaseStyle,
+                    ...animationStyle,
+                    color: "#424242",
+                  }}
+                >
+                  {item.textuse}
+                </span>
+              );
+            }
+          })}
+        {/* Interim transcript with animation effect */}
+        <span style={interimStyle}>
+          {interimTranscript || (isTransitioning ? prevInterim : "")}
+        </span>
       </div>
     );
   } catch (error) {
@@ -417,6 +390,7 @@ function ViewRes(resultSt) {
           padding: "8px",
           borderLeft: "3px solid #d32f2f",
           backgroundColor: "#ffebee",
+          transition: "all 0.3s ease",
         }}
       >
         Error rendering results
