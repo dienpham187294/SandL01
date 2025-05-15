@@ -356,22 +356,24 @@ const Room = ({ setSttRoom }) => {
         <br />
         <hr />
         <div>
+          <i>Chỉ dùng để nộp bài tập về nhà!</i>
+          <b>Nhập tên khi nộp bài!</b>
           <input
             className="form-control"
             id="nameInput"
             placeholder="Nhập tên (bắt buộc, tối đa 10 ký tự)"
-            maxLength={10}
+            maxLength={20}
             onChange={(e) => {
-              if (e.target.value.length > 10) {
-                e.target.value = e.target.value.slice(0, 10);
+              if (e.target.value.length > 20) {
+                e.target.value = e.target.value.slice(0, 20);
               }
             }}
           />
-          <input
+          {/* <input
             className="form-control"
             id="emailInput"
             placeholder="Nhập email nếu muốn nhận thông báo"
-          />
+          /> */}
           <button
             onClick={() => {
               // Get input values
