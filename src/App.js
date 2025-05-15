@@ -24,9 +24,6 @@ import LearningHub_prac_st_only from "./components/LearningHub_prac_st_only";
 // import PixiCanvas from "./components/PixiJS";
 // import RootPrac from "./components/prac_componets/B1_RootPrac";
 
-
-
-
 const LinkAPI =
   window.location.hostname === "localhost"
     ? "http://localhost:5000"
