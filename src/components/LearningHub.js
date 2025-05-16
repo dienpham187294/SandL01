@@ -349,12 +349,10 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                               encodeURIComponent(DeCodeText);
 
                             socket.emit("message", {
-                              text: fullURL,
+                              text: "LUYỆN TẬP CÂU: " + stParam + fullURL,
                               time:
-                                (nameDinhDanh ||
-                                  (idDinhDanh ? idDinhDanh.slice(0, 4) : "")) +
-                                "_Luyện tập câu:" +
-                                stParam,
+                                nameDinhDanh ||
+                                (idDinhDanh ? idDinhDanh.slice(0, 4) : ""),
                             });
                           } catch (error) {
                             console.error("Lỗi khi gửi link thực hành:", error);

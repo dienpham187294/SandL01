@@ -220,6 +220,21 @@ const ChatWidget = () => {
                                   const parsedUrl = new URL(e);
                                   const pathOnly =
                                     parsedUrl.pathname + parsedUrl.search;
+                                  const isPhamVanDien =
+                                    e.includes("/phamvandien.id.vn");
+                                  const isCurrentPhamVanDien =
+                                    window.location.href.includes(
+                                      "/phamvandien.id.vn"
+                                    );
+
+                                  if (
+                                    (isPhamVanDien && isCurrentPhamVanDien) ||
+                                    !isPhamVanDien
+                                  ) {
+                                    window.location.href = e;
+                                    return;
+                                  }
+
                                   if (e.includes("/roomoffline")) {
                                     navigate("/");
                                     setTimeout(() => {
