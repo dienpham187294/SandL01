@@ -378,7 +378,7 @@ const Room = ({ setSttRoom }) => {
             onClick={() => {
               // Get input values
               const nameValue = document.getElementById("nameInput").value;
-              const emailValue = document.getElementById("emailInput").value;
+              // const emailValue = document.getElementById("emailInput").value;
 
               // Check if name is provided and not too long
               if (!nameValue.trim()) {
@@ -392,10 +392,10 @@ const Room = ({ setSttRoom }) => {
               }
 
               // Check email format if provided
-              if (emailValue.trim() && !emailValue.includes("@")) {
-                alert("Vui lòng nhập email đúng định dạng (phải có @)");
-                return;
-              }
+              // if (emailValue.trim() && !emailValue.includes("@")) {
+              //   alert("Vui lòng nhập email đúng định dạng (phải có @)");
+              //   return;
+              // }
 
               // Disable button during submission
               const submitButton = document.activeElement;
@@ -414,7 +414,7 @@ const Room = ({ setSttRoom }) => {
                     " | Link: " +
                     window.location.href,
                   contentText: window.location.href,
-                  toEmail: emailValue.trim() ? emailValue : "pvkadien0209@gmail.com",
+                  toEmail: "pvkadien0209@gmail.com",
                 };
 
                 fetch(LinkAPI + "mail-homework", {
