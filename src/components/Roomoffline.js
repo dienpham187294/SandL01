@@ -414,7 +414,7 @@ const Room = ({ setSttRoom }) => {
                     " | Link: " +
                     window.location.href,
                   contentText: window.location.href,
-                  toEmail: emailValue.trim() ? emailValue : null,
+                  toEmail: emailValue.trim() ? emailValue : "pvkadien0209@gmail.com",
                 };
 
                 fetch(LinkAPI + "mail-homework", {

@@ -3,8 +3,8 @@ import { socket } from "../App";
 import SpeechRecognition, {
   useSpeechRecognition,
 } from "react-speech-recognition";
-
 import LinkAPI from "./T0_linkApi";
+import read_by_Tts from "../ulti/readMessage_TtsServer";
 const Dictaphone = ({ CMDlist }) => {
   // State management
   const [numberTry, setNumberTry] = useState(0);
@@ -158,6 +158,17 @@ const Dictaphone = ({ CMDlist }) => {
           <b style={{ color: "blue" }}>{CMDlist}</b>
         </h2>
         <b>Bấm bắt đầu và đọc câu này lên để rèn luyện khả năng ghép âm.</b>
+        <br />
+        {!listening ? (
+          <button
+            style={{ padding: "10px", borderRadius: "5px" }}
+            onClick={() => {
+              read_by_Tts(CMDlist);
+            }}
+          >
+            Nghe máy đọc
+          </button>
+        ) : null}
       </div>
 
       {/* Right column - Results display */}

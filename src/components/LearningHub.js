@@ -8,7 +8,7 @@ import TableTB from "./pracPages/B101_FINAL_TABLE-TB-NotAdd";
 import Dictaphone from "../ulti/RegcognitionV2024-05-NG_FOR_TEACHING";
 import NguyenTacghepam from "./A1_NguyentacGhepam";
 import ReadMessage from "../ulti/ReadMessage_2024";
-import LinkAPI from "../ulti/T0_linkApi";
+import read_by_Tts from "../ulti/readMessage_TtsServer";
 import Getlink from "./LearningHub_getlink";
 import { socket } from "../App";
 const colors = ["red", "orange", "black", "green", "blue", "indigo", "violet"];
@@ -397,7 +397,8 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                       </button>
                     </div> */}
                   </div>
-                  <h1>{choose_a_st ? choose_a_st : CMDlist}</h1> <hr />
+                  <h1 id="getCMDLIST">{choose_a_st ? choose_a_st : CMDlist}</h1>{" "}
+                  <hr />
                   <textarea
                     style={{
                       width: "90%",
@@ -441,31 +442,6 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                       <h4> * Đọc giữ nhịp theo quy tắc 4 ngón bàn tay phải</h4>
                     </div>
                   </div>
-                  <button
-                    onClick={() => {
-                      try {
-                        let obj1 = {
-                          getFileName: "UP",
-                        };
-                        let requestOptions = {
-                          method: "GET",
-                          headers: { "Content-Type": "application/json" },
-                          // body: JSON.stringify(obj1),
-                        };
-                        console.log(LinkAPI + "test", requestOptions);
-                        fetch(LinkAPI + "test", requestOptions)
-                          .then((res) => res.json())
-                          .then((json) => {
-                            try {
-                            } catch (error) {}
-                          });
-                      } catch (error) {
-                        console.log(error);
-                      }
-                    }}
-                  >
-                    XX
-                  </button>
                   <i id="DeCode"></i>
                 </div>
                 <div className="col-6">
