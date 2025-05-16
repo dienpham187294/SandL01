@@ -176,7 +176,9 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
     });
 
     // Mã hóa thời gian
-    const encodedTime = encodeURIComponent(timeString);
+    const reversedTimestamp = String(Date.now()).split("").reverse().join("");
+    const encodedTime = encodeURIComponent(reversedTimestamp + timeString);
+
     // Tạo các tham số
     const params = ["time=" + encodedTime];
 
