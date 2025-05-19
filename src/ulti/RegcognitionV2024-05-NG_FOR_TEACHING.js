@@ -194,64 +194,61 @@ const Dictaphone = ({ CMDlist }) => {
           {listening ? "Đang bật - Hãy nói . . ." : "Đang tắt."}{" "}
         </h5>
         {listening ? (
-          <div>
-            <div style={{ display: "flex", flexWrap: "nowrap", width: "100%" }}>
-              <div
-                id="divView01"
-                style={{
-                  display: "inline-block",
-                  maxWidth: "70%",
-                  width: "fit-content",
-                  minWidth: resultSt && resultSt.length > 0 ? "10px" : "0px",
-                  overflow: "hidden",
-                  transition: "all 0.3s ease-in-out",
-                  marginRight: resultSt && resultSt.length > 0 ? "8px" : "0px",
-                  fontFamily:
-                    "'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
-                  lineHeight: 1.6,
-                  fontSize: "30px",
-                  flexShrink: 0,
-                }}
-              >
-                {ViewRes(resultSt)}
-              </div>
-              <div
-                id="divView02"
-                style={{
-                  display: "inline-block",
-                  flex: 1,
-                  transition: "all 0.3s ease-in-out",
-                  fontFamily:
-                    "'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
-                  lineHeight: 1.6,
-                  fontSize: "26px",
-                  padding: "12px",
-                  background: "#fafafa",
-                  borderRadius: "8px",
-                  boxShadow: "0 1px 3px rgba(0,0,0,0.05)",
-                  fontStyle: "italic",
-                  color: "#9e9e9e",
-                  minWidth: 0,
-                }}
-              >
-                {interimTranscript}{" "}
-                {sttProcessing ? "Đang xử lý câu nói ..." : null}
-              </div>
+          <div
+            style={{ display: "flex", flexDirection: "column", width: "100%" }}
+          >
+            <div
+              id="divView01"
+              style={{
+                width: "100%", // full width
+                overflow: "hidden",
+                transition: "opacity 0.5s ease-in-out",
+                marginBottom: resultSt && resultSt.length > 0 ? "8px" : "0px", // cách dưới
+                fontFamily:
+                  "'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
+                lineHeight: 1.6,
+                fontSize: "30px",
+                opacity: resultSt && resultSt.length > 0 ? 1 : 0,
+              }}
+            >
+              <div>{ViewRes(resultSt)}</div>
             </div>
-            <h5 style={{ color: "blue" }}>
-              (2)
-              <i id="interimRes"></i>
-            </h5>
-            {sttProcessing ? (
-              <button className="btn btn-info">Đang xử lý!</button>
-            ) : (
-              <button className="btn btn-danger" onClick={handleSendResults}>
-                XONG GỬI KẾT QUẢ
-              </button>
-            )}
-            <hr />
-            <div style={{ color: "purple" }}> {SimilarCheckSet}</div> <hr />
-            <i>Chỉ cần (1) hoặc (2) đúng là đã đủ chuẩn thực hành.</i>
+
+            <div
+              id="divView02"
+              style={{
+                width: "100%", // full width
+                transition: "all 0.3s ease-in-out",
+                fontFamily:
+                  "'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
+                lineHeight: 1.6,
+                fontSize: "26px",
+                padding: "12px",
+                background: "#fafafa",
+                borderRadius: "8px",
+                boxShadow: "0 1px 3px rgba(0,0,0,0.05)",
+                fontStyle: "italic",
+                color: "blue",
+                minWidth: 0,
+              }}
+            >
+              <i>{interimTranscript}</i>
+
+              <b
+                style={{
+                  opacity: sttProcessing && sttProcessing.length > 0 ? 1 : 0,
+                  visibility:
+                    sttProcessing && sttProcessing.length > 0
+                      ? "visible"
+                      : "hidden",
+                  transition:
+                    "opacity 0.3s ease-in-out, visibility 0.3s ease-in-out",
+                }}
+              >
+                {" "}
+                {sttProcessing ? "Đang xử lý câu nói ..." : null}
+              </b>
+            </div>
           </div>
         ) : (
           <div style={disabledAreaStyles}>
@@ -311,7 +308,7 @@ function ViewRes(resultSt = []) {
       background: "#fafafa",
       borderRadius: "8px",
       boxShadow: "0 1px 3px rgba(0,0,0,0.05)",
-      transition: "all 0.3s ease-in-out",
+      transition: "all 2s ease-in-out",
     };
 
     // Common styles for result items with transitions
@@ -320,8 +317,8 @@ function ViewRes(resultSt = []) {
       padding: "0 2px",
       display: "inline-block",
       transition:
-        "color 0.3s ease, transform 0.2s ease, opacity 0.3s ease, background-color 0.3s ease",
-      animation: "fadeIn 0.3s ease-in-out",
+        "color 1s ease, transform 1s ease, opacity 1s ease, background-color 1s ease",
+      animation: "fadeIn 1s ease-in-out",
     };
 
     // Add keyframe animation for new items
