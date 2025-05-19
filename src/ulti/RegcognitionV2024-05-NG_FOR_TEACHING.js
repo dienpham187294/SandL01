@@ -15,6 +15,8 @@ const Dictaphone = ({ CMDlist }) => {
     () => localStorage.getItem("nameDinhDanh") || ""
   );
   const [resultSt, setresultSt] = useState("");
+
+  const [sttProcessing, setsttProcessing] = useState(false);
   // Memoize commands to prevent unnecessary re-creation
   const commands = useMemo(
     () => [
@@ -52,27 +54,32 @@ const Dictaphone = ({ CMDlist }) => {
   }, [CMDlist]);
 
   useEffect(() => {
-    if (interimTranscript !== "" || !transcript || !CMDlist?.trim()) return;
-    try {
-      let obj1 = {
-        transcript: transcript,
-        CMDlist: CMDlist,
-      };
-      let requestOptions = {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(obj1),
-      };
-      // console.log(LinkAPI + "test", requestOptions);
-      fetch(LinkAPI + "reg-Analyze", requestOptions)
-        .then((res) => res.json())
-        .then((json) => {
-          setresultSt(json.data.resultSt);
-          setCmdApartChat(json.data.CmdApartChat);
-          setSimilarCheckSet(json.data.similaritySetCheckRs.join(" | "));
-        });
-    } catch (error) {
-      console.log(error);
+    if (interimTranscript === "" && transcript !== "" && CMDlist?.trim()) {
+      try {
+        let obj1 = {
+          transcript: transcript,
+          CMDlist: CMDlist,
+        };
+        let requestOptions = {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(obj1),
+        };
+        // console.log(LinkAPI + "test", requestOptions);
+        setsttProcessing(true);
+        fetch(LinkAPI + "reg-Analyze", requestOptions)
+          .then((res) => res.json())
+          .then((json) => {
+            setresultSt(json.data.resultSt);
+            setCmdApartChat(json.data.CmdApartChat);
+            setSimilarCheckSet(json.data.similaritySetCheckRs.join(" | "));
+          })
+          .finally(() => {
+            setsttProcessing(false);
+          });
+      } catch (error) {
+        console.log(error);
+      }
     }
   }, [interimTranscript, transcript, CMDlist]);
 
@@ -183,9 +190,13 @@ const Dictaphone = ({ CMDlist }) => {
               (2)
               <i id="interimRes"></i>
             </h5>
-            <button className="btn btn-danger" onClick={handleSendResults}>
-              XONG GỬI KẾT QUẢ
-            </button>
+            {sttProcessing ? (
+              <h5>Đang xử lý!</h5>
+            ) : (
+              <button className="btn btn-danger" onClick={handleSendResults}>
+                XONG GỬI KẾT QUẢ
+              </button>
+            )}
             <hr />
             <div style={{ color: "purple" }}> {SimilarCheckSet}</div> <hr />
             <i>Chỉ cần (1) hoặc (2) đúng là đã đủ chuẩn thực hành.</i>

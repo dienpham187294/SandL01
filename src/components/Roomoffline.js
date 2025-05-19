@@ -355,7 +355,7 @@ const Room = ({ setSttRoom }) => {
         ) : null}
         <br />
         <hr />
-        <div>
+        <div id="NOPBAITAP">
           <i>Chỉ dùng để nộp bài tập về nhà!</i>
           <b>Nhập tên khi nộp bài!</b>
           <input
@@ -405,7 +405,8 @@ const Room = ({ setSttRoom }) => {
               try {
                 const requestBody = {
                   subjectText:
-                    "Nộp bài tập: " +
+                    nameValue +
+                    " | Nộp bài tập | " +
                     decodeURIComponent(params.get("time")) +
                     " | Điểm: " +
                     Score +
@@ -425,7 +426,10 @@ const Room = ({ setSttRoom }) => {
                   .then((response) => response.json())
                   .then((json) => {
                     if (json.success) {
-                      alert("Đã nộp bài thành công");
+                      const container = document.getElementById("NOPBAITAP");
+                      if (container) {
+                        container.innerHTML = `<h1>Đã nộp bài tập thành công!</h1>`;
+                      }
                       setScore(0);
                     } else {
                       alert("Nộp bài không thành công, vui lòng thử lại");
