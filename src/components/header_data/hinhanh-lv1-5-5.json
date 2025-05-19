@@ -37,7 +37,7 @@
   {
     "STT": 1,
     "name": "Bedroom sleeping items",
-    "des": "Bedroom essentials for sleeping and comfort",
+    "des": "Bedroom essentials for sleeping and comfort (1)",
     "preName": "Hình ảnh.5",
     "link": "aa_bed-room-01",
     "folder": "basicAA1",
@@ -46,7 +46,7 @@
   },
   {
     "STT": 2,
-    "name": "Bedroom furniture & accessories",
+    "name": "Bedroom furniture & accessories (2)",
     "des": "Furniture and accessories in the bedroom",
     "preName": "Hình ảnh.5",
     "link": "aa_bed-room-02",
@@ -56,7 +56,7 @@
   },
   {
     "STT": 3,
-    "name": "Bedroom daily use items",
+    "name": "Bedroom daily use items (3)",
     "des": "Items for light, air, and daily use in bedroom",
     "preName": "Hình ảnh.5",
     "link": "aa_bed-room-03",
@@ -66,7 +66,7 @@
   },
   {
     "STT": 4,
-    "name": "Kitchen cooking tools",
+    "name": "Kitchen cooking tools (4)",
     "des": "Cooking tools in the kitchen",
     "preName": "Hình ảnh.5",
     "link": "aa_kitchen-01",
@@ -77,7 +77,7 @@
   {
     "STT": 5,
     "name": "Kitchen utensils",
-    "des": "Utensils for preparing and serving food",
+    "des": "Utensils for preparing and serving food (5)",
     "preName": "Hình ảnh.5",
     "link": "aa_kitchen-02",
     "folder": "basicAA1",
@@ -86,7 +86,7 @@
   },
   {
     "STT": 6,
-    "name": "Kitchen appliances & tools",
+    "name": "Kitchen appliances & tools (6)",
     "des": "Kitchen appliances and eating utensils",
     "preName": "Hình ảnh.5",
     "link": "aa_kitchen-03",
@@ -96,7 +96,7 @@
   },
   {
     "STT": 7,
-    "name": "Kitchen storage items",
+    "name": "Kitchen storage items (7)",
     "des": "Storage and supporting kitchen items",
     "preName": "Hình ảnh.5",
     "link": "aa_kitchen-04",
@@ -106,7 +106,7 @@
   },
   {
     "STT": 8,
-    "name": "Living room essentials",
+    "name": "Living room essentials (8)",
     "des": "Furniture and entertainment in the living room",
     "preName": "Hình ảnh.5",
     "link": "aa_living-room-01",
@@ -116,7 +116,7 @@
   },
   {
     "STT": 9,
-    "name": "Living room decor & utilities",
+    "name": "Living room decor & utilities (9)",
     "des": "Decor and utilities in the living room",
     "preName": "Hình ảnh.5",
     "link": "aa_living-room-02",
@@ -126,7 +126,7 @@
   },
   {
     "STT": 10,
-    "name": "Bathroom hygiene tools",
+    "name": "Bathroom hygiene tools (10)",
     "des": "Basic hygiene tools in the bathroom",
     "preName": "Hình ảnh.5",
     "link": "aa_bathroom-01",
@@ -136,7 +136,7 @@
   },
   {
     "STT": 11,
-    "name": "Bathroom cleaning items",
+    "name": "Bathroom cleaning items (11)",
     "des": "Cleaning and toiletry items",
     "preName": "Hình ảnh.5",
     "link": "aa_bathroom-02",
@@ -146,7 +146,7 @@
   },
   {
     "STT": 12,
-    "name": "Bathroom & laundry items",
+    "name": "Bathroom & laundry items (12)",
     "des": "Bathroom and laundry essentials",
     "preName": "Hình ảnh.5",
     "link": "aa_bathroom-laundry-01",
@@ -156,7 +156,7 @@
   },
   {
     "STT": 13,
-    "name": "Laundry tools & care items",
+    "name": "Laundry tools & care items (13)",
     "des": "Laundry care and organization",
     "preName": "Hình ảnh.5",
     "link": "aa_laundry-room-02",
@@ -166,7 +166,7 @@
   },
   {
     "STT": 14,
-    "name": "Common electronic devices",
+    "name": "Common electronic devices (14)",
     "des": "Common personal electronic devices",
     "preName": "Hình ảnh.5",
     "link": "aa_electronics-01",
@@ -176,7 +176,7 @@
   },
   {
     "STT": 15,
-    "name": "Media & computer electronics",
+    "name": "Media & computer electronics (15)",
     "des": "Electronics for media and computer use",
     "preName": "Hình ảnh.5",
     "link": "aa_electronics-02",
@@ -186,7 +186,7 @@
   },
   {
     "STT": 16,
-    "name": "Useful everyday items",
+    "name": "Useful everyday items (16)",
     "des": "Everyday useful items",
     "preName": "Hình ảnh.5",
     "link": "aa_general-01",
@@ -196,7 +196,7 @@
   },
   {
     "STT": 17,
-    "name": "General daily use items",
+    "name": "General daily use items (17)",
     "des": "Mixed items for daily use",
     "preName": "Hình ảnh.5",
     "link": "aa_general-02",
@@ -206,7 +206,7 @@
   },
   {
     "STT": 18,
-    "name": "School & office supplies",
+    "name": "School & office supplies (18)",
     "des": "Stationery for school or office",
     "preName": "Hình ảnh.5",
     "link": "aa_general-03",
@@ -216,7 +216,7 @@
   },
   {
     "STT": 19,
-    "name": "Miscellaneous household items",
+    "name": "Miscellaneous household items (19)",
     "des": "Miscellaneous items at home or work",
     "preName": "Hình ảnh.5",
     "link": "aa_general-04",
@@ -226,7 +226,7 @@
   },
   {
     "STT": 20,
-    "name": "Home tools & small devices",
+    "name": "Home tools & small devices (20)",
     "des": "Small home tools and devices",
     "preName": "Hình ảnh.5",
     "link": "aa_general-05",
