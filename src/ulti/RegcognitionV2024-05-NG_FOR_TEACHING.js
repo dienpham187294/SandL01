@@ -192,11 +192,52 @@ const Dictaphone = ({ CMDlist }) => {
       <div className="col-8">
         <h5 style={{ color: "blue" }}>
           {listening ? "Đang bật - Hãy nói . . ." : "Đang tắt."}{" "}
-          {sttProcessing ? "Đang xử lý câu nói ..." : null}
         </h5>
         {listening ? (
           <div>
-            {ViewRes(resultSt, interimTranscript)}
+            <div style={{ display: "flex", flexWrap: "nowrap", width: "100%" }}>
+              <div
+                id="divView01"
+                style={{
+                  display: "inline-block",
+                  maxWidth: "70%",
+                  width: "fit-content",
+                  minWidth: resultSt && resultSt.length > 0 ? "10px" : "0px",
+                  overflow: "hidden",
+                  transition: "all 0.3s ease-in-out",
+                  marginRight: resultSt && resultSt.length > 0 ? "8px" : "0px",
+                  fontFamily:
+                    "'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
+                  lineHeight: 1.6,
+                  fontSize: "30px",
+                  flexShrink: 0,
+                }}
+              >
+                {ViewRes(resultSt)}
+              </div>
+              <div
+                id="divView02"
+                style={{
+                  display: "inline-block",
+                  flex: 1,
+                  transition: "all 0.3s ease-in-out",
+                  fontFamily:
+                    "'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
+                  lineHeight: 1.6,
+                  fontSize: "26px",
+                  padding: "12px",
+                  background: "#fafafa",
+                  borderRadius: "8px",
+                  boxShadow: "0 1px 3px rgba(0,0,0,0.05)",
+                  fontStyle: "italic",
+                  color: "#9e9e9e",
+                  minWidth: 0,
+                }}
+              >
+                {interimTranscript}{" "}
+                {sttProcessing ? "Đang xử lý câu nói ..." : null}
+              </div>
+            </div>
             <h5 style={{ color: "blue" }}>
               (2)
               <i id="interimRes"></i>
@@ -214,7 +255,7 @@ const Dictaphone = ({ CMDlist }) => {
           </div>
         ) : (
           <div style={disabledAreaStyles}>
-            {ViewRes(resultSt, interimTranscript)}
+            {ViewRes(resultSt)}
             <hr />
             <div style={{ color: "purple" }}> {SimilarCheckSet}</div>
             <hr />
@@ -249,28 +290,16 @@ const Dictaphone = ({ CMDlist }) => {
 
 export default Dictaphone;
 
-function ViewRes(resultSt = [], interimTranscript = "") {
+function ViewRes(resultSt = []) {
   // Use React hooks for animation effect
-  const [prevInterim, setPrevInterim] = React.useState("");
-  const [isTransitioning, setIsTransitioning] = React.useState(false);
   const [prevResultLength, setPrevResultLength] = React.useState(0);
 
-  // Effect to handle smooth transitions when interim disappears
+  // Effect to track result length changes
   React.useEffect(() => {
-    // When interim changes from something to empty
-    if (prevInterim && !interimTranscript) {
-      setIsTransitioning(true);
-      setTimeout(() => setIsTransitioning(false), 300); // Match transition duration
-    }
-
-    // Track previous interim value
-    setPrevInterim(interimTranscript);
-
-    // Track result length changes
     if (resultSt && resultSt.length !== prevResultLength) {
       setPrevResultLength(resultSt?.length || 0);
     }
-  }, [interimTranscript, resultSt, prevInterim, prevResultLength]);
+  }, [resultSt, prevResultLength]);
 
   try {
     // Define transition styles for smoother updates
@@ -283,23 +312,6 @@ function ViewRes(resultSt = [], interimTranscript = "") {
       borderRadius: "8px",
       boxShadow: "0 1px 3px rgba(0,0,0,0.05)",
       transition: "all 0.3s ease-in-out",
-    };
-
-    // Style for interim text with smooth fade effect
-    const interimStyle = {
-      fontStyle: "italic",
-      color: "#9e9e9e",
-      marginLeft: "8px",
-      opacity: interimTranscript ? 0.8 : isTransitioning ? 0.4 : 0,
-      transition: "opacity 0.3s ease-in-out, transform 0.25s ease-out",
-      position: "relative",
-      display: "inline-block",
-      minWidth: interimTranscript || isTransitioning ? "8px" : "0",
-      minHeight: interimTranscript || isTransitioning ? "1em" : "0",
-      transform: interimTranscript ? "translateY(0)" : "translateY(5px)",
-      maxWidth: "100%",
-      whiteSpace: "pre-wrap",
-      overflow: "hidden",
     };
 
     // Common styles for result items with transitions
@@ -328,7 +340,6 @@ function ViewRes(resultSt = [], interimTranscript = "") {
     return (
       <div style={containerStyle}>
         <style>{keyframes}</style>
-        (1)
         {resultSt &&
           resultSt.map((item, index) => {
             const key = `res-${index}`;
@@ -407,10 +418,6 @@ function ViewRes(resultSt = [], interimTranscript = "") {
               );
             }
           })}
-        {/* Interim transcript with animation effect */}
-        <span style={interimStyle}>
-          {interimTranscript || (isTransitioning ? prevInterim : "")}
-        </span>
       </div>
     );
   } catch (error) {
