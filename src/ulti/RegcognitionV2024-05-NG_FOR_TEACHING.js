@@ -213,7 +213,6 @@ const Dictaphone = ({ CMDlist }) => {
             >
               <div>{ViewRes(resultSt)}</div>
             </div>
-
             <div
               id="divView02"
               style={{
@@ -236,6 +235,16 @@ const Dictaphone = ({ CMDlist }) => {
 
               <b>{sttProcessing ? "Đang xử lý câu nói ..." : null}</b>
             </div>
+            <hr />
+            <div style={{ color: "purple" }}> {SimilarCheckSet}</div>
+            {sttProcessing ? (
+              "Đang xử lý câu nói ..."
+            ) : (
+              <button className="btn btn-danger" onClick={handleSendResults}>
+                XONG GỬI KẾT QUẢ
+              </button>
+            )}
+            <i>Chỉ cần (1) hoặc (2) đúng là đã đủ chuẩn thực hành.</i>
           </div>
         ) : (
           <div style={disabledAreaStyles}>
