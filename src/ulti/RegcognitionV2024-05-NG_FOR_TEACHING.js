@@ -234,20 +234,7 @@ const Dictaphone = ({ CMDlist }) => {
             >
               <i>{interimTranscript}</i>
 
-              <b
-                style={{
-                  opacity: sttProcessing && sttProcessing.length > 0 ? 1 : 0,
-                  visibility:
-                    sttProcessing && sttProcessing.length > 0
-                      ? "visible"
-                      : "hidden",
-                  transition:
-                    "opacity 0.3s ease-in-out, visibility 0.3s ease-in-out",
-                }}
-              >
-                {" "}
-                {sttProcessing ? "Đang xử lý câu nói ..." : null}
-              </b>
+              <b>{sttProcessing ? "Đang xử lý câu nói ..." : null}</b>
             </div>
           </div>
         ) : (
