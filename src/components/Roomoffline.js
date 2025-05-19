@@ -428,7 +428,10 @@ const Room = ({ setSttRoom }) => {
                     if (json.success) {
                       const container = document.getElementById("NOPBAITAP");
                       if (container) {
-                        container.innerHTML = `<h1>Đã nộp bài tập thành công!</h1>`;
+                        container.innerHTML =
+                          `Đã nộp bài tập thành công!<h1> Điểm số: ` +
+                          Score +
+                          `</h1>Chụp gửi kết quả này cho thầy cô!`;
                       }
                       setScore(0);
                     } else {

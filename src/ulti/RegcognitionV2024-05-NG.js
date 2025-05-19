@@ -26,8 +26,9 @@ const Dictaphone = ({
   const { interimTranscript, transcript, listening, resetTranscript } =
     useSpeechRecognition({ commands, continuous: true, interimResults: true });
   const [otherGetInterim, setotherGetInterim] = useState("");
-  const [RegInput, setRegInput] = useState(null);
+  const [SttProcessing, setSttProcessing] = useState(false);
   // const idSocket = socket.id.slice(0, 4);
+
   const [styles, setStyles] = useState({
     opacity: 0,
     height: "100px",
@@ -53,10 +54,7 @@ const Dictaphone = ({
     let cmd_get_f_CMDlist = [];
     CMDlist.forEach((e0, i0) => {
       e0.qs.forEach((e1, i1) => {
-        cmd_get_f_CMDlist.push(
-          // i0 + "-" + i1 + "-" +
-          e1
-        );
+        cmd_get_f_CMDlist.push(e1);
       });
     });
 
@@ -66,66 +64,12 @@ const Dictaphone = ({
         callback: (command, n, i) => {
           try {
             setotherGetInterim(command);
-            // let res = command.split("-");
-            // const interimRes = document.getElementById("interimRes");
-            // interimRes.innerText = command;
-            // if (CMDlist[res[0]].aw !== undefined) {
-            //   ReadMessage(
-            //     ObjVoices,
-            //     getRandomElementFromArray(CMDlist[res[0]].aw),
-            //     GENDER,
-            //     CMDlist[res[0]].aw01
-            //   );
-            // }
-            // if (CMDlist[res[0]].action !== undefined) {
-            //   if (CMDlist[res[0]].action[0] === "WRONG") {
-            //     setScore((S) => S - 1);
-            //     setStartSTT(true);
-            //   } else {
-            //     addElementIfNotExist(CMDlist[res[0]].action[0]);
-            //   }
-            // }
-
-            // setStyles((prevStyles) => ({
-            //   ...prevStyles,
-            //   opacity: 0,
-            //   height: "100px",
-            //   width: "300px",
-            // }));
-            // setTimeout(() => {
-            //   setGetSTTDictaphone(false);
-            // }, 500);
           } catch (error) {}
         },
         isFuzzyMatch: true,
         fuzzyMatchingThreshold: regRate,
         bestMatchOnly: true,
       },
-      // {
-      //   command: ["clear", "reset"],
-      //   callback: ({ resetTranscript }) => resetTranscript(),
-      // },
-      // {
-      //   command: "stop",
-      //   callback: stopListening,
-      // },
-      // {
-      //   command: [
-      //     "Can you say that again?",
-      //     "Can you repeat that?",
-      //     "Could you say it again, please?",
-      //   ],
-      //   callback: () => fn_speakAgain(),
-      // },
-      // {
-      //   command: [
-      //     "Can you speak slowly?",
-      //     "Can you say it slowly?",
-      //     "Speak slower, please.",
-      //     "Please repeat slowly.",
-      //   ],
-      //   callback: () => fn_speakSlowly(),
-      // },
     ];
   }, [CMDlist]);
 
@@ -153,11 +97,6 @@ const Dictaphone = ({
   const stopListening = () => {
     SpeechRecognition.stopListening();
   };
-  // useEffect(() => {
-  //   if (interimTranscript === "") {
-  //     setotherGetInterim((D) => D + " " + interimTranscript);
-  //   }
-  // }, [interimTranscript]);
 
   async function check(RegInput) {
     if (!RegInput) return;
@@ -171,6 +110,8 @@ const Dictaphone = ({
         regRate_01,
       };
 
+      setSttProcessing(true);
+
       const response = await fetch(LinkAPI + "reg-Analyze-in-prac", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -178,8 +119,7 @@ const Dictaphone = ({
       });
 
       const json = await response.json();
-
-      let objTR = json.success ? json.data : null;
+      const objTR = json.success ? json.data : null;
 
       if (!objTR) {
         // If no result, respond with clarification prompt
@@ -213,6 +153,7 @@ const Dictaphone = ({
     } catch (error) {
       console.error("Error during check():", error);
     } finally {
+      setSttProcessing(false); // corrected: was mistakenly set to true in finally
       setGetSTTDictaphone(false);
     }
   }
@@ -229,26 +170,33 @@ const Dictaphone = ({
       >
         Xóa nội dung vừa nói
       </button>{" "}
-      <button
-        // style={{ scale: "1.5" }}
-        disabled={
-          interimTranscript !== "" && otherGetInterim === "" ? true : false
-        }
-        className="btn btn-info me-2"
-        onClick={() => {
-          stopListening();
-          check(transcript);
-          // setRegInput(transcript);
-        }}
-      >
-        {/* <i className="bi bi-mic-fill mr-1"></i> */}
-        <i>
-          {" "}
-          {interimTranscript !== "" && otherGetInterim === ""
-            ? "Đang xử lý, chờ 3s."
-            : `Sử dụng nội dung vừa nói (1) và (2)`}
-        </i>
-      </button>
+      {SttProcessing ? (
+        <button className="btn btn-warning">Xử lý ...</button>
+      ) : (
+        <button
+          // style={{ scale: "1.5" }}
+          disabled={
+            interimTranscript !== "" && otherGetInterim === "" ? true : false
+          }
+          className="btn btn-info me-2"
+          onClick={() => {
+            stopListening();
+            check(transcript);
+
+            // setRegInput(transcript);
+          }}
+        >
+          {/* <i className="bi bi-mic-fill mr-1"></i> */}
+          <i>
+            {" "}
+            {interimTranscript === "" && otherGetInterim === ""
+              ? "Hãy nói ..."
+              : interimTranscript !== "" && otherGetInterim === ""
+              ? "Đang xử lý, chờ 3s."
+              : "Sử dụng nội dung vừa nói (1) và (2)"}
+          </i>
+        </button>
+      )}
       <button
         className="btn btn-danger "
         onClick={() => setGetSTTDictaphone(false)}

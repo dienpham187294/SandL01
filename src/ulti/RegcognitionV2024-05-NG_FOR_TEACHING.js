@@ -17,6 +17,8 @@ const Dictaphone = ({ CMDlist }) => {
   const [resultSt, setresultSt] = useState("");
 
   const [sttProcessing, setsttProcessing] = useState(false);
+
+  const [sttListenFromServer, setsttListenFromServer] = useState(false);
   // Memoize commands to prevent unnecessary re-creation
   const commands = useMemo(
     () => [
@@ -167,21 +169,30 @@ const Dictaphone = ({ CMDlist }) => {
         <b>Bấm bắt đầu và đọc câu này lên để rèn luyện khả năng ghép âm.</b>
         <br />
         {!listening ? (
-          <button
-            style={{ padding: "10px", borderRadius: "5px" }}
-            onClick={() => {
-              read_by_Tts(CMDlist);
-            }}
-          >
-            Nghe máy đọc
-          </button>
+          sttListenFromServer ? (
+            "Đang xử lý."
+          ) : (
+            <button
+              style={{ padding: "10px", borderRadius: "5px" }}
+              onClick={() => {
+                read_by_Tts(CMDlist);
+                setsttListenFromServer(true);
+                setTimeout(() => {
+                  setsttListenFromServer(false);
+                }, 3000);
+              }}
+            >
+              Nghe máy đọc
+            </button>
+          )
         ) : null}
       </div>
 
       {/* Right column - Results display */}
       <div className="col-8">
         <h5 style={{ color: "blue" }}>
-          {listening ? "Đang bật - Hãy nói . . ." : "Đang tắt."}
+          {listening ? "Đang bật - Hãy nói . . ." : "Đang tắt."}{" "}
+          {sttProcessing ? "Đang xử lý câu nói ..." : null}
         </h5>
         {listening ? (
           <div>
@@ -191,7 +202,7 @@ const Dictaphone = ({ CMDlist }) => {
               <i id="interimRes"></i>
             </h5>
             {sttProcessing ? (
-              <h5>Đang xử lý!</h5>
+              <button className="btn btn-info">Đang xử lý!</button>
             ) : (
               <button className="btn btn-danger" onClick={handleSendResults}>
                 XONG GỬI KẾT QUẢ
@@ -203,8 +214,7 @@ const Dictaphone = ({ CMDlist }) => {
           </div>
         ) : (
           <div style={disabledAreaStyles}>
-            (1)
-            {ViewRes(resultSt, transcript)}
+            {ViewRes(resultSt, interimTranscript)}
             <hr />
             <div style={{ color: "purple" }}> {SimilarCheckSet}</div>
             <hr />

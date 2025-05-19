@@ -321,7 +321,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                       <h5>Đoán - Tra - Tìm - Ghép</h5>
                       <h4 style={{ color: "blue" }}>U - E - O - A - i - Ơ</h4>
                     </div>
-                    <div className="col-3">
+                    <div className="col-2">
                       {" "}
                       <button
                         onClick={() => {
@@ -361,6 +361,59 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                         className="btn btn-warning"
                       >
                         Gửi link thực hành
+                      </button>
+                    </div>
+                    <div className="col-2">
+                      {" "}
+                      <button
+                        onClick={(e) => {
+                          try {
+                            // Lấy các thông tin cần thiết
+                            const decodeElement =
+                              document.getElementById("DeCode");
+                            const DeCodeText = decodeElement
+                              ? decodeElement.textContent
+                              : "";
+                            const params = new URLSearchParams(
+                              window.location.search
+                            );
+                            const stParam = params.get("st") || "";
+
+                            // Tạo URL để copy
+                            const fullURL =
+                              window.location.origin +
+                              "/pracst?st=" +
+                              stParam +
+                              "&&note=" +
+                              encodeURIComponent(DeCodeText);
+
+                            // Copy URL vào clipboard
+                            navigator.clipboard
+                              .writeText(fullURL)
+                              .then(() => {
+                                // Thay đổi trạng thái nút tạm thời
+                                const button = e.target;
+                                const originalText = button.textContent;
+                                button.textContent = "Đã sao chép!";
+                                button.classList.remove("btn-info");
+                                button.classList.add("btn-success");
+
+                                setTimeout(() => {
+                                  button.textContent = "Copy link";
+                                  button.classList.remove("btn-success");
+                                  button.classList.add("btn-info");
+                                }, 2000);
+                              })
+                              .catch((err) => {
+                                console.error("Lỗi khi sao chép:", err);
+                              });
+                          } catch (error) {
+                            console.error("Lỗi khi sao chép link:", error);
+                          }
+                        }}
+                        className="btn btn-info"
+                      >
+                        Copy link
                       </button>
                     </div>
                     {/* <div className="col-6">
