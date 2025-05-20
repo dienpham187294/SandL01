@@ -736,13 +736,17 @@ function FINAL_PROJECT({
                   Bỏ qua
                 </button>
                 <br />{" "}
-                {Clue && isImageUrl(Clue) ? (
-                  <img
-                    style={{ border: "4px solid blue", borderRadius: "10px" }}
-                    width={IsMobile ? "50px" : "150px"}
-                    src={Clue}
-                    loading="lazy"
-                  />
+                {playData.hint ? (
+                  isImageUrl(playData.hint) ? (
+                    <img
+                      style={{ border: "4px solid blue", borderRadius: "10px" }}
+                      width={IsMobile ? "270px" : "270px"}
+                      src={playData.hint}
+                      loading="lazy"
+                    />
+                  ) : (
+                    <h5>Gợi ý: + {playData.hint} </h5>
+                  )
                 ) : (
                   <img
                     width={IsMobile ? "50px" : "120px"}
@@ -804,7 +808,7 @@ function FINAL_PROJECT({
                   </div>
                 ) : null}
                 <hr />
-                {playData.hint ? (
+                {/* {playData.hint ? (
                   <div
                     style={{
                       fontSize: "16px",
@@ -824,7 +828,7 @@ function FINAL_PROJECT({
                       playData.hint
                     )}
                   </div>
-                ) : null}
+                ) : null} */}
                 <hr />
                 <TablePushAW data={PushAW} />
                 <hr />
