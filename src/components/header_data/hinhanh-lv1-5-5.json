@@ -36,8 +36,8 @@
   },
   {
     "STT": 1,
-    "name": "Bedroom sleeping items",
-    "des": "Bedroom essentials for sleeping and comfort (1)",
+    "name": "Bedroom sleeping items (1)",
+    "des": "Bedroom essentials for sleeping and comfort",
     "preName": "Hình ảnh.5",
     "link": "aa_bed-room-01",
     "folder": "basicAA1",
@@ -76,8 +76,8 @@
   },
   {
     "STT": 5,
-    "name": "Kitchen utensils",
-    "des": "Utensils for preparing and serving food (5)",
+    "name": "Kitchen utensils (5)",
+    "des": "Utensils for preparing and serving food",
     "preName": "Hình ảnh.5",
     "link": "aa_kitchen-02",
     "folder": "basicAA1",

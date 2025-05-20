@@ -9,6 +9,7 @@ import HrefLearnonyoutube from "./A1_Header_href_Learnonyoutube.json";
 import Move from "./A0_move";
 
 import levele_img_barlist from "./header_data/hinhanh-lv1-5-5.json";
+import words_3000 from "./header_data/3000-words.json";
 
 const coreKnowledgeSets = [
   {
@@ -224,6 +225,12 @@ export default function Header({ sttRoom, STTconnectFN }) {
               {returnDropdown(
                 "Hình ảnh",
                 levele_img_barlist,
+                { name: "name", link: "link", preName: "preName" },
+                null
+              )}
+              {returnDropdown(
+                "Học 3000 từ với đoạn hội thoại và câu chuyện!",
+                words_3000,
                 { name: "name", link: "link", preName: "preName" },
                 null
               )}
