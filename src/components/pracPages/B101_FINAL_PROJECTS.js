@@ -745,7 +745,16 @@ function FINAL_PROJECT({
                       loading="lazy"
                     />
                   ) : (
-                    <h5>Gợi ý: + {playData.hint} </h5>
+                    <div
+                      style={{
+                        backgroundColor: "white",
+                        padding: "15px",
+                        borderRadius: "15px",
+                      }}
+                    >
+                      <h5>Gợi ý:</h5>
+                      <h4>{playData.hint}</h4>{" "}
+                    </div>
                   )
                 ) : (
                   <img

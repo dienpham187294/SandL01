@@ -23,6 +23,7 @@ const Dictaphone = ({
   setStartSTT,
   setMessage,
 }) => {
+  console.log(CMDlist);
   const { interimTranscript, transcript, listening, resetTranscript } =
     useSpeechRecognition({ commands, continuous: true, interimResults: true });
   const [otherGetInterim, setotherGetInterim] = useState("");
@@ -199,7 +200,10 @@ const Dictaphone = ({
       )}
       <button
         className="btn btn-danger "
-        onClick={() => setGetSTTDictaphone(false)}
+        onClick={() => {
+          stopListening();
+          setGetSTTDictaphone(false);
+        }}
       >
         Thoát
       </button>

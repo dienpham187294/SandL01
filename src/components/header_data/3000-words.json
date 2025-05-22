@@ -8,5 +8,105 @@
     "folder": "basicAA1",
     "root": "learninghub",
     "img": "https://i.postimg.cc/c4pvFybx/A1-Bed.png"
+  },
+  {
+    "stt": 1,
+    "name": "Part (1)",
+    "des": "100/3000 words (1)",
+    "preName": "100/3000 words",
+    "link": "ac-100-words-part-1",
+    "folder": "basicAC1",
+    "root": "learninghub",
+    "img": "https://i.postimg.cc/c4pvFybx/A1-Bed.png"
+  },
+  {
+    "stt": 2,
+    "name": "Part (2)",
+    "des": "100/3000 words (2)",
+    "preName": "100/3000 words",
+    "link": "ac-100-words-part-2",
+    "folder": "basicAC1",
+    "root": "learninghub",
+    "img": "https://i.postimg.cc/c4pvFybx/A1-Bed.png"
+  },
+  {
+    "stt": 3,
+    "name": "Part (3)",
+    "des": "100/3000 words (3)",
+    "preName": "100/3000 words",
+    "link": "ac-100-words-part-3",
+    "folder": "basicAC1",
+    "root": "learninghub",
+    "img": "https://i.postimg.cc/c4pvFybx/A1-Bed.png"
+  },
+  {
+    "stt": 4,
+    "name": "Part (4)",
+    "des": "100/3000 words (4)",
+    "preName": "100/3000 words",
+    "link": "ac-100-words-part-4",
+    "folder": "basicAC1",
+    "root": "learninghub",
+    "img": "https://i.postimg.cc/c4pvFybx/A1-Bed.png"
+  },
+  {
+    "stt": 5,
+    "name": "Part (5)",
+    "des": "100/3000 words (5)",
+    "preName": "100/3000 words",
+    "link": "ac-100-words-part-5",
+    "folder": "basicAC1",
+    "root": "learninghub",
+    "img": "https://i.postimg.cc/c4pvFybx/A1-Bed.png"
+  },
+  {
+    "stt": 6,
+    "name": "Part (6)",
+    "des": "100/3000 words (6)",
+    "preName": "100/3000 words",
+    "link": "ac-100-words-part-6",
+    "folder": "basicAC1",
+    "root": "learninghub",
+    "img": "https://i.postimg.cc/c4pvFybx/A1-Bed.png"
+  },
+  {
+    "stt": 7,
+    "name": "Part (7)",
+    "des": "100/3000 words (7)",
+    "preName": "100/3000 words",
+    "link": "ac-100-words-part-7",
+    "folder": "basicAC1",
+    "root": "learninghub",
+    "img": "https://i.postimg.cc/c4pvFybx/A1-Bed.png"
+  },
+  {
+    "stt": 8,
+    "name": "Part (8)",
+    "des": "100/3000 words (8)",
+    "preName": "100/3000 words",
+    "link": "ac-100-words-part-8",
+    "folder": "basicAC1",
+    "root": "learninghub",
+    "img": "https://i.postimg.cc/c4pvFybx/A1-Bed.png"
+  },
+  {
+    "stt": 9,
+    "name": "Part (9)",
+    "des": "100/3000 words (9)",
+    "preName": "100/3000 words",
+    "link": "ac-100-words-part-9",
+    "folder": "basicAC1",
+    "root": "learninghub",
+    "img": "https://i.postimg.cc/c4pvFybx/A1-Bed.png"
+  },
+  {
+    "stt": 10,
+    "name": "Part (10)",
+    "des": "100/3000 words (10)",
+    "preName": "100/3000 words",
+    "link": "ac-100-words-part-10",
+    "folder": "basicAC1",
+    "root": "learninghub",
+    "img": "https://i.postimg.cc/c4pvFybx/A1-Bed.png"
   }
 ]
