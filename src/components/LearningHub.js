@@ -207,13 +207,17 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
             {" "}
             <option value="div_01_content_table_to_practice">Chọn</option>
             <option value="div_01_content_to_learn">Nội dung</option>
-            <option value="div_01_content_table_to_practice">Thực hành</option>
+            <option value="div_01_content_table_to_practice">
+              Chọn bài học (1)
+            </option>
             <option value="div_01_prac_ghep_am">Ghép âm</option>{" "}
             <option value="div_01_prac_luyen_am">Nguyên tắc ghép âm</option>
             <option value="div_01_prac_hoc_thuoc">Học thuộc</option>{" "}
             <option value="div_01_prac_phuongphaphoc">Phương pháp học</option>
-            <option value="div_01_prac_bangnhap">Custom link thực hành</option>
-            <option value="div_01_prac_vaothuchanh">Vào thực hành</option>
+            <option value="div_01_prac_bangnhap">
+              Custom link thực hành (2){" "}
+            </option>
+            <option value="div_01_prac_vaothuchanh">Vào thực hành (3)</option>
           </select>
           <div style={{ display: "flex" }}>
             {" "}

@@ -99,64 +99,116 @@ const Dictaphone = ({
     SpeechRecognition.stopListening();
   };
 
-  async function check(RegInput) {
+  // async function check(RegInput) {
+  //   if (!RegInput) return;
+
+  //   setMessage(RegInput);
+
+  //   try {
+  //     const requestBody = {
+  //       RegInput,
+  //       CMDlist,
+  //       regRate_01,
+  //     };
+
+  //     setSttProcessing(true);
+
+  //     const response = await fetch(LinkAPI + "reg-Analyze-in-prac", {
+  //       method: "POST",
+  //       headers: { "Content-Type": "application/json" },
+  //       body: JSON.stringify(requestBody),
+  //     });
+
+  //     const json = await response.json();
+  //     const objTR = json.success ? json.data : null;
+
+  //     if (!objTR) {
+  //       // If no result, respond with clarification prompt
+  //       ReadMessage(
+  //         ObjVoices,
+  //         "Sorry, what did you say?",
+  //         GENDER,
+  //         GENDER === 1 ? [{ id: "sorryFemale" }] : [{ id: "sorryMale" }]
+  //       );
+  //     } else {
+  //       // Respond with the answer
+  //       const answer = objTR.aw ? getRandomElementFromArray(objTR.aw) : null;
+  //       const voice = objTR.aw01 || undefined;
+
+  //       if (answer) {
+  //         ReadMessage(
+  //           ObjVoices,
+  //           answer,
+  //           GENDER,
+  //           voice ? [{ id: voice }] : undefined
+  //         );
+  //       }
+
+  //       // Handle actions
+  //       if (objTR.action?.[0] === "WRONG") {
+  //         setScore((prev) => prev - 1.5);
+  //       } else if (objTR.action?.[0]) {
+  //         addElementIfNotExist(objTR.action[0]);
+  //       }
+  //     }
+  //   } catch (error) {
+  //     console.error("Error during check():", error);
+  //   } finally {
+  //     setSttProcessing(false); // corrected: was mistakenly set to true in finally
+  //     setGetSTTDictaphone(false);
+  //   }
+  // }
+
+  function check(RegInput) {
     if (!RegInput) return;
 
     setMessage(RegInput);
 
-    try {
-      const requestBody = {
-        RegInput,
-        CMDlist,
-        regRate_01,
-      };
+    // Ưu tiên check objTR_00 trước (90% trường hợp)
+    let objTR = findMostSimilarQuestion(RegInput, CMDlist, regRate_01);
 
-      setSttProcessing(true);
+    // Chỉ check objTR_01 nếu objTR_00 không tìm thấy (7% trường hợp)
+    if (!objTR) {
+      objTR = findMostSimilarQuestion(otherGetInterim, CMDlist, regRate_01);
+    }
 
-      const response = await fetch(LinkAPI + "reg-Analyze-in-prac", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(requestBody),
-      });
+    // Cuối cùng mới check processedInput (1-3% trường hợp)
+    if (!objTR) {
+      const processedInput = removeDuplicates(RegInput);
+      objTR = findMostSimilarQuestion(processedInput, CMDlist, regRate_01);
+    }
 
-      const json = await response.json();
-      const objTR = json.success ? json.data : null;
-
-      if (!objTR) {
-        // If no result, respond with clarification prompt
+    // Xử lý kết quả
+    if (!objTR) {
+      ReadMessage(
+        ObjVoices,
+        "Sorry, what did you say?",
+        GENDER,
+        GENDER === 1 ? [{ id: "sorryFemale" }] : [{ id: "sorryMale" }]
+      );
+    } else {
+      // Xử lý câu trả lời
+      const answer = objTR.aw?.[Math.floor(Math.random() * objTR.aw.length)];
+      if (answer) {
         ReadMessage(
           ObjVoices,
-          "Sorry, what did you say?",
+          answer,
           GENDER,
-          GENDER === 1 ? [{ id: "sorryFemale" }] : [{ id: "sorryMale" }]
+          objTR.aw01 ? [{ id: objTR.aw01 }] : undefined
         );
-      } else {
-        // Respond with the answer
-        const answer = objTR.aw ? getRandomElementFromArray(objTR.aw) : null;
-        const voice = objTR.aw01 || undefined;
+      }
 
-        if (answer) {
-          ReadMessage(
-            ObjVoices,
-            answer,
-            GENDER,
-            voice ? [{ id: voice }] : undefined
-          );
-        }
-
-        // Handle actions
-        if (objTR.action?.[0] === "WRONG") {
-          setScore((prev) => prev - 1.5);
-        } else if (objTR.action?.[0]) {
+      // Xử lý action
+      if (objTR.action?.[0]) {
+        if (objTR.action[0] === "WRONG") {
+          setScore((S) => S - 2.5);
+        } else {
           addElementIfNotExist(objTR.action[0]);
         }
       }
-    } catch (error) {
-      console.error("Error during check():", error);
-    } finally {
-      setSttProcessing(false); // corrected: was mistakenly set to true in finally
-      setGetSTTDictaphone(false);
     }
+
+    setGetSTTDictaphone(false);
   }
 
   return (
@@ -274,4 +326,48 @@ function getRandomElementFromArray(array) {
   }
   const randomIndex = Math.floor(Math.random() * array.length);
   return array[randomIndex];
+}
+
+function findMostSimilarQuestion(statement, questions, similarityThreshold) {
+  const normalizedStatement = removeAccentsAndLowercase(statement);
+
+  let maxSimilarity = -1;
+  let bestMatch = null;
+
+  questions.forEach((questionObj) => {
+    questionObj.qs.forEach((q) => {
+      const normalizedQuestion = removeAccentsAndLowercase(q);
+      const similarity = stringSimilarity.compareTwoStrings(
+        normalizedStatement,
+        normalizedQuestion
+      );
+
+      if (similarity >= similarityThreshold && similarity > maxSimilarity) {
+        maxSimilarity = similarity;
+        bestMatch = questionObj;
+      }
+    });
+  });
+
+  return bestMatch;
+}
+
+/**
+ * Removes duplicate words from a sentence.
+ * @param {string} sentence - Input sentence.
+ * @returns {string} Cleaned sentence with unique words.
+ */
+function removeDuplicates(sentence) {
+  const words = sentence.split(" ");
+  const seen = new Set();
+  const uniqueWords = [];
+
+  for (const word of words) {
+    if (!seen.has(word)) {
+      uniqueWords.push(word);
+      seen.add(word);
+    }
+  }
+
+  return uniqueWords.join(" ");
 }

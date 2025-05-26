@@ -753,7 +753,17 @@ function FINAL_PROJECT({
                       }}
                     >
                       <h5>Gợi ý:</h5>
-                      <h4>{playData.hint}</h4>{" "}
+                      {playData.hint.includes("zzzz") ? (
+                        <div style={{ whiteSpace: "pre-line" }}>
+                          {
+                            playData.hint.split("zzzz")[
+                              numberBegin % playData.hint.split("zzzz").length
+                            ]
+                          }
+                        </div>
+                      ) : (
+                        <h4>{playData.hint}</h4>
+                      )}{" "}
                     </div>
                   )
                 ) : (
