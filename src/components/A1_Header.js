@@ -272,7 +272,7 @@ export default function Header({ sttRoom, STTconnectFN }) {
                 null
               )} */}
             </Nav>
-            {/* <Move /> */}
+            <Move />
           </Navbar.Collapse>
         </Navbar>
       </div>
