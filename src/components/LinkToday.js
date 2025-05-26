@@ -348,7 +348,7 @@ function returnLinksToday(linkTodayData) {
           background: "#fed7d7",
         }}
       >
-        ❌ Có lỗi xảy ra khi hiển thị dữ liệu: {error.message}
+        ❌ Có lỗi xảy ra khi hiển thị dữ liệu {error.message}
       </div>
     );
   }
