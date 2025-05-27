@@ -530,10 +530,10 @@ export default function EnglishCourseLanding() {
                   <h3 className="h4 fw-bold mb-2">Khóa Cơ Bản</h3>
                   <div className="mb-2">
                     <span className="fs-5 text-decoration-line-through text-muted">
-                      5.000.000đ
+                      6.000.000đ
                     </span>
                     <div className="display-4 fw-bold text-primary">
-                      4.000.000đ
+                      5.000.000đ
                     </div>
                   </div>
                   <p className="text-blue-light">24 buổi học</p>
