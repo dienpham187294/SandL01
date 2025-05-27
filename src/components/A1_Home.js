@@ -232,7 +232,7 @@ export default function EnglishCourseLanding() {
           }
         }
       `}</style>
-      <div style={{ height: "70px" }}></div>
+      <div style={{ height: "8vh" }}></div>
       {/* Hero Section */}
       <section className="hero-section">
         <div className="container">
