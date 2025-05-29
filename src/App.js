@@ -21,7 +21,7 @@ import HomeView from "./components/A1_Home";
 import KnowGhepAm from "./components/A1_Know_Ghepam";
 
 import LearningHub_prac_st_only from "./components/LearningHub_prac_st_only";
-// import PixiCanvas from "./components/PixiJS";
+import PixiCanvas from "./components/prac_componets/inside_01_components/PixiJS";
 // import RootPrac from "./components/prac_componets/B1_RootPrac";
 
 const LinkAPI =
@@ -136,6 +136,9 @@ const App = () => {
               <Route path="/name" element={<NameDiv />} />
 
               <Route path="/pracst" element={<LearningHub_prac_st_only />} />
+
+              <Route path="/game" element={<PixiCanvas />} />
+
               <Route
                 path="*"
                 element={
