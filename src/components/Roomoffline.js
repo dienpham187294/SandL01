@@ -112,12 +112,20 @@ const Room = ({ setSttRoom }) => {
       setDataPracticingOverRoll(data);
 
       let firstList = [currentIndex || 0];
-      try {
-        let newList = parseStringToNumbers(params.get("a"));
-        if (newList) {
-          firstList = newList;
+
+      const aParam = params.get("a");
+      if (aParam === "all") {
+        firstList = Array.from({ length: data.length }, (_, i) => i);
+      } else if (aParam) {
+        try {
+          const newList = parseStringToNumbers(aParam);
+          if (newList && newList.length > 0) {
+            firstList = newList;
+          }
+        } catch (error) {
+          console.warn('Failed to parse "a" parameter:', error.message);
         }
-      } catch (error) {}
+      }
 
       const get_data_interleaveCharacters = interleaveCharacters(
         data,
@@ -611,7 +619,7 @@ function interleaveCharacters(
     randomIndex
   ];
   let arrRes_gd_1 = [];
-
+  console.log(index_sets_t_get_pracData);
   index_sets_t_get_pracData.forEach((e) => {
     let getUpCode = "charactor";
     if (upCode && data_all[e]["charactor" + upCode]) {
@@ -622,7 +630,6 @@ function interleaveCharacters(
       numberCut,
       numberGetPerOne
     );
-
     arrRes_gd_1.push(resTemp);
   });
 
