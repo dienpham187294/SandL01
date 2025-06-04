@@ -150,9 +150,11 @@ const Dictaphone = ({ CMDlist }) => {
         >
           Tắt
         </button>{" "}
-        <button className="btn btn-primary m-1" onClick={startListening}>
-          Bắt đầu
-        </button>
+        {sttListenFromServer ? null : (
+          <button className="btn btn-primary m-1" onClick={startListening}>
+            Bắt đầu
+          </button>
+        )}
         <hr />
         <hr />
         <h4>Rèn luyện câu:</h4>
