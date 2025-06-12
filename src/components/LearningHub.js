@@ -364,7 +364,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                         }}
                         className="btn btn-warning"
                       >
-                        Gửi link thực hành
+                        Gửi link
                       </button>
                     </div>
                     <div className="col-2">
