@@ -56,6 +56,12 @@ const Dictaphone = ({ CMDlist }) => {
   }, [CMDlist]);
 
   useEffect(() => {
+    // Early return if transcript is too long (more than 2x the command length)
+    if (transcript.length > CMDlist.length * 3) {
+      stopListening();
+      return;
+    }
+
     if (interimTranscript === "" && transcript !== "" && CMDlist?.trim()) {
       try {
         let obj1 = {
@@ -151,7 +157,13 @@ const Dictaphone = ({ CMDlist }) => {
           Tắt
         </button>{" "}
         {sttListenFromServer ? null : (
-          <button className="btn btn-primary m-1" onClick={startListening}>
+          <button
+            className="btn btn-primary m-1"
+            onClick={() => {
+              handleReset();
+              startListening();
+            }}
+          >
             Bắt đầu
           </button>
         )}
