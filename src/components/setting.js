@@ -5,7 +5,12 @@ import { ObjREADContext } from "../App"; // Import ObjREADContext
 const Settings = () => {
   const ObjREAD = useContext(ObjREADContext);
 
-  return <div>{JSON.stringify(ObjREAD)}</div>;
+  return (
+    <div>
+      {" "}
+      <div style={{ height: "100px" }}></div> {JSON.stringify(ObjREAD)}
+    </div>
+  );
 };
 
 export default Settings;
