@@ -4,7 +4,8 @@ import SpeechRecognition, {
   useSpeechRecognition,
 } from "react-speech-recognition";
 import LinkAPI from "./T0_linkApi";
-import read_by_Tts from "./readMessage_TtsServer";
+import read_by_Tts from "../ulti/readMessage_TtsServer";
+
 const Dictaphone = ({ CMDlist }) => {
   // State management
   const [numberTry, setNumberTry] = useState(0);
@@ -15,10 +16,19 @@ const Dictaphone = ({ CMDlist }) => {
     () => localStorage.getItem("nameDinhDanh") || ""
   );
   const [resultSt, setresultSt] = useState("");
-
   const [sttProcessing, setsttProcessing] = useState(false);
-
   const [sttListenFromServer, setsttListenFromServer] = useState(false);
+  const [iosTranscriptBuffer, setIosTranscriptBuffer] = useState("");
+  const [transcriptProcessed, setTranscriptProcessed] = useState(false);
+
+  // Detect iOS device
+  const isIOS = useMemo(() => {
+    return (
+      /iPad|iPhone|iPod/.test(navigator.userAgent) ||
+      (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1)
+    );
+  }, []);
+
   // Memoize commands to prevent unnecessary re-creation
   const commands = useMemo(
     () => [
@@ -28,6 +38,11 @@ const Dictaphone = ({ CMDlist }) => {
           try {
             const interimRes = document.getElementById("interimRes");
             if (interimRes) interimRes.innerText = command;
+
+            // For iOS, update buffer since interim might not work
+            if (isIOS) {
+              setIosTranscriptBuffer(command);
+            }
           } catch (error) {
             console.error("Error updating interim result:", error);
           }
@@ -37,44 +52,74 @@ const Dictaphone = ({ CMDlist }) => {
         bestMatchOnly: true,
       },
     ],
-    [CMDlist]
+    [CMDlist, isIOS]
   );
 
   // Speech recognition hook with memoized commands
   const { interimTranscript, transcript, listening, resetTranscript } =
     useSpeechRecognition({ commands });
 
+  // Get effective interim transcript (handle iOS case)
+  const effectiveInterimTranscript = useMemo(() => {
+    if (isIOS) {
+      // On iOS, use buffer or fall back to transcript difference
+      return (
+        iosTranscriptBuffer ||
+        (transcript && !transcriptProcessed ? transcript : "")
+      );
+    }
+    return interimTranscript;
+  }, [
+    isIOS,
+    iosTranscriptBuffer,
+    interimTranscript,
+    transcript,
+    transcriptProcessed,
+  ]);
+
   // Reset states when number of tries changes
   useEffect(() => {
     setresultSt("");
+    setTranscriptProcessed(false);
   }, [numberTry]);
 
   // Reset number of tries and function set when command list changes
   useEffect(() => {
     setNumberTry(0);
     setresultSt("");
+    setIosTranscriptBuffer("");
+    setTranscriptProcessed(false);
   }, [CMDlist]);
 
+  // Main processing effect - handle both iOS and non-iOS
   useEffect(() => {
+    // For iOS: process when transcript changes and hasn't been processed yet
+    // For non-iOS: process when interimTranscript is empty and transcript exists
+    const shouldProcess = isIOS
+      ? transcript !== "" && !transcriptProcessed && CMDlist?.trim()
+      : interimTranscript === "" && transcript !== "" && CMDlist?.trim();
+
     // Early return if transcript is too long (more than 2x the command length)
     if (transcript.length > CMDlist.length * 3) {
       stopListening();
       return;
     }
 
-    if (interimTranscript === "" && transcript !== "" && CMDlist?.trim()) {
+    if (shouldProcess) {
       try {
         let obj1 = {
-          transcript: transcript,
-          CMDlist: CMDlist,
+          transcript: transcript.replace(/[^\w\s']/g, ""),
+          CMDlist: CMDlist.replace(/[^\w\s']/g, ""),
         };
         let requestOptions = {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(obj1),
         };
-        // console.log(LinkAPI + "test", requestOptions);
+
         setsttProcessing(true);
+        setTranscriptProcessed(true); // Mark as processed for iOS
+
         fetch(LinkAPI + "reg-Analyze", requestOptions)
           .then((res) => res.json())
           .then((json) => {
@@ -84,15 +129,21 @@ const Dictaphone = ({ CMDlist }) => {
           })
           .finally(() => {
             setsttProcessing(false);
+            if (isIOS) {
+              setIosTranscriptBuffer(""); // Clear buffer after processing
+            }
           });
       } catch (error) {
         console.log(error);
+        setsttProcessing(false);
       }
     }
-  }, [interimTranscript, transcript, CMDlist]);
+  }, [interimTranscript, transcript, CMDlist, isIOS, transcriptProcessed]);
 
   // Speech recognition control functions
   const startListening = useCallback(() => {
+    setTranscriptProcessed(false);
+    setIosTranscriptBuffer("");
     SpeechRecognition.startListening({
       continuous: true,
       language: "en-US",
@@ -112,9 +163,11 @@ const Dictaphone = ({ CMDlist }) => {
         "KQTH_" + (nameDinhDanh || (idDinhDanh ? idDinhDanh.slice(0, 4) : "")),
     });
     resetTranscript();
+    setIosTranscriptBuffer("");
+    setTranscriptProcessed(false);
   }, [
-    transcript,
-    resultSt,
+    cmdApartChat,
+    SimilarCheckSet,
     nameDinhDanh,
     idDinhDanh,
     stopListening,
@@ -124,6 +177,8 @@ const Dictaphone = ({ CMDlist }) => {
   // Reset handler
   const handleReset = useCallback(() => {
     resetTranscript();
+    setIosTranscriptBuffer("");
+    setTranscriptProcessed(false);
     setNumberTry((prev) => prev + 1);
   }, [resetTranscript]);
 
@@ -168,6 +223,14 @@ const Dictaphone = ({ CMDlist }) => {
           </button>
         )}
         <hr />
+        {/* iOS indicator */}
+        {isIOS && (
+          <div
+            style={{ color: "orange", fontSize: "12px", marginBottom: "10px" }}
+          >
+            📱 iOS Device Detected - Optimized mode enabled
+          </div>
+        )}
         <hr />
         <h4>Rèn luyện câu:</h4>
         <h2
@@ -206,6 +269,9 @@ const Dictaphone = ({ CMDlist }) => {
       <div className="col-8">
         <h5 style={{ color: "blue" }}>
           {listening ? "Đang bật - Hãy nói . . ." : "Đang tắt."}{" "}
+          {isIOS && listening && (
+            <small style={{ color: "orange" }}>(iOS Mode)</small>
+          )}
         </h5>
         {listening ? (
           <div
@@ -214,10 +280,10 @@ const Dictaphone = ({ CMDlist }) => {
             <div
               id="divView01"
               style={{
-                width: "100%", // full width
+                width: "100%",
                 overflow: "hidden",
                 transition: "opacity 0.5s ease-in-out",
-                marginBottom: resultSt && resultSt.length > 0 ? "8px" : "0px", // cách dưới
+                marginBottom: resultSt && resultSt.length > 0 ? "8px" : "0px",
                 fontFamily:
                   "'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
                 lineHeight: 1.6,
@@ -230,7 +296,7 @@ const Dictaphone = ({ CMDlist }) => {
             <div
               id="divView02"
               style={{
-                width: "100%", // full width
+                width: "100%",
                 transition: "all 0.3s ease-in-out",
                 fontFamily:
                   "'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
@@ -245,9 +311,13 @@ const Dictaphone = ({ CMDlist }) => {
                 minWidth: 0,
               }}
             >
-              <i>{interimTranscript}</i>
-
+              <i>{effectiveInterimTranscript}</i>
               <b>{sttProcessing ? "Đang xử lý câu nói ..." : null}</b>
+              {isIOS && effectiveInterimTranscript === "" && transcript && (
+                <div style={{ color: "orange", fontSize: "14px" }}>
+                  iOS: Waiting for speech completion...
+                </div>
+              )}
             </div>
             <hr />
             <div style={{ color: "purple" }}> {SimilarCheckSet}</div>
