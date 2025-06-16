@@ -65,8 +65,8 @@ const Dictaphone = ({ CMDlist }) => {
     if (interimTranscript === "" && transcript !== "" && CMDlist?.trim()) {
       try {
         let obj1 = {
-          transcript: transcript,
-          CMDlist: CMDlist,
+          transcript: transcript.replace(/[^\w\s']/g, ""),
+          CMDlist: CMDlist.replace(/[^\w\s']/g, ""),
         };
         let requestOptions = {
           method: "POST",

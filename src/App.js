@@ -93,6 +93,7 @@ const App = () => {
     <HelmetProvider>
       <ObjREADContext.Provider value={ObjREAD}>
         <Router>
+          {/* <div style={{ height: "8vh" }}></div> */}
           <div className="chat-app">
             <ChatWidget />
             <Routes>
