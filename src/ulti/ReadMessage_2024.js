@@ -1,3 +1,4 @@
+import read_by_Tts from "./readMessage_TtsServer";
 let imale, ifemale;
 function playAudio(filename, disableButton, enableButton, onFail) {
   try {
@@ -115,7 +116,8 @@ export default async function ReadMessage(ObjVoices, text, voiceNum, audio) {
       try {
         const randomIndex = Math.floor(Math.random() * audio.length);
         playAudio(audio[randomIndex].id, disableButton, enableButton, () => {
-          ReadMessage_02(ObjVoices, text, voiceNum);
+          read_by_Tts(text);
+          // ReadMessage_02(ObjVoices, text, voiceNum);
         });
         return;
       } catch (error) {
@@ -123,7 +125,8 @@ export default async function ReadMessage(ObjVoices, text, voiceNum, audio) {
       }
     }
   } else {
-    ReadMessage_02(ObjVoices, text, voiceNum);
+    read_by_Tts(text);
+    // ReadMessage_02(ObjVoices, text, voiceNum);
   }
 }
 

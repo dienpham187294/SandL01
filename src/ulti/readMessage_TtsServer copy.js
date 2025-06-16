@@ -28,7 +28,7 @@ const getCurrentDBSize = async (db) => {
   const tx = db.transaction(DB_CONFIG.storeName, "readonly");
   const store = tx.objectStore(DB_CONFIG.storeName);
   const keys = await store.getAllKeys();
-
+  
   let totalSize = 0;
   for (const key of keys) {
     const data = await store.get(key);
@@ -36,7 +36,7 @@ const getCurrentDBSize = async (db) => {
       totalSize += data.blob.size;
     }
   }
-
+  
   return { totalSize, entryCount: keys.length };
 };
 
@@ -45,10 +45,10 @@ const cleanOldEntries = async (db, removeCount = 10) => {
   const tx = db.transaction(DB_CONFIG.storeName, "readwrite");
   const store = tx.objectStore(DB_CONFIG.storeName);
   const index = store.index("timestamp");
-
+  
   // Lấy các entry cũ nhất
   const oldEntries = await index.getAll(null, removeCount);
-
+  
   // Xóa các entry cũ
   for (const entry of oldEntries) {
     const cursor = await index.openCursor();
@@ -56,7 +56,7 @@ const cleanOldEntries = async (db, removeCount = 10) => {
       await cursor.delete();
     }
   }
-
+  
   await tx.complete;
   console.log(`Đã xóa ${oldEntries.length} audio cũ khỏi cache`);
 };
@@ -64,17 +64,16 @@ const cleanOldEntries = async (db, removeCount = 10) => {
 // Quản lý dung lượng DB
 const manageDBSize = async (db, newBlobSize) => {
   const { totalSize, entryCount } = await getCurrentDBSize(db);
-
+  
   // Kiểm tra giới hạn số lượng
   if (entryCount >= DB_CONFIG.maxEntries) {
     await cleanOldEntries(db, Math.ceil(DB_CONFIG.maxEntries * 0.2)); // Xóa 20%
   }
-
+  
   // Kiểm tra giới hạn dung lượng
   if (totalSize + newBlobSize > DB_CONFIG.maxSize) {
-    const needToFree = totalSize + newBlobSize - DB_CONFIG.maxSize;
-    const estimatedEntriesToRemove =
-      Math.ceil(needToFree / (totalSize / entryCount)) + 5;
+    const needToFree = (totalSize + newBlobSize) - DB_CONFIG.maxSize;
+    const estimatedEntriesToRemove = Math.ceil(needToFree / (totalSize / entryCount)) + 5;
     await cleanOldEntries(db, estimatedEntriesToRemove);
   }
 };
@@ -87,12 +86,12 @@ const playFromBlob = (blob) => {
   audioElement.autoplay = true;
   audioElement.style.display = "none";
   document.body.appendChild(audioElement);
-
+  
   audioElement.onended = () => {
     URL.revokeObjectURL(audioUrl);
     audioElement.remove();
   };
-
+  
   audioElement.onerror = () => {
     console.error("Error playing audio");
     URL.revokeObjectURL(audioUrl);
@@ -104,14 +103,14 @@ const playFromBlob = (blob) => {
 const saveAudioToDB = async (db, key, blob) => {
   // Quản lý dung lượng trước khi lưu
   await manageDBSize(db, blob.size);
-
+  
   const audioData = {
     blob: blob,
     timestamp: Date.now(),
     size: blob.size,
-    created: new Date().toISOString(),
+    created: new Date().toISOString()
   };
-
+  
   await db.put(DB_CONFIG.storeName, audioData, key);
 };
 
@@ -119,7 +118,7 @@ const saveAudioToDB = async (db, key, blob) => {
 export default async function read_by_Tts(text) {
   const db = await initDB();
   const key = text.trim().toLowerCase();
-
+  
   try {
     // 1. Kiểm tra trong IndexedDB
     const cachedData = await db.get(DB_CONFIG.storeName, key);
@@ -127,12 +126,12 @@ export default async function read_by_Tts(text) {
       // Cập nhật timestamp để đánh dấu là được sử dụng gần đây
       cachedData.timestamp = Date.now();
       await db.put(DB_CONFIG.storeName, cachedData, key);
-
+      
       playFromBlob(cachedData.blob);
       console.log("Phát audio từ cache");
       return;
     }
-
+    
     // 2. Fetch từ server nếu chưa có
     console.log("Đang tải audio từ server...");
     const response = await fetch(LinkAPI + "tts", {
@@ -140,19 +139,20 @@ export default async function read_by_Tts(text) {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ text }),
     });
-
+    
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
-
+    
     const blob = await response.blob();
-
+    
     // 3. Lưu vào IndexedDB với quản lý dung lượng
     await saveAudioToDB(db, key, blob);
-
+    
     // 4. Phát audio
     playFromBlob(blob);
     console.log("Đã lưu và phát audio mới");
+    
   } catch (error) {
     console.error("TTS playback error:", error);
     // Có thể thêm fallback hoặc thông báo lỗi cho user
@@ -168,11 +168,8 @@ export const getDBStats = async () => {
       ...stats,
       maxSize: DB_CONFIG.maxSize,
       maxEntries: DB_CONFIG.maxEntries,
-      sizePercentage: ((stats.totalSize / DB_CONFIG.maxSize) * 100).toFixed(2),
-      entryPercentage: (
-        (stats.entryCount / DB_CONFIG.maxEntries) *
-        100
-      ).toFixed(2),
+      sizePercentage: (stats.totalSize / DB_CONFIG.maxSize * 100).toFixed(2),
+      entryPercentage: (stats.entryCount / DB_CONFIG.maxEntries * 100).toFixed(2)
     };
   } catch (error) {
     console.error("Error getting DB stats:", error);
