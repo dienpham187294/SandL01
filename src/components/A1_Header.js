@@ -156,6 +156,13 @@ const pracEnSets = [
     link: "b1_summer_fruit_01",
     id: "trungcapI",
   },
+  {
+    root: "learninghub",
+    preName: "Rèn luyện tình huống",
+    name: "40 tình huống thông dụng",
+    link: "yyy_a1",
+    id: "socapI",
+  },
 ];
 
 export default function Header({ sttRoom, STTconnectFN }) {
