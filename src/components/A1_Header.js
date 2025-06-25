@@ -163,6 +163,13 @@ const pracEnSets = [
     link: "yyy_a1",
     id: "socapI",
   },
+  {
+    root: "learninghub",
+    preName: "KET A2 Part 01",
+    name: "100 notices and messages",
+    link: "yyy_ket_part1",
+    id: "socapI",
+  },
 ];
 
 export default function Header({ sttRoom, STTconnectFN }) {
