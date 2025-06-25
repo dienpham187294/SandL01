@@ -399,7 +399,7 @@
       },
       {
         "type": "C1",
-        "fsp": "Answer Received is. It is from the kitchen stove.. What did John do next?",
+        "fsp": "Answer Received is. It is from the kitchen stove. What did John do next?",
         "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
         "name": "David",
         "gender": "male",
@@ -420,7 +420,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Answer Received is. It is from the kitchen stove.. What did John do next?",
+            "st": "Answer Received is. It is from the kitchen stove. What did John do next?",
             "id": "E624_F1a33"
           }
         ]
@@ -455,7 +455,7 @@
       },
       {
         "type": "A1",
-        "fsp": "John's Experience is. The lights go out suddenly.. What question did John ask?",
+        "fsp": "John's Experience is. The lights go out suddenly. What question did John ask?",
         "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
         "name": "David",
         "gender": "male",
@@ -476,7 +476,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John's Experience is. The lights go out suddenly.. What question did John ask?",
+            "st": "John's Experience is. The lights go out suddenly. What question did John ask?",
             "id": "E624_F1a3"
           }
         ]
@@ -513,7 +513,7 @@
       },
       {
         "type": "A1",
-        "fsp": "John's Experience is. He hears a loud noise.. What question did John ask?",
+        "fsp": "John's Experience is. He hears a loud noise. What question did John ask?",
         "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
         "name": "Emily",
         "gender": "female",
@@ -534,7 +534,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John's Experience is. He hears a loud noise.. What question did John ask?",
+            "st": "John's Experience is. He hears a loud noise. What question did John ask?",
             "id": "E624_F1a0"
           }
         ]
@@ -599,7 +599,7 @@
       },
       {
         "type": "C1",
-        "fsp": "Answer Received is. The window is still open.. What did John do next?",
+        "fsp": "Answer Received is. The window is still open. What did John do next?",
         "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
         "name": "Emily",
         "gender": "female",
@@ -620,7 +620,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Answer Received is. The window is still open.. What did John do next?",
+            "st": "Answer Received is. The window is still open. What did John do next?",
             "id": "E624_F1a30"
           }
         ]
@@ -715,7 +715,7 @@
       },
       {
         "type": "C1",
-        "fsp": "Answer Received is. A book fell off the shelf.. What did John do next?",
+        "fsp": "Answer Received is. A book fell off the shelf. What did John do next?",
         "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
         "name": "Jennifer",
         "gender": "female",
@@ -736,14 +736,14 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Answer Received is. A book fell off the shelf.. What did John do next?",
+            "st": "Answer Received is. A book fell off the shelf. What did John do next?",
             "id": "E624_F1a24"
           }
         ]
       },
       {
         "type": "A1",
-        "fsp": "John's Experience is. He feels cold in the room.. What question did John ask?",
+        "fsp": "John's Experience is. He feels cold in the room. What question did John ask?",
         "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
         "name": "Jessica",
         "gender": "female",
@@ -764,7 +764,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John's Experience is. He feels cold in the room.. What question did John ask?",
+            "st": "John's Experience is. He feels cold in the room. What question did John ask?",
             "id": "E624_F1a6"
           }
         ]
@@ -885,7 +885,7 @@
       },
       {
         "type": "C1",
-        "fsp": "Answer Received is. There is no electricity now.. What did John do next?",
+        "fsp": "Answer Received is. There is no electricity now. What did John do next?",
         "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
         "name": "Joshua",
         "gender": "male",
@@ -906,14 +906,14 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Answer Received is. There is no electricity now.. What did John do next?",
+            "st": "Answer Received is. There is no electricity now. What did John do next?",
             "id": "E624_F1a27"
           }
         ]
       },
       {
         "type": "A1",
-        "fsp": "John's Experience is. He smells something strange.. What question did John ask?",
+        "fsp": "John's Experience is. He smells something strange. What question did John ask?",
         "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
         "name": "Michael",
         "gender": "male",
@@ -934,7 +934,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John's Experience is. He smells something strange.. What question did John ask?",
+            "st": "John's Experience is. He smells something strange. What question did John ask?",
             "id": "E624_F1a9"
           }
         ]
@@ -1350,7 +1350,7 @@
       },
       {
         "type": "C1",
-        "fsp": "Answer Received is. Sure, take this blue one.. What did John do next?",
+        "fsp": "Answer Received is. Sure, take this blue one. What did John do next?",
         "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
         "name": "Emily",
         "gender": "female",
@@ -1376,7 +1376,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Answer Received is. Sure, take this blue one.. What did John do next?",
+            "st": "Answer Received is. Sure, take this blue one. What did John do next?",
             "id": "E624_F2a114"
           }
         ]
@@ -1451,7 +1451,7 @@
       },
       {
         "type": "A1",
-        "fsp": "John's Experience is. He needs help with homework.. What question did John ask?",
+        "fsp": "John's Experience is. He needs help with homework. What question did John ask?",
         "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
         "name": "David",
         "gender": "male",
@@ -1477,7 +1477,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John's Experience is. He needs help with homework.. What question did John ask?",
+            "st": "John's Experience is. He needs help with homework. What question did John ask?",
             "id": "E624_F2a87"
           }
         ]
@@ -1517,7 +1517,7 @@
       },
       {
         "type": "C1",
-        "fsp": "Answer Received is. No, lunch is at twelve.. What did John do next?",
+        "fsp": "Answer Received is. No, lunch is at twelve. What did John do next?",
         "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
         "name": "David",
         "gender": "male",
@@ -1543,14 +1543,14 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Answer Received is. No, lunch is at twelve.. What did John do next?",
+            "st": "Answer Received is. No, lunch is at twelve. What did John do next?",
             "id": "E624_F2a117"
           }
         ]
       },
       {
         "type": "A1",
-        "fsp": "John's Experience is. He forgot his pencil case.. What question did John ask?",
+        "fsp": "John's Experience is. He forgot his pencil case. What question did John ask?",
         "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
         "name": "Jessica",
         "gender": "female",
@@ -1576,7 +1576,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John's Experience is. He forgot his pencil case.. What question did John ask?",
+            "st": "John's Experience is. He forgot his pencil case. What question did John ask?",
             "id": "E624_F2a90"
           }
         ]
@@ -1721,7 +1721,7 @@
       },
       {
         "type": "C1",
-        "fsp": "Answer Received is. Yes, I can show you now.. What did John do next?",
+        "fsp": "Answer Received is. Yes, I can show you now. What did John do next?",
         "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
         "name": "Joshua",
         "gender": "male",
@@ -1747,7 +1747,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Answer Received is. Yes, I can show you now.. What did John do next?",
+            "st": "Answer Received is. Yes, I can show you now. What did John do next?",
             "id": "E624_F2a111"
           }
         ]
@@ -1820,7 +1820,7 @@
       },
       {
         "type": "A1",
-        "fsp": "John's Experience is. He cannot find his book.. What question did John ask?",
+        "fsp": "John's Experience is. He cannot find his book. What question did John ask?",
         "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
         "name": "Emily",
         "gender": "female",
@@ -1846,7 +1846,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John's Experience is. He cannot find his book.. What question did John ask?",
+            "st": "John's Experience is. He cannot find his book. What question did John ask?",
             "id": "E624_F2a84"
           }
         ]
@@ -1958,7 +1958,7 @@
       },
       {
         "type": "C1",
-        "fsp": "Answer Received is. Yes, it is on your chair.. What did John do next?",
+        "fsp": "Answer Received is. Yes, it is on your chair. What did John do next?",
         "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
         "name": "Jennifer",
         "gender": "female",
@@ -1984,7 +1984,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Answer Received is. Yes, it is on your chair.. What did John do next?",
+            "st": "Answer Received is. Yes, it is on your chair. What did John do next?",
             "id": "E624_F2a108"
           }
         ]
@@ -2024,7 +2024,7 @@
       },
       {
         "type": "A1",
-        "fsp": "John's Experience is. He feels hungry before lunch.. What question did John ask?",
+        "fsp": "John's Experience is. He feels hungry before lunch. What question did John ask?",
         "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
         "name": "Michael",
         "gender": "male",
@@ -2050,7 +2050,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John's Experience is. He feels hungry before lunch.. What question did John ask?",
+            "st": "John's Experience is. He feels hungry before lunch. What question did John ask?",
             "id": "E624_F2a93"
           }
         ]
@@ -2507,7 +2507,7 @@
       },
       {
         "type": "C1",
-        "fsp": "Answer Received is. It saw a cat outside.. What did John do next?",
+        "fsp": "Answer Received is. It saw a cat outside. What did John do next?",
         "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
         "name": "Emily",
         "gender": "female",
@@ -2533,7 +2533,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Answer Received is. It saw a cat outside.. What did John do next?",
+            "st": "Answer Received is. It saw a cat outside. What did John do next?",
             "id": "E624_F3a198"
           }
         ]
@@ -2575,7 +2575,7 @@
       },
       {
         "type": "A1",
-        "fsp": "John's Experience is. He sees cookies on the table.. What question did John ask?",
+        "fsp": "John's Experience is. He sees cookies on the table. What question did John ask?",
         "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
         "name": "Michael",
         "gender": "male",
@@ -2601,7 +2601,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John's Experience is. He sees cookies on the table.. What question did John ask?",
+            "st": "John's Experience is. He sees cookies on the table. What question did John ask?",
             "id": "E624_F3a177"
           }
         ]
@@ -2641,7 +2641,7 @@
       },
       {
         "type": "C1",
-        "fsp": "Answer Received is. Yes, use the remote here.. What did John do next?",
+        "fsp": "Answer Received is. Yes, use the remote here. What did John do next?",
         "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
         "name": "Joshua",
         "gender": "male",
@@ -2667,7 +2667,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Answer Received is. Yes, use the remote here.. What did John do next?",
+            "st": "Answer Received is. Yes, use the remote here. What did John do next?",
             "id": "E624_F3a195"
           }
         ]
@@ -2808,7 +2808,7 @@
       },
       {
         "type": "A1",
-        "fsp": "John's Experience is. He wants to watch TV.. What question did John ask?",
+        "fsp": "John's Experience is. He wants to watch TV. What question did John ask?",
         "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
         "name": "David",
         "gender": "male",
@@ -2834,14 +2834,14 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John's Experience is. He wants to watch TV.. What question did John ask?",
+            "st": "John's Experience is. He wants to watch TV. What question did John ask?",
             "id": "E624_F3a171"
           }
         ]
       },
       {
         "type": "C1",
-        "fsp": "Answer Received is. It broke last week during dinner.. What did John do next?",
+        "fsp": "Answer Received is. It broke last week during dinner. What did John do next?",
         "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
         "name": "Jennifer",
         "gender": "female",
@@ -2867,7 +2867,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Answer Received is. It broke last week during dinner.. What did John do next?",
+            "st": "Answer Received is. It broke last week during dinner. What did John do next?",
             "id": "E624_F3a192"
           }
         ]
@@ -2907,7 +2907,7 @@
       },
       {
         "type": "A1",
-        "fsp": "John's Experience is. He sees a broken chair.. What question did John ask?",
+        "fsp": "John's Experience is. He sees a broken chair. What question did John ask?",
         "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
         "name": "Emily",
         "gender": "female",
@@ -2933,7 +2933,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John's Experience is. He sees a broken chair.. What question did John ask?",
+            "st": "John's Experience is. He sees a broken chair. What question did John ask?",
             "id": "E624_F3a168"
           }
         ]
@@ -3179,7 +3179,7 @@
       },
       {
         "type": "C1",
-        "fsp": "Answer Received is. Yes, you can have two.. What did John do next?",
+        "fsp": "Answer Received is. Yes, you can have two. What did John do next?",
         "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
         "name": "David",
         "gender": "male",
@@ -3205,14 +3205,14 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Answer Received is. Yes, you can have two.. What did John do next?",
+            "st": "Answer Received is. Yes, you can have two. What did John do next?",
             "id": "E624_F3a201"
           }
         ]
       },
       {
         "type": "A1",
-        "fsp": "John's Experience is. He hears a dog barking.. What question did John ask?",
+        "fsp": "John's Experience is. He hears a dog barking. What question did John ask?",
         "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
         "name": "Jessica",
         "gender": "female",
@@ -3238,7 +3238,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John's Experience is. He hears a dog barking.. What question did John ask?",
+            "st": "John's Experience is. He hears a dog barking. What question did John ask?",
             "id": "E624_F3a174"
           }
         ]
@@ -3695,7 +3695,7 @@
       },
       {
         "type": "A1",
-        "fsp": "John's Experience is. He sees a fly on his food.. What question did John ask?",
+        "fsp": "John's Experience is. He sees a fly on his food. What question did John ask?",
         "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
         "name": "Michael",
         "gender": "male",
@@ -3721,14 +3721,14 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John's Experience is. He sees a fly on his food.. What question did John ask?",
+            "st": "John's Experience is. He sees a fly on his food. What question did John ask?",
             "id": "E624_F4a261"
           }
         ]
       },
       {
         "type": "C1",
-        "fsp": "Answer Received is. Yes, we will change it.. What did John do next?",
+        "fsp": "Answer Received is. Yes, we will change it. What did John do next?",
         "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
         "name": "David",
         "gender": "male",
@@ -3754,7 +3754,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Answer Received is. Yes, we will change it.. What did John do next?",
+            "st": "Answer Received is. Yes, we will change it. What did John do next?",
             "id": "E624_F4a285"
           }
         ]
@@ -3794,7 +3794,7 @@
       },
       {
         "type": "C1",
-        "fsp": "Answer Received is. Wait a minute, it will cool.. What did John do next?",
+        "fsp": "Answer Received is. Wait a minute, it will cool. What did John do next?",
         "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
         "name": "Emily",
         "gender": "female",
@@ -3820,7 +3820,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Answer Received is. Wait a minute, it will cool.. What did John do next?",
+            "st": "Answer Received is. Wait a minute, it will cool. What did John do next?",
             "id": "E624_F4a282"
           }
         ]
@@ -3860,7 +3860,7 @@
       },
       {
         "type": "A1",
-        "fsp": "John's Experience is. He gets the wrong food.. What question did John ask?",
+        "fsp": "John's Experience is. He gets the wrong food. What question did John ask?",
         "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
         "name": "Emily",
         "gender": "female",
@@ -3886,7 +3886,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John's Experience is. He gets the wrong food.. What question did John ask?",
+            "st": "John's Experience is. He gets the wrong food. What question did John ask?",
             "id": "E624_F4a252"
           }
         ]
@@ -4064,7 +4064,7 @@
       },
       {
         "type": "C1",
-        "fsp": "Answer Received is. Yes, I will bring some.. What did John do next?",
+        "fsp": "Answer Received is. Yes, I will bring some. What did John do next?",
         "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
         "name": "Joshua",
         "gender": "male",
@@ -4090,7 +4090,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Answer Received is. Yes, I will bring some.. What did John do next?",
+            "st": "Answer Received is. Yes, I will bring some. What did John do next?",
             "id": "E624_F4a279"
           }
         ]
@@ -4130,7 +4130,7 @@
       },
       {
         "type": "A1",
-        "fsp": "John's Experience is. He spills his water.. What question did John ask?",
+        "fsp": "John's Experience is. He spills his water. What question did John ask?",
         "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
         "name": "David",
         "gender": "male",
@@ -4156,7 +4156,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John's Experience is. He spills his water.. What question did John ask?",
+            "st": "John's Experience is. He spills his water. What question did John ask?",
             "id": "E624_F4a255"
           }
         ]
@@ -4196,7 +4196,7 @@
       },
       {
         "type": "A1",
-        "fsp": "John's Experience is. The food is too hot.. What question did John ask?",
+        "fsp": "John's Experience is. The food is too hot. What question did John ask?",
         "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
         "name": "Jessica",
         "gender": "female",
@@ -4222,7 +4222,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John's Experience is. The food is too hot.. What question did John ask?",
+            "st": "John's Experience is. The food is too hot. What question did John ask?",
             "id": "E624_F4a258"
           }
         ]
@@ -4262,7 +4262,7 @@
       },
       {
         "type": "C1",
-        "fsp": "Answer Received is. No, that is not yours.. What did John do next?",
+        "fsp": "Answer Received is. No, that is not yours. What did John do next?",
         "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
         "name": "Jennifer",
         "gender": "female",
@@ -4288,7 +4288,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Answer Received is. No, that is not yours.. What did John do next?",
+            "st": "Answer Received is. No, that is not yours. What did John do next?",
             "id": "E624_F4a276"
           }
         ]
@@ -4677,7 +4677,7 @@
     "charactor": [
       {
         "type": "C1",
-        "fsp": "Answer Received is. Yes, take a short break.. What did John do next?",
+        "fsp": "Answer Received is. Yes, take a short break. What did John do next?",
         "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
         "name": "Emily",
         "gender": "female",
@@ -4703,7 +4703,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Answer Received is. Yes, take a short break.. What did John do next?",
+            "st": "Answer Received is. Yes, take a short break. What did John do next?",
             "id": "E624_F5a366"
           }
         ]
@@ -4743,7 +4743,7 @@
       },
       {
         "type": "A1",
-        "fsp": "John's Experience is. He hurts his foot.. What question did John ask?",
+        "fsp": "John's Experience is. He hurts his foot. What question did John ask?",
         "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
         "name": "Jessica",
         "gender": "female",
@@ -4769,7 +4769,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John's Experience is. He hurts his foot.. What question did John ask?",
+            "st": "John's Experience is. He hurts his foot. What question did John ask?",
             "id": "E624_F5a342"
           }
         ]
@@ -4978,7 +4978,7 @@
       },
       {
         "type": "C1",
-        "fsp": "Answer Received is. It is under that big tree.. What did John do next?",
+        "fsp": "Answer Received is. It is under that big tree. What did John do next?",
         "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
         "name": "Jennifer",
         "gender": "female",
@@ -5004,14 +5004,14 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Answer Received is. It is under that big tree.. What did John do next?",
+            "st": "Answer Received is. It is under that big tree. What did John do next?",
             "id": "E624_F5a360"
           }
         ]
       },
       {
         "type": "A1",
-        "fsp": "John's Experience is. The ball goes into the trees.. What question did John ask?",
+        "fsp": "John's Experience is. The ball goes into the trees. What question did John ask?",
         "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
         "name": "Emily",
         "gender": "female",
@@ -5037,7 +5037,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John's Experience is. The ball goes into the trees.. What question did John ask?",
+            "st": "John's Experience is. The ball goes into the trees. What question did John ask?",
             "id": "E624_F5a336"
           }
         ]
@@ -5112,7 +5112,7 @@
       },
       {
         "type": "A1",
-        "fsp": "John's Experience is. He wants more players.. What question did John ask?",
+        "fsp": "John's Experience is. He wants more players. What question did John ask?",
         "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
         "name": "Michael",
         "gender": "male",
@@ -5138,14 +5138,14 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John's Experience is. He wants more players.. What question did John ask?",
+            "st": "John's Experience is. He wants more players. What question did John ask?",
             "id": "E624_F5a345"
           }
         ]
       },
       {
         "type": "C1",
-        "fsp": "Answer Received is. Yes, I want to play too.. What did John do next?",
+        "fsp": "Answer Received is. Yes, I want to play too. What did John do next?",
         "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
         "name": "David",
         "gender": "male",
@@ -5171,7 +5171,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Answer Received is. Yes, I want to play too.. What did John do next?",
+            "st": "Answer Received is. Yes, I want to play too. What did John do next?",
             "id": "E624_F5a369"
           }
         ]
@@ -5349,7 +5349,7 @@
       },
       {
         "type": "C1",
-        "fsp": "Answer Received is. Yes, it likes to play.. What did John do next?",
+        "fsp": "Answer Received is. Yes, it likes to play. What did John do next?",
         "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
         "name": "Joshua",
         "gender": "male",
@@ -5375,7 +5375,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Answer Received is. Yes, it likes to play.. What did John do next?",
+            "st": "Answer Received is. Yes, it likes to play. What did John do next?",
             "id": "E624_F5a363"
           }
         ]
@@ -5415,7 +5415,7 @@
       },
       {
         "type": "A1",
-        "fsp": "John's Experience is. He sees a dog near the ball.. What question did John ask?",
+        "fsp": "John's Experience is. He sees a dog near the ball. What question did John ask?",
         "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
         "name": "David",
         "gender": "male",
@@ -5441,7 +5441,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John's Experience is. He sees a dog near the ball.. What question did John ask?",
+            "st": "John's Experience is. He sees a dog near the ball. What question did John ask?",
             "id": "E624_F5a339"
           }
         ]
@@ -5931,7 +5931,7 @@
       },
       {
         "type": "A1",
-        "fsp": "John's Experience is. He forgot his bag.. What question did John ask?",
+        "fsp": "John's Experience is. He forgot his bag. What question did John ask?",
         "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
         "name": "Jessica",
         "gender": "female",
@@ -5957,14 +5957,14 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John's Experience is. He forgot his bag.. What question did John ask?",
+            "st": "John's Experience is. He forgot his bag. What question did John ask?",
             "id": "E624_F6a426"
           }
         ]
       },
       {
         "type": "C1",
-        "fsp": "Answer Received is. It is near the back wall.. What did John do next?",
+        "fsp": "Answer Received is. It is near the back wall. What did John do next?",
         "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
         "name": "Jennifer",
         "gender": "female",
@@ -5990,7 +5990,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Answer Received is. It is near the back wall.. What did John do next?",
+            "st": "Answer Received is. It is near the back wall. What did John do next?",
             "id": "E624_F6a444"
           }
         ]
@@ -6034,7 +6034,7 @@
       },
       {
         "type": "A1",
-        "fsp": "John's Experience is. He needs milk.. What question did John ask?",
+        "fsp": "John's Experience is. He needs milk. What question did John ask?",
         "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
         "name": "Emily",
         "gender": "female",
@@ -6060,7 +6060,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John's Experience is. He needs milk.. What question did John ask?",
+            "st": "John's Experience is. He needs milk. What question did John ask?",
             "id": "E624_F6a420"
           }
         ]
@@ -6166,7 +6166,7 @@
       },
       {
         "type": "C1",
-        "fsp": "Answer Received is. Yes, it costs one dollar.. What did John do next?",
+        "fsp": "Answer Received is. Yes, it costs one dollar. What did John do next?",
         "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
         "name": "Emily",
         "gender": "female",
@@ -6192,14 +6192,14 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Answer Received is. Yes, it costs one dollar.. What did John do next?",
+            "st": "Answer Received is. Yes, it costs one dollar. What did John do next?",
             "id": "E624_F6a450"
           }
         ]
       },
       {
         "type": "C1",
-        "fsp": "Answer Received is. No, line two is open.. What did John do next?",
+        "fsp": "Answer Received is. No, line two is open. What did John do next?",
         "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
         "name": "Joshua",
         "gender": "male",
@@ -6225,7 +6225,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Answer Received is. No, line two is open.. What did John do next?",
+            "st": "Answer Received is. No, line two is open. What did John do next?",
             "id": "E624_F6a447"
           }
         ]
@@ -6265,7 +6265,7 @@
       },
       {
         "type": "A1",
-        "fsp": "John's Experience is. He sees a long line.. What question did John ask?",
+        "fsp": "John's Experience is. He sees a long line. What question did John ask?",
         "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
         "name": "David",
         "gender": "male",
@@ -6291,7 +6291,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John's Experience is. He sees a long line.. What question did John ask?",
+            "st": "John's Experience is. He sees a long line. What question did John ask?",
             "id": "E624_F6a423"
           }
         ]
@@ -6469,7 +6469,7 @@
       },
       {
         "type": "C1",
-        "fsp": "Answer Received is. Look on shelf number four.. What did John do next?",
+        "fsp": "Answer Received is. Look on shelf number four. What did John do next?",
         "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
         "name": "David",
         "gender": "male",
@@ -6495,7 +6495,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Answer Received is. Look on shelf number four.. What did John do next?",
+            "st": "Answer Received is. Look on shelf number four. What did John do next?",
             "id": "E624_F6a453"
           }
         ]
@@ -6535,7 +6535,7 @@
       },
       {
         "type": "A1",
-        "fsp": "John's Experience is. He cannot find rice.. What question did John ask?",
+        "fsp": "John's Experience is. He cannot find rice. What question did John ask?",
         "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
         "name": "Michael",
         "gender": "male",
@@ -6561,7 +6561,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John's Experience is. He cannot find rice.. What question did John ask?",
+            "st": "John's Experience is. He cannot find rice. What question did John ask?",
             "id": "E624_F6a429"
           }
         ]
@@ -6945,7 +6945,7 @@
       },
       {
         "type": "C1",
-        "fsp": "Answer Received is. There is traffic in the city.. What did John do next?",
+        "fsp": "Answer Received is. There is traffic in the city. What did John do next?",
         "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
         "name": "Joshua",
         "gender": "male",
@@ -6968,14 +6968,14 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Answer Received is. There is traffic in the city.. What did John do next?",
+            "st": "Answer Received is. There is traffic in the city. What did John do next?",
             "id": "E624_F7a531"
           }
         ]
       },
       {
         "type": "A1",
-        "fsp": "John's Experience is. He sees a full bus.. What question did John ask?",
+        "fsp": "John's Experience is. He sees a full bus. What question did John ask?",
         "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
         "name": "Jessica",
         "gender": "female",
@@ -6998,7 +6998,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John's Experience is. He sees a full bus.. What question did John ask?",
+            "st": "John's Experience is. He sees a full bus. What question did John ask?",
             "id": "E624_F7a510"
           }
         ]
@@ -7127,7 +7127,7 @@
       },
       {
         "type": "C1",
-        "fsp": "Answer Received is. It comes at 4:30 p.m.. What did John do next?",
+        "fsp": "Answer Received is. It comes at 4:30 p.m. What did John do next?",
         "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
         "name": "Jennifer",
         "gender": "female",
@@ -7150,7 +7150,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Answer Received is. It comes at 4:30 p.m.. What did John do next?",
+            "st": "Answer Received is. It comes at 4:30 p.m. What did John do next?",
             "id": "E624_F7a528"
           }
         ]
@@ -7251,7 +7251,7 @@
       },
       {
         "type": "A1",
-        "fsp": "John's Experience is. He checks the time.. What question did John ask?",
+        "fsp": "John's Experience is. He checks the time. What question did John ask?",
         "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
         "name": "Emily",
         "gender": "female",
@@ -7274,14 +7274,14 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John's Experience is. He checks the time.. What question did John ask?",
+            "st": "John's Experience is. He checks the time. What question did John ask?",
             "id": "E624_F7a504"
           }
         ]
       },
       {
         "type": "A1",
-        "fsp": "John's Experience is. He sees a delay notice.. What question did John ask?",
+        "fsp": "John's Experience is. He sees a delay notice. What question did John ask?",
         "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
         "name": "David",
         "gender": "male",
@@ -7304,7 +7304,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John's Experience is. He sees a delay notice.. What question did John ask?",
+            "st": "John's Experience is. He sees a delay notice. What question did John ask?",
             "id": "E624_F7a507"
           }
         ]
@@ -7375,7 +7375,7 @@
       },
       {
         "type": "C1",
-        "fsp": "Answer Received is. He is a new neighbor.. What did John do next?",
+        "fsp": "Answer Received is. He is a new neighbor. What did John do next?",
         "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
         "name": "David",
         "gender": "male",
@@ -7398,7 +7398,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Answer Received is. He is a new neighbor.. What did John do next?",
+            "st": "Answer Received is. He is a new neighbor. What did John do next?",
             "id": "E624_F7a537"
           }
         ]
@@ -7465,7 +7465,7 @@
       },
       {
         "type": "A1",
-        "fsp": "John's Experience is. He sees a strange man.. What question did John ask?",
+        "fsp": "John's Experience is. He sees a strange man. What question did John ask?",
         "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
         "name": "Michael",
         "gender": "male",
@@ -7488,7 +7488,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John's Experience is. He sees a strange man.. What question did John ask?",
+            "st": "John's Experience is. He sees a strange man. What question did John ask?",
             "id": "E624_F7a513"
           }
         ]
@@ -7557,7 +7557,7 @@
       },
       {
         "type": "C1",
-        "fsp": "Answer Received is. No, it is full now.. What did John do next?",
+        "fsp": "Answer Received is. No, it is full now. What did John do next?",
         "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
         "name": "Emily",
         "gender": "female",
@@ -7580,7 +7580,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Answer Received is. No, it is full now.. What did John do next?",
+            "st": "Answer Received is. No, it is full now. What did John do next?",
             "id": "E624_F7a534"
           }
         ]
@@ -7996,7 +7996,7 @@
       },
       {
         "type": "C1",
-        "fsp": "Answer Received is. Yes, try row six.. What did John do next?",
+        "fsp": "Answer Received is. Yes, try row six. What did John do next?",
         "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
         "name": "David",
         "gender": "male",
@@ -8022,7 +8022,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Answer Received is. Yes, try row six.. What did John do next?",
+            "st": "Answer Received is. Yes, try row six. What did John do next?",
             "id": "E624_F8a621"
           }
         ]
@@ -8130,7 +8130,7 @@
       },
       {
         "type": "A1",
-        "fsp": "John's Experience is. He feels too cold.. What question did John ask?",
+        "fsp": "John's Experience is. He feels too cold. What question did John ask?",
         "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
         "name": "David",
         "gender": "male",
@@ -8156,14 +8156,14 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John's Experience is. He feels too cold.. What question did John ask?",
+            "st": "John's Experience is. He feels too cold. What question did John ask?",
             "id": "E624_F8a591"
           }
         ]
       },
       {
         "type": "C1",
-        "fsp": "Answer Received is. Sorry, we cannot change it.. What did John do next?",
+        "fsp": "Answer Received is. Sorry, we cannot change it. What did John do next?",
         "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
         "name": "Joshua",
         "gender": "male",
@@ -8189,7 +8189,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Answer Received is. Sorry, we cannot change it.. What did John do next?",
+            "st": "Answer Received is. Sorry, we cannot change it. What did John do next?",
             "id": "E624_F8a615"
           }
         ]
@@ -8297,7 +8297,7 @@
       },
       {
         "type": "A1",
-        "fsp": "John's Experience is. He sees a broken seat.. What question did John ask?",
+        "fsp": "John's Experience is. He sees a broken seat. What question did John ask?",
         "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
         "name": "Michael",
         "gender": "male",
@@ -8323,7 +8323,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John's Experience is. He sees a broken seat.. What question did John ask?",
+            "st": "John's Experience is. He sees a broken seat. What question did John ask?",
             "id": "E624_F8a597"
           }
         ]
@@ -8398,7 +8398,7 @@
       },
       {
         "type": "A1",
-        "fsp": "John's Experience is. He hears a phone ring.. What question did John ask?",
+        "fsp": "John's Experience is. He hears a phone ring. What question did John ask?",
         "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
         "name": "Emily",
         "gender": "female",
@@ -8424,7 +8424,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John's Experience is. He hears a phone ring.. What question did John ask?",
+            "st": "John's Experience is. He hears a phone ring. What question did John ask?",
             "id": "E624_F8a588"
           }
         ]
@@ -8532,7 +8532,7 @@
       },
       {
         "type": "C1",
-        "fsp": "Answer Received is. Outside, near the big door.. What did John do next?",
+        "fsp": "Answer Received is. Outside, near the big door. What did John do next?",
         "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
         "name": "Emily",
         "gender": "female",
@@ -8558,14 +8558,14 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Answer Received is. Outside, near the big door.. What did John do next?",
+            "st": "Answer Received is. Outside, near the big door. What did John do next?",
             "id": "E624_F8a618"
           }
         ]
       },
       {
         "type": "C1",
-        "fsp": "Answer Received is. The man in row three is.. What did John do next?",
+        "fsp": "Answer Received is. The man in row three is. What did John do next?",
         "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
         "name": "Jennifer",
         "gender": "female",
@@ -8591,7 +8591,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Answer Received is. The man in row three is.. What did John do next?",
+            "st": "Answer Received is. The man in row three is. What did John do next?",
             "id": "E624_F8a612"
           }
         ]
@@ -8734,7 +8734,7 @@
       },
       {
         "type": "A1",
-        "fsp": "John's Experience is. He wants popcorn.. What question did John ask?",
+        "fsp": "John's Experience is. He wants popcorn. What question did John ask?",
         "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
         "name": "Jessica",
         "gender": "female",
@@ -8760,7 +8760,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John's Experience is. He wants popcorn.. What question did John ask?",
+            "st": "John's Experience is. He wants popcorn. What question did John ask?",
             "id": "E624_F8a594"
           }
         ]
@@ -9114,7 +9114,7 @@
       },
       {
         "type": "C1",
-        "fsp": "Answer Received is. There is a party outside.. What did John do next?",
+        "fsp": "Answer Received is. There is a party outside. What did John do next?",
         "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
         "name": "David",
         "gender": "male",
@@ -9140,7 +9140,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Answer Received is. There is a party outside.. What did John do next?",
+            "st": "Answer Received is. There is a party outside. What did John do next?",
             "id": "E624_F9a705"
           }
         ]
@@ -9217,7 +9217,7 @@
       },
       {
         "type": "A1",
-        "fsp": "John's Experience is. He can't find the towels.. What question did John ask?",
+        "fsp": "John's Experience is. He can't find the towels. What question did John ask?",
         "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
         "name": "Emily",
         "gender": "female",
@@ -9243,7 +9243,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John's Experience is. He can't find the towels.. What question did John ask?",
+            "st": "John's Experience is. He can't find the towels. What question did John ask?",
             "id": "E624_F9a672"
           }
         ]
@@ -9316,7 +9316,7 @@
       },
       {
         "type": "C1",
-        "fsp": "Answer Received is. They are in the top drawer.. What did John do next?",
+        "fsp": "Answer Received is. They are in the top drawer. What did John do next?",
         "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
         "name": "Jennifer",
         "gender": "female",
@@ -9342,14 +9342,14 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Answer Received is. They are in the top drawer.. What did John do next?",
+            "st": "Answer Received is. They are in the top drawer. What did John do next?",
             "id": "E624_F9a696"
           }
         ]
       },
       {
         "type": "A1",
-        "fsp": "John's Experience is. The room is messy.. What question did John ask?",
+        "fsp": "John's Experience is. The room is messy. What question did John ask?",
         "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
         "name": "David",
         "gender": "male",
@@ -9375,7 +9375,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John's Experience is. The room is messy.. What question did John ask?",
+            "st": "John's Experience is. The room is messy. What question did John ask?",
             "id": "E624_F9a675"
           }
         ]
@@ -9522,7 +9522,7 @@
       },
       {
         "type": "A1",
-        "fsp": "John's Experience is. He wants breakfast.. What question did John ask?",
+        "fsp": "John's Experience is. He wants breakfast. What question did John ask?",
         "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
         "name": "Jessica",
         "gender": "female",
@@ -9548,14 +9548,14 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John's Experience is. He wants breakfast.. What question did John ask?",
+            "st": "John's Experience is. He wants breakfast. What question did John ask?",
             "id": "E624_F9a678"
           }
         ]
       },
       {
         "type": "C1",
-        "fsp": "Answer Received is. From 7 to 10 a.m.. What did John do next?",
+        "fsp": "Answer Received is. From 7 to 10 a.m. What did John do next?",
         "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
         "name": "Emily",
         "gender": "female",
@@ -9581,7 +9581,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Answer Received is. From 7 to 10 a.m.. What did John do next?",
+            "st": "Answer Received is. From 7 to 10 a.m. What did John do next?",
             "id": "E624_F9a702"
           }
         ]
@@ -9689,7 +9689,7 @@
       },
       {
         "type": "A1",
-        "fsp": "John's Experience is. He hears noise outside.. What question did John ask?",
+        "fsp": "John's Experience is. He hears noise outside. What question did John ask?",
         "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
         "name": "Michael",
         "gender": "male",
@@ -9715,14 +9715,14 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John's Experience is. He hears noise outside.. What question did John ask?",
+            "st": "John's Experience is. He hears noise outside. What question did John ask?",
             "id": "E624_F9a681"
           }
         ]
       },
       {
         "type": "C1",
-        "fsp": "Answer Received is. Yes, at ten it will be clean.. What did John do next?",
+        "fsp": "Answer Received is. Yes, at ten it will be clean. What did John do next?",
         "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
         "name": "Joshua",
         "gender": "male",
@@ -9748,7 +9748,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Answer Received is. Yes, at ten it will be clean.. What did John do next?",
+            "st": "Answer Received is. Yes, at ten it will be clean. What did John do next?",
             "id": "E624_F9a699"
           }
         ]
@@ -10271,7 +10271,7 @@
       },
       {
         "type": "C1",
-        "fsp": "Answer Received is. No, she called another name.. What did John do next?",
+        "fsp": "Answer Received is. No, she called another name. What did John do next?",
         "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
         "name": "David",
         "gender": "male",
@@ -10297,7 +10297,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Answer Received is. No, she called another name.. What did John do next?",
+            "st": "Answer Received is. No, she called another name. What did John do next?",
             "id": "E624_F10a789"
           }
         ]
@@ -10374,7 +10374,7 @@
       },
       {
         "type": "A1",
-        "fsp": "John's Experience is. He feels scared.. What question did John ask?",
+        "fsp": "John's Experience is. He feels scared. What question did John ask?",
         "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
         "name": "Jessica",
         "gender": "female",
@@ -10400,7 +10400,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John's Experience is. He feels scared.. What question did John ask?",
+            "st": "John's Experience is. He feels scared. What question did John ask?",
             "id": "E624_F10a762"
           }
         ]
@@ -10512,7 +10512,7 @@
       },
       {
         "type": "A1",
-        "fsp": "John's Experience is. He sees many people.. What question did John ask?",
+        "fsp": "John's Experience is. He sees many people. What question did John ask?",
         "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
         "name": "Emily",
         "gender": "female",
@@ -10538,7 +10538,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John's Experience is. He sees many people.. What question did John ask?",
+            "st": "John's Experience is. He sees many people. What question did John ask?",
             "id": "E624_F10a756"
           }
         ]
@@ -10578,7 +10578,7 @@
       },
       {
         "type": "C1",
-        "fsp": "Answer Received is. Yes, from the shop downstairs.. What did John do next?",
+        "fsp": "Answer Received is. Yes, from the shop downstairs. What did John do next?",
         "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
         "name": "Joshua",
         "gender": "male",
@@ -10604,7 +10604,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Answer Received is. Yes, from the shop downstairs.. What did John do next?",
+            "st": "Answer Received is. Yes, from the shop downstairs. What did John do next?",
             "id": "E624_F10a783"
           }
         ]
@@ -10646,7 +10646,7 @@
       },
       {
         "type": "A1",
-        "fsp": "John's Experience is. He is hungry.. What question did John ask?",
+        "fsp": "John's Experience is. He is hungry. What question did John ask?",
         "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
         "name": "David",
         "gender": "male",
@@ -10672,7 +10672,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John's Experience is. He is hungry.. What question did John ask?",
+            "st": "John's Experience is. He is hungry. What question did John ask?",
             "id": "E624_F10a759"
           }
         ]
@@ -10745,7 +10745,7 @@
       },
       {
         "type": "C1",
-        "fsp": "Answer Received is. Yes, you can sit by her.. What did John do next?",
+        "fsp": "Answer Received is. Yes, you can sit by her. What did John do next?",
         "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
         "name": "Emily",
         "gender": "female",
@@ -10771,7 +10771,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Answer Received is. Yes, you can sit by her.. What did John do next?",
+            "st": "Answer Received is. Yes, you can sit by her. What did John do next?",
             "id": "E624_F10a786"
           }
         ]
@@ -10813,7 +10813,7 @@
       },
       {
         "type": "C1",
-        "fsp": "Answer Received is. It is very busy today.. What did John do next?",
+        "fsp": "Answer Received is. It is very busy today. What did John do next?",
         "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
         "name": "Jennifer",
         "gender": "female",
@@ -10839,7 +10839,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Answer Received is. It is very busy today.. What did John do next?",
+            "st": "Answer Received is. It is very busy today. What did John do next?",
             "id": "E624_F10a780"
           }
         ]
@@ -10982,7 +10982,7 @@
       },
       {
         "type": "A1",
-        "fsp": "John's Experience is. He hears a nurse call.. What question did John ask?",
+        "fsp": "John's Experience is. He hears a nurse call. What question did John ask?",
         "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
         "name": "Michael",
         "gender": "male",
@@ -11008,7 +11008,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John's Experience is. He hears a nurse call.. What question did John ask?",
+            "st": "John's Experience is. He hears a nurse call. What question did John ask?",
             "id": "E624_F10a765"
           }
         ]
