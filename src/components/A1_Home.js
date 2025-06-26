@@ -11,7 +11,7 @@ const VideoSlideshow = ({ ID }) => {
   useEffect(() => {
     const fetchPlaylistVideos = async () => {
       try {
-        const apiUrl = `https://www.googleapis.com/youtube/v3/playlistItems?key=${API_KEY}&playlistId=${ID}&part=snippet&maxResults=10`;
+        const apiUrl = `https://www.googleapis.com/youtube/v3/playlistItems?key=${API_KEY}&playlistId=${ID}&part=snippet&maxResults=50`;
         const response = await fetch(apiUrl);
         const data = await response.json();
         setVideos(data.items || []);
