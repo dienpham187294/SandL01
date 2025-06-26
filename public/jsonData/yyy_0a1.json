@@ -1,0 +1,5432 @@
+[
+  {
+    "id": "bang-1",
+    "ListenList": [],
+    "typeSets": ["A1", "A2", "B1", "B2", "C1", "C2"],
+    "SEO": {
+      "seo": {
+        "metaTitle": "Bảng 1 |",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "Bảng 1 |",
+        "IFdes": "Bảng 1 |",
+        "IF-audiocode": "E626_F1"
+      },
+      "HD": [
+        {
+          "HD-01": "X",
+          "HD-02": "Bảng 1 |",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "John wants to know the name",
+          "HD-03": "What is your name?",
+          "HD-04": "My name is Lisa",
+          "HD-05": "I am David"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "John wants to know the age",
+          "HD-03": "How old are you?",
+          "HD-04": "I am 7 years old",
+          "HD-05": "I am 8 years old"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "John asks about food likes",
+          "HD-03": "What food do you like?",
+          "HD-04": "I like pizza",
+          "HD-05": "I like rice"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "John asks about favorite subject",
+          "HD-03": "What is your favorite subject?",
+          "HD-04": "I like History",
+          "HD-05": "I like English"
+        },
+        {
+          "HD-01": "XX",
+          "HD-02": "X",
+          "HD-03": "X",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "A1-A2",
+          "HD-02": "Đặt câu hỏi",
+          "HD-03": "Chọn câu trả lời đáp án 1",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "B1-B2",
+          "HD-02": "Đặt câu hỏi",
+          "HD-03": "Chọn câu trả lời đáp án 2",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "C1-C2",
+          "HD-02": "Nghe câu hỏi",
+          "HD-03": "Trả lời 1 trong 2 đáp án phù hợp.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "***Đọc gợi ý bảng và tình huống",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "..-1",
+          "HD-02": "Dòng 1-2",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "..-2",
+          "HD-02": "Dòng 3-4",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        }
+      ],
+      "TB": [
+        [
+          "My name is Lisa",
+          "I am 7 years old",
+          "I like pizza",
+          "I like History"
+        ],
+        ["I am David", "I am 8 years old", "I like rice", "I like English"]
+      ],
+      "TV": [
+        {
+          "TV-01": "X",
+          "TV-02": "Bảng 1 |",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "X",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": "John wants to know the name",
+          "TV-03": "What is your name?",
+          "TV-04": "My name is Lisa",
+          "TV-05": "I am David"
+        },
+        {
+          "TV-01": null,
+          "TV-02": "John wants to know the age",
+          "TV-03": "How old are you?",
+          "TV-04": "I am 7 years old",
+          "TV-05": "I am 8 years old"
+        },
+        {
+          "TV-01": null,
+          "TV-02": "John asks about food likes",
+          "TV-03": "What food do you like?",
+          "TV-04": "I like pizza",
+          "TV-05": "I like rice"
+        },
+        {
+          "TV-01": null,
+          "TV-02": "John asks about favorite subject",
+          "TV-03": "What is your favorite subject?",
+          "TV-04": "I like History",
+          "TV-05": "I like English"
+        },
+        {
+          "TV-01": "XX",
+          "TV-02": "X",
+          "TV-03": "X",
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "A1-A2",
+          "TV-02": "Đặt câu hỏi",
+          "TV-03": "Chọn câu trả lời đáp án 1",
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "B1-B2",
+          "TV-02": "Đặt câu hỏi",
+          "TV-03": "Chọn câu trả lời đáp án 2",
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "C1-C2",
+          "TV-02": "Nghe câu hỏi",
+          "TV-03": "Trả lời 1 trong 2 đáp án phù hợp.",
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "***Đọc gợi ý bảng và tình huống",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "..-1",
+          "TV-02": "Dòng 1-2",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "..-2",
+          "TV-02": "Dòng 3-4",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        }
+      ],
+      "IPA": [
+        {
+          "IPA-01": "John wants to know the name",
+          "IPA-02": "John muốn biết tên",
+          "IPA-03": "ʤɒn wɒnts tuː nəʊ ðə neɪm",
+          "IPA-04": "ʤɑn wɑnts tu noʊ ðə neɪm"
+        },
+        {
+          "IPA-01": "John wants to know the age",
+          "IPA-02": "John muốn biết tuổi",
+          "IPA-03": "ʤɒn wɒnts tuː nəʊ ði eɪʤ",
+          "IPA-04": "ʤɑn wɑnts tu noʊ ði eɪʤ"
+        },
+        {
+          "IPA-01": "John asks about food likes",
+          "IPA-02": "John hỏi về sở thích đồ ăn",
+          "IPA-03": "ʤɒn ɑːsks əˈbaʊt fuːd laɪks",
+          "IPA-04": "ʤɑn æsks əˈbaʊt fud laɪks"
+        },
+        {
+          "IPA-01": "John asks about favorite subject",
+          "IPA-02": "John hỏi về môn học yêu thích",
+          "IPA-03": "ʤɒn ɑːsks əˈbaʊt ˈfeɪvərɪt ˈsʌbʤɪkt",
+          "IPA-04": "ʤɑn æsks əˈbaʊt ˈfeɪvərɪt ˈsʌbʤɪkt"
+        },
+        {
+          "IPA-01": "What is your name?",
+          "IPA-02": "Bạn tên gì?",
+          "IPA-03": "wɒt ɪz jɔː neɪm?",
+          "IPA-04": "wɑt ɪz jʊər neɪm?"
+        },
+        {
+          "IPA-01": "How old are you?",
+          "IPA-02": "Bạn bao nhiêu tuổi?",
+          "IPA-03": "haʊ əʊld ɑː juː?",
+          "IPA-04": "haʊ oʊld ɑr ju?"
+        },
+        {
+          "IPA-01": "What food do you like?",
+          "IPA-02": "Bạn thích đồ ăn gì?",
+          "IPA-03": "wɒt fuːd duː juː laɪk?",
+          "IPA-04": "wɑt fud du ju laɪk?"
+        },
+        {
+          "IPA-01": "What is your favorite subject?",
+          "IPA-02": "Môn học yêu thích của bạn là gì?",
+          "IPA-03": "wɒt ɪz jɔː ˈfeɪvərɪt ˈsʌbʤɪkt?",
+          "IPA-04": "wɑt ɪz jʊər ˈfeɪvərɪt ˈsʌbʤɪkt?"
+        },
+        {
+          "IPA-01": "My name is Lisa",
+          "IPA-02": "Tôi tên là Lisa",
+          "IPA-03": "maɪ neɪm ɪz ˈliːsə",
+          "IPA-04": "maɪ neɪm ɪz ˈlisə"
+        },
+        {
+          "IPA-01": "I am 7 years old",
+          "IPA-02": "Tôi 7 tuổi",
+          "IPA-03": "aɪ æm 7 jɪəz əʊld",
+          "IPA-04": "aɪ æm 7 jɪrz oʊld"
+        },
+        {
+          "IPA-01": "I like pizza",
+          "IPA-02": "Tôi thích pizza",
+          "IPA-03": "aɪ laɪk ˈpiːtsə",
+          "IPA-04": "aɪ laɪk ˈpitsə"
+        },
+        {
+          "IPA-01": "I like History",
+          "IPA-02": "Tôi thích Lịch sử",
+          "IPA-03": "aɪ laɪk ˈhɪstᵊri",
+          "IPA-04": "aɪ laɪk ˈhɪstəri"
+        },
+        {
+          "IPA-01": "I am David",
+          "IPA-02": "Tôi là David",
+          "IPA-03": "aɪ æm ˈdeɪvɪd",
+          "IPA-04": "aɪ æm ˈdeɪvɪd"
+        },
+        {
+          "IPA-01": "I am 8 years old",
+          "IPA-02": "Tôi 8 tuổi",
+          "IPA-03": "aɪ æm 8 jɪəz əʊld",
+          "IPA-04": "aɪ æm 8 jɪrz oʊld"
+        },
+        {
+          "IPA-01": "I like rice",
+          "IPA-02": "Tôi thích cơm",
+          "IPA-03": "aɪ laɪk raɪs",
+          "IPA-04": "aɪ laɪk raɪs"
+        },
+        {
+          "IPA-01": "I like English",
+          "IPA-02": "Tôi thích tiếng Anh",
+          "IPA-03": "aɪ laɪk ˈɪŋɡlɪʃ",
+          "IPA-04": "aɪ laɪk ˈɪŋɡlɪʃ"
+        }
+      ]
+    },
+    "charactor": [
+      {
+        "hint": "Bảng 1 | John hỏi môn học yêu thích",
+        "type": "B2",
+        "fsp": "John asks about favorite subject",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What is your favorite subject?"],
+            "aw": ["I like English"],
+            "submit": ["I like English"],
+            "aw01": [{ "st": "I like English", "id": "E626_F1a15" }]
+          }
+        ],
+        "submit": ["I like English"],
+        "fspSets": [
+          { "st": "John asks about favorite subject", "id": "E626_F1a6" }
+        ]
+      },
+      {
+        "hint": "Bảng 1 | John hỏi môn học yêu thích",
+        "type": "A2",
+        "fsp": "John asks about favorite subject",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What is your favorite subject?"],
+            "aw": ["I like History"],
+            "submit": ["I like History"],
+            "aw01": [{ "st": "I like History", "id": "E626_F1a7" }]
+          }
+        ],
+        "submit": ["I like History"],
+        "fspSets": [
+          { "st": "John asks about favorite subject", "id": "E626_F1a6" }
+        ]
+      },
+      {
+        "hint": "Bảng 1 | John muốn biết tuổi",
+        "type": "A1",
+        "fsp": "John wants to know the age",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["How old are you?"],
+            "aw": ["I am 7 years old"],
+            "submit": ["I am 7 years old"],
+            "aw01": [{ "st": "I am 7 years old", "id": "E626_F1a3" }]
+          }
+        ],
+        "submit": ["I am 7 years old"],
+        "fspSets": [{ "st": "John wants to know the age", "id": "E626_F1a2" }]
+      },
+      {
+        "hint": "Bảng 1 | John muốn biết tuổi",
+        "type": "B1",
+        "fsp": "John wants to know the age",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["How old are you?"],
+            "aw": ["I am 8 years old"],
+            "submit": ["I am 8 years old"],
+            "aw01": [{ "st": "I am 8 years old", "id": "E626_F1a11" }]
+          }
+        ],
+        "submit": ["I am 8 years old"],
+        "fspSets": [{ "st": "John wants to know the age", "id": "E626_F1a2" }]
+      },
+      {
+        "hint": "Bảng 1 | John muốn biết tên",
+        "type": "C1",
+        "fsp": "What is your name?",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["My name is Lisa", "I am David"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "E626_F1a17" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What is your name?", "id": "E626_F1a16" }]
+      },
+      {
+        "hint": "Bảng 1 | John hỏi về sở thích ăn uống",
+        "type": "C2",
+        "fsp": "What food do you like?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["I like pizza", "I like rice"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "E626_F1a17" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What food do you like?", "id": "E626_F1a20" }]
+      },
+      {
+        "hint": "Bảng 1 | John hỏi về sở thích ăn uống",
+        "type": "B2",
+        "fsp": "John asks about food likes",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What food do you like?"],
+            "aw": ["I like rice"],
+            "submit": ["I like rice"],
+            "aw01": [{ "st": "I like rice", "id": "E626_F1a13" }]
+          }
+        ],
+        "submit": ["I like rice"],
+        "fspSets": [{ "st": "John asks about food likes", "id": "E626_F1a4" }]
+      },
+      {
+        "hint": "Bảng 1 | John muốn biết tuổi",
+        "type": "C1",
+        "fsp": "How old are you?",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["I am 7 years old", "I am 8 years old"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "E626_F1a19" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How old are you?", "id": "E626_F1a18" }]
+      },
+      {
+        "hint": "Bảng 1 | John muốn biết tên",
+        "type": "B1",
+        "fsp": "John wants to know the name",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What is your name?"],
+            "aw": ["I am David"],
+            "submit": ["I am David"],
+            "aw01": [{ "st": "I am David", "id": "E626_F1a9" }]
+          }
+        ],
+        "submit": ["I am David"],
+        "fspSets": [{ "st": "John wants to know the name", "id": "E626_F1a0" }]
+      },
+      {
+        "hint": "Bảng 1 | John hỏi môn học yêu thích",
+        "type": "C2",
+        "fsp": "What is your favorite subject?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["I like History", "I like English"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "E626_F1a19" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What is your favorite subject?", "id": "E626_F1a22" }
+        ]
+      },
+      {
+        "hint": "Bảng 1 | John muốn biết tên",
+        "type": "A1",
+        "fsp": "John wants to know the name",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What is your name?"],
+            "aw": ["My name is Lisa"],
+            "submit": ["My name is Lisa"],
+            "aw01": [{ "st": "My name is Lisa", "id": "E626_F1a1" }]
+          }
+        ],
+        "submit": ["My name is Lisa"],
+        "fspSets": [{ "st": "John wants to know the name", "id": "E626_F1a0" }]
+      },
+      {
+        "hint": "Bảng 1 | John hỏi về sở thích ăn uống",
+        "type": "A2",
+        "fsp": "John asks about food likes",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What food do you like?"],
+            "aw": ["I like pizza"],
+            "submit": ["I like pizza"],
+            "aw01": [{ "st": "I like pizza", "id": "E626_F1a5" }]
+          }
+        ],
+        "submit": ["I like pizza"],
+        "fspSets": [{ "st": "John asks about food likes", "id": "E626_F1a4" }]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  },
+  {
+    "id": "bang-2",
+    "ListenList": [],
+    "typeSets": ["A1", "A2", "B1", "B2", "C1", "C2"],
+    "SEO": {
+      "seo": {
+        "metaTitle": "Bảng 2 |",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "Bảng 2 |",
+        "IFdes": "Bảng 2 |",
+        "IF-audiocode": "E626_F2"
+      },
+      "HD": [
+        {
+          "HD-01": "X",
+          "HD-02": "Bảng 2 |",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "John asks where you live",
+          "HD-03": "Where do you live?",
+          "HD-04": "I live in Sydney",
+          "HD-05": "I live in London"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "John asks about the time",
+          "HD-03": "What time is it?",
+          "HD-04": "It is 9:00 a.m.",
+          "HD-05": "It is 8:30 p.m."
+        },
+        {
+          "HD-01": null,
+          "HD-02": "John asks about today’s date",
+          "HD-03": "What day is it today?",
+          "HD-04": "It is Monday",
+          "HD-05": "It is Thursday"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "John asks about your teacher",
+          "HD-03": "Who is your teacher?",
+          "HD-04": "Miss Lisa is my teacher",
+          "HD-05": "Mr. David is my teacher"
+        },
+        {
+          "HD-01": "XX",
+          "HD-02": "X",
+          "HD-03": "X",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "A1-A2",
+          "HD-02": "Đặt câu hỏi",
+          "HD-03": "Chọn câu trả lời đáp án 1",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "B1-B2",
+          "HD-02": "Đặt câu hỏi",
+          "HD-03": "Chọn câu trả lời đáp án 2",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "C1-C2",
+          "HD-02": "Nghe câu hỏi",
+          "HD-03": "Trả lời 1 trong 2 đáp án phù hợp.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "***Đọc gợi ý bảng và tình huống",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "..-1",
+          "HD-02": "Dòng 1-2",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "..-2",
+          "HD-02": "Dòng 3-4",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        }
+      ],
+      "TB": [
+        [
+          "I live in Sydney",
+          "It is 9:00 a.m.",
+          "It is Monday",
+          "Miss Lisa is my teacher"
+        ],
+        [
+          "I live in London",
+          "It is 8:30 p.m.",
+          "It is Thursday",
+          "Mr. David is my teacher"
+        ]
+      ],
+      "TV": [
+        {
+          "TV-01": "X",
+          "TV-02": "Bảng 2 |",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "X",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": "John asks where you live",
+          "TV-03": "Where do you live?",
+          "TV-04": "I live in Sydney",
+          "TV-05": "I live in London"
+        },
+        {
+          "TV-01": null,
+          "TV-02": "John asks about the time",
+          "TV-03": "What time is it?",
+          "TV-04": "It is 9:00 a.m.",
+          "TV-05": "It is 8:30 p.m."
+        },
+        {
+          "TV-01": null,
+          "TV-02": "John asks about today’s date",
+          "TV-03": "What day is it today?",
+          "TV-04": "It is Monday",
+          "TV-05": "It is Thursday"
+        },
+        {
+          "TV-01": null,
+          "TV-02": "John asks about your teacher",
+          "TV-03": "Who is your teacher?",
+          "TV-04": "Miss Lisa is my teacher",
+          "TV-05": "Mr. David is my teacher"
+        },
+        {
+          "TV-01": "XX",
+          "TV-02": "X",
+          "TV-03": "X",
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "A1-A2",
+          "TV-02": "Đặt câu hỏi",
+          "TV-03": "Chọn câu trả lời đáp án 1",
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "B1-B2",
+          "TV-02": "Đặt câu hỏi",
+          "TV-03": "Chọn câu trả lời đáp án 2",
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "C1-C2",
+          "TV-02": "Nghe câu hỏi",
+          "TV-03": "Trả lời 1 trong 2 đáp án phù hợp.",
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "***Đọc gợi ý bảng và tình huống",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "..-1",
+          "TV-02": "Dòng 1-2",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "..-2",
+          "TV-02": "Dòng 3-4",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        }
+      ],
+      "IPA": [
+        {
+          "IPA-01": "John asks where you live",
+          "IPA-02": "John hỏi bạn sống ở đâu",
+          "IPA-03": "ʤɒn ɑːsks weə juː lɪv",
+          "IPA-04": "ʤɑn æsks wɛr ju lɪv"
+        },
+        {
+          "IPA-01": "John asks about the time",
+          "IPA-02": "John hỏi về thời gian",
+          "IPA-03": "ʤɒn ɑːsks əˈbaʊt ðə taɪm",
+          "IPA-04": "ʤɑn æsks əˈbaʊt ðə taɪm"
+        },
+        {
+          "IPA-01": "John asks about today’s date",
+          "IPA-02": "John hỏi về ngày hôm nay",
+          "IPA-03": "ʤɒn ɑːsks əˈbaʊt təˈdeɪz deɪt",
+          "IPA-04": "ʤɑn æsks əˈbaʊt təˈdeɪz deɪt"
+        },
+        {
+          "IPA-01": "John asks about your teacher",
+          "IPA-02": "John hỏi về giáo viên của bạn",
+          "IPA-03": "ʤɒn ɑːsks əˈbaʊt jɔː ˈtiːʧə",
+          "IPA-04": "ʤɑn æsks əˈbaʊt jʊər ˈtiʧər"
+        },
+        {
+          "IPA-01": "Where do you live?",
+          "IPA-02": "Bạn sống ở đâu?",
+          "IPA-03": "weə duː juː lɪv?",
+          "IPA-04": "wɛr du ju lɪv?"
+        },
+        {
+          "IPA-01": "What time is it?",
+          "IPA-02": "Mấy giờ rồi?",
+          "IPA-03": "wɒt taɪm ɪz ɪt?",
+          "IPA-04": "wɑt taɪm ɪz ɪt?"
+        },
+        {
+          "IPA-01": "What day is it today?",
+          "IPA-02": "Hôm nay là ngày thứ mấy?",
+          "IPA-03": "wɒt deɪ ɪz ɪt təˈdeɪ?",
+          "IPA-04": "wɑt deɪ ɪz ɪt təˈdeɪ?"
+        },
+        {
+          "IPA-01": "Who is your teacher?",
+          "IPA-02": "Giáo viên của bạn là ai?",
+          "IPA-03": "huː ɪz jɔː ˈtiːʧə?",
+          "IPA-04": "hu ɪz jʊər ˈtiʧər?"
+        },
+        {
+          "IPA-01": "I live in Sydney",
+          "IPA-02": "Tôi sống ở Sydney",
+          "IPA-03": "aɪ lɪv ɪn ˈsɪdni",
+          "IPA-04": "aɪ lɪv ɪn ˈsɪdni"
+        },
+        {
+          "IPA-01": "It is 9:00 a.m.",
+          "IPA-02": "Bây giờ là 9:00 sáng",
+          "IPA-03": "ɪt ɪz 9:00 eɪ.ɛm.",
+          "IPA-04": "ɪt ɪz 9:00 eɪ.ɛm."
+        },
+        {
+          "IPA-01": "It is Monday",
+          "IPA-02": "Hôm nay là thứ Hai",
+          "IPA-03": "ɪt ɪz ˈmʌndeɪ",
+          "IPA-04": "ɪt ɪz ˈmʌnˌdeɪ"
+        },
+        {
+          "IPA-01": "Miss Lisa is my teacher",
+          "IPA-02": "Cô Lisa là giáo viên của tôi",
+          "IPA-03": "mɪs ˈliːsə ɪz maɪ ˈtiːʧə",
+          "IPA-04": "mɪs ˈlisə ɪz maɪ ˈtiʧər"
+        },
+        {
+          "IPA-01": "I live in London",
+          "IPA-02": "Tôi sống ở London",
+          "IPA-03": "aɪ lɪv ɪn ˈlʌndən",
+          "IPA-04": "aɪ lɪv ɪn ˈlʌndən"
+        },
+        {
+          "IPA-01": "It is 8:30 p.m.",
+          "IPA-02": "Bây giờ là 8:30 tối",
+          "IPA-03": "ɪt ɪz 8:30 piː.ɛm.",
+          "IPA-04": "ɪt ɪz 8:30 pi.ɛm."
+        },
+        {
+          "IPA-01": "It is Thursday",
+          "IPA-02": "Hôm nay là thứ Năm",
+          "IPA-03": "ɪt ɪz ˈθɜːzdeɪ",
+          "IPA-04": "ɪt ɪz ˈθɜrzˌdeɪ"
+        },
+        {
+          "IPA-01": "Mr. David is my teacher",
+          "IPA-02": "Thầy David là giáo viên của tôi",
+          "IPA-03": "Mr. ˈdeɪvɪd ɪz maɪ ˈtiːʧə",
+          "IPA-04": "ˈmɪstər. ˈdeɪvɪd ɪz maɪ ˈtiʧər"
+        }
+      ]
+    },
+    "charactor": [
+      {
+        "hint": "Bảng 2 | John hỏi ai là cô giáo của bạn",
+        "type": "B2",
+        "fsp": "John asks about your teacher",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Who is your teacher?"],
+            "aw": ["Mr. David is my teacher"],
+            "submit": ["Mr. David is my teacher"],
+            "aw01": [{ "st": "Mr. David is my teacher", "id": "E626_F2a39" }]
+          }
+        ],
+        "submit": ["Mr. David is my teacher"],
+        "fspSets": [
+          { "st": "John asks about your teacher", "id": "E626_F2a30" }
+        ]
+      },
+      {
+        "hint": "Bảng 2 | John hỏi bạn sống ở đâu",
+        "type": "A1",
+        "fsp": "John asks where you live",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Where do you live?"],
+            "aw": ["I live in Sydney"],
+            "submit": ["I live in Sydney"],
+            "aw01": [{ "st": "I live in Sydney", "id": "E626_F2a25" }]
+          }
+        ],
+        "submit": ["I live in Sydney"],
+        "fspSets": [{ "st": "John asks where you live", "id": "E626_F2a24" }]
+      },
+      {
+        "hint": "Bảng 2 | John hỏi ai là cô giáo của bạn",
+        "type": "C2",
+        "fsp": "Who is your teacher?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Miss Lisa is my teacher", "Mr. David is my teacher"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "E626_F1a19" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Who is your teacher?", "id": "E626_F2a46" }]
+      },
+      {
+        "hint": "Bảng 2 | John hỏi bạn sống ở đâu",
+        "type": "B1",
+        "fsp": "John asks where you live",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Where do you live?"],
+            "aw": ["I live in London"],
+            "submit": ["I live in London"],
+            "aw01": [{ "st": "I live in London", "id": "E626_F2a33" }]
+          }
+        ],
+        "submit": ["I live in London"],
+        "fspSets": [{ "st": "John asks where you live", "id": "E626_F2a24" }]
+      },
+      {
+        "hint": "Bảng 2 | John hỏi giờ",
+        "type": "C1",
+        "fsp": "What time is it?",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["It is 9:00 a.m.", "It is 8:30 p.m."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "E626_F1a19" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What time is it?", "id": "E626_F2a42" }]
+      },
+      {
+        "hint": "Bảng 2 | John hỏi ngày hôm nay",
+        "type": "A2",
+        "fsp": "John asks about today’s date",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What day is it today?"],
+            "aw": ["It is Monday"],
+            "submit": ["It is Monday"],
+            "aw01": [{ "st": "It is Monday", "id": "E626_F2a29" }]
+          }
+        ],
+        "submit": ["It is Monday"],
+        "fspSets": [
+          { "st": "John asks about today’s date", "id": "E626_F2a28" }
+        ]
+      },
+      {
+        "hint": "Bảng 2 | John hỏi ngày hôm nay",
+        "type": "C2",
+        "fsp": "What day is it today?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["It is Monday", "It is Thursday"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "E626_F1a17" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What day is it today?", "id": "E626_F2a44" }]
+      },
+      {
+        "hint": "Bảng 2 | John hỏi giờ",
+        "type": "A1",
+        "fsp": "John asks about the time",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What time is it?"],
+            "aw": ["It is 9:00 a.m."],
+            "submit": ["It is 9:00 a.m."],
+            "aw01": [{ "st": "It is 9:00 a.m.", "id": "E626_F2a27" }]
+          }
+        ],
+        "submit": ["It is 9:00 a.m."],
+        "fspSets": [{ "st": "John asks about the time", "id": "E626_F2a26" }]
+      },
+      {
+        "hint": "Bảng 2 | John hỏi giờ",
+        "type": "B1",
+        "fsp": "John asks about the time",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What time is it?"],
+            "aw": ["It is 8:30 p.m."],
+            "submit": ["It is 8:30 p.m."],
+            "aw01": [{ "st": "It is 8:30 p.m.", "id": "E626_F2a35" }]
+          }
+        ],
+        "submit": ["It is 8:30 p.m."],
+        "fspSets": [{ "st": "John asks about the time", "id": "E626_F2a26" }]
+      },
+      {
+        "hint": "Bảng 2 | John hỏi ngày hôm nay",
+        "type": "B2",
+        "fsp": "John asks about today’s date",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What day is it today?"],
+            "aw": ["It is Thursday"],
+            "submit": ["It is Thursday"],
+            "aw01": [{ "st": "It is Thursday", "id": "E626_F2a37" }]
+          }
+        ],
+        "submit": ["It is Thursday"],
+        "fspSets": [
+          { "st": "John asks about today’s date", "id": "E626_F2a28" }
+        ]
+      },
+      {
+        "hint": "Bảng 2 | John hỏi bạn sống ở đâu",
+        "type": "C1",
+        "fsp": "Where do you live?",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["I live in Sydney", "I live in London"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "E626_F1a17" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Where do you live?", "id": "E626_F2a40" }]
+      },
+      {
+        "hint": "Bảng 2 | John hỏi ai là cô giáo của bạn",
+        "type": "A2",
+        "fsp": "John asks about your teacher",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Who is your teacher?"],
+            "aw": ["Miss Lisa is my teacher"],
+            "submit": ["Miss Lisa is my teacher"],
+            "aw01": [{ "st": "Miss Lisa is my teacher", "id": "E626_F2a31" }]
+          }
+        ],
+        "submit": ["Miss Lisa is my teacher"],
+        "fspSets": [
+          { "st": "John asks about your teacher", "id": "E626_F2a30" }
+        ]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  },
+  {
+    "id": "bang-3",
+    "ListenList": [],
+    "typeSets": ["A1", "A2", "B1", "B2", "C1", "C2"],
+    "SEO": {
+      "seo": {
+        "metaTitle": "Bảng 3 |",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "Bảng 3 |",
+        "IFdes": "Bảng 3 |",
+        "IF-audiocode": "E626_F3"
+      },
+      "HD": [
+        {
+          "HD-01": "X",
+          "HD-02": "Bảng 3 |",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "John asks about siblings",
+          "HD-03": "How many siblings do you have?",
+          "HD-04": "I have one brother",
+          "HD-05": "I have two sisters"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "John asks about pets",
+          "HD-03": "Do you have a pet?",
+          "HD-04": "Yes, I have a cat",
+          "HD-05": "No, I don’t"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "John asks your grade",
+          "HD-03": "What grade are you in?",
+          "HD-04": "I am in grade 3",
+          "HD-05": "I am in grade 4"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "John asks about season",
+          "HD-03": "What season do you like?",
+          "HD-04": "I like summer",
+          "HD-05": "I like winter"
+        },
+        {
+          "HD-01": "XX",
+          "HD-02": "X",
+          "HD-03": "X",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "A1-A2",
+          "HD-02": "Đặt câu hỏi",
+          "HD-03": "Chọn câu trả lời đáp án 1",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "B1-B2",
+          "HD-02": "Đặt câu hỏi",
+          "HD-03": "Chọn câu trả lời đáp án 2",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "C1-C2",
+          "HD-02": "Nghe câu hỏi",
+          "HD-03": "Trả lời 1 trong 2 đáp án phù hợp.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "***Đọc gợi ý bảng và tình huống",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "..-1",
+          "HD-02": "Dòng 1-2",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "..-2",
+          "HD-02": "Dòng 3-4",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        }
+      ],
+      "TB": [
+        [
+          "I have one brother",
+          "Yes, I have a cat",
+          "I am in grade 3",
+          "I like summer"
+        ],
+        [
+          "I have two sisters",
+          "No, I don’t",
+          "I am in grade 4",
+          "I like winter"
+        ]
+      ],
+      "TV": [
+        {
+          "TV-01": "X",
+          "TV-02": "Bảng 3 |",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "X",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": "John asks about siblings",
+          "TV-03": "How many siblings do you have?",
+          "TV-04": "I have one brother",
+          "TV-05": "I have two sisters"
+        },
+        {
+          "TV-01": null,
+          "TV-02": "John asks about pets",
+          "TV-03": "Do you have a pet?",
+          "TV-04": "Yes, I have a cat",
+          "TV-05": "No, I don’t"
+        },
+        {
+          "TV-01": null,
+          "TV-02": "John asks your grade",
+          "TV-03": "What grade are you in?",
+          "TV-04": "I am in grade 3",
+          "TV-05": "I am in grade 4"
+        },
+        {
+          "TV-01": null,
+          "TV-02": "John asks about season",
+          "TV-03": "What season do you like?",
+          "TV-04": "I like summer",
+          "TV-05": "I like winter"
+        },
+        {
+          "TV-01": "XX",
+          "TV-02": "X",
+          "TV-03": "X",
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "A1-A2",
+          "TV-02": "Đặt câu hỏi",
+          "TV-03": "Chọn câu trả lời đáp án 1",
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "B1-B2",
+          "TV-02": "Đặt câu hỏi",
+          "TV-03": "Chọn câu trả lời đáp án 2",
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "C1-C2",
+          "TV-02": "Nghe câu hỏi",
+          "TV-03": "Trả lời 1 trong 2 đáp án phù hợp.",
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "***Đọc gợi ý bảng và tình huống",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "..-1",
+          "TV-02": "Dòng 1-2",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "..-2",
+          "TV-02": "Dòng 3-4",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        }
+      ],
+      "IPA": [
+        {
+          "IPA-01": "John asks about siblings",
+          "IPA-02": "John hỏi về anh chị em ruột",
+          "IPA-03": "ʤɒn ɑːsks əˈbaʊt ˈsɪblɪŋz",
+          "IPA-04": "ʤɑn æsks əˈbaʊt ˈsɪblɪŋz"
+        },
+        {
+          "IPA-01": "John asks about pets",
+          "IPA-02": "John hỏi về thú cưng",
+          "IPA-03": "ʤɒn ɑːsks əˈbaʊt pɛts",
+          "IPA-04": "ʤɑn æsks əˈbaʊt pɛts"
+        },
+        {
+          "IPA-01": "John asks your grade",
+          "IPA-02": "John hỏi lớp của bạn",
+          "IPA-03": "ʤɒn ɑːsks jɔː ɡreɪd",
+          "IPA-04": "ʤɑn æsks jʊər ɡreɪd"
+        },
+        {
+          "IPA-01": "John asks about season",
+          "IPA-02": "John hỏi về mùa",
+          "IPA-03": "ʤɒn ɑːsks əˈbaʊt ˈsiːzᵊn",
+          "IPA-04": "ʤɑn æsks əˈbaʊt ˈsizən"
+        },
+        {
+          "IPA-01": "How many siblings do you have?",
+          "IPA-02": "Bạn có bao nhiêu anh chị em ruột?",
+          "IPA-03": "haʊ ˈmɛni ˈsɪblɪŋz duː juː hæv?",
+          "IPA-04": "haʊ ˈmɛni ˈsɪblɪŋz du ju hæv?"
+        },
+        {
+          "IPA-01": "Do you have a pet?",
+          "IPA-02": "Bạn có nuôi thú cưng không?",
+          "IPA-03": "duː juː hæv ə pɛt?",
+          "IPA-04": "du ju hæv ə pɛt?"
+        },
+        {
+          "IPA-01": "What grade are you in?",
+          "IPA-02": "Bạn học lớp mấy?",
+          "IPA-03": "wɒt ɡreɪd ɑː juː ɪn?",
+          "IPA-04": "wɑt ɡreɪd ɑr ju ɪn?"
+        },
+        {
+          "IPA-01": "What season do you like?",
+          "IPA-02": "Bạn thích mùa nào?",
+          "IPA-03": "wɒt ˈsiːzᵊn duː juː laɪk?",
+          "IPA-04": "wɑt ˈsizən du ju laɪk?"
+        },
+        {
+          "IPA-01": "I have one brother",
+          "IPA-02": "Tôi có một anh trai",
+          "IPA-03": "aɪ hæv wʌn ˈbrʌðə",
+          "IPA-04": "aɪ hæv wʌn ˈbrʌðər"
+        },
+        {
+          "IPA-01": "Yes, I have a cat",
+          "IPA-02": "Có, tôi có một con mèo",
+          "IPA-03": "jɛs, aɪ hæv ə kæt",
+          "IPA-04": "jɛs, aɪ hæv ə kæt"
+        },
+        {
+          "IPA-01": "I am in grade 3",
+          "IPA-02": "Tôi học lớp 3",
+          "IPA-03": "aɪ æm ɪn ɡreɪd 3",
+          "IPA-04": "aɪ æm ɪn ɡreɪd 3"
+        },
+        {
+          "IPA-01": "I like summer",
+          "IPA-02": "Tôi thích mùa hè",
+          "IPA-03": "aɪ laɪk ˈsʌmə",
+          "IPA-04": "aɪ laɪk ˈsʌmər"
+        },
+        {
+          "IPA-01": "I have two sisters",
+          "IPA-02": "Tôi có hai chị gái",
+          "IPA-03": "aɪ hæv tuː ˈsɪstəz",
+          "IPA-04": "aɪ hæv tu ˈsɪstərz"
+        },
+        {
+          "IPA-01": "No, I don’t",
+          "IPA-02": "Không, tôi không",
+          "IPA-03": "nəʊ, aɪ dəʊnt",
+          "IPA-04": "noʊ, aɪ doʊnt"
+        },
+        {
+          "IPA-01": "I am in grade 4",
+          "IPA-02": "Tôi học lớp 4",
+          "IPA-03": "aɪ æm ɪn ɡreɪd 4",
+          "IPA-04": "aɪ æm ɪn ɡreɪd 4"
+        },
+        {
+          "IPA-01": "I like winter",
+          "IPA-02": "Tôi thích mùa đông",
+          "IPA-03": "aɪ laɪk ˈwɪntə",
+          "IPA-04": "aɪ laɪk ˈwɪntər"
+        }
+      ]
+    },
+    "charactor": [
+      {
+        "hint": "Bảng 3 | John hỏi bạn đang học lớp mấy",
+        "type": "B2",
+        "fsp": "John asks your grade",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What grade are you in?"],
+            "aw": ["I am in grade 4"],
+            "submit": ["I am in grade 4"],
+            "aw01": [{ "st": "I am in grade 4", "id": "E626_F3a61" }]
+          }
+        ],
+        "submit": ["I am in grade 4"],
+        "fspSets": [{ "st": "John asks your grade", "id": "E626_F3a52" }]
+      },
+      {
+        "hint": "Bảng 3 | John hỏi bạn có nuôi thú không",
+        "type": "A1",
+        "fsp": "John asks about pets",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Do you have a pet?"],
+            "aw": ["Yes, I have a cat"],
+            "submit": ["Yes, I have a cat"],
+            "aw01": [{ "st": "Yes, I have a cat", "id": "E626_F3a51" }]
+          }
+        ],
+        "submit": ["Yes, I have a cat"],
+        "fspSets": [{ "st": "John asks about pets", "id": "E626_F3a50" }]
+      },
+      {
+        "hint": "Bảng 3 | John hỏi bạn có bao nhiêu anh chị",
+        "type": "B1",
+        "fsp": "John asks about siblings",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["How many siblings do you have?"],
+            "aw": ["I have two sisters"],
+            "submit": ["I have two sisters"],
+            "aw01": [{ "st": "I have two sisters", "id": "E626_F3a57" }]
+          }
+        ],
+        "submit": ["I have two sisters"],
+        "fspSets": [{ "st": "John asks about siblings", "id": "E626_F3a48" }]
+      },
+      {
+        "hint": "Bảng 3 | John hỏi bạn có bao nhiêu anh chị",
+        "type": "C1",
+        "fsp": "How many siblings do you have?",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["I have one brother", "I have two sisters"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "E626_F1a17" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "How many siblings do you have?", "id": "E626_F3a64" }
+        ]
+      },
+      {
+        "hint": "Bảng 3 | John hỏi bạn đang học lớp mấy",
+        "type": "A2",
+        "fsp": "John asks your grade",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What grade are you in?"],
+            "aw": ["I am in grade 3"],
+            "submit": ["I am in grade 3"],
+            "aw01": [{ "st": "I am in grade 3", "id": "E626_F3a53" }]
+          }
+        ],
+        "submit": ["I am in grade 3"],
+        "fspSets": [{ "st": "John asks your grade", "id": "E626_F3a52" }]
+      },
+      {
+        "hint": "Bảng 3 | John hỏi bạn đang học lớp mấy",
+        "type": "C2",
+        "fsp": "What grade are you in?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["I am in grade 3", "I am in grade 4"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "E626_F1a17" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What grade are you in?", "id": "E626_F3a68" }]
+      },
+      {
+        "hint": "Bảng 3 | John hỏi bạn thích mùa nào",
+        "type": "C2",
+        "fsp": "What season do you like?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["I like summer", "I like winter"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "E626_F1a19" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What season do you like?", "id": "E626_F3a70" }]
+      },
+      {
+        "hint": "Bảng 3 | John hỏi bạn có bao nhiêu anh chị",
+        "type": "A1",
+        "fsp": "John asks about siblings",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["How many siblings do you have?"],
+            "aw": ["I have one brother"],
+            "submit": ["I have one brother"],
+            "aw01": [{ "st": "I have one brother", "id": "E626_F3a49" }]
+          }
+        ],
+        "submit": ["I have one brother"],
+        "fspSets": [{ "st": "John asks about siblings", "id": "E626_F3a48" }]
+      },
+      {
+        "hint": "Bảng 3 | John hỏi bạn thích mùa nào",
+        "type": "B2",
+        "fsp": "John asks about season",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What season do you like?"],
+            "aw": ["I like winter"],
+            "submit": ["I like winter"],
+            "aw01": [{ "st": "I like winter", "id": "E626_F3a63" }]
+          }
+        ],
+        "submit": ["I like winter"],
+        "fspSets": [{ "st": "John asks about season", "id": "E626_F3a54" }]
+      },
+      {
+        "hint": "Bảng 3 | John hỏi bạn có nuôi thú không",
+        "type": "C1",
+        "fsp": "Do you have a pet?",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Yes, I have a cat", "No, I don’t"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "E626_F1a19" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Do you have a pet?", "id": "E626_F3a66" }]
+      },
+      {
+        "hint": "Bảng 3 | John hỏi bạn thích mùa nào",
+        "type": "A2",
+        "fsp": "John asks about season",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What season do you like?"],
+            "aw": ["I like summer"],
+            "submit": ["I like summer"],
+            "aw01": [{ "st": "I like summer", "id": "E626_F3a55" }]
+          }
+        ],
+        "submit": ["I like summer"],
+        "fspSets": [{ "st": "John asks about season", "id": "E626_F3a54" }]
+      },
+      {
+        "hint": "Bảng 3 | John hỏi bạn có nuôi thú không",
+        "type": "B1",
+        "fsp": "John asks about pets",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Do you have a pet?"],
+            "aw": ["No, I don’t"],
+            "submit": ["No, I don’t"],
+            "aw01": [{ "st": "No, I don’t", "id": "E626_F3a59" }]
+          }
+        ],
+        "submit": ["No, I don’t"],
+        "fspSets": [{ "st": "John asks about pets", "id": "E626_F3a50" }]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  },
+  {
+    "id": "bang-4",
+    "ListenList": [],
+    "typeSets": ["A1", "A2", "B1", "B2", "C1", "C2"],
+    "SEO": {
+      "seo": {
+        "metaTitle": "Bảng 4 |",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "Bảng 4 |",
+        "IFdes": "Bảng 4 |",
+        "IF-audiocode": "E626_F4"
+      },
+      "HD": [
+        {
+          "HD-01": "X",
+          "HD-02": "Bảng 4 |",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "John asks about the weather",
+          "HD-03": "How is the weather today?",
+          "HD-04": "It is sunny",
+          "HD-05": "It is rainy"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "John asks about sport",
+          "HD-03": "Do you like sports?",
+          "HD-04": "Yes, I like football",
+          "HD-05": "No, I don’t"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "John asks about after school",
+          "HD-03": "What do you do after school?",
+          "HD-04": "I play with friends",
+          "HD-05": "I watch TV"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "John asks about breakfast",
+          "HD-03": "What do you eat for breakfast?",
+          "HD-04": "I eat bread",
+          "HD-05": "I eat noodles"
+        },
+        {
+          "HD-01": "XX",
+          "HD-02": "X",
+          "HD-03": "X",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "A1-A2",
+          "HD-02": "Đặt câu hỏi",
+          "HD-03": "Chọn câu trả lời đáp án 1",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "B1-B2",
+          "HD-02": "Đặt câu hỏi",
+          "HD-03": "Chọn câu trả lời đáp án 2",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "C1-C2",
+          "HD-02": "Nghe câu hỏi",
+          "HD-03": "Trả lời 1 trong 2 đáp án phù hợp.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "***Đọc gợi ý bảng và tình huống",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "..-1",
+          "HD-02": "Dòng 1-2",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "..-2",
+          "HD-02": "Dòng 3-4",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        }
+      ],
+      "TB": [
+        [
+          "It is sunny",
+          "Yes, I like football",
+          "I play with friends",
+          "I eat bread"
+        ],
+        ["It is rainy", "No, I don’t", "I watch TV", "I eat noodles"]
+      ],
+      "TV": [
+        {
+          "TV-01": "X",
+          "TV-02": "Bảng 4 |",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "X",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": "John asks about the weather",
+          "TV-03": "How is the weather today?",
+          "TV-04": "It is sunny",
+          "TV-05": "It is rainy"
+        },
+        {
+          "TV-01": null,
+          "TV-02": "John asks about sport",
+          "TV-03": "Do you like sports?",
+          "TV-04": "Yes, I like football",
+          "TV-05": "No, I don’t"
+        },
+        {
+          "TV-01": null,
+          "TV-02": "John asks about after school",
+          "TV-03": "What do you do after school?",
+          "TV-04": "I play with friends",
+          "TV-05": "I watch TV"
+        },
+        {
+          "TV-01": null,
+          "TV-02": "John asks about breakfast",
+          "TV-03": "What do you eat for breakfast?",
+          "TV-04": "I eat bread",
+          "TV-05": "I eat noodles"
+        },
+        {
+          "TV-01": "XX",
+          "TV-02": "X",
+          "TV-03": "X",
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "A1-A2",
+          "TV-02": "Đặt câu hỏi",
+          "TV-03": "Chọn câu trả lời đáp án 1",
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "B1-B2",
+          "TV-02": "Đặt câu hỏi",
+          "TV-03": "Chọn câu trả lời đáp án 2",
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "C1-C2",
+          "TV-02": "Nghe câu hỏi",
+          "TV-03": "Trả lời 1 trong 2 đáp án phù hợp.",
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "***Đọc gợi ý bảng và tình huống",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "..-1",
+          "TV-02": "Dòng 1-2",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "..-2",
+          "TV-02": "Dòng 3-4",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        }
+      ],
+      "IPA": [
+        {
+          "IPA-01": "John asks about the weather",
+          "IPA-02": "John hỏi về thời tiết",
+          "IPA-03": "ʤɒn ɑːsks əˈbaʊt ðə ˈwɛðə",
+          "IPA-04": "ʤɑn æsks əˈbaʊt ðə ˈwɛðər"
+        },
+        {
+          "IPA-01": "John asks about sport",
+          "IPA-02": "John hỏi về thể thao",
+          "IPA-03": "ʤɒn ɑːsks əˈbaʊt spɔːt",
+          "IPA-04": "ʤɑn æsks əˈbaʊt spɔrt"
+        },
+        {
+          "IPA-01": "John asks about after school",
+          "IPA-02": "John hỏi về sau giờ học",
+          "IPA-03": "ʤɒn ɑːsks əˈbaʊt ˈɑːftə skuːl",
+          "IPA-04": "ʤɑn æsks əˈbaʊt ˈæftər skul"
+        },
+        {
+          "IPA-01": "John asks about breakfast",
+          "IPA-02": "John hỏi về bữa sáng",
+          "IPA-03": "ʤɒn ɑːsks əˈbaʊt ˈbrɛkfəst",
+          "IPA-04": "ʤɑn æsks əˈbaʊt ˈbrɛkfəst"
+        },
+        {
+          "IPA-01": "How is the weather today?",
+          "IPA-02": "Thời tiết hôm nay thế nào?",
+          "IPA-03": "haʊ ɪz ðə ˈwɛðə təˈdeɪ?",
+          "IPA-04": "haʊ ɪz ðə ˈwɛðər təˈdeɪ?"
+        },
+        {
+          "IPA-01": "Do you like sports?",
+          "IPA-02": "Bạn có thích thể thao không?",
+          "IPA-03": "duː juː laɪk spɔːts?",
+          "IPA-04": "du ju laɪk spɔrts?"
+        },
+        {
+          "IPA-01": "What do you do after school?",
+          "IPA-02": "Bạn làm gì sau giờ học?",
+          "IPA-03": "wɒt duː juː duː ˈɑːftə skuːl?",
+          "IPA-04": "wɑt du ju du ˈæftər skul?"
+        },
+        {
+          "IPA-01": "What do you eat for breakfast?",
+          "IPA-02": "Bạn ăn gì vào bữa sáng?",
+          "IPA-03": "wɒt duː juː iːt fɔː ˈbrɛkfəst?",
+          "IPA-04": "wɑt du ju it fɔr ˈbrɛkfəst?"
+        },
+        {
+          "IPA-01": "It is sunny",
+          "IPA-02": "Trời nắng",
+          "IPA-03": "ɪt ɪz ˈsʌni",
+          "IPA-04": "ɪt ɪz ˈsʌni"
+        },
+        {
+          "IPA-01": "Yes, I like football",
+          "IPA-02": "Có, tôi thích bóng đá",
+          "IPA-03": "jɛs, aɪ laɪk ˈfʊtbɔːl",
+          "IPA-04": "jɛs, aɪ laɪk ˈfʊtˌbɔl"
+        },
+        {
+          "IPA-01": "I play with friends",
+          "IPA-02": "Tôi chơi với bạn bè",
+          "IPA-03": "aɪ pleɪ wɪð frɛndz",
+          "IPA-04": "aɪ pleɪ wɪð frɛndz"
+        },
+        {
+          "IPA-01": "I eat bread",
+          "IPA-02": "Tôi ăn bánh mì",
+          "IPA-03": "aɪ iːt brɛd",
+          "IPA-04": "aɪ it brɛd"
+        },
+        {
+          "IPA-01": "It is rainy",
+          "IPA-02": "Trời mưa",
+          "IPA-03": "ɪt ɪz ˈreɪni",
+          "IPA-04": "ɪt ɪz ˈreɪni"
+        },
+        {
+          "IPA-01": "No, I don’t",
+          "IPA-02": "Không, tôi không",
+          "IPA-03": "nəʊ, aɪ dəʊnt",
+          "IPA-04": "noʊ, aɪ doʊnt"
+        },
+        {
+          "IPA-01": "I watch TV",
+          "IPA-02": "Tôi xem TV",
+          "IPA-03": "aɪ wɒʧ ˌtiːˈviː",
+          "IPA-04": "aɪ wɑʧ ˈtiˈvi"
+        },
+        {
+          "IPA-01": "I eat noodles",
+          "IPA-02": "Tôi ăn mì",
+          "IPA-03": "aɪ iːt ˈnuːdᵊlz",
+          "IPA-04": "aɪ it ˈnudəlz"
+        }
+      ]
+    },
+    "charactor": [
+      {
+        "hint": "Bảng 4 | John hỏi bạn làm gì sau giờ học",
+        "type": "B2",
+        "fsp": "John asks about after school",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What do you do after school?"],
+            "aw": ["I watch TV"],
+            "submit": ["I watch TV"],
+            "aw01": [{ "st": "I watch TV", "id": "E626_F4a85" }]
+          }
+        ],
+        "submit": ["I watch TV"],
+        "fspSets": [
+          { "st": "John asks about after school", "id": "E626_F4a76" }
+        ]
+      },
+      {
+        "hint": "Bảng 4 | John hỏi bạn ăn sáng với gì",
+        "type": "C2",
+        "fsp": "What do you eat for breakfast?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["I eat bread", "I eat noodles"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "E626_F1a19" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What do you eat for breakfast?", "id": "E626_F4a94" }
+        ]
+      },
+      {
+        "hint": "Bảng 4 | John hỏi bạn có thích thể thao không",
+        "type": "C1",
+        "fsp": "Do you like sports?",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Yes, I like football", "No, I don’t"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "E626_F1a19" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Do you like sports?", "id": "E626_F4a90" }]
+      },
+      {
+        "hint": "Bảng 4 | John hỏi hôm nay trời thế nào",
+        "type": "A1",
+        "fsp": "John asks about the weather",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["How is the weather today?"],
+            "aw": ["It is sunny"],
+            "submit": ["It is sunny"],
+            "aw01": [{ "st": "It is sunny", "id": "E626_F4a73" }]
+          }
+        ],
+        "submit": ["It is sunny"],
+        "fspSets": [{ "st": "John asks about the weather", "id": "E626_F4a72" }]
+      },
+      {
+        "hint": "Bảng 4 | John hỏi bạn ăn sáng với gì",
+        "type": "A2",
+        "fsp": "John asks about breakfast",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What do you eat for breakfast?"],
+            "aw": ["I eat bread"],
+            "submit": ["I eat bread"],
+            "aw01": [{ "st": "I eat bread", "id": "E626_F4a79" }]
+          }
+        ],
+        "submit": ["I eat bread"],
+        "fspSets": [{ "st": "John asks about breakfast", "id": "E626_F4a78" }]
+      },
+      {
+        "hint": "Bảng 4 | John hỏi bạn có thích thể thao không",
+        "type": "B1",
+        "fsp": "John asks about sport",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Do you like sports?"],
+            "aw": ["No, I don’t"],
+            "submit": ["No, I don’t"],
+            "aw01": [{ "st": "No, I don’t", "id": "E626_F3a59" }]
+          }
+        ],
+        "submit": ["No, I don’t"],
+        "fspSets": [{ "st": "John asks about sport", "id": "E626_F4a74" }]
+      },
+      {
+        "hint": "Bảng 4 | John hỏi bạn ăn sáng với gì",
+        "type": "B2",
+        "fsp": "John asks about breakfast",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What do you eat for breakfast?"],
+            "aw": ["I eat noodles"],
+            "submit": ["I eat noodles"],
+            "aw01": [{ "st": "I eat noodles", "id": "E626_F4a87" }]
+          }
+        ],
+        "submit": ["I eat noodles"],
+        "fspSets": [{ "st": "John asks about breakfast", "id": "E626_F4a78" }]
+      },
+      {
+        "hint": "Bảng 4 | John hỏi hôm nay trời thế nào",
+        "type": "C1",
+        "fsp": "How is the weather today?",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["It is sunny", "It is rainy"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "E626_F1a17" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How is the weather today?", "id": "E626_F4a88" }]
+      },
+      {
+        "hint": "Bảng 4 | John hỏi bạn làm gì sau giờ học",
+        "type": "A2",
+        "fsp": "John asks about after school",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What do you do after school?"],
+            "aw": ["I play with friends"],
+            "submit": ["I play with friends"],
+            "aw01": [{ "st": "I play with friends", "id": "E626_F4a77" }]
+          }
+        ],
+        "submit": ["I play with friends"],
+        "fspSets": [
+          { "st": "John asks about after school", "id": "E626_F4a76" }
+        ]
+      },
+      {
+        "hint": "Bảng 4 | John hỏi hôm nay trời thế nào",
+        "type": "B1",
+        "fsp": "John asks about the weather",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["How is the weather today?"],
+            "aw": ["It is rainy"],
+            "submit": ["It is rainy"],
+            "aw01": [{ "st": "It is rainy", "id": "E626_F4a81" }]
+          }
+        ],
+        "submit": ["It is rainy"],
+        "fspSets": [{ "st": "John asks about the weather", "id": "E626_F4a72" }]
+      },
+      {
+        "hint": "Bảng 4 | John hỏi bạn có thích thể thao không",
+        "type": "A1",
+        "fsp": "John asks about sport",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Do you like sports?"],
+            "aw": ["Yes, I like football"],
+            "submit": ["Yes, I like football"],
+            "aw01": [{ "st": "Yes, I like football", "id": "E626_F4a75" }]
+          }
+        ],
+        "submit": ["Yes, I like football"],
+        "fspSets": [{ "st": "John asks about sport", "id": "E626_F4a74" }]
+      },
+      {
+        "hint": "Bảng 4 | John hỏi bạn làm gì sau giờ học",
+        "type": "C2",
+        "fsp": "What do you do after school?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["I play with friends", "I watch TV"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "E626_F1a17" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What do you do after school?", "id": "E626_F4a92" }
+        ]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  },
+  {
+    "id": "bang-5",
+    "ListenList": [],
+    "typeSets": ["A1", "A2", "B1", "B2", "C1", "C2"],
+    "SEO": {
+      "seo": {
+        "metaTitle": "Bảng 5 |",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "Bảng 5 |",
+        "IFdes": "Bảng 5 |",
+        "IF-audiocode": "E626_F5"
+      },
+      "HD": [
+        {
+          "HD-01": "X",
+          "HD-02": "Bảng 5 |",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "John asks about transport",
+          "HD-03": "How do you go to school?",
+          "HD-04": "I go by bike",
+          "HD-05": "I go by bus"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "John asks about colors",
+          "HD-03": "What color do you like?",
+          "HD-04": "I like blue",
+          "HD-05": "I like red"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "John asks about swimming",
+          "HD-03": "Can you swim?",
+          "HD-04": "Yes, I can",
+          "HD-05": "No, I can't"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "John asks about wake-up time",
+          "HD-03": "What time do you get up?",
+          "HD-04": "I get up at 6:00 a.m.",
+          "HD-05": "I get up at 7:00 a.m."
+        },
+        {
+          "HD-01": "XX",
+          "HD-02": "X",
+          "HD-03": "X",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "A1-A2",
+          "HD-02": "Đặt câu hỏi",
+          "HD-03": "Chọn câu trả lời đáp án 1",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "B1-B2",
+          "HD-02": "Đặt câu hỏi",
+          "HD-03": "Chọn câu trả lời đáp án 2",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "C1-C2",
+          "HD-02": "Nghe câu hỏi",
+          "HD-03": "Trả lời 1 trong 2 đáp án phù hợp.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "***Đọc gợi ý bảng và tình huống",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "..-1",
+          "HD-02": "Dòng 1-2",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "..-2",
+          "HD-02": "Dòng 3-4",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        }
+      ],
+      "TB": [
+        ["I go by bike", "I like blue", "Yes, I can", "I get up at 6:00 a.m."],
+        ["I go by bus", "I like red", "No, I can't", "I get up at 7:00 a.m."]
+      ],
+      "TV": [
+        {
+          "TV-01": "X",
+          "TV-02": "Bảng 5 |",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "X",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": "John asks about transport",
+          "TV-03": "How do you go to school?",
+          "TV-04": "I go by bike",
+          "TV-05": "I go by bus"
+        },
+        {
+          "TV-01": null,
+          "TV-02": "John asks about colors",
+          "TV-03": "What color do you like?",
+          "TV-04": "I like blue",
+          "TV-05": "I like red"
+        },
+        {
+          "TV-01": null,
+          "TV-02": "John asks about swimming",
+          "TV-03": "Can you swim?",
+          "TV-04": "Yes, I can",
+          "TV-05": "No, I can't"
+        },
+        {
+          "TV-01": null,
+          "TV-02": "John asks about wake-up time",
+          "TV-03": "What time do you get up?",
+          "TV-04": "I get up at 6:00 a.m.",
+          "TV-05": "I get up at 7:00 a.m."
+        },
+        {
+          "TV-01": "XX",
+          "TV-02": "X",
+          "TV-03": "X",
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "A1-A2",
+          "TV-02": "Đặt câu hỏi",
+          "TV-03": "Chọn câu trả lời đáp án 1",
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "B1-B2",
+          "TV-02": "Đặt câu hỏi",
+          "TV-03": "Chọn câu trả lời đáp án 2",
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "C1-C2",
+          "TV-02": "Nghe câu hỏi",
+          "TV-03": "Trả lời 1 trong 2 đáp án phù hợp.",
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "***Đọc gợi ý bảng và tình huống",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "..-1",
+          "TV-02": "Dòng 1-2",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "..-2",
+          "TV-02": "Dòng 3-4",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        }
+      ],
+      "IPA": [
+        {
+          "IPA-01": "John asks about transport",
+          "IPA-02": "John hỏi về phương tiện đi lại",
+          "IPA-03": "ʤɒn ɑːsks əˈbaʊt ˈtrænspɔːt",
+          "IPA-04": "ʤɑn æsks əˈbaʊt ˈtrænspɔrt"
+        },
+        {
+          "IPA-01": "John asks about colors",
+          "IPA-02": "John hỏi về màu sắc",
+          "IPA-03": "ʤɒn ɑːsks əˈbaʊt ˈkʌləz",
+          "IPA-04": "ʤɑn æsks əˈbaʊt ˈkʌlərz"
+        },
+        {
+          "IPA-01": "John asks about swimming",
+          "IPA-02": "John hỏi về bơi lội",
+          "IPA-03": "ʤɒn ɑːsks əˈbaʊt ˈswɪmɪŋ",
+          "IPA-04": "ʤɑn æsks əˈbaʊt ˈswɪmɪŋ"
+        },
+        {
+          "IPA-01": "John asks about wake-up time",
+          "IPA-02": "John hỏi về thời gian thức dậy",
+          "IPA-03": "ʤɒn ɑːsks əˈbaʊt weɪk-ʌp taɪm",
+          "IPA-04": "ʤɑn æsks əˈbaʊt ˈweɪˌkʌp taɪm"
+        },
+        {
+          "IPA-01": "How do you go to school?",
+          "IPA-02": "Bạn đi học bằng cách nào?",
+          "IPA-03": "haʊ duː juː ɡəʊ tuː skuːl?",
+          "IPA-04": "haʊ du ju ɡoʊ tu skul?"
+        },
+        {
+          "IPA-01": "What color do you like?",
+          "IPA-02": "Bạn thích màu gì?",
+          "IPA-03": "wɒt ˈkʌlə duː juː laɪk?",
+          "IPA-04": "wɑt ˈkʌlər du ju laɪk?"
+        },
+        {
+          "IPA-01": "Can you swim?",
+          "IPA-02": "Bạn có thể bơi?",
+          "IPA-03": "kæn juː swɪm?",
+          "IPA-04": "kæn ju swɪm?"
+        },
+        {
+          "IPA-01": "What time do you get up?",
+          "IPA-02": "Bạn thức dậy lúc mấy giờ?",
+          "IPA-03": "wɒt taɪm duː juː ɡɛt ʌp?",
+          "IPA-04": "wɑt taɪm du ju ɡɛt ʌp?"
+        },
+        {
+          "IPA-01": "I go by bike",
+          "IPA-02": "Tôi đi xe đạp",
+          "IPA-03": "aɪ ɡəʊ baɪ baɪk",
+          "IPA-04": "aɪ ɡoʊ baɪ baɪk"
+        },
+        {
+          "IPA-01": "I like blue",
+          "IPA-02": "Tôi thích màu xanh",
+          "IPA-03": "aɪ laɪk bluː",
+          "IPA-04": "aɪ laɪk blu"
+        },
+        {
+          "IPA-01": "Yes, I can",
+          "IPA-02": "Có, tôi có thể",
+          "IPA-03": "jɛs, aɪ kæn",
+          "IPA-04": "jɛs, aɪ kæn"
+        },
+        {
+          "IPA-01": "I get up at 6:00 a.m.",
+          "IPA-02": "Tôi thức dậy lúc 6:00 sáng",
+          "IPA-03": "aɪ ɡɛt ʌp æt 6:00 eɪ.ɛm.",
+          "IPA-04": "aɪ ɡɛt ʌp æt 6:00 eɪ.ɛm."
+        },
+        {
+          "IPA-01": "I go by bus",
+          "IPA-02": "Tôi đi xe buýt",
+          "IPA-03": "aɪ ɡəʊ baɪ bʌs",
+          "IPA-04": "aɪ ɡoʊ baɪ bʌs"
+        },
+        {
+          "IPA-01": "I like red",
+          "IPA-02": "Tôi thích màu đỏ",
+          "IPA-03": "aɪ laɪk rɛd",
+          "IPA-04": "aɪ laɪk rɛd"
+        },
+        {
+          "IPA-01": "No, I can't",
+          "IPA-02": "Không, tôi không thể",
+          "IPA-03": "nəʊ, aɪ kɑːnt",
+          "IPA-04": "noʊ, aɪ kænt"
+        },
+        {
+          "IPA-01": "I get up at 7:00 a.m.",
+          "IPA-02": "Tôi thức dậy lúc 7:00 sáng",
+          "IPA-03": "aɪ ɡɛt ʌp æt 7:00 eɪ.ɛm.",
+          "IPA-04": "aɪ ɡɛt ʌp æt 7:00 eɪ.ɛm."
+        }
+      ]
+    },
+    "charactor": [
+      {
+        "hint": "Bảng 5 | John hỏi bạn thức dậy lúc mấy giờ",
+        "type": "B2",
+        "fsp": "John asks about wake-up time",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What time do you get up?"],
+            "aw": ["I get up at 7:00 a.m."],
+            "submit": ["I get up at 7:00 a.m."],
+            "aw01": [{ "st": "I get up at 7:00 a.m.", "id": "E626_F5a111" }]
+          }
+        ],
+        "submit": ["I get up at 7:00 a.m."],
+        "fspSets": [
+          { "st": "John asks about wake-up time", "id": "E626_F5a102" }
+        ]
+      },
+      {
+        "hint": "Bảng 5 | John hỏi bạn đi học bằng gì",
+        "type": "C1",
+        "fsp": "How do you go to school?",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["I go by bike", "I go by bus"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "E626_F1a17" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How do you go to school?", "id": "E626_F5a112" }]
+      },
+      {
+        "hint": "Bảng 5 | John hỏi bạn đi học bằng gì",
+        "type": "B1",
+        "fsp": "John asks about transport",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["How do you go to school?"],
+            "aw": ["I go by bus"],
+            "submit": ["I go by bus"],
+            "aw01": [{ "st": "I go by bus", "id": "E626_F5a105" }]
+          }
+        ],
+        "submit": ["I go by bus"],
+        "fspSets": [{ "st": "John asks about transport", "id": "E626_F5a96" }]
+      },
+      {
+        "hint": "Bảng 5 | John hỏi bạn thích màu nào",
+        "type": "A1",
+        "fsp": "John asks about colors",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What color do you like?"],
+            "aw": ["I like blue"],
+            "submit": ["I like blue"],
+            "aw01": [{ "st": "I like blue", "id": "E626_F5a99" }]
+          }
+        ],
+        "submit": ["I like blue"],
+        "fspSets": [{ "st": "John asks about colors", "id": "E626_F5a98" }]
+      },
+      {
+        "hint": "Bảng 5 | John hỏi bạn thức dậy lúc mấy giờ",
+        "type": "A2",
+        "fsp": "John asks about wake-up time",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What time do you get up?"],
+            "aw": ["I get up at 6:00 a.m."],
+            "submit": ["I get up at 6:00 a.m."],
+            "aw01": [{ "st": "I get up at 6:00 a.m.", "id": "E626_F5a103" }]
+          }
+        ],
+        "submit": ["I get up at 6:00 a.m."],
+        "fspSets": [
+          { "st": "John asks about wake-up time", "id": "E626_F5a102" }
+        ]
+      },
+      {
+        "hint": "Bảng 5 | John hỏi bạn có biết bơi không",
+        "type": "C2",
+        "fsp": "Can you swim?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes, I can", "No, I can't"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "E626_F1a17" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Can you swim?", "id": "E626_F5a116" }]
+      },
+      {
+        "hint": "Bảng 5 | John hỏi bạn thích màu nào",
+        "type": "B1",
+        "fsp": "John asks about colors",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What color do you like?"],
+            "aw": ["I like red"],
+            "submit": ["I like red"],
+            "aw01": [{ "st": "I like red", "id": "E626_F5a107" }]
+          }
+        ],
+        "submit": ["I like red"],
+        "fspSets": [{ "st": "John asks about colors", "id": "E626_F5a98" }]
+      },
+      {
+        "hint": "Bảng 5 | John hỏi bạn có biết bơi không",
+        "type": "A2",
+        "fsp": "John asks about swimming",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Can you swim?"],
+            "aw": ["Yes, I can"],
+            "submit": ["Yes, I can"],
+            "aw01": [{ "st": "Yes, I can", "id": "E626_F5a101" }]
+          }
+        ],
+        "submit": ["Yes, I can"],
+        "fspSets": [{ "st": "John asks about swimming", "id": "E626_F5a100" }]
+      },
+      {
+        "hint": "Bảng 5 | John hỏi bạn thích màu nào",
+        "type": "C1",
+        "fsp": "What color do you like?",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["I like blue", "I like red"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "E626_F1a19" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What color do you like?", "id": "E626_F5a114" }]
+      },
+      {
+        "hint": "Bảng 5 | John hỏi bạn có biết bơi không",
+        "type": "B2",
+        "fsp": "John asks about swimming",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Can you swim?"],
+            "aw": ["No, I can't"],
+            "submit": ["No, I can't"],
+            "aw01": [{ "st": "No, I can't", "id": "E626_F5a109" }]
+          }
+        ],
+        "submit": ["No, I can't"],
+        "fspSets": [{ "st": "John asks about swimming", "id": "E626_F5a100" }]
+      },
+      {
+        "hint": "Bảng 5 | John hỏi bạn đi học bằng gì",
+        "type": "A1",
+        "fsp": "John asks about transport",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["How do you go to school?"],
+            "aw": ["I go by bike"],
+            "submit": ["I go by bike"],
+            "aw01": [{ "st": "I go by bike", "id": "E626_F5a97" }]
+          }
+        ],
+        "submit": ["I go by bike"],
+        "fspSets": [{ "st": "John asks about transport", "id": "E626_F5a96" }]
+      },
+      {
+        "hint": "Bảng 5 | John hỏi bạn thức dậy lúc mấy giờ",
+        "type": "C2",
+        "fsp": "What time do you get up?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["I get up at 6:00 a.m.", "I get up at 7:00 a.m."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "E626_F1a19" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What time do you get up?", "id": "E626_F5a118" }]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  },
+  {
+    "id": "bang-6",
+    "ListenList": [],
+    "typeSets": ["A1", "A2", "B1", "B2", "C1", "C2"],
+    "SEO": {
+      "seo": {
+        "metaTitle": "Bảng 6 |",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "Bảng 6 |",
+        "IFdes": "Bảng 6 |",
+        "IF-audiocode": "E626_F6"
+      },
+      "HD": [
+        {
+          "HD-01": "X",
+          "HD-02": "Bảng 6 |",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "John asks about bedtime",
+          "HD-03": "What time do you go to bed?",
+          "HD-04": "I go to bed at 9:00 p.m.",
+          "HD-05": "I go to bed at 8:00 p.m."
+        },
+        {
+          "HD-01": null,
+          "HD-02": "John asks about fruit",
+          "HD-03": "What fruit do you like?",
+          "HD-04": "I like bananas",
+          "HD-05": "I like apples"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "John asks about instruments",
+          "HD-03": "What do you play?",
+          "HD-04": "I play the piano",
+          "HD-05": "I play the guitar"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "John asks about hunger",
+          "HD-03": "Are you hungry?",
+          "HD-04": "Yes, I am",
+          "HD-05": "No, I’m not"
+        },
+        {
+          "HD-01": "XX",
+          "HD-02": "X",
+          "HD-03": "X",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "A1-A2",
+          "HD-02": "Đặt câu hỏi",
+          "HD-03": "Chọn câu trả lời đáp án 1",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "B1-B2",
+          "HD-02": "Đặt câu hỏi",
+          "HD-03": "Chọn câu trả lời đáp án 2",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "C1-C2",
+          "HD-02": "Nghe câu hỏi",
+          "HD-03": "Trả lời 1 trong 2 đáp án phù hợp.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "***Đọc gợi ý bảng và tình huống",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "..-1",
+          "HD-02": "Dòng 1-2",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "..-2",
+          "HD-02": "Dòng 3-4",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        }
+      ],
+      "TB": [
+        [
+          "I go to bed at 9:00 p.m.",
+          "I like bananas",
+          "I play the piano",
+          "Yes, I am"
+        ],
+        [
+          "I go to bed at 8:00 p.m.",
+          "I like apples",
+          "I play the guitar",
+          "No, I’m not"
+        ]
+      ],
+      "TV": [
+        {
+          "TV-01": "X",
+          "TV-02": "Bảng 6 |",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "X",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": "John asks about bedtime",
+          "TV-03": "What time do you go to bed?",
+          "TV-04": "I go to bed at 9:00 p.m.",
+          "TV-05": "I go to bed at 8:00 p.m."
+        },
+        {
+          "TV-01": null,
+          "TV-02": "John asks about fruit",
+          "TV-03": "What fruit do you like?",
+          "TV-04": "I like bananas",
+          "TV-05": "I like apples"
+        },
+        {
+          "TV-01": null,
+          "TV-02": "John asks about instruments",
+          "TV-03": "What do you play?",
+          "TV-04": "I play the piano",
+          "TV-05": "I play the guitar"
+        },
+        {
+          "TV-01": null,
+          "TV-02": "John asks about hunger",
+          "TV-03": "Are you hungry?",
+          "TV-04": "Yes, I am",
+          "TV-05": "No, I’m not"
+        },
+        {
+          "TV-01": "XX",
+          "TV-02": "X",
+          "TV-03": "X",
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "A1-A2",
+          "TV-02": "Đặt câu hỏi",
+          "TV-03": "Chọn câu trả lời đáp án 1",
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "B1-B2",
+          "TV-02": "Đặt câu hỏi",
+          "TV-03": "Chọn câu trả lời đáp án 2",
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "C1-C2",
+          "TV-02": "Nghe câu hỏi",
+          "TV-03": "Trả lời 1 trong 2 đáp án phù hợp.",
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "***Đọc gợi ý bảng và tình huống",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "..-1",
+          "TV-02": "Dòng 1-2",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "..-2",
+          "TV-02": "Dòng 3-4",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        }
+      ],
+      "IPA": [
+        {
+          "IPA-01": "John asks about bedtime",
+          "IPA-02": "John hỏi về giờ đi ngủ",
+          "IPA-03": "ʤɒn ɑːsks əˈbaʊt ˈbɛdtaɪm",
+          "IPA-04": "ʤɑn æsks əˈbaʊt ˈbɛdˌtaɪm"
+        },
+        {
+          "IPA-01": "John asks about fruit",
+          "IPA-02": "John hỏi về trái cây",
+          "IPA-03": "ʤɒn ɑːsks əˈbaʊt fruːt",
+          "IPA-04": "ʤɑn æsks əˈbaʊt frut"
+        },
+        {
+          "IPA-01": "John asks about instruments",
+          "IPA-02": "John hỏi về nhạc cụ",
+          "IPA-03": "ʤɒn ɑːsks əˈbaʊt ˈɪnstrəmənts",
+          "IPA-04": "ʤɑn æsks əˈbaʊt ˈɪnstrəmənts"
+        },
+        {
+          "IPA-01": "John asks about hunger",
+          "IPA-02": "John hỏi về đói",
+          "IPA-03": "ʤɒn ɑːsks əˈbaʊt ˈhʌŋɡə",
+          "IPA-04": "ʤɑn æsks əˈbaʊt ˈhʌŋɡər"
+        },
+        {
+          "IPA-01": "What time do you go to bed?",
+          "IPA-02": "Bạn đi ngủ lúc mấy giờ?",
+          "IPA-03": "wɒt taɪm duː juː ɡəʊ tuː bɛd?",
+          "IPA-04": "wɑt taɪm du ju ɡoʊ tu bɛd?"
+        },
+        {
+          "IPA-01": "What fruit do you like?",
+          "IPA-02": "Bạn thích loại trái cây nào?",
+          "IPA-03": "wɒt fruːt duː juː laɪk?",
+          "IPA-04": "wɑt frut du ju laɪk?"
+        },
+        {
+          "IPA-01": "What do you play?",
+          "IPA-02": "Bạn chơi gì?",
+          "IPA-03": "wɒt duː juː pleɪ?",
+          "IPA-04": "wɑt du ju pleɪ?"
+        },
+        {
+          "IPA-01": "Are you hungry?",
+          "IPA-02": "Bạn có đói không?",
+          "IPA-03": "ɑː juː ˈhʌŋɡri?",
+          "IPA-04": "ɑr ju ˈhʌŋɡri?"
+        },
+        {
+          "IPA-01": "I go to bed at 9:00 p.m.",
+          "IPA-02": "Tôi đi ngủ lúc 9:00 tối",
+          "IPA-03": "aɪ ɡəʊ tuː bɛd æt 9:00 piː.ɛm.",
+          "IPA-04": "aɪ ɡoʊ tu bɛd æt 9:00 pi.ɛm."
+        },
+        {
+          "IPA-01": "I like bananas",
+          "IPA-02": "Tôi thích chuối",
+          "IPA-03": "aɪ laɪk bəˈnɑːnəz",
+          "IPA-04": "aɪ laɪk bəˈnænəz"
+        },
+        {
+          "IPA-01": "I play the piano",
+          "IPA-02": "Tôi chơi piano",
+          "IPA-03": "aɪ pleɪ ðə piˈænəʊ",
+          "IPA-04": "aɪ pleɪ ðə piˈænoʊ"
+        },
+        {
+          "IPA-01": "Yes, I am",
+          "IPA-02": "Có, tôi đói",
+          "IPA-03": "jɛs, aɪ æm",
+          "IPA-04": "jɛs, aɪ æm"
+        },
+        {
+          "IPA-01": "I go to bed at 8:00 p.m.",
+          "IPA-02": "Tôi đi ngủ lúc 8:00 tối",
+          "IPA-03": "aɪ ɡəʊ tuː bɛd æt 8:00 piː.ɛm.",
+          "IPA-04": "aɪ ɡoʊ tu bɛd æt 8:00 pi.ɛm."
+        },
+        {
+          "IPA-01": "I like apples",
+          "IPA-02": "Tôi thích táo",
+          "IPA-03": "aɪ laɪk ˈæpᵊlz",
+          "IPA-04": "aɪ laɪk ˈæpəlz"
+        },
+        {
+          "IPA-01": "I play the guitar",
+          "IPA-02": "Tôi chơi guitar",
+          "IPA-03": "aɪ pleɪ ðə ɡɪˈtɑː",
+          "IPA-04": "aɪ pleɪ ðə ɡɪˈtɑr"
+        },
+        {
+          "IPA-01": "No, I’m not",
+          "IPA-02": "Không, tôi không",
+          "IPA-03": "nəʊ, aɪm nɒt",
+          "IPA-04": "noʊ, aɪm nɑt"
+        }
+      ]
+    },
+    "charactor": [
+      {
+        "hint": "Bảng 6 | John hỏi bạn có đói không",
+        "type": "B2",
+        "fsp": "John asks about hunger",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Are you hungry?"],
+            "aw": ["No, I’m not"],
+            "submit": ["No, I’m not"],
+            "aw01": [{ "st": "No, I’m not", "id": "E626_F6a135" }]
+          }
+        ],
+        "submit": ["No, I’m not"],
+        "fspSets": [{ "st": "John asks about hunger", "id": "E626_F6a126" }]
+      },
+      {
+        "hint": "Bảng 6 | John hỏi bạn đi ngủ lúc mấy giờ",
+        "type": "A1",
+        "fsp": "John asks about bedtime",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What time do you go to bed?"],
+            "aw": ["I go to bed at 9:00 p.m."],
+            "submit": ["I go to bed at 9:00 p.m."],
+            "aw01": [{ "st": "I go to bed at 9:00 p.m.", "id": "E626_F6a121" }]
+          }
+        ],
+        "submit": ["I go to bed at 9:00 p.m."],
+        "fspSets": [{ "st": "John asks about bedtime", "id": "E626_F6a120" }]
+      },
+      {
+        "hint": "Bảng 6 | John hỏi bạn thích trái cây nào",
+        "type": "C1",
+        "fsp": "What fruit do you like?",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["I like bananas", "I like apples"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "E626_F1a19" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What fruit do you like?", "id": "E626_F6a138" }]
+      },
+      {
+        "hint": "Bảng 6 | John hỏi bạn thích trái cây nào",
+        "type": "B1",
+        "fsp": "John asks about fruit",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What fruit do you like?"],
+            "aw": ["I like apples"],
+            "submit": ["I like apples"],
+            "aw01": [{ "st": "I like apples", "id": "E626_F6a131" }]
+          }
+        ],
+        "submit": ["I like apples"],
+        "fspSets": [{ "st": "John asks about fruit", "id": "E626_F6a122" }]
+      },
+      {
+        "hint": "Bảng 6 | John hỏi bạn chơi nhạc cụ gì",
+        "type": "A2",
+        "fsp": "John asks about instruments",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What do you play?"],
+            "aw": ["I play the piano"],
+            "submit": ["I play the piano"],
+            "aw01": [{ "st": "I play the piano", "id": "E626_F6a125" }]
+          }
+        ],
+        "submit": ["I play the piano"],
+        "fspSets": [
+          { "st": "John asks about instruments", "id": "E626_F6a124" }
+        ]
+      },
+      {
+        "hint": "Bảng 6 | John hỏi bạn có đói không",
+        "type": "C2",
+        "fsp": "Are you hungry?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Yes, I am", "No, I’m not"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "E626_F1a19" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Are you hungry?", "id": "E626_F6a142" }]
+      },
+      {
+        "hint": "Bảng 6 | John hỏi bạn chơi nhạc cụ gì",
+        "type": "B2",
+        "fsp": "John asks about instruments",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What do you play?"],
+            "aw": ["I play the guitar"],
+            "submit": ["I play the guitar"],
+            "aw01": [{ "st": "I play the guitar", "id": "E626_F6a133" }]
+          }
+        ],
+        "submit": ["I play the guitar"],
+        "fspSets": [
+          { "st": "John asks about instruments", "id": "E626_F6a124" }
+        ]
+      },
+      {
+        "hint": "Bảng 6 | John hỏi bạn đi ngủ lúc mấy giờ",
+        "type": "C1",
+        "fsp": "What time do you go to bed?",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["I go to bed at 9:00 p.m.", "I go to bed at 8:00 p.m."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "E626_F1a17" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What time do you go to bed?", "id": "E626_F6a136" }
+        ]
+      },
+      {
+        "hint": "Bảng 6 | John hỏi bạn chơi nhạc cụ gì",
+        "type": "C2",
+        "fsp": "What do you play?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["I play the piano", "I play the guitar"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "E626_F1a17" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What do you play?", "id": "E626_F6a140" }]
+      },
+      {
+        "hint": "Bảng 6 | John hỏi bạn đi ngủ lúc mấy giờ",
+        "type": "B1",
+        "fsp": "John asks about bedtime",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What time do you go to bed?"],
+            "aw": ["I go to bed at 8:00 p.m."],
+            "submit": ["I go to bed at 8:00 p.m."],
+            "aw01": [{ "st": "I go to bed at 8:00 p.m.", "id": "E626_F6a129" }]
+          }
+        ],
+        "submit": ["I go to bed at 8:00 p.m."],
+        "fspSets": [{ "st": "John asks about bedtime", "id": "E626_F6a120" }]
+      },
+      {
+        "hint": "Bảng 6 | John hỏi bạn thích trái cây nào",
+        "type": "A1",
+        "fsp": "John asks about fruit",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What fruit do you like?"],
+            "aw": ["I like bananas"],
+            "submit": ["I like bananas"],
+            "aw01": [{ "st": "I like bananas", "id": "E626_F6a123" }]
+          }
+        ],
+        "submit": ["I like bananas"],
+        "fspSets": [{ "st": "John asks about fruit", "id": "E626_F6a122" }]
+      },
+      {
+        "hint": "Bảng 6 | John hỏi bạn có đói không",
+        "type": "A2",
+        "fsp": "John asks about hunger",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Are you hungry?"],
+            "aw": ["Yes, I am"],
+            "submit": ["Yes, I am"],
+            "aw01": [{ "st": "Yes, I am", "id": "E626_F6a127" }]
+          }
+        ],
+        "submit": ["Yes, I am"],
+        "fspSets": [{ "st": "John asks about hunger", "id": "E626_F6a126" }]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  },
+  {
+    "id": "bang-7",
+    "ListenList": [],
+    "typeSets": ["A1", "A2", "B1", "B2", "C1", "C2"],
+    "SEO": {
+      "seo": {
+        "metaTitle": "Bảng 7 |",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "Bảng 7 |",
+        "IFdes": "Bảng 7 |",
+        "IF-audiocode": "E626_F7"
+      },
+      "HD": [
+        {
+          "HD-01": "X",
+          "HD-02": "Bảng 7 |",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "John asks about thirst",
+          "HD-03": "Are you thirsty?",
+          "HD-04": "Yes, I am",
+          "HD-05": "No, I’m not"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "John asks about reading",
+          "HD-03": "Do you like reading?",
+          "HD-04": "Yes, I do",
+          "HD-05": "No, I don’t"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "John asks about school play",
+          "HD-03": "What do you play at school?",
+          "HD-04": "I play soccer",
+          "HD-05": "I play volleyball"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "John asks about dancing",
+          "HD-03": "Can you dance?",
+          "HD-04": "Yes, I can",
+          "HD-05": "No, I can't"
+        },
+        {
+          "HD-01": "XX",
+          "HD-02": "X",
+          "HD-03": "X",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "A1-A2",
+          "HD-02": "Đặt câu hỏi",
+          "HD-03": "Chọn câu trả lời đáp án 1",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "B1-B2",
+          "HD-02": "Đặt câu hỏi",
+          "HD-03": "Chọn câu trả lời đáp án 2",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "C1-C2",
+          "HD-02": "Nghe câu hỏi",
+          "HD-03": "Trả lời 1 trong 2 đáp án phù hợp.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "***Đọc gợi ý bảng và tình huống",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "..-1",
+          "HD-02": "Dòng 1-2",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "..-2",
+          "HD-02": "Dòng 3-4",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        }
+      ],
+      "TB": [
+        ["Yes, I am", "Yes, I do", "I play soccer", "Yes, I can"],
+        ["No, I’m not", "No, I don’t", "I play volleyball", "No, I can't"]
+      ],
+      "TV": [
+        {
+          "TV-01": "X",
+          "TV-02": "Bảng 7 |",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "X",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": "John asks about thirst",
+          "TV-03": "Are you thirsty?",
+          "TV-04": "Yes, I am",
+          "TV-05": "No, I’m not"
+        },
+        {
+          "TV-01": null,
+          "TV-02": "John asks about reading",
+          "TV-03": "Do you like reading?",
+          "TV-04": "Yes, I do",
+          "TV-05": "No, I don’t"
+        },
+        {
+          "TV-01": null,
+          "TV-02": "John asks about school play",
+          "TV-03": "What do you play at school?",
+          "TV-04": "I play soccer",
+          "TV-05": "I play volleyball"
+        },
+        {
+          "TV-01": null,
+          "TV-02": "John asks about dancing",
+          "TV-03": "Can you dance?",
+          "TV-04": "Yes, I can",
+          "TV-05": "No, I can't"
+        },
+        {
+          "TV-01": "XX",
+          "TV-02": "X",
+          "TV-03": "X",
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "A1-A2",
+          "TV-02": "Đặt câu hỏi",
+          "TV-03": "Chọn câu trả lời đáp án 1",
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "B1-B2",
+          "TV-02": "Đặt câu hỏi",
+          "TV-03": "Chọn câu trả lời đáp án 2",
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "C1-C2",
+          "TV-02": "Nghe câu hỏi",
+          "TV-03": "Trả lời 1 trong 2 đáp án phù hợp.",
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "***Đọc gợi ý bảng và tình huống",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "..-1",
+          "TV-02": "Dòng 1-2",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "..-2",
+          "TV-02": "Dòng 3-4",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        }
+      ],
+      "IPA": [
+        {
+          "IPA-01": "John asks about thirst",
+          "IPA-02": "John hỏi về khát",
+          "IPA-03": "ʤɒn ɑːsks əˈbaʊt θɜːst",
+          "IPA-04": "ʤɑn æsks əˈbaʊt θɜrst"
+        },
+        {
+          "IPA-01": "John asks about reading",
+          "IPA-02": "John hỏi về đọc sách",
+          "IPA-03": "ʤɒn ɑːsks əˈbaʊt ˈriːdɪŋ",
+          "IPA-04": "ʤɑn æsks əˈbaʊt ˈrɛdɪŋ"
+        },
+        {
+          "IPA-01": "John asks about school play",
+          "IPA-02": "John hỏi về vở kịch ở trường",
+          "IPA-03": "ʤɒn ɑːsks əˈbaʊt skuːl pleɪ",
+          "IPA-04": "ʤɑn æsks əˈbaʊt skul pleɪ"
+        },
+        {
+          "IPA-01": "John asks about dancing",
+          "IPA-02": "John hỏi về khiêu vũ",
+          "IPA-03": "ʤɒn ɑːsks əˈbaʊt ˈdɑːnsɪŋ",
+          "IPA-04": "ʤɑn æsks əˈbaʊt ˈdænsɪŋ"
+        },
+        {
+          "IPA-01": "Are you thirsty?",
+          "IPA-02": "Bạn có khát không?",
+          "IPA-03": "ɑː juː ˈθɜːsti?",
+          "IPA-04": "ɑr ju ˈθɜrsti?"
+        },
+        {
+          "IPA-01": "Do you like reading?",
+          "IPA-02": "Bạn có thích đọc sách không?",
+          "IPA-03": "duː juː laɪk ˈriːdɪŋ?",
+          "IPA-04": "du ju laɪk ˈrɛdɪŋ?"
+        },
+        {
+          "IPA-01": "What do you play at school?",
+          "IPA-02": "Bạn chơi gì ở trường?",
+          "IPA-03": "wɒt duː juː pleɪ æt skuːl?",
+          "IPA-04": "wɑt du ju pleɪ æt skul?"
+        },
+        {
+          "IPA-01": "Can you dance?",
+          "IPA-02": "Bạn có biết khiêu vũ không?",
+          "IPA-03": "kæn juː dɑːns?",
+          "IPA-04": "kæn ju dæns?"
+        },
+        {
+          "IPA-01": "Yes, I am",
+          "IPA-02": "Có, tôi khát",
+          "IPA-03": "jɛs, aɪ æm",
+          "IPA-04": "jɛs, aɪ æm"
+        },
+        {
+          "IPA-01": "Yes, I do",
+          "IPA-02": "Có, tôi thích",
+          "IPA-03": "jɛs, aɪ duː",
+          "IPA-04": "jɛs, aɪ du"
+        },
+        {
+          "IPA-01": "I play soccer",
+          "IPA-02": "Tôi chơi bóng đá",
+          "IPA-03": "aɪ pleɪ ˈsɒkə",
+          "IPA-04": "aɪ pleɪ ˈsɑkər"
+        },
+        {
+          "IPA-01": "Yes, I can",
+          "IPA-02": "Có, tôi có thể",
+          "IPA-03": "jɛs, aɪ kæn",
+          "IPA-04": "jɛs, aɪ kæn"
+        },
+        {
+          "IPA-01": "No, I’m not",
+          "IPA-02": "Không, tôi không",
+          "IPA-03": "nəʊ, aɪm nɒt",
+          "IPA-04": "noʊ, aɪm nɑt"
+        },
+        {
+          "IPA-01": "No, I don’t",
+          "IPA-02": "Không, tôi không",
+          "IPA-03": "nəʊ, aɪ dəʊnt",
+          "IPA-04": "noʊ, aɪ doʊnt"
+        },
+        {
+          "IPA-01": "I play volleyball",
+          "IPA-02": "Tôi chơi bóng chuyền",
+          "IPA-03": "aɪ pleɪ ˈvɒlɪˌbɔːl",
+          "IPA-04": "aɪ pleɪ ˈvɑliˌbɔl"
+        },
+        {
+          "IPA-01": "No, I can't",
+          "IPA-02": "Không, tôi không thể",
+          "IPA-03": "nəʊ, aɪ kɑːnt",
+          "IPA-04": "noʊ, aɪ kænt"
+        }
+      ]
+    },
+    "charactor": [
+      {
+        "hint": "Bảng 7 | John hỏi bạn có thích đọc sách",
+        "type": "C1",
+        "fsp": "Do you like reading?",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Yes, I do", "No, I don’t"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "E626_F1a19" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Do you like reading?", "id": "E626_F7a162" }]
+      },
+      {
+        "hint": "Bảng 7 | John hỏi bạn chơi gì ở trường",
+        "type": "B2",
+        "fsp": "John asks about school play",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What do you play at school?"],
+            "aw": ["I play volleyball"],
+            "submit": ["I play volleyball"],
+            "aw01": [{ "st": "I play volleyball", "id": "E626_F7a157" }]
+          }
+        ],
+        "submit": ["I play volleyball"],
+        "fspSets": [
+          { "st": "John asks about school play", "id": "E626_F7a148" }
+        ]
+      },
+      {
+        "hint": "Bảng 7 | John hỏi bạn có biết nhảy không",
+        "type": "A2",
+        "fsp": "John asks about dancing",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Can you dance?"],
+            "aw": ["Yes, I can"],
+            "submit": ["Yes, I can"],
+            "aw01": [{ "st": "Yes, I can", "id": "E626_F7a151" }]
+          }
+        ],
+        "submit": ["Yes, I can"],
+        "fspSets": [{ "st": "John asks about dancing", "id": "E626_F7a150" }]
+      },
+      {
+        "hint": "Bảng 7 | John hỏi bạn có biết nhảy không",
+        "type": "C2",
+        "fsp": "Can you dance?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Yes, I can", "No, I can't"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "E626_F1a19" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Can you dance?", "id": "E626_F7a166" }]
+      },
+      {
+        "hint": "Bảng 7 | John hỏi bạn có thích đọc sách",
+        "type": "B1",
+        "fsp": "John asks about reading",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Do you like reading?"],
+            "aw": ["No, I don’t"],
+            "submit": ["No, I don’t"],
+            "aw01": [{ "st": "No, I don’t", "id": "E626_F3a59" }]
+          }
+        ],
+        "submit": ["No, I don’t"],
+        "fspSets": [{ "st": "John asks about reading", "id": "E626_F7a146" }]
+      },
+      {
+        "hint": "Bảng 7 | John hỏi bạn có thích đọc sách",
+        "type": "A1",
+        "fsp": "John asks about reading",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Do you like reading?"],
+            "aw": ["Yes, I do"],
+            "submit": ["Yes, I do"],
+            "aw01": [{ "st": "Yes, I do", "id": "E626_F7a147" }]
+          }
+        ],
+        "submit": ["Yes, I do"],
+        "fspSets": [{ "st": "John asks about reading", "id": "E626_F7a146" }]
+      },
+      {
+        "hint": "Bảng 7 | John hỏi bạn có khát không",
+        "type": "A1",
+        "fsp": "John asks about thirst",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Are you thirsty?"],
+            "aw": ["Yes, I am"],
+            "submit": ["Yes, I am"],
+            "aw01": [{ "st": "Yes, I am", "id": "E626_F7a145" }]
+          }
+        ],
+        "submit": ["Yes, I am"],
+        "fspSets": [{ "st": "John asks about thirst", "id": "E626_F7a144" }]
+      },
+      {
+        "hint": "Bảng 7 | John hỏi bạn chơi gì ở trường",
+        "type": "A2",
+        "fsp": "John asks about school play",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What do you play at school?"],
+            "aw": ["I play soccer"],
+            "submit": ["I play soccer"],
+            "aw01": [{ "st": "I play soccer", "id": "E626_F7a149" }]
+          }
+        ],
+        "submit": ["I play soccer"],
+        "fspSets": [
+          { "st": "John asks about school play", "id": "E626_F7a148" }
+        ]
+      },
+      {
+        "hint": "Bảng 7 | John hỏi bạn có khát không",
+        "type": "B1",
+        "fsp": "John asks about thirst",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Are you thirsty?"],
+            "aw": ["No, I’m not"],
+            "submit": ["No, I’m not"],
+            "aw01": [{ "st": "No, I’m not", "id": "E626_F7a153" }]
+          }
+        ],
+        "submit": ["No, I’m not"],
+        "fspSets": [{ "st": "John asks about thirst", "id": "E626_F7a144" }]
+      },
+      {
+        "hint": "Bảng 7 | John hỏi bạn chơi gì ở trường",
+        "type": "C2",
+        "fsp": "What do you play at school?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["I play soccer", "I play volleyball"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "E626_F1a17" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What do you play at school?", "id": "E626_F7a164" }
+        ]
+      },
+      {
+        "hint": "Bảng 7 | John hỏi bạn có biết nhảy không",
+        "type": "B2",
+        "fsp": "John asks about dancing",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Can you dance?"],
+            "aw": ["No, I can't"],
+            "submit": ["No, I can't"],
+            "aw01": [{ "st": "No, I can't", "id": "E626_F7a159" }]
+          }
+        ],
+        "submit": ["No, I can't"],
+        "fspSets": [{ "st": "John asks about dancing", "id": "E626_F7a150" }]
+      },
+      {
+        "hint": "Bảng 7 | John hỏi bạn có khát không",
+        "type": "C1",
+        "fsp": "Are you thirsty?",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes, I am", "No, I’m not"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "E626_F1a17" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Are you thirsty?", "id": "E626_F7a160" }]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  },
+  {
+    "id": "bang-8",
+    "ListenList": [],
+    "typeSets": ["A1", "A2", "B1", "B2", "C1", "C2"],
+    "SEO": {
+      "seo": {
+        "metaTitle": "Bảng 8 |",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "Bảng 8 |",
+        "IFdes": "Bảng 8 |",
+        "IF-audiocode": "E626_F8"
+      },
+      "HD": [
+        {
+          "HD-01": "X",
+          "HD-02": "Bảng 8 |",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "John asks about clothes",
+          "HD-03": "What are you wearing?",
+          "HD-04": "I’m wearing a shirt",
+          "HD-05": "I’m wearing a dress"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "John asks about animals",
+          "HD-03": "What animal do you like?",
+          "HD-04": "I like dogs",
+          "HD-05": "I like elephants"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "John asks about singing",
+          "HD-03": "Do you like singing?",
+          "HD-04": "Yes, I do",
+          "HD-05": "No, I don’t"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "John asks about football",
+          "HD-03": "Do you play football?",
+          "HD-04": "Yes, I do",
+          "HD-05": "No, I don’t"
+        },
+        {
+          "HD-01": "XX",
+          "HD-02": "X",
+          "HD-03": "X",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "A1-A2",
+          "HD-02": "Đặt câu hỏi",
+          "HD-03": "Chọn câu trả lời đáp án 1",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "B1-B2",
+          "HD-02": "Đặt câu hỏi",
+          "HD-03": "Chọn câu trả lời đáp án 2",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "C1-C2",
+          "HD-02": "Nghe câu hỏi",
+          "HD-03": "Trả lời 1 trong 2 đáp án phù hợp.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "***Đọc gợi ý bảng và tình huống",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "..-1",
+          "HD-02": "Dòng 1-2",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "..-2",
+          "HD-02": "Dòng 3-4",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        }
+      ],
+      "TB": [
+        ["I’m wearing a shirt", "I like dogs", "Yes, I do", "Yes, I do"],
+        [
+          "I’m wearing a dress",
+          "I like elephants",
+          "No, I don’t",
+          "No, I don’t"
+        ]
+      ],
+      "TV": [
+        {
+          "TV-01": "X",
+          "TV-02": "Bảng 8 |",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "X",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": "John asks about clothes",
+          "TV-03": "What are you wearing?",
+          "TV-04": "I’m wearing a shirt",
+          "TV-05": "I’m wearing a dress"
+        },
+        {
+          "TV-01": null,
+          "TV-02": "John asks about animals",
+          "TV-03": "What animal do you like?",
+          "TV-04": "I like dogs",
+          "TV-05": "I like elephants"
+        },
+        {
+          "TV-01": null,
+          "TV-02": "John asks about singing",
+          "TV-03": "Do you like singing?",
+          "TV-04": "Yes, I do",
+          "TV-05": "No, I don’t"
+        },
+        {
+          "TV-01": null,
+          "TV-02": "John asks about football",
+          "TV-03": "Do you play football?",
+          "TV-04": "Yes, I do",
+          "TV-05": "No, I don’t"
+        },
+        {
+          "TV-01": "XX",
+          "TV-02": "X",
+          "TV-03": "X",
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "A1-A2",
+          "TV-02": "Đặt câu hỏi",
+          "TV-03": "Chọn câu trả lời đáp án 1",
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "B1-B2",
+          "TV-02": "Đặt câu hỏi",
+          "TV-03": "Chọn câu trả lời đáp án 2",
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "C1-C2",
+          "TV-02": "Nghe câu hỏi",
+          "TV-03": "Trả lời 1 trong 2 đáp án phù hợp.",
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "***Đọc gợi ý bảng và tình huống",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "..-1",
+          "TV-02": "Dòng 1-2",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "..-2",
+          "TV-02": "Dòng 3-4",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        }
+      ],
+      "IPA": [
+        {
+          "IPA-01": "John asks about clothes",
+          "IPA-02": "John hỏi về quần áo",
+          "IPA-03": "ʤɒn ɑːsks əˈbaʊt kləʊðz",
+          "IPA-04": "ʤɑn æsks əˈbaʊt kloʊðz"
+        },
+        {
+          "IPA-01": "John asks about animals",
+          "IPA-02": "John hỏi về động vật",
+          "IPA-03": "ʤɒn ɑːsks əˈbaʊt ˈænɪmᵊlz",
+          "IPA-04": "ʤɑn æsks əˈbaʊt ˈænəməlz"
+        },
+        {
+          "IPA-01": "John asks about singing",
+          "IPA-02": "John hỏi về ca hát",
+          "IPA-03": "ʤɒn ɑːsks əˈbaʊt ˈsɪŋɪŋ",
+          "IPA-04": "ʤɑn æsks əˈbaʊt ˈsɪŋɪŋ"
+        },
+        {
+          "IPA-01": "John asks about football",
+          "IPA-02": "John hỏi về bóng đá",
+          "IPA-03": "ʤɒn ɑːsks əˈbaʊt ˈfʊtbɔːl",
+          "IPA-04": "ʤɑn æsks əˈbaʊt ˈfʊtˌbɔl"
+        },
+        {
+          "IPA-01": "What are you wearing?",
+          "IPA-02": "Bạn đang mặc gì?",
+          "IPA-03": "wɒt ɑː juː ˈweərɪŋ?",
+          "IPA-04": "wɑt ɑr ju ˈwɛrɪŋ?"
+        },
+        {
+          "IPA-01": "What animal do you like?",
+          "IPA-02": "Bạn thích động vật nào?",
+          "IPA-03": "wɒt ˈænɪmᵊl duː juː laɪk?",
+          "IPA-04": "wɑt ˈænəməl du ju laɪk?"
+        },
+        {
+          "IPA-01": "Do you like singing?",
+          "IPA-02": "Bạn có thích ca hát không?",
+          "IPA-03": "duː juː laɪk ˈsɪŋɪŋ?",
+          "IPA-04": "du ju laɪk ˈsɪŋɪŋ?"
+        },
+        {
+          "IPA-01": "Do you play football?",
+          "IPA-02": "Bạn có chơi bóng đá không?",
+          "IPA-03": "duː juː pleɪ ˈfʊtbɔːl?",
+          "IPA-04": "du ju pleɪ ˈfʊtˌbɔl?"
+        },
+        {
+          "IPA-01": "I’m wearing a shirt",
+          "IPA-02": "Tôi đang mặc áo sơ mi",
+          "IPA-03": "aɪm ˈweərɪŋ ə ʃɜːt",
+          "IPA-04": "aɪm ˈwɛrɪŋ ə ʃɜrt"
+        },
+        {
+          "IPA-01": "I like dogs",
+          "IPA-02": "Tôi thích chó",
+          "IPA-03": "aɪ laɪk dɒɡz",
+          "IPA-04": "aɪ laɪk dɑɡz"
+        },
+        {
+          "IPA-01": "Yes, I do",
+          "IPA-02": "Có, tôi thích",
+          "IPA-03": "jɛs, aɪ duː",
+          "IPA-04": "jɛs, aɪ du"
+        },
+        {
+          "IPA-01": "Yes, I do",
+          "IPA-02": "Có, tôi thích",
+          "IPA-03": "jɛs, aɪ duː",
+          "IPA-04": "jɛs, aɪ du"
+        },
+        {
+          "IPA-01": "I’m wearing a dress",
+          "IPA-02": "Tôi đang mặc váy",
+          "IPA-03": "aɪm ˈweərɪŋ ə drɛs",
+          "IPA-04": "aɪm ˈwɛrɪŋ ə drɛs"
+        },
+        {
+          "IPA-01": "I like elephants",
+          "IPA-02": "Tôi thích voi",
+          "IPA-03": "aɪ laɪk ˈɛlɪfənts",
+          "IPA-04": "aɪ laɪk ˈɛləfənts"
+        },
+        {
+          "IPA-01": "No, I don’t",
+          "IPA-02": "Không, tôi không",
+          "IPA-03": "nəʊ, aɪ dəʊnt",
+          "IPA-04": "noʊ, aɪ doʊnt"
+        },
+        {
+          "IPA-01": "No, I don’t",
+          "IPA-02": "Không, tôi don't",
+          "IPA-03": "nəʊ, aɪ dəʊnt",
+          "IPA-04": "noʊ, aɪ doʊnt"
+        }
+      ]
+    },
+    "charactor": [
+      {
+        "hint": "Bảng 8 | John hỏi bạn thích con vật nào",
+        "type": "A1",
+        "fsp": "John asks about animals",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What animal do you like?"],
+            "aw": ["I like dogs"],
+            "submit": ["I like dogs"],
+            "aw01": [{ "st": "I like dogs", "id": "E626_F8a171" }]
+          }
+        ],
+        "submit": ["I like dogs"],
+        "fspSets": [{ "st": "John asks about animals", "id": "E626_F8a170" }]
+      },
+      {
+        "hint": "Bảng 8 | John hỏi bạn có thích hát không",
+        "type": "B2",
+        "fsp": "John asks about singing",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Do you like singing?"],
+            "aw": ["No, I don’t"],
+            "submit": ["No, I don’t"],
+            "aw01": [{ "st": "No, I don’t", "id": "E626_F8a181" }]
+          }
+        ],
+        "submit": ["No, I don’t"],
+        "fspSets": [{ "st": "John asks about singing", "id": "E626_F8a172" }]
+      },
+      {
+        "hint": "Bảng 8 | John hỏi bạn thích con vật nào",
+        "type": "B1",
+        "fsp": "John asks about animals",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What animal do you like?"],
+            "aw": ["I like elephants"],
+            "submit": ["I like elephants"],
+            "aw01": [{ "st": "I like elephants", "id": "E626_F8a179" }]
+          }
+        ],
+        "submit": ["I like elephants"],
+        "fspSets": [{ "st": "John asks about animals", "id": "E626_F8a170" }]
+      },
+      {
+        "hint": "Bảng 8 | John hỏi bạn có chơi đá bóng không",
+        "type": "C2",
+        "fsp": "Do you play football?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Yes, I do", "No, I don’t"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "E626_F1a19" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Do you play football?", "id": "E626_F8a190" }]
+      },
+      {
+        "hint": "Bảng 8 | John hỏi bạn có thích hát không",
+        "type": "A2",
+        "fsp": "John asks about singing",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Do you like singing?"],
+            "aw": ["Yes, I do"],
+            "submit": ["Yes, I do"],
+            "aw01": [{ "st": "Yes, I do", "id": "E626_F8a173" }]
+          }
+        ],
+        "submit": ["Yes, I do"],
+        "fspSets": [{ "st": "John asks about singing", "id": "E626_F8a172" }]
+      },
+      {
+        "hint": "Bảng 8 | John hỏi bạn thích con vật nào",
+        "type": "C1",
+        "fsp": "What animal do you like?",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["I like dogs", "I like elephants"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "E626_F1a19" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What animal do you like?", "id": "E626_F8a186" }]
+      },
+      {
+        "hint": "Bảng 8 | John hỏi bạn có chơi đá bóng không",
+        "type": "B2",
+        "fsp": "John asks about football",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Do you play football?"],
+            "aw": ["No, I don’t"],
+            "submit": ["No, I don’t"],
+            "aw01": [{ "st": "No, I don’t", "id": "E626_F3a59" }]
+          }
+        ],
+        "submit": ["No, I don’t"],
+        "fspSets": [{ "st": "John asks about football", "id": "E626_F8a174" }]
+      },
+      {
+        "hint": "Bảng 8 | John hỏi bạn có chơi đá bóng không",
+        "type": "A2",
+        "fsp": "John asks about football",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Do you play football?"],
+            "aw": ["Yes, I do"],
+            "submit": ["Yes, I do"],
+            "aw01": [{ "st": "Yes, I do", "id": "E626_F7a147" }]
+          }
+        ],
+        "submit": ["Yes, I do"],
+        "fspSets": [{ "st": "John asks about football", "id": "E626_F8a174" }]
+      },
+      {
+        "hint": "Bảng 8 | John hỏi bạn có thích hát không",
+        "type": "C2",
+        "fsp": "Do you like singing?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes, I do", "No, I don’t"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "E626_F1a17" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Do you like singing?", "id": "E626_F8a188" }]
+      },
+      {
+        "hint": "Bảng 8 | John hỏi bạn mặc gì hôm nay",
+        "type": "A1",
+        "fsp": "John asks about clothes",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What are you wearing?"],
+            "aw": ["I’m wearing a shirt"],
+            "submit": ["I’m wearing a shirt"],
+            "aw01": [{ "st": "I’m wearing a shirt", "id": "E626_F8a169" }]
+          }
+        ],
+        "submit": ["I’m wearing a shirt"],
+        "fspSets": [{ "st": "John asks about clothes", "id": "E626_F8a168" }]
+      },
+      {
+        "hint": "Bảng 8 | John hỏi bạn mặc gì hôm nay",
+        "type": "B1",
+        "fsp": "John asks about clothes",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What are you wearing?"],
+            "aw": ["I’m wearing a dress"],
+            "submit": ["I’m wearing a dress"],
+            "aw01": [{ "st": "I’m wearing a dress", "id": "E626_F8a177" }]
+          }
+        ],
+        "submit": ["I’m wearing a dress"],
+        "fspSets": [{ "st": "John asks about clothes", "id": "E626_F8a168" }]
+      },
+      {
+        "hint": "Bảng 8 | John hỏi bạn mặc gì hôm nay",
+        "type": "C1",
+        "fsp": "What are you wearing?",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["I’m wearing a shirt", "I’m wearing a dress"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "E626_F1a17" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What are you wearing?", "id": "E626_F8a184" }]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  },
+  {
+    "id": "bang-9",
+    "ListenList": [],
+    "typeSets": ["A1", "A2", "B1", "B2", "C1", "C2"],
+    "SEO": {
+      "seo": {
+        "metaTitle": "Bảng 9 |",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "Bảng 9 |",
+        "IFdes": "Bảng 9 |",
+        "IF-audiocode": "E626_F9"
+      },
+      "HD": [
+        {
+          "HD-01": "X",
+          "HD-02": "Bảng 9 |",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "John asks about lunch time",
+          "HD-03": "What time is your lunch?",
+          "HD-04": "At 12:00 p.m.",
+          "HD-05": "At 1:00 p.m."
+        },
+        {
+          "HD-01": null,
+          "HD-02": "John asks about pens",
+          "HD-03": "How many pens do you have?",
+          "HD-04": "I have three pens",
+          "HD-05": "I have five pens"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "John asks about school name",
+          "HD-03": "What is your school’s name?",
+          "HD-04": "It is Apple School",
+          "HD-05": "It is Green Star School"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "John asks about birthday",
+          "HD-03": "When is your birthday?",
+          "HD-04": "It is in May",
+          "HD-05": "It is in October"
+        },
+        {
+          "HD-01": "XX",
+          "HD-02": "X",
+          "HD-03": "X",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "A1-A2",
+          "HD-02": "Đặt câu hỏi",
+          "HD-03": "Chọn câu trả lời đáp án 1",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "B1-B2",
+          "HD-02": "Đặt câu hỏi",
+          "HD-03": "Chọn câu trả lời đáp án 2",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "C1-C2",
+          "HD-02": "Nghe câu hỏi",
+          "HD-03": "Trả lời 1 trong 2 đáp án phù hợp.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "***Đọc gợi ý bảng và tình huống",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "..-1",
+          "HD-02": "Dòng 1-2",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "..-2",
+          "HD-02": "Dòng 3-4",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        }
+      ],
+      "TB": [
+        [
+          "At 12:00 p.m.",
+          "I have three pens",
+          "It is Apple School",
+          "It is in May"
+        ],
+        [
+          "At 1:00 p.m.",
+          "I have five pens",
+          "It is Green Star School",
+          "It is in October"
+        ]
+      ],
+      "TV": [
+        {
+          "TV-01": "X",
+          "TV-02": "Bảng 9 |",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "X",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": "John asks about lunch time",
+          "TV-03": "What time is your lunch?",
+          "TV-04": "At 12:00 p.m.",
+          "TV-05": "At 1:00 p.m."
+        },
+        {
+          "TV-01": null,
+          "TV-02": "John asks about pens",
+          "TV-03": "How many pens do you have?",
+          "TV-04": "I have three pens",
+          "TV-05": "I have five pens"
+        },
+        {
+          "TV-01": null,
+          "TV-02": "John asks about school name",
+          "TV-03": "What is your school’s name?",
+          "TV-04": "It is Apple School",
+          "TV-05": "It is Green Star School"
+        },
+        {
+          "TV-01": null,
+          "TV-02": "John asks about birthday",
+          "TV-03": "When is your birthday?",
+          "TV-04": "It is in May",
+          "TV-05": "It is in October"
+        },
+        {
+          "TV-01": "XX",
+          "TV-02": "X",
+          "TV-03": "X",
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "A1-A2",
+          "TV-02": "Đặt câu hỏi",
+          "TV-03": "Chọn câu trả lời đáp án 1",
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "B1-B2",
+          "TV-02": "Đặt câu hỏi",
+          "TV-03": "Chọn câu trả lời đáp án 2",
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "C1-C2",
+          "TV-02": "Nghe câu hỏi",
+          "TV-03": "Trả lời 1 trong 2 đáp án phù hợp.",
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "***Đọc gợi ý bảng và tình huống",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "..-1",
+          "TV-02": "Dòng 1-2",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "..-2",
+          "TV-02": "Dòng 3-4",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        }
+      ],
+      "IPA": [
+        {
+          "IPA-01": "John asks about lunch time",
+          "IPA-02": "John hỏi về giờ ăn trưa",
+          "IPA-03": "ʤɒn ɑːsks əˈbaʊt lʌnʧ taɪm",
+          "IPA-04": "ʤɑn æsks əˈbaʊt lʌnʧ taɪm"
+        },
+        {
+          "IPA-01": "John asks about pens",
+          "IPA-02": "John hỏi về bút",
+          "IPA-03": "ʤɒn ɑːsks əˈbaʊt pɛnz",
+          "IPA-04": "ʤɑn æsks əˈbaʊt pɛnz"
+        },
+        {
+          "IPA-01": "John asks about school name",
+          "IPA-02": "John hỏi về tên trường",
+          "IPA-03": "ʤɒn ɑːsks əˈbaʊt skuːl neɪm",
+          "IPA-04": "ʤɑn æsks əˈbaʊt skul neɪm"
+        },
+        {
+          "IPA-01": "John asks about birthday",
+          "IPA-02": "John hỏi về sinh nhật",
+          "IPA-03": "ʤɒn ɑːsks əˈbaʊt ˈbɜːθdeɪ",
+          "IPA-04": "ʤɑn æsks əˈbaʊt ˈbɜrθˌdeɪ"
+        },
+        {
+          "IPA-01": "What time is your lunch?",
+          "IPA-02": "Bạn ăn trưa lúc mấy giờ?",
+          "IPA-03": "wɒt taɪm ɪz jɔː lʌnʧ?",
+          "IPA-04": "wɑt taɪm ɪz jʊər lʌnʧ?"
+        },
+        {
+          "IPA-01": "How many pens do you have?",
+          "IPA-02": "Bạn có bao nhiêu bút?",
+          "IPA-03": "haʊ ˈmɛni pɛnz duː juː hæv?",
+          "IPA-04": "haʊ ˈmɛni pɛnz du ju hæv?"
+        },
+        {
+          "IPA-01": "What is your school’s name?",
+          "IPA-02": "Tên trường của bạn là gì?",
+          "IPA-03": "wɒt ɪz jɔː skuːlz neɪm?",
+          "IPA-04": "wɑt ɪz jʊər skulz neɪm?"
+        },
+        {
+          "IPA-01": "When is your birthday?",
+          "IPA-02": "Sinh nhật của bạn vào ngày nào?",
+          "IPA-03": "wɛn ɪz jɔː ˈbɜːθdeɪ?",
+          "IPA-04": "wɛn ɪz jʊər ˈbɜrθˌdeɪ?"
+        },
+        {
+          "IPA-01": "At 12:00 p.m.",
+          "IPA-02": "Lúc 12:00 trưa",
+          "IPA-03": "æt 12:00 piː.ɛm.",
+          "IPA-04": "æt 12:00 pi.ɛm."
+        },
+        {
+          "IPA-01": "I have three pens",
+          "IPA-02": "Tôi có ba cây bút",
+          "IPA-03": "aɪ hæv θriː pɛnz",
+          "IPA-04": "aɪ hæv θri pɛnz"
+        },
+        {
+          "IPA-01": "It is Apple School",
+          "IPA-02": "Đó là Trường Apple",
+          "IPA-03": "ɪt ɪz ˈæpᵊl skuːl",
+          "IPA-04": "ɪt ɪz ˈæpəl skul"
+        },
+        {
+          "IPA-01": "It is in May",
+          "IPA-02": "Vào tháng 5",
+          "IPA-03": "ɪt ɪz ɪn meɪ",
+          "IPA-04": "ɪt ɪz ɪn meɪ"
+        },
+        {
+          "IPA-01": "At 1:00 p.m.",
+          "IPA-02": "Lúc 1:00 chiều",
+          "IPA-03": "æt 1:00 piː.ɛm.",
+          "IPA-04": "æt 1:00 pi.ɛm."
+        },
+        {
+          "IPA-01": "I have five pens",
+          "IPA-02": "Tôi có năm cây bút",
+          "IPA-03": "aɪ hæv faɪv pɛnz",
+          "IPA-04": "aɪ hæv faɪv pɛnz"
+        },
+        {
+          "IPA-01": "It is Green Star School",
+          "IPA-02": "Đó là Trường Green Star",
+          "IPA-03": "ɪt ɪz ɡriːn stɑː skuːl",
+          "IPA-04": "ɪt ɪz ɡrin stɑr skul"
+        },
+        {
+          "IPA-01": "It is in October",
+          "IPA-02": "Vào tháng 10",
+          "IPA-03": "ɪt ɪz ɪn ɒkˈtəʊbə",
+          "IPA-04": "ɪt ɪz ɪn ɑkˈtoʊbər"
+        }
+      ]
+    },
+    "charactor": [
+      {
+        "hint": "Bảng 9 | John hỏi bạn có mấy cái bút",
+        "type": "B1",
+        "fsp": "John asks about pens",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["How many pens do you have?"],
+            "aw": ["I have five pens"],
+            "submit": ["I have five pens"],
+            "aw01": [{ "st": "I have five pens", "id": "E626_F9a203" }]
+          }
+        ],
+        "submit": ["I have five pens"],
+        "fspSets": [{ "st": "John asks about pens", "id": "E626_F9a194" }]
+      },
+      {
+        "hint": "Bảng 9 | John hỏi bạn có mấy cái bút",
+        "type": "C1",
+        "fsp": "How many pens do you have?",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["I have three pens", "I have five pens"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "E626_F1a19" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "How many pens do you have?", "id": "E626_F9a210" }]
+      },
+      {
+        "hint": "Bảng 9 | John hỏi bạn học ở đâu",
+        "type": "A2",
+        "fsp": "John asks about school name",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What is your school’s name?"],
+            "aw": ["It is Apple School"],
+            "submit": ["It is Apple School"],
+            "aw01": [{ "st": "It is Apple School", "id": "E626_F9a197" }]
+          }
+        ],
+        "submit": ["It is Apple School"],
+        "fspSets": [
+          { "st": "John asks about school name", "id": "E626_F9a196" }
+        ]
+      },
+      {
+        "hint": "Bảng 9 | John hỏi bạn có mấy cái bút",
+        "type": "A1",
+        "fsp": "John asks about pens",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["How many pens do you have?"],
+            "aw": ["I have three pens"],
+            "submit": ["I have three pens"],
+            "aw01": [{ "st": "I have three pens", "id": "E626_F9a195" }]
+          }
+        ],
+        "submit": ["I have three pens"],
+        "fspSets": [{ "st": "John asks about pens", "id": "E626_F9a194" }]
+      },
+      {
+        "hint": "Bảng 9 | John hỏi bạn học ở đâu",
+        "type": "C2",
+        "fsp": "What is your school’s name?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["It is Apple School", "It is Green Star School"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "E626_F1a17" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What is your school’s name?", "id": "E626_F9a212" }
+        ]
+      },
+      {
+        "hint": "Bảng 9 | John hỏi bạn học ở đâu",
+        "type": "B2",
+        "fsp": "John asks about school name",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What is your school’s name?"],
+            "aw": ["It is Green Star School"],
+            "submit": ["It is Green Star School"],
+            "aw01": [{ "st": "It is Green Star School", "id": "E626_F9a205" }]
+          }
+        ],
+        "submit": ["It is Green Star School"],
+        "fspSets": [
+          { "st": "John asks about school name", "id": "E626_F9a196" }
+        ]
+      },
+      {
+        "hint": "Bảng 9 | John hỏi bạn ăn trưa lúc mấy giờ",
+        "type": "A1",
+        "fsp": "John asks about lunch time",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What time is your lunch?"],
+            "aw": ["At 12:00 p.m."],
+            "submit": ["At 12:00 p.m."],
+            "aw01": [{ "st": "At 12:00 p.m.", "id": "E626_F9a193" }]
+          }
+        ],
+        "submit": ["At 12:00 p.m."],
+        "fspSets": [{ "st": "John asks about lunch time", "id": "E626_F9a192" }]
+      },
+      {
+        "hint": "Bảng 9 | John hỏi bạn ăn trưa lúc mấy giờ",
+        "type": "B1",
+        "fsp": "John asks about lunch time",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What time is your lunch?"],
+            "aw": ["At 1:00 p.m."],
+            "submit": ["At 1:00 p.m."],
+            "aw01": [{ "st": "At 1:00 p.m.", "id": "E626_F9a201" }]
+          }
+        ],
+        "submit": ["At 1:00 p.m."],
+        "fspSets": [{ "st": "John asks about lunch time", "id": "E626_F9a192" }]
+      },
+      {
+        "hint": "Bảng 9 | John hỏi bạn sinh nhật khi nào",
+        "type": "A2",
+        "fsp": "John asks about birthday",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["When is your birthday?"],
+            "aw": ["It is in May"],
+            "submit": ["It is in May"],
+            "aw01": [{ "st": "It is in May", "id": "E626_F9a199" }]
+          }
+        ],
+        "submit": ["It is in May"],
+        "fspSets": [{ "st": "John asks about birthday", "id": "E626_F9a198" }]
+      },
+      {
+        "hint": "Bảng 9 | John hỏi bạn sinh nhật khi nào",
+        "type": "B2",
+        "fsp": "John asks about birthday",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["When is your birthday?"],
+            "aw": ["It is in October"],
+            "submit": ["It is in October"],
+            "aw01": [{ "st": "It is in October", "id": "E626_F9a207" }]
+          }
+        ],
+        "submit": ["It is in October"],
+        "fspSets": [{ "st": "John asks about birthday", "id": "E626_F9a198" }]
+      },
+      {
+        "hint": "Bảng 9 | John hỏi bạn ăn trưa lúc mấy giờ",
+        "type": "C1",
+        "fsp": "What time is your lunch?",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["At 12:00 p.m.", "At 1:00 p.m."],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "E626_F1a17" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What time is your lunch?", "id": "E626_F9a208" }]
+      },
+      {
+        "hint": "Bảng 9 | John hỏi bạn sinh nhật khi nào",
+        "type": "C2",
+        "fsp": "When is your birthday?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["It is in May", "It is in October"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "E626_F1a19" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "When is your birthday?", "id": "E626_F9a214" }]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  },
+  {
+    "id": "bang-10",
+    "ListenList": [],
+    "typeSets": ["A1", "A2", "B1", "B2", "C1", "C2"],
+    "SEO": {
+      "seo": {
+        "metaTitle": "Bảng 10 |",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "Bảng 10 |",
+        "IFdes": "Bảng 10 |",
+        "IF-audiocode": "E626_F10"
+      },
+      "HD": [
+        {
+          "HD-01": "X",
+          "HD-02": "Bảng 10 |",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "X",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": null,
+          "HD-02": "John asks about English class",
+          "HD-03": "Do you learn English?",
+          "HD-04": "Yes, I do",
+          "HD-05": "No, I don’t"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "John asks about your family",
+          "HD-03": "Who do you live with?",
+          "HD-04": "I live with my parents",
+          "HD-05": "I live with my grandma"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "John asks about school bag",
+          "HD-03": "Do you have your school bag?",
+          "HD-04": "Yes, I have",
+          "HD-05": "No, I forgot it"
+        },
+        {
+          "HD-01": null,
+          "HD-02": "John asks about feelings",
+          "HD-03": "Are you happy today?",
+          "HD-04": "Yes, I am",
+          "HD-05": "No, I’m tired"
+        },
+        {
+          "HD-01": "XX",
+          "HD-02": "X",
+          "HD-03": "X",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "A1-A2",
+          "HD-02": "Đặt câu hỏi",
+          "HD-03": "Chọn câu trả lời đáp án 1",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "B1-B2",
+          "HD-02": "Đặt câu hỏi",
+          "HD-03": "Chọn câu trả lời đáp án 2",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "C1-C2",
+          "HD-02": "Nghe câu hỏi",
+          "HD-03": "Trả lời 1 trong 2 đáp án phù hợp.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "***Đọc gợi ý bảng và tình huống",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "..-1",
+          "HD-02": "Dòng 1-2",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "..-2",
+          "HD-02": "Dòng 3-4",
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        }
+      ],
+      "TB": [
+        ["Yes, I do", "I live with my parents", "Yes, I have", "Yes, I am"],
+        [
+          "No, I don’t",
+          "I live with my grandma",
+          "No, I forgot it",
+          "No, I’m tired"
+        ]
+      ],
+      "TV": [
+        {
+          "TV-01": "X",
+          "TV-02": "Bảng 10 |",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "X",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": null,
+          "TV-02": "John asks about English class",
+          "TV-03": "Do you learn English?",
+          "TV-04": "Yes, I do",
+          "TV-05": "No, I don’t"
+        },
+        {
+          "TV-01": null,
+          "TV-02": "John asks about your family",
+          "TV-03": "Who do you live with?",
+          "TV-04": "I live with my parents",
+          "TV-05": "I live with my grandma"
+        },
+        {
+          "TV-01": null,
+          "TV-02": "John asks about school bag",
+          "TV-03": "Do you have your school bag?",
+          "TV-04": "Yes, I have",
+          "TV-05": "No, I forgot it"
+        },
+        {
+          "TV-01": null,
+          "TV-02": "John asks about feelings",
+          "TV-03": "Are you happy today?",
+          "TV-04": "Yes, I am",
+          "TV-05": "No, I’m tired"
+        },
+        {
+          "TV-01": "XX",
+          "TV-02": "X",
+          "TV-03": "X",
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "A1-A2",
+          "TV-02": "Đặt câu hỏi",
+          "TV-03": "Chọn câu trả lời đáp án 1",
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "B1-B2",
+          "TV-02": "Đặt câu hỏi",
+          "TV-03": "Chọn câu trả lời đáp án 2",
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "C1-C2",
+          "TV-02": "Nghe câu hỏi",
+          "TV-03": "Trả lời 1 trong 2 đáp án phù hợp.",
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "***Đọc gợi ý bảng và tình huống",
+          "TV-02": null,
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "..-1",
+          "TV-02": "Dòng 1-2",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        },
+        {
+          "TV-01": "..-2",
+          "TV-02": "Dòng 3-4",
+          "TV-03": null,
+          "TV-04": null,
+          "TV-05": null
+        }
+      ],
+      "IPA": [
+        {
+          "IPA-01": "John asks about English class",
+          "IPA-02": "John hỏi về lớp tiếng Anh",
+          "IPA-03": "ʤɒn ɑːsks əˈbaʊt ˈɪŋɡlɪʃ klɑːs",
+          "IPA-04": "ʤɑn æsks əˈbaʊt ˈɪŋɡlɪʃ klæs"
+        },
+        {
+          "IPA-01": "John asks about your family",
+          "IPA-02": "John hỏi về gia đình bạn",
+          "IPA-03": "ʤɒn ɑːsks əˈbaʊt jɔː ˈfæmᵊli",
+          "IPA-04": "ʤɑn æsks əˈbaʊt jʊər ˈfæməli"
+        },
+        {
+          "IPA-01": "John asks about school bag",
+          "IPA-02": "John hỏi về cặp sách",
+          "IPA-03": "ʤɒn ɑːsks əˈbaʊt skuːl bæɡ",
+          "IPA-04": "ʤɑn æsks əˈbaʊt skul bæɡ"
+        },
+        {
+          "IPA-01": "John asks about feelings",
+          "IPA-02": "John hỏi về cảm xúc",
+          "IPA-03": "ʤɒn ɑːsks əˈbaʊt ˈfiːlɪŋz",
+          "IPA-04": "ʤɑn æsks əˈbaʊt ˈfilɪŋz"
+        },
+        {
+          "IPA-01": "Do you learn English?",
+          "IPA-02": "Bạn có học tiếng Anh không?",
+          "IPA-03": "duː juː lɜːn ˈɪŋɡlɪʃ?",
+          "IPA-04": "du ju lɜrn ˈɪŋɡlɪʃ?"
+        },
+        {
+          "IPA-01": "Who do you live with?",
+          "IPA-02": "Bạn sống với ai?",
+          "IPA-03": "huː duː juː lɪv wɪð?",
+          "IPA-04": "hu du ju lɪv wɪð?"
+        },
+        {
+          "IPA-01": "Do you have your school bag?",
+          "IPA-02": "Bạn có cặp sách không?",
+          "IPA-03": "duː juː hæv jɔː skuːl bæɡ?",
+          "IPA-04": "du ju hæv jʊər skul bæɡ?"
+        },
+        {
+          "IPA-01": "Are you happy today?",
+          "IPA-02": "Hôm nay bạn có vui không?",
+          "IPA-03": "ɑː juː ˈhæpi təˈdeɪ?",
+          "IPA-04": "ɑr ju ˈhæpi təˈdeɪ?"
+        },
+        {
+          "IPA-01": "Yes, I do",
+          "IPA-02": "Có, tôi học",
+          "IPA-03": "jɛs, aɪ duː",
+          "IPA-04": "jɛs, aɪ du"
+        },
+        {
+          "IPA-01": "I live with my parents",
+          "IPA-02": "Tôi sống với bố mẹ",
+          "IPA-03": "aɪ lɪv wɪð maɪ ˈpeərᵊnts",
+          "IPA-04": "aɪ lɪv wɪð maɪ ˈpɛrənts"
+        },
+        {
+          "IPA-01": "Yes, I have",
+          "IPA-02": "Có, tôi có",
+          "IPA-03": "jɛs, aɪ hæv",
+          "IPA-04": "jɛs, aɪ hæv"
+        },
+        {
+          "IPA-01": "Yes, I am",
+          "IPA-02": "Có, tôi vui",
+          "IPA-03": "jɛs, aɪ æm",
+          "IPA-04": "jɛs, aɪ æm"
+        },
+        {
+          "IPA-01": "No, I don’t",
+          "IPA-02": "Không, tôi không học",
+          "IPA-03": "nəʊ, aɪ dəʊnt",
+          "IPA-04": "noʊ, aɪ doʊnt"
+        },
+        {
+          "IPA-01": "I live with my grandma",
+          "IPA-02": "Tôi sống với bà",
+          "IPA-03": "aɪ lɪv wɪð maɪ ˈɡrænmɑː",
+          "IPA-04": "aɪ lɪv wɪð maɪ ˈɡræmɑ"
+        },
+        {
+          "IPA-01": "No, I forgot it",
+          "IPA-02": "Không, tôi quên mất",
+          "IPA-03": "nəʊ, aɪ fəˈɡɒt ɪt",
+          "IPA-04": "noʊ, aɪ fərˈɡɑt ɪt"
+        },
+        {
+          "IPA-01": "No, I’m tired",
+          "IPA-02": "Không, tôi mệt",
+          "IPA-03": "nəʊ, aɪm taɪəd",
+          "IPA-04": "noʊ, aɪm ˈtaɪərd"
+        }
+      ]
+    },
+    "charactor": [
+      {
+        "hint": "Bảng 10 | John hỏi bạn ở với ai",
+        "type": "A1",
+        "fsp": "John asks about your family",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Who do you live with?"],
+            "aw": ["I live with my parents"],
+            "submit": ["I live with my parents"],
+            "aw01": [{ "st": "I live with my parents", "id": "E626_F10a219" }]
+          }
+        ],
+        "submit": ["I live with my parents"],
+        "fspSets": [
+          { "st": "John asks about your family", "id": "E626_F10a218" }
+        ]
+      },
+      {
+        "hint": "Bảng 10 | John hỏi bạn có mang theo cặp không",
+        "type": "C2",
+        "fsp": "Do you have your school bag?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes, I have", "No, I forgot it"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "E626_F1a17" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Do you have your school bag?", "id": "E626_F10a236" }
+        ]
+      },
+      {
+        "hint": "Bảng 10 | John hỏi bạn có vui không",
+        "type": "B2",
+        "fsp": "John asks about feelings",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Are you happy today?"],
+            "aw": ["No, I’m tired"],
+            "submit": ["No, I’m tired"],
+            "aw01": [{ "st": "No, I’m tired", "id": "E626_F10a231" }]
+          }
+        ],
+        "submit": ["No, I’m tired"],
+        "fspSets": [{ "st": "John asks about feelings", "id": "E626_F10a222" }]
+      },
+      {
+        "hint": "Bảng 10 | John hỏi bạn có vui không",
+        "type": "A2",
+        "fsp": "John asks about feelings",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Are you happy today?"],
+            "aw": ["Yes, I am"],
+            "submit": ["Yes, I am"],
+            "aw01": [{ "st": "Yes, I am", "id": "E626_F6a127" }]
+          }
+        ],
+        "submit": ["Yes, I am"],
+        "fspSets": [{ "st": "John asks about feelings", "id": "E626_F10a222" }]
+      },
+      {
+        "hint": "Bảng 10 | John hỏi bạn học tiếng Anh không",
+        "type": "C1",
+        "fsp": "Do you learn English?",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Yes, I do", "No, I don’t"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "E626_F1a17" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Do you learn English?", "id": "E626_F10a232" }]
+      },
+      {
+        "hint": "Bảng 10 | John hỏi bạn ở với ai",
+        "type": "B1",
+        "fsp": "John asks about your family",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Who do you live with?"],
+            "aw": ["I live with my grandma"],
+            "submit": ["I live with my grandma"],
+            "aw01": [{ "st": "I live with my grandma", "id": "E626_F10a227" }]
+          }
+        ],
+        "submit": ["I live with my grandma"],
+        "fspSets": [
+          { "st": "John asks about your family", "id": "E626_F10a218" }
+        ]
+      },
+      {
+        "hint": "Bảng 10 | John hỏi bạn học tiếng Anh không",
+        "type": "B1",
+        "fsp": "John asks about English class",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Do you learn English?"],
+            "aw": ["No, I don’t"],
+            "submit": ["No, I don’t"],
+            "aw01": [{ "st": "No, I don’t", "id": "E626_F8a181" }]
+          }
+        ],
+        "submit": ["No, I don’t"],
+        "fspSets": [
+          { "st": "John asks about English class", "id": "E626_F10a216" }
+        ]
+      },
+      {
+        "hint": "Bảng 10 | John hỏi bạn có mang theo cặp không",
+        "type": "A2",
+        "fsp": "John asks about school bag",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Do you have your school bag?"],
+            "aw": ["Yes, I have"],
+            "submit": ["Yes, I have"],
+            "aw01": [{ "st": "Yes, I have", "id": "E626_F10a221" }]
+          }
+        ],
+        "submit": ["Yes, I have"],
+        "fspSets": [
+          { "st": "John asks about school bag", "id": "E626_F10a220" }
+        ]
+      },
+      {
+        "hint": "Bảng 10 | John hỏi bạn học tiếng Anh không",
+        "type": "A1",
+        "fsp": "John asks about English class",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Do you learn English?"],
+            "aw": ["Yes, I do"],
+            "submit": ["Yes, I do"],
+            "aw01": [{ "st": "Yes, I do", "id": "E626_F8a173" }]
+          }
+        ],
+        "submit": ["Yes, I do"],
+        "fspSets": [
+          { "st": "John asks about English class", "id": "E626_F10a216" }
+        ]
+      },
+      {
+        "hint": "Bảng 10 | John hỏi bạn có vui không",
+        "type": "C2",
+        "fsp": "Are you happy today?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Yes, I am", "No, I’m tired"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "E626_F1a19" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Are you happy today?", "id": "E626_F10a238" }]
+      },
+      {
+        "hint": "Bảng 10 | John hỏi bạn có mang theo cặp không",
+        "type": "B2",
+        "fsp": "John asks about school bag",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Do you have your school bag?"],
+            "aw": ["No, I forgot it"],
+            "submit": ["No, I forgot it"],
+            "aw01": [{ "st": "No, I forgot it", "id": "E626_F10a229" }]
+          }
+        ],
+        "submit": ["No, I forgot it"],
+        "fspSets": [
+          { "st": "John asks about school bag", "id": "E626_F10a220" }
+        ]
+      },
+      {
+        "hint": "Bảng 10 | John hỏi bạn ở với ai",
+        "type": "C1",
+        "fsp": "Who do you live with?",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["I live with my parents", "I live with my grandma"],
+            "aw": ["Good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Good", "id": "E626_F1a19" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Who do you live with?", "id": "E626_F10a234" }]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  }
+]

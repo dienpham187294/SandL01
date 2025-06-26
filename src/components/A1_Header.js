@@ -57,6 +57,13 @@ const pracEnSets = [
   {
     root: "learninghub",
     preName: "(D) Vỡ lòng",
+    name: "40 câu hỏi và trả lời",
+    link: "yyy_0a1",
+    id: "socapI",
+  },
+  {
+    root: "learninghub",
+    preName: "(D) Vỡ lòng",
     name: "Các câu cơ bản ver.01",
     link: "endp01_a",
     id: "socapI",
