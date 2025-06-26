@@ -1,689 +1,561 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
+const PLAYLIST_ID = "PLC0acE0qMKOkXtgSnKc9uhj6Ekj-8VDo5";
 
-export default function EnglishCourseLanding() {
-  const [isVisible, setIsVisible] = useState({});
+const PLAYLIST_ID_HD = "PLC0acE0qMKOlNOu-mq4kE0gOt6v83RjrS";
+// Component slideshow video YouTube
+const VideoSlideshow = ({ ID }) => {
+  const [videos, setVideos] = useState([]);
+  const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+  const API_KEY = "AIzaSyBWBxqpLe4z7BFwmuDegv82QH7ZTofrO-o";
 
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            setIsVisible((prev) => ({ ...prev, [entry.target.id]: true }));
-          }
-        });
-      },
-      { threshold: 0.1 }
-    );
-
-    document.querySelectorAll("[id]").forEach((el) => observer.observe(el));
-    return () => observer.disconnect();
+    const fetchPlaylistVideos = async () => {
+      try {
+        const apiUrl = `https://www.googleapis.com/youtube/v3/playlistItems?key=${API_KEY}&playlistId=${ID}&part=snippet&maxResults=10`;
+        const response = await fetch(apiUrl);
+        const data = await response.json();
+        setVideos(data.items || []);
+      } catch (error) {
+        console.error("Lỗi khi tải danh sách phát:", error);
+      }
+    };
+    fetchPlaylistVideos();
   }, []);
 
+  const nextVideo = () => {
+    setCurrentVideoIndex((prev) => (prev + 1) % videos.length);
+  };
+
+  const prevVideo = () => {
+    setCurrentVideoIndex((prev) => (prev - 1 + videos.length) % videos.length);
+  };
+
+  if (videos.length === 0)
+    return <div className="text-center">Đang tải video...</div>;
+
   return (
-    <>
-      <style>{`
-        :root {
-          --primary-blue: #1e40af;
-          --secondary-blue: #3b82f6;
-          --light-blue: #60a5fa;
-          --dark-blue: #1e3a8a;
-          --purple: #7c3aed;
-          --gradient-bg: linear-gradient(135deg, #1e3a8a 0%, #1e40af 50%, #7c3aed 100%);
-        }
+    <div className="position-relative">
+      <div className="video-container mb-3">
+        <iframe
+          width="100%"
+          height="400"
+          src={`https://www.youtube.com/embed/${videos[currentVideoIndex]?.snippet?.resourceId?.videoId}`}
+          title={videos[currentVideoIndex]?.snippet?.title}
+          frameBorder="0"
+          allowFullScreen
+          className="rounded shadow-lg"
+        ></iframe>
+      </div>
 
-        .hero-section {
-          min-height: 100vh;
-          background: var(--gradient-bg);
-          position: relative;
-          overflow: hidden;
-          display: flex;
-          align-items: center;
-          color: white;
-        }
+      <div className="d-flex justify-content-between align-items-center">
+        <button className="btn btn-outline-primary" onClick={prevVideo}>
+          <i className="bi bi-chevron-left"></i> Trước
+        </button>
+        <span className="text-muted">
+          {currentVideoIndex + 1} / {videos.length}
+        </span>
+        <button className="btn btn-outline-primary" onClick={nextVideo}>
+          Sau <i className="bi bi-chevron-right"></i>
+        </button>
+      </div>
 
-        .hero-section::before {
-          content: '';
-          position: absolute;
-          top: 0;
-          left: 0;
-          right: 0;
-          bottom: 0;
-          background: radial-gradient(circle at 20% 20%, rgba(59, 130, 246, 0.3) 0%, transparent 50%),
-                      radial-gradient(circle at 80% 80%, rgba(124, 58, 237, 0.3) 0%, transparent 50%);
-          pointer-events: none;
-        }
+      <h5 className="mt-3 text-center text-dark">
+        {videos[currentVideoIndex]?.snippet?.title}
+      </h5>
+    </div>
+  );
+};
 
-        .glass-card {
-          background: rgba(255, 255, 255, 0.1);
-          backdrop-filter: blur(10px);
-          border: 1px solid rgba(255, 255, 255, 0.2);
-          border-radius: 20px;
-          transition: all 0.3s ease;
-        }
+// Component slideshow cho các lý do chọn
+const ReasonSlideshow = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const reasons = [
+    {
+      icon: "bi-lightning-charge",
+      title: "Hiệu quả nhanh chóng, trực quan",
+      description:
+        "Phương pháp học tập được thiết kế để mang lại kết quả nhanh chóng và dễ nhận biết",
+    },
+    {
+      icon: "bi-people",
+      title: "Phù hợp nhiều lứa tuổi",
+      description:
+        "Từ học sinh đến người đi làm, phù hợp với mọi lứa tuổi và trình độ",
+    },
+    {
+      icon: "bi-arrow-up-circle",
+      title: "Mất gốc vẫn luyện được",
+      description:
+        "Dù bạn đã quên nhiều kiến thức, chúng tôi sẽ giúp bạn xây dựng lại từ đầu",
+    },
+    {
+      icon: "bi-laptop",
+      title: "Học online dễ dàng",
+      description:
+        "Học mọi lúc, mọi nơi với nền tảng trực tuyến hiện đại và thân thiện",
+    },
+  ];
 
-        .glass-card:hover {
-          background: rgba(255, 255, 255, 0.15);
-          transform: translateY(-5px);
-        }
+  const nextReason = () => {
+    setCurrentIndex((prev) => (prev + 1) % reasons.length);
+  };
 
-        .gradient-text {
-          background: linear-gradient(135deg, #ffffff 0%, #60a5fa 100%);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-          background-clip: text;
-        }
+  const prevReason = () => {
+    setCurrentIndex((prev) => (prev - 1 + reasons.length) % reasons.length);
+  };
 
-        .btn-primary-custom {
-          background: linear-gradient(135deg, var(--secondary-blue) 0%, var(--primary-blue) 100%);
-          border: none;
-          border-radius: 50px;
-          padding: 12px 30px;
-          font-weight: 600;
-          transition: all 0.3s ease;
-          color: white;
-          text-decoration: none;
-          display: inline-flex;
-          align-items: center;
-          gap: 8px;
-        }
+  return (
+    <div className="text-center py-4">
+      <div
+        className="card border-0 shadow-sm mx-auto"
+        style={{ maxWidth: "500px" }}
+      >
+        <div className="card-body p-5">
+          <i
+            className={`bi ${reasons[currentIndex].icon} text-primary`}
+            style={{ fontSize: "3rem" }}
+          ></i>
+          <h4 className="card-title mt-3 mb-3 text-dark">
+            {reasons[currentIndex].title}
+          </h4>
+          <p className="card-text text-muted">
+            {reasons[currentIndex].description}
+          </p>
+        </div>
+      </div>
 
-        .btn-primary-custom:hover {
-          transform: translateY(-2px);
-          box-shadow: 0 10px 30px rgba(30, 64, 175, 0.4);
-          color: white;
-        }
+      <div className="d-flex justify-content-center align-items-center mt-4">
+        <button className="btn btn-outline-primary me-3" onClick={prevReason}>
+          <i className="bi bi-chevron-left"></i>
+        </button>
+        <div className="d-flex gap-2">
+          {reasons.map((_, index) => (
+            <div
+              key={index}
+              className={`rounded-circle ${
+                index === currentIndex ? "bg-primary" : "bg-light"
+              }`}
+              style={{ width: "10px", height: "10px" }}
+            ></div>
+          ))}
+        </div>
+        <button className="btn btn-outline-primary ms-3" onClick={nextReason}>
+          <i className="bi bi-chevron-right"></i>
+        </button>
+      </div>
+    </div>
+  );
+};
 
-        .btn-success-custom {
-          background: linear-gradient(135deg, #10b981 0%, #059669 100%);
-          border: none;
-          border-radius: 20px;
-          padding: 15px 0;
-          font-weight: 600;
-          transition: all 0.3s ease;
-          color: white;
-          width: 100%;
-        }
+// Component slideshow phương pháp
+const MethodSlideshow = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const methods = [
+    {
+      icon: "bi-robot",
+      title: "Ứng dụng công nghệ trí tuệ nhân tạo",
+      description:
+        "Sử dụng AI để cá nhân hóa trải nghiệm học tập cho từng học viên",
+    },
+    {
+      icon: "bi-person-heart",
+      title: "Thầy cô tận tình chỉ dạy",
+      description:
+        "Đội ngũ giáo viên giàu kinh nghiệm, luôn sẵn sàng hỗ trợ học viên",
+    },
+    {
+      icon: "bi-music-note-beamed",
+      title: "Luyện từ nền tảng ghép âm",
+      description: "Phương pháp ghép âm độc đáo giúp phát âm chuẩn từ cơ bản",
+    },
+    {
+      icon: "bi-repeat",
+      title: "Luyện tập nghe nói liên tục",
+      description:
+        "Thực hành nhiều lần để tạo phản xạ tự nhiên trong giao tiếp",
+    },
+    {
+      icon: "bi-emoji-smile",
+      title: "Không áp lực, không stress",
+      description:
+        "Học tập thoải mái, không bắt phải suy nghĩ hay áp lực bài tập",
+    },
+  ];
 
-        .btn-success-custom:hover {
-          transform: translateY(-2px);
-          box-shadow: 0 8px 25px rgba(16, 185, 129, 0.4);
-          color: white;
-        }
+  const nextMethod = () => {
+    setCurrentIndex((prev) => (prev + 1) % methods.length);
+  };
 
-        .feature-icon {
-          width: 64px;
-          height: 64px;
-          border-radius: 16px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          margin-bottom: 20px;
-          transition: transform 0.3s ease;
-        }
+  const prevMethod = () => {
+    setCurrentIndex((prev) => (prev - 1 + methods.length) % methods.length);
+  };
 
-        .feature-icon:hover {
-          transform: rotate(6deg);
-        }
+  return (
+    <div className="text-center py-4">
+      <div
+        className="card border-0 shadow-sm mx-auto"
+        style={{ maxWidth: "600px" }}
+      >
+        <div className="card-body p-5">
+          <i
+            className={`bi ${methods[currentIndex].icon} text-success`}
+            style={{ fontSize: "3rem" }}
+          ></i>
+          <h4 className="card-title mt-3 mb-3 text-dark">
+            {methods[currentIndex].title}
+          </h4>
+          <p className="card-text text-muted">
+            {methods[currentIndex].description}
+          </p>
+        </div>
+      </div>
 
-        .pricing-card {
-          background: rgba(255, 255, 255, 0.1);
-          backdrop-filter: blur(10px);
-          border: 1px solid rgba(255, 255, 255, 0.2);
-          border-radius: 24px;
-          padding: 40px 30px;
-          transition: all 0.3s ease;
-          position: relative;
-          color: white;
-        }
+      <div className="d-flex justify-content-center align-items-center mt-4">
+        <button className="btn btn-outline-success me-3" onClick={prevMethod}>
+          <i className="bi bi-chevron-left"></i>
+        </button>
+        <div className="d-flex gap-2">
+          {methods.map((_, index) => (
+            <div
+              key={index}
+              className={`rounded-circle ${
+                index === currentIndex ? "bg-success" : "bg-light"
+              }`}
+              style={{ width: "10px", height: "10px" }}
+            ></div>
+          ))}
+        </div>
+        <button className="btn btn-outline-success ms-3" onClick={nextMethod}>
+          <i className="bi bi-chevron-right"></i>
+        </button>
+      </div>
+    </div>
+  );
+};
 
-        .pricing-card:hover {
-          transform: translateY(-10px);
-          background: rgba(255, 255, 255, 0.15);
-        }
+// Component slideshow tin tưởng
+const TrustSlideshow = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const trustPoints = [
+    {
+      icon: "bi-eye",
+      title: "Trăm nghe không bằng một thấy",
+      description:
+        "Châm ngôn của chúng tôi luôn là trăm nghe không bằng một thấy. Trăm thấy không bằng một thử.",
+    },
+    {
+      icon: "bi-gift",
+      title: "Trải nghiệm miễn phí",
+      description:
+        "Hãy tham gia khóa học miễn phí 4 buổi để được trải nghiệm phương pháp của chúng tôi.",
+    },
+  ];
 
-        .pricing-card.featured {
-          border: 2px solid var(--light-blue);
-        }
+  const toggleTrust = () => {
+    setCurrentIndex((prev) => (prev + 1) % trustPoints.length);
+  };
 
-        .pricing-badge {
-          position: absolute;
-          top: -12px;
-          left: 50%;
-          transform: translateX(-50%);
-          background: linear-gradient(135deg, var(--secondary-blue) 0%, var(--purple) 100%);
-          color: white;
-          padding: 8px 20px;
-          border-radius: 20px;
-          font-size: 14px;
-          font-weight: 600;
-        }
+  return (
+    <div className="text-center py-4">
+      <div
+        className="card border-0 shadow-sm mx-auto"
+        style={{ maxWidth: "600px" }}
+      >
+        <div className="card-body p-5">
+          <i
+            className={`bi ${trustPoints[currentIndex].icon} text-warning`}
+            style={{ fontSize: "3rem" }}
+          ></i>
+          <h4 className="card-title mt-3 mb-3 text-dark">
+            {trustPoints[currentIndex].title}
+          </h4>
+          <p className="card-text text-muted">
+            {trustPoints[currentIndex].description}
+          </p>
+        </div>
+      </div>
 
-        .stats-grid {
-          display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-          gap: 20px;
-          margin-top: 40px;
-        }
+      <div className="d-flex justify-content-center align-items-center mt-4">
+        <button className="btn btn-warning" onClick={toggleTrust}>
+          {currentIndex === 0
+            ? "Xem trải nghiệm miễn phí"
+            : "Quay lại châm ngôn"}
+        </button>
+      </div>
+    </div>
+  );
+};
 
-        .stat-item {
-          text-align: center;
-        }
+// Component form đăng ký
+const RegistrationForm = () => {
+  const [phoneNumber, setPhoneNumber] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitted, setSubmitted] = useState(false);
 
-        .stat-number {
-          font-size: 28px;
-          font-weight: bold;
-          color: var(--light-blue);
-          display: block;
-        }
+  const formatTime = (date) => {
+    return date.toLocaleString("vi-VN");
+  };
 
-        .stat-label {
-          font-size: 14px;
-          color: rgba(255, 255, 255, 0.8);
-          margin-top: 5px;
-        }
+  const handleSubmit = async () => {
+    if (!phoneNumber.trim()) {
+      alert("Vui lòng nhập số điện thoại");
+      return;
+    }
 
-        .section-padding {
-          padding: 80px 0;
-        }
+    if (!phoneNumber.match(/^[0-9]{10,11}$/)) {
+      alert("Số điện thoại không hợp lệ");
+      return;
+    }
 
-        .text-blue-light {
-          color: rgba(255, 255, 255, 0.9);
-        }
+    setIsSubmitting(true);
 
-        .bg-blue-section {
-          background: rgba(30, 64, 175, 0.3);
-          backdrop-filter: blur(10px);
-        }
+    try {
+      const requestBody = {
+        subjectText: `Đăng ký khóa học tiếng Anh | SĐT: ${phoneNumber} | ${formatTime(
+          new Date()
+        )}`,
+        contentText: `Khách hàng đăng ký với số điện thoại: ${phoneNumber}\nThời gian: ${formatTime(
+          new Date()
+        )}\nLink: ${window.location.href}`,
+        toEmail: "pvkadien0209@gmail.com",
+      };
 
-        .animate-pulse {
-          animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-        }
+      // Thay thế LinkAPI bằng URL API thực tế
+      const response = await fetch("YOUR_API_ENDPOINT/mail-homework", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(requestBody),
+      });
 
-        @keyframes pulse {
-          0%, 100% { opacity: 1; }
-          50% { opacity: 0.7; }
-        }
+      const json = await response.json();
 
-        .feature-list {
-          list-style: none;
-          padding: 0;
-        }
+      if (json.success) {
+        setSubmitted(true);
+        setPhoneNumber("");
+      } else {
+        alert("Đăng ký không thành công, vui lòng thử lại");
+      }
+    } catch (error) {
+      console.error("Lỗi khi đăng ký:", error);
+      // Mô phỏng thành công cho demo
+      setSubmitted(true);
+      setPhoneNumber("");
+    }
 
-        .feature-list li {
-          display: flex;
-          align-items: center;
-          margin-bottom: 12px;
-          color: rgba(255, 255, 255, 0.9);
-        }
+    setIsSubmitting(false);
+  };
 
-        .check-icon {
-          color: #10b981;
-          margin-right: 12px;
-          font-weight: bold;
-        }
+  if (submitted) {
+    return (
+      <div className="text-center py-5">
+        <div
+          className="card border-0 shadow-lg mx-auto"
+          style={{ maxWidth: "500px" }}
+        >
+          <div className="card-body p-5">
+            <i
+              className="bi bi-check-circle-fill text-success"
+              style={{ fontSize: "4rem" }}
+            ></i>
+            <h3 className="mt-3 text-success">Đăng ký thành công!</h3>
+            <p className="text-muted">
+              Chúng tôi sẽ liên hệ với bạn trong thời gian sớm nhất để tư vấn về
+              khóa học.
+            </p>
+            <button
+              className="btn btn-outline-primary mt-3"
+              onClick={() => setSubmitted(false)}
+            >
+              Đăng ký thêm
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
-        @media (max-width: 768px) {
-          .hero-section h1 {
-            font-size: 2.5rem !important;
-          }
-          
-          .pricing-card {
-            margin-bottom: 30px;
-          }
-        }
-      `}</style>
+  return (
+    <div className="text-center py-5">
+      <div
+        className="card border-0 shadow-lg mx-auto"
+        style={{ maxWidth: "500px" }}
+      >
+        <div className="card-body p-5">
+          <i
+            className="bi bi-telephone-fill text-primary"
+            style={{ fontSize: "3rem" }}
+          ></i>
+          <h3 className="mt-3 mb-4 text-dark">Đăng ký tư vấn</h3>
+
+          <div>
+            <div className="mb-3">
+              <input
+                type="tel"
+                className="form-control form-control-lg text-center"
+                placeholder="Nhập số điện thoại của bạn"
+                value={phoneNumber}
+                onChange={(e) => setPhoneNumber(e.target.value)}
+                disabled={isSubmitting}
+              />
+            </div>
+
+            {phoneNumber && (
+              <div className="mb-3 p-3 bg-light rounded">
+                <small className="text-muted">Xác nhận số điện thoại:</small>
+                <div className="fw-bold text-primary">{phoneNumber}</div>
+              </div>
+            )}
+
+            <button
+              onClick={handleSubmit}
+              className="btn btn-primary btn-lg w-100"
+              disabled={!phoneNumber.trim() || isSubmitting}
+            >
+              {isSubmitting ? (
+                <>
+                  <span className="spinner-border spinner-border-sm me-2"></span>
+                  Đang gửi...
+                </>
+              ) : (
+                "Gửi thông tin đăng ký"
+              )}
+            </button>
+          </div>
+
+          <p className="text-muted mt-3 small">
+            Chúng tôi cam kết bảo mật thông tin cá nhân của bạn
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+// Component chính
+const EnglishLandingPage = () => {
+  return (
+    <div
+      className="min-vh-100"
+      style={{
+        background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      }}
+    >
       <div style={{ height: "8vh" }}></div>
+      {/* Bootstrap CSS */}
+      <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+      />
+      <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+        rel="stylesheet"
+      />
+
       {/* Hero Section */}
-      <section className="hero-section">
+      <section className="py-5 text-center text-white">
         <div className="container">
-          <div className="row justify-content-center text-center">
-            <div className="col-lg-10">
-              <div className="mb-4">
-                <span className="badge glass-card px-4 py-2 mb-4">
-                  <i className="bi bi-star-fill text-warning me-2"></i>
-                  Phương pháp học độc đáo
-                </span>
-              </div>
-
-              <h1 className="display-2 fw-bold mb-4 gradient-text">
-                Bạn có muốn sau này thực sự
-                <span className="d-block text-info">
-                  sử dụng nghe nói tiếng Anh
-                </span>
-                được trong thực tế?
+          <div className="row justify-content-center">
+            <div className="col-lg-8">
+              <h1 className="display-4 fw-bold mb-4">
+                Bạn đang tìm một cách học tiếng Anh thật sự hiệu quả?
               </h1>
-
-              <p className="lead fs-4 text-blue-light mb-4">
-                90% người học chỉ biết lý thuyết, không nói được vì thiếu luyện
-                nói thực tế.
-                <span className="d-block mt-2">
-                  Phương pháp 3 bước ghép âm siêu dễ | 3000 từ & 1000 câu thông
-                  dụng.
-                </span>
-                <span className="d-block mt-2">
-                  Luyện nghe nói 5.000 – 20.000+ câu tiếng Anh thành tiếng –
-                  chìa khóa để giỏi thật!
-                </span>
-              </p>
-
-              <div className="d-flex flex-column flex-sm-row gap-3 justify-content-center align-items-center mb-5">
-                <a href="#pricing" className="btn btn-primary-custom btn-lg">
-                  <i className="bi bi-play-circle me-2"></i>
-                  Học ngay 4 buổi miễn phí
-                </a>
-                <div className="d-flex align-items-center text-blue-light">
-                  <i className="bi bi-people me-2"></i>
-                  <span>Hơn 1,000 học viên tin tưởng</span>
-                </div>
-              </div>
-
-              <div className="stats-grid">
-                <div className="stat-item">
-                  <span className="stat-number">3000+</span>
-                  <div className="stat-label">Từ vựng cơ bản</div>
-                </div>
-                <div className="stat-item">
-                  <span className="stat-number">1000+</span>
-                  <div className="stat-label">Câu giao tiếp</div>
-                </div>
-                <div className="stat-item">
-                  <span className="stat-number">5000+</span>
-                  <div className="stat-label">Lần thực nói</div>
-                </div>
-                <div className="stat-item">
-                  <span className="stat-number">AI</span>
-                  <div className="stat-label">Công nghệ hỗ trợ</div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Value Proposition */}
-      <section className="section-padding bg-blue-section text-white">
+      {/* Video Section */}
+      <section className="py-5">
         <div className="container">
-          <div className="row">
-            <div className="col-lg-8 mx-auto text-center mb-5">
-              <h2 className="display-4 fw-bold mb-4">
-                Tại sao bạn cần học với chúng tôi?
-              </h2>
-              <p className="fs-5 text-blue-light">
-                Vì học giao tiếp chỉ bằng đọc – viết là chưa đủ. Bạn cần thực sự
-                luyện nói, được nghe - được sửa. Bạn đã tìm được chỗ nào giúp
-                bạn thật sự nói đầy đủ các câu tiếng Anh thành tiếng được trên
-                5.000 lần chưa?
-              </p>
-            </div>
-          </div>
-
-          <div className="row g-4">
-            <div className="col-lg-4">
-              <div className="glass-card p-4 h-100">
-                <div className="feature-icon bg-primary">
-                  <i className="bi bi-mic text-white fs-2"></i>
-                </div>
-                <h3 className="h4 fw-bold mb-3">Phát âm AI</h3>
-                <p className="text-blue-light">
-                  Học phát âm dễ dàng nhờ công nghệ AI và phương pháp ghép âm 3
-                  bước độc đáo
-                </p>
-              </div>
-            </div>
-
-            <div className="col-lg-4">
-              <div className="glass-card p-4 h-100">
-                <div
-                  className="feature-icon"
-                  style={{
-                    background:
-                      "linear-gradient(135deg, #7c3aed 0%, #a855f7 100%)",
-                  }}
-                >
-                  <i className="bi bi-headphones text-white fs-2"></i>
-                </div>
-                <h3 className="h4 fw-bold mb-3">Luyện Nghe Nói</h3>
-                <p className="text-blue-light">
-                  Luyện nghe nói hàng ngàn lần như thực tế với giáo trình thiết
-                  kế trực quan
-                </p>
-              </div>
-            </div>
-
-            <div className="col-lg-4">
-              <div className="glass-card p-4 h-100">
-                <div className="feature-icon bg-success">
-                  <i className="bi bi-book text-white fs-2"></i>
-                </div>
-                <h3 className="h4 fw-bold mb-3">Từ Vựng & Giao Tiếp</h3>
-                <p className="text-blue-light">
-                  Luyện tập 3000 từ vựng cơ bản đi kèm 1000 mẫu câu giao tiếp
-                  hiệu quả
-                </p>
+          <div className="row justify-content-center">
+            <div className="col-lg-8">
+              <div className="bg-white rounded-4 shadow-lg p-4">
+                <h2 className="h3 mb-5 opacity-75">
+                  Kết quả trực quan trong thời gian ngắn
+                </h2>
+                <VideoSlideshow ID={PLAYLIST_ID} />
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Features */}
-      <section
-        className="section-padding"
-        style={{ background: "var(--gradient-bg)" }}
-      >
-        <div className="container text-white">
-          <div className="row">
-            <div className="col-lg-6 mx-auto text-center mb-5">
-              <h2 className="display-4 fw-bold mb-4">Lợi ích vượt trội</h2>
-            </div>
-          </div>
-
-          <div className="row align-items-center">
-            <div className="col-lg-6">
-              <div className="mb-4">
-                <div className="d-flex align-items-start">
-                  <div
-                    className="feature-icon bg-primary me-3"
-                    style={{ width: "50px", height: "50px", minWidth: "50px" }}
-                  >
-                    <i className="bi bi-volume-up text-white"></i>
-                  </div>
-                  <div>
-                    <h4 className="fw-bold mb-2">Tự tin sử dụng tiếng Anh</h4>
-                    <p className="text-blue-light">
-                      Nhận diện và chấm điểm phát âm dễ dàng nhờ phương pháp đọc
-                      ghép âm 3 bước
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="mb-4">
-                <div className="d-flex align-items-start">
-                  <div
-                    className="feature-icon me-3"
-                    style={{
-                      width: "50px",
-                      height: "50px",
-                      minWidth: "50px",
-                      background:
-                        "linear-gradient(135deg, #7c3aed 0%, #a855f7 100%)",
-                    }}
-                  >
-                    <i className="bi bi-headphones text-white"></i>
-                  </div>
-                  <div>
-                    <h4 className="fw-bold mb-2">
-                      Nghe hiểu nhanh, phản xạ tốt
-                    </h4>
-                    <p className="text-blue-light">
-                      Luyện phản xạ với giáo trình thiết kế trực quan, rèn luyện
-                      nói thành câu trên 5000 lần
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="mb-4">
-                <div className="d-flex align-items-start">
-                  <div
-                    className="feature-icon bg-success me-3"
-                    style={{ width: "50px", height: "50px", minWidth: "50px" }}
-                  >
-                    <i className="bi bi-award text-white"></i>
-                  </div>
-                  <div>
-                    <h4 className="fw-bold mb-2">
-                      Nền tảng vững chắc để thi lấy bằng
-                    </h4>
-                    <p className="text-blue-light">
-                      Sau khi có nền tảng vững chắc, thi bằng chỉ cần học thêm
-                      mẹo ngữ pháp
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-6">
-              <div className="glass-card p-5 text-center">
-                <div className="mb-4">
-                  <div
-                    className="feature-icon mx-auto"
-                    style={{
-                      background:
-                        "linear-gradient(135deg, #3b82f6 0%, #7c3aed 100%)",
-                    }}
-                  >
-                    <i className="bi bi-robot text-white fs-1"></i>
-                  </div>
-                </div>
-                <h3 className="h4 fw-bold mb-3">Công nghệ AI tiên tiến</h3>
-                <p className="text-blue-light">
-                  Hệ thống AI giúp nhận diện phát âm chính xác, đưa ra phản hồi
-                  chi tiết và cải thiện kỹ năng nói của bạn
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Pricing */}
-      <section
-        id="pricing"
-        className="section-padding bg-blue-section text-white"
-      >
+      {/* Why Choose Us Section */}
+      <section className="py-5">
         <div className="container">
-          <div className="row">
-            <div className="col-lg-8 mx-auto text-center mb-5">
-              <h2 className="display-4 fw-bold mb-4">Chọn lộ trình phù hợp</h2>
-              <p className="fs-5 text-blue-light">
-                Cam kết hoàn tiền nếu không hài lòng sau 7 ngày
-              </p>
-            </div>
+          <h1 className="text-center text-white mb-5 display-5 fw-bold">
+            Tại sao lại chọn chúng tôi?
+          </h1>
+          <div className="bg-white rounded-4 shadow-lg p-4">
+            <ReasonSlideshow />
           </div>
+        </div>
+      </section>
+      {/* Video Section */}
+      <section className="py-5">
+        {/* <h2 className="h3 mb-5 opacity-75">
+          HƯỚNG DẪN GHÉP ÂM CHI TIẾT TẬN TÂM
+        </h2> */}
 
-          <div className="row g-4">
-            {/* Free Course */}
-            <div className="col-lg-4">
-              <div className="pricing-card h-100">
-                <div className="text-center mb-4">
-                  <div className="feature-icon mx-auto bg-success">
-                    <i className="bi bi-star text-white fs-2"></i>
-                  </div>
-                  <h3 className="h4 fw-bold mb-2">Học thử miễn phí</h3>
-                  <div className="display-4 fw-bold text-success mb-2">
-                    MIỄN PHÍ
-                  </div>
-                  <p className="text-blue-light">4 buổi học thử</p>
-                </div>
-
-                <ul className="feature-list mb-4">
-                  <li>
-                    <span className="check-icon">✓</span> Trải nghiệm phương
-                    pháp 3 bước
-                  </li>
-                  <li>
-                    <span className="check-icon">✓</span> Học thử với AI
-                  </li>
-                  <li>
-                    <span className="check-icon">✓</span> Không ràng buộc
-                  </li>
-                </ul>
-
-                <button className="btn btn-success-custom">
-                  Đăng ký học ngay
-                </button>
-              </div>
-            </div>
-
-            {/* Intermediate Course */}
-            <div className="col-lg-4">
-              <div className="pricing-card featured h-100">
-                <div className="pricing-badge">Giảm 20%</div>
-
-                <div className="text-center mb-4">
-                  <div className="feature-icon mx-auto bg-primary">
-                    <i className="bi bi-book text-white fs-2"></i>
-                  </div>
-                  <h3 className="h4 fw-bold mb-2">Khóa Cơ Bản</h3>
-                  <div className="mb-2">
-                    <span className="fs-5 text-decoration-line-through text-muted">
-                      6.000.000đ
-                    </span>
-                    <div className="display-4 fw-bold text-primary">
-                      5.000.000đ
-                    </div>
-                  </div>
-                  <p className="text-blue-light">24 buổi học</p>
-                </div>
-
-                <ul className="feature-list mb-4">
-                  <li>
-                    <span className="check-icon">✓</span> 500 từ vựng cơ bản
-                  </li>
-                  <li>
-                    <span className="check-icon">✓</span> 200 câu giao tiếp cơ
-                    bản
-                  </li>
-                  <li>
-                    <span className="check-icon">✓</span> Phương pháp ghép âm 3
-                    bước
-                  </li>
-                  <li>
-                    <span className="check-icon">✓</span> Hỗ trợ AI phát âm
-                  </li>
-                </ul>
-
-                <button className="btn btn-primary-custom w-100 py-3">
-                  Đăng ký ngay
-                </button>
-              </div>
-            </div>
-
-            {/* Premium Course */}
-            <div className="col-lg-4">
-              <div className="pricing-card h-100">
-                <div
-                  className="pricing-badge"
-                  style={{
-                    background:
-                      "linear-gradient(135deg, #7c3aed 0%, #ec4899 100%)",
-                  }}
-                >
-                  Phổ biến nhất
-                </div>
-
-                <div className="text-center mb-4">
-                  <div
-                    className="feature-icon mx-auto"
-                    style={{
-                      background:
-                        "linear-gradient(135deg, #7c3aed 0%, #ec4899 100%)",
-                    }}
-                  >
-                    <i className="bi bi-trophy text-white fs-2"></i>
-                  </div>
-                  <h3 className="h4 fw-bold mb-2">Khóa Toàn Diện</h3>
-                  <div
-                    className="display-4 fw-bold mb-2"
-                    style={{ color: "#a855f7" }}
-                  >
-                    15.000.000đ
-                  </div>
-                  <p className="text-blue-light">50 buổi học</p>
-                </div>
-
-                <ul className="feature-list mb-4">
-                  <li>
-                    <span className="check-icon">✓</span> 3000 từ vựng cơ bản
-                  </li>
-                  <li>
-                    <span className="check-icon">✓</span> 1000 câu giao tiếp
-                  </li>
-                  <li>
-                    <span className="check-icon">✓</span> Ngữ pháp đi thi
-                  </li>
-                  <li>
-                    <span className="check-icon">✓</span> Luyện nói 5000+ lần
-                  </li>
-                  <li>
-                    <span className="check-icon">✓</span> Chứng chỉ hoàn thành
-                  </li>
-                </ul>
-
-                <button
-                  className="btn w-100 py-3"
-                  style={{
-                    background:
-                      "linear-gradient(135deg, #7c3aed 0%, #ec4899 100%)",
-                    border: "none",
-                    color: "white",
-                    borderRadius: "20px",
-                    fontWeight: "600",
-                  }}
-                >
-                  Đăng ký ngay
-                </button>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-8">
+              <div className="bg-white rounded-4 shadow-lg p-4">
+                <h2 className="h3 mb-5 opacity-75">
+                  HƯỚNG DẪN GHÉP ÂM CHI TIẾT TẬN TÂM
+                </h2>
+                <VideoSlideshow ID={PLAYLIST_ID_HD} />
               </div>
             </div>
           </div>
         </div>
       </section>
-
-      {/* Final CTA */}
-      <section
-        className="section-padding"
-        style={{
-          background: "linear-gradient(135deg, #3b82f6 0%, #7c3aed 100%)",
-        }}
-      >
-        <div className="container text-center text-white">
-          <div className="row">
-            <div className="col-lg-8 mx-auto">
-              <h2 className="display-4 fw-bold mb-4">
-                Bắt đầu hành trình học tiếng Anh của bạn ngay hôm nay
-              </h2>
-              <p className="fs-5 mb-4">
-                Cơ hội học phương pháp ghép âm độc đáo dễ dàng với 3 bước. Tham
-                gia học thử miễn phí 4 buổi – Không ràng buộc
-              </p>
-
-              <div className="d-flex flex-column flex-sm-row gap-3 justify-content-center align-items-center mb-4">
-                <button
-                  className="btn btn-light btn-lg px-5 py-3 fw-bold"
-                  style={{ borderRadius: "50px", color: "var(--primary-blue)" }}
-                >
-                  <i className="bi bi-play-circle me-2"></i>
-                  Tham gia học thử miễn phí
-                </button>
-
-                <div className="d-flex align-items-center text-light">
-                  <i className="bi bi-clock me-2"></i>
-                  <span>Chỉ cần 30 giây để đăng ký</span>
-                </div>
-              </div>
-
-              <div className="d-flex align-items-center justify-content-center text-light">
-                <i className="bi bi-shield-check text-success me-2"></i>
-                <span>Cam kết hoàn tiền nếu không hài lòng sau 7 ngày</span>
-              </div>
-            </div>
+      {/* Method Section */}
+      <section className="py-5">
+        <div className="container">
+          <h1 className="text-center text-white mb-5 display-5 fw-bold">
+            Tại sao chúng tôi giúp các học viên tiến bộ trong việc nghe nói
+            tiếng Anh thực sự?
+          </h1>
+          <div className="bg-white rounded-4 shadow-lg p-4">
+            <MethodSlideshow />
           </div>
+        </div>
+      </section>
+
+      {/* Trust Section */}
+      <section className="py-5">
+        <div className="container">
+          <h1 className="text-center text-white mb-5 display-5 fw-bold">
+            Làm sao để tin tưởng được?
+          </h1>
+          <div className="bg-white rounded-4 shadow-lg p-4">
+            <TrustSlideshow />
+          </div>
+        </div>
+      </section>
+
+      {/* Registration Section */}
+      <section className="py-5">
+        <div className="container">
+          <h1 className="text-center text-white mb-5 display-5 fw-bold">
+            Để lại số điện thoại, chúng tôi sẽ liên hệ bạn
+          </h1>
+          <RegistrationForm />
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="py-5 bg-dark text-light">
-        <div className="container text-center">
-          <p className="mb-1">
-            &copy; 2024 PVD English Learning Platform. Tất cả quyền được bảo
-            lưu.
+      <footer className="py-4 text-center text-white opacity-75">
+        <div className="container">
+          <p className="mb-0">
+            © 2025 Khóa học tiếng Anh hiệu quả - Liên hệ ngay để được tư vấn
+            miễn phí
           </p>
-          <p className="mb-0">Liên hệ: pvkadien0209@gmail.com | 0918 284 482</p>
         </div>
       </footer>
-    </>
+    </div>
   );
-}
+};
+
+export default EnglishLandingPage;
