@@ -189,7 +189,7 @@ const Dictaphone = ({ CMDlist }) => {
             <button
               style={{ padding: "10px", borderRadius: "5px" }}
               onClick={() => {
-                read_by_Tts(CMDlist);
+                read_by_Tts(CMDlist, () => {});
                 setsttListenFromServer(true);
                 setTimeout(() => {
                   setsttListenFromServer(false);

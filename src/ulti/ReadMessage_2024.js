@@ -116,8 +116,9 @@ export default async function ReadMessage(ObjVoices, text, voiceNum, audio) {
       try {
         const randomIndex = Math.floor(Math.random() * audio.length);
         playAudio(audio[randomIndex].id, disableButton, enableButton, () => {
-          read_by_Tts(text);
-          // ReadMessage_02(ObjVoices, text, voiceNum);
+          read_by_Tts(text, () => {
+            ReadMessage_02(ObjVoices, text, voiceNum);
+          });
         });
         return;
       } catch (error) {
@@ -125,7 +126,9 @@ export default async function ReadMessage(ObjVoices, text, voiceNum, audio) {
       }
     }
   } else {
-    read_by_Tts(text);
+    read_by_Tts(text, () => {
+      ReadMessage_02(ObjVoices, text, voiceNum);
+    });
     // ReadMessage_02(ObjVoices, text, voiceNum);
   }
 }

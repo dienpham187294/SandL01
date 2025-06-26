@@ -116,7 +116,7 @@ const saveAudioToDB = async (db, key, blob) => {
 };
 
 // Hàm chính
-export default async function read_by_Tts(text) {
+export default async function read_by_Tts(text, fnReadClient) {
   const db = await initDB();
   const key = text.trim().toLowerCase();
 
@@ -154,6 +154,7 @@ export default async function read_by_Tts(text) {
     playFromBlob(blob);
     console.log("Đã lưu và phát audio mới");
   } catch (error) {
+    fnReadClient();
     console.error("TTS playback error:", error);
     // Có thể thêm fallback hoặc thông báo lỗi cho user
   }
