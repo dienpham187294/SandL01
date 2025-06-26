@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import LinkAPI from "../ulti/T0_linkApi";
 const PLAYLIST_ID = "PLC0acE0qMKOkXtgSnKc9uhj6Ekj-8VDo5";
 
 const PLAYLIST_ID_HD = "PLC0acE0qMKOlNOu-mq4kE0gOt6v83RjrS";
@@ -321,7 +322,7 @@ const RegistrationForm = () => {
       };
 
       // Thay thế LinkAPI bằng URL API thực tế
-      const response = await fetch("YOUR_API_ENDPOINT/mail-homework", {
+      const response = await fetch(LinkAPI + "mail-homework", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(requestBody),
