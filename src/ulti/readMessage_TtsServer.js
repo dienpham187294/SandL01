@@ -127,36 +127,58 @@ export default async function read_by_Tts(text, fnReadClient) {
       // Cập nhật timestamp để đánh dấu là được sử dụng gần đây
       cachedData.timestamp = Date.now();
       await db.put(DB_CONFIG.storeName, cachedData, key);
-
       playFromBlob(cachedData.blob);
       console.log("Phát audio từ cache");
       return;
     }
 
-    // 2. Fetch từ server nếu chưa có
+    // 2. Fetch từ server với timeout 3 giây
     console.log("Đang tải audio từ server...");
-    const response = await fetch(LinkAPI + "tts", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ text }),
-    });
 
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
+    // Tạo AbortController để hủy request khi timeout
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 3000); // 3 giây
+
+    try {
+      const response = await fetch(LinkAPI + "tts", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ text }),
+        signal: controller.signal, // Thêm signal để có thể hủy request
+      });
+
+      // Clear timeout nếu request thành công
+      clearTimeout(timeoutId);
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+
+      const blob = await response.blob();
+
+      // 3. Lưu vào IndexedDB với quản lý dung lượng
+      await saveAudioToDB(db, key, blob);
+
+      // 4. Phát audio
+      playFromBlob(blob);
+      console.log("Đã lưu và phát audio mới từ server");
+    } catch (fetchError) {
+      clearTimeout(timeoutId);
+
+      // Kiểm tra nếu là lỗi timeout hoặc abort
+      if (fetchError.name === "AbortError") {
+        console.log("Request timeout sau 3 giây, chuyển sang dùng hàm client");
+        fnReadClient();
+        return;
+      }
+
+      // Ném lại lỗi khác để được xử lý ở catch ngoài
+      throw fetchError;
     }
-
-    const blob = await response.blob();
-
-    // 3. Lưu vào IndexedDB với quản lý dung lượng
-    await saveAudioToDB(db, key, blob);
-
-    // 4. Phát audio
-    playFromBlob(blob);
-    console.log("Đã lưu và phát audio mới");
   } catch (error) {
-    fnReadClient();
     console.error("TTS playback error:", error);
-    // Có thể thêm fallback hoặc thông báo lỗi cho user
+    console.log("Gặp lỗi từ server, chuyển sang dùng hàm client");
+    fnReadClient();
   }
 }
 
