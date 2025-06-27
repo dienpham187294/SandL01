@@ -8,7 +8,16 @@ const LearningHub_prac_st_only = () => {
 
   const readableSt = params.get("st")?.split("-").join(" ") || "";
   const rawNote = params.get("note");
-  const readNote = rawNote ? decodeURIComponent(rawNote) : "";
+
+  let readNote = "";
+  if (rawNote) {
+    try {
+      readNote = decodeURIComponent(rawNote);
+    } catch (e) {
+      console.error("Lỗi giải mã URI:", e);
+      readNote = "[Lỗi định dạng dữ liệu]";
+    }
+  }
 
   return (
     <div style={{ marginTop: "50px", padding: "5%" }}>
