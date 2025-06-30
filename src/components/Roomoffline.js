@@ -338,34 +338,7 @@ const Room = ({ setSttRoom }) => {
         <b style={{ fontSize: "small" }}>{params.get("a")}</b>
         <i style={{ fontSize: "small" }}>{splitIntoChunks(params.get("b"))}</i>
         <hr />
-        {SttCoundown === "01" || numberBegin === 0 ? (
-          <button
-            className="btn btn-primary"
-            style={{
-              borderRadius: "5px",
-              width: "50px",
-              height: "50px",
-              fontSize: "25px",
-            }}
-            onClick={() => {
-              if (numberBegin === 0) {
-                setNumberBegin((D) => D + 1);
-                setTimeout(() => {
-                  setSttCoundown("02");
-                }, 100);
-              } else {
-                setSttCoundown("02");
-              }
-            }}
-          >
-            +
-          </button>
-        ) : null}
-        <br />
-        <hr />
         <div id="NOPBAITAP">
-          <i>Chỉ dùng để nộp bài tập về nhà!</i>
-          <b>Nhập tên khi nộp bài!</b>
           <input
             className="form-control"
             id="nameInput"
@@ -376,12 +349,7 @@ const Room = ({ setSttRoom }) => {
                 e.target.value = e.target.value.slice(0, 20);
               }
             }}
-          />
-          {/* <input
-            className="form-control"
-            id="emailInput"
-            placeholder="Nhập email nếu muốn nhận thông báo"
-          /> */}
+          />{" "}
           <button
             onClick={() => {
               // Get input values
@@ -465,12 +433,43 @@ const Room = ({ setSttRoom }) => {
               }
             }}
             className={`btn ${Score > 20 ? "btn-danger" : "btn-secondary"}`}
-            disabled={Score <= 20}
-            style={Score <= 20 ? { opacity: 0.6, cursor: "not-allowed" } : {}}
+            disabled={Score !== 0 && Score % 10 !== 0}
+            style={
+              Score !== 0 && Score % 10 === 0
+                ? { opacity: 0.6, cursor: "not-allowed" }
+                : {}
+            }
           >
             NỘP BÀI TẬP VỀ NHÀ
           </button>
+          <i>Chỉ dùng để nộp bài tập về nhà!</i>
+          <b>Nhập tên khi nộp bài!</b>
         </div>
+        <hr />
+        {SttCoundown === "01" || numberBegin === 0 ? (
+          <button
+            className="btn btn-primary"
+            style={{
+              borderRadius: "5px",
+              width: "50px",
+              height: "50px",
+              fontSize: "25px",
+            }}
+            onClick={() => {
+              if (numberBegin === 0) {
+                setNumberBegin((D) => D + 1);
+                setTimeout(() => {
+                  setSttCoundown("02");
+                }, 100);
+              } else {
+                setSttCoundown("02");
+              }
+            }}
+          >
+            +
+          </button>
+        ) : null}
+        <br />
       </div>
 
       <div style={{ flex: 8 }}>
