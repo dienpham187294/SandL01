@@ -1,8 +1,5 @@
 import React, { useEffect, useState } from "react";
 import LinkAPI from "../ulti/T0_linkApi";
-import ReasonUsage from "./A1_Home_reasonslideshow";
-import MethodUsage from "./A1_Home_methodslideshow";
-import TrustSection from "./A1_Home_trustslideshow";
 const PLAYLIST_ID = "PLC0acE0qMKOkXtgSnKc9uhj6Ekj-8VDo5";
 
 const PLAYLIST_ID_HD = "PLC0acE0qMKOlNOu-mq4kE0gOt6v83RjrS";
@@ -70,225 +67,225 @@ const VideoSlideshow = ({ ID }) => {
   );
 };
 
-// // Component slideshow cho các lý do chọn
-// const ReasonSlideshow = () => {
-//   const [currentIndex, setCurrentIndex] = useState(0);
-//   const reasons = [
-//     {
-//       icon: "bi-lightning-charge",
-//       title: "Hiệu quả nhanh chóng, trực quan",
-//       description:
-//         "Phương pháp học tập được thiết kế để mang lại kết quả nhanh chóng và dễ nhận biết",
-//     },
-//     {
-//       icon: "bi-people",
-//       title: "Phù hợp nhiều lứa tuổi",
-//       description:
-//         "Từ học sinh đến người đi làm, phù hợp với mọi lứa tuổi và trình độ",
-//     },
-//     {
-//       icon: "bi-arrow-up-circle",
-//       title: "Mất gốc vẫn luyện được",
-//       description:
-//         "Dù bạn đã quên nhiều kiến thức, chúng tôi sẽ giúp bạn xây dựng lại từ đầu",
-//     },
-//     {
-//       icon: "bi-laptop",
-//       title: "Học online dễ dàng",
-//       description:
-//         "Học mọi lúc, mọi nơi với nền tảng trực tuyến hiện đại và thân thiện",
-//     },
-//   ];
+// Component slideshow cho các lý do chọn
+const ReasonSlideshow = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const reasons = [
+    {
+      icon: "bi-lightning-charge",
+      title: "Hiệu quả nhanh chóng, trực quan",
+      description:
+        "Phương pháp học tập được thiết kế để mang lại kết quả nhanh chóng và dễ nhận biết",
+    },
+    {
+      icon: "bi-people",
+      title: "Phù hợp nhiều lứa tuổi",
+      description:
+        "Từ học sinh đến người đi làm, phù hợp với mọi lứa tuổi và trình độ",
+    },
+    {
+      icon: "bi-arrow-up-circle",
+      title: "Mất gốc vẫn luyện được",
+      description:
+        "Dù bạn đã quên nhiều kiến thức, chúng tôi sẽ giúp bạn xây dựng lại từ đầu",
+    },
+    {
+      icon: "bi-laptop",
+      title: "Học online dễ dàng",
+      description:
+        "Học mọi lúc, mọi nơi với nền tảng trực tuyến hiện đại và thân thiện",
+    },
+  ];
 
-//   const nextReason = () => {
-//     setCurrentIndex((prev) => (prev + 1) % reasons.length);
-//   };
+  const nextReason = () => {
+    setCurrentIndex((prev) => (prev + 1) % reasons.length);
+  };
 
-//   const prevReason = () => {
-//     setCurrentIndex((prev) => (prev - 1 + reasons.length) % reasons.length);
-//   };
+  const prevReason = () => {
+    setCurrentIndex((prev) => (prev - 1 + reasons.length) % reasons.length);
+  };
 
-//   return (
-//     <div className="text-center py-4">
-//       <div
-//         className="card border-0 shadow-sm mx-auto"
-//         style={{ maxWidth: "500px" }}
-//       >
-//         <div className="card-body p-5">
-//           <i
-//             className={`bi ${reasons[currentIndex].icon} text-primary`}
-//             style={{ fontSize: "3rem" }}
-//           ></i>
-//           <h4 className="card-title mt-3 mb-3 text-dark">
-//             {reasons[currentIndex].title}
-//           </h4>
-//           <p className="card-text text-muted">
-//             {reasons[currentIndex].description}
-//           </p>
-//         </div>
-//       </div>
+  return (
+    <div className="text-center py-4">
+      <div
+        className="card border-0 shadow-sm mx-auto"
+        style={{ maxWidth: "500px" }}
+      >
+        <div className="card-body p-5">
+          <i
+            className={`bi ${reasons[currentIndex].icon} text-primary`}
+            style={{ fontSize: "3rem" }}
+          ></i>
+          <h4 className="card-title mt-3 mb-3 text-dark">
+            {reasons[currentIndex].title}
+          </h4>
+          <p className="card-text text-muted">
+            {reasons[currentIndex].description}
+          </p>
+        </div>
+      </div>
 
-//       <div className="d-flex justify-content-center align-items-center mt-4">
-//         <button className="btn btn-outline-primary me-3" onClick={prevReason}>
-//           <i className="bi bi-chevron-left"></i>
-//         </button>
-//         <div className="d-flex gap-2">
-//           {reasons.map((_, index) => (
-//             <div
-//               key={index}
-//               className={`rounded-circle ${
-//                 index === currentIndex ? "bg-primary" : "bg-light"
-//               }`}
-//               style={{ width: "10px", height: "10px" }}
-//             ></div>
-//           ))}
-//         </div>
-//         <button className="btn btn-outline-primary ms-3" onClick={nextReason}>
-//           <i className="bi bi-chevron-right"></i>
-//         </button>
-//       </div>
-//     </div>
-//   );
-// };
+      <div className="d-flex justify-content-center align-items-center mt-4">
+        <button className="btn btn-outline-primary me-3" onClick={prevReason}>
+          <i className="bi bi-chevron-left"></i>
+        </button>
+        <div className="d-flex gap-2">
+          {reasons.map((_, index) => (
+            <div
+              key={index}
+              className={`rounded-circle ${
+                index === currentIndex ? "bg-primary" : "bg-light"
+              }`}
+              style={{ width: "10px", height: "10px" }}
+            ></div>
+          ))}
+        </div>
+        <button className="btn btn-outline-primary ms-3" onClick={nextReason}>
+          <i className="bi bi-chevron-right"></i>
+        </button>
+      </div>
+    </div>
+  );
+};
 
 // Component slideshow phương pháp
-// const MethodSlideshow = () => {
-//   const [currentIndex, setCurrentIndex] = useState(0);
-//   const methods = [
-//     {
-//       icon: "bi-robot",
-//       title: "Ứng dụng công nghệ trí tuệ nhân tạo",
-//       description:
-//         "Sử dụng AI để cá nhân hóa trải nghiệm học tập cho từng học viên",
-//     },
-//     {
-//       icon: "bi-person-heart",
-//       title: "Thầy cô tận tình chỉ dạy",
-//       description:
-//         "Đội ngũ giáo viên giàu kinh nghiệm, luôn sẵn sàng hỗ trợ học viên",
-//     },
-//     {
-//       icon: "bi-music-note-beamed",
-//       title: "Luyện từ nền tảng ghép âm",
-//       description: "Phương pháp ghép âm độc đáo giúp phát âm chuẩn từ cơ bản",
-//     },
-//     {
-//       icon: "bi-repeat",
-//       title: "Luyện tập nghe nói liên tục",
-//       description:
-//         "Thực hành nhiều lần để tạo phản xạ tự nhiên trong giao tiếp",
-//     },
-//     {
-//       icon: "bi-emoji-smile",
-//       title: "Không áp lực, không stress",
-//       description:
-//         "Học tập thoải mái, không bắt phải suy nghĩ hay áp lực bài tập",
-//     },
-//   ];
+const MethodSlideshow = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const methods = [
+    {
+      icon: "bi-robot",
+      title: "Ứng dụng công nghệ trí tuệ nhân tạo",
+      description:
+        "Sử dụng AI để cá nhân hóa trải nghiệm học tập cho từng học viên",
+    },
+    {
+      icon: "bi-person-heart",
+      title: "Thầy cô tận tình chỉ dạy",
+      description:
+        "Đội ngũ giáo viên giàu kinh nghiệm, luôn sẵn sàng hỗ trợ học viên",
+    },
+    {
+      icon: "bi-music-note-beamed",
+      title: "Luyện từ nền tảng ghép âm",
+      description: "Phương pháp ghép âm độc đáo giúp phát âm chuẩn từ cơ bản",
+    },
+    {
+      icon: "bi-repeat",
+      title: "Luyện tập nghe nói liên tục",
+      description:
+        "Thực hành nhiều lần để tạo phản xạ tự nhiên trong giao tiếp",
+    },
+    {
+      icon: "bi-emoji-smile",
+      title: "Không áp lực, không stress",
+      description:
+        "Học tập thoải mái, không bắt phải suy nghĩ hay áp lực bài tập",
+    },
+  ];
 
-//   const nextMethod = () => {
-//     setCurrentIndex((prev) => (prev + 1) % methods.length);
-//   };
+  const nextMethod = () => {
+    setCurrentIndex((prev) => (prev + 1) % methods.length);
+  };
 
-//   const prevMethod = () => {
-//     setCurrentIndex((prev) => (prev - 1 + methods.length) % methods.length);
-//   };
+  const prevMethod = () => {
+    setCurrentIndex((prev) => (prev - 1 + methods.length) % methods.length);
+  };
 
-//   return (
-//     <div className="text-center py-4">
-//       <div
-//         className="card border-0 shadow-sm mx-auto"
-//         style={{ maxWidth: "600px" }}
-//       >
-//         <div className="card-body p-5">
-//           <i
-//             className={`bi ${methods[currentIndex].icon} text-success`}
-//             style={{ fontSize: "3rem" }}
-//           ></i>
-//           <h4 className="card-title mt-3 mb-3 text-dark">
-//             {methods[currentIndex].title}
-//           </h4>
-//           <p className="card-text text-muted">
-//             {methods[currentIndex].description}
-//           </p>
-//         </div>
-//       </div>
+  return (
+    <div className="text-center py-4">
+      <div
+        className="card border-0 shadow-sm mx-auto"
+        style={{ maxWidth: "600px" }}
+      >
+        <div className="card-body p-5">
+          <i
+            className={`bi ${methods[currentIndex].icon} text-success`}
+            style={{ fontSize: "3rem" }}
+          ></i>
+          <h4 className="card-title mt-3 mb-3 text-dark">
+            {methods[currentIndex].title}
+          </h4>
+          <p className="card-text text-muted">
+            {methods[currentIndex].description}
+          </p>
+        </div>
+      </div>
 
-//       <div className="d-flex justify-content-center align-items-center mt-4">
-//         <button className="btn btn-outline-success me-3" onClick={prevMethod}>
-//           <i className="bi bi-chevron-left"></i>
-//         </button>
-//         <div className="d-flex gap-2">
-//           {methods.map((_, index) => (
-//             <div
-//               key={index}
-//               className={`rounded-circle ${
-//                 index === currentIndex ? "bg-success" : "bg-light"
-//               }`}
-//               style={{ width: "10px", height: "10px" }}
-//             ></div>
-//           ))}
-//         </div>
-//         <button className="btn btn-outline-success ms-3" onClick={nextMethod}>
-//           <i className="bi bi-chevron-right"></i>
-//         </button>
-//       </div>
-//     </div>
-//   );
-// };
+      <div className="d-flex justify-content-center align-items-center mt-4">
+        <button className="btn btn-outline-success me-3" onClick={prevMethod}>
+          <i className="bi bi-chevron-left"></i>
+        </button>
+        <div className="d-flex gap-2">
+          {methods.map((_, index) => (
+            <div
+              key={index}
+              className={`rounded-circle ${
+                index === currentIndex ? "bg-success" : "bg-light"
+              }`}
+              style={{ width: "10px", height: "10px" }}
+            ></div>
+          ))}
+        </div>
+        <button className="btn btn-outline-success ms-3" onClick={nextMethod}>
+          <i className="bi bi-chevron-right"></i>
+        </button>
+      </div>
+    </div>
+  );
+};
 
 // Component slideshow tin tưởng
-// const TrustSlideshow = () => {
-//   const [currentIndex, setCurrentIndex] = useState(0);
-//   const trustPoints = [
-//     {
-//       icon: "bi-eye",
-//       title: "Trăm nghe không bằng một thấy",
-//       description:
-//         "Châm ngôn của chúng tôi luôn là trăm nghe không bằng một thấy. Trăm thấy không bằng một thử.",
-//     },
-//     {
-//       icon: "bi-gift",
-//       title: "Trải nghiệm miễn phí",
-//       description:
-//         "Hãy tham gia khóa học miễn phí 4 buổi để được trải nghiệm phương pháp của chúng tôi.",
-//     },
-//   ];
+const TrustSlideshow = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const trustPoints = [
+    {
+      icon: "bi-eye",
+      title: "Trăm nghe không bằng một thấy",
+      description:
+        "Châm ngôn của chúng tôi luôn là trăm nghe không bằng một thấy. Trăm thấy không bằng một thử.",
+    },
+    {
+      icon: "bi-gift",
+      title: "Trải nghiệm miễn phí",
+      description:
+        "Hãy tham gia khóa học miễn phí 4 buổi để được trải nghiệm phương pháp của chúng tôi.",
+    },
+  ];
 
-//   const toggleTrust = () => {
-//     setCurrentIndex((prev) => (prev + 1) % trustPoints.length);
-//   };
+  const toggleTrust = () => {
+    setCurrentIndex((prev) => (prev + 1) % trustPoints.length);
+  };
 
-//   return (
-//     <div className="text-center py-4">
-//       <div
-//         className="card border-0 shadow-sm mx-auto"
-//         style={{ maxWidth: "600px" }}
-//       >
-//         <div className="card-body p-5">
-//           <i
-//             className={`bi ${trustPoints[currentIndex].icon} text-warning`}
-//             style={{ fontSize: "3rem" }}
-//           ></i>
-//           <h4 className="card-title mt-3 mb-3 text-dark">
-//             {trustPoints[currentIndex].title}
-//           </h4>
-//           <p className="card-text text-muted">
-//             {trustPoints[currentIndex].description}
-//           </p>
-//         </div>
-//       </div>
+  return (
+    <div className="text-center py-4">
+      <div
+        className="card border-0 shadow-sm mx-auto"
+        style={{ maxWidth: "600px" }}
+      >
+        <div className="card-body p-5">
+          <i
+            className={`bi ${trustPoints[currentIndex].icon} text-warning`}
+            style={{ fontSize: "3rem" }}
+          ></i>
+          <h4 className="card-title mt-3 mb-3 text-dark">
+            {trustPoints[currentIndex].title}
+          </h4>
+          <p className="card-text text-muted">
+            {trustPoints[currentIndex].description}
+          </p>
+        </div>
+      </div>
 
-//       <div className="d-flex justify-content-center align-items-center mt-4">
-//         <button className="btn btn-warning" onClick={toggleTrust}>
-//           {currentIndex === 0
-//             ? "Xem trải nghiệm miễn phí"
-//             : "Quay lại châm ngôn"}
-//         </button>
-//       </div>
-//     </div>
-//   );
-// };
+      <div className="d-flex justify-content-center align-items-center mt-4">
+        <button className="btn btn-warning" onClick={toggleTrust}>
+          {currentIndex === 0
+            ? "Xem trải nghiệm miễn phí"
+            : "Quay lại châm ngôn"}
+        </button>
+      </div>
+    </div>
+  );
+};
 
 // Component form đăng ký
 const RegistrationForm = () => {
@@ -485,7 +482,16 @@ const EnglishLandingPage = () => {
       </section>
 
       {/* Why Choose Us Section */}
-      <ReasonUsage />
+      <section className="py-5">
+        <div className="container">
+          <h1 className="text-center text-white mb-5 display-5 fw-bold">
+            Tại sao lại chọn chúng tôi?
+          </h1>
+          <div className="bg-white rounded-4 shadow-lg p-4">
+            <ReasonSlideshow />
+          </div>
+        </div>
+      </section>
       {/* Video Section */}
       <section className="py-5">
         {/* <h2 className="h3 mb-5 opacity-75">
@@ -506,7 +512,7 @@ const EnglishLandingPage = () => {
         </div>
       </section>
       {/* Method Section */}
-      {/* <section className="py-5">
+      <section className="py-5">
         <div className="container">
           <h1 className="text-center text-white mb-5 display-5 fw-bold">
             Tại sao chúng tôi giúp các học viên tiến bộ trong việc nghe nói
@@ -516,12 +522,20 @@ const EnglishLandingPage = () => {
             <MethodSlideshow />
           </div>
         </div>
-      </section> */}
-      <MethodUsage />
+      </section>
 
       {/* Trust Section */}
+      <section className="py-5">
+        <div className="container">
+          <h1 className="text-center text-white mb-5 display-5 fw-bold">
+            Làm sao để tin tưởng được?
+          </h1>
+          <div className="bg-white rounded-4 shadow-lg p-4">
+            <TrustSlideshow />
+          </div>
+        </div>
+      </section>
 
-      <TrustSection />
       {/* Registration Section */}
       <section className="py-5">
         <div className="container">
