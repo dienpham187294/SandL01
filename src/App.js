@@ -179,6 +179,7 @@ function cleanExpiredScoresAndOldItems() {
     "nameDinhDanh",
     "speechly-auth-token",
     "speechly-device-id",
+    "groupChat",
   ];
 
   for (let i = 0; i < localStorage.length; i++) {
