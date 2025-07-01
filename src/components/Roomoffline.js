@@ -432,7 +432,7 @@ const Room = ({ setSttRoom }) => {
                 submitButton.innerHTML = "NỘP BÀI TẬP VỀ NHÀ";
               }
             }}
-            className={`btn ${Score > 20 ? "btn-danger" : "btn-secondary"}`}
+            className={`btn ${Score > 0 ? "btn-danger" : "btn-secondary"}`}
             disabled={Score <= 0}
             style={Score > 0 ? { opacity: 0.6, cursor: "not-allowed" } : {}}
           >
