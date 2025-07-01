@@ -433,12 +433,8 @@ const Room = ({ setSttRoom }) => {
               }
             }}
             className={`btn ${Score > 20 ? "btn-danger" : "btn-secondary"}`}
-            disabled={Score !== 0 && Score % 10 !== 0}
-            style={
-              Score !== 0 && Score % 10 === 0
-                ? { opacity: 0.6, cursor: "not-allowed" }
-                : {}
-            }
+            disabled={Score <= 0}
+            style={Score > 0 ? { opacity: 0.6, cursor: "not-allowed" } : {}}
           >
             NỘP BÀI TẬP VỀ NHÀ
           </button>
