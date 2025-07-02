@@ -3099,8 +3099,8 @@
           "HD-06": null
         },
         {
-          "HD-01": "Free drink with every pi a!",
-          "HD-02": "You get a free drink when you buy pi a",
+          "HD-01": "Free drink with every pizza!",
+          "HD-02": "You get a free drink when you buy pizza",
           "HD-03": "Menu poster or table sign",
           "HD-04": null,
           "HD-05": null,
@@ -3305,8 +3305,8 @@
           "TV-06": null
         },
         {
-          "TV-01": "Free drink with every pi a!",
-          "TV-02": "You get a free drink when you buy pi a",
+          "TV-01": "Free drink with every pizza!",
+          "TV-02": "You get a free drink when you buy pizza",
           "TV-03": "Menu poster or table sign",
           "TV-04": null,
           "TV-05": null,
@@ -3455,8 +3455,8 @@
           "IPA-04": "noʊ ˈaʊtˈsaɪd fud əˈlaʊd hir."
         },
         {
-          "IPA-01": "Free drink with every pi a!",
-          "IPA-02": "Đồ uống miễn phí với mỗi chiếc pi a!",
+          "IPA-01": "Free drink with every pizza!",
+          "IPA-02": "Đồ uống miễn phí với mỗi chiếc pizza!",
           "IPA-03": "friː drɪŋk wɪð ˈɛvri ˈpiːtsə!",
           "IPA-04": "fri drɪŋk wɪð ˈɛvəri ˈpitsə!"
         },
@@ -3515,8 +3515,8 @@
           "IPA-04": "ju ˈkænɑt brɪŋ fud frʌm ˈaʊtˈsaɪd"
         },
         {
-          "IPA-01": "You get a free drink when you buy pi a",
-          "IPA-02": "Bạn được tặng một đồ uống miễn phí khi mua pi a",
+          "IPA-01": "You get a free drink when you buy pizza",
+          "IPA-02": "Bạn được tặng một đồ uống miễn phí khi mua pizza",
           "IPA-03": "juː ɡɛt ə friː drɪŋk wɛn juː baɪ ˈpiːtsə",
           "IPA-04": "ju ɡɛt ə fri drɪŋk wɛn ju baɪ ˈpitsə"
         },
@@ -3807,13 +3807,13 @@
     "charactor": [
       {
         "type": "B1",
-        "fsp": "You get a free drink when you buy pi a. What is the notice or message?",
+        "fsp": "You get a free drink when you buy pizza. What is the notice or message?",
         "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
         "name": "Ashley",
         "gender": "female",
         "data": [
           {
-            "qs": ["Free drink with every pi a!"],
+            "qs": ["Free drink with every pizza!"],
             "aw": ["Good"],
             "submit": ["FN01"],
             "action": ["FN01"],
@@ -3828,7 +3828,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "You get a free drink when you buy pi a. What is the notice or message?",
+            "st": "You get a free drink when you buy pizza. What is the notice or message?",
             "id": "E627_F2a278"
           }
         ]
@@ -3893,9 +3893,9 @@
           },
           {
             "qs": ["What is the notice or message?"],
-            "aw": ["Free drink with every pi a!"],
+            "aw": ["Free drink with every pizza!"],
             "aw01": [
-              { "st": "Free drink with every pi a!", "id": "E627_F2a307" }
+              { "st": "Free drink with every pizza!", "id": "E627_F2a307" }
             ]
           }
         ],
@@ -3979,7 +3979,7 @@
         "gender": "female",
         "data": [
           {
-            "qs": ["You get a free drink when you buy pi a"],
+            "qs": ["You get a free drink when you buy pizza"],
             "aw": ["Good"],
             "submit": ["FN01"],
             "action": ["FN01"],
@@ -3992,9 +3992,9 @@
           },
           {
             "qs": ["What is the notice or message?"],
-            "aw": ["Free drink with every pi a!"],
+            "aw": ["Free drink with every pizza!"],
             "aw01": [
-              { "st": "Free drink with every pi a!", "id": "E627_F2a307" }
+              { "st": "Free drink with every pizza!", "id": "E627_F2a307" }
             ]
           }
         ],
@@ -4169,7 +4169,7 @@
       },
       {
         "type": "D1",
-        "fsp": "Free drink with every pi a! Mean. You get a free drink when you buy pi a. Yes or no?",
+        "fsp": "Free drink with every pizza! Mean. You get a free drink when you buy pizza. Yes or no?",
         "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
         "name": "Ashley",
         "gender": "female",
@@ -4196,7 +4196,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Free drink with every pi a! Mean. You get a free drink when you buy pi a. Yes or no?",
+            "st": "Free drink with every pizza! Mean. You get a free drink when you buy pizza. Yes or no?",
             "id": "E627_F2a352"
           }
         ]
@@ -4735,7 +4735,7 @@
       },
       {
         "type": "C1",
-        "fsp": "Free drink with every pi a!. Where can you find this notice or message?",
+        "fsp": "Free drink with every pizza!. Where can you find this notice or message?",
         "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
         "name": "Emily",
         "gender": "female",
@@ -4756,7 +4756,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Free drink with every pi a!. Where can you find this notice or message?",
+            "st": "Free drink with every pizza!. Where can you find this notice or message?",
             "id": "E627_F2a290"
           }
         ]
@@ -4868,7 +4868,7 @@
         "gender": "female",
         "data": [
           {
-            "qs": ["Free drink with every pi a!"],
+            "qs": ["Free drink with every pizza!"],
             "aw": ["Good"],
             "submit": ["FN01"],
             "action": ["FN01"],
@@ -4881,10 +4881,10 @@
           },
           {
             "qs": ["What is it mean?"],
-            "aw": ["You get a free drink when you buy pi a"],
+            "aw": ["You get a free drink when you buy pizza"],
             "aw01": [
               {
-                "st": "You get a free drink when you buy pi a",
+                "st": "You get a free drink when you buy pizza",
                 "id": "E627_F2a323"
               }
             ]
@@ -5102,13 +5102,13 @@
       },
       {
         "type": "A1",
-        "fsp": "Free drink with every pi a!. What is it mean?",
+        "fsp": "Free drink with every pizza!. What is it mean?",
         "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
         "name": "Jessica",
         "gender": "female",
         "data": [
           {
-            "qs": ["You get a free drink when you buy pi a"],
+            "qs": ["You get a free drink when you buy pizza"],
             "aw": ["Good"],
             "submit": ["FN01"],
             "action": ["FN01"],
@@ -5123,7 +5123,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Free drink with every pi a!. What is it mean?",
+            "st": "Free drink with every pizza!. What is it mean?",
             "id": "E627_F2a266"
           }
         ]
@@ -5240,7 +5240,7 @@
       },
       {
         "type": "D2",
-        "fsp": "Free drink with every pi a! Where you can find. ZZZZB61. Yes or no?",
+        "fsp": "Free drink with every pizza! Where you can find. ZZZZB61. Yes or no?",
         "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
         "name": "Jennifer",
         "gender": "female",
@@ -5267,7 +5267,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Free drink with every pi a! Where you can find. ZZZZB61. Yes or no?",
+            "st": "Free drink with every pizza! Where you can find. ZZZZB61. Yes or no?",
             "id": "E627_F2a400"
           }
         ]
@@ -5567,7 +5567,7 @@
       },
       {
         "type": "D1",
-        "fsp": "Free drink with every pi a! Where you can find. Menu poster or table sign. Yes or no?",
+        "fsp": "Free drink with every pizza! Where you can find. Menu poster or table sign. Yes or no?",
         "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
         "name": "Emily",
         "gender": "female",
@@ -5594,14 +5594,14 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Free drink with every pi a! Where you can find. Menu poster or table sign. Yes or no?",
+            "st": "Free drink with every pizza! Where you can find. Menu poster or table sign. Yes or no?",
             "id": "E627_F2a368"
           }
         ]
       },
       {
         "type": "D2",
-        "fsp": "Free drink with every pi a! Mean. ZZZZB62. Yes or no?",
+        "fsp": "Free drink with every pizza! Mean. ZZZZB62. Yes or no?",
         "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
         "name": "Sarah",
         "gender": "female",
@@ -5628,7 +5628,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Free drink with every pi a! Mean. ZZZZB62. Yes or no?",
+            "st": "Free drink with every pizza! Mean. ZZZZB62. Yes or no?",
             "id": "E627_F2a384"
           }
         ]

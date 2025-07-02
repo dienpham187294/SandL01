@@ -358,7 +358,7 @@ const ChatWidget = () => {
         @media (max-width: 768px) {
           .chat-container-mobile {
             width: ${isOpen ? "350px" : "60px"} !important;
-            height: ${isOpen ? "50vh" : "60px"} !important;
+            height: ${isOpen ? "80vh" : "60px"} !important;
           }
           .chat-icon-mobile {
             width: 60px !important;
@@ -369,7 +369,7 @@ const ChatWidget = () => {
         @media (max-width: 480px) {
           .chat-container-mobile {
             width: ${isOpen ? "300px" : "55px"} !important;
-            height: ${isOpen ? "45vh" : "55px"} !important;
+            height: ${isOpen ? "80vh" : "55px"} !important;
           }
           .chat-icon-mobile {
             width: 55px !important;
