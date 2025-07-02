@@ -10,28 +10,6 @@ const DB_CONFIG = {
   maxSize: 50 * 1024 * 1024, // 50MB
 };
 
-// Hàm kiểm tra trình duyệt Safari với cache localStorage
-const isSafari = () => {
-  // Kiểm tra cache trong localStorage trước
-  const cachedResult = localStorage.getItem("isSafariBrowser");
-
-  if (cachedResult !== null) {
-    return cachedResult === "true";
-  }
-
-  // Nếu chưa có cache thì kiểm tra và lưu kết quả
-  const userAgent = navigator.userAgent.toLowerCase();
-  const result =
-    /safari/.test(userAgent) &&
-    !/chrome/.test(userAgent) &&
-    !/chromium/.test(userAgent);
-
-  // Lưu kết quả vào localStorage
-  localStorage.setItem("isSafariBrowser", result.toString());
-
-  return result;
-};
-
 // Khởi tạo DB
 const initDB = async () => {
   return await openDB(DB_CONFIG.name, DB_CONFIG.version, {
@@ -50,6 +28,7 @@ const getCurrentDBSize = async (db) => {
   const tx = db.transaction(DB_CONFIG.storeName, "readonly");
   const store = tx.objectStore(DB_CONFIG.storeName);
   const keys = await store.getAllKeys();
+
   let totalSize = 0;
   for (const key of keys) {
     const data = await store.get(key);
@@ -57,6 +36,7 @@ const getCurrentDBSize = async (db) => {
       totalSize += data.blob.size;
     }
   }
+
   return { totalSize, entryCount: keys.length };
 };
 
@@ -65,8 +45,10 @@ const cleanOldEntries = async (db, removeCount = 10) => {
   const tx = db.transaction(DB_CONFIG.storeName, "readwrite");
   const store = tx.objectStore(DB_CONFIG.storeName);
   const index = store.index("timestamp");
+
   // Lấy các entry cũ nhất
   const oldEntries = await index.getAll(null, removeCount);
+
   // Xóa các entry cũ
   for (const entry of oldEntries) {
     const cursor = await index.openCursor();
@@ -74,6 +56,7 @@ const cleanOldEntries = async (db, removeCount = 10) => {
       await cursor.delete();
     }
   }
+
   await tx.complete;
   console.log(`Đã xóa ${oldEntries.length} audio cũ khỏi cache`);
 };
@@ -81,10 +64,12 @@ const cleanOldEntries = async (db, removeCount = 10) => {
 // Quản lý dung lượng DB
 const manageDBSize = async (db, newBlobSize) => {
   const { totalSize, entryCount } = await getCurrentDBSize(db);
+
   // Kiểm tra giới hạn số lượng
   if (entryCount >= DB_CONFIG.maxEntries) {
     await cleanOldEntries(db, Math.ceil(DB_CONFIG.maxEntries * 0.2)); // Xóa 20%
   }
+
   // Kiểm tra giới hạn dung lượng
   if (totalSize + newBlobSize > DB_CONFIG.maxSize) {
     const needToFree = totalSize + newBlobSize - DB_CONFIG.maxSize;
@@ -94,33 +79,14 @@ const manageDBSize = async (db, newBlobSize) => {
   }
 };
 
-// Phát từ Blob với hỗ trợ Safari
+// Phát từ Blob
 const playFromBlob = (blob) => {
   const audioUrl = URL.createObjectURL(blob);
   const audioElement = document.createElement("audio");
   audioElement.src = audioUrl;
+  audioElement.autoplay = true;
   audioElement.style.display = "none";
   document.body.appendChild(audioElement);
-
-  // Kiểm tra nếu là Safari thì dùng .click() để kích hoạt âm thanh
-  if (isSafari()) {
-    // Thêm event listener trước khi click
-    audioElement.addEventListener(
-      "canplaythrough",
-      () => {
-        audioElement.play().catch((error) => {
-          console.error("Safari audio play error:", error);
-        });
-      },
-      { once: true }
-    );
-
-    // Sử dụng click() để kích hoạt âm thanh trên Safari
-    audioElement.click();
-  } else {
-    // Trình duyệt khác sử dụng autoplay
-    audioElement.autoplay = true;
-  }
 
   audioElement.onended = () => {
     URL.revokeObjectURL(audioUrl);
@@ -132,33 +98,20 @@ const playFromBlob = (blob) => {
     URL.revokeObjectURL(audioUrl);
     audioElement.remove();
   };
-
-  // Fallback: thử play() nếu autoplay không hoạt động
-  if (!isSafari()) {
-    audioElement.addEventListener(
-      "loadeddata",
-      () => {
-        if (audioElement.paused) {
-          audioElement.play().catch((error) => {
-            console.log("Autoplay prevented, trying manual play:", error);
-          });
-        }
-      },
-      { once: true }
-    );
-  }
 };
 
 // Lưu audio vào DB với metadata
 const saveAudioToDB = async (db, key, blob) => {
   // Quản lý dung lượng trước khi lưu
   await manageDBSize(db, blob.size);
+
   const audioData = {
     blob: blob,
     timestamp: Date.now(),
     size: blob.size,
     created: new Date().toISOString(),
   };
+
   await db.put(DB_CONFIG.storeName, audioData, key);
 };
 
@@ -181,6 +134,7 @@ export default async function read_by_Tts(text, fnReadClient) {
 
     // 2. Fetch từ server với timeout 3 giây
     console.log("Đang tải audio từ server...");
+
     // Tạo AbortController để hủy request khi timeout
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), 3000); // 3 giây
@@ -210,12 +164,14 @@ export default async function read_by_Tts(text, fnReadClient) {
       console.log("Đã lưu và phát audio mới từ server");
     } catch (fetchError) {
       clearTimeout(timeoutId);
+
       // Kiểm tra nếu là lỗi timeout hoặc abort
       if (fetchError.name === "AbortError") {
         console.log("Request timeout sau 3 giây, chuyển sang dùng hàm client");
         fnReadClient();
         return;
       }
+
       // Ném lại lỗi khác để được xử lý ở catch ngoài
       throw fetchError;
     }
