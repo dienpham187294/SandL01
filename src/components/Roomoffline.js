@@ -286,312 +286,492 @@ const Room = ({ setSttRoom }) => {
         borderRadius: "5px",
         padding: "20px 20px",
         display: "flex",
+        maxHeight: "100vh",
       }}
     >
-      <div style={{ flex: 1 }}>
-        <img
-          src="https://i.postimg.cc/Bv9MGGy8/favicon-ico.png"
-          width={"60px"}
-          style={{
-            margin: "10px",
-            border: "1px solid blue",
-            borderRadius: "15px",
-            cursor: "pointer",
-          }}
-          onClick={() => {
-            navigate(
-              "/learninghub/" +
-                roomCode +
-                "?ls=" +
-                currentIndex +
-                "&&Fid=div_01_content_table_to_practice"
-            );
-          }}
-        />
+      <div
+        style={{
+          flex: 1,
+          display: "flex",
+          flexDirection: "column",
+          padding: "2px",
+          gap: "20px",
+          maxWidth: "600px",
+          margin: "0 auto",
+
+          overflow: "auto",
+        }}
+      >
+        {/* Header Section */}
         <div
           style={{
             display: "flex",
-            flexDirection: "column",
             alignItems: "center",
-            justifyContent: "center",
-            backgroundColor: "#e6ccff",
-            transition: "height 2s ease, opacity 1s ease",
-            borderRadius: "15px",
-            border: "1px solid black",
-            padding: "15px",
+            gap: "15px",
+            marginBottom: "10px",
           }}
         >
-          <i>
+          <div style={{ flex: 1 }}>
             {" "}
+            <img
+              src="https://i.postimg.cc/Bv9MGGy8/favicon-ico.png"
+              width="60px"
+              height="60px"
+              style={{
+                border: "1px solid blue",
+                borderRadius: "15px",
+                cursor: "pointer",
+                flexShrink: 0,
+              }}
+              onClick={() => {
+                navigate(
+                  "/learninghub/" +
+                    roomCode +
+                    "?ls=" +
+                    currentIndex +
+                    "&&Fid=div_01_content_table_to_practice"
+                );
+              }}
+            />
+          </div>
+          <div style={{ flex: 1 }}>
+            {/* Start Button */}
+            {(SttCoundown === "01" || numberBegin === 0) && (
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  marginTop: "20px",
+                }}
+              >
+                <button
+                  className="btn btn-primary"
+                  style={{
+                    borderRadius: "50%",
+                    width: "60px",
+                    height: "60px",
+                    fontSize: "24px",
+                    fontWeight: "bold",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    boxShadow: "0 4px 8px rgba(0,0,0,0.2)",
+                  }}
+                  onClick={() => {
+                    if (numberBegin === 0) {
+                      setNumberBegin((D) => D + 1);
+                      setTimeout(() => {
+                        setSttCoundown("02");
+                      }, 100);
+                    } else {
+                      setSttCoundown("02");
+                    }
+                  }}
+                >
+                  +
+                </button>
+              </div>
+            )}
+          </div>
+        </div>
+        {/* Score Card */}
+        <div
+          style={{
+            backgroundColor: "#e6ccff",
+            borderRadius: "15px",
+            border: "1px solid black",
+            padding: "10px",
+          }}
+        >
+          <div
+            style={{
+              fontSize: "14px",
+              fontStyle: "italic",
+              marginBottom: "5px",
+            }}
+          >
             {params.get("time")
               ? decodeURIComponent(params.get("time")).slice(0, 9)
               : null}
-          </i>
-          <h3>Điểm: {Score} </h3>
-          <h3>Lượt {numberBegin}</h3>
+          </div>
+          <h3 style={{ color: "blue" }}>
+            <b> Điểm ({Score})</b> /Lượt {numberBegin}
+          </h3>
         </div>
-        {formatTime(new Date())} <br />
-        {/* Ngày giao: <b>{decodeURIComponent(params.get("time"))}</b>
-        <br /> */}
-        Mã bài tập:
-        <b>{params.get("note")}</b> <i>{currentIndex}</i>
-        <b style={{ fontSize: "small" }}>{params.get("a")}</b>
-        <i style={{ fontSize: "small" }}>{splitIntoChunks(params.get("b"))}</i>
-        <hr />
-        <div id="NOPBAITAP">
-          <input
-            className="form-control"
-            id="nameInput"
-            placeholder="Nhập tên (bắt buộc, tối đa 10 ký tự)"
-            maxLength={20}
-            onChange={(e) => {
-              if (e.target.value.length > 20) {
-                e.target.value = e.target.value.slice(0, 20);
-              }
-            }}
-          />{" "}
-          <button
-            onClick={() => {
-              // Get input values
-              const nameValue = document.getElementById("nameInput").value;
-              // const emailValue = document.getElementById("emailInput").value;
-
-              // Check if name is provided and not too long
-              if (!nameValue.trim()) {
-                alert("Vui lòng nhập tên để nộp bài");
-                return;
-              }
-
-              if (nameValue.trim().length > 10) {
-                alert("Tên không được vượt quá 10 ký tự");
-                return;
-              }
-
-              // Check email format if provided
-              // if (emailValue.trim() && !emailValue.includes("@")) {
-              //   alert("Vui lòng nhập email đúng định dạng (phải có @)");
-              //   return;
-              // }
-
-              // Disable button during submission
-              const submitButton = document.activeElement;
-              submitButton.disabled = true;
-              submitButton.innerHTML = "ĐANG NỘP BÀI...";
-
-              try {
-                const requestBody = {
-                  subjectText:
-                    nameValue +
-                    " | Nộp bài tập | " +
-                    decodeURIComponent(params.get("time")) +
-                    " | Điểm: " +
-                    Score +
-                    " | " +
-                    formatTime(new Date()) +
-                    " | Link: " +
-                    window.location.href,
-                  contentText: window.location.href,
-                  toEmail: "pvkadien0209@gmail.com",
-                };
-
-                fetch(LinkAPI + "mail-homework", {
-                  method: "POST",
-                  headers: { "Content-Type": "application/json" },
-                  body: JSON.stringify(requestBody),
-                })
-                  .then((response) => response.json())
-                  .then((json) => {
-                    if (json.success) {
-                      const container = document.getElementById("NOPBAITAP");
-                      if (container) {
-                        container.innerHTML =
-                          `Đã nộp bài tập thành công!<h1> Điểm số: ` +
-                          Score +
-                          `</h1>Chụp gửi kết quả này cho thầy cô!`;
-                      }
-                      setScore(0);
-                    } else {
-                      alert("Nộp bài không thành công, vui lòng thử lại");
-                    }
-                    // Re-enable button after response received
-                    submitButton.disabled = false;
-                    submitButton.innerHTML = "NỘP BÀI TẬP VỀ NHÀ";
-                  })
-                  .catch((error) => {
-                    console.error("Lỗi khi nộp bài:", error);
-                    alert("Có lỗi xảy ra, vui lòng thử lại sau");
-                    // Re-enable button after error
-                    submitButton.disabled = false;
-                    submitButton.innerHTML = "NỘP BÀI TẬP VỀ NHÀ";
-                  });
-              } catch (error) {
-                console.error("Lỗi:", error);
-                alert("Có lỗi xảy ra, vui lòng thử lại sau");
-                // Re-enable button after error
-                submitButton.disabled = false;
-                submitButton.innerHTML = "NỘP BÀI TẬP VỀ NHÀ";
-              }
-            }}
-            className={`btn ${Score > 0 ? "btn-danger" : "btn-secondary"}`}
-            disabled={Score <= 0}
-            style={Score <= 0 ? { opacity: 0.6, cursor: "not-allowed" } : {}}
-          >
-            NỘP BÀI TẬP VỀ NHÀ
-          </button>
-          <i>Chỉ dùng để nộp bài tập về nhà!</i>
-          <b>Nhập tên khi nộp bài!</b>
-        </div>
-        <hr />
-        {SttCoundown === "01" || numberBegin === 0 ? (
-          <button
-            className="btn btn-primary"
-            style={{
-              borderRadius: "5px",
-              width: "50px",
-              height: "50px",
-              fontSize: "25px",
-            }}
-            onClick={() => {
-              if (numberBegin === 0) {
-                setNumberBegin((D) => D + 1);
-                setTimeout(() => {
-                  setSttCoundown("02");
-                }, 100);
-              } else {
-                setSttCoundown("02");
-              }
-            }}
-          >
-            +
-          </button>
-        ) : null}
-        <br />
-      </div>
-
-      <div style={{ flex: 8 }}>
-        {" "}
+        {/* Info Section */}
         <div
           style={{
-            height: "90vh",
-            width: "100%",
-            overflow: "hidden",
-            padding: "10px",
-            border: "1px solid black",
+            backgroundColor: "#f8f9fa",
+            padding: "15px",
             borderRadius: "10px",
-            backgroundColor: "#fff0e6",
+            border: "1px solid #dee2e6",
           }}
         >
-          {SttCoundown === "02" ? (
-            <div>
-              <PracticeDIV
-                DataPracticingOverRoll={DataPracticingOverRoll}
-                DataPracticingCharactor={DataPracticingCharactor}
-                Score={Score}
-                setScore={setScore}
-                numberBegin={numberBegin}
-                indexSets={
-                  IndexSets
-                    ? IndexSets[(numberBegin - 1) % IndexSets.length]
-                    : numberBegin - 1
-                }
-                TimeDefault={params.get("t") || 120}
-                regRate={params.get("r") || 0.5}
-                regRate_01={params.get("r01") || 0.6}
-                handleIncrementReadyClick={() => setNumberBegin((D) => D + 1)}
-                IsPause={false}
-                NumberOneByOneHost={0}
-                tableView={params.get("tb") || "Normal"}
-                setMessage={setMessage}
-                roomCode={roomCode}
-              />
-            </div>
-          ) : null}
-          {SttCoundown === "01" || numberBegin === 0 ? (
-            <button
-              className="btn btn-primary"
+          <div style={{ marginBottom: "10px" }}>
+            <strong>Thời gian:</strong> {formatTime(new Date())}
+          </div>
+          <div style={{ marginBottom: "10px" }}>
+            <strong>Mã bài tập:</strong> {params.get("note")}{" "}
+            <em>{currentIndex}</em>
+          </div>
+          <div style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
+            <span style={{ fontSize: "small", fontWeight: "bold" }}>
+              {params.get("a")}
+            </span>
+            <span style={{ fontSize: "small", fontStyle: "italic" }}>
+              {splitIntoChunks(params.get("b"))}
+            </span>
+          </div>
+        </div>
+
+        {/* Submit Section */}
+        <div
+          id="NOPBAITAP"
+          style={{
+            backgroundColor: "#fff3cd",
+            padding: "20px",
+            borderRadius: "10px",
+            border: "1px solid #ffeaa7",
+          }}
+        >
+          <div style={{ marginBottom: "15px" }}>
+            <input
+              className="form-control"
+              id="nameInput"
+              placeholder="Nhập tên (bắt buộc, tối đa 10 ký tự)"
+              maxLength={20}
               style={{
-                borderRadius: "50%", // Làm phần tử có dạng hình tròn
-                width: "200px",
-                height: "200px",
-                fontSize: "50px",
-                color: "black",
-                position: "absolute", // Định vị con trong cha
-                top: "50%", // Đưa đến 50% chiều cao của cha
-                left: "50%", // Đưa đến 50% chiều rộng của cha
-                transform: "translate(-50%, -50%)", // Dịch chuyển để căn giữa hoàn toàn
-                backgroundImage:
-                  "url('https://i.postimg.cc/s2GYz4SL/David-20.jpg')", // Sử dụng hình ảnh làm nền
-                backgroundSize: "cover", // Hình ảnh sẽ bao phủ toàn bộ phần tử
-                backgroundPosition: "center", // Hình ảnh sẽ căn giữa
+                width: "100%",
+                padding: "10px",
+                borderRadius: "5px",
+                border: "1px solid #ccc",
+                marginBottom: "10px",
               }}
-              onClick={() => {
-                if (numberBegin === 0) {
-                  setNumberBegin((D) => D + 1);
-                  setTimeout(() => {
-                    setSttCoundown("02");
-                  }, 100);
-                } else {
-                  setSttCoundown("02");
+              onChange={(e) => {
+                if (e.target.value.length > 20) {
+                  e.target.value = e.target.value.slice(0, 20);
                 }
+              }}
+            />
+
+            <button
+              onClick={() => {
+                // Get input values
+                const nameValue = document.getElementById("nameInput").value;
+
+                // Check if name is provided and not too long
+                if (!nameValue.trim()) {
+                  alert("Vui lòng nhập tên để nộp bài");
+                  return;
+                }
+                if (nameValue.trim().length > 10) {
+                  alert("Tên không được vượt quá 10 ký tự");
+                  return;
+                }
+
+                // Disable button during submission
+                const submitButton = document.activeElement;
+                submitButton.disabled = true;
+                submitButton.innerHTML = "ĐANG NỘP BÀI...";
+
+                try {
+                  const requestBody = {
+                    subjectText:
+                      nameValue +
+                      " | Nộp bài tập | " +
+                      decodeURIComponent(params.get("time")) +
+                      " | Điểm: " +
+                      Score +
+                      " | " +
+                      formatTime(new Date()) +
+                      " | Link: " +
+                      window.location.href,
+                    contentText: window.location.href,
+                    toEmail: "pvkadien0209@gmail.com",
+                  };
+
+                  fetch(LinkAPI + "mail-homework", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify(requestBody),
+                  })
+                    .then((response) => response.json())
+                    .then((json) => {
+                      if (json.success) {
+                        const container = document.getElementById("NOPBAITAP");
+                        if (container) {
+                          container.innerHTML = `<div style="text-align: center; padding: 20px;">
+                        <h2 style="color: #28a745;">✅ Đã nộp bài tập thành công!</h2>
+                        <h1 style="color: #007bff; margin: 20px 0;">Điểm số: ${Score}</h1>
+                        <p style="font-size: 16px; color: #6c757d;">Chụp gửi kết quả này cho thầy cô!</p>
+                      </div>`;
+                        }
+                        setScore(0);
+                      } else {
+                        alert("Nộp bài không thành công, vui lòng thử lại");
+                      }
+
+                      // Re-enable button after response received
+                      submitButton.disabled = false;
+                      submitButton.innerHTML = "NỘP BÀI TẬP VỀ NHÀ";
+                    })
+                    .catch((error) => {
+                      console.error("Lỗi khi nộp bài:", error);
+                      alert("Có lỗi xảy ra, vui lòng thử lại sau");
+
+                      // Re-enable button after error
+                      submitButton.disabled = false;
+                      submitButton.innerHTML = "NỘP BÀI TẬP VỀ NHÀ";
+                    });
+                } catch (error) {
+                  console.error("Lỗi:", error);
+                  alert("Có lỗi xảy ra, vui lòng thử lại sau");
+
+                  // Re-enable button after error
+                  submitButton.disabled = false;
+                  submitButton.innerHTML = "NỘP BÀI TẬP VỀ NHÀ";
+                }
+              }}
+              className={`btn ${Score > 0 ? "btn-danger" : "btn-secondary"}`}
+              disabled={Score <= 0}
+              style={{
+                width: "100%",
+                padding: "12px",
+                fontSize: "16px",
+                fontWeight: "bold",
+                borderRadius: "8px",
+                ...(Score <= 0 ? { opacity: 0.6, cursor: "not-allowed" } : {}),
               }}
             >
-              {/* <i> Bấm vào đây</i> */}
+              NỘP BÀI TẬP VỀ NHÀ
             </button>
-          ) : null}
+          </div>
+
+          <div style={{ textAlign: "center", fontSize: "14px" }}>
+            <div
+              style={{
+                fontStyle: "italic",
+                color: "#6c757d",
+                marginBottom: "5px",
+              }}
+            >
+              Chỉ dùng để nộp bài tập về nhà!
+            </div>
+            <div style={{ fontWeight: "bold", color: "#dc3545" }}>
+              Nhập tên khi nộp bài!
+            </div>
+          </div>
         </div>
-        {/* <div style={{ width: "100%", border: "1px solid blue" }}>BẢNG</div> */}
       </div>
 
-      {/* <div id="section05">
-        {" "}
-        {LinkAPI.includes(":5000") ? (
-          <div>
-            {" "}
-            <hr />
-            {LinkAPI}
-            <hr />
-            NumberBegin {numberBegin} |{" "}
-            {IndexSets
-              ? IndexSets[(numberBegin - 1) % IndexSets.length]
-              : numberBegin - 1}
-            <hr />
-            AllReady {JSON.stringify(allReady)}
-            <hr />
-            <br />
-            <i>Roominfo:</i>
-            <br />
-            {JSON.stringify(roomInfo)}
-            <br />
-            ONE BY ONE: {JSON.stringify(NumberOneByOneHost)}
-            <br />
-            {JSON.stringify(users)} <br /> <br />
-            <hr />
-            <button
-              onClick={() => {
-                handleUpdateNewElenment("isReady", true);
+      <div
+        style={{
+          flex: 8,
+          display: "flex",
+          flexDirection: "column",
+          padding: "10px",
+          gap: "10px",
+          minHeight: 0, // Quan trọng để flex item có thể co lại
+        }}
+      >
+        {/* Main Practice Container */}
+        <div
+          style={{
+            flex: 1,
+            display: "flex",
+            flexDirection: "column",
+            border: "1px solid #ddd",
+            borderRadius: "15px",
+            backgroundColor: "#fff0e6",
+            boxShadow: "0 4px 8px rgba(0,0,0,0.1)",
+            overflow: "hidden",
+            position: "relative",
+          }}
+        >
+          {/* Header Bar - Optional status/info */}
+          {SttCoundown === "02" && (
+            <div
+              style={{
+                padding: "",
+                backgroundColor: "#f8f9fa",
+                borderBottom: "1px solid #dee2e6",
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+                fontSize: "14px",
+                color: "#6c757d",
               }}
-            >
-              ALLReady
-            </button>
-            <button
-              onClick={() => {
-                handleUpdateNewElenment("isPause", !userClient.isPause);
-              }}
-            >
-              isPause
-            </button>
-            <button
-              onClick={() => {
-                handleUpdateNewElenment("incrementReady", true);
-              }}
-            >
-              ready
-            </button>
-            <br />
+            ></div>
+          )}
+          {/* Practice Content Area */}
+          <div
+            style={{
+              flex: 1,
+              display: "flex",
+              flexDirection: "column",
+              padding: SttCoundown === "02" ? "20px" : "0",
+              overflow: "hidden",
+              position: "relative",
+            }}
+          >
+            {/* Active Practice Component */}
+            {SttCoundown === "02" && (
+              <div
+                style={{
+                  flex: 1,
+                  display: "flex",
+                  flexDirection: "column",
+                  overflow: "hidden",
+                }}
+              >
+                <PracticeDIV
+                  DataPracticingOverRoll={DataPracticingOverRoll}
+                  DataPracticingCharactor={DataPracticingCharactor}
+                  Score={Score}
+                  setScore={setScore}
+                  numberBegin={numberBegin}
+                  indexSets={
+                    IndexSets
+                      ? IndexSets[(numberBegin - 1) % IndexSets.length]
+                      : numberBegin - 1
+                  }
+                  TimeDefault={params.get("t") || 120}
+                  regRate={params.get("r") || 0.5}
+                  regRate_01={params.get("r01") || 0.6}
+                  handleIncrementReadyClick={() => setNumberBegin((D) => D + 1)}
+                  IsPause={false}
+                  NumberOneByOneHost={0}
+                  tableView={params.get("tb") || "Normal"}
+                  setMessage={setMessage}
+                  roomCode={roomCode}
+                />
+              </div>
+            )}
+
+            {/* Welcome/Start Screen */}
+            {(SttCoundown === "01" || numberBegin === 0) && (
+              <div
+                style={{
+                  position: "absolute",
+                  top: 0,
+                  left: 0,
+                  right: 0,
+                  bottom: 0,
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  backgroundColor: "rgba(255, 240, 230, 0.95)",
+                  backdropFilter: "blur(5px)",
+                }}
+              >
+                {/* Welcome Message */}
+                <div
+                  style={{
+                    textAlign: "center",
+                    marginBottom: "40px",
+                    padding: "20px",
+                    backgroundColor: "rgba(255, 255, 255, 0.9)",
+                    borderRadius: "20px",
+                    boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
+                    maxWidth: "500px",
+                  }}
+                >
+                  <h2
+                    style={{
+                      fontSize: "28px",
+                      color: "#2c3e50",
+                      marginBottom: "15px",
+                      fontWeight: "bold",
+                    }}
+                  >
+                    🎯 Sẵn sàng luyện tập?
+                  </h2>
+                  <p
+                    style={{
+                      fontSize: "16px",
+                      color: "#6c757d",
+                      marginBottom: "10px",
+                    }}
+                  >
+                    Nhấn vào hình bên dưới để bắt đầu phiên luyện tập
+                  </p>
+                  <div
+                    style={{
+                      display: "flex",
+                      gap: "20px",
+                      justifyContent: "center",
+                      marginTop: "15px",
+                      fontSize: "14px",
+                      color: "#6c757d",
+                    }}
+                  >
+                    <span>⏱️ Thời gian: {params.get("t") || 120}s</span>
+                    <span>📊 Độ khó: {params.get("r") || 0.5}</span>
+                    <span>🎲 Chế độ: {params.get("tb") || "Normal"}</span>
+                  </div>
+                </div>
+
+                {/* Start Button */}
+                <button
+                  className="btn btn-primary"
+                  style={{
+                    borderRadius: "50%",
+                    width: "180px",
+                    height: "180px",
+                    fontSize: "40px",
+                    fontWeight: "bold",
+                    color: "white",
+                    border: "4px solid #007bff",
+                    backgroundImage:
+                      "url('https://i.postimg.cc/s2GYz4SL/David-20.jpg')",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    boxShadow: "0 8px 20px rgba(0,123,255,0.3)",
+                    transition: "all 0.3s ease",
+                    cursor: "pointer",
+                    position: "relative",
+                    overflow: "hidden",
+                  }}
+                  onMouseEnter={(e) => {
+                    e.target.style.transform = "scale(1.05)";
+                    e.target.style.boxShadow =
+                      "0 12px 30px rgba(0,123,255,0.4)";
+                  }}
+                  onMouseLeave={(e) => {
+                    e.target.style.transform = "scale(1)";
+                    e.target.style.boxShadow = "0 8px 20px rgba(0,123,255,0.3)";
+                  }}
+                  onClick={() => {
+                    if (numberBegin === 0) {
+                      setNumberBegin((D) => D + 1);
+                      setTimeout(() => {
+                        setSttCoundown("02");
+                      }, 100);
+                    } else {
+                      setSttCoundown("02");
+                    }
+                  }}
+                ></button>
+
+                {/* Additional Info */}
+                <div
+                  style={{
+                    marginTop: "30px",
+                    textAlign: "center",
+                    fontSize: "14px",
+                    color: "#6c757d",
+                  }}
+                >
+                  <p>
+                    💡 Mẹo: Tập trung và thực hiện chính xác để đạt điểm cao!
+                  </p>
+                </div>
+              </div>
+            )}
           </div>
-        ) : null}
-        <hr />
-      </div> */}
+        </div>
+      </div>
     </div>
   );
 };
