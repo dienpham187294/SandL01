@@ -5,7 +5,7 @@ import MethodUsage from "./A1_Home_methodslideshow";
 import TrustSection from "./A1_Home_trustslideshow";
 const PLAYLIST_ID = "PLC0acE0qMKOkXtgSnKc9uhj6Ekj-8VDo5";
 
-const PLAYLIST_ID_HD = "PLC0acE0qMKOlNOu-mq4kE0gOt6v83RjrS";
+const PLAYLIST_ID_HD = "PLC0acE0qMKOkBpb7YJl4sgVhP2OGJmzQS";
 // Component slideshow video YouTube
 const VideoSlideshow = ({ ID }) => {
   const [videos, setVideos] = useState([]);
