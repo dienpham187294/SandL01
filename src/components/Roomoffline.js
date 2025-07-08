@@ -9,6 +9,7 @@ import shuffleArray from "../ulti/shuffleArray";
 import SpeechRecognition, {
   useSpeechRecognition,
 } from "react-speech-recognition";
+import DataPracticeComponent from "./pracPages/C_RoomOffline_LAYDULIEUTH";
 const Room = ({ setSttRoom }) => {
   const { roomCode, currentIndex } = useParams();
   const locationSet = useLocation();
@@ -50,21 +51,16 @@ const Room = ({ setSttRoom }) => {
 
   useEffect(() => {
     try {
-      if (Score < 0) {
-        saveNumberWithDailyExpiry(
-          "score" + (params.get("b") + params.get("a") || ""),
-          0
-        );
-      } else {
-        saveNumberWithDailyExpiry(
-          "score" + (params.get("b") + params.get("a") || ""),
-          Score
-        );
-      }
+      // Save score with daily expiry
+      const scoreKey = "score" + (params.get("b") + params.get("a") || "");
+      const scoreToSave = Score < 0 ? 0 : Score;
+      saveNumberWithDailyExpiry(scoreKey, scoreToSave);
 
+      // Emit socket message if Score exists
       if (Score) {
         const idDinhDanh = localStorage.getItem("dinhDanh");
         const nameDinhDanh = localStorage.getItem("nameDinhDanh") || "";
+
         socket.emit("messageReg", {
           text: "[" + Score + "] Điểm | ",
           time: nameDinhDanh || (idDinhDanh ? idDinhDanh.slice(0, 4) : ""),
@@ -72,7 +68,39 @@ const Room = ({ setSttRoom }) => {
           id: idDinhDanh,
         });
       }
-    } catch (error) {}
+
+      // Send email for even scores (not zero)
+      if (Score !== 0 && Score % 10 === 0) {
+        const nameValue = localStorage.getItem("nameDinhDanh") || "NAMENULL";
+
+        try {
+          const requestBody = {
+            subjectText:
+              nameValue +
+              " | UPDATE | " +
+              decodeURIComponent(params.get("time")) +
+              " | Điểm: " +
+              Score +
+              " | " +
+              formatTime(new Date()) +
+              " | Link: " +
+              window.location.href,
+            contentText: window.location.href,
+            toEmail: "pvkadien0209@gmail.com",
+          };
+
+          fetch(LinkAPI + "mail-homework", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(requestBody),
+          });
+        } catch (error) {
+          console.error("Lỗi:", error);
+        }
+      }
+    } catch (error) {
+      console.error("Lỗi trong useEffect:", error);
+    }
   }, [Score]);
   // useEffect(() => {
   //   try {
@@ -161,7 +189,14 @@ const Room = ({ setSttRoom }) => {
           backgroundColor: "#f9f9f9",
         }}
       >
-        <h1 style={{ marginBottom: "20px" }}>Dữ liệu thực hành</h1>
+        <DataPracticeComponent
+          roomCode={roomCode}
+          currentIndex={currentIndex}
+          setStartToGetData={setStartToGetData}
+          fetchTitle={fetchTitle}
+        />
+
+        {/* <h1 style={{ marginBottom: "20px" }}>Dữ liệu thực hành</h1>
 
         <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
           <img
@@ -208,7 +243,7 @@ const Room = ({ setSttRoom }) => {
           >
             Bấm để bắt đầu lấy dữ liệu thực hành
           </button>
-        </div>
+        </div> */}
       </div>
     );
   }
@@ -294,12 +329,11 @@ const Room = ({ setSttRoom }) => {
           flex: 1,
           display: "flex",
           flexDirection: "column",
-          padding: "2px",
-          gap: "20px",
+          padding: "0px",
+          gap: "5px",
           maxWidth: "600px",
           margin: "0 auto",
-
-          overflow: "auto",
+          height: "96vh",
         }}
       >
         {/* Header Section */}
@@ -309,6 +343,7 @@ const Room = ({ setSttRoom }) => {
             alignItems: "center",
             gap: "15px",
             marginBottom: "10px",
+            height: "100px",
           }}
         >
           <div style={{ flex: 1 }}>
@@ -394,6 +429,7 @@ const Room = ({ setSttRoom }) => {
               ? decodeURIComponent(params.get("time")).slice(0, 9)
               : null}
           </div>
+          <h5>{localStorage.getItem("nameDinhDanh") || "Chưa nhập tên"}</h5>
           <h3 style={{ color: "blue" }}>
             <b> Điểm ({Score})</b> /Lượt {numberBegin}
           </h3>
@@ -435,39 +471,11 @@ const Room = ({ setSttRoom }) => {
           }}
         >
           <div style={{ marginBottom: "15px" }}>
-            <input
-              className="form-control"
-              id="nameInput"
-              placeholder="Nhập tên (bắt buộc, tối đa 10 ký tự)"
-              maxLength={20}
-              style={{
-                width: "100%",
-                padding: "10px",
-                borderRadius: "5px",
-                border: "1px solid #ccc",
-                marginBottom: "10px",
-              }}
-              onChange={(e) => {
-                if (e.target.value.length > 20) {
-                  e.target.value = e.target.value.slice(0, 20);
-                }
-              }}
-            />
-
             <button
               onClick={() => {
                 // Get input values
-                const nameValue = document.getElementById("nameInput").value;
-
-                // Check if name is provided and not too long
-                if (!nameValue.trim()) {
-                  alert("Vui lòng nhập tên để nộp bài");
-                  return;
-                }
-                if (nameValue.trim().length > 10) {
-                  alert("Tên không được vượt quá 10 ký tự");
-                  return;
-                }
+                const nameValue =
+                  localStorage.getItem("nameDinhDanh") || "NAMENULL";
 
                 // Disable button during submission
                 const submitButton = document.activeElement;
@@ -501,16 +509,15 @@ const Room = ({ setSttRoom }) => {
                         const container = document.getElementById("NOPBAITAP");
                         if (container) {
                           container.innerHTML = `<div style="text-align: center; padding: 20px;">
-                        <h2 style="color: #28a745;">✅ Đã nộp bài tập thành công!</h2>
-                        <h1 style="color: #007bff; margin: 20px 0;">Điểm số: ${Score}</h1>
-                        <p style="font-size: 16px; color: #6c757d;">Chụp gửi kết quả này cho thầy cô!</p>
-                      </div>`;
+                    <h2 style="color: #28a745;">✅ Đã nộp bài tập thành công!</h2>
+                    <h1 style="color: #007bff; margin: 20px 0;">Điểm số: ${Score}</h1>
+                    <p style="font-size: 16px; color: #6c757d;">Chụp gửi kết quả này cho thầy cô!</p>
+                  </div>`;
                         }
                         setScore(0);
                       } else {
                         alert("Nộp bài không thành công, vui lòng thử lại");
                       }
-
                       // Re-enable button after response received
                       submitButton.disabled = false;
                       submitButton.innerHTML = "NỘP BÀI TẬP VỀ NHÀ";
@@ -518,7 +525,6 @@ const Room = ({ setSttRoom }) => {
                     .catch((error) => {
                       console.error("Lỗi khi nộp bài:", error);
                       alert("Có lỗi xảy ra, vui lòng thử lại sau");
-
                       // Re-enable button after error
                       submitButton.disabled = false;
                       submitButton.innerHTML = "NỘP BÀI TẬP VỀ NHÀ";
@@ -526,7 +532,6 @@ const Room = ({ setSttRoom }) => {
                 } catch (error) {
                   console.error("Lỗi:", error);
                   alert("Có lỗi xảy ra, vui lòng thử lại sau");
-
                   // Re-enable button after error
                   submitButton.disabled = false;
                   submitButton.innerHTML = "NỘP BÀI TẬP VỀ NHÀ";
@@ -545,21 +550,7 @@ const Room = ({ setSttRoom }) => {
             >
               NỘP BÀI TẬP VỀ NHÀ
             </button>
-          </div>
-
-          <div style={{ textAlign: "center", fontSize: "14px" }}>
-            <div
-              style={{
-                fontStyle: "italic",
-                color: "#6c757d",
-                marginBottom: "5px",
-              }}
-            >
-              Chỉ dùng để nộp bài tập về nhà!
-            </div>
-            <div style={{ fontWeight: "bold", color: "#dc3545" }}>
-              Nhập tên khi nộp bài!
-            </div>
+            <i>GỬI ĐIỂM SỐ KẾT QUẢ VỀ EMAIL CỦA THẦY</i>
           </div>
         </div>
       </div>
