@@ -50,58 +50,194 @@ const Room = ({ setSttRoom }) => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    try {
-      // Save score with daily expiry
-      const scoreKey = "score" + (params.get("b") + params.get("a") || "");
-      const scoreToSave = Score < 0 ? 0 : Score;
-      saveNumberWithDailyExpiry(scoreKey, scoreToSave);
-
-      // Emit socket message if Score exists
-      if (Score) {
-        const idDinhDanh = localStorage.getItem("dinhDanh");
-        const nameDinhDanh = localStorage.getItem("nameDinhDanh") || "";
-
-        socket.emit("messageReg", {
-          text: "[" + Score + "] Điểm | ",
-          time: nameDinhDanh || (idDinhDanh ? idDinhDanh.slice(0, 4) : ""),
-          type: "notify",
-          id: idDinhDanh,
-        });
-      }
-
-      // Send email for even scores (not zero)
-      if (Score !== 0 && Score % 10 === 0) {
-        const nameValue = localStorage.getItem("nameDinhDanh") || "NAMENULL";
-
-        try {
-          const requestBody = {
-            subjectText:
-              nameValue +
-              " | UPDATE | " +
-              decodeURIComponent(params.get("time")) +
-              " | Điểm: " +
-              Score +
-              " | " +
-              formatTime(new Date()) +
-              " | Link: " +
-              window.location.href,
-            contentText: window.location.href,
-            toEmail: "pvkadien0209@gmail.com",
-          };
-
-          fetch(LinkAPI + "mail-homework", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify(requestBody),
-          });
-        } catch (error) {
-          console.error("Lỗi:", error);
-        }
-      }
-    } catch (error) {
-      console.error("Lỗi trong useEffect:", error);
+    // Early return if Score is not a valid number
+    if (typeof Score !== "number" || isNaN(Score)) {
+      console.warn("Invalid Score value:", Score);
+      return;
     }
-  }, [Score]);
+
+    const executeScoreEffect = async () => {
+      try {
+        // === SAVE SCORE SECTION ===
+        const saveScoreToStorage = () => {
+          try {
+            // Safe parameter extraction
+            const paramB = params?.get?.("b") || "";
+            const paramA = params?.get?.("a") || "";
+            const scoreKey = `score${paramB}${paramA}`;
+            const scoreToSave = Math.max(0, Score); // Ensure non-negative
+
+            // Check if saveNumberWithDailyExpiry function exists
+            if (typeof saveNumberWithDailyExpiry === "function") {
+              saveNumberWithDailyExpiry(scoreKey, scoreToSave);
+            } else {
+              console.warn("saveNumberWithDailyExpiry function not available");
+              // Fallback to localStorage
+              localStorage.setItem(
+                scoreKey,
+                JSON.stringify({
+                  value: scoreToSave,
+                  timestamp: Date.now(),
+                })
+              );
+            }
+          } catch (storageError) {
+            console.error("Error saving score to storage:", storageError);
+          }
+        };
+
+        // === SOCKET EMISSION SECTION ===
+        const emitSocketMessage = () => {
+          try {
+            // Only emit if Score is positive and socket exists
+            if (Score <= 0 || !socket || typeof socket.emit !== "function") {
+              return;
+            }
+
+            // Safe localStorage access
+            let idDinhDanh = null;
+            let nameDinhDanh = null;
+
+            try {
+              idDinhDanh = localStorage.getItem("dinhDanh");
+              nameDinhDanh = localStorage.getItem("nameDinhDanh");
+            } catch (localStorageError) {
+              console.warn("LocalStorage access failed:", localStorageError);
+            }
+
+            // Prepare display name with fallbacks
+            const displayName =
+              nameDinhDanh ||
+              (idDinhDanh ? String(idDinhDanh).slice(0, 4) : "") ||
+              "Anonymous";
+
+            // Validate data before emitting
+            const messageData = {
+              text: `[${Score}] Điểm | `,
+              time: String(displayName),
+              type: "notify",
+              id: idDinhDanh || null,
+            };
+
+            socket.emit("messageReg", messageData);
+          } catch (socketError) {
+            console.error("Error emitting socket message:", socketError);
+          }
+        };
+
+        // === EMAIL NOTIFICATION SECTION ===
+        const sendEmailNotification = async () => {
+          try {
+            // Check conditions for email sending
+            if (Score === 0 || Score % 10 !== 0 || !LinkAPI) {
+              return;
+            }
+
+            // Validate required functions
+            if (typeof formatTime !== "function") {
+              console.warn("formatTime function not available for email");
+              return;
+            }
+
+            // Safe localStorage access
+            let nameValue = "NAMENULL";
+            try {
+              nameValue = localStorage.getItem("nameDinhDanh") || "NAMENULL";
+            } catch (localStorageError) {
+              console.warn(
+                "LocalStorage access failed for email:",
+                localStorageError
+              );
+            }
+
+            // Safe parameter extraction and time formatting
+            let timeParam = "N/A";
+            let formattedTime = new Date().toLocaleString();
+
+            try {
+              const rawTimeParam = params?.get?.("time");
+              if (rawTimeParam) {
+                timeParam = decodeURIComponent(rawTimeParam);
+              }
+            } catch (decodeError) {
+              console.warn("Time parameter decode failed:", decodeError);
+            }
+
+            try {
+              formattedTime = formatTime(new Date());
+            } catch (formatError) {
+              console.warn("Time formatting failed:", formatError);
+            }
+
+            // Build request body safely
+            const requestBody = {
+              subjectText: [
+                String(nameValue),
+                "UPDATE",
+                String(Score),
+                String(timeParam),
+                String(formattedTime),
+                `Link: ${window.location.href}`,
+              ].join(" | "),
+              contentText: String(window.location.href),
+              toEmail: "pvkadien0209@gmail.com",
+            };
+
+            // Validate request body
+            if (!requestBody.subjectText || !requestBody.contentText) {
+              throw new Error("Invalid request body data");
+            }
+
+            // Create abort controller for timeout
+            const controller = new AbortController();
+            const timeoutId = setTimeout(() => controller.abort(), 15000); // 15s timeout
+
+            // Make API request
+            const response = await fetch(`${LinkAPI}mail-homework`, {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+                Accept: "application/json",
+              },
+              body: JSON.stringify(requestBody),
+              signal: controller.signal,
+            });
+
+            clearTimeout(timeoutId);
+
+            // Check response (but don't throw for non-critical email)
+            if (!response.ok) {
+              console.warn(
+                `Email API responded with status ${response.status}`
+              );
+            } else {
+              console.log("Email notification sent successfully");
+            }
+          } catch (emailError) {
+            // Don't throw - email is not critical
+            if (emailError.name === "AbortError") {
+              console.warn("Email request timeout");
+            } else {
+              console.error("Error sending email notification:", emailError);
+            }
+          }
+        };
+
+        // Execute all operations
+        saveScoreToStorage();
+        emitSocketMessage();
+        await sendEmailNotification();
+      } catch (generalError) {
+        console.error("General error in score effect:", generalError);
+      }
+    };
+
+    // Execute the async function
+    executeScoreEffect();
+  }, [Score]); // Only re-run when Score changes
+
+  // Note: Other dependencies (params, socket, LinkAPI, formatTime, saveNumberWithDailyExpiry)
+  // are accessed directly from closure and assumed to be stable or acceptable to use stale values
   // useEffect(() => {
   //   try {
   //     const idSocket = socket.id.slice(0, 4);
@@ -472,69 +608,182 @@ const Room = ({ setSttRoom }) => {
         >
           <div style={{ marginBottom: "15px" }}>
             <button
-              onClick={() => {
-                // Get input values
-                const nameValue =
-                  localStorage.getItem("nameDinhDanh") || "NAMENULL";
-
-                // Disable button during submission
-                const submitButton = document.activeElement;
-                submitButton.disabled = true;
-                submitButton.innerHTML = "ĐANG NỘP BÀI...";
+              onClick={(e) => {
+                // Prevent double click
+                if (e.target.disabled) return;
 
                 try {
+                  // Validate inputs first
+                  if (!Score || Score <= 0) {
+                    alert("Cần có điểm số để nộp bài");
+                    return;
+                  }
+
+                  if (!LinkAPI) {
+                    alert("Lỗi: Thiếu cấu hình API");
+                    return;
+                  }
+
+                  if (typeof formatTime !== "function") {
+                    alert("Lỗi: Hàm formatTime không hợp lệ");
+                    return;
+                  }
+
+                  // Get button reference safely
+                  const submitButton = e.target;
+                  const originalText = submitButton.innerHTML;
+
+                  // Disable button during submission
+                  submitButton.disabled = true;
+                  submitButton.innerHTML = "ĐANG NỘP BÀI...";
+                  submitButton.style.cursor = "not-allowed";
+
+                  // Get input values with safety checks
+                  const nameValue = (() => {
+                    try {
+                      return localStorage.getItem("nameDinhDanh") || "NAMENULL";
+                    } catch (error) {
+                      console.warn("LocalStorage access failed:", error);
+                      return "NAMENULL";
+                    }
+                  })();
+
+                  // Safe parameter extraction
+                  const timeParam = (() => {
+                    try {
+                      const param = params?.get?.("time");
+                      return param ? decodeURIComponent(param) : "N/A";
+                    } catch (error) {
+                      console.warn("Time parameter decode failed:", error);
+                      return "N/A";
+                    }
+                  })();
+
+                  // Safe time formatting
+                  const currentTime = (() => {
+                    try {
+                      return formatTime(new Date());
+                    } catch (error) {
+                      console.warn("Time formatting failed:", error);
+                      return new Date().toLocaleString();
+                    }
+                  })();
+
                   const requestBody = {
-                    subjectText:
-                      nameValue +
-                      " | Nộp bài tập | " +
-                      decodeURIComponent(params.get("time")) +
-                      " | Điểm: " +
-                      Score +
-                      " | " +
-                      formatTime(new Date()) +
-                      " | Link: " +
-                      window.location.href,
+                    subjectText: [
+                      nameValue,
+                      "SUBMIT",
+                      Score,
+                      timeParam,
+                      currentTime,
+                      `Link: ${window.location.href}`,
+                    ].join(" | "),
                     contentText: window.location.href,
                     toEmail: "pvkadien0209@gmail.com",
                   };
 
+                  // Create abort controller for timeout
+                  const controller = new AbortController();
+                  const timeoutId = setTimeout(() => {
+                    controller.abort();
+                  }, 30000); // 30 second timeout
+
                   fetch(LinkAPI + "mail-homework", {
                     method: "POST",
-                    headers: { "Content-Type": "application/json" },
+                    headers: {
+                      "Content-Type": "application/json",
+                      Accept: "application/json",
+                    },
                     body: JSON.stringify(requestBody),
+                    signal: controller.signal,
                   })
-                    .then((response) => response.json())
+                    .then((response) => {
+                      clearTimeout(timeoutId);
+
+                      if (!response.ok) {
+                        throw new Error(
+                          `HTTP ${response.status}: ${response.statusText}`
+                        );
+                      }
+
+                      return response.json();
+                    })
                     .then((json) => {
-                      if (json.success) {
+                      if (json && json.success) {
                         const container = document.getElementById("NOPBAITAP");
                         if (container) {
-                          container.innerHTML = `<div style="text-align: center; padding: 20px;">
-                    <h2 style="color: #28a745;">✅ Đã nộp bài tập thành công!</h2>
-                    <h1 style="color: #007bff; margin: 20px 0;">Điểm số: ${Score}</h1>
-                    <p style="font-size: 16px; color: #6c757d;">Chụp gửi kết quả này cho thầy cô!</p>
-                  </div>`;
+                          container.innerHTML = `
+                    <div style="text-align: center; padding: 20px; background-color: #d4edda; border: 1px solid #c3e6cb; border-radius: 10px;">
+                      <h2 style="color: #155724; margin: 0 0 15px 0;">✅ Đã nộp bài tập thành công!</h2>
+                      <h1 style="color: #007bff; margin: 20px 0;">Điểm số: ${Score}</h1>
+                      <p style="font-size: 16px; color: #6c757d; margin: 0 0 15px 0;">Chụp gửi kết quả này cho thầy cô!</p>
+                      <button 
+                        onclick="window.location.reload()" 
+                        style="padding: 8px 16px; background-color: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer;"
+                      >
+                        Nộp bài khác
+                      </button>
+                    </div>
+                  `;
                         }
-                        setScore(0);
+
+                        // Reset score safely
+                        if (typeof setScore === "function") {
+                          setScore(0);
+                        } else {
+                          console.warn("setScore function not available");
+                        }
                       } else {
-                        alert("Nộp bài không thành công, vui lòng thử lại");
+                        throw new Error(
+                          json?.message || "Nộp bài không thành công"
+                        );
                       }
-                      // Re-enable button after response received
-                      submitButton.disabled = false;
-                      submitButton.innerHTML = "NỘP BÀI TẬP VỀ NHÀ";
                     })
                     .catch((error) => {
+                      clearTimeout(timeoutId);
                       console.error("Lỗi khi nộp bài:", error);
-                      alert("Có lỗi xảy ra, vui lòng thử lại sau");
-                      // Re-enable button after error
-                      submitButton.disabled = false;
-                      submitButton.innerHTML = "NỘP BÀI TẬP VỀ NHÀ";
+
+                      // Determine error message
+                      let errorMessage = "Có lỗi xảy ra, vui lòng thử lại sau";
+
+                      if (error.name === "AbortError") {
+                        errorMessage = "Yêu cầu bị timeout, vui lòng thử lại";
+                      } else if (
+                        error.message?.includes("NetworkError") ||
+                        error.message?.includes("Failed to fetch")
+                      ) {
+                        errorMessage =
+                          "Lỗi kết nối mạng, vui lòng kiểm tra internet";
+                      } else if (
+                        error.message &&
+                        !error.message.includes("HTTP")
+                      ) {
+                        errorMessage = error.message;
+                      }
+
+                      alert(errorMessage);
+                    })
+                    .finally(() => {
+                      // Re-enable button safely
+                      if (submitButton && !submitButton.isConnected === false) {
+                        submitButton.disabled = false;
+                        submitButton.innerHTML = originalText;
+                        submitButton.style.cursor =
+                          Score > 0 ? "pointer" : "not-allowed";
+                      }
                     });
                 } catch (error) {
-                  console.error("Lỗi:", error);
+                  console.error("Lỗi submit:", error);
                   alert("Có lỗi xảy ra, vui lòng thử lại sau");
-                  // Re-enable button after error
-                  submitButton.disabled = false;
-                  submitButton.innerHTML = "NỘP BÀI TẬP VỀ NHÀ";
+
+                  // Re-enable button in catch block
+                  const submitButton = e.target;
+                  if (submitButton) {
+                    submitButton.disabled = Score <= 0; // Only enable if score > 0
+                    submitButton.innerHTML = "NỘP BÀI TẬP VỀ NHÀ";
+                    submitButton.style.cursor =
+                      Score > 0 ? "pointer" : "not-allowed";
+                  }
                 }
               }}
               className={`btn ${Score > 0 ? "btn-danger" : "btn-secondary"}`}
@@ -545,12 +794,35 @@ const Room = ({ setSttRoom }) => {
                 fontSize: "16px",
                 fontWeight: "bold",
                 borderRadius: "8px",
-                ...(Score <= 0 ? { opacity: 0.6, cursor: "not-allowed" } : {}),
+                cursor: Score > 0 ? "pointer" : "not-allowed",
+                ...(Score <= 0 ? { opacity: 0.6 } : {}),
               }}
             >
               NỘP BÀI TẬP VỀ NHÀ
             </button>
-            <i>GỬI ĐIỂM SỐ KẾT QUẢ VỀ EMAIL CỦA THẦY</i>
+
+            <div
+              style={{
+                marginTop: "8px",
+                fontSize: "14px",
+                fontStyle: "italic",
+                color: "#856404",
+              }}
+            >
+              GỬI ĐIỂM SỐ KẾT QUẢ VỀ EMAIL CỦA THẦY
+            </div>
+
+            {Score <= 0 && (
+              <div
+                style={{
+                  marginTop: "8px",
+                  fontSize: "12px",
+                  color: "#dc3545",
+                }}
+              >
+                * Cần có điểm số để nộp bài
+              </div>
+            )}
           </div>
         </div>
       </div>
