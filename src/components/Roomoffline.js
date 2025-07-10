@@ -461,6 +461,7 @@ const Room = ({ setSttRoom }) => {
       }}
     >
       <div
+        id="roomUltiDiv"
         style={{
           flex: 1,
           display: "flex",
@@ -710,18 +711,34 @@ const Room = ({ setSttRoom }) => {
                     })
                     .then((json) => {
                       if (json && json.success) {
+                        const roomUltiDiv =
+                          document.getElementById("roomUltiDiv");
+
+                        if (roomUltiDiv !== null) {
+                          Object.assign(roomUltiDiv.style, {
+                            flexGrow: "12",
+                            border: "1px solid #ccc",
+                            borderRadius: "12px",
+                            padding: "16px",
+                            backgroundColor: "#ffffff",
+                            boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
+                            transition: "all 0.3s ease-in-out",
+                            backgroundColor: "pink",
+                          });
+                        }
+
                         const container = document.getElementById("NOPBAITAP");
                         if (container) {
                           container.innerHTML = `
                     <div style="text-align: center; padding: 20px; background-color: #d4edda; border: 1px solid #c3e6cb; border-radius: 10px;">
                       <h2 style="color: #155724; margin: 0 0 15px 0;">✅ Đã nộp bài tập thành công!</h2>
                       <h1 style="color: #007bff; margin: 20px 0;">Điểm số: ${Score}</h1>
-                      <p style="font-size: 16px; color: #6c757d; margin: 0 0 15px 0;">Chụp gửi kết quả này cho thầy cô!</p>
+                      <p style="font-size: 16px; color: #6c757d; margin: 0 0 15px 0;">Chụp gửi kết quả (khung màu hồng) cho thầy cô!</p>
                       <button 
                         onclick="window.location.reload()" 
                         style="padding: 8px 16px; background-color: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer;"
                       >
-                        Nộp bài khác
+                        Làm lại bài khác
                       </button>
                     </div>
                   `;

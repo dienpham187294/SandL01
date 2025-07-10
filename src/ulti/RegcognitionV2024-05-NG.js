@@ -201,7 +201,7 @@ const Dictaphone = ({
       // Xử lý action
       if (objTR.action?.[0]) {
         if (objTR.action[0] === "WRONG") {
-          setScore((S) => S - 2.5);
+          setScore((S) => S - 2);
         } else {
           addElementIfNotExist(objTR.action[0]);
         }
