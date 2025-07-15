@@ -201,7 +201,12 @@ const Dictaphone = ({
       // Xử lý action
       if (objTR.action?.[0]) {
         if (objTR.action[0] === "WRONG") {
-          setScore((S) => S - 2);
+          const btnBoQua = document.getElementById("btnBoQua");
+          if (btnBoQua) {
+            btnBoQua.click();
+          } else {
+            setScore((S) => S - 2);
+          }
         } else {
           addElementIfNotExist(objTR.action[0]);
         }

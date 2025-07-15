@@ -183,7 +183,7 @@ export default async function read_by_Tts(text, fnReadClient) {
     console.log("Đang tải audio từ server...");
     // Tạo AbortController để hủy request khi timeout
     const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 3000); // 3 giây
+    const timeoutId = setTimeout(() => controller.abort(), 5000); // 5 giây
 
     try {
       const response = await fetch(LinkAPI + "tts", {
@@ -212,7 +212,7 @@ export default async function read_by_Tts(text, fnReadClient) {
       clearTimeout(timeoutId);
       // Kiểm tra nếu là lỗi timeout hoặc abort
       if (fetchError.name === "AbortError") {
-        console.log("Request timeout sau 3 giây, chuyển sang dùng hàm client");
+        console.log("Request timeout sau 5 giây, chuyển sang dùng hàm client");
         fnReadClient();
         return;
       }

@@ -235,7 +235,7 @@ function FINAL_PROJECT({
           setScore((D) => D - 1);
         }, 1000);
       } else if (checkIndex === 3) {
-        setScore((D) => D - 0.5);
+        setScore((D) => D - 1);
       }
     }
   }, [Submit, PushAW]);

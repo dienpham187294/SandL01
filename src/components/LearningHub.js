@@ -5,6 +5,7 @@ import Lobby from "./Lobby";
 import TableHD from "./pracPages/B101_FINAL_TABLE-HD";
 import TableTB from "./pracPages/B101_FINAL_TABLE-TB-NotAdd";
 // import { ObjREADContext } from "../App";
+import { compareTwoStrings } from "string-similarity";
 import Dictaphone from "../ulti/RegcognitionV2024-05-NG_FOR_TEACHING";
 import NguyenTacghepam from "./A1_NguyentacGhepam";
 import ReadMessage from "../ulti/ReadMessage_2024";
@@ -300,13 +301,13 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
           outline: none;
         }
 
-        .step-guide {
-          background: linear-gradient(135deg, #fff3e0 0%, #f3e5f5 100%);
-          border-radius: 12px;
-          padding: 1.5rem;
-          border-left: 4px solid #ff9800;
-          margin: 1rem 0;
-        }
+        // .step-guide {
+        //   background: linear-gradient(135deg, #fff3e0 0%, #f3e5f5 100%);
+        //   border-radius: 12px;
+        //   padding: 1.5rem;
+        //   border-left: 4px solid #ff9800;
+        //   margin: 1rem 0;
+        // }
 
         .status-check {
           background: white;
@@ -1165,20 +1166,23 @@ function StringSimilarityMatcher(inputString, phrasesArray) {
     return null;
   }
   try {
-    // Mock similarity check for demo - replace with actual string-similarity library
-    const mockSimilarityScore = 0.95; // Simulate high similarity
+    let mockSimilarityScoreRate;
+    phrasesArray.forEach((e) => {
+      const mockSimilarityScore = compareTwoStrings(inputString, e["IPA-01"]);
+      if (mockSimilarityScore > 0.9) {
+        mockSimilarityScoreRate = e;
+      }
+    });
 
-    if (mockSimilarityScore >= 0.9 && phrasesArray.length > 0) {
-      const matchedPhrase = phrasesArray[0]; // Use first phrase for demo
-      const ipa02 = matchedPhrase["IPA-02"] || "";
-      const ipa03 = matchedPhrase["IPA-03"] || "";
-      const ipa04 = matchedPhrase["IPA-04"] || "";
-
+    // Check if we found a match
+    if (mockSimilarityScoreRate) {
+      const ipa02 = mockSimilarityScoreRate["IPA-02"] || "";
+      const ipa03 = mockSimilarityScoreRate["IPA-03"] || "";
+      const ipa04 = mockSimilarityScoreRate["IPA-04"] || "";
       const decodeElement = document.getElementById("DeCode");
       if (decodeElement) {
         decodeElement.textContent = ipa02 + "zzz" + ipa03 + "zzz" + ipa04;
       }
-
       return (
         <div className="reference-card">
           <h6 className="text-primary mb-3">

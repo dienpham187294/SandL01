@@ -177,6 +177,13 @@ const pracEnSets = [
     link: "yyy_ket_part1",
     id: "socapI",
   },
+  {
+    root: "learninghub",
+    preName: "IELTS aim 6.0",
+    name: "Speaking Part 2 | Discussion/Opinion Presentation + 12 tences",
+    link: "yyy_speaking_12_tences",
+    id: "trungcap1",
+  },
 ];
 
 export default function Header({ sttRoom, STTconnectFN }) {

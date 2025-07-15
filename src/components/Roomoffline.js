@@ -815,7 +815,7 @@ const Room = ({ setSttRoom }) => {
                 ...(Score <= 0 ? { opacity: 0.6 } : {}),
               }}
             >
-              NỘP BÀI TẬP VỀ NHÀ
+              BẤM ĐỂ NỘP BÀI TẬP VỀ NHÀ
             </button>
 
             <div
