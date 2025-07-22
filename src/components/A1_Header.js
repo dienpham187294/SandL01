@@ -70,6 +70,13 @@ const pracEnSets = [
   },
   {
     root: "learninghub",
+    preName: "(D) Vỡ lòng",
+    name: "Các câu cơ bản ver.01 (full sentence)",
+    link: "endp01_a_full",
+    id: "socapI",
+  },
+  {
+    root: "learninghub",
     preName: "(D) Sơ cấp A",
     name: "Chủ đề ăn uống - nhà hàng",
     link: "endpsc_nh_a",
