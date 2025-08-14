@@ -466,6 +466,16 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                   data={dataLearning[currentIndex]?.HDTB?.TV}
                   data_TB={[]}
                   HINT={"HINT"}
+                  fnOnclick={(e) => {
+                    try {
+                      navigate(
+                        `/learninghub/${id}?ls=${currentIndex}&&id=div_01_prac_ghep_am&&st=${e
+                          .toString()
+                          .split(" ")
+                          .join("-")}`
+                      );
+                    } catch (error) {}
+                  }}
                 />
               </div>
 

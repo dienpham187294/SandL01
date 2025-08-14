@@ -191,6 +191,13 @@ const pracEnSets = [
     link: "yyy_speaking_12_tences",
     id: "trungcap1",
   },
+  {
+    root: "learninghub",
+    preName: "Learning A2",
+    name: "Thực hành nghe, xử lý và lặp lại |Chủ đề: Mô tả với bố cục",
+    link: "yyy_mota_bo_cuc_4",
+    id: "trungcap1",
+  },
 ];
 
 export default function Header({ sttRoom, STTconnectFN }) {

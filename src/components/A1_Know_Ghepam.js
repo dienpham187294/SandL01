@@ -585,7 +585,7 @@ function ModernLandingPage() {
           }}
           onClick={() => setActiveTab("home")}
         >
-          Thực hành
+          (1) Thực hành
         </button>
         <button
           style={{
@@ -594,7 +594,7 @@ function ModernLandingPage() {
           }}
           onClick={() => setActiveTab("ghepam")}
         >
-          Ghép Âm
+          (2) Ghép Âm
         </button>
       </div>
 
