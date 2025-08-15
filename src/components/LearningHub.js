@@ -55,6 +55,20 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
 
   useEffect(() => {
     handle_div(params.get("id"));
+
+    if (params.get("id") === "div_01_prac_ghep_am") {
+      window.scrollTo({
+        top: 0,
+        // behavior: "smooth", // cuộn mượt
+      });
+    }
+
+    if (params.get("id") === "div_01_content_table_to_practice") {
+      window.scrollTo({
+        top: params.get("scrollY") || 0,
+        // behavior: "smooth", // cuộn mượt
+      });
+    }
     if (params.get("st")) {
       try {
         setCMDlist(params.get("st").split("-").join(" "));
@@ -454,7 +468,9 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                   fnOnclick={(e) => {
                     try {
                       navigate(
-                        `/learninghub/${id}?ls=${currentIndex}&&id=div_01_prac_ghep_am&&st=${e
+                        `/learninghub/${id}?ls=${currentIndex}&&scrollY=${
+                          window.scrollY
+                        }&&id=div_01_prac_ghep_am&&st=${e
                           .toString()
                           .split(" ")
                           .join("-")}`
@@ -469,7 +485,9 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                   fnOnclick={(e) => {
                     try {
                       navigate(
-                        `/learninghub/${id}?ls=${currentIndex}&&id=div_01_prac_ghep_am&&st=${e
+                        `/learninghub/${id}?ls=${currentIndex}&&scrollY=${
+                          window.scrollY
+                        }&&id=div_01_prac_ghep_am&&st=${e
                           .toString()
                           .split(" ")
                           .join("-")}`
@@ -497,7 +515,9 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                       <button
                         onClick={() => {
                           navigate(
-                            `/learninghub/${id}?ls=${currentIndex}&&id=div_01_content_table_to_practice`
+                            `/learninghub/${id}?ls=${currentIndex}&&scrollY=${
+                              params.get("scrollY") || 0
+                            }&&id=div_01_content_table_to_practice`
                           );
                         }}
                         className="btn btn-modern btn-gradient-info"
