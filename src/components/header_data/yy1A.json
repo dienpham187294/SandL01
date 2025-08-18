@@ -1,0 +1,72 @@
+[
+  {
+    "root": "learninghub",
+    "preName": "#1A001",
+    "name": "Chào hỏi và làm quen (Greetings and Introductions)",
+    "link": "yy1a_greetings",
+    "id": "1A"
+  },
+  {
+    "root": "learninghub",
+    "preName": "#1A002",
+    "name": "Gia đình (Family)",
+    "link": "yy1a_family",
+    "id": "1A"
+  },
+  {
+    "root": "learninghub",
+    "preName": "#1A003",
+    "name": "Bạn bè (Friends)",
+    "link": "yy1a_friends",
+    "id": "1A"
+  },
+  {
+    "root": "learninghub",
+    "preName": "#1A004",
+    "name": "Trường học (School)",
+    "link": "yy1a_school",
+    "id": "1A"
+  },
+  {
+    "root": "learninghub",
+    "preName": "#1A005",
+    "name": "Thức ăn và đồ uống (Food and Drinks)",
+    "link": "yy1a_food_drinks",
+    "id": "1A"
+  },
+  {
+    "root": "learninghub",
+    "preName": "#1A006",
+    "name": "Mua sắm (Shopping)",
+    "link": "yy1a_shopping",
+    "id": "1A"
+  },
+  {
+    "root": "learninghub",
+    "preName": "#1A007",
+    "name": "Thời tiết (Weather)",
+    "link": "yy1a_weather",
+    "id": "1A"
+  },
+  {
+    "root": "learninghub",
+    "preName": "#1A008",
+    "name": "Sở thích (Hobbies)",
+    "link": "yy1a_hobbies",
+    "id": "1A"
+  },
+  {
+    "root": "learninghub",
+    "preName": "#1A009",
+    "name": "Sức khỏe (Health)",
+    "link": "yy1a_health",
+    "id": "1A"
+  },
+  {
+    "root": "learninghub",
+    "preName": "#1A010",
+    "name": "Phương tiện giao thông (Transportation)",
+    "link": "yy1a_transportation",
+    "id": "1A"
+  }
+]

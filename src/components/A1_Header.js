@@ -10,7 +10,7 @@ import Move from "./A0_move";
 
 import levele_img_barlist from "./header_data/hinhanh-lv1-5-5.json";
 import words_3000 from "./header_data/3000-words.json";
-
+import yy1A from "./header_data/yy1A.json";
 const coreKnowledgeSets = [
   {
     root: "coreknowledge",
@@ -260,22 +260,22 @@ export default function Header({ sttRoom, STTconnectFN }) {
               )} */}
               {returnDropdown(
                 "Giáo án giao tiếp",
-                pracEnSets,
+                pracEnSets.concat(yy1A),
                 { name: "name", link: "link", preName: "preName" },
                 null
               )}{" "}
               {returnDropdown(
-                "Hình ảnh",
-                levele_img_barlist,
+                "Khác",
+                levele_img_barlist.concat(words_3000),
                 { name: "name", link: "link", preName: "preName" },
                 null
               )}
-              {returnDropdown(
+              {/* {returnDropdown(
                 "Học 3000 từ với đoạn hội thoại và câu chuyện!",
                 words_3000,
                 { name: "name", link: "link", preName: "preName" },
                 null
-              )}
+              )} */}
               {/* {returnDropdown(
                 "ESL",
                 NewListHref.concat(HrefImages, HrefLearnonyoutube),
