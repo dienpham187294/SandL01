@@ -10,20 +10,20 @@ const TrustSlideshow = () => {
     {
       icon: "bi-eye",
       title: "Trăm nghe không bằng một thấy",
-      description: `"Trăm nghe không bằng một thấy, trăm thấy không bằng một thử."`,
+      description: `Châm ngôn của chúng tôi luôn là "Trăm nghe không bằng một thấy, trăm thấy không bằng một thử."`,
       color: "warning",
       bgGradient: "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      buttonText: "Xem trải nghiệm miễn phí",
+      buttonText: "Quét mã để tham gia nhóm",
       buttonIcon: "bi-arrow-right-circle",
     },
     {
       icon: "bi-gift",
-      title: "Trải nghiệm miễn phí",
+      title: "Quét mã để tham gia nhóm",
       description:
-        "Hãy tham gia khóa học miễn phí 7h30 tối thứ 2 hàng tuần để trải nghiệm phương pháp của chúng tôi.",
+        "Hãy tham gia khóa học miễn phí 4 buổi để được trải nghiệm phương pháp của chúng tôi.",
       color: "warning",
       bgGradient: "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      buttonText: "Quay lại châm ngôn",
+      buttonText: "Quét mã để tham gia nhóm",
       buttonIcon: "bi-arrow-left-circle",
     },
   ];
@@ -67,13 +67,11 @@ const TrustSlideshow = () => {
         href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
         rel="stylesheet"
       />
-
       <style jsx>{`
         .trust-slideshow-wrapper {
           padding: 0;
           margin: 0;
         }
-
         .trust-slideshow-container {
           position: relative;
           overflow: hidden;
@@ -83,7 +81,6 @@ const TrustSlideshow = () => {
           margin: 0 auto;
           max-width: 100%;
         }
-
         .trust-slide-card {
           background: ${trustPoints[currentIndex].bgGradient};
           border-radius: 24px;
@@ -94,7 +91,6 @@ const TrustSlideshow = () => {
           transition: all 0.7s cubic-bezier(0.4, 0, 0.2, 1);
           min-height: 320px;
         }
-
         .trust-slide-card::before {
           content: "";
           position: absolute;
@@ -105,7 +101,6 @@ const TrustSlideshow = () => {
           background: rgba(255, 255, 255, 0.08);
           backdrop-filter: blur(12px);
         }
-
         .trust-card-content {
           position: relative;
           z-index: 2;
@@ -114,67 +109,16 @@ const TrustSlideshow = () => {
           align-items: center;
           gap: 2.5rem;
         }
-
-        .trust-icon-section {
-          flex-shrink: 0;
-        }
-
-        .trust-icon-container {
-          width: 120px;
-          height: 120px;
-          background: rgba(255, 255, 255, 0.25);
-          border-radius: 50%;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          backdrop-filter: blur(10px);
-          border: 3px solid rgba(255, 255, 255, 0.4);
-          transition: all 0.4s ease;
-          position: relative;
-        }
-
-        .trust-icon-container::after {
-          content: "";
-          position: absolute;
-          top: -3px;
-          left: -3px;
-          right: -3px;
-          bottom: -3px;
-          border-radius: 50%;
-          border: 2px solid rgba(255, 255, 255, 0.2);
-          animation: trustPulse 4s infinite;
-        }
-
-        .trust-icon-container::before {
-          content: "";
-          position: absolute;
-          top: -8px;
-          left: -8px;
-          right: -8px;
-          bottom: -8px;
-          border-radius: 50%;
-          border: 1px solid rgba(255, 255, 255, 0.1);
-          animation: trustPulse 4s infinite 2s;
-        }
-
-        .trust-icon-container:hover {
-          transform: scale(1.05) rotate(5deg);
-          background: rgba(255, 255, 255, 0.35);
-          box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
-        }
-
-        .trust-slide-icon {
-          font-size: 3.2rem;
-          color: white;
-          text-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
-        }
-
         .trust-content-section {
           flex: 1;
           text-align: left;
         }
-
-        .trust-slide-title {
+        .trust-slide-content {
+          transform: ${isAnimating ? "translateY(20px)" : "translateY(0)"};
+          opacity: ${isAnimating ? "0.6" : "1"};
+          transition: all 0.4s ease;
+        }
+        .qr-content h1 {
           color: white;
           font-weight: 700;
           font-size: 1.75rem;
@@ -182,16 +126,22 @@ const TrustSlideshow = () => {
           text-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
           line-height: 1.3;
         }
-
-        .trust-slide-description {
+        .qr-content h2 {
           color: rgba(255, 255, 255, 0.95);
           font-size: 1.15rem;
           line-height: 1.8;
           text-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
           margin: 0;
           font-style: italic;
+          font-weight: 600;
         }
-
+        .qr-image {
+          border-radius: 15px;
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+          border: 4px solid rgba(255, 255, 255, 0.3);
+          background: white;
+          padding: 10px;
+        }
         .trust-controls-section {
           padding: 2rem 2.5rem;
           background: rgba(248, 249, 250, 0.98);
@@ -199,7 +149,6 @@ const TrustSlideshow = () => {
           border-radius: 0 0 24px 24px;
           border-top: 1px solid rgba(0, 0, 0, 0.05);
         }
-
         .trust-controls-container {
           display: flex;
           align-items: center;
@@ -207,13 +156,11 @@ const TrustSlideshow = () => {
           max-width: 500px;
           margin: 0 auto;
         }
-
         .trust-main-action {
           flex: 1;
           display: flex;
           justify-content: center;
         }
-
         .trust-action-btn {
           background: ${trustPoints[currentIndex].bgGradient};
           border: none;
@@ -229,35 +176,29 @@ const TrustSlideshow = () => {
           gap: 0.8rem;
           text-transform: none;
         }
-
         .trust-action-btn:hover {
           transform: translateY(-2px);
           box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
           color: white;
         }
-
         .trust-action-btn:active {
           transform: translateY(0);
         }
-
         .trust-action-btn:disabled {
           opacity: 0.7;
           transform: none;
           cursor: not-allowed;
         }
-
         .trust-nav-section {
           display: flex;
           align-items: center;
           gap: 1rem;
         }
-
         .trust-progress-dots {
           display: flex;
           gap: 0.8rem;
           align-items: center;
         }
-
         .trust-progress-dot {
           width: 12px;
           height: 12px;
@@ -267,7 +208,6 @@ const TrustSlideshow = () => {
           cursor: pointer;
           position: relative;
         }
-
         .trust-progress-dot::after {
           content: "";
           position: absolute;
@@ -279,23 +219,19 @@ const TrustSlideshow = () => {
           transform: translate(-50%, -50%);
           transition: all 0.3s ease;
         }
-
         .trust-progress-dot:hover::after {
           background: rgba(0, 0, 0, 0.1);
         }
-
         .trust-progress-dot.active {
           background: ${trustPoints[currentIndex].bgGradient};
           transform: scale(1.5);
           box-shadow: 0 0 0 4px rgba(249, 147, 251, 0.2);
         }
-
         .trust-auto-play-section {
           display: flex;
           align-items: center;
           gap: 0.5rem;
         }
-
         .trust-auto-play-toggle {
           background: none;
           border: 2px solid #e9ecef;
@@ -309,31 +245,21 @@ const TrustSlideshow = () => {
           align-items: center;
           justify-content: center;
         }
-
         .trust-auto-play-toggle:hover {
           border-color: #ced4da;
           color: #495057;
           transform: scale(1.05);
         }
-
         .trust-auto-play-toggle.active {
           border-color: #ffc107;
           color: #ffc107;
           background: rgba(255, 193, 7, 0.1);
         }
-
         .trust-auto-play-label {
           font-size: 0.85rem;
           color: #6c757d;
           font-weight: 500;
         }
-
-        .trust-slide-content {
-          transform: ${isAnimating ? "translateY(20px)" : "translateY(0)"};
-          opacity: ${isAnimating ? "0.6" : "1"};
-          transition: all 0.4s ease;
-        }
-
         .trust-floating-shapes {
           position: absolute;
           top: 0;
@@ -344,13 +270,11 @@ const TrustSlideshow = () => {
           z-index: 1;
           pointer-events: none;
         }
-
         .trust-shape {
           position: absolute;
           background: rgba(255, 255, 255, 0.1);
           animation: trustFloat 10s ease-in-out infinite;
         }
-
         .trust-shape:nth-child(1) {
           width: 80px;
           height: 80px;
@@ -359,7 +283,6 @@ const TrustSlideshow = () => {
           right: 5%;
           animation-delay: 0s;
         }
-
         .trust-shape:nth-child(2) {
           width: 60px;
           height: 20px;
@@ -368,7 +291,6 @@ const TrustSlideshow = () => {
           left: 8%;
           animation-delay: 4s;
         }
-
         .trust-shape:nth-child(3) {
           width: 40px;
           height: 40px;
@@ -377,7 +299,6 @@ const TrustSlideshow = () => {
           right: 12%;
           animation-delay: 7s;
         }
-
         .trust-shape:nth-child(4) {
           width: 30px;
           height: 30px;
@@ -386,7 +307,6 @@ const TrustSlideshow = () => {
           left: 5%;
           animation-delay: 2s;
         }
-
         @keyframes trustFloat {
           0%,
           100% {
@@ -406,19 +326,6 @@ const TrustSlideshow = () => {
             opacity: 0.8;
           }
         }
-
-        @keyframes trustPulse {
-          0%,
-          100% {
-            opacity: 0.3;
-            transform: scale(1);
-          }
-          50% {
-            opacity: 0.7;
-            transform: scale(1.08);
-          }
-        }
-
         /* Responsive Design */
         @media (max-width: 768px) {
           .trust-card-content {
@@ -427,109 +334,80 @@ const TrustSlideshow = () => {
             padding: 2.5rem 1.5rem;
             gap: 2rem;
           }
-
           .trust-content-section {
             text-align: center;
           }
-
-          .trust-slide-title {
+          .qr-content h1 {
             font-size: 1.5rem;
           }
-
-          .trust-slide-description {
+          .qr-content h2 {
             font-size: 1.08rem;
           }
-
-          .trust-icon-container {
-            width: 100px;
-            height: 100px;
-          }
-
-          .trust-slide-icon {
-            font-size: 2.8rem;
-          }
-
           .trust-controls-section {
             padding: 1.5rem;
           }
-
           .trust-controls-container {
             flex-direction: column;
             gap: 1.5rem;
           }
-
           .trust-main-action {
             order: 1;
             width: 100%;
           }
-
           .trust-nav-section {
             order: 2;
             justify-content: center;
           }
-
           .trust-action-btn {
             font-size: 1rem;
             padding: 0.8rem 2rem;
           }
         }
-
         @media (max-width: 576px) {
           .trust-slideshow-container {
             border-radius: 16px;
             margin: 0 0.5rem;
           }
-
           .trust-slide-card {
             border-radius: 16px;
             min-height: 280px;
           }
-
           .trust-card-content {
             padding: 2rem 1rem;
           }
-
-          .trust-slide-title {
+          .qr-content h1 {
             font-size: 1.3rem;
           }
-
-          .trust-slide-description {
+          .qr-content h2 {
             font-size: 1rem;
           }
-
           .trust-controls-section {
             padding: 1.2rem;
             border-radius: 0 0 16px 16px;
           }
-
           .trust-action-btn {
             font-size: 0.95rem;
             padding: 0.7rem 1.5rem;
           }
         }
-
         /* Dark theme support */
         @media (prefers-color-scheme: dark) {
           .trust-controls-section {
             background: rgba(33, 37, 41, 0.98);
           }
-
           .trust-auto-play-label {
             color: #adb5bd;
           }
-
           .trust-auto-play-toggle {
             border-color: #495057;
             color: #adb5bd;
           }
-
           .trust-auto-play-toggle:hover {
             border-color: #6c757d;
             color: #e9ecef;
           }
         }
       `}</style>
-
       <div className="trust-slideshow-wrapper">
         <div className="trust-slideshow-container">
           {/* Main Slide Card */}
@@ -541,7 +419,6 @@ const TrustSlideshow = () => {
               <div className="trust-shape"></div>
               <div className="trust-shape"></div>
             </div>
-
             <div className="trust-card-content">
               <div
                 className="trust-slide-content"
@@ -552,28 +429,33 @@ const TrustSlideshow = () => {
                   width: "100%",
                 }}
               >
-                {/* Icon Section */}
-                <div className="trust-icon-section">
-                  <div className="trust-icon-container">
-                    <i
-                      className={`bi ${trustPoints[currentIndex].icon} trust-slide-icon`}
-                    ></i>
-                  </div>
-                </div>
-
                 {/* Content Section */}
                 <div className="trust-content-section">
-                  <h4 className="trust-slide-title">
-                    {trustPoints[currentIndex].title}
-                  </h4>
-                  <p className="trust-slide-description">
-                    {trustPoints[currentIndex].description}
-                  </p>
+                  <div className="row qr-content">
+                    <div className="col-lg-6 col-md-12 mb-3 mb-lg-0 d-flex justify-content-center">
+                      <img
+                        src="https://i.postimg.cc/FR8WLTdD/free-ghep-am.jpg"
+                        className="qr-image"
+                        style={{
+                          width: "250px",
+                          maxWidth: "100%",
+                          height: "auto",
+                        }}
+                        alt="QR Code để tham gia nhóm học"
+                      />
+                    </div>
+                    <div className="col-lg-6 col-md-12 d-flex flex-column justify-content-center">
+                      <h1>
+                        Nhóm học ghép âm miễn phí 7h30 tối thứ 2 hàng tuần qua
+                        google meet.
+                      </h1>
+                      <h2>Quét mã để tham gia ngay.</h2>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-
           {/* Controls Section */}
           <div className="trust-controls-section">
             <div className="trust-controls-container">
@@ -590,7 +472,6 @@ const TrustSlideshow = () => {
                   ></i>
                 </button>
               </div>
-
               {/* Navigation Section */}
               <div className="trust-nav-section">
                 <div className="trust-progress-dots">
@@ -602,12 +483,13 @@ const TrustSlideshow = () => {
                       }`}
                       onClick={() => goToSlide(index)}
                       title={`${
-                        index === 0 ? "Châm ngôn" : "Trải nghiệm miễn phí"
+                        index === 0
+                          ? "Tham gia trải nghiệm"
+                          : "Kiến thức giá trị"
                       }`}
                     ></div>
                   ))}
                 </div>
-
                 {/* Auto-play Control */}
                 <div className="trust-auto-play-section">
                   <span className="trust-auto-play-label">Auto</span>
@@ -637,7 +519,7 @@ const TrustSlideshow = () => {
 };
 
 // Usage trong section
-const TrustSection = () => {
+const Register = () => {
   return (
     <section
       className="py-5"
@@ -647,7 +529,7 @@ const TrustSection = () => {
     >
       <div className="container">
         <h1 className="text-center text-white mb-5 display-5 fw-bold">
-          Làm sao để tin tưởng được?
+          Tham gia miễn phí!
         </h1>
         <div className="row justify-content-center">
           <div className="col-lg-10 col-xl-8">
@@ -659,4 +541,4 @@ const TrustSection = () => {
   );
 };
 
-export default TrustSection;
+export default Register;

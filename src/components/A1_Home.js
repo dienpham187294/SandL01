@@ -3,6 +3,7 @@ import LinkAPI from "../ulti/T0_linkApi";
 import ReasonUsage from "./A1_Home_reasonslideshow";
 import MethodUsage from "./A1_Home_methodslideshow";
 import TrustSection from "./A1_Home_trustslideshow";
+import Register from "./A1_Home_thamgia";
 const PLAYLIST_ID = "PLC0acE0qMKOkXtgSnKc9uhj6Ekj-8VDo5";
 
 const PLAYLIST_ID_HD = "PLC0acE0qMKOkBpb7YJl4sgVhP2OGJmzQS";
@@ -236,6 +237,8 @@ const EnglishLandingPage = () => {
       />
 
       {/* Hero Section */}
+
+      <Register />
       <section className="py-5 text-center text-white">
         <div className="container">
           <div className="row justify-content-center">
@@ -286,12 +289,14 @@ const EnglishLandingPage = () => {
 
       <TrustSection />
 
+      <Register />
+
       <section className="py-5">
         <div className="container">
-          <h1 className="text-center text-white mb-5 display-5 fw-bold">
+          {/* <h1 className="text-center text-white mb-5 display-5 fw-bold">
             Để lại số điện thoại, chúng tôi sẽ liên hệ bạn
           </h1>
-          <RegistrationForm />
+          <RegistrationForm /> */}
         </div>
       </section>
 
