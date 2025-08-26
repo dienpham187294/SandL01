@@ -244,8 +244,19 @@ const EnglishLandingPage = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <h1 className="display-4 fw-bold mb-4">
-                Bạn đang tìm một cách học tiếng Anh thật sự hiệu quả?
+                Chuyên rèn tiếng anh nghe nói online dành cho:
               </h1>
+              <h3>
+                + Sinh viên, học sinh mất gốc, kém tự tin, rụt rè về giao tiếp.
+              </h3>
+              <h3>+ Cần học lại tiếng anh từ đầu.</h3>
+              <h3>
+                + Chuẩn bị sang nước ngoài định cư, xuất khẩu lao động.
+              </h3>{" "}
+              <h3>
+                + Sinh viên, học sinh muốn luyện 1000 hoặc 3000 từ vựng căn bản
+                để vững chắc nền tảng.
+              </h3>
             </div>
           </div>
         </div>
