@@ -247,12 +247,12 @@ const EnglishLandingPage = () => {
                 Chuyên rèn tiếng anh nghe nói online dành cho:
               </h1>
               <h3>
-                + Sinh viên, học sinh mất gốc, kém tự tin, rụt rè về giao tiếp.
+                + Sinh viên, học sinh kém tự tin hoặc không có khả năng nghe
+                nói.
               </h3>
-              <h3>+ Cần học lại tiếng anh từ đầu.</h3>
-              <h3>+ Người lớn cần nghe nói cơ bản.</h3>
+              <h3>+ Người đi làm cần nghe nói cơ bản.</h3>
               <h3>
-                + Chuẩn bị sang nước ngoài định cư, xuất khẩu lao động.
+                + Người chuẩn bị sang nước ngoài định cư, xuất khẩu lao động.
               </h3>{" "}
               <h3>
                 + Sinh viên, học sinh muốn luyện 1000 hoặc 3000 từ vựng căn bản
