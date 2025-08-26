@@ -250,6 +250,7 @@ const EnglishLandingPage = () => {
                 + Sinh viên, học sinh mất gốc, kém tự tin, rụt rè về giao tiếp.
               </h3>
               <h3>+ Cần học lại tiếng anh từ đầu.</h3>
+              <h3>+ Người lớn cần nghe nói cơ bản.</h3>
               <h3>
                 + Chuẩn bị sang nước ngoài định cư, xuất khẩu lao động.
               </h3>{" "}
