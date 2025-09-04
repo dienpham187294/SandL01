@@ -1,0 +1,928 @@
+[
+  {
+    "audioCode": "ETV49_F1a0",
+    "text": "John, What international event inspired your last speech about history and geography?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  { "audioCode": "ETV49_F1a1", "text": "Good", "lang": 101, "rate": 0.75 },
+  {
+    "audioCode": "ETV49_F1a2",
+    "text": "John, What food item do you form with flour, and which sauce shall you choose?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  { "audioCode": "ETV49_F1a3", "text": "Good", "lang": 102, "rate": 0.75 },
+  {
+    "audioCode": "ETV49_F1a4",
+    "text": "John, How do you handle toilet maintenance if the door is closed and locked tightly?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a6",
+    "text": "John, What statue impressed you at the museum, and how did you describe its form?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a8",
+    "text": "John, Which uniform design or fashion trend shall you suggest for a teen community project?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a10",
+    "text": "John, How do you create a timetable or schedule for an island journey with many stops?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a12",
+    "text": "John, What wave or rock formation impressed you most during your lake exploration journey?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a14",
+    "text": "John, How do you prepare an examination document and ensure every section is complete?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a16",
+    "text": "John, What gift or coin collection makes you feel certain pride and personal connection?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a18",
+    "text": "John, What does a president need to handle to ensure society is fair and equally served?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a20",
+    "text": "David, What international event inspired your last speech about history and geography?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a22",
+    "text": "David, What food item do you form with flour, and which sauce shall you choose?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a24",
+    "text": "David, How do you handle toilet maintenance if the door is closed and locked tightly?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a26",
+    "text": "David, What statue impressed you at the museum, and how did you describe its form?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a28",
+    "text": "David, Which uniform design or fashion trend shall you suggest for a teen community project?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a30",
+    "text": "David, How do you create a timetable or schedule for an island journey with many stops?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a32",
+    "text": "David, What wave or rock formation impressed you most during your lake exploration journey?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a34",
+    "text": "David, How do you prepare an examination document and ensure every section is complete?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a36",
+    "text": "David, What gift or coin collection makes you feel certain pride and personal connection?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a38",
+    "text": "David, What does a president need to handle to ensure society is fair and equally served?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a40",
+    "text": "Sarah, What international event inspired your last speech about history and geography?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a42",
+    "text": "Sarah, What food item do you form with flour, and which sauce shall you choose?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a44",
+    "text": "Sarah, How do you handle toilet maintenance if the door is closed and locked tightly?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a46",
+    "text": "Sarah, What statue impressed you at the museum, and how did you describe its form?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a48",
+    "text": "Sarah, Which uniform design or fashion trend shall you suggest for a teen community project?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a50",
+    "text": "Sarah, How do you create a timetable or schedule for an island journey with many stops?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a52",
+    "text": "Sarah, What wave or rock formation impressed you most during your lake exploration journey?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a54",
+    "text": "Sarah, How do you prepare an examination document and ensure every section is complete?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a56",
+    "text": "Sarah, What gift or coin collection makes you feel certain pride and personal connection?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a58",
+    "text": "Sarah, What does a president need to handle to ensure society is fair and equally served?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a60",
+    "text": "Lily, What international event inspired your last speech about history and geography?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a62",
+    "text": "Lily, What food item do you form with flour, and which sauce shall you choose?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a64",
+    "text": "Lily, How do you handle toilet maintenance if the door is closed and locked tightly?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a66",
+    "text": "Lily, What statue impressed you at the museum, and how did you describe its form?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a68",
+    "text": "Lily, Which uniform design or fashion trend shall you suggest for a teen community project?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a70",
+    "text": "Lily, How do you create a timetable or schedule for an island journey with many stops?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a72",
+    "text": "Lily, What wave or rock formation impressed you most during your lake exploration journey?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a74",
+    "text": "Lily, How do you prepare an examination document and ensure every section is complete?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a76",
+    "text": "Lily, What gift or coin collection makes you feel certain pride and personal connection?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a78",
+    "text": "Lily, What does a president need to handle to ensure society is fair and equally served?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a80",
+    "text": "William, What international event inspired your last speech about history and geography?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a82",
+    "text": "William, What food item do you form with flour, and which sauce shall you choose?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a84",
+    "text": "William, How do you handle toilet maintenance if the door is closed and locked tightly?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a86",
+    "text": "William, What statue impressed you at the museum, and how did you describe its form?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a88",
+    "text": "William, Which uniform design or fashion trend shall you suggest for a teen community project?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a90",
+    "text": "William, How do you create a timetable or schedule for an island journey with many stops?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a92",
+    "text": "William, What wave or rock formation impressed you most during your lake exploration journey?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a94",
+    "text": "William, How do you prepare an examination document and ensure every section is complete?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a96",
+    "text": "William, What gift or coin collection makes you feel certain pride and personal connection?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a98",
+    "text": "William, What does a president need to handle to ensure society is fair and equally served?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a100",
+    "text": "John say: I spoke about international peace and friendship, definitely supporting cultural exchange widely. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a101",
+    "text": "Correct!",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a102",
+    "text": "Incorrect!",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a103",
+    "text": "John say: I mix flour and water to form bread dough, adding simple tomato sauce carefully. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a104",
+    "text": "Correct!",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a105",
+    "text": "Incorrect!",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a106",
+    "text": "John say: I call the building manager if the toilet is closed, and I cannot handle repairs. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a109",
+    "text": "John say: I admired a bronze statue of a hero; I wrote about its strength and beauty. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a112",
+    "text": "John say: I designed a teen volunteer uniform, adding bright colors, a logo, and traditional patterns. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a115",
+    "text": "John say: I created a timetable showing boat departure times and clear directions at each site. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a118",
+    "text": "John say: I admired a giant rock in the middle of a deep lake during our journey. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a121",
+    "text": "John say: I divided my examination document into sections, adding suggestions for improvement carefully. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a124",
+    "text": "John say: I collected a silver coin from my grandfather; it represents love and family connection. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a127",
+    "text": "John say: A president must employ regular updates and divide resources equally for every section. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a130",
+    "text": "David say: My speech was about geography and a storm that suddenly damaged an island village. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a133",
+    "text": "David say: I shall bake small cakes using flour and chocolate, definitely choosing strawberry sauce today. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a136",
+    "text": "David say: I try to handle broken toilets myself, but I always lock the door securely first. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a139",
+    "text": "David say: That statue was ugly but historic; I described every crack and missing piece carefully. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a142",
+    "text": "David say: Our community chose a simple school uniform; I gave a suggestion for comfortable fabrics. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a145",
+    "text": "David say: My schedule is simple; I planned one journey per day, allowing discovery and rest. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a148",
+    "text": "David say: I noticed a wave pattern forming naturally; it looked like a circle expanding equally. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a151",
+    "text": "David say: I checked each section twice, making sure every detail and translation was correct. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a154",
+    "text": "David say: My favorite gift was a handmade vest from my grandmother, a symbol of tradition. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a157",
+    "text": "David say: Presidents shall set rules to handle power wisely, avoiding negative impacts on society. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a160",
+    "text": "Sarah say: I described traditional clothing in an international fashion show, including colors and fabrics carefully. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a163",
+    "text": "Sarah say: Flour is the key ingredient for pancakes; I always serve them with honey sauce. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a166",
+    "text": "Sarah say: The toilet was closed yesterday; I gathered cleaning equipment and handled the smell quickly. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a169",
+    "text": "Sarah say: I translated information about the statue from French to English for other visitors. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a172",
+    "text": "Sarah say: The uniform is regular and safe; I prefer fashion trends that vary and feel personal. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a175",
+    "text": "Sarah say: I designed a timetable for our geography club, marking every island visit carefully. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a178",
+    "text": "Sarah say: The wave hit a rock suddenly; I took a picture and described the direction carefully. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a181",
+    "text": "Sarah say: I printed the examination paper and added a clear introduction to the first section. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a184",
+    "text": "Sarah say: I found a rare coin during travel; this discovery gave me luck and confidence. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a187",
+    "text": "Sarah say: Leaders gather suggestions and mix them; they must translate ideas into clear laws. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a190",
+    "text": "Lily say: I compared geography facts about every continent, helping others imagine landscapes they never visited. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a193",
+    "text": "Lily say: I form noodles from flour; I prefer sauce with garlic heat and balanced taste. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a196",
+    "text": "Lily say: I checked the toilet, locked it quietly, and called plumbers when water leaked suddenly. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a199",
+    "text": "Lily say: I read about the statue’s discovery and described how the artist expressed emotions deeply. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a202",
+    "text": "Lily say: I drew a modern uniform for our community band, adding music symbols to sleeves. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a205",
+    "text": "Lily say: I updated my schedule daily, changing plans suddenly due to weather or storm warnings. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a208",
+    "text": "Lily say: My favorite rock had carvings; I imagined old people gathering around it long ago. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a211",
+    "text": "Lily say: I made a simple diagram in one section; I also included study tips for success. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a214",
+    "text": "Lily say: A birthday gift from a teacher was a keychain; I keep it in a cupboard safely. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a217",
+    "text": "Lily say: A president must serve the community, ensuring fairness in education, safety, and religion. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a220",
+    "text": "William say: I spoke quietly, explaining the international connections between climate change, storms, and wildlife habitats. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a223",
+    "text": "William say: I make dumplings from flour and mix a sauce of vinegar, soy, and sesame oil. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a226",
+    "text": "William say: The toilet was locked; I waited outside, holding cleaning gloves and a small repair kit. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a229",
+    "text": "William say: The statue’s base was decorated with coins and flowers; I took photos quietly, feeling lucky. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a232",
+    "text": "William say: I think uniforms should be equally beautiful, simple, and affordable for every community teen. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a235",
+    "text": "William say: I used a printed timetable from the travel site to plan the whole trip carefully. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a238",
+    "text": "William say: The lake reflected the moon beautifully; I felt calm and lucky during that journey. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a241",
+    "text": "William say: I wrote instructions equally across every section; I wanted none of the answers confusing. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a244",
+    "text": "William say: I have a collection of old coins; they represent culture, history, and chance discoveries. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a247",
+    "text": "William say: Presidents should imagine the future; they need equipment, power, and community support. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a250",
+    "text": "Sarah say: I spoke about international peace and friendship, definitely supporting cultural exchange widely. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a253",
+    "text": "Sarah say: I mix flour and water to form bread dough, adding simple tomato sauce carefully. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a256",
+    "text": "Sarah say: I call the building manager if the toilet is closed, and I cannot handle repairs. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a259",
+    "text": "Sarah say: I admired a bronze statue of a hero; I wrote about its strength and beauty. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a262",
+    "text": "Sarah say: I designed a teen volunteer uniform, adding bright colors, a logo, and traditional patterns. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a265",
+    "text": "Sarah say: I created a timetable showing boat departure times and clear directions at each site. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a268",
+    "text": "Sarah say: I admired a giant rock in the middle of a deep lake during our journey. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a271",
+    "text": "Sarah say: I divided my examination document into sections, adding suggestions for improvement carefully. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a274",
+    "text": "Sarah say: I collected a silver coin from my grandfather; it represents love and family connection. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a277",
+    "text": "Sarah say: A president must employ regular updates and divide resources equally for every section. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a280",
+    "text": "Lily say: My speech was about geography and a storm that suddenly damaged an island village. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a283",
+    "text": "Lily say: I shall bake small cakes using flour and chocolate, definitely choosing strawberry sauce today. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a286",
+    "text": "Lily say: I try to handle broken toilets myself, but I always lock the door securely first. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a289",
+    "text": "Lily say: That statue was ugly but historic; I described every crack and missing piece carefully. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a292",
+    "text": "Lily say: Our community chose a simple school uniform; I gave a suggestion for comfortable fabrics. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a295",
+    "text": "Lily say: My schedule is simple; I planned one journey per day, allowing discovery and rest. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a298",
+    "text": "Lily say: I noticed a wave pattern forming naturally; it looked like a circle expanding equally. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a301",
+    "text": "Lily say: I checked each section twice, making sure every detail and translation was correct. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a304",
+    "text": "Lily say: My favorite gift was a handmade vest from my grandmother, a symbol of tradition. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a307",
+    "text": "Lily say: Presidents shall set rules to handle power wisely, avoiding negative impacts on society. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a310",
+    "text": "William say: I described traditional clothing in an international fashion show, including colors and fabrics carefully. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a313",
+    "text": "William say: Flour is the key ingredient for pancakes; I always serve them with honey sauce. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a316",
+    "text": "William say: The toilet was closed yesterday; I gathered cleaning equipment and handled the smell quickly. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a319",
+    "text": "William say: I translated information about the statue from French to English for other visitors. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a322",
+    "text": "William say: The uniform is regular and safe; I prefer fashion trends that vary and feel personal. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a325",
+    "text": "William say: I designed a timetable for our geography club, marking every island visit carefully. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a328",
+    "text": "William say: The wave hit a rock suddenly; I took a picture and described the direction carefully. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a331",
+    "text": "William say: I printed the examination paper and added a clear introduction to the first section. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a334",
+    "text": "William say: I found a rare coin during travel; this discovery gave me luck and confidence. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a337",
+    "text": "William say: Leaders gather suggestions and mix them; they must translate ideas into clear laws. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a340",
+    "text": "John say: I compared geography facts about every continent, helping others imagine landscapes they never visited. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a343",
+    "text": "John say: I form noodles from flour; I prefer sauce with garlic heat and balanced taste. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a346",
+    "text": "John say: I checked the toilet, locked it quietly, and called plumbers when water leaked suddenly. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a349",
+    "text": "John say: I read about the statue’s discovery and described how the artist expressed emotions deeply. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a352",
+    "text": "John say: I drew a modern uniform for our community band, adding music symbols to sleeves. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a355",
+    "text": "John say: I updated my schedule daily, changing plans suddenly due to weather or storm warnings. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a358",
+    "text": "John say: My favorite rock had carvings; I imagined old people gathering around it long ago. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a361",
+    "text": "John say: I made a simple diagram in one section; I also included study tips for success. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a364",
+    "text": "John say: A birthday gift from a teacher was a keychain; I keep it in a cupboard safely. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a367",
+    "text": "John say: A president must serve the community, ensuring fairness in education, safety, and religion. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a370",
+    "text": "David say: I spoke quietly, explaining the international connections between climate change, storms, and wildlife habitats. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a373",
+    "text": "David say: I make dumplings from flour and mix a sauce of vinegar, soy, and sesame oil. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a376",
+    "text": "David say: The toilet was locked; I waited outside, holding cleaning gloves and a small repair kit. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a379",
+    "text": "David say: The statue’s base was decorated with coins and flowers; I took photos quietly, feeling lucky. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a382",
+    "text": "David say: I think uniforms should be equally beautiful, simple, and affordable for every community teen. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a385",
+    "text": "David say: I used a printed timetable from the travel site to plan the whole trip carefully. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a388",
+    "text": "David say: The lake reflected the moon beautifully; I felt calm and lucky during that journey. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a391",
+    "text": "David say: I wrote instructions equally across every section; I wanted none of the answers confusing. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a394",
+    "text": "David say: I have a collection of old coins; they represent culture, history, and chance discoveries. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETV49_F1a397",
+    "text": "David say: Presidents should imagine the future; they need equipment, power, and community support. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  }
+]

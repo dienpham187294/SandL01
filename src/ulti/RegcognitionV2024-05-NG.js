@@ -53,9 +53,14 @@ const Dictaphone = ({
 
   useEffect(() => {
     let cmd_get_f_CMDlist = [];
+    let cmd_get_f_CMDlist_over50 = [];
     CMDlist.forEach((e0, i0) => {
       e0.qs.forEach((e1, i1) => {
-        cmd_get_f_CMDlist.push(e1);
+        if (e1.length > 50) {
+          cmd_get_f_CMDlist_over50.push(e1);
+        } else {
+          cmd_get_f_CMDlist.push(e1);
+        }
       });
     });
 
@@ -69,6 +74,17 @@ const Dictaphone = ({
         },
         isFuzzyMatch: true,
         fuzzyMatchingThreshold: regRate,
+        bestMatchOnly: true,
+      },
+      {
+        command: cmd_get_f_CMDlist_over50,
+        callback: (command, n, i) => {
+          try {
+            setotherGetInterim(command);
+          } catch (error) {}
+        },
+        isFuzzyMatch: true,
+        fuzzyMatchingThreshold: regRate > 0.7 ? regRate : 0.7,
         bestMatchOnly: true,
       },
     ];

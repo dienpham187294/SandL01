@@ -10,6 +10,8 @@ import Move from "./A0_move";
 
 import levele_img_barlist from "./header_data/hinhanh-lv1-5-5.json";
 import words_3000 from "./header_data/3000-words.json";
+
+import a_prac_100 from "./header_data/a_prac_100.json";
 import yy1A from "./header_data/yy1A.json";
 const coreKnowledgeSets = [
   {
@@ -266,7 +268,7 @@ export default function Header({ sttRoom, STTconnectFN }) {
               )}{" "}
               {returnDropdown(
                 "Khác",
-                levele_img_barlist.concat(words_3000),
+                levele_img_barlist.concat(words_3000, a_prac_100),
                 { name: "name", link: "link", preName: "preName" },
                 null
               )}
