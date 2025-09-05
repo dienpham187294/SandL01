@@ -1,10 +1,19 @@
 [
   {
     "stt": 1,
-    "name": "100(1)",
+    "name": "Part (1)",
     "des": "3000 words (01B1)",
-    "preName": "3000 words (01B1)",
+    "preName": "Prac100B1",
     "link": "yyy_a_prac_100",
+    "folder": "basicAC1",
+    "root": "learninghub"
+  },
+  {
+    "stt": 2,
+    "name": "Topic | GOALS",
+    "des": "3000 words (GOALS)",
+    "preName": "Prac100A2",
+    "link": "yyy_0a_prac_100_goals",
     "folder": "basicAC1",
     "root": "learninghub"
   }

@@ -56,7 +56,7 @@ const Dictaphone = ({
     let cmd_get_f_CMDlist_over50 = [];
     CMDlist.forEach((e0, i0) => {
       e0.qs.forEach((e1, i1) => {
-        if (e1.length > 50) {
+        if (e1.length > 30) {
           cmd_get_f_CMDlist_over50.push(e1);
         } else {
           cmd_get_f_CMDlist.push(e1);

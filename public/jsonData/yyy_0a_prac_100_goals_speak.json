@@ -1,0 +1,1828 @@
+[
+  {
+    "audioCode": "ETVA95_F1a0",
+    "text": "John, What is a goal?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  { "audioCode": "ETVA95_F1a1", "text": "Good", "lang": 101, "rate": 0.75 },
+  {
+    "audioCode": "ETVA95_F1a2",
+    "text": "John, Why are goals important?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  { "audioCode": "ETVA95_F1a3", "text": "Good", "lang": 102, "rate": 0.75 },
+  {
+    "audioCode": "ETVA95_F1a4",
+    "text": "John, Can goals help to change your life? How?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a6",
+    "text": "John, Is it important to set goals?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a8",
+    "text": "John, What goals do you have in your life?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a10",
+    "text": "John, What is your biggest goal in life?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a12",
+    "text": "John, What are your 'short term' goals?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a14",
+    "text": "John, What are your 'long term' goals?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a16",
+    "text": "John, Do you have a five-year plan for your life?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a18",
+    "text": "John, How do you plan to achieve your biggest goal?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a20",
+    "text": "John, Are goals necessary to achieve success?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a22",
+    "text": "John, How are plans and goals related?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a24",
+    "text": "John, Should parents help their children set goals?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a26",
+    "text": "John, What are your educational goals?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a28",
+    "text": "John, What are your career goals?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a30",
+    "text": "John, What are your financial goals?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a32",
+    "text": "John, Do you have spiritual or religious goals?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a34",
+    "text": "John, What are your goals in your current job?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a36",
+    "text": "John, What are your family’s goals?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a38",
+    "text": "John, Do you have any goals that you feel are unrealistic?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a40",
+    "text": "David, What is a goal?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a42",
+    "text": "David, Why are goals important?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a44",
+    "text": "David, Can goals help to change your life? How?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a46",
+    "text": "David, Is it important to set goals?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a48",
+    "text": "David, What goals do you have in your life?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a50",
+    "text": "David, What is your biggest goal in life?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a52",
+    "text": "David, What are your 'short term' goals?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a54",
+    "text": "David, What are your 'long term' goals?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a56",
+    "text": "David, Do you have a five-year plan for your life?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a58",
+    "text": "David, How do you plan to achieve your biggest goal?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a60",
+    "text": "David, Are goals necessary to achieve success?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a62",
+    "text": "David, How are plans and goals related?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a64",
+    "text": "David, Should parents help their children set goals?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a66",
+    "text": "David, What are your educational goals?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a68",
+    "text": "David, What are your career goals?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a70",
+    "text": "David, What are your financial goals?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a72",
+    "text": "David, Do you have spiritual or religious goals?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a74",
+    "text": "David, What are your goals in your current job?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a76",
+    "text": "David, What are your family’s goals?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a78",
+    "text": "David, Do you have any goals that you feel are unrealistic?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a80",
+    "text": "Sarah, What is a goal?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a82",
+    "text": "Sarah, Why are goals important?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a84",
+    "text": "Sarah, Can goals help to change your life? How?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a86",
+    "text": "Sarah, Is it important to set goals?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a88",
+    "text": "Sarah, What goals do you have in your life?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a90",
+    "text": "Sarah, What is your biggest goal in life?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a92",
+    "text": "Sarah, What are your 'short term' goals?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a94",
+    "text": "Sarah, What are your 'long term' goals?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a96",
+    "text": "Sarah, Do you have a five-year plan for your life?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a98",
+    "text": "Sarah, How do you plan to achieve your biggest goal?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a100",
+    "text": "Sarah, Are goals necessary to achieve success?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a102",
+    "text": "Sarah, How are plans and goals related?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a104",
+    "text": "Sarah, Should parents help their children set goals?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a106",
+    "text": "Sarah, What are your educational goals?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a108",
+    "text": "Sarah, What are your career goals?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a110",
+    "text": "Sarah, What are your financial goals?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a112",
+    "text": "Sarah, Do you have spiritual or religious goals?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a114",
+    "text": "Sarah, What are your goals in your current job?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a116",
+    "text": "Sarah, What are your family’s goals?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a118",
+    "text": "Sarah, Do you have any goals that you feel are unrealistic?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a120",
+    "text": "Lily, What is a goal?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a122",
+    "text": "Lily, Why are goals important?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a124",
+    "text": "Lily, Can goals help to change your life? How?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a126",
+    "text": "Lily, Is it important to set goals?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a128",
+    "text": "Lily, What goals do you have in your life?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a130",
+    "text": "Lily, What is your biggest goal in life?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a132",
+    "text": "Lily, What are your 'short term' goals?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a134",
+    "text": "Lily, What are your 'long term' goals?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a136",
+    "text": "Lily, Do you have a five-year plan for your life?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a138",
+    "text": "Lily, How do you plan to achieve your biggest goal?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a140",
+    "text": "Lily, Are goals necessary to achieve success?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a142",
+    "text": "Lily, How are plans and goals related?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a144",
+    "text": "Lily, Should parents help their children set goals?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a146",
+    "text": "Lily, What are your educational goals?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a148",
+    "text": "Lily, What are your career goals?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a150",
+    "text": "Lily, What are your financial goals?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a152",
+    "text": "Lily, Do you have spiritual or religious goals?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a154",
+    "text": "Lily, What are your goals in your current job?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a156",
+    "text": "Lily, What are your family’s goals?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a158",
+    "text": "Lily, Do you have any goals that you feel are unrealistic?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a160",
+    "text": "William, What is a goal?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a162",
+    "text": "William, Why are goals important?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a164",
+    "text": "William, Can goals help to change your life? How?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a166",
+    "text": "William, Is it important to set goals?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a168",
+    "text": "William, What goals do you have in your life?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a170",
+    "text": "William, What is your biggest goal in life?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a172",
+    "text": "William, What are your 'short term' goals?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a174",
+    "text": "William, What are your 'long term' goals?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a176",
+    "text": "William, Do you have a five-year plan for your life?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a178",
+    "text": "William, How do you plan to achieve your biggest goal?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a180",
+    "text": "William, Are goals necessary to achieve success?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a182",
+    "text": "William, How are plans and goals related?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a184",
+    "text": "William, Should parents help their children set goals?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a186",
+    "text": "William, What are your educational goals?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a188",
+    "text": "William, What are your career goals?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a190",
+    "text": "William, What are your financial goals?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a192",
+    "text": "William, Do you have spiritual or religious goals?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a194",
+    "text": "William, What are your goals in your current job?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a196",
+    "text": "William, What are your family’s goals?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a198",
+    "text": "William, Do you have any goals that you feel are unrealistic?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a200",
+    "text": "John say: A goal is a plan we work hard to reach. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a201",
+    "text": "Correct!",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a202",
+    "text": "Incorrect!",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a203",
+    "text": "John say: Goals give us direction and help us stay focused. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a204",
+    "text": "Correct!",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a205",
+    "text": "Incorrect!",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a206",
+    "text": "John say: Yes, they make us stronger and improve our confidence. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a209",
+    "text": "John say: Yes, goals help us manage time and work properly. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a212",
+    "text": "John say: I want to travel to an international country and study abroad. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a215",
+    "text": "John say: My biggest goal is to build a strong community and help people. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a218",
+    "text": "John say: I want to improve my timetable and study more regularly this month. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a221",
+    "text": "John say: I hope to start a company and employ many young people. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a224",
+    "text": "John say: Yes, I plan to study hard and pass every examination. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a227",
+    "text": "John say: I will create a clear schedule and gather advice from teachers. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a230",
+    "text": "John say: Yes, without goals, success feels like a lucky accident. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a233",
+    "text": "John say: Goals are dreams, and plans are steps to reach them. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a236",
+    "text": "John say: Yes, they should guide children but let them choose. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a239",
+    "text": "John say: I want to pass every exam and get a scholarship. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a242",
+    "text": "John say: I hope to become an engineer and design electric cars. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a245",
+    "text": "John say: I want to save money and buy a flat in the city. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a248",
+    "text": "John say: I plan to read religious books and attend community events. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a251",
+    "text": "John say: I want to serve customers politely and get positive feedback. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a254",
+    "text": "John say: My family wants to buy a new house near a quiet lake. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a257",
+    "text": "John say: I want to visit the moon, but that feels impossible now. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a260",
+    "text": "David say: A goal is something important we want to achieve. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a263",
+    "text": "David say: They motivate us to work harder and plan better. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a266",
+    "text": "David say: Goals change life by encouraging planning and hard work. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a269",
+    "text": "David say: It is important because goals make us responsible. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a272",
+    "text": "David say: My goal is to finish school and become an engineer. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a275",
+    "text": "David say: I want to travel to every island and learn new cultures. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a278",
+    "text": "David say: My goal is to save money and buy a bicycle. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a281",
+    "text": "David say: My long term goal is to become president of a sports club. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a284",
+    "text": "David say: I hope to buy a house and fill it with good furniture. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a287",
+    "text": "David say: I plan to work hard and handle problems calmly. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a290",
+    "text": "David say: Goals make us focus and avoid negative distractions in life. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a293",
+    "text": "David say: Plans help divide a goal into smaller, easier sections. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a296",
+    "text": "David say: Parents can give suggestions but not decide everything. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a299",
+    "text": "David say: I hope to study abroad at a famous international university. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a302",
+    "text": "David say: I want to open a bakery and sell bread with sweet sauce. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a305",
+    "text": "David say: My plan is to manage my money well and avoid debt. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a308",
+    "text": "David say: I want to join a group and study spiritual traditions. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a311",
+    "text": "David say: My goal is to handle all tasks well and learn new skills. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a314",
+    "text": "David say: Our goal is to gather more often and eat meals together. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a317",
+    "text": "David say: My dream is to own a castle, which is unrealistic for me. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a320",
+    "text": "Sarah say: A goal is a dream we try to make real. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a323",
+    "text": "Sarah say: Goals keep our life organized and meaningful. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a326",
+    "text": "Sarah say: They help people grow and face new challenges. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a329",
+    "text": "Sarah say: Without goals, life feels messy and without purpose. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a332",
+    "text": "Sarah say: I want to improve my speech and speak English fluently. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a335",
+    "text": "Sarah say: My dream is to design a beautiful statue for my hometown. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a338",
+    "text": "Sarah say: I hope to finish reading two books about geography. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a341",
+    "text": "Sarah say: I want to travel and write about nature and deer. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a344",
+    "text": "Sarah say: My plan is to save money and visit a famous site. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a347",
+    "text": "Sarah say: I want to take a chance and join a science competition. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a350",
+    "text": "Sarah say: I believe goals are the source of power to succeed. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a353",
+    "text": "Sarah say: Goals guide your life; plans handle details and timing. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a356",
+    "text": "Sarah say: Children need help to imagine future jobs and study paths. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a359",
+    "text": "Sarah say: I want to learn music and perform on stage someday. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a362",
+    "text": "Sarah say: My dream is to work as a teacher and inspire teens. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a365",
+    "text": "Sarah say: I hope to earn enough to support my whole family. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a368",
+    "text": "Sarah say: My goal is to pray daily and learn about different cultures. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a371",
+    "text": "Sarah say: I hope to earn trust from my employer and colleagues. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a374",
+    "text": "Sarah say: We hope to support each other equally and stay connected. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a377",
+    "text": "Sarah say: I want to start a zoo and raise many deer. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a380",
+    "text": "Lily say: It is a clear target you choose to achieve. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a383",
+    "text": "Lily say: Goals help people understand their priorities in life. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a386",
+    "text": "Lily say: Yes, they create motivation to achieve something big. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a389",
+    "text": "Lily say: Yes, they help students learn better and improve skills. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a392",
+    "text": "Lily say: I hope to learn to bake with flour and open a café. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a395",
+    "text": "Lily say: I want to open a fashion shop with traditional clothes. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a398",
+    "text": "Lily say: I want to practice my speech and join an English club. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a401",
+    "text": "Lily say: My goal is to own a farm and plant many trees. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a404",
+    "text": "Lily say: I want to finish university and learn cooking skills. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a407",
+    "text": "Lily say: I will mix online learning with classes to learn faster. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a410",
+    "text": "Lily say: Goals help teens stay motivated and work regularly. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a413",
+    "text": "Lily say: Plans and goals are connected like a map and direction. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a416",
+    "text": "Lily say: Parents should quietly support and encourage their kids’ dreams. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a419",
+    "text": "Lily say: My goal is to finish school and study graphic design. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a422",
+    "text": "Lily say: I hope to write and publish books in a quiet library. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a425",
+    "text": "Lily say: I want to build a business site and sell furniture online. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a428",
+    "text": "Lily say: I hope to visit temples and learn traditional practices. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a431",
+    "text": "Lily say: My goal is to finish projects on time and improve teamwork. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a434",
+    "text": "Lily say: We want to travel and take many photos at famous sites. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a437",
+    "text": "Lily say: I dream of making a movie episode about space travel. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a440",
+    "text": "William say: A goal is a thing you hope to do someday. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a443",
+    "text": "William say: They guide us to success and personal growth. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a446",
+    "text": "William say: They give us steps to reach dreams and happiness. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a449",
+    "text": "William say: Goals are very important for career and success. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a452",
+    "text": "William say: I plan to save money and definitely buy a small house. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a455",
+    "text": "William say: My goal is to write a famous book about my journey. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a458",
+    "text": "William say: I plan to clean the garage and fix the broken cupboard. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a461",
+    "text": "William say: I want to become a teacher and help students succeed. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a464",
+    "text": "William say: Yes, I want to get a stable job and save money. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a467",
+    "text": "William say: I plan to write goals down and follow them carefully. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a470",
+    "text": "William say: Goals are necessary because they give people direction and energy. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a473",
+    "text": "William say: Without plans, a goal is only an idea without action. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a476",
+    "text": "William say: Parents can teach kids how to write and follow goals. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a479",
+    "text": "William say: I plan to learn English and translate stories into my language. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a482",
+    "text": "William say: I want to work online and build a successful company. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a485",
+    "text": "William say: My goal is to save coins regularly and travel around Asia. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a488",
+    "text": "William say: I plan to talk to elders about spiritual ideas and wisdom. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a491",
+    "text": "William say: I want to gain experience to achieve future career success. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a494",
+    "text": "William say: Our goal is to build strong connections and keep family traditions alive. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a497",
+    "text": "William say: I want to design a city with a circular train around it. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a500",
+    "text": "Sarah say: A goal is a plan we work hard to reach. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a503",
+    "text": "Sarah say: Goals give us direction and help us stay focused. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a506",
+    "text": "Sarah say: Yes, they make us stronger and improve our confidence. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a509",
+    "text": "Sarah say: Yes, goals help us manage time and work properly. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a512",
+    "text": "Sarah say: I want to travel to an international country and study abroad. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a515",
+    "text": "Sarah say: My biggest goal is to build a strong community and help people. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a518",
+    "text": "Sarah say: I want to improve my timetable and study more regularly this month. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a521",
+    "text": "Sarah say: I hope to start a company and employ many young people. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a524",
+    "text": "Sarah say: Yes, I plan to study hard and pass every examination. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a527",
+    "text": "Sarah say: I will create a clear schedule and gather advice from teachers. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a530",
+    "text": "Sarah say: Yes, without goals, success feels like a lucky accident. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a533",
+    "text": "Sarah say: Goals are dreams, and plans are steps to reach them. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a536",
+    "text": "Sarah say: Yes, they should guide children but let them choose. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a539",
+    "text": "Sarah say: I want to pass every exam and get a scholarship. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a542",
+    "text": "Sarah say: I hope to become an engineer and design electric cars. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a545",
+    "text": "Sarah say: I want to save money and buy a flat in the city. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a548",
+    "text": "Sarah say: I plan to read religious books and attend community events. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a551",
+    "text": "Sarah say: I want to serve customers politely and get positive feedback. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a554",
+    "text": "Sarah say: My family wants to buy a new house near a quiet lake. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a557",
+    "text": "Sarah say: I want to visit the moon, but that feels impossible now. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a560",
+    "text": "Lily say: A goal is something important we want to achieve. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a563",
+    "text": "Lily say: They motivate us to work harder and plan better. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a566",
+    "text": "Lily say: Goals change life by encouraging planning and hard work. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a569",
+    "text": "Lily say: It is important because goals make us responsible. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a572",
+    "text": "Lily say: My goal is to finish school and become an engineer. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a575",
+    "text": "Lily say: I want to travel to every island and learn new cultures. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a578",
+    "text": "Lily say: My goal is to save money and buy a bicycle. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a581",
+    "text": "Lily say: My long term goal is to become president of a sports club. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a584",
+    "text": "Lily say: I hope to buy a house and fill it with good furniture. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a587",
+    "text": "Lily say: I plan to work hard and handle problems calmly. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a590",
+    "text": "Lily say: Goals make us focus and avoid negative distractions in life. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a593",
+    "text": "Lily say: Plans help divide a goal into smaller, easier sections. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a596",
+    "text": "Lily say: Parents can give suggestions but not decide everything. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a599",
+    "text": "Lily say: I hope to study abroad at a famous international university. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a602",
+    "text": "Lily say: I want to open a bakery and sell bread with sweet sauce. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a605",
+    "text": "Lily say: My plan is to manage my money well and avoid debt. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a608",
+    "text": "Lily say: I want to join a group and study spiritual traditions. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a611",
+    "text": "Lily say: My goal is to handle all tasks well and learn new skills. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a614",
+    "text": "Lily say: Our goal is to gather more often and eat meals together. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a617",
+    "text": "Lily say: My dream is to own a castle, which is unrealistic for me. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a620",
+    "text": "William say: A goal is a dream we try to make real. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a623",
+    "text": "William say: Goals keep our life organized and meaningful. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a626",
+    "text": "William say: They help people grow and face new challenges. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a629",
+    "text": "William say: Without goals, life feels messy and without purpose. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a632",
+    "text": "William say: I want to improve my speech and speak English fluently. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a635",
+    "text": "William say: My dream is to design a beautiful statue for my hometown. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a638",
+    "text": "William say: I hope to finish reading two books about geography. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a641",
+    "text": "William say: I want to travel and write about nature and deer. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a644",
+    "text": "William say: My plan is to save money and visit a famous site. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a647",
+    "text": "William say: I want to take a chance and join a science competition. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a650",
+    "text": "William say: I believe goals are the source of power to succeed. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a653",
+    "text": "William say: Goals guide your life; plans handle details and timing. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a656",
+    "text": "William say: Children need help to imagine future jobs and study paths. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a659",
+    "text": "William say: I want to learn music and perform on stage someday. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a662",
+    "text": "William say: My dream is to work as a teacher and inspire teens. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a665",
+    "text": "William say: I hope to earn enough to support my whole family. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a668",
+    "text": "William say: My goal is to pray daily and learn about different cultures. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a671",
+    "text": "William say: I hope to earn trust from my employer and colleagues. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a674",
+    "text": "William say: We hope to support each other equally and stay connected. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a677",
+    "text": "William say: I want to start a zoo and raise many deer. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a680",
+    "text": "John say: It is a clear target you choose to achieve. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a683",
+    "text": "John say: Goals help people understand their priorities in life. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a686",
+    "text": "John say: Yes, they create motivation to achieve something big. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a689",
+    "text": "John say: Yes, they help students learn better and improve skills. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a692",
+    "text": "John say: I hope to learn to bake with flour and open a café. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a695",
+    "text": "John say: I want to open a fashion shop with traditional clothes. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a698",
+    "text": "John say: I want to practice my speech and join an English club. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a701",
+    "text": "John say: My goal is to own a farm and plant many trees. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a704",
+    "text": "John say: I want to finish university and learn cooking skills. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a707",
+    "text": "John say: I will mix online learning with classes to learn faster. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a710",
+    "text": "John say: Goals help teens stay motivated and work regularly. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a713",
+    "text": "John say: Plans and goals are connected like a map and direction. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a716",
+    "text": "John say: Parents should quietly support and encourage their kids’ dreams. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a719",
+    "text": "John say: My goal is to finish school and study graphic design. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a722",
+    "text": "John say: I hope to write and publish books in a quiet library. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a725",
+    "text": "John say: I want to build a business site and sell furniture online. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a728",
+    "text": "John say: I hope to visit temples and learn traditional practices. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a731",
+    "text": "John say: My goal is to finish projects on time and improve teamwork. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a734",
+    "text": "John say: We want to travel and take many photos at famous sites. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a737",
+    "text": "John say: I dream of making a movie episode about space travel. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a740",
+    "text": "David say: A goal is a thing you hope to do someday. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a743",
+    "text": "David say: They guide us to success and personal growth. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a746",
+    "text": "David say: They give us steps to reach dreams and happiness. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a749",
+    "text": "David say: Goals are very important for career and success. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a752",
+    "text": "David say: I plan to save money and definitely buy a small house. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a755",
+    "text": "David say: My goal is to write a famous book about my journey. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a758",
+    "text": "David say: I plan to clean the garage and fix the broken cupboard. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a761",
+    "text": "David say: I want to become a teacher and help students succeed. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a764",
+    "text": "David say: Yes, I want to get a stable job and save money. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a767",
+    "text": "David say: I plan to write goals down and follow them carefully. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a770",
+    "text": "David say: Goals are necessary because they give people direction and energy. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a773",
+    "text": "David say: Without plans, a goal is only an idea without action. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a776",
+    "text": "David say: Parents can teach kids how to write and follow goals. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a779",
+    "text": "David say: I plan to learn English and translate stories into my language. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a782",
+    "text": "David say: I want to work online and build a successful company. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a785",
+    "text": "David say: My goal is to save coins regularly and travel around Asia. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a788",
+    "text": "David say: I plan to talk to elders about spiritual ideas and wisdom. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a791",
+    "text": "David say: I want to gain experience to achieve future career success. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a794",
+    "text": "David say: Our goal is to build strong connections and keep family traditions alive. It is right or wrong?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ETVA95_F1a797",
+    "text": "David say: I want to design a city with a circular train around it. It is right or wrong?",
+    "lang": 102,
+    "rate": 0.75
+  }
+]
