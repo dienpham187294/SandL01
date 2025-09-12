@@ -23,7 +23,7 @@ import KnowGhepAm from "./components/A1_Know_Ghepam";
 import LearningHub_prac_st_only from "./components/LearningHub_prac_st_only";
 import PixiCanvas from "./components/prac_componets/inside_01_components/PixiJS";
 // import RootPrac from "./components/prac_componets/B1_RootPrac";
-
+import TTSStartButton from "./components/serverStart/serverStartTtsList";
 const LinkAPI =
   window.location.hostname === "localhost"
     ? "http://localhost:5000"
@@ -105,18 +105,15 @@ const App = () => {
                 path="/roomn/:roomCode/:currentIndex"
                 element={<RoomN setSttRoom={setSttRoom} />}
               />
-
               <Route
                 path="/roomoffline/:roomCode/:currentIndex"
                 element={<RoomOffline setSttRoom={setSttRoom} />}
               />
               <Route path="/" element={<HomeView />} />
-
               <Route
                 path="/coreknowledge/ghep-tach-am"
                 element={<KnowGhepAm />}
               />
-
               <Route path="/noexist" element={<NotExist />} />
               <Route path="/link" element={<LinkToday />} />
               <Route
@@ -132,14 +129,11 @@ const App = () => {
                 path="/learningbyheart/:id/:id01"
                 element={<LearningByHeartHub STTconnectFN={STTconnectFN} />}
               />
-
               <Route path="/setting" element={<Settings />} />
               <Route path="/name" element={<NameDiv />} />
-
               <Route path="/pracst" element={<LearningHub_prac_st_only />} />
-
-              <Route path="/game" element={<PixiCanvas />} />
-
+              <Route path="/game" element={<PixiCanvas />} />{" "}
+              <Route path="/ttslist" element={<TTSStartButton />} />
               <Route
                 path="*"
                 element={
