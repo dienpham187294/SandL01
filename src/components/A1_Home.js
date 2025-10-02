@@ -4,6 +4,7 @@ import ReasonUsage from "./A1_Home_reasonslideshow";
 import MethodUsage from "./A1_Home_methodslideshow";
 import TrustSection from "./A1_Home_trustslideshow";
 import Register from "./A1_Home_thamgia";
+import ModernLandingPage from "./A1_Know_Ghepam";
 const PLAYLIST_ID = "PLC0acE0qMKOkXtgSnKc9uhj6Ekj-8VDo5";
 
 const PLAYLIST_ID_HD = "PLC0acE0qMKOkBpb7YJl4sgVhP2OGJmzQS";
@@ -238,7 +239,7 @@ const EnglishLandingPage = () => {
 
       {/* Hero Section */}
 
-      <Register />
+      {/* <Register /> */}
       <section className="py-5 text-center text-white">
         <div className="container">
           <div className="row justify-content-center">
@@ -299,9 +300,9 @@ const EnglishLandingPage = () => {
 
       <MethodUsage />
 
-      <TrustSection />
+      {/* <TrustSection /> */}
 
-      <Register />
+      {/* <Register /> */}
 
       <section className="py-5">
         <div className="container">
@@ -311,7 +312,7 @@ const EnglishLandingPage = () => {
           <RegistrationForm /> */}
         </div>
       </section>
-
+      <ModernLandingPage />
       {/* Footer */}
       <footer className="py-4 text-center text-white opacity-75">
         <div className="container">

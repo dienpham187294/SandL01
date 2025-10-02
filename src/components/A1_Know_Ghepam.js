@@ -577,7 +577,7 @@ function ModernLandingPage() {
   return (
     <div style={styles.container}>
       <div style={{ height: "10vh" }}></div>
-      <div style={styles.tabNav}>
+      {/* <div style={styles.tabNav}>
         <button
           style={{
             ...styles.tabBtn,
@@ -596,11 +596,15 @@ function ModernLandingPage() {
         >
           (2) Ghép Âm
         </button>
-      </div>
+      </div> */}
 
       <div style={styles.content}>
-        {activeTab === "home" && renderHomeContent()}
-        {activeTab === "ghepam" && renderKnowGhepAmContent()}
+        {renderHomeContent()}
+
+        <hr />
+        {renderKnowGhepAmContent()}
+        {/* {activeTab === "home" && }
+        {activeTab === "ghepam" &&} */}
       </div>
     </div>
   );
