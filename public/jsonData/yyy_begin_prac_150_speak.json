@@ -1,0 +1,1808 @@
+[
+  {
+    "audioCode": "ED150_F1a0",
+    "text": "John, How to say greeting?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  { "audioCode": "ED150_F1a1", "text": "Good", "lang": 101, "rate": 0.75 },
+  { "audioCode": "ED150_F1a2", "text": "John", "lang": 101, "rate": 0.75 },
+  {
+    "audioCode": "ED150_F1a3",
+    "text": "John, How to introduce your name?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  { "audioCode": "ED150_F1a4", "text": "Good", "lang": 102, "rate": 0.75 },
+  { "audioCode": "ED150_F1a5", "text": "John", "lang": 102, "rate": 0.75 },
+  {
+    "audioCode": "ED150_F1a6",
+    "text": "John, How to ask someone’s name?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a9",
+    "text": "John, How to ask about health?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a12",
+    "text": "John, How to sell something?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a15",
+    "text": "John, How to ask for discount?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a18",
+    "text": "John, How to pay?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a21",
+    "text": "John, How to get a table?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a24",
+    "text": "John, How to ask where something is?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a27",
+    "text": "John, How to ask for direction?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a30",
+    "text": "John, How to ask about time?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a33",
+    "text": "John, How to ask about opening hours?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a36",
+    "text": "John, How to order food?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a39",
+    "text": "John, How to ask for the menu?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a42",
+    "text": "John, How to ask for water?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a45",
+    "text": "John, How to ask for the bill?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a48",
+    "text": "John, How to ask where to sit?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a51",
+    "text": "John, How to ask for the restroom?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a54",
+    "text": "John, How to ask for a taxi?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a57",
+    "text": "John, How to ask for the bus?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a60",
+    "text": "John, How to ask for the price of a ticket?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a63",
+    "text": "John, How to ask for the nearest shop?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a66",
+    "text": "John, How to ask for location on map?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a69",
+    "text": "John, How to ask someone to repeat?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a72",
+    "text": "John, How to say thank you?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a75",
+    "text": "John, How to reply to thanks?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a78",
+    "text": "John, How to apologize?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a81",
+    "text": "John, How to ask for permission?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a84",
+    "text": "John, How to introduce a friend?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a87",
+    "text": "John, How to ask about someone’s job?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a90",
+    "text": "John, How to ask about someone’s country?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a93",
+    "text": "John, How to ask about weather?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a96",
+    "text": "John, How to ask for phone number?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a99",
+    "text": "John, How to ask for email?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a102",
+    "text": "John, How to make a call when with others?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a105",
+    "text": "John, How to book a hotel room?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a108",
+    "text": "John, How to check in at hotel?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a111",
+    "text": "John, How to ask for Wi-Fi?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a114",
+    "text": "John, How to ask about public transport?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a117",
+    "text": "John, How to ask about the doctor?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a120",
+    "text": "John, How to ask for medicine?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a123",
+    "text": "John, How to ask about work hours?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a126",
+    "text": "John, How to make small talk?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a129",
+    "text": "John, How to make an appointment?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a132",
+    "text": "John, How to ask for help in emergency?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a135",
+    "text": "John, How to say goodbye?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a138",
+    "text": "David, How to say greeting?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  { "audioCode": "ED150_F1a140", "text": "David", "lang": 101, "rate": 0.75 },
+  {
+    "audioCode": "ED150_F1a141",
+    "text": "David, How to introduce your name?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  { "audioCode": "ED150_F1a143", "text": "David", "lang": 102, "rate": 0.75 },
+  {
+    "audioCode": "ED150_F1a144",
+    "text": "David, How to ask someone’s name?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a147",
+    "text": "David, How to ask about health?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a150",
+    "text": "David, How to sell something?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a153",
+    "text": "David, How to ask for discount?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a156",
+    "text": "David, How to pay?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a159",
+    "text": "David, How to get a table?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a162",
+    "text": "David, How to ask where something is?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a165",
+    "text": "David, How to ask for direction?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a168",
+    "text": "David, How to ask about time?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a171",
+    "text": "David, How to ask about opening hours?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a174",
+    "text": "David, How to order food?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a177",
+    "text": "David, How to ask for the menu?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a180",
+    "text": "David, How to ask for water?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a183",
+    "text": "David, How to ask for the bill?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a186",
+    "text": "David, How to ask where to sit?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a189",
+    "text": "David, How to ask for the restroom?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a192",
+    "text": "David, How to ask for a taxi?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a195",
+    "text": "David, How to ask for the bus?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a198",
+    "text": "David, How to ask for the price of a ticket?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a201",
+    "text": "David, How to ask for the nearest shop?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a204",
+    "text": "David, How to ask for location on map?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a207",
+    "text": "David, How to ask someone to repeat?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a210",
+    "text": "David, How to say thank you?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a213",
+    "text": "David, How to reply to thanks?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a216",
+    "text": "David, How to apologize?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a219",
+    "text": "David, How to ask for permission?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a222",
+    "text": "David, How to introduce a friend?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a225",
+    "text": "David, How to ask about someone’s job?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a228",
+    "text": "David, How to ask about someone’s country?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a231",
+    "text": "David, How to ask about weather?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a234",
+    "text": "David, How to ask for phone number?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a237",
+    "text": "David, How to ask for email?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a240",
+    "text": "David, How to make a call when with others?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a243",
+    "text": "David, How to book a hotel room?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a246",
+    "text": "David, How to check in at hotel?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a249",
+    "text": "David, How to ask for Wi-Fi?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a252",
+    "text": "David, How to ask about public transport?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a255",
+    "text": "David, How to ask about the doctor?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a258",
+    "text": "David, How to ask for medicine?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a261",
+    "text": "David, How to ask about work hours?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a264",
+    "text": "David, How to make small talk?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a267",
+    "text": "David, How to make an appointment?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a270",
+    "text": "David, How to ask for help in emergency?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a273",
+    "text": "David, How to say goodbye?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a276",
+    "text": "How to reply to “How are you”?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a279",
+    "text": "How to ask for help?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a282",
+    "text": "How to ask the price?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a285",
+    "text": "How to buy something?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a300",
+    "text": "John say: Hi. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a301",
+    "text": "Correct!",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a302",
+    "text": "Incorrect!",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a303",
+    "text": "John say: My name is John. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a304",
+    "text": "Correct!",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a305",
+    "text": "Incorrect!",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a306",
+    "text": "John say: What is your name?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a309",
+    "text": "John say: How are you?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a312",
+    "text": "John say: I’m fine, thank you. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a315",
+    "text": "John say: Can you help me?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a318",
+    "text": "John say: How much is this?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a321",
+    "text": "John say: I want this one. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a324",
+    "text": "John say: It is five dollars. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a327",
+    "text": "John say: Can you give a discount?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a330",
+    "text": "John say: I will pay by cash. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a333",
+    "text": "John say: I would like a table for two, please.. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a336",
+    "text": "John say: Where is the supermarket?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a339",
+    "text": "John say: How can I go there?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a342",
+    "text": "John say: What time is it?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a345",
+    "text": "John say: When do you open?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a348",
+    "text": "John say: I would like a sandwich. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a351",
+    "text": "John say: Can I see the menu?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a354",
+    "text": "John say: Can I have some water?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a357",
+    "text": "John say: Can I have the bill?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a360",
+    "text": "John say: Can I sit here?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a363",
+    "text": "John say: Where is the toilet?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a366",
+    "text": "John say: Can you call a taxi?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a369",
+    "text": "John say: Which bus goes to downtown?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a372",
+    "text": "John say: How much is the ticket?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a375",
+    "text": "John say: Where is the nearest shop?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a378",
+    "text": "John say: Can you show me on the map?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a381",
+    "text": "John say: Can you say it again?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a384",
+    "text": "John say: Thank you very much. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a387",
+    "text": "John say: You are welcome. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a390",
+    "text": "John say: I am sorry. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a393",
+    "text": "John say: Can I do this?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a396",
+    "text": "John say: This is my friend Anna. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a399",
+    "text": "John say: What do you do?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a402",
+    "text": "John say: Where are you from?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a405",
+    "text": "John say: What is the weather today?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a408",
+    "text": "John say: What is your number?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a411",
+    "text": "John say: What is your email address?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a414",
+    "text": "John say: Can I use my phone?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a417",
+    "text": "John say: I would like to book a room. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a420",
+    "text": "John say: I have a booking. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a423",
+    "text": "John say: What is the Wi-Fi password?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a426",
+    "text": "John say: How can I go to the airport?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a429",
+    "text": "John say: Where is the clinic?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a432",
+    "text": "John say: I need some medicine. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a435",
+    "text": "John say: When do you start work?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a438",
+    "text": "John say: How is your day?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a441",
+    "text": "John say: Can we meet tomorrow?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a444",
+    "text": "John say: Please call the police. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a447",
+    "text": "John say: Goodbye. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a450",
+    "text": "David say: Hello. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a453",
+    "text": "David say: I am David. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a456",
+    "text": "David say: May I know your name?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a459",
+    "text": "David say: How are you doing?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a462",
+    "text": "David say: I’m good, thanks. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a465",
+    "text": "David say: Please help me. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a468",
+    "text": "David say: What is the price?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a471",
+    "text": "David say: I will take this, please. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a474",
+    "text": "David say: This costs ten dollars. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a477",
+    "text": "David say: Is there any sale today?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a480",
+    "text": "David say: Can I pay by card?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a483",
+    "text": "David say: A table for three, please.. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a486",
+    "text": "David say: Can you tell me the way to the bank?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a489",
+    "text": "David say: Which way to the station?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a492",
+    "text": "David say: Can you tell me the time?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a495",
+    "text": "David say: What time do you close?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a498",
+    "text": "David say: I want a bowl of noodles. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a501",
+    "text": "David say: Please give me the menu. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a504",
+    "text": "David say: Please give me a glass of water. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a507",
+    "text": "David say: Can I pay now, please?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a510",
+    "text": "David say: Is this seat free?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a513",
+    "text": "David say: Where is the bathroom?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a516",
+    "text": "David say: I need a taxi, please. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a519",
+    "text": "David say: Where is the bus stop?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a522",
+    "text": "David say: What is the bus fare to the city?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a525",
+    "text": "David say: Is there a store nearby?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a528",
+    "text": "David say: Please point it on the map. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a531",
+    "text": "David say: Please repeat that. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a534",
+    "text": "David say: Thanks a lot. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a537",
+    "text": "David say: No problem. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a540",
+    "text": "David say: Excuse me. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a543",
+    "text": "David say: May I come in?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a546",
+    "text": "David say: Meet my friend Tom. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a549",
+    "text": "David say: What is your job?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a552",
+    "text": "David say: What is your nationality?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a555",
+    "text": "David say: Is it hot today?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a558",
+    "text": "David say: Can I have your phone number?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a561",
+    "text": "David say: Can you give me your email?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a564",
+    "text": "David say: I want to call my friend. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a567",
+    "text": "David say: Do you have any rooms?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a570",
+    "text": "David say: I would like to check in. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a573",
+    "text": "David say: Is there free Wi-Fi here?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a576",
+    "text": "David say: Which bus should I take?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a579",
+    "text": "David say: I need to see a doctor. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a582",
+    "text": "David say: Where can I buy medicine?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a585",
+    "text": "David say: What time do you finish work?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a588",
+    "text": "David say: What are you doing today?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a591",
+    "text": "David say: What time can we meet?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a594",
+    "text": "David say: I need help now. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a597",
+    "text": "David say: See you later. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a600",
+    "text": "John say: Hello. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a603",
+    "text": "John say: I am David. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a606",
+    "text": "John say: May I know your name?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a609",
+    "text": "John say: How are you doing?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a612",
+    "text": "John say: I’m good, thanks. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a615",
+    "text": "John say: Please help me. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a618",
+    "text": "John say: What is the price?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a621",
+    "text": "John say: I will take this, please. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a624",
+    "text": "John say: This costs ten dollars. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a627",
+    "text": "John say: Is there any sale today?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a630",
+    "text": "John say: Can I pay by card?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a633",
+    "text": "John say: A table for three, please.. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a636",
+    "text": "John say: Can you tell me the way to the bank?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a639",
+    "text": "John say: Which way to the station?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a642",
+    "text": "John say: Can you tell me the time?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a645",
+    "text": "John say: What time do you close?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a648",
+    "text": "John say: I want a bowl of noodles. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a651",
+    "text": "John say: Please give me the menu. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a654",
+    "text": "John say: Please give me a glass of water. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a657",
+    "text": "John say: Can I pay now, please?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a660",
+    "text": "John say: Is this seat free?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a663",
+    "text": "John say: Where is the bathroom?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a666",
+    "text": "John say: I need a taxi, please. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a669",
+    "text": "John say: Where is the bus stop?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a672",
+    "text": "John say: What is the bus fare to the city?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a675",
+    "text": "John say: Is there a store nearby?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a678",
+    "text": "John say: Please point it on the map. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a681",
+    "text": "John say: Please repeat that. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a684",
+    "text": "John say: Thanks a lot. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a687",
+    "text": "John say: No problem. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a690",
+    "text": "John say: Excuse me. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a693",
+    "text": "John say: May I come in?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a696",
+    "text": "John say: Meet my friend Tom. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a699",
+    "text": "John say: What is your job?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a702",
+    "text": "John say: What is your nationality?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a705",
+    "text": "John say: Is it hot today?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a708",
+    "text": "John say: Can I have your phone number?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a711",
+    "text": "John say: Can you give me your email?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a714",
+    "text": "John say: I want to call my friend. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a717",
+    "text": "John say: Do you have any rooms?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a720",
+    "text": "John say: I would like to check in. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a723",
+    "text": "John say: Is there free Wi-Fi here?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a726",
+    "text": "John say: Which bus should I take?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a729",
+    "text": "John say: I need to see a doctor. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a732",
+    "text": "John say: Where can I buy medicine?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a735",
+    "text": "John say: What time do you finish work?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a738",
+    "text": "John say: What are you doing today?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a741",
+    "text": "John say: What time can we meet?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a744",
+    "text": "John say: I need help now. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a747",
+    "text": "John say: See you later. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a750",
+    "text": "David say: Hi. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a753",
+    "text": "David say: My name is John. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a756",
+    "text": "David say: What is your name?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a759",
+    "text": "David say: How are you?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a762",
+    "text": "David say: I’m fine, thank you. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a765",
+    "text": "David say: Can you help me?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a768",
+    "text": "David say: How much is this?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a771",
+    "text": "David say: I want this one. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a774",
+    "text": "David say: It is five dollars. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a777",
+    "text": "David say: Can you give a discount?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a780",
+    "text": "David say: I will pay by cash. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a783",
+    "text": "David say: I would like a table for two, please.. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a786",
+    "text": "David say: Where is the supermarket?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a789",
+    "text": "David say: How can I go there?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a792",
+    "text": "David say: What time is it?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a795",
+    "text": "David say: When do you open?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a798",
+    "text": "David say: I would like a sandwich. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a801",
+    "text": "David say: Can I see the menu?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a804",
+    "text": "David say: Can I have some water?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a807",
+    "text": "David say: Can I have the bill?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a810",
+    "text": "David say: Can I sit here?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a813",
+    "text": "David say: Where is the toilet?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a816",
+    "text": "David say: Can you call a taxi?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a819",
+    "text": "David say: Which bus goes to downtown?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a822",
+    "text": "David say: How much is the ticket?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a825",
+    "text": "David say: Where is the nearest shop?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a828",
+    "text": "David say: Can you show me on the map?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a831",
+    "text": "David say: Can you say it again?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a834",
+    "text": "David say: Thank you very much. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a837",
+    "text": "David say: You are welcome. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a840",
+    "text": "David say: I am sorry. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a843",
+    "text": "David say: Can I do this?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a846",
+    "text": "David say: This is my friend Anna. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a849",
+    "text": "David say: What do you do?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a852",
+    "text": "David say: Where are you from?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a855",
+    "text": "David say: What is the weather today?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a858",
+    "text": "David say: What is your number?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a861",
+    "text": "David say: What is your email address?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a864",
+    "text": "David say: Can I use my phone?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a867",
+    "text": "David say: I would like to book a room. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a870",
+    "text": "David say: I have a booking. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a873",
+    "text": "David say: What is the Wi-Fi password?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a876",
+    "text": "David say: How can I go to the airport?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a879",
+    "text": "David say: Where is the clinic?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a882",
+    "text": "David say: I need some medicine. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a885",
+    "text": "David say: When do you start work?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a888",
+    "text": "David say: How is your day?. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a891",
+    "text": "David say: Can we meet tomorrow?. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a894",
+    "text": "David say: Please call the police. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "ED150_F1a897",
+    "text": "David say: Goodbye. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  }
+]

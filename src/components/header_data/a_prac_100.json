@@ -16,5 +16,14 @@
     "link": "yyy_0a_prac_100_goals",
     "folder": "basicAC1",
     "root": "learninghub"
+  },
+  {
+    "stt": 2,
+    "name": "START | 150",
+    "des": "150 QA",
+    "preName": "ZEROtoOne",
+    "link": "yyy_begin_prac_150",
+    "folder": "basicAC1",
+    "root": "learninghub"
   }
 ]
