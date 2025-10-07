@@ -462,6 +462,14 @@ function IpaTransformer({ text = "əˈbaʊt", nextText = "Ờ.bAu(-t)" }) {
           background: white;
           border-radius: 8px;
           box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+          opacity: 0;
+          transition: opacity 0.5s ease-in-out;
+          will-change: opacity;
+          backface-visibility: hidden;
+        }
+        
+        .phase-display.visible {
+          opacity: 1;
         }
         
         .phase-label {
@@ -870,76 +878,86 @@ function IpaTransformer({ text = "əˈbaʊt", nextText = "Ờ.bAu(-t)" }) {
             return (
               <div key={segmentIndex} style={{ width: "100%" }}>
                 {/* Phase 1: Original with yellow circles */}
-                {currentPhase >= 1 && (
-                  <div className="phase-display">
-                    <div className="phase-label">
-                      Phase 1: Đánh dấu ký tự IPA
-                    </div>
-                    <table className="character-table">
-                      <tbody>
-                        <tr>
-                          {processedChars.map((char, charIndex) =>
-                            renderCharacterCell(char, charIndex, 1)
-                          )}
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                )}
+                <div
+                  className={`phase-display ${
+                    currentPhase >= 1 ? "visible" : ""
+                  }`}
+                >
+                  <div className="phase-label">Phase 1: Đánh dấu ký tự IPA</div>
+                  <table className="character-table">
+                    <tbody>
+                      <tr>
+                        {processedChars.map((char, charIndex) =>
+                          renderCharacterCell(char, charIndex, 1)
+                        )}
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
 
                 {/* Phase 2: Purple with replacement below */}
-                {currentPhase >= 2 && (
-                  <div className="phase-display">
-                    <div className="phase-label">
-                      Phase 2: Hiển thị ký tự thay thế
-                    </div>
-                    <table className="character-table">
-                      <tbody>
-                        <tr>
-                          {processedChars.map((char, charIndex) =>
-                            renderCharacterCell(char, charIndex, 2)
-                          )}
-                        </tr>
-                      </tbody>
-                    </table>
+                <div
+                  className={`phase-display ${
+                    currentPhase >= 2 ? "visible" : ""
+                  }`}
+                >
+                  <div className="phase-label">
+                    Phase 2: Hiển thị ký tự thay thế
                   </div>
-                )}
+                  <table className="character-table">
+                    <tbody>
+                      <tr>
+                        {processedChars.map((char, charIndex) =>
+                          renderCharacterCell(char, charIndex, 2)
+                        )}
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
 
                 {/* Phase 3: Red sliding up */}
-                {currentPhase >= 3 && (
-                  <div className="phase-display">
-                    <div className="phase-label">Phase 3: Trượt lên vị trí</div>
-                    <table className="character-table">
-                      <tbody>
-                        <tr>
-                          {processedChars.map((char, charIndex) =>
-                            renderCharacterCell(char, charIndex, 3)
-                          )}
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                )}
+                <div
+                  className={`phase-display ${
+                    currentPhase >= 3 ? "visible" : ""
+                  }`}
+                >
+                  <div className="phase-label">Phase 3: Trượt lên vị trí</div>
+                  <table className="character-table">
+                    <tbody>
+                      <tr>
+                        {processedChars.map((char, charIndex) =>
+                          renderCharacterCell(char, charIndex, 3)
+                        )}
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
 
                 {/* Phase 4: Blue uppercase */}
-                {currentPhase >= 4 && (
-                  <div className="phase-display">
-                    <div className="phase-label">Phase 4: Chữ hoa kết quả</div>
-                    <table className="character-table">
-                      <tbody>
-                        <tr>
-                          {processedChars.map((char, charIndex) =>
-                            renderCharacterCell(char, charIndex, 4)
-                          )}
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                )}
+                <div
+                  className={`phase-display ${
+                    currentPhase >= 4 ? "visible" : ""
+                  }`}
+                >
+                  <div className="phase-label">Phase 4: Chữ hoa kết quả</div>
+                  <table className="character-table">
+                    <tbody>
+                      <tr>
+                        {processedChars.map((char, charIndex) =>
+                          renderCharacterCell(char, charIndex, 4)
+                        )}
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
 
                 {/* Phase 5: Final nextText */}
-                {currentPhase >= 5 && segment.nextText && (
-                  <div className="phase-display">
+                {segment.nextText && (
+                  <div
+                    className={`phase-display ${
+                      currentPhase >= 5 ? "visible" : ""
+                    }`}
+                  >
                     <div className="phase-label">
                       Phase 5: Kết quả cuối cùng
                     </div>
@@ -948,10 +966,6 @@ function IpaTransformer({ text = "əˈbaʊt", nextText = "Ờ.bAu(-t)" }) {
                         fontSize: "22px",
                         fontWeight: "bold",
                         textAlign: "center",
-                        opacity:
-                          currentPhase === 5 && progress < 600
-                            ? Math.min((progress - 480) / 72, 1)
-                            : 1,
                       }}
                     >
                       {highlightIPAChars(segment.nextText).map(

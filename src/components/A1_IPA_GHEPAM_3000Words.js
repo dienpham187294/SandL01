@@ -401,7 +401,9 @@ export default function GHEPAM3000WORDS() {
             <div className="modal-body">
               <div className="detail-section">
                 <div className="detail-label">Từ vựng</div>
-                <div className="detail-value-large">{selectedWord.ZZ01}</div>
+                <div className="detail-value-large">
+                  {selectedWord.ZZ01} | {selectedWord.ZZ10}
+                </div>
                 <button
                   className="read-btn"
                   onClick={() => {
