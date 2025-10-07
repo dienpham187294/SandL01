@@ -158,8 +158,8 @@
         },
         {
           "HD-01": "How to sell something?",
-          "HD-02": "It is five dollars",
-          "HD-03": "This costs ten dollars"
+          "HD-02": "It is 5$",
+          "HD-03": "This costs 10$"
         },
         {
           "HD-01": "How to ask for discount?",
@@ -963,7 +963,7 @@
           "IPA-04": "aɪ wɑnt ðɪs wʌn"
         },
         {
-          "IPA-01": "It is five dollars",
+          "IPA-01": "It is 5$",
           "IPA-02": "Nó giá 5 đô la",
           "IPA-03": "ɪt ɪz faɪv ˈdɒləz",
           "IPA-04": "ɪt ɪz faɪv ˈdɑlərz"
@@ -1263,7 +1263,7 @@
           "IPA-04": "aɪ wɪl teɪk ðɪs, pliz"
         },
         {
-          "IPA-01": "This costs ten dollars",
+          "IPA-01": "This costs 10$",
           "IPA-02": "Cái này giá 10 đô la",
           "IPA-03": "ðɪs kɒsts tɛn ˈdɒləz",
           "IPA-04": "ðɪs kɑsts tɛn ˈdɑlərz"
@@ -1573,7 +1573,7 @@
       },
       {
         "type": "B9",
-        "fsp": "John say: This costs ten dollars. Is it right?",
+        "fsp": "John say: This costs 10$. Is it right?",
         "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
         "name": "Jennifer",
         "gender": "female",
@@ -1595,7 +1595,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John say: This costs ten dollars. Is it right?",
+            "st": "John say: This costs 10$. Is it right?",
             "id": "ED150_F1a624"
           }
         ]
@@ -2197,7 +2197,7 @@
         "gender": "female",
         "data": [
           {
-            "qs": ["It is five dollars"],
+            "qs": ["It is 5$"],
             "aw": ["Good"],
             "submit": ["FN01"],
             "action": ["FN01"],
@@ -4862,7 +4862,7 @@
         "gender": "female",
         "data": [
           {
-            "qs": ["This costs ten dollars"],
+            "qs": ["This costs 10$"],
             "aw": ["Good"],
             "submit": ["FN01"],
             "action": ["FN01"],
@@ -6421,7 +6421,7 @@
       },
       {
         "type": "B9",
-        "fsp": "David say: It is five dollars. Is it right?",
+        "fsp": "David say: It is 5$. Is it right?",
         "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
         "name": "Jennifer",
         "gender": "female",
@@ -6443,7 +6443,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "David say: It is five dollars. Is it right?",
+            "st": "David say: It is 5$. Is it right?",
             "id": "ED150_F1a774"
           }
         ]
@@ -7345,7 +7345,7 @@
       },
       {
         "type": "B9",
-        "fsp": "David say: This costs ten dollars. Is it right?",
+        "fsp": "David say: This costs 10$. Is it right?",
         "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
         "name": "Jennifer",
         "gender": "female",
@@ -7367,7 +7367,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "David say: This costs ten dollars. Is it right?",
+            "st": "David say: This costs 10$. Is it right?",
             "id": "ED150_F1a474"
           }
         ]
@@ -8525,7 +8525,7 @@
       },
       {
         "type": "B9",
-        "fsp": "John say: It is five dollars. Is it right?",
+        "fsp": "John say: It is 5$. Is it right?",
         "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
         "name": "Jennifer",
         "gender": "female",
@@ -8547,7 +8547,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John say: It is five dollars. Is it right?",
+            "st": "John say: It is 5$. Is it right?",
             "id": "ED150_F1a324"
           }
         ]

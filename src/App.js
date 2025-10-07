@@ -19,7 +19,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import HomeView from "./components/A1_Home";
 // import LinkAPI from "./ulti/T0_linkApi";
 import KnowGhepAm from "./components/A1_Know_Ghepam";
-
+import GHEPAM3000WORDS from "./components/A1_IPA_GHEPAM_3000Words";
 import LearningHub_prac_st_only from "./components/LearningHub_prac_st_only";
 import PixiCanvas from "./components/prac_componets/inside_01_components/PixiJS";
 // import RootPrac from "./components/prac_componets/B1_RootPrac";
@@ -134,6 +134,7 @@ const App = () => {
               <Route path="/name" element={<NameDiv />} />
               <Route path="/pracst" element={<LearningHub_prac_st_only />} />
               <Route path="/game" element={<PixiCanvas />} />{" "}
+              <Route path="/rhyming" element={<GHEPAM3000WORDS />} />{" "}
               <Route path="/ttslist" element={<TTSStartButton />} />
               <Route
                 path="*"
