@@ -45,10 +45,8 @@ function IpaTransformer({ text = "əˈbaʊt", nextText = "Ờ.bAu(-t)" }) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [progress, setProgress] = useState(0);
 
-  // Cập nhật textData khi props thay đổi
   useEffect(() => {
     setTextData([{ text, type: "normal", nextText }]);
-    // Reset animation khi text thay đổi
     setIsPlaying(false);
     setProgress(0);
     setCurrentPhase(1);
@@ -263,147 +261,178 @@ function IpaTransformer({ text = "əˈbaʊt", nextText = "Ờ.bAu(-t)" }) {
   };
 
   return (
-    <div className="container">
+    <div className="ipa-container">
       <style>{`
         * {
           box-sizing: border-box;
         }
-        .container {
-          max-width: 900px;
+        
+        .ipa-container {
+          width: 100%;
           margin: 0 auto;
-          padding: 40px 20px;
+          padding: 16px;
           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-          background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-          min-height: 100vh;
         }
-        .card {
+        
+        .ipa-card {
           background: white;
-          border-radius: 16px;
-          padding: 32px;
-          box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+          border-radius: 12px;
+          padding: 16px;
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
         }
-        h1 {
+        
+        .ipa-title {
           text-align: center;
-          color: #333;
-          margin-bottom: 30px;
-          font-size: 32px;
+          color: #1f2937;
+          margin: 0 0 16px 0;
+          font-size: 20px;
+          font-weight: bold;
         }
+        
         .text-display {
           background: #f9fafb;
-          padding: 20px;
+          padding: 12px;
           border-radius: 8px;
-          margin-bottom: 24px;
-          text-align: center;
+          margin-bottom: 12px;
         }
+        
         .text-display-label {
-          font-size: 14px;
+          font-size: 12px;
           color: #6b7280;
-          margin-bottom: 8px;
+          margin-bottom: 4px;
           font-weight: 600;
+          text-transform: uppercase;
+          letter-spacing: 0.5px;
         }
+        
         .text-display-value {
-          font-size: 24px;
+          font-size: 16px;
           color: #111827;
           font-family: monospace;
           font-weight: bold;
+          word-break: break-all;
         }
+        
         .controls {
           display: flex;
           justify-content: center;
-          gap: 16px;
-          margin-bottom: 30px;
+          gap: 8px;
+          margin-bottom: 16px;
           flex-wrap: wrap;
         }
+        
         .btn {
-          padding: 12px 32px;
-          font-size: 16px;
+          padding: 10px 20px;
+          font-size: 14px;
           border: none;
           border-radius: 8px;
           cursor: pointer;
           font-weight: 600;
-          transition: all 0.3s ease;
-          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+          transition: all 0.2s ease;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
+        
         .btn-primary {
           background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
           color: white;
+          min-width: 120px;
         }
-        .btn-primary:hover {
-          transform: translateY(-2px);
-          box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        
+        .btn-primary:active {
+          transform: scale(0.98);
         }
+        
         .btn-primary:disabled {
           opacity: 0.6;
           cursor: not-allowed;
-          transform: none;
         }
+        
         .btn-secondary {
           background: #f3f4f6;
           color: #374151;
         }
-        .btn-secondary:hover {
+        
+        .btn-secondary:active {
           background: #e5e7eb;
+          transform: scale(0.98);
         }
+        
         .phase-indicator {
           text-align: center;
-          margin-bottom: 24px;
-          padding: 16px;
+          margin-bottom: 16px;
+          padding: 12px;
           background: #f9fafb;
           border-radius: 8px;
         }
+        
         .phase-indicator h3 {
           margin: 0 0 8px 0;
           color: #374151;
-          font-size: 18px;
+          font-size: 16px;
         }
+        
         .phase-bar {
-          height: 8px;
+          height: 6px;
           background: #e5e7eb;
-          border-radius: 4px;
+          border-radius: 3px;
           overflow: hidden;
         }
+        
         .phase-progress {
           height: 100%;
           background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
           transition: width 0.1s linear;
         }
+        
+        .phase-description {
+          margin-top: 8px;
+          color: #6b7280;
+          font-size: 12px;
+          line-height: 1.4;
+        }
+        
         .animation-area {
           background: #fafafa;
-          border-radius: 12px;
-          padding: 40px;
-          margin-bottom: 30px;
-          min-height: 200px;
+          border-radius: 8px;
+          padding: 20px 10px;
+          margin-bottom: 16px;
+          min-height: 120px;
           display: flex;
           align-items: center;
           justify-content: center;
+          overflow-x: auto;
         }
+        
         .character-table {
           border-collapse: collapse;
           margin: 0 auto;
         }
+        
         .character-cell {
-          width: 36px;
-          height: 75px;
+          width: 28px;
+          height: 60px;
           text-align: center;
           vertical-align: top;
           position: relative;
-          font-size: 28px;
+          font-size: 22px;
           font-family: monospace;
           padding: 0;
         }
+        
         .yellow-circle {
           position: absolute;
           top: 50%;
           left: 50%;
-          width: 48px;
-          height: 48px;
+          width: 36px;
+          height: 36px;
           background-color: #FFD700;
           border-radius: 50%;
           z-index: 1;
           border: 2px solid #FFA500;
-          box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+          box-shadow: 0 0 8px rgba(255, 215, 0, 0.5);
           animation: pulse 0.6s ease-out;
         }
+        
         @keyframes pulse {
           0% {
             transform: translate(-50%, -50%) scale(0);
@@ -415,6 +444,7 @@ function IpaTransformer({ text = "əˈbaʊt", nextText = "Ờ.bAu(-t)" }) {
             transform: translate(-50%, -50%) scale(1.2);
           }
         }
+        
         .original-char {
           position: absolute;
           top: 0;
@@ -424,26 +454,29 @@ function IpaTransformer({ text = "əˈbaʊt", nextText = "Ờ.bAu(-t)" }) {
           line-height: 1;
           transition: color 0.3s ease-in-out;
         }
+        
         .replacement-below {
           position: absolute;
-          top: 39px;
+          top: 32px;
           left: 50%;
           transform: translateX(-50%);
-          font-size: 24px;
+          font-size: 20px;
           font-weight: bold;
           line-height: 1;
         }
+        
         .replacement-sliding {
           position: absolute;
           left: 50%;
           transform: translateX(-50%);
-          font-size: 24px;
+          font-size: 20px;
           font-weight: bold;
           opacity: 0.8;
           z-index: 3;
           line-height: 1;
           transition: top 0.3s cubic-bezier(0.33, 1, 0.68, 1);
         }
+        
         .replacement-final {
           position: absolute;
           top: 0;
@@ -453,64 +486,280 @@ function IpaTransformer({ text = "əˈbaʊt", nextText = "Ờ.bAu(-t)" }) {
           z-index: 4;
           line-height: 1;
         }
+        
         .next-text-display {
           position: absolute;
           top: 0;
           left: 50%;
           transform: translateX(-50%);
           font-weight: bold;
-          font-size: 28px;
+          font-size: 22px;
           text-align: center;
           z-index: 10;
           width: 110%;
           white-space: nowrap;
         }
+        
         .next-text-display .highlighted {
           color: #EF4444;
           font-weight: bold;
         }
+        
         .info-tables {
-          margin-top: 40px;
-          padding: 24px;
+          margin-top: 16px;
+          padding: 16px;
           background: #f9fafb;
-          border-radius: 12px;
+          border-radius: 8px;
         }
+        
+        .table-title {
+          margin: 0 0 12px 0;
+          color: #374151;
+          font-size: 16px;
+          font-weight: bold;
+        }
+        
         .phonetics-table {
           width: 100%;
           border-collapse: collapse;
-          margin-bottom: 20px;
-          font-size: 18px;
+          margin-bottom: 16px;
+          font-size: 14px;
         }
+        
         .phonetics-table td {
           border: 1px solid #d1d5db;
-          padding: 12px;
+          padding: 8px 4px;
           text-align: center;
         }
+        
         .phonetics-table thead td {
           background: #667eea;
           color: white;
           font-weight: bold;
-          font-size: 24px;
+          font-size: 18px;
         }
+        
         .phonetics-table tbody td {
           background: white;
         }
+        
         .segment-wrapper {
-          margin-bottom: 48px;
+          margin-bottom: 24px;
           position: relative;
+        }
+        
+        /* Tablet breakpoint */
+        @media (min-width: 640px) {
+          .ipa-container {
+            padding: 24px;
+          }
+          
+          .ipa-card {
+            padding: 24px;
+          }
+          
+          .ipa-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+          }
+          
+          .text-display {
+            padding: 16px;
+            margin-bottom: 16px;
+          }
+          
+          .text-display-label {
+            font-size: 13px;
+          }
+          
+          .text-display-value {
+            font-size: 20px;
+          }
+          
+          .controls {
+            gap: 12px;
+            margin-bottom: 20px;
+          }
+          
+          .btn {
+            padding: 12px 24px;
+            font-size: 15px;
+          }
+          
+          .animation-area {
+            padding: 30px 20px;
+            min-height: 160px;
+          }
+          
+          .character-cell {
+            width: 32px;
+            height: 70px;
+            font-size: 26px;
+          }
+          
+          .yellow-circle {
+            width: 42px;
+            height: 42px;
+          }
+          
+          .replacement-below {
+            top: 36px;
+            font-size: 22px;
+          }
+          
+          .replacement-sliding {
+            font-size: 22px;
+          }
+          
+          .next-text-display {
+            font-size: 26px;
+          }
+          
+          .phonetics-table {
+            font-size: 16px;
+          }
+          
+          .phonetics-table thead td {
+            font-size: 20px;
+          }
+          
+          .phonetics-table td {
+            padding: 10px 6px;
+          }
+        }
+        
+        /* Desktop breakpoint */
+        @media (min-width: 1024px) {
+          .ipa-container {
+            max-width: 1000px;
+            padding: 32px;
+          }
+          
+          .ipa-card {
+            padding: 32px;
+            border-radius: 16px;
+          }
+          
+          .ipa-title {
+            font-size: 28px;
+            margin-bottom: 24px;
+          }
+          
+          .text-display {
+            padding: 20px;
+            margin-bottom: 20px;
+          }
+          
+          .text-display-label {
+            font-size: 14px;
+          }
+          
+          .text-display-value {
+            font-size: 24px;
+          }
+          
+          .controls {
+            gap: 16px;
+            margin-bottom: 24px;
+          }
+          
+          .btn {
+            padding: 12px 32px;
+            font-size: 16px;
+          }
+          
+          .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+          }
+          
+          .btn-secondary:hover {
+            background: #e5e7eb;
+          }
+          
+          .phase-indicator {
+            padding: 16px;
+            margin-bottom: 20px;
+          }
+          
+          .phase-indicator h3 {
+            font-size: 18px;
+          }
+          
+          .phase-bar {
+            height: 8px;
+          }
+          
+          .phase-description {
+            font-size: 14px;
+          }
+          
+          .animation-area {
+            padding: 40px;
+            min-height: 200px;
+            border-radius: 12px;
+            margin-bottom: 24px;
+          }
+          
+          .character-cell {
+            width: 36px;
+            height: 75px;
+            font-size: 28px;
+          }
+          
+          .yellow-circle {
+            width: 48px;
+            height: 48px;
+          }
+          
+          .replacement-below {
+            top: 39px;
+            font-size: 24px;
+          }
+          
+          .replacement-sliding {
+            font-size: 24px;
+          }
+          
+          .next-text-display {
+            font-size: 28px;
+          }
+          
+          .info-tables {
+            padding: 24px;
+            border-radius: 12px;
+          }
+          
+          .table-title {
+            font-size: 18px;
+            margin-bottom: 16px;
+          }
+          
+          .phonetics-table {
+            font-size: 18px;
+            margin-bottom: 20px;
+          }
+          
+          .phonetics-table thead td {
+            font-size: 24px;
+          }
+          
+          .phonetics-table td {
+            padding: 12px;
+          }
         }
       `}</style>
 
-      <div className="card">
-        <h1>🔤 IPA Text Transformer</h1>
+      <div className="ipa-card">
+        <h1 className="ipa-title">🔤 IPA Text Transformer</h1>
 
         <div className="text-display">
-          <div className="text-display-label">IPA Text:</div>
+          <div className="text-display-label">IPA Text</div>
           <div className="text-display-value">{text}</div>
         </div>
 
         <div className="text-display">
-          <div className="text-display-label">Result Text:</div>
+          <div className="text-display-label">Result Text</div>
           <div className="text-display-value">{nextText}</div>
         </div>
 
@@ -535,7 +784,7 @@ function IpaTransformer({ text = "əˈbaʊt", nextText = "Ờ.bAu(-t)" }) {
               style={{ width: `${(progress / 600) * 100}%` }}
             />
           </div>
-          <p style={{ marginTop: "8px", color: "#6b7280", fontSize: "14px" }}>
+          <p className="phase-description">
             {currentPhase === 1 && "Đánh dấu ký tự IPA bằng vòng tròn vàng"}
             {currentPhase === 2 &&
               "Đổi màu tím và hiển thị ký tự thay thế bên dưới"}
@@ -595,9 +844,7 @@ function IpaTransformer({ text = "əˈbaʊt", nextText = "Ờ.bAu(-t)" }) {
         </div>
 
         <div className="info-tables">
-          <h3 style={{ marginBottom: "16px", color: "#374151" }}>
-            📊 Bảng Phiên Âm Cơ Bản
-          </h3>
+          <h3 className="table-title">📊 Bảng Phiên Âm Cơ Bản</h3>
           <table className="phonetics-table">
             <thead>
               <tr>
@@ -619,15 +866,7 @@ function IpaTransformer({ text = "əˈbaʊt", nextText = "Ờ.bAu(-t)" }) {
             </tbody>
           </table>
 
-          <h3
-            style={{
-              marginBottom: "16px",
-              marginTop: "24px",
-              color: "#374151",
-            }}
-          >
-            🔗 Nguyên Âm Đôi
-          </h3>
+          <h3 className="table-title">🔗 Nguyên Âm Đôi</h3>
           <table className="phonetics-table">
             <thead>
               <tr>
