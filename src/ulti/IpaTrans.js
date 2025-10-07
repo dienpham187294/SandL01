@@ -55,30 +55,50 @@ function IpaTransformer({ text = "əˈbaʊt", nextText = "Ờ.bAu(-t)" }) {
   useEffect(() => {
     if (!isPlaying) return;
 
-    const interval = setInterval(() => {
-      setProgress((prev) => {
-        const next = prev + 1;
+    let animationFrameId;
+    let lastTime = performance.now();
 
-        if (next < 120) {
-          setCurrentPhase(1);
-        } else if (next < 240) {
-          setCurrentPhase(2);
-        } else if (next < 360) {
-          setCurrentPhase(3);
-        } else if (next < 480) {
-          setCurrentPhase(4);
-        } else if (next < 600) {
-          setCurrentPhase(5);
-        } else {
-          setIsPlaying(false);
-          return 0;
-        }
+    const animate = (currentTime) => {
+      const deltaTime = currentTime - lastTime;
 
-        return next;
-      });
-    }, 16);
+      // Update every ~16ms (60fps)
+      if (deltaTime >= 16) {
+        lastTime = currentTime;
 
-    return () => clearInterval(interval);
+        setProgress((prev) => {
+          const next = prev + 1;
+
+          if (next < 120) {
+            setCurrentPhase(1);
+          } else if (next < 240) {
+            setCurrentPhase(2);
+          } else if (next < 360) {
+            setCurrentPhase(3);
+          } else if (next < 480) {
+            setCurrentPhase(4);
+          } else if (next < 600) {
+            setCurrentPhase(5);
+          } else {
+            setIsPlaying(false);
+            return 0;
+          }
+
+          return next;
+        });
+      }
+
+      if (isPlaying) {
+        animationFrameId = requestAnimationFrame(animate);
+      }
+    };
+
+    animationFrameId = requestAnimationFrame(animate);
+
+    return () => {
+      if (animationFrameId) {
+        cancelAnimationFrame(animationFrameId);
+      }
+    };
   }, [isPlaying]);
 
   const handleStart = () => {
@@ -169,91 +189,117 @@ function IpaTransformer({ text = "əˈbaʊt", nextText = "Ờ.bAu(-t)" }) {
     return parts;
   };
 
-  const renderCharacterCell = (character, index) => {
+  const renderCharacterCell = (character, index, phaseToRender) => {
     const isIPA = character.isIPA;
     const phaseProgress = getPhaseProgress();
 
     return (
       <td key={index} className={`character-cell ${isIPA ? "ipa-char" : ""}`}>
-        {isIPA && currentPhase === 1 && (
+        {/* Phase 1: Yellow circle */}
+        {phaseToRender === 1 && isIPA && currentPhase >= 1 && (
           <div
             className="yellow-circle"
             style={{
-              transform: `translate(-50%, -50%) scale(${Math.min(
-                phaseProgress * 1.2,
-                1.2
-              )})`,
-              opacity: Math.min(phaseProgress * 2, 0.8),
+              transform: `translate(-50%, -50%) scale(${
+                currentPhase === 1 ? Math.min(phaseProgress * 1.2, 1.2) : 1.2
+              })`,
+              opacity:
+                currentPhase === 1 ? Math.min(phaseProgress * 2, 0.8) : 0.8,
             }}
           />
         )}
 
-        <div
-          className={`original-char ${
-            currentPhase >= 2 && isIPA ? "phase-2" : ""
-          } ${currentPhase >= 3 && isIPA ? "phase-3" : ""}`}
-          style={{
-            color:
-              isIPA && currentPhase >= 2
-                ? currentPhase === 2
-                  ? COLORS.purple
-                  : currentPhase === 3
-                  ? COLORS.red
-                  : COLORS.blue
-                : COLORS.black,
-            fontWeight: isIPA && currentPhase >= 1 ? "bold" : "normal",
-            opacity:
-              currentPhase === 3 && isIPA
-                ? Math.max(1 - phaseProgress * 3, 0)
-                : currentPhase >= 5
-                ? Math.max(1 - phaseProgress * 2.5, 0)
-                : 1,
-          }}
-        >
-          {currentPhase < 3 || !isIPA ? character.original : ""}
-        </div>
-
-        {currentPhase === 2 && isIPA && (
+        {/* Phase 1: Original character with yellow circle */}
+        {phaseToRender === 1 && (
           <div
-            className="replacement-below"
+            className="original-char"
             style={{
-              color: COLORS.purple,
-              opacity: Math.max(((phaseProgress - 0.4) / 0.6) * 0.8, 0),
+              color: COLORS.black,
+              fontWeight: isIPA && currentPhase >= 1 ? "bold" : "normal",
             }}
           >
-            {character.replacement}
+            {character.original}
           </div>
         )}
 
-        {currentPhase === 3 && isIPA && (
-          <div
-            className="replacement-sliding"
-            style={{
-              color: COLORS.red,
-              top: `${39 - phaseProgress * 39}px`,
-            }}
-          >
-            {character.replacement}
-          </div>
+        {/* Phase 2: Purple character with replacement below */}
+        {phaseToRender === 2 && (
+          <>
+            <div
+              className="original-char"
+              style={{
+                color:
+                  isIPA && currentPhase >= 2 ? COLORS.purple : COLORS.black,
+                fontWeight: isIPA ? "bold" : "normal",
+              }}
+            >
+              {character.original}
+            </div>
+            {isIPA && currentPhase >= 2 && (
+              <div
+                className="replacement-below"
+                style={{
+                  color: COLORS.purple,
+                  opacity:
+                    currentPhase === 2
+                      ? Math.max(((phaseProgress - 0.4) / 0.6) * 0.8, 0)
+                      : 0.8,
+                }}
+              >
+                {character.replacement}
+              </div>
+            )}
+          </>
         )}
 
-        {currentPhase >= 4 && isIPA && (
+        {/* Phase 3: Red character sliding up */}
+        {phaseToRender === 3 && (
+          <>
+            <div
+              className="original-char"
+              style={{
+                color: isIPA && currentPhase >= 3 ? COLORS.red : COLORS.black,
+                fontWeight: isIPA ? "bold" : "normal",
+                opacity:
+                  isIPA && currentPhase === 3
+                    ? Math.max(1 - phaseProgress * 3, 0)
+                    : 1,
+              }}
+            >
+              {currentPhase < 3 || !isIPA ? character.original : ""}
+            </div>
+            {isIPA && currentPhase >= 3 && (
+              <div
+                className="replacement-sliding"
+                style={{
+                  color: COLORS.red,
+                  top:
+                    currentPhase === 3 ? `${32 - phaseProgress * 32}px` : "0px",
+                }}
+              >
+                {character.replacement}
+              </div>
+            )}
+          </>
+        )}
+
+        {/* Phase 4: Blue uppercase character */}
+        {phaseToRender === 4 && isIPA && currentPhase >= 4 && (
           <div
             className="replacement-final"
             style={{
               color: COLORS.blue,
               opacity:
-                currentPhase === 4
-                  ? Math.max(phaseProgress / 0.3, 0) *
-                    (currentPhase >= 5
-                      ? Math.max(1 - (progress - 480) / 48, 0)
-                      : 1)
-                  : currentPhase >= 5
-                  ? Math.max(1 - (progress - 480) / 48, 0)
-                  : 1,
+                currentPhase === 4 ? Math.max(phaseProgress / 0.3, 0) : 1,
             }}
           >
             {character.replacement.toUpperCase()}
+          </div>
+        )}
+
+        {phaseToRender === 4 && !isIPA && (
+          <div className="original-char" style={{ color: COLORS.black }}>
+            {character.original}
           </div>
         )}
       </td>
@@ -396,11 +442,33 @@ function IpaTransformer({ text = "əˈbaʊt", nextText = "Ờ.bAu(-t)" }) {
           border-radius: 8px;
           padding: 20px 10px;
           margin-bottom: 16px;
-          min-height: 120px;
+          min-height: 400px;
           display: flex;
+          flex-direction: column;
           align-items: center;
-          justify-content: center;
+          justify-content: flex-start;
           overflow-x: auto;
+          gap: 20px;
+        }
+        
+        .phase-display {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding: 12px;
+          background: white;
+          border-radius: 8px;
+          box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .phase-label {
+          font-size: 12px;
+          color: #6b7280;
+          font-weight: 600;
+          margin-bottom: 8px;
+          text-transform: uppercase;
+          letter-spacing: 0.5px;
         }
         
         .character-table {
@@ -417,6 +485,9 @@ function IpaTransformer({ text = "əˈbaʊt", nextText = "Ờ.bAu(-t)" }) {
           font-size: 22px;
           font-family: monospace;
           padding: 0;
+          will-change: transform;
+          backface-visibility: hidden;
+          -webkit-font-smoothing: antialiased;
         }
         
         .yellow-circle {
@@ -430,19 +501,8 @@ function IpaTransformer({ text = "əˈbaʊt", nextText = "Ờ.bAu(-t)" }) {
           z-index: 1;
           border: 2px solid #FFA500;
           box-shadow: 0 0 8px rgba(255, 215, 0, 0.5);
-          animation: pulse 0.6s ease-out;
-        }
-        
-        @keyframes pulse {
-          0% {
-            transform: translate(-50%, -50%) scale(0);
-          }
-          50% {
-            transform: translate(-50%, -50%) scale(1.3);
-          }
-          100% {
-            transform: translate(-50%, -50%) scale(1.2);
-          }
+          will-change: transform, opacity;
+          backface-visibility: hidden;
         }
         
         .original-char {
@@ -452,7 +512,9 @@ function IpaTransformer({ text = "əˈbaʊt", nextText = "Ờ.bAu(-t)" }) {
           transform: translateX(-50%);
           z-index: 2;
           line-height: 1;
-          transition: color 0.3s ease-in-out;
+          will-change: color, opacity;
+          backface-visibility: hidden;
+          -webkit-font-smoothing: antialiased;
         }
         
         .replacement-below {
@@ -463,6 +525,8 @@ function IpaTransformer({ text = "əˈbaʊt", nextText = "Ờ.bAu(-t)" }) {
           font-size: 20px;
           font-weight: bold;
           line-height: 1;
+          will-change: opacity;
+          backface-visibility: hidden;
         }
         
         .replacement-sliding {
@@ -474,7 +538,8 @@ function IpaTransformer({ text = "əˈbaʊt", nextText = "Ờ.bAu(-t)" }) {
           opacity: 0.8;
           z-index: 3;
           line-height: 1;
-          transition: top 0.3s cubic-bezier(0.33, 1, 0.68, 1);
+          will-change: top;
+          backface-visibility: hidden;
         }
         
         .replacement-final {
@@ -485,6 +550,8 @@ function IpaTransformer({ text = "əˈbaʊt", nextText = "Ờ.bAu(-t)" }) {
           font-weight: bold;
           z-index: 4;
           line-height: 1;
+          will-change: opacity;
+          backface-visibility: hidden;
         }
         
         .next-text-display {
@@ -588,7 +655,7 @@ function IpaTransformer({ text = "əˈbaʊt", nextText = "Ờ.bAu(-t)" }) {
           
           .animation-area {
             padding: 30px 20px;
-            min-height: 160px;
+            min-height: 500px;
           }
           
           .character-cell {
@@ -696,7 +763,7 @@ function IpaTransformer({ text = "əˈbaʊt", nextText = "Ờ.bAu(-t)" }) {
           
           .animation-area {
             padding: 40px;
-            min-height: 200px;
+            min-height: 600px;
             border-radius: 12px;
             margin-bottom: 24px;
           }
@@ -799,43 +866,103 @@ function IpaTransformer({ text = "əˈbaʊt", nextText = "Ờ.bAu(-t)" }) {
             const processedChars = processTextWithIPA(segment.text);
 
             return (
-              <div key={segmentIndex} className="segment-wrapper">
-                <div
-                  style={{
-                    opacity:
-                      currentPhase >= 5
-                        ? Math.max(1 - (progress - 480) / 48, 0)
-                        : 1,
-                  }}
-                >
-                  <table className="character-table">
-                    <tbody>
-                      <tr>
-                        {processedChars.map((char, charIndex) =>
-                          renderCharacterCell(char, charIndex)
-                        )}
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
+              <div key={segmentIndex} style={{ width: "100%" }}>
+                {/* Phase 1: Original with yellow circles */}
+                {currentPhase >= 1 && (
+                  <div className="phase-display">
+                    <div className="phase-label">
+                      Phase 1: Đánh dấu ký tự IPA
+                    </div>
+                    <table className="character-table">
+                      <tbody>
+                        <tr>
+                          {processedChars.map((char, charIndex) =>
+                            renderCharacterCell(char, charIndex, 1)
+                          )}
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                )}
 
+                {/* Phase 2: Purple with replacement below */}
+                {currentPhase >= 2 && (
+                  <div className="phase-display">
+                    <div className="phase-label">
+                      Phase 2: Hiển thị ký tự thay thế
+                    </div>
+                    <table className="character-table">
+                      <tbody>
+                        <tr>
+                          {processedChars.map((char, charIndex) =>
+                            renderCharacterCell(char, charIndex, 2)
+                          )}
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                )}
+
+                {/* Phase 3: Red sliding up */}
+                {currentPhase >= 3 && (
+                  <div className="phase-display">
+                    <div className="phase-label">Phase 3: Trượt lên vị trí</div>
+                    <table className="character-table">
+                      <tbody>
+                        <tr>
+                          {processedChars.map((char, charIndex) =>
+                            renderCharacterCell(char, charIndex, 3)
+                          )}
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                )}
+
+                {/* Phase 4: Blue uppercase */}
+                {currentPhase >= 4 && (
+                  <div className="phase-display">
+                    <div className="phase-label">Phase 4: Chữ hoa kết quả</div>
+                    <table className="character-table">
+                      <tbody>
+                        <tr>
+                          {processedChars.map((char, charIndex) =>
+                            renderCharacterCell(char, charIndex, 4)
+                          )}
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                )}
+
+                {/* Phase 5: Final nextText */}
                 {currentPhase >= 5 && segment.nextText && (
-                  <div
-                    className="next-text-display"
-                    style={{
-                      opacity: Math.max((progress - 480) / 72, 0),
-                    }}
-                  >
-                    {highlightIPAChars(segment.nextText).map(
-                      (part, partIndex) => (
-                        <span
-                          key={partIndex}
-                          className={part.highlight ? "highlighted" : ""}
-                        >
-                          {part.text}
-                        </span>
-                      )
-                    )}
+                  <div className="phase-display">
+                    <div className="phase-label">
+                      Phase 5: Kết quả cuối cùng
+                    </div>
+                    <div
+                      style={{
+                        fontSize: "22px",
+                        fontWeight: "bold",
+                        textAlign: "center",
+                        opacity: Math.max((progress - 480) / 72, 0),
+                      }}
+                    >
+                      {highlightIPAChars(segment.nextText).map(
+                        (part, partIndex) => (
+                          <span
+                            key={partIndex}
+                            style={{
+                              color: part.highlight ? "#EF4444" : "#000000",
+                              fontWeight: "bold",
+                            }}
+                          >
+                            {part.text}
+                          </span>
+                        )
+                      )}
+                    </div>
                   </div>
                 )}
               </div>
