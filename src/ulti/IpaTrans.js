@@ -79,8 +79,10 @@ function IpaTransformer({ text = "əˈbaʊt", nextText = "Ờ.bAu(-t)" }) {
           } else if (next < 600) {
             setCurrentPhase(5);
           } else {
+            // Dừng animation nhưng giữ phase 5
             setIsPlaying(false);
-            return 0;
+            setCurrentPhase(5);
+            return 600; // Giữ progress ở 600
           }
 
           return next;
@@ -946,7 +948,10 @@ function IpaTransformer({ text = "əˈbaʊt", nextText = "Ờ.bAu(-t)" }) {
                         fontSize: "22px",
                         fontWeight: "bold",
                         textAlign: "center",
-                        opacity: Math.max((progress - 480) / 72, 0),
+                        opacity:
+                          currentPhase === 5 && progress < 600
+                            ? Math.min((progress - 480) / 72, 1)
+                            : 1,
                       }}
                     >
                       {highlightIPAChars(segment.nextText).map(
