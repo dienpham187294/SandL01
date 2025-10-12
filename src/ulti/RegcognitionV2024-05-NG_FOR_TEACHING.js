@@ -270,6 +270,7 @@ const Dictaphone = ({ CMDlist }) => {
       text: cmdApartChat + " | " + SimilarCheckSet,
       time:
         "KQTH_" + (nameDinhDanh || (idDinhDanh ? idDinhDanh.slice(0, 4) : "")),
+      group: localStorage.getItem("groupChat") || "all",
     });
     resetTranscript();
   }, [
