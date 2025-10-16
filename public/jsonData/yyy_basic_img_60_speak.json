@@ -1,0 +1,52 @@
+[
+  {
+    "audioCode": "EM60v01_F1a0",
+    "text": "John, What does he do?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  { "audioCode": "EM60v01_F1a1", "text": "Good", "lang": 101, "rate": 0.75 },
+  {
+    "audioCode": "EM60v01_F1a2",
+    "text": "John, What does he do?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  { "audioCode": "EM60v01_F1a3", "text": "Good", "lang": 102, "rate": 0.75 },
+  {
+    "audioCode": "EM60v01_F1a20",
+    "text": "David, What does he do?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a22",
+    "text": "David, What does he do?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a40",
+    "text": "Lisa, What does she do?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a42",
+    "text": "Lisa, What does she do?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a60",
+    "text": "Sarah, What does she do?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a62",
+    "text": "Sarah, What does she do?",
+    "lang": 102,
+    "rate": 0.75
+  }
+]
