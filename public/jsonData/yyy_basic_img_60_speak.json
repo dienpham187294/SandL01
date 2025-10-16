@@ -48,5 +48,749 @@
     "text": "Sarah, What does she do?",
     "lang": 102,
     "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a80",
+    "text": "David is painting a picture. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a82",
+    "text": "No, It is wrong.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a83",
+    "text": "David is kicking a soccer ball. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a85",
+    "text": "No, It is wrong.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a86",
+    "text": "David is writing on the blackboard. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a89",
+    "text": "David is building a sandcastle. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a92",
+    "text": "David is cooking at the stove. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a95",
+    "text": "David is choosing a book. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a98",
+    "text": "David is climbing the slide. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a101",
+    "text": "David is jogging around the fountain. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a104",
+    "text": "David is building toy blocks. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a107",
+    "text": "David is lighting the campfire. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a110",
+    "text": "John is watering the plants. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a113",
+    "text": "John is standing as a goalkeeper. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a116",
+    "text": "John is raising his hand. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a119",
+    "text": "John is collecting shells. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a122",
+    "text": "John is washing vegetables. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a125",
+    "text": "John is reading a comic book. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a128",
+    "text": "John is swinging high on a swing. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a131",
+    "text": "John is feeding pigeons. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a134",
+    "text": "John is playing with a toy car. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a137",
+    "text": "John is roasting marshmallows. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a140",
+    "text": "Sarah is reading a book. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a143",
+    "text": "Sarah is cheering near the field. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a146",
+    "text": "Sarah is sitting and smiling. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a149",
+    "text": "Sarah is flying a kite. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a152",
+    "text": "Sarah is mixing flour in a bowl. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a155",
+    "text": "Sarah is writing notes quietly. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a158",
+    "text": "Sarah is playing with a ball. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a161",
+    "text": "Sarah is sitting on a bench reading. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a164",
+    "text": "Sarah is drawing with crayons. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a167",
+    "text": "Sarah is holding a flashlight. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a170",
+    "text": "Lisa is feeding a cat. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a173",
+    "text": "Lisa is holding a water bottle. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a176",
+    "text": "Lisa is coloring her notebook. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a179",
+    "text": "Lisa is eating ice cream. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a182",
+    "text": "Lisa is setting the table. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a185",
+    "text": "Lisa is arranging books on a shelf. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a188",
+    "text": "Lisa is sitting on a bench eating ice cream. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a191",
+    "text": "Lisa is taking pictures with a small camera. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a194",
+    "text": "Lisa is cuddling a teddy bear. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a197",
+    "text": "Lisa is sitting near the tent drinking cocoa. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a200",
+    "text": "John is painting a picture. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a202",
+    "text": "Yes, It is right.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a203",
+    "text": "John is kicking a soccer ball. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a205",
+    "text": "Yes, It is right.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a206",
+    "text": "John is writing on the blackboard. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a209",
+    "text": "John is building a sandcastle. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a212",
+    "text": "John is cooking at the stove. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a215",
+    "text": "John is choosing a book. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a218",
+    "text": "John is climbing the slide. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a221",
+    "text": "John is jogging around the fountain. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a224",
+    "text": "John is building toy blocks. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a227",
+    "text": "John is lighting the campfire. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a230",
+    "text": "David is watering the plants. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a233",
+    "text": "David is standing as a goalkeeper. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a236",
+    "text": "David is raising his hand. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a239",
+    "text": "David is collecting shells. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a242",
+    "text": "David is washing vegetables. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a245",
+    "text": "David is reading a comic book. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a248",
+    "text": "David is swinging high on a swing. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a251",
+    "text": "David is feeding pigeons. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a254",
+    "text": "David is playing with a toy car. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a257",
+    "text": "David is roasting marshmallows. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a260",
+    "text": "Lisa is reading a book. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a263",
+    "text": "Lisa is cheering near the field. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a266",
+    "text": "Lisa is sitting and smiling. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a269",
+    "text": "Lisa is flying a kite. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a272",
+    "text": "Lisa is mixing flour in a bowl. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a275",
+    "text": "Lisa is writing notes quietly. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a278",
+    "text": "Lisa is playing with a ball. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a281",
+    "text": "Lisa is sitting on a bench reading. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a284",
+    "text": "Lisa is drawing with crayons. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a287",
+    "text": "Lisa is holding a flashlight. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a290",
+    "text": "Sarah is feeding a cat. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a293",
+    "text": "Sarah is holding a water bottle. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a296",
+    "text": "Sarah is coloring her notebook. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a299",
+    "text": "Sarah is eating ice cream. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a302",
+    "text": "Sarah is setting the table. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a305",
+    "text": "Sarah is arranging books on a shelf. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a308",
+    "text": "Sarah is sitting on a bench eating ice cream. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a311",
+    "text": "Sarah is taking pictures with a small camera. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a314",
+    "text": "Sarah is cuddling a teddy bear. Is it right?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a317",
+    "text": "Sarah is sitting near the tent drinking cocoa. Is it right?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a320",
+    "text": "John đang vẽ một bức tranh.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a322",
+    "text": "John đang đá bóng.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a324",
+    "text": "John đang viết lên bảng.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a326",
+    "text": "John đang xây lâu đài cát.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a328",
+    "text": "John đang nấu ăn trên bếp.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a330",
+    "text": "John đang chọn một cuốn sách.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a332",
+    "text": "John đang leo cầu trượt.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a334",
+    "text": "John đang chạy bộ quanh đài phun nước.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a336",
+    "text": "John đang xếp khối đồ chơi.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a338",
+    "text": "John đang nhóm lửa trại.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a340",
+    "text": "David đang tưới cây.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a342",
+    "text": "David đang đứng làm thủ môn.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a344",
+    "text": "David đang giơ tay.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a346",
+    "text": "David đang thu thập vỏ sò.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a348",
+    "text": "David đang rửa rau.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a350",
+    "text": "David đang đọc truyện tranh.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a352",
+    "text": "David đang đu đưa trên xích đu.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a354",
+    "text": "David đang cho chim bồ câu ăn.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a356",
+    "text": "David đang chơi ô tô đồ chơi.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a358",
+    "text": "David đang nướng kẹo dẻo.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a360",
+    "text": "Lisa đang đọc sách.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a362",
+    "text": "Lisa đang cổ vũ gần sân.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a364",
+    "text": "Lisa đang ngồi và mỉm cười.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a366",
+    "text": "Lisa đang thả diều.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a368",
+    "text": "Lisa đang trộn bột vào bát.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a370",
+    "text": "Lisa đang viết ghi chú trong im lặng.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a372",
+    "text": "Lisa đang chơi bóng.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a374",
+    "text": "Lisa đang ngồi trên ghế dài đọc sách.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a376",
+    "text": "Lisa đang vẽ bằng bút màu.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a378",
+    "text": "Lisa đang cầm đèn pin.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a380",
+    "text": "Sarah đang cho mèo ăn.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a382",
+    "text": "Sarah đang cầm một chai nước.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a384",
+    "text": "Sarah đang tô màu vở của mình.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a386",
+    "text": "Sarah đang ăn kem.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a388",
+    "text": "Sarah đang dọn bàn.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a390",
+    "text": "Sarah đang sắp xếp sách trên kệ.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a392",
+    "text": "Sarah đang ngồi trên ghế dài ăn kem.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a394",
+    "text": "Sarah đang chụp ảnh bằng máy ảnh nhỏ.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a396",
+    "text": "Sarah đang ôm một chú gấu bông.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "EM60v01_F1a398",
+    "text": "Sarah đang ngồi gần lều uống ca cao.",
+    "lang": 102,
+    "rate": 0.75
   }
 ]
