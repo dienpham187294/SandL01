@@ -1217,7 +1217,7 @@ function saveNumberWithDailyExpiry(key, value) {
   const now = new Date();
 
   // Thời gian hết hạn tính bằng mili giây
-  const expiry = now.getTime() + 5 * 60 * 1000;
+  const expiry = now.getTime() + 20 * 60 * 1000;
 
   const item = {
     value: value,

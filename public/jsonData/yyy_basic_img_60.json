@@ -100,7 +100,7 @@
         {
           "HD-01": "https://i.postimg.cc/L8wNBnrV/A4.png",
           "HD-02": "John is building a sandcastle.",
-          "HD-03": "David is collecting shells.",
+          "HD-03": "David is collecting seashells.",
           "HD-04": "Lisa is flying a kite.",
           "HD-05": "Sarah is eating ice cream."
         },
@@ -328,7 +328,7 @@
           "IPA-04": "ˈdeɪvɪd ɪz ˈreɪzɪŋ hɪz hænd."
         },
         {
-          "IPA-01": "David is collecting shells.",
+          "IPA-01": "David is collecting seashells.",
           "IPA-02": "David đang thu thập vỏ sò.",
           "IPA-03": "ˈdeɪvɪd ɪz kəˈlɛktɪŋ ʃɛlz.",
           "IPA-04": "ˈdeɪvɪd ɪz kəˈlɛktɪŋ ʃɛlz."
@@ -2251,7 +2251,7 @@
         "gender": "male",
         "data": [
           {
-            "qs": ["David is collecting shells."],
+            "qs": ["David is collecting seashells."],
             "aw": ["Good"],
             "submit": ["FN01"],
             "action": ["FN01"],
@@ -2778,7 +2778,7 @@
         "gender": "male",
         "data": [
           {
-            "qs": ["David is collecting shells."],
+            "qs": ["David is collecting seashells."],
             "aw": ["Good"],
             "submit": ["FN01"],
             "action": ["FN01"],
@@ -2955,7 +2955,7 @@
       {
         "type": "B4",
         "hint": "https://i.postimg.cc/L8wNBnrV/A4.png",
-        "fsp": "David is collecting shells. Is it right?",
+        "fsp": "David is collecting seashells. Is it right?",
         "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
         "name": "Michael",
         "gender": "male",
@@ -2977,7 +2977,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "David is collecting shells. Is it right?",
+            "st": "David is collecting seashells. Is it right?",
             "id": "EM60v01_F1a239"
           }
         ]
@@ -3981,7 +3981,7 @@
       {
         "type": "B4",
         "hint": "https://i.postimg.cc/L8wNBnrV/A4.png",
-        "fsp": "John is collecting shells. Is it right?",
+        "fsp": "John is collecting seashells. Is it right?",
         "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
         "name": "Michael",
         "gender": "male",
@@ -4003,7 +4003,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John is collecting shells. Is it right?",
+            "st": "John is collecting seashells. Is it right?",
             "id": "EM60v01_F1a119"
           }
         ]
