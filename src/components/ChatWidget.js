@@ -420,9 +420,13 @@ const ChatWidget = () => {
                     style={{ borderRadius: "6px", fontSize: "0.9rem" }}
                   />
                   <button
-                    className="btn btn-sm btn-chat-save text-white"
+                    className="btn btn-sm btn-chat-save text-blue"
                     onClick={saveUserName}
-                    style={{ borderRadius: "6px", fontSize: "0.8rem" }}
+                    style={{
+                      borderRadius: "6px",
+                      fontSize: "0.8rem",
+                      border: "1px solid green",
+                    }}
                   >
                     <i className="bi bi-check-lg"></i>
                   </button>
