@@ -116,7 +116,7 @@
           "HD-02": "John is choosing a book.",
           "HD-03": "David is reading a comic book.",
           "HD-04": "Lisa is writing notes quietly.",
-          "HD-05": "Sarah is arranging books on a shelf."
+          "HD-05": "Sarah is placing books on a shelf."
         },
         {
           "HD-01": "https://i.postimg.cc/Qx66C6mY/A7.png",
@@ -127,8 +127,8 @@
         },
         {
           "HD-01": "https://i.postimg.cc/vHPPTPhP/A8.png",
-          "HD-02": "John is jogging around the fountain.",
-          "HD-03": "David is feeding pigeons.",
+          "HD-02": "John is running slowly around the fountain.",
+          "HD-03": "David is giving food to the pigeons.",
           "HD-04": "Lisa is sitting on a bench reading.",
           "HD-05": "Sarah is taking pictures with a small camera."
         },
@@ -292,7 +292,7 @@
           "IPA-04": "ʤɑn ɪz ˈklaɪmɪŋ ðə slaɪd."
         },
         {
-          "IPA-01": "John is jogging around the fountain.",
+          "IPA-01": "John is running slowly around the fountain.",
           "IPA-02": "John đang chạy bộ quanh đài phun nước.",
           "IPA-03": "ʤɒn ɪz ˈʤɒɡɪŋ əˈraʊnd ðə ˈfaʊntɪn.",
           "IPA-04": "ʤɑn ɪz ˈʤɑɡɪŋ əˈraʊnd ðə ˈfaʊntən."
@@ -352,7 +352,7 @@
           "IPA-04": "ˈdeɪvɪd ɪz ˈswɪŋɪŋ haɪ ɑn ə swɪŋ."
         },
         {
-          "IPA-01": "David is feeding pigeons.",
+          "IPA-01": "David is giving food to the pigeons.",
           "IPA-02": "David đang cho chim bồ câu ăn.",
           "IPA-03": "ˈdeɪvɪd ɪz ˈfiːdɪŋ ˈpɪʤənz.",
           "IPA-04": "ˈdeɪvɪd ɪz ˈfidɪŋ ˈpɪʤənz."
@@ -460,7 +460,7 @@
           "IPA-04": "ˈsɛrə ɪz ˈsɛtɪŋ ðə ˈteɪbəl."
         },
         {
-          "IPA-01": "Sarah is arranging books on a shelf.",
+          "IPA-01": "Sarah is placing books on a shelf.",
           "IPA-02": "Sarah đang sắp xếp sách trên kệ.",
           "IPA-03": "ˈseərə ɪz əˈreɪnʤɪŋ bʊks ɒn ə ʃɛlf.",
           "IPA-04": "ˈsɛrə ɪz əˈreɪnʤɪŋ bʊks ɑn ə ʃɛlf."
@@ -501,7 +501,7 @@
         "gender": "male",
         "data": [
           {
-            "qs": ["Sarah is arranging books on a shelf."],
+            "qs": ["Sarah is placing books on a shelf."],
             "aw": ["Good"],
             "submit": ["FN01"],
             "action": ["FN01"],
@@ -571,7 +571,7 @@
         "gender": "male",
         "data": [
           {
-            "qs": ["John is jogging around the fountain."],
+            "qs": ["John is running slowly around the fountain."],
             "aw": ["Good"],
             "submit": ["FN01"],
             "action": ["FN01"],
@@ -614,7 +614,7 @@
       {
         "type": "B8",
         "hint": "https://i.postimg.cc/vHPPTPhP/A8.png",
-        "fsp": "John is jogging around the fountain. Is it right?",
+        "fsp": "John is running slowly around the fountain. Is it right?",
         "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
         "name": "Christopher",
         "gender": "male",
@@ -636,7 +636,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John is jogging around the fountain. Is it right?",
+            "st": "John is running slowly around the fountain. Is it right?",
             "id": "EM60v01_F1a221"
           }
         ]
@@ -915,7 +915,7 @@
         "gender": "male",
         "data": [
           {
-            "qs": ["David is feeding pigeons."],
+            "qs": ["David is giving food to the pigeons."],
             "aw": ["Good"],
             "submit": ["FN01"],
             "action": ["FN01"],
@@ -1121,7 +1121,7 @@
         "gender": "male",
         "data": [
           {
-            "qs": ["Sarah is arranging books on a shelf."],
+            "qs": ["Sarah is placing books on a shelf."],
             "aw": ["Good"],
             "submit": ["FN01"],
             "action": ["FN01"],
@@ -1336,7 +1336,7 @@
         "gender": "male",
         "data": [
           {
-            "qs": ["David is feeding pigeons."],
+            "qs": ["David is giving food to the pigeons."],
             "aw": ["Good"],
             "submit": ["FN01"],
             "action": ["FN01"],
@@ -1349,7 +1349,7 @@
       {
         "type": "B6",
         "hint": "https://i.postimg.cc/cHNh2P1s/A6.png",
-        "fsp": "Sarah is arranging books on a shelf. Is it right?",
+        "fsp": "Sarah is placing books on a shelf. Is it right?",
         "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
         "name": "Andrew",
         "gender": "male",
@@ -1371,7 +1371,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Sarah is arranging books on a shelf. Is it right?",
+            "st": "Sarah is placing books on a shelf. Is it right?",
             "id": "EM60v01_F1a305"
           }
         ]
@@ -1430,7 +1430,7 @@
       {
         "type": "B8",
         "hint": "https://i.postimg.cc/vHPPTPhP/A8.png",
-        "fsp": "David is feeding pigeons. Is it right?",
+        "fsp": "David is giving food to the pigeons. Is it right?",
         "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
         "name": "Christopher",
         "gender": "male",
@@ -1452,7 +1452,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "David is feeding pigeons. Is it right?",
+            "st": "David is giving food to the pigeons. Is it right?",
             "id": "EM60v01_F1a251"
           }
         ]
@@ -2918,7 +2918,7 @@
         "gender": "male",
         "data": [
           {
-            "qs": ["John is jogging around the fountain."],
+            "qs": ["John is running slowly around the fountain."],
             "aw": ["Good"],
             "submit": ["FN01"],
             "action": ["FN01"],
@@ -3471,7 +3471,7 @@
       {
         "type": "B8",
         "hint": "https://i.postimg.cc/vHPPTPhP/A8.png",
-        "fsp": "John is feeding pigeons. Is it right?",
+        "fsp": "John is giving food to the pigeons. Is it right?",
         "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
         "name": "Christopher",
         "gender": "male",
@@ -3493,7 +3493,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "John is feeding pigeons. Is it right?",
+            "st": "John is giving food to the pigeons. Is it right?",
             "id": "EM60v01_F1a131"
           }
         ]
@@ -3591,7 +3591,7 @@
       {
         "type": "B8",
         "hint": "https://i.postimg.cc/vHPPTPhP/A8.png",
-        "fsp": "David is jogging around the fountain. Is it right?",
+        "fsp": "David is running slowly around the fountain. Is it right?",
         "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
         "name": "Christopher",
         "gender": "male",
@@ -3613,7 +3613,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "David is jogging around the fountain. Is it right?",
+            "st": "David is running slowly around the fountain. Is it right?",
             "id": "EM60v01_F1a101"
           }
         ]
@@ -3801,7 +3801,7 @@
       {
         "type": "B6",
         "hint": "https://i.postimg.cc/cHNh2P1s/A6.png",
-        "fsp": "Lisa is arranging books on a shelf. Is it right?",
+        "fsp": "Lisa is placing books on a shelf. Is it right?",
         "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
         "name": "Andrew",
         "gender": "male",
@@ -3823,7 +3823,7 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Lisa is arranging books on a shelf. Is it right?",
+            "st": "Lisa is placing books on a shelf. Is it right?",
             "id": "EM60v01_F1a185"
           }
         ]
