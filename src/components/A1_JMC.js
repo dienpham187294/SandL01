@@ -10,8 +10,7 @@ import {
   Nav,
   Modal,
 } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap-icons/font/bootstrap-icons.css";
+
 
 const JointPharmaWebsite = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
