@@ -25,7 +25,7 @@ import PixiCanvas from "./components/prac_componets/inside_01_components/PixiJS"
 // import RootPrac from "./components/prac_componets/B1_RootPrac";
 import TTSStartButton from "./components/serverStart/serverStartTtsList";
 
-import JointPharmaWebsite from "./components/A1_JMC";
+// import JointPharmaWebsite from "./components/A1_JMC";
 const LinkAPI =
   window.location.hostname === "localhost"
     ? "http://localhost:5000"
@@ -137,7 +137,7 @@ const App = () => {
               <Route path="/game" element={<PixiCanvas />} />{" "}
               <Route path="/rhyming" element={<GHEPAM3000WORDS />} />{" "}
               <Route path="/ttslist" element={<TTSStartButton />} />
-              <Route path="/jmc" element={<JointPharmaWebsite />} />
+              {/* <Route path="/jmc" element={<JointPharmaWebsite />} /> */}
               <Route
                 path="*"
                 element={
