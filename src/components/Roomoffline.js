@@ -1024,18 +1024,31 @@ const Room = ({ setSttRoom }) => {
                     e.target.style.boxShadow = "0 8px 20px rgba(0,123,255,0.3)";
                   }}
                   onClick={() => {
-                    sendMessageToServer(
-                      "Vào thực hành! Lượt (" + numberBegin + ")",
-                      null,
-                      "group10"
-                    );
-                    if (numberBegin === 0) {
-                      setNumberBegin((D) => D + 1);
-                      setTimeout(() => {
+                    try {
+                      const paramNote = (
+                        params?.get("note") || ""
+                      ).toUpperCase();
+
+                      sendMessageToServer(
+                        "Vào thực hành! Lượt (" +
+                          (numberBegin ?? 0) +
+                          ") | " +
+                          (Score ?? 0) +
+                          "  | " +
+                          paramNote,
+                        null,
+                        "group10"
+                      );
+                      if (numberBegin === 0) {
+                        setNumberBegin((D) => D + 1);
+                        setTimeout(() => {
+                          setSttCoundown("02");
+                        }, 100);
+                      } else {
                         setSttCoundown("02");
-                      }, 100);
-                    } else {
-                      setSttCoundown("02");
+                      }
+                    } catch (error) {
+                      console.log("NÚT BẤM AVATAR THỰC HÀNH", error);
                     }
                   }}
                 ></button>
